@@ -22,7 +22,7 @@ Can you add more code to your player, so that they can move up, down, left and r
 		end
 	```
 
-	Notice that the new `if`{.blockcontrol}`touching color`{.blocksensing} block is _inside_ the `if`{.blockcontrol}`key [up arrow]`{.blocksensing} block.
+	Notice that the new `if` block.
 
 + Test this new code by moving below the wall - you shouldn't be able to move up into it.
 

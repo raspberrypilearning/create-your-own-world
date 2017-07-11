@@ -29,7 +29,7 @@ Let's add other people to your world that your player can interact with.
 
 	![screenshot](images/world-person-test.png)
 
-+ Have you noticed that your person flips upside-down. To stop this, click the sprite's information icon (`i`{.blockmotion}), and click the dot to fix to rotation style.
++ Have you noticed that your person flips upside-down. To stop this, click the sprite's information icon (`i`), and click the dot to fix to rotation style.
 
 	![screenshot](images/world-person-rotate.png)
 
