@@ -11,6 +11,7 @@ copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
 interests: ''
 technologies: scratch
+site_areas: codeclub, scratch
 steps:
 - title: Introduction
 - title: Coding your player
@@ -27,4 +28,3 @@ steps:
 - title: 'Challenge: More coins'
 - title: Doors and keys
 - title: 'Challenge: Create your own world'
-
