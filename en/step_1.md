@@ -9,7 +9,7 @@ In this project you'll learn how to create your own open world adventure game.
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](./print)
+If you need to print this project, please use the [Printer friendly version](./print).
 
 --- collapse ---
 ---
