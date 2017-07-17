@@ -13,7 +13,7 @@ If you need to print this project, please use the [Printer friendly version](./p
 
 --- collapse ---
 ---
-title: Volunteer notes
+title: Club leader notes
 ---
 
 
@@ -93,7 +93,7 @@ title: Project materials
 * [room3.png](resources/room3.png)
 * [sign.svg](resources/sign.svg)
 
-## Volunteer resources
+## Club leader resources
 * [Online completed Scratch 2 project](http://scratch.mit.edu/projects/34248822/#editor)
 * [Downloadable completed Scratch 2 project](resources/CreateYourOwnWorld.sb2)
 
