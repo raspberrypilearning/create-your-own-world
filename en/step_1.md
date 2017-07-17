@@ -25,7 +25,7 @@ For this project, Scratch 2 should be used. Scratch 2 can either be used online 
 
 The 'Project Materials' link for this project contains the following resources:
 
-##### Volunteer Resources
+##### Club leader Resources
 
 You can find a completed version of this project <a href="http://scratch.mit.edu/projects/34248822/#editor">online</a>, or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
 
