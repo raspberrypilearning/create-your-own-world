@@ -1,14 +1,14 @@
 ---
-title: Create Your Own World
 hero_image: images/banner.png
-description: Learn how to create your own open world adventure game.
-original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
 theme: red
 duration: 1
 listed: false
 ingredient: false
 copyedit: false
 curriculum: creator, design-0, programming-0, phys-comp-0, manufacture-0, community-0
+title: Create Your Own World
+description: Learn how to create your own open world adventure game.
+original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
 interests: ''
 technologies: scratch
 site_areas: codeclub, scratch

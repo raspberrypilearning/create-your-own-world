@@ -11,6 +11,7 @@ In this project you'll learn how to create your own open world adventure game.
 
 If you need to print this project, please use the [Printer friendly version](./print).
 
+
 --- collapse ---
 ---
 title: Club leader notes
