@@ -1,36 +1,38 @@
---- challenge ---
-## Challenge: Moving in all four directions
-Can you add more code to your player, so that they can move up, down, left and right. Use the code you already have to help you!
+## Coding your player
 
+Let's start by creating a player that can move around your world.
 
++ Open the 'Create Your Own World' Scratch project online at [http://jumpto.cc/world-go](http://jumpto.cc/world-go){:target="_blank"} or download from [http://jumpto.cc/world-get](http://jumpto.cc/world-get){:target="_blank"} and then open if you are using the offline editor.
 
-+ Test out your player again, and you'll see they have the ability to walk through the light grey walls.
+![screenshot](images/world-starter.png)
 
-	![screenshot](images/world-walls.png)
+Let's use the arrow keys to move the player around. When the player presses the up arrow, you want the player to move up, by changing its y coordinate.
 
-+ To fix this, you need to move the player, but then move them back if they're touching a light grey wall. Here's the code you'll need:
++ Add this code to the `player` sprite:
+
+```blocks
+	when flag clicked
+	forever
+		if <key [up arrow v] pressed? > then
+			change y by (2)
+		end
+	end
+```
+
++ Test out your player by clicking the flag and then holding down the up arrow. Does your player move up?
+
+	![screenshot](images/world-up.png)
+
++ To move the player to the left, you need to add another `if`{:class="blockcontrol"} block to your player, which changes the x coordinate:
 
 	```blocks
 		when flag clicked
 		forever
 			if <key [up arrow v] pressed? > then
 				change y by (2)
-				if < touching color [#BABABA]? > then
-					change y by (-2)
-				end
+			end
+			if <key [left arrow v] pressed? > then
+				change x by (-2)
 			end
 		end
 	```
-
-	Notice that the new `if` block.
-
-+ Test this new code by moving below the wall - you shouldn't be able to move up into it.
-
-	![screenshot](images/world-walls-test.png)
-
-+ Let's do the same for the left arrow, moving back if the player is touching a wall. This is how your player code should look so far:
-
-	![screenshot](images/world-wall-code.png)
-
-
---- /challenge ---

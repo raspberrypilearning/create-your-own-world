@@ -1,24 +1,47 @@
---- challenge ---
-## Challenge: Create your own world
-You can now continue creating your own world. Here are some ideas:
-
-+ Change the setting of your game, and your game graphics;
-+ Add sound and music to your game;
-+ Add more people, enemies, signs and coins;
-+ Add red and yellow doors, that need their own keys to open them;
-+ Add more rooms to your world;
-+ Add other useful items to your game;
-
-+ Use coins to get information from other people;
-
-	![screenshot](images/world-bribe.png)
-
-+ You could even add north and south doors, so that the player can move between rooms in all 4 directions. For example, if you had 9 rooms, you could think of them as being in a 3x3 grid. You can then add 3 to the room number to move down 1 level.
-
-	![screenshot](images/world-north-south.png)
+## Doors and keys
 
 
 
++ Edit the key sprite's costume so that it's blue. Right-click the key sprite and choose 'show' so that it appears on the stage. Switch your stage to backdrop 3, and place the key somewhere difficult to reach!
+
+ 	![screenshot](images/world-key.png)
+
++ Make sure that your key is only visible in room 3.
+
++ Create a new list variable called `inventory`{:class="blockdata"}. This will be where you store all of the items your player collects.
+
++ The code for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to your inventory.
+
+	```blocks
+		when flag clicked
+		wait until <touching [player v]?>
+		add [blue key] to [inventory v]
+		stop [other scripts in sprite v]
+		hide
+	```
+
++ Test out your key, to see if you can collect it, and add it to your inventory. Remember to add code to your stage to empty your inventory at the start.
+
+	```blocks
+		delete (all v) of [inventory v]
+	```
+
++ Place your blue door sprite across the gap in the two walls.
+
+	![screenshot](images/world-door.png)
+
++ Add code to your door, so that it is only visible in room 3.
+
++ You'll need to hide your blue door to allow your player to pass once you have the blue key in your inventory.
+
+	```blocks
+		when flag clicked
+		wait until <[inventory v] contains [blue key]>
+		stop [other scripts in sprite v]
+		hide
+	```
+
++ Test out your project, and see if you can collect the blue key to open the door!
 
 
---- /challenge ---
+

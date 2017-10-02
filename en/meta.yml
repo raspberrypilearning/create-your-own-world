@@ -13,6 +13,7 @@ technologies: scratch
 site_areas: codeclub, scratch
 steps:
 - title: Introduction
+- title: What you will need
 - title: Coding your player
 - title: 'Challenge: Moving in all four directions'
 - title: 'Challenge: Fixing your player''s movement'
