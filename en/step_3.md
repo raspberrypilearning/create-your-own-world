@@ -38,11 +38,21 @@ The player will use the arrow keys to move around. When the player presses the u
 	```
 
 --- challenge ---
-+ Can you add more code to your player, so that they can move up, down, left and right. Use the code you already have to help you!
++ Add more code to your player sprite so that they can move down and right as well. Use the code you already have to help you.
 
 --- hints ---
 --- hint ---
+To move up, you change y by 2 - this means you add on 2 to the y coordinate of the player. What would you have to do to the y coordinate to move the player down?
+--- /hint ---
+--- hint ---
+Here are the blocks you will need to be able to move down and right
 
+![Moving down and right hint](images/hint-move-down-right.png)
+--- /hint ---
+--- hint ---
+Here is how your code should look:
+
+![Moving down and right](images/finished-move-down-right.png)
 --- /hint ---
 --- /hints ---
 
