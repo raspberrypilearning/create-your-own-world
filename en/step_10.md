@@ -1,35 +1,23 @@
-## People
+--- challenge ---
+## Challenge: Improving your person
+Can you add code to your new person, so that they only appear in room 1? Make sure you test out your new code!
 
-Let's add other people to your world that your player can interact with.
+
+
++ You can also add in patrolling enemies, who end the game if the player touches them. Add in a new enemy sprite, and change the rotation style, just like you did with the 'person' sprite.
+
++ Add code to your enemy, so that they only appear in room 2.
+
++ You'll also need to add code to move the enemy, and to end the game if the enemy touches the player. It's easier to do this in separate code blocks. Here's how your enemy code should look:
+
+	![screenshot](images/world-enemy-code.png)
+
++ Test out your enemy, to make sure that:
+	+ It's only visible in room 2;
+	+ It patrols the room;
+	+ The game ends if the player touches it.
 
 
 
-+ Add this code to the person sprite, so that the person talks to your player. This code is very similar to the code you added to your sign:
 
-	```blocks
-		when flag clicked
-		go to x: (0) y: (-150)
-		forever
-			if < touching [player v]? > then
-				say [Did you know that you can go through orange and yellow doors?]
-			else
-				say []
-			end
-		end
-	```
-
-+ You could also allow your person to move, by using these two blocks:
-
-	```blocks
-		move (1) steps
-		if on edge, bounce
-	```
-
-	Your person will act differently, depending on whether you place this code inside the `forever`{:class="blockcontrol"} loop or the `if`{:class="blockcontrol"} block. Try both and see which you prefer.
-
-	![screenshot](images/world-person-test.png)
-
-+ Have you noticed that your person flips upside-down. To stop this, click the sprite's information icon (`i`), and click the dot to fix to rotation style.
-
-	![screenshot](images/world-person-rotate.png)
-
+--- /challenge ---

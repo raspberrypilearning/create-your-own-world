@@ -42,7 +42,9 @@ The player will use the arrow keys to move around. When the player presses the u
 
 --- hints ---
 --- hint ---
-To move up, you change y by 2 - this means you add on 2 to the y coordinate of the player. What would you have to do to the y coordinate to move the player down?
+To move up, you change y by 2. This means you add on 2 to the y coordinate of the player. What would you have to do to the y coordinate to move the player down?
+
+To move left, you change x by -2. This means you take away 2 from the x coordinate of the player. What would you have to do to the x coordinate to move the player right?
 --- /hint ---
 --- hint ---
 Here are the blocks you will need to be able to move down and right

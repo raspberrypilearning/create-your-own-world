@@ -1,45 +1,13 @@
-## Signs
+--- challenge ---
+## Challenge: Treasure!
+Right-click on the treasure chest sprite and choose 'show'. 
 
-Let's add signs to your world, to guide your player on their journey.
+Can you make the treasure chest sprite appear only in room 3 and say 'Well done!' when the player touches it.
 
 
-
-+ Your project includes a welcome sign sprite:
-
-	![screenshot](images/world-sign.png)
-
-+ This sign will only be visible in room 1, so let's add some code to the sign to make sure that this happens:
-
-	```blocks
-		when flag clicked
-		forever
-			if < (room) = [1] > then
-				show
-			else
-				hide
-			end
-		end
-	```
-
-+ Test your sign by moving between rooms. Your sign should only be visible in room 1.
-
-	![screenshot](images/world-sign-test.png)
-
-+ A sign isn't much good if it doesn't say anything! Let's add some more code (in another separate block) to display a message if the sign is touching the player:
-
-	```blocks
-		when flag clicked
-		forever
-			if < touching [player v]? > then
-				say [Welcome! Can you get to the treasure?]
-			else
-				say []
-			end
-		end
-	```
-+ Test out your sign, and you should see a message when the player touches it.
-
-	![screenshot](images/world-sign-test2.png)
+![screenshot](images/world-treasure.png)
 
 
 
+
+--- /challenge ---
