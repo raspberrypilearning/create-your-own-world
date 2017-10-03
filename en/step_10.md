@@ -1,10 +1,8 @@
 ## Collecting coins
 
-
-
 + Add a new variable valled `coins`{:class="blockdata"} to your project.
 
-+ Right-click on the 'coin' sprite and choose 'show'. 
++ Right-click on the 'coin' sprite and choose 'show'.
 
 ![screenshot](images/world-coins.png)
 
@@ -26,3 +24,8 @@
 
 + Test your project - collecting your coins should change your score to 1.
 
+--- challenge ---
+### Challenge: More coins
+Can you add more coins to your game? They can be in different rooms, and some coins could even be guarded by patrolling enemies.
+
+--- /challenge ---
