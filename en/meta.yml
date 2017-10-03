@@ -14,8 +14,8 @@ site_areas: codeclub, scratch
 steps:
 - title: Introduction
 - title: What you will need
-- title: Coding your player
-- title: 'Challenge: Moving in all four directions'
+- title: Moving the player
+- title: Solid walls
 - title: 'Challenge: Fixing your player''s movement'
 - title: Coding your world
 - title: 'Challenge: Moving to the previous room'

@@ -1,4 +1,4 @@
-## Coding your player
+## Moving the player
 
 Let's start by creating a player that can move around your world.
 
@@ -6,7 +6,7 @@ Let's start by creating a player that can move around your world.
 
 ![screenshot](images/world-starter.png)
 
-Let's use the arrow keys to move the player around. When the player presses the up arrow, you want the player to move up, by changing its y coordinate.
+The player will use the arrow keys to move around. When the player presses the up arrow, you want the player sprite to move up, by changing its y coordinate.
 
 + Add this code to the `player` sprite:
 
@@ -36,3 +36,14 @@ Let's use the arrow keys to move the player around. When the player presses the 
 			end
 		end
 	```
+
+--- challenge ---
++ Can you add more code to your player, so that they can move up, down, left and right. Use the code you already have to help you!
+
+--- hints ---
+--- hint ---
+
+--- /hint ---
+--- /hints ---
+
+--- /challenge ---

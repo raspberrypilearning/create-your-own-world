@@ -1,8 +1,4 @@
---- challenge ---
-## Challenge: Moving in all four directions
-Can you add more code to your player, so that they can move up, down, left and right. Use the code you already have to help you!
-
-
+## Solid walls
 
 + Test out your player again, and you'll see they have the ability to walk through the light grey walls.
 
@@ -31,6 +27,3 @@ Can you add more code to your player, so that they can move up, down, left and r
 + Let's do the same for the left arrow, moving back if the player is touching a wall. This is how your player code should look so far:
 
 	![screenshot](images/world-wall-code.png)
-
-
---- /challenge ---
