@@ -28,7 +28,6 @@ Notice the new `if`{:class="blockcontrol"} block.
 
 ![screenshot](images/world-wall-code.png)
 
---- challenge ---
 + Add code to your player sprite so that you can’t walk through walls in any direction. Use the code you already have to help you.
 
 --- hints ---
@@ -59,5 +58,3 @@ end
 
 --- /hint ---
 --- /hints ---
-
---- /challenge ---

@@ -37,7 +37,6 @@ The player will use the arrow keys to move around. When the player presses the u
 		end
 	```
 
---- challenge ---
 + Add more code to your player sprite so that they can move down and right as well. Use the code you already have to help you.
 
 --- hints ---
@@ -57,5 +56,3 @@ Here is how your code should look:
 ![Moving down and right](images/finished-move-down-right.png)
 --- /hint ---
 --- /hints ---
-
---- /challenge ---
