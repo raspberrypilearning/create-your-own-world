@@ -1,5 +1,7 @@
 ## Collecting coins
 
+As your player moves through the world, they can collect coins.
+
 + Add a new variable valled `coins`{:class="blockdata"} to your project.
 
 + Right-click on the 'coin' sprite and choose 'show'.

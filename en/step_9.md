@@ -1,7 +1,7 @@
 --- challenge ---
 ## Challenge: Add an enemy
 
-+ You could also add in patrolling enemies. If the player touches an enemy, the game ends.
+You could also add in patrolling enemies. If the player touches an enemy, the game ends.
 
 + Add code to the enemy sprite so that it only appears in room 2.
 
