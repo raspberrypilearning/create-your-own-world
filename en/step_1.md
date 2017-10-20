@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project you'll learn how to create your own open world adventure game.
+In this project you'll learn how to create your own adventure game with multiple rooms for the player to explore.
 
 ### What you will make
 

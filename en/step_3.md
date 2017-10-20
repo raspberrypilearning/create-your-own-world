@@ -14,7 +14,8 @@ The player will use the arrow keys to move around. When the player presses the u
 	when flag clicked
 	forever
 		if <key [up arrow v] pressed? > then
-			change y by (2)
+			point in direction (0)
+            move (4) steps
 		end
 	end
 ```
@@ -25,30 +26,38 @@ The player will use the arrow keys to move around. When the player presses the u
 
 + To move the player to the left, you need to add another `if`{:class="blockcontrol"} block to your player, which changes the x coordinate:
 
-	```blocks
-		when flag clicked
-		forever
-			if <key [up arrow v] pressed? > then
-				change y by (2)
-			end
-			if <key [left arrow v] pressed? > then
-				change x by (-2)
-			end
+```blocks
+	when flag clicked
+	forever
+		if <key [up arrow v] pressed? > then
+			point in direction (0)
+            move (4) steps
 		end
-	```
+        if <key [left arrow v] pressed? > then
+			point in direction (-90)
+            move (4) steps
+		end
+	end
+```
 
 + Add more code to your player sprite so that they can move down and right as well. Use the code you already have to help you.
 
 --- hints ---
 --- hint ---
-To move up, you change y by 2. This means you add on 2 to the y coordinate of the player. What would you have to do to the y coordinate to move the player down?
+To move up, you point in the direction 0 degrees. What would you have to do to move the player down?
 
-To move left, you change x by -2. This means you take away 2 from the x coordinate of the player. What would you have to do to the x coordinate to move the player right?
+To move left, you point in the direction -90 degrees. What would you have to do to move the player right?
 --- /hint ---
 --- hint ---
-Here are the blocks you will need to be able to move down and right
+You will need to change these two blocks:
+```blocks
+<key [ v] pressed>
+```
+```blocks
+point in direction ()
+```
 
-![Moving down and right hint](images/hint-move-down-right.png)
+Duplicate the code you have used to go up, but change these two blocks to make the character move down. Do the same for right.
 --- /hint ---
 --- hint ---
 Here is how your code should look:
