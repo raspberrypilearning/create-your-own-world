@@ -31,10 +31,6 @@ Your person will move, but will stop to talk to the player.
 
 ![screenshot](images/world-person-test.png)
 
-+ Have you noticed that your person flips upside-down. To stop this, click the sprite's information icon (`i`), and click the dot to fix the rotation style.
-
-![screenshot](images/world-person-rotate.png)
-
 
 --- challenge ---
 ### Improve the person
