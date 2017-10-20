@@ -6,7 +6,7 @@ Let's start by creating a player that can move around your world.
 
 ![screenshot](images/world-starter.png)
 
-The player will use the arrow keys to move around. When the player presses the up arrow, you want the player sprite to move up, by changing its y coordinate.
+The player will use the arrow keys to move around. When the player presses the up arrow, you want the player sprite to move up, by telling it which direction to go.
 
 + Add this code to the `player` sprite:
 
@@ -24,7 +24,7 @@ The player will use the arrow keys to move around. When the player presses the u
 
 	![screenshot](images/world-up.png)
 
-+ To move the player to the left, you need to add another `if`{:class="blockcontrol"} block to your player, which changes the x coordinate:
++ To move the player to the left, you need to add another `if`{:class="blockcontrol"} block to your player, which points in a different direction:
 
 ```blocks
 	when flag clicked
