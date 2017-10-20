@@ -12,8 +12,6 @@
 	end
 ```
 
-Notice the new `if`{:class="blockcontrol"} block.
-
 + Test this new code by moving below the wall - you shouldn't be able to move up into it.
 
 ![screenshot](images/world-walls-test.png)
