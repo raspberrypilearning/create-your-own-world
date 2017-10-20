@@ -20,14 +20,14 @@ Let's add other people to your world that your player can interact with.
 	end
 ```
 
-+ You could also allow your person to move, by using these two blocks:
++ You could also allow your person to move, by adding these two blocks in the `else`{:class="blockcontrol"} section of your code:
 
 ```blocks
-	move (1) steps
-	if on edge, bounce
+move (1) steps
+if on edge, bounce
 ```
 
-Your person will act differently, depending on whether you place this code inside the `forever`{:class="blockcontrol"} loop or the `if`{:class="blockcontrol"} block. Try both and see which you prefer.
+Your person will move, but will stop to talk to the player.
 
 ![screenshot](images/world-person-test.png)
 
