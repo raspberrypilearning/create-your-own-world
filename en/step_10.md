@@ -2,7 +2,7 @@
 
 As your `player` sprite moves through the world, they can collect coins.
 
-+ Add a new variable valled `coin`{:class="blockdata"} to your project.
++ Add a new variable valled `coins`{:class="blockdata"} to your project.
 
 + Right-click on the `coin` sprite and choose **show**.
 
@@ -10,7 +10,7 @@ As your `player` sprite moves through the world, they can collect coins.
 
 + Add code to your `coin` sprite so that it only appears in room 1.
 
-+ Add code to your `coin` sprite so that `1` is added to `coin`{:class="blockdata"} once it has been picked up:
++ Add code to your `coin` sprite so that `1` is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
 	```blocks
 		when flag clicked
@@ -22,9 +22,9 @@ As your `player` sprite moves through the world, they can collect coins.
 
 	The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
-+ You'll also need to add code to set your `coin`{:class="blockdata"} variable to `0` at the start of your game.
++ You'll also need to add code to set your `coins`{:class="blockdata"} variable to `0` at the start of your game.
 
-+ Test your project — collecting a coin should change your score to `1`.
++ Test your project — collecting a coin should change your `coins` score to `1`.
 
 --- challenge ---
 ### Challenge: more coins
