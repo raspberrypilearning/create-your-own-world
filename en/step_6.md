@@ -6,7 +6,7 @@ Let's add signs to your world to guide the player on their journey.
 
 ![screenshot](images/world-sign.png)
 
-+ The `sign` sprite should only be visible in room 1, so add some code to the `sign` sprite to make sure that this happens:
++ The `welcome sign` sprite should only be visible in room 1, so add some code to the `welcome sign` sprite to make sure that this happens:
 
 ```blocks
 	when flag clicked
@@ -19,11 +19,11 @@ Let's add signs to your world to guide the player on their journey.
 	end
 ```
 
-+ Test your `sign` sprite by moving between rooms. Your sign should only be visible in room 1.
++ Test your `welcome sign` sprite by moving between rooms. Your sign should only be visible in room 1.
 
 	![screenshot](images/world-sign-test.png)
 
-+ A `sign` sprite isn't much good if it doesn't say anything! Add some more code to display a message if the `sign` sprite is touching the `player` sprite:
++ A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
 
 ```blocks
 	when flag clicked
@@ -41,6 +41,6 @@ Let's add signs to your world to guide the player on their journey.
 	end
 ```
 
-+ Test out your `sign` sprite — you should now see a message when the `player` sprite touches it.
++ Test out your `welcome sign` sprite — you should now see a message when the `player` sprite touches it.
 
 ![screenshot](images/world-sign-test2.png)
