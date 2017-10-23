@@ -1,10 +1,10 @@
 ## Solid walls
 
-+ Test out your player again, and you'll see they have the ability to walk through the light grey walls.
++ Test out your character again, and you'll probably see that they have the ability to walk through the light grey walls.
 
 ![screenshot](images/world-walls.png)
 
-+ To fix this, you need to move the player, but then move them back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block, below the direction blocks:
++ To fix this, you should move the character back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
 
 ```blocks
 	if < touching color [#BABABA]? > then
@@ -12,6 +12,6 @@
 	end
 ```
 
-+ Test this new code by moving below the wall - you shouldn't be able to move up into it.
++ Test this new code: move the character below the wall, and then see whether you can move them up into it. If your code works, this shouldn't be possible.
 
 ![screenshot](images/world-walls-test.png)
