@@ -2,17 +2,17 @@
 
 What if some of the doors in your world are locked, and the player must find the key to progress?
 
-+ Switch to the key sprite. Right-click on it and choose 'show' so that it appears on the stage.
++ Switch to the `key` sprite. Right-click on it and choose **show** so that it appears on the stage.
 
-+ Edit the key sprite's costume so that it is blue.
++ Edit the `key` sprite's costume so that it is blue.
 
-+  Switch your stage backdrop to room 3, and place the key somewhere difficult to reach!
++  Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
  ![screenshot](images/world-key.png)
 
-+ Add some code to the key sprite to make sure that the key is only visible in room 3.
++ Add code to the `key` sprite to make sure that it is only visible in room 3.
 
-+ Create a new list variable called `inventory`{:class="blockdata"}. This will be where you store all of the items your player collects.
++ Create a new list variable called `inventory`{:class="blockdata"}. This will be where you store all of the items your `player` sprite collects.
 
 [[[generic-scratch-make-list]]]
 
@@ -26,19 +26,19 @@ What if some of the doors in your world are locked, and the player must find the
 	hide
 ```
 
-+ Test out your key, to see if you can collect it, and add it to your inventory. Remember to add code to your stage to empty your inventory at the start.
++ Test out your `key` sprite to see if you can collect it and add it to your inventory. Remember to add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks
 	delete (all v) of [inventory v]
 ```
 
-+ Now let's add the locked door. Right click on the blue door sprite and select 'show', then position the sprite across the gap in the two walls.
++ Now let's add the locked door. Right-click on the `door-blue` sprite and select **show**, then position the sprite across the gap in the two walls.
 
 ![screenshot](images/world-door.png)
 
-+ Add code to the blue door, so that it is only visible in room 3.
++ Add code to the `door-blue` sprite so that it is only visible in room 3.
 
-+ The blue door should hide to allow your player to pass once you have the blue key in your inventory.
++ The `door-blue` sprite should hide to allow your `player` sprite to pass once you have the blue key in your inventory.
 
 ```blocks
 	when flag clicked
