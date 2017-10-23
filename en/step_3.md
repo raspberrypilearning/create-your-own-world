@@ -6,7 +6,7 @@ Let's start by creating a player who can move around your world.
 
 ![screenshot](images/world-starter.png)
 
-The player will use the arrow keys to move around. When the player presses the up arrow, you need to tell the sprite to move up, so that it moves in the right direction.
+The player will use the arrow keys to move the player sprite around. When the player presses the up arrow, you need to tell the player sprite to move up, so that it moves in the right direction.
 
 + Add this code to the `player` sprite:
 
@@ -20,11 +20,11 @@ The player will use the arrow keys to move around. When the player presses the u
 	end
 ```
 
-+ Test out your player by clicking the flag and then holding down the up arrow. Does your player move up?
++ Test out your player by clicking the flag and then holding down the up arrow. Does your player sprite move up?
 
 	![screenshot](images/world-up.png)
 
-+ To move the player to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to your player:
++ To move the player sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to your player:
 
 ```blocks
 	when flag clicked
@@ -44,9 +44,9 @@ The player will use the arrow keys to move around. When the player presses the u
 
 --- hints ---
 --- hint ---
-To move up, you pointed the sprite into the direction `0` degrees. What would you have to do to move the player down?
+To move up, you pointed the player sprite into the direction `0` degrees. What would you have to do to move the sprite down?
 
-To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the player right?
+To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the sprite right?
 --- /hint ---
 --- hint ---
 You will need to change these two blocks:
@@ -57,7 +57,7 @@ You will need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code you have used to go up, but change these two blocks to make the character move down. Do the same for moving right.
+Duplicate the code you have used to go up, but change these two blocks to make the player sprite move down. Do the same for moving right.
 --- /hint ---
 --- hint ---
 Here is how your code should look:
