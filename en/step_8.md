@@ -1,6 +1,6 @@
 ## People
 
-Let's add other people to your world who your player can interact with.
+Let's add other people to your world who your `player` sprite can interact with.
 
 + Switch to the `person` sprite.
 
