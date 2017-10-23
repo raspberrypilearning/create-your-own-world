@@ -6,7 +6,7 @@ Your project contains backdrops for additional rooms:
 
 ![screenshot](images/world-backdrops.png)
 
-+ Create a new 'for all sprites' variable called `room`{:class="blockdata"}, to keep track of which room the player sprite is in.
++ Create a new 'for all sprites' variable called `room`{:class="blockdata"} to keep track of which room the player sprite is in.
 
 [[[generic-scratch-add-variable]]]
 
