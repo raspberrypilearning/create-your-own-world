@@ -1,9 +1,9 @@
 --- challenge ---
-## Challenge: Treasure!
+## Challenge: treasure!
 
 Can you add some treasure for the player to find?
 
-Can you make the treasure chest sprite appear only in room 3 and say 'Well done!' when the player touches it.
+Mke the `treasure chest` sprite appear only in room 3, and have it say 'Well done!' when the player sprite touches it.
 
 ![screenshot](images/world-treasure.png)
 
