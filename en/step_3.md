@@ -1,12 +1,12 @@
 ## Moving the player
 
-Let's start by creating a player that can move around your world.
+Let's start by creating a player who can move around your world.
 
-+ Open the 'Create Your Own World' Scratch project online at [http://jumpto.cc/world-go](http://jumpto.cc/world-go){:target="_blank"} or download from [http://jumpto.cc/world-get](http://jumpto.cc/world-get){:target="_blank"} and then open if you are using the offline editor.  
++ If you're using Scratch online, open the 'Create your own world' Scratch project at [http://jumpto.cc/world-go](http://jumpto.cc/world-go){:target="_blank"}. If you are using Scratch offline, download the project [here](http://jumpto.cc/world-get){:target="_blank"}, and then open it using the offline editor.  
 
 ![screenshot](images/world-starter.png)
 
-The player will use the arrow keys to move around. When the player presses the up arrow, you want the player sprite to move up, by telling it which direction to go.
+The player will use the arrow keys to move around. When the player presses the up arrow, you need to tell the sprite to move up, so that it moves in the right direction.
 
 + Add this code to the `player` sprite:
 
@@ -24,7 +24,7 @@ The player will use the arrow keys to move around. When the player presses the u
 
 	![screenshot](images/world-up.png)
 
-+ To move the player to the left, you need to add another `if`{:class="blockcontrol"} block to your player, which points in a different direction:
++ To move the player to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to your player:
 
 ```blocks
 	when flag clicked
@@ -44,9 +44,9 @@ The player will use the arrow keys to move around. When the player presses the u
 
 --- hints ---
 --- hint ---
-To move up, you point in the direction 0 degrees. What would you have to do to move the player down?
+To move up, you pointed the sprite into the direction `0` degrees. What would you have to do to move the player down?
 
-To move left, you point in the direction -90 degrees. What would you have to do to move the player right?
+To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the player right?
 --- /hint ---
 --- hint ---
 You will need to change these two blocks:
@@ -57,7 +57,7 @@ You will need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code you have used to go up, but change these two blocks to make the character move down. Do the same for right.
+Duplicate the code you have used to go up, but change these two blocks to make the character move down. Do the same for moving right.
 --- /hint ---
 --- hint ---
 Here is how your code should look:
