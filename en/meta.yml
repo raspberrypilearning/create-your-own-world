@@ -1,6 +1,6 @@
 hero_image: images/create-your-own-world.png
-title: Create Your Own World
-description: Learn how to create your own open world adventure game.
+title: Create your own world
+description: Learn how to create your own open-world adventure game.
 original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
 theme: orange
 duration: 2
@@ -14,7 +14,7 @@ site_areas: codeclub, scratch
 steps:
 - title: Introduction
 - title: What you will need
-- title: Moving the player
+- title: Moving the player sprite
 - title: Solid walls
 - title: Coding your world
 - title: Signs
@@ -23,4 +23,4 @@ steps:
 - title: 'Challenge: enemies'
 - title: Collecting coins
 - title: Doors and keys
-- title: 'Challenge: create your own world'
+- title: 'Challenge: extend your world'
