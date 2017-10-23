@@ -1,8 +1,8 @@
 ## Signs
 
-Let's add signs to your world, to guide the player on their journey.
+Let's add signs to your world to guide the player on their journey.
 
-+ Your project includes a welcome sign sprite:
++ Your project includes a `welcome sign` sprite:
 
 ![screenshot](images/world-sign.png)
 
@@ -23,7 +23,7 @@ Let's add signs to your world, to guide the player on their journey.
 
 	![screenshot](images/world-sign-test.png)
 
-+ A sign isn't much good if it doesn't say anything! Add some more code to display a message if the sign is touching the player:
++ A sign isn't much good if it doesn't say anything! Add some more code to display a message if the sign is touching the player sprite:
 
 ```blocks
 	when flag clicked
@@ -41,6 +41,6 @@ Let's add signs to your world, to guide the player on their journey.
 	end
 ```
 
-+ Test out your sign, and you should see a message when the player touches it.
++ Test out your sign — you should now see a message when the player sprite touches it.
 
 ![screenshot](images/world-sign-test2.png)
