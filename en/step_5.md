@@ -1,28 +1,28 @@
 ## Coding your world
 
-Let's allow the player to walk through doors into other rooms!
+Let's allow the `player` sprite to walk through doors into other rooms.
 
+Your project contains backdrops for additional rooms:
 
+![screenshot](images/world-backdrops.png)
 
-+ Your project contains backdrops for additional rooms:
++ Create a new 'for all sprites' variable called `room`{:class="blockdata"} to keep track of which room the `player` sprite is in.
 
-	![screenshot](images/world-backdrops.png)
+[[[generic-scratch-add-variable]]]
 
-+ You'll need a new 'for all sprites' variable called `room`{:class="blockdata"}, to keep track of what room the player is in. 
+![screenshot](images/world-room.png)
 
-	![screenshot](images/world-room.png)
++ When the `player` sprite touches the orange door in the first room, the next backdrop should be displayed, and the `player` sprite should move back to the left side of the stage. Add this code inside the `player` sprite's `forever`{:class="blockcontrol"} loop:
 
-+ When the player touches the orange door in the first room, the next backdrop should be displayed, and the player should move back to the left side of the stage. Here's the code you'll need - it should go inside the player's `forever`{:class="blockcontrol"} loop:
+```blocks
+	if < touching color [#F2A24A] > then
+		switch backdrop to [next backdrop v]
+		go to x: (-200) y: (0)
+		change [room v] by (1)
+	end
+```
 
-	```blocks
-		if < touching color [#F2A24A] > then
-			switch backdrop to [next backdrop v]
-			go to x: (-200) y: (0)
-			change [room v] by (1)
-		end
-	```
-
-+ Add this code to the _start_ of your player code (before the `forever`{:class="blockcontrol"} loop) to make sure that everything is reset when the flag is clicked:
++ Add this code to the **start** of your `player` sprite code (above the `forever`{:class="blockcontrol"} loop) to make sure that everything is reset when the flag is clicked:
 
 	```blocks
 		set [room v] to (1)
@@ -30,7 +30,13 @@ Let's allow the player to walk through doors into other rooms!
 		switch backdrop to [room1 v]
 	```
 
-+ Click the flag and move your player over the orange door. Does your player move to the next screen? Does the `room`{:class="blockdata"} variable change to 2?
++ Click the flag and move your `player` sprite over the orange door. Does your sprite move to the next screen? Does the `room`{:class="blockdata"} variable change to `2`?
 
-	![screenshot](images/world-room-test.png)
+![screenshot](images/world-room-test.png)
 
+--- challenge ---
+### Challenge: moving to the previous room
+
++ Can you make your `player` sprite move to the previous room when they touch a yellow door? The code you need for this is very similar to the code you've already added for moving to the next room.
+
+--- /challenge ---

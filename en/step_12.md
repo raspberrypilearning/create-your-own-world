@@ -1,28 +1,20 @@
-## Collecting coins
+--- challenge ---
+## Challenge: extend your world
+You can now continue creating your own world! Here are some ideas:
 
++ Change the setting of your game, and change your game graphics
++ Add sound and music to your game
++ Add more people, enemies, signs, and coins
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
 
++ Use coins to get information from other people:
 
-+ Add a new variable valled `coins`{:class="blockdata"} to your project.
+![screenshot](images/world-bribe.png)
 
-+ Right-click on the 'coin' sprite and choose 'show'. 
++ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, if you had nine rooms, you could think of them as being in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
-![screenshot](images/world-coins.png)
+![screenshot](images/world-north-south.png)
 
-+ Add code to your coin, so that it only appears in room 1.
-
-+ Add code to your coin sprite, to add 1 to your `coins`{:class="blockdata"} once they've been picked up:
-
-	```blocks
-		when flag clicked
-		wait until <touching [player v]?>
-		change [coins v] by (1)
-		stop [other scripts in sprite v]
-		hide
-	```
-
-	The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the coin stops being displayed in room 1 once it's been collected.
-
-+ You'll also need to add code to set your `coins`{:class="blockdata"} variable to 0 at the start of your game.
-
-+ Test your project - collecting your coins should change your score to 1.
-
+--- /challenge ---

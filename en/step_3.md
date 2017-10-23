@@ -1,36 +1,67 @@
---- challenge ---
-## Challenge: Moving in all four directions
-Can you add more code to your player, so that they can move up, down, left and right. Use the code you already have to help you!
+## Moving the `player` sprite
 
+Let's start by creating a `player` sprite that can move around your world.
 
++ If you're using Scratch online, open the 'Create your own world' Scratch project at [http://jumpto.cc/world-go](http://jumpto.cc/world-go){:target="_blank"}. If you are using Scratch offline, download the project [here](http://jumpto.cc/world-get){:target="_blank"}, and then open it using the offline editor.  
 
-+ Test out your player again, and you'll see they have the ability to walk through the light grey walls.
+![screenshot](images/world-starter.png)
 
-	![screenshot](images/world-walls.png)
+The person playing the game will use the arrow keys to move the `player` sprite around. When the person presses the up arrow, you need to tell the `player` sprite to move up in response, so that it moves in the right direction.
 
-+ To fix this, you need to move the player, but then move them back if they're touching a light grey wall. Here's the code you'll need:
++ Add this code to the `player` sprite:
 
-	```blocks
-		when flag clicked
-		forever
-			if <key [up arrow v] pressed? > then
-				change y by (2)
-				if < touching color [#BABABA]? > then
-					change y by (-2)
-				end
-			end
+```blocks
+	when flag clicked
+	forever
+		if <key [up arrow v] pressed? > then
+			point in direction (0)
+            move (4) steps
 		end
-	```
+	end
+```
 
-	Notice that the new `if` block.
++ Test out your `player` sprite by clicking the flag and then holding down the up arrow. Does your `player` sprite move up?
 
-+ Test this new code by moving below the wall - you shouldn't be able to move up into it.
+	![screenshot](images/world-up.png)
 
-	![screenshot](images/world-walls-test.png)
++ To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to it:
 
-+ Let's do the same for the left arrow, moving back if the player is touching a wall. This is how your player code should look so far:
+```blocks
+	when flag clicked
+	forever
+		if <key [up arrow v] pressed? > then
+			point in direction (0)
+            move (4) steps
+		end
+        if <key [left arrow v] pressed? > then
+			point in direction (-90)
+            move (4) steps
+		end
+	end
+```
 
-	![screenshot](images/world-wall-code.png)
++ Add more code to your `player` sprite so that they can move down and right as well. Use the code you already have to help you.
 
+--- hints ---
+--- hint ---
+To move up, you pointed the `player` sprite into the direction `0` degrees. What would you have to do to move the sprite down?
 
---- /challenge ---
+To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the sprite right?
+--- /hint ---
+--- hint ---
+You will need to change these two blocks:
+```blocks
+<key [ v] pressed>
+```
+```blocks
+point in direction ()
+```
+
+Duplicate the code you have used to go up, but change these two blocks to make the `player` sprite move down. Do the same for moving right.
+--- /hint ---
+--- hint ---
+Here is how your code should look:
+
+![Moving down and right](images/finished-move-down-right.png)
+--- /hint ---
+--- /hints ---

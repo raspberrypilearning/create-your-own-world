@@ -1,23 +1,33 @@
+## Collecting coins
+
+As your `player` sprite moves through the world, they can collect coins.
+
++ Add a new variable valled `coins`{:class="blockdata"} to your project.
+
++ Right-click on the `coin` sprite and choose **show**.
+
+![screenshot](images/world-coins.png)
+
++ Add code to your `coin` sprite so that it only appears in room 1.
+
++ Add code to your `coin` sprite so that `1` is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+
+	```blocks
+		when flag clicked
+		wait until <touching [player v]?>
+		change [coins v] by (1)
+		stop [other scripts in sprite v]
+		hide
+	```
+
+	The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+
++ You'll also need to add code to set your `coins`{:class="blockdata"} variable to `0` at the start of your game.
+
++ Test your project — collecting a coin should change your `coins` score to `1`.
+
 --- challenge ---
-## Challenge: Improving your person
-Can you add code to your new person, so that they only appear in room 1? Make sure you test out your new code!
-
-
-
-+ You can also add in patrolling enemies, who end the game if the player touches them. Add in a new enemy sprite, and change the rotation style, just like you did with the 'person' sprite.
-
-+ Add code to your enemy, so that they only appear in room 2.
-
-+ You'll also need to add code to move the enemy, and to end the game if the enemy touches the player. It's easier to do this in separate code blocks. Here's how your enemy code should look:
-
-	![screenshot](images/world-enemy-code.png)
-
-+ Test out your enemy, to make sure that:
-	+ It's only visible in room 2;
-	+ It patrols the room;
-	+ The game ends if the player touches it.
-
-
-
+### Challenge: more coins
+Can you add more coins to your game? They can be in different rooms, and some coins could even be guarded by patrolling enemies!
 
 --- /challenge ---
