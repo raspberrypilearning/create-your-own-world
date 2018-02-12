@@ -1,4 +1,4 @@
-## Introduction
+## Introducción
 
 In this project, you'll learn how to create your own adventure game with multiple rooms for the player to explore.
 
