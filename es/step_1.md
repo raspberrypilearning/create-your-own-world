@@ -1,10 +1,10 @@
-## Introducción
+## Introduction
 
-En este proyecto, aprenderás a crear tu propio juego de aventura el cual contará con múltiples cuartos que el jugador podrá explorar.
+In this project, you'll learn how to create your own adventure game with multiple rooms for the player to explore.
 
-### Lo que se creará
+### What you will make
 
-Haz clic en la bandera verde para comenzar. Usa la teclas de dirección para mover a tu personaje alrededor del mundo.
+Haz clic en la bandera verde para comenzar. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
