@@ -4,7 +4,7 @@ In this project, you'll learn how to create your own adventure game with multipl
 
 ### What you will make
 
-Haz clic en la bandera verde para comenzar. Use the arrow keys to move your character around in the world.
+Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
