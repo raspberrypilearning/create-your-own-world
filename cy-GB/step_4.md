@@ -42,7 +42,7 @@ Fe awn ati i ychwanegu arwyddion i dy fydysawd, i fod o gymorth i'r chwareuwr ar
 
 --- challenge ---
 
-## Her: Trysor! {.challenge}
+## Her: Trysor! 
 Gwna clic-dde ar giplun y gist drysor a dewis 'dangos'.
 
 Wyt ti'n gallu gwneud i dy gist drysor ymddangos ond yn ystafell 3 a dweud 'Da iawn!' pan mae'r chwareuwr yn ei gyffwrdd?
