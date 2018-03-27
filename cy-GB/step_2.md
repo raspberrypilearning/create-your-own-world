@@ -22,7 +22,7 @@ Fe awn ati i greu chwareuwr sydd yn symud o gwmpas dy fydysawd.
 
 	![screenshot](images/world-up.png)
 
-+ I symud dy chwareuwr i'r chwith, rwyt ti angen ychwaneg bloc 'os' {.blockcontrol} arall i dy chwareuwr sydd yn newid cyfeirnod x:
++ I symud dy chwareuwr i'r chwith, rwyt ti angen ychwaneg bloc `os`{:class="blockcontrol"} arall i dy chwareuwr sydd yn newid cyfeirnod x:
 
 	```blocks
 		pan fo ⚑ wedi ei glicio
@@ -37,7 +37,7 @@ Fe awn ati i greu chwareuwr sydd yn symud o gwmpas dy fydysawd.
 	```
 --- challenge ---
 
-## Her: Symud i bedwar cyfeiriad {.challenge}
+## Her: Symud i bedwar cyfeiriad
 Alli di ychwanegu mwy o gôd i dy chwareuwr fel ei fod yn symud fyny, lawr, chwith a dde. Defnyddia'r côd sydd gen ti yn barod i dy helpu!
 
 + Profa dy chwareuwr eto, ac fe weli di fod ganddo'r gallu i gerdded trwy'r wal llwyd.
@@ -58,7 +58,7 @@ Alli di ychwanegu mwy o gôd i dy chwareuwr fel ei fod yn symud fyny, lawr, chwi
 		end
 	```
 
-	Sylwa fod y bloc newydd 'os' {.blockcontrol}'cyffwrdd lliw'{.blocksensing} _tu fewn_ y bloc 'os'{.blockcontrol}'bysell [saeth i fyny]'{.blocksensing}.
+	Sylwa fod y bloc newydd `os`{:class="blockcontrol"}`cyffwrdd lliw`{:class="blocksensing"} _tu fewn_ y bloc `os`{:class="blockcontrol"}`bysell [saeth i fyny]`{:class="blocksensing"}.
 
 + Profa'r côd newydd yma trwy symud o dan y wal - ni ddyle ti allu symud drosto.
 
