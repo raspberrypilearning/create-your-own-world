@@ -23,11 +23,11 @@ Fe awn ati i ychwanegu pobl arall i dy fyd.
 		os ar ymyl, bowndio
 	```
 
-	Bydd dy berson yn bihafio yn wahanol yn dibynnu os wyt ti'n gosod y côd yma o fewn y ddolen 'am byth' {.blockcontrol} neu o fewn y bloc 'os' {.blockcontrol}. Tria'r ddau a gweld pa un rwyt ti'n hoffi orau.
+	Bydd dy berson yn bihafio yn wahanol yn dibynnu os wyt ti'n gosod y côd yma o fewn y ddolen `am byth`{:class="blockcontrol"} neu o fewn y bloc `os`{:class="blockcontrol"}. Tria'r ddau a gweld pa un rwyt ti'n hoffi orau.
 
 	![screenshot](images/world-person-test.png)
 
-+ Wyt ti wedi sylwi bod dy berson yn troi ben i waered? I stopio hyn, clicia eicon gwybdoaeth y ciplun (`i`{.blockmotion}), a clicia'r dot i ddatrys steil y cylchdroi.
++ Wyt ti wedi sylwi bod dy berson yn troi ben i waered? I stopio hyn, clicia eicon gwybdoaeth y ciplun (`i`{:class="blockmotion"}), a clicia'r dot i ddatrys steil y cylchdroi.
 
 	![screenshot](images/world-person-rotate.png)
 
@@ -54,7 +54,7 @@ Wyt ti'n gallu ychwanegu côd i dy berson newydd fel ei fod ond yn ymddangos yn 
 
 --- challenge ---
 
-## Her: Mwy o elynion {.challenge}
+## Her: Mwy o elynion
 Wyt ti'n gallu creu gelyn arall yn ystafell 3, sydd yn symud fyny a lawr trwy'r gap yn y wal?
 
 ![screenshot](images/world-enemy2.png)
