@@ -6,7 +6,7 @@
 
 + Gwna'n siwr fod dy allwedd ond yn ymddangos yn ystafell 3.
 
-+ Bydd angen creu rhestr newidyn newydd o'r enw 'wedi casglu' {.blockdata}. Dyma lle fyddi di'n cadw'r holl eitemau bydd dy chwareuwr yn eu casglu.
++ Bydd angen creu rhestr newidyn newydd o'r enw `wedi casglu`{:class="blockdata"}. Dyma lle fyddi di'n cadw'r holl eitemau bydd dy chwareuwr yn eu casglu.
 
 + Mae'r côd ar gyfer casglu'r allwedd yn debyg iawn i'r côd ar gyfer casglu'r darnau arian. Y gwahaniaeth yw fod yr allwedd yn dy restr o bethau wedi eu casglu.
 
@@ -44,7 +44,7 @@
 
 --- challenge ---
 
-## Her: Creu dy fydysawd {.challenge}
+## Her: Creu dy fydysawd 
 Alli di nawr barhau i greu dy fyd dy hunan. Dyma rai syniadau:
 
 + Newid gosodiadau'r gêm, a graffeg y gêm;
