@@ -35,6 +35,7 @@ Fe awn ati i greu chwareuwr sydd yn symud o gwmpas dy fydysawd.
    			end
 		end
 	```
+
 --- challenge ---
 
 ## Her: Symud i bedwar cyfeiriad
