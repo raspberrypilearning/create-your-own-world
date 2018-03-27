@@ -1,6 +1,6 @@
 ## Casglu darnau arian
 
-+ Ychwanega newidyn newydd o'r enw 'arian' {.blockdata} i dy brosiect.
++ Ychwanega newidyn newydd o'r enw `arian`{:class="blockdata"} i dy brosiect.
 
 + Gwna clic-dde ar giplun 'darn arian' ('coin') a dewis 'dangos'.
 
@@ -8,7 +8,7 @@
 
 + Ychwanega côd i dy ddarn arian, fel ei fod ond yn ymddangos yn ystafell 1.
 
-+ Ychwanega gôd i giplun dy ddarn arian, i ychwanegu 1 i dy 'arian' {.blockdata} unwaith maent yn cael eu casglu:
++ Ychwanega gôd i giplun dy ddarn arian, i ychwanegu 1 i dy `arian`{:class="blockdata"} unwaith maent yn cael eu casglu:
 
 	```blocks
 		pan fo ⚑ wedi ei glicio
@@ -18,9 +18,9 @@
 		cuddio
 	```
 
-	Mae angen y côd 'stopiwch sgriptiau eraill yn y ciplun' {.blockcontrol} fel bod y darn arian yn stopio ymddangos yn ystafell 1 unwaith mae'n cael ei gasglu.
+	Mae angen y côd `stopiwch sgriptiau eraill yn y ciplun`{:class="blockcontrol"} fel bod y darn arian yn stopio ymddangos yn ystafell 1 unwaith mae'n cael ei gasglu.
 
-+ Bydd hefyd angen i ti ychwanegu côd fel bod newidyn dy 'arian' {.blockdata} yn cael ei osod i 0 ar ddechrau dy gêm.
++ Bydd hefyd angen i ti ychwanegu côd fel bod newidyn dy `arian`{:class="blockdata"} yn cael ei osod i 0 ar ddechrau dy gêm.
 
 + Profa dy brosiect - fe ddylai casglu dy ddarn arian newid dy sgôr i 1.
 
