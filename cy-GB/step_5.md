@@ -34,7 +34,7 @@ Fe awn ati i ychwanegu pobl arall i dy fyd.
 --- challenge ---
 
 	
-## Her: Gwella dy berson {.challenge}
+## Her: Gwella dy berson
 Wyt ti'n gallu ychwanegu côd i dy berson newydd fel ei fod ond yn ymddangos yn ystafell 1? Gwna'n siwr dy fod di'n profi dy gôd newydd!
 
 + Fe alli di hefyd ychwanegu gelynion sydd yn dod â'r gêm i ben os yw'r chwareuwr yn eu cyffwrdd.  Ychwanega ciplun gelyn, a newida steil y cylchdroi, yn union fel wnes di gyda'r ciplun 'person'.
