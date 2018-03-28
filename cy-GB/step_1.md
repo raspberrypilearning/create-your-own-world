@@ -61,4 +61,4 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Mwy o elynion" - ychwanegu gwrthrychau sy'n symud ac yn gallu gorffen y gêm;
 + "Creu dy fydysawd" - tasg sydd yn cyfuno'r sgiliau sy'n agored i nifer o bosibiliadau.
 
---- collapse ---
+--- /collapse ---
