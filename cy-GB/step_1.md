@@ -7,6 +7,11 @@ Yn y prosiect yma fe fyddi di'n dysgu sut i greu dy gêm antur dy hunan yn dy fy
   <img src="images/world-final.png">
 </div>
 
+--- collapse ---
+---
+title: Nodiadau i Wirfoddolwyr
+---
+
 ## Adnoddau
 Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
 
@@ -55,3 +60,5 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Gwella dy berson" - cyfuno ychwanegu gwrthrychau i'r byd;
 + "Mwy o elynion" - ychwanegu gwrthrychau sy'n symud ac yn gallu gorffen y gêm;
 + "Creu dy fydysawd" - tasg sydd yn cyfuno'r sgiliau sy'n agored i nifer o bosibiliadau.
+
+--- collapse ---
