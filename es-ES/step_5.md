@@ -27,11 +27,11 @@ Vamos a añadir a otras personas a tu mundo con las que tu jugador pueda interac
 		rebotar si toca un borde
 	```
 
-	La persona se comportará diferente dependiendo de si añades este código dentro del bucle `para siempre`{:class:"blockcontrol"} o en el bloque `si`{:class:"blockcontrol"}. Prueba los dos y decide cuál prefieres.
+	La persona se comportará diferente dependiendo de si añades este código dentro del bucle `para siempre`{:class="blockcontrol"} o en el bloque `si`{:class="blockcontrol"}. Prueba los dos y decide cuál prefieres.
 
 	![screenshot](images/world-person-test.png)
 
-+ ¿Te has dado cuenta de que la persona se da la vuelta cuando rebota? Para que deje de hacer esto, presiona el icono de información del objeto (`i`{.:class:"blockmotion"}), y haz clic en el punto para fijar el estilo de rotación.
++ ¿Te has dado cuenta de que la persona se da la vuelta cuando rebota? Para que deje de hacer esto, presiona el icono de información del objeto (`i`{:class="blockmotion"}), y haz clic en el punto para fijar el estilo de rotación.
 
 	![screenshot](images/world-person-rotate.png)
 
