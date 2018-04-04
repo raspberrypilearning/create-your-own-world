@@ -11,8 +11,8 @@
 + Il codice per raccogliere la chiave è molto simile a quello per raccogliere le monete. La differenza è che aggiungi la chiave al tuo inventario.
 
 	```blocks
-		quando si clicca la bandiera
-		aspetta finché <tocca [giocatore v]>?
+		quando si clicca sulla bandiera verde
+		attendi fino a quando <sta toccando [player v]>
 		aggiungi [chiave blu] a [inventario v]
 		stop [altre scritte in sprite v]
 		nascondi
@@ -33,8 +33,8 @@
 + Dovrai nascondere la tua porta blu per permettere al tuo giocatore di passare una volta che hai la chiave blu nell'inventario.
 
 	```blocks
-		quando si clicca la bandiera
-		aspetta finché <[inventario v] contiene [chiave blu]>
+		quando si clicca sulla bandiera verde
+		attendi fino a quando <[inventario v] contiene [chiave blu]>
 		stop [altre scritte in sprite v]
 		nascondi
 	```
