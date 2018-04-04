@@ -21,7 +21,7 @@ Lass uns damit beginnen, einen Spieler zu erstellen, der sich rund um deine Welt
 
 	![screenshot](images/world-up.png)
 
-+ Um den Spieler nach links zu bewegen, musst du einen weiteren `if` {.blockcontrol} (wenn) Block zu deinem Spieler hinzufügen, welcher dann die x-Koordinaten ändert:
++ Um den Spieler nach links zu bewegen, musst du einen weiteren `if`{:class="blockcontrol"} (wenn) Block zu deinem Spieler hinzufügen, welcher dann die x-Koordinaten ändert:
 
 	```blocks
 		Wenn die grüne Flagge angeklickt
