@@ -63,3 +63,5 @@ Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Di
 + "Migliorare la tua persona" - consolidamento dell'aggiunta oggetti al mondo;
 + "Altri nemici" - aggiunge oggetti che si muovono come cadaveri;
 + "Crea il tuo mondo" - rafforzamento generale delle competenze. 
+
+--- /collapse ---
