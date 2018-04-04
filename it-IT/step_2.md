@@ -8,7 +8,7 @@ Iniziamo a creare un giocatore che possa muoversi attorno al mondo.
 
 + Usiamo i tasti freccia per muovere il giocatore. Quando il giocatore preme la freccia in su, vogliamo che il giocatore si sposti verso l'alto, cambiando la sua coordinata y. Aggiungi questo codice allo sprite 'giocatore':
 
-	```blocchi
+	```blocks
 		quando si clicca la bandiera
 		per sempre
 			se < il tasto [freccia in su v] premuto? > allora
@@ -23,7 +23,7 @@ Iniziamo a creare un giocatore che possa muoversi attorno al mondo.
 
 + Per muovere il giocatore a sinistra, dovrai aggiungere un altro blocco `se`{:class="blockcontrol"} al tuo giocatore, che cambierà la coordinata x:
 
-	```blocchi
+	```blocks
 		quando si clicca la bandiera
 		per sempre
 			se < il tasto [freccia in su v] premuto? > allora
@@ -44,7 +44,7 @@ Puoi aggiungere un altro codice al tuo giocatore, in modo che possa muoversi su,
 
 + Per risolverlo, dovrai muovere il giocatore, ma poi riportarlo indietro se tocca un muro grigio chiaro. Ecco il codice che ti servirà:
 
-	```blocchi
+	```blocks
 		quando si clicca la bandiera
 		per sempre
 			se < il tasto [freccia in su v] premuto? > allora
