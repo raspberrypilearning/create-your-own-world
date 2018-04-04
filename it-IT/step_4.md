@@ -9,7 +9,7 @@ Aggiungiamo ora dei segnali al tuo mondo, che guideranno il giocatore nel suo vi
 + Questo segnale sarà visibile solo nella stanza 1, dunque aggiungiamo un codice al segnale per assicurarci che ciò accada:
 
 	```blocks
-		quando si clicca la bandiera
+		quando si clicca sulla bandiera verde
 		per sempre
 			se < (stanza) = [1] > allora
 				mostra
@@ -26,12 +26,12 @@ Aggiungiamo ora dei segnali al tuo mondo, che guideranno il giocatore nel suo vi
 + Un segnale non servirà a nulla se non c'è alcuna scritta! Aggiungiamo un altro codice (in un blocco separato) per visualizzare un messaggio nel caso in cui il messaggio stia toccando il giocatore:
 
 	```blocks
-		quando si clicca la bandiera
+		quando si clicca sulla bandiera verde
 		per sempre
-			se < tocca [giocatore v]? > allora
-				dici [Benvenuto! Puoi raggiungere il tesoro?]
+			se <sta toccando [player v]> allora
+				dire [Benvenuto! Puoi raggiungere il tesoro?]
 			altrimenti
-				dici []
+				dire []
 			fine
 		fine
 	```

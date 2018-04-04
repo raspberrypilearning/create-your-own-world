@@ -5,13 +5,13 @@ Aggiungiamo altre persone al tuo mondo con le quali il tuo giocatore può intera
 + Aggiungi questo codice allo sprite della persona, in modo che la persona parli con il tuo giocatore. Questo codice è molto simile a quello che hai aggiunto al segnale:
 
 	```blocks
-		quando si clicca la bandiera
+		quando si clicca sulla bandiera verde
 		vai a x: (0) y: (-150)
 		per sempre
-			se < tocca [giocatore v]? > allora
-				dici [Sapevi che puoi attraversare le porte arancione e gialla?]
+			se <sta toccando [player v]> allora
+				dire [Sapevi che puoi attraversare le porte arancione e gialla?]
 			altrimenti
-				dici []
+				dire []
 			fine
 		fine
 	```
@@ -19,8 +19,8 @@ Aggiungiamo altre persone al tuo mondo con le quali il tuo giocatore può intera
 + Puoi anche far muovere la tua persona usando qusti due blocchi:
 
 	```blocks
-		muovi (1) passi
-		se sul bordo, rimbalza
+		fai (1) passi
+		rimbalza quando tocchi il bordo
 	```
 
 	La persona agirà diversamente, a seconda se posizioni questo codice dentro al loop `per sempre`{:class="blockcontrol"} o al blocco `se`{:class="blockcontrol"}. Provali entrambi e scegli quello che preferisci.
