@@ -12,7 +12,7 @@ Facciamo in modo che il giocatore possa entrare nelle altre stanze camminando at
 
 + Quando il giocatore tocca la porta arancione nella prima stanza, verrà visualizzato il prossimo scenario, e il giocatore tornerà verso il lato sinistro del quadro. Ecco il codice che ti servirà - dovrebbe andare dentro il loop `forever`{:class="blockcontrol"} del giocatore:
 
-	```blocchi
+	```blocks
 		se <tocca colore [#F2A24A]?> allora
 			cambia scenario a [prossimo scenario v]
 			vai a x: (-200) y: (0)
@@ -22,7 +22,7 @@ Facciamo in modo che il giocatore possa entrare nelle altre stanze camminando at
 
 + Aggiungi questo codice all'_inizio_ del codice del tuo giocatore (prima del loop `per sempre`{:class="blockcontrol"}) per assicurarti che venga tutto azzerato quando si clicca la bandiera:
 
-	```blocchi
+	```blocks
 		imposta [stanza v] a (1)
 		vai a x: (-200) y: (0)
 		cambia scenario a [stanza1 v]
