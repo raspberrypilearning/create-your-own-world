@@ -34,7 +34,7 @@ Lass uns jetzt ermöglichen, dass der Spieler durch die Türen in ein anderes Zi
 
 --- challenge ---
 	
-	## Aufgabe: Ins vorherige Zimmer gehen 
+## Aufgabe: Ins vorherige Zimmer gehen 
 Kannst du deinen Spieler ins vorherige Zimmer bewegen, wenn er eine gelbe Tür berührt? Denke daran, dass dieser Code _sehr_ ähnlich sein wird wie der Code, den du bereits hinzugefügt hast, um ins nächste Zimmer zu gelangen.
 
 --- /challenge ---
