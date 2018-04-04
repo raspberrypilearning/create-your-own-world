@@ -4,7 +4,7 @@ Aggiungiamo altre persone al tuo mondo con le quali il tuo giocatore può intera
 
 + Aggiungi questo codice allo sprite della persona, in modo che la persona parli con il tuo giocatore. Questo codice è molto simile a quello che hai aggiunto al segnale:
 
-	```blocchi
+	```blocks
 		quando si clicca la bandiera
 		vai a x: (0) y: (-150)
 		per sempre
@@ -18,7 +18,7 @@ Aggiungiamo altre persone al tuo mondo con le quali il tuo giocatore può intera
 
 + Puoi anche far muovere la tua persona usando qusti due blocchi:
 
-	```blocchi
+	```blocks
 		muovi (1) passi
 		se sul bordo, rimbalza
 	```

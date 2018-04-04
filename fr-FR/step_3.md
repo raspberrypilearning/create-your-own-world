@@ -23,7 +23,7 @@ Faisons en sorte que votre joueur puisse passer à travers les portes et dans d'
 + Ajoutez ce code au début du code de votre joueur (avant la boucle `forever`{:class="blockcontrol"}) pour vous assurer que tout soit remis a zéro lorsque le drapeau est cliqué.
 
 	```blocks
-	[room v] prend la valeur (1)
+	mettre [room v] à (1)
 	aller à x:(-200) y:(0)
 	basculer sur l'arrière-plan [room1 v]
 	```

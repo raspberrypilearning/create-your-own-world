@@ -20,7 +20,7 @@
 
 + Teste deinen Schlüssel, um zu sehen, ob du ihn einsammeln kannst und ob du ihn zu deinem Inventar hinzufügen kannst. Denke daran, den Code zu deinem Stadium hinzuzufügen und dein Inventar bei Spielbeginn zu leeren.
 
-	```Blöcke
+	```blocks
 		(lösche (alles v) aus [inventory v]
 	```
 
