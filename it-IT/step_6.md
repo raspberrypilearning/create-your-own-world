@@ -11,9 +11,9 @@
 + Aggiungi un codice allo sprite della tua moneta per aggiungere 1 alle tue `monete`{:class="blockdata"} quando vengono raccolte:
 
 	```blocks
-		quando si clicca la bandiera
-		aspetta finché <tocca [giocatore v]>?
-		modifica [monete v] di (1)
+		quando si clicca sulla bandiera verde
+		attendi fino a quando <sta toccando [player v]>
+		cambia [coins v] di (1)
 		stop [altre scritte in sprite v]
 		nascondi
 	```
