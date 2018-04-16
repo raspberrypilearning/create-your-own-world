@@ -10,22 +10,20 @@
 
 ```blocks
 	点击绿旗时
-	go to x: (0) y: (-150)
-	重复执行
-结束
-		如果 <碰到 [player v]>
-结束> then
-			说 [Did you know that you can go through orange and yellow doors?]
-		否则
-			说 []
-		结束
-	结束
+  定位到 x: (0) y: (-150)
+  重复无限次 
+    如果 <碰到 [player v] ?> 那么 
+      说出 [Did you know that you can go through orange and yellow doors?]
+
+      说出 []
+    end
+  end
 ```
 
 + 你还可以通过在你代码的 `否则`{:class="blockcontrol"}部分添加这两个代码块，让你的 `人物` 子图移动：
 
 ```blocks
-移动 (1) 步
+移动 (1) 点
 碰到边缘就反弹
 ```
 
