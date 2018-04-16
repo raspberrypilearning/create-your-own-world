@@ -1,0 +1,26 @@
+hero_image: images/create-your-own-world.png
+title: أنشئ عالمك الخاص
+description: تعلَّم كيف تصنع لعبة تبتكر فيها عالمك الخاص من المغامرات.
+original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
+theme: برتقالي
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: ''
+technologies: scratch
+site_areas: codeclub, scratch
+steps:
+- title: المقدمة
+- title: ما ستحتاج إليه
+- title: تحريك كائن اللاعب
+- title: حوائط صلبة
+- title: برمجة عالمك
+- title: اللافتات
+- title: 'التحدي: الكنز!'
+- title: الأشخاص
+- title: 'التحدي: الأعداء'
+- title: جمع العملات الذهبية
+- title: الأبواب والمفاتيح
+- title: 'التحدي: وسِّع عالمك'
