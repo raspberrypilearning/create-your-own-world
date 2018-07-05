@@ -15,7 +15,7 @@ Klik op de groene vlag om te starten. Gebruik de pijltjestoetsen om je spelfiguu
 
 Dit project behandelt elementen uit de volgende onderdelen van de[Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Gebruik programmeerconstructies om om een probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder) {:target="_blank"}
++ [Gebruik programmeerconstructies om om een probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ### Aanvullende informatie voor docenten
 
