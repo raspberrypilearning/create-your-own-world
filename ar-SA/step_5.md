@@ -6,13 +6,13 @@
 
 ![screenshot](images/world-backdrops.png)
 
-+ Create a new 'for all sprites' variable called `room`{:class="blockdata"} to keep track of which room the `player` sprite is in.
++ أنشىء متغير جديد لكل الكائنات يسمى `غرفة`{:class="blockdata"} لتتبع الغرفة التي يكون كائن `اللاعب`موجود فيها.
 
-[[[generic-scratch-add-variable]]]
+[generic-scratch-add-variable]
 
 ![screenshot](images/world-room.png)
 
-+ When the `player` sprite touches the orange door in the first room, the next backdrop should be displayed, and the `player` sprite should move back to the left side of the stage. Add this code inside the `player` sprite's `forever`{:class="blockcontrol"} loop:
++ عندما يلمس كائن `اللاعب` الباب البرتقالي في الغرفة الأول، يجب أن تظهر الخلفية الثانية، ويجب أن يتحرك كائن `اللاعب` إلى الخلف ناحية اليسار من المنصة. أضف هذه التعليمة البرمجية إلى كائن `اللاعب` داخل حلقة `كرر باستمرار`{:class="blockcontrol"}:
 
 ```blocks
     if < touching color [#F2A24A] > then
