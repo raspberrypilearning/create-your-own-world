@@ -4,7 +4,7 @@
 
 + يحتوي مشروعك على كائن `لافتة الترحيب`:
 
-![screenshot](images/world-sign.png)
+![لقطة الشاشة](images/world-sign.png)
 
 + يجب أن يظهر كائن ` لافتة الترحيب` في الغرفة الأول فقط، لذا أضف بعض التعليمات البرمجية إلى كائن `لافتة الترحيب` لتضمن حدوث ذلك:
 
@@ -21,26 +21,26 @@ else
 
 + اختبر كائن `لافتة الترحيب` بتحريك اللاعب بين الغرف. يجب أن تظهر الافتة في الغرفة 1 فقط.
     
-    ![screenshot](images/world-sign-test.png)
+    ![لقطة الشاشة](images/world-sign-test.png)
 
-+ لا يكون للافتة ميزة في اللعبة إذا لم تظهر أي رسالة! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
++ لا يكون للافتة ميزة في اللعبة إذا لم تظهر أي رسالة! أضف بعض التعليمات البرمجية لعرض رسالة إذا كان كائن `لافتة الترحيب` يلامس كائن `اللاعب`:
 
 ```blocks
-    when flag clicked
-    forever
-        if < (room) = [1] > then
-            show
+    عند نقر العلم 
+كرر باستمرار 
+إذا  < (room) = [1] > 
+اظهر
+else 
+اختفِ 
+end
+إذا < touching [player v]؟ >
+قل! Welcome]! Can you get to the treasure?]
         else
-            hide
-        end
-        if < touching [player v]? > then
-            say [Welcome! Can you get to the treasure?]
-        else
-            say []
+            قل []
         end
     end
 ```
 
-+ Test out your `welcome sign` sprite — you should now see a message when the `player` sprite touches it.
++ اختبر كائن `لافتة الترحيب` - سترى الآن رسالة تظهر عندما يلامس كائن`اللاعب`.
 
-![screenshot](images/world-sign-test2.png)
+![لقطة الشاشة](images/world-sign-test2.png)
