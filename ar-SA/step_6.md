@@ -6,24 +6,24 @@
 
 ![screenshot](images/world-sign.png)
 
-+ The `welcome sign` sprite should only be visible in room 1, so add some code to the `welcome sign` sprite to make sure that this happens:
++ يجب أن يظهر كائن ` لافتة الترحيب` في الغرفة الأول فقط، لذا أضف بعض التعليمات البرمجية إلى كائن `لافتة الترحيب` لتضمن حدوث ذلك:
 
 ```blocks
-    when flag clicked
-    forever
-        if < (room) = [1] > then
-            show
-        else
-            hide
-        end
-    end
+    عند نقر العلم 
+كرر باستمرار
+        إذا < (room) = [1] > then
+إظهر 
+else
+اختفِ 
+النهاية 
+النهاية
 ```
 
-+ Test your `welcome sign` sprite by moving between rooms. Your sign should only be visible in room 1.
++ اختبر كائن `لافتة الترحيب` بتحريك اللاعب بين الغرف. يجب أن تظهر الافتة في الغرفة 1 فقط.
     
     ![screenshot](images/world-sign-test.png)
 
-+ A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
++ لا يكون للافتة ميزة في اللعبة إذا لم تظهر أي رسالة! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
 
 ```blocks
     when flag clicked
