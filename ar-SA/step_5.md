@@ -38,6 +38,6 @@
 
 ### التحدي: التحريك إلى الغرفة السابقة
 
-+ Can you make your `player` sprite move to the previous room when they touch a yellow door? The code you need for this is very similar to the code you've already added for moving to the next room.
++ هل يمكنك أن تجعل كائن `اللاعب` يتحرك إلى الغرفة السابقة عندما يلمس بابًا أصفر؟ The code you need for this is very similar to the code you've already added for moving to the next room.
 
 \--- /challenge \---
