@@ -6,7 +6,7 @@
 
 ![screenshot](images/world-backdrops.png)
 
-+ أنشىء متغير جديد لكل الكائنات يسمى `غرفة`{:class="blockdata"} لتتبع الغرفة التي يكون كائن `اللاعب`موجود فيها.
++ أنشىء متغير جديد لكل الكائنات يسمى `الغرفة` {:class="blockdata"} لتتبع الغرفة التي يكون كائن `اللاعب`موجود فيها.
 
 [generic-scratch-add-variable]
 
@@ -30,13 +30,13 @@
     غير الخلفية إلى  [room1 v]
     ```
 
-+ انقر على العلم وحرك كائن `اللاعب` ليمر عبر الباب البرتقالي. هل يتحرك الكائن إلى الشاشة التالية؟ Does the `room`{:class="blockdata"} variable change to `2`?
++ انقر على العلم وحرك كائن `اللاعب` ليمر عبر الباب البرتقالي. هل يتحرك الكائن إلى الشاشة التالية؟ هل يتغير متغير `الغرفة` إلى `2`؟
 
 ![screenshot](images/world-room-test.png)
 
 \--- challenge \---
 
-### Challenge: moving to the previous room
+### التحدي: التحريك إلى الغرفة السابقة
 
 + Can you make your `player` sprite move to the previous room when they touch a yellow door? The code you need for this is very similar to the code you've already added for moving to the next room.
 
