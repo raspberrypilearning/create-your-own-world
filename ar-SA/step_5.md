@@ -15,22 +15,22 @@
 + عندما يلمس كائن `اللاعب` الباب البرتقالي في الغرفة الأول، يجب أن تظهر الخلفية الثانية، ويجب أن يتحرك كائن `اللاعب` إلى الخلف ناحية اليسار من المنصة. أضف هذه التعليمة البرمجية إلى كائن `اللاعب` داخل حلقة `كرر باستمرار`{:class="blockcontrol"}:
 
 ```blocks
-    if < touching color [#F2A24A] > then
-        switch backdrop to [next backdrop v]
-        go to x: (-200) y: (0)
-        change [room v] by (1)
-    end
+    إذا < ملامس اللون  [#F2A24A]   >
+غير الخلفية إلى [next backdrop v]
+إذهب إلى موضع س: (200-) ص:(0)
+غير [room v] بـمقدار (1)
+النهاية
 ```
 
-+ Add this code to the **start** of your `player` sprite code (above the `forever`{:class="blockcontrol"} loop) to make sure that everything is reset when the flag is clicked:
++ أضف هذه التعليمية البرمجية إلى **بداية** التعليمة البرمجية لكائن `اللاعب` (أعلى حلقة `كرر بأستمرار` {:class="blockcontrol"}) لتتأكد من عودة كل شيء إلى حالة الأول عند النقر على العلم:
     
     ```blocks
-        set [room v] to (1)
-        go to x: (-200) y: (0)
-        switch backdrop to [room1 v]
+        اجعل [room v] مساوياً (1)
+    إّهب إلى الموضع س: (200-) ص: (0)
+    غير الخلفية إلى  [room1 v]
     ```
 
-+ Click the flag and move your `player` sprite over the orange door. Does your sprite move to the next screen? Does the `room`{:class="blockdata"} variable change to `2`?
++ انقر على العلم وحرك كائن `اللاعب` ليمر عبر الباب البرتقالي. هل يتحرك الكائن إلى الشاشة التالية؟ Does the `room`{:class="blockdata"} variable change to `2`?
 
 ![screenshot](images/world-room-test.png)
 
