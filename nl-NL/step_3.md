@@ -2,7 +2,7 @@
 
 Laten we beginnen met het maken van een sprite voor de `speler` die zich in jouw wereld kan bewegen.
 
-+ Als je Scratch online gebruikt, open je het Scratch-project 'Maak je eigen wereld' op [http://jumpto.cc/world-go](https://scratch.mit.edu/projects/235588207/#editor){:target="_blank"}. Als je Scratch offline gebruikt, downloadt je hier het project [http://jumpto.cc/world-get](https://github.com/raspberrypilearning/create-your-own-world/raw/master/nl-NL/resources/CreateYourOwnWorld.sb2){:target="_blank"}, en open je het met behulp van de offline editor. 
++ Als je Scratch online gebruikt, open je het Scratch-project 'Maak je eigen wereld' op [http://jumpto.cc/world-go](https://scratch.mit.edu/projects/235588207/#editor){:target="_blank"}. Als je Scratch offline gebruikt, downloadt je hier het project [http://jumpto.cc/world-get](https://github.com/raspberrypilearning/create-your-own-world/raw/master/nl-NL/resources/CreateYourOwnWorldResources.sb2){:target="_blank"}, en open je het met behulp van de offline editor. 
 
 ![screenshot](images/world-starter.png)
 
