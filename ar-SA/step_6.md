@@ -1,8 +1,8 @@
-## Signs
+## اللافتات
 
-Let's add signs to your world to guide the player on their journey.
+لنُضِف لافتات إلى لعبتك لتوجيه اللاعب على مدار اللعبة.
 
-+ Your project includes a `welcome sign` sprite:
++ يحتوي مشروعك على كائن `لافتة الترحيب`:
 
 ![screenshot](images/world-sign.png)
 
