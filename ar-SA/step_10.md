@@ -1,16 +1,16 @@
 ## جمع العملات الذهبية
 
-As your `player` sprite moves through the world, they can collect coins.
+أثناء تحرك كائن `اللاعب` في اللعبة، يمكنه أن يجمع العملات الذهبية.
 
-+ Add a new variable valled `coins`{:class="blockdata"} to your project.
++ أضف متغير جديد يُسمى`العملات الذهبية`{:class="blockdata"} إلى مشروعك.
 
-+ Right-click on the `coin` sprite and choose **show**.
++ انقر بزر الفأره الأيمن فوق كائن`العملات الذهبية` واختر **إظهار**.
 
 ![screenshot](images/world-coins.png)
 
-+ Add code to your `coin` sprite so that it only appears in room 1.
++ أضف تعليمة برمجية إلى كائن `العملات الذهبية` بحيث لا يظهر إلا في الغرفة 1.
 
-+ Add code to your `coin` sprite so that `1` is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
++ أضف تعليمة برمجية لكائن `العملات الذهبية` بحيث يضاف `1` إلى متغير `العملات الذهبية`{:class="blockdata"} عندما يلمس كائن `اللاعب` كائن `العملات الذهبية` لكي يلتقطها.
     
     ```blocks
         when flag clicked
