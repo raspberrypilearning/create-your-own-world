@@ -6,7 +6,7 @@
 
 + انقر بزر الفأره الأيمن فوق كائن`العملات الذهبية` واختر **إظهار**.
 
-![screenshot](images/world-coins.png)
+![لقطة الشاشة](images/world-coins.png)
 
 + أضف تعليمة برمجية إلى كائن `العملات الذهبية` بحيث لا يظهر إلا في الغرفة 1.
 
@@ -24,12 +24,12 @@
 
 + وستحتاج أيضا إلى إضافة تعليمة برمجية لضبط متغير `العملات الذهبية`{:class="blockdata"} إلى `0` في بداية اللعبة.
 
-+ Test your project — collecting a coin should change your `coins` score to `1`.
++ اختبر مشروعك ــ ويجب أن يؤدي جمع العملات الذهبي إلى تغيير نتيجة`العملات الذهبية` إلى `1`.
 
 \--- challenge \---
 
-### Challenge: more coins
+### التحدي: المزيد من العملات
 
-Can you add more coins to your game? They can be in different rooms, and some coins could even be guarded by patrolling enemies!
+هل يمكنك إضافة عملات ذهبية أخرى إلى اللعبة؟ يمكن أن تكون هذه العملات في غرف مختلفة، بل ويُمكن أن يحرس الأعداء بعض هذه العملات!
 
-\--- /challenge \---
+\--- challenge \---
