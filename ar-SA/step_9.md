@@ -6,22 +6,22 @@
 
 + أضف تعليمة برمجية إلى الكائن`عدو` بحيث لا يظهر إلّا في الغرفة 2.
 
-+ أضف تعليمة برمجية لتحريك الكائن `عدو`، ولتنتهي اللعبة إذا لمس الكائن `عدو` الكائنَ `اللاعب`. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ أضف تعليمة برمجية لتحريك الكائن `عدو`، ولتنتهي اللعبة إذا لمس الكائن `عدو` الكائنَ `اللاعب`. من الأسهل أن تكون التعليمات البرمجية على هيئة قوالب منفصلة. يجب أن تكون التعليمة البرمجية للكائن`عدو` كما يلي:
 
-![screenshot](images/world-enemy-code.png)
+![لقطة الشاشة](images/world-enemy-code.png)
 
-+ + It's only visible in room 2
-    + It patrols the room
-    + The game ends if the `player` sprite touches it
-
-\--- /challenge \---
++ + أنه لا يظهر إلا في الغرفة 2
+    + أنه يحرس الغرفة
+    + أن اللعبة تنتهي إذا لمسه كائن`اللاعب`
 
 \--- challenge \---
 
-## Challenge: more enemies
+\--- challenge \---
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+## التحدي: زيادة عدد الأعداء
 
-![screenshot](images/world-enemy2.png)
+هل يمكنك إنشاء كائن `عدو` آخر في الغرفة 3 يتحرك إلى أعلى وإلى أسفل لحراسة الفتحة الموجودة في الحائط؟
 
-\--- /challenge \---
+![لقطة الشاشة](images/world-enemy2.png)
+
+\--- challenge \---
