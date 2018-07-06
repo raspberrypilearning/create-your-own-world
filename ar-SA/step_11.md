@@ -1,4 +1,4 @@
-## Doors and keys
+## الأبواب والمفاتيح
 
 What if some of the doors in your world are locked, and the player must find the key to progress?
 
