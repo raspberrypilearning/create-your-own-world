@@ -9,31 +9,31 @@
 + أضف بعض التعليمات البرمجية إلى كائن `الشخص`، ليتحدث مع كائن `اللاعب`. هذه التعليمة البرمجية تشبه إلى حدٍ كبير التعليمة البرمجية التي أضفتها إلى كائن`لافتة `:
 
 ```blocks
-    when flag clicked
-    go to x: (0) y: (-150)
-    forever
-        if < touching [player v]? > then
-            say [Did you know that you can go through orange and yellow doors?]
-        else
-            say []
+    عند النقر على العلم
+إذهب إلى موضع س:(0) ص:(-150)
+كرر باستمرار
+إذا < ملامس لـ [player v]؟ >
+قل [Did you know that you can go through orange and yellow doors?]
+  else
+            قل []
         end
     end
 ```
 
-+ You could also allow your `person` sprite to move by adding these two blocks in the `else`{:class="blockcontrol"} section of your code:
++ ويمكنك أيضًا أن تسمح لكائن `الشخص` بالتحرك عن طريق إضافة هذين القالبين البرمجيين في التعليمة البرمجية `else`{:class="blockcontrol"}:
 
 ```blocks
-move (1) steps
-if on edge, bounce
+تحرك (1) خطوات
+ارتد إذا كنت عند الحافة
 ```
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+سيتحرك الآن كائن `الشخص`، لكن لن يتوقف ليتحدث مع كائن `اللاعب`.
 
 ![screenshot](images/world-person-test.png)
 
 \--- challenge \---
 
-### Challenge: improve the person
+### التحدي: تحسين الشخص
 
 Can you add code to your new `person` sprite so that they only appear in room 1? Make sure you test out your new code.
 
