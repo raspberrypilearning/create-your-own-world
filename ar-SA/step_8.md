@@ -4,7 +4,7 @@
 
 + عُد إلى كائن `الشخص`.
 
-![Person sprite](images/person-sprite.png)
+![كائن الشخص](images/person-sprite.png)
 
 + أضف بعض التعليمات البرمجية إلى كائن `الشخص`، ليتحدث مع كائن `اللاعب`. هذه التعليمة البرمجية تشبه إلى حدٍ كبير التعليمة البرمجية التي أضفتها إلى كائن`لافتة `:
 
@@ -29,12 +29,12 @@
 
 سيتحرك الآن كائن `الشخص`، لكن لن يتوقف ليتحدث مع كائن `اللاعب`.
 
-![screenshot](images/world-person-test.png)
+![لقطة الشاشة](images/world-person-test.png)
 
 \--- challenge \---
 
 ### التحدي: تحسين الشخص
 
-Can you add code to your new `person` sprite so that they only appear in room 1? Make sure you test out your new code.
+هل يمكنك إضافة تعليمة برمجية جديدة إلى كائن `الشخص` بحيث يظهر في الغرفة 1 فقط؟ تأكد من اختبار التعليمة البرمجية الجديدة.
 
-\--- /challenge \---
+\--- challenge \---
