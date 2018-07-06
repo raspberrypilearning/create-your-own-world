@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: add an enemy
+## التحدي: إضافة عدو
 
 You could also add in patrolling enemies. If the player touches an enemy, the game ends.
 
