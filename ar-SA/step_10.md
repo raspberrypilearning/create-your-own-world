@@ -13,16 +13,16 @@
 + أضف تعليمة برمجية لكائن `العملات الذهبية` بحيث يضاف `1` إلى متغير `العملات الذهبية`{:class="blockdata"} عندما يلمس كائن `اللاعب` كائن `العملات الذهبية` لكي يلتقطها.
     
     ```blocks
-        when flag clicked
-        wait until <touching [player v]?>
-        change [coins v] by (1)
-        stop [other scripts in sprite v]
-        hide
+        عند نقر العلم 
+    انتظهر حتى <touching [player v]?>
+    غير [coins v] بمقدار (1)
+    أوقف [other scripts in sprite v]
+    أخفِ
     ```
     
-    The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+    يجب استخدام التعليمة البرمجية `أوقف النصوص الأخرى في الكائن` بحيث يختفي كائن `العملات الذهبية` من الغرفة 1 بمجرد جمعِها.
 
-+ You'll also need to add code to set your `coins`{:class="blockdata"} variable to `0` at the start of your game.
++ وستحتاج أيضا إلى إضافة تعليمة برمجية لضبط متغير `العملات الذهبية`{:class="blockdata"} إلى `0` في بداية اللعبة.
 
 + Test your project — collecting a coin should change your `coins` score to `1`.
 
