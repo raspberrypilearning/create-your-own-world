@@ -1,4 +1,4 @@
-## Collecting coins
+## جمع العملات الذهبية
 
 As your `player` sprite moves through the world, they can collect coins.
 
