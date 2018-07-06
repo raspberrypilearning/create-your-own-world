@@ -2,11 +2,11 @@
 
 ## التحدي: إضافة عدو
 
-You could also add in patrolling enemies. If the player touches an enemy, the game ends.
+يمكنك أيضًا إضافة أعداء يقومون بدوريات حراسة. وإذا لمس اللاعب عدوًا، فستنتهي اللعبة.
 
-+ Add code to the `enemy` sprite so that it only appears in room 2.
++ أضف تعليمة برمجية إلى الكائن`عدو` بحيث لا يظهر إلّا في الغرفة 2.
 
-+ Add code to move the `enemy` sprite, and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ أضف تعليمة برمجية لتحريك الكائن `عدو`، ولتنتهي اللعبة إذا لمس الكائن `عدو` الكائنَ `اللاعب`. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
 
 ![screenshot](images/world-enemy-code.png)
 
