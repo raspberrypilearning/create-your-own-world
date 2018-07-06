@@ -1,12 +1,12 @@
-## People
+## الأشخاص
 
-Let's add other people to your world who your `player` sprite can interact with.
+لنُضِيف أشخاصًا آخرين إلى لعبتك ليتعامل معها كائن `اللاعب`.
 
-+ Switch to the `person` sprite.
++ عُد إلى كائن `الشخص`.
 
 ![Person sprite](images/person-sprite.png)
 
-+ Add some code to the `person` sprite, so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
++ أضف بعض التعليمات البرمجية إلى كائن `الشخص`، ليتحدث مع كائن `اللاعب`. هذه التعليمة البرمجية تشبه إلى حدٍ كبير التعليمة البرمجية التي أضفتها إلى كائن`لافتة `:
 
 ```blocks
     when flag clicked
