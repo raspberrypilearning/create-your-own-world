@@ -6,17 +6,17 @@
 
 + حرر مظهر كائن `المفتاح` بحيث يكون لونه أزرق.
 
-+ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
++ حوِّل خلفية المنصة إلى الغرفة 3، وضَع كائن `المفتاح` في مكان ما بحيث يصعُب الوصول إليه!
     
     ![screenshot](images/world-key.png)
 
-+ Add code to the `key` sprite to make sure that it is only visible in room 3.
++ أضف تعليمة برمجية إلى كائن `المفتاح` بحيث تضمن أنه لن يظهر إلّا في الغرفة 3.
 
-+ Create a new list variable called `inventory`{:class="blockdata"}. This will be where you store all of the items your `player` sprite collects.
++ أنشئ متغير قائمة جديدًا يُسمى `المخزون`{:class="blockdata"}. وسيكون هذا المخزون هو المكان الذي يخزِّن فيه كائن `اللاعب` كل الأشياء التي يجمعها.
 
 [[[generic-scratch-make-list]]]
 
-+ The code for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to your inventory.
++ التعليمة البرمجية لالتقاط المفتاح تُشبه التعليمةَ البرمجية لجمع العملات الذهبية إلى حدٍ كبير. الفرق هو أنك تضيف المفتاح إلى المخزون.
 
 ```blocks
     when flag clicked
