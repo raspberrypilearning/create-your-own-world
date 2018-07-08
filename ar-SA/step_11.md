@@ -2,9 +2,9 @@
 
 ماذا لو كانت بعض الأبواب مغلقة في لعبتك، ويجب على اللاعب أن يعثر على المفاتيح لمتابعة اللعبة؟
 
-+ عُد إلى كائن `المفتاح`. Right-click on it and choose **show** so that it appears on the stage.
++ عُد إلى كائن `المفتاح`. انقر فوقه بزر الفأرة الأيمن واختر **إظهار** ليظهر على المنصة.
 
-+ Edit the `key` sprite's costume so that it is blue.
++ حرر مظهر كائن `المفتاح` بحيث يكون لونه أزرق.
 
 + Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
     
