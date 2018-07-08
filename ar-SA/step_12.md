@@ -1,17 +1,17 @@
 \--- challenge \---
 
-## Challenge: extend your world
+## التحدي: وسِّع عالمك
 
-You can now continue creating your own world! Here are some ideas:
+يمكنك الآن أن تُكمل إنشاء عالَمك الخاص! إليك بعض الأفكار:
 
-+ Change the setting of your game, and change your game graphics
-+ Add sound and music to your game
-+ Add more people, enemies, signs, and coins
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ غيِّر خلفية اللعبة ورسوماتها
++ أضف موسيقى ومؤثرات صوتية إلى اللعبة
++ أضف المزيد من الأشخاص والأعداء واللافتات والعملات الذهبية
++ أضف أبوابًا حمراء وصفراء، ومفاتيح خاصة لفتحها
++ أضف المزيد من الغرف إلى اللعبة
++ أضف عناصر أخرى مفيدة إلى اللعبة
 
-+ Use coins to get information from other people:
++ استخدم العملات الذهبية للحصول على معلومات من الأشخاص:
 
 ![screenshot](images/world-bribe.png)
 
