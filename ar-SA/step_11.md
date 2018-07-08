@@ -1,8 +1,8 @@
 ## الأبواب والمفاتيح
 
-What if some of the doors in your world are locked, and the player must find the key to progress?
+ماذا لو كانت بعض الأبواب مغلقة في لعبتك، ويجب على اللاعب أن يعثر على المفاتيح لمتابعة اللعبة؟
 
-+ Switch to the `key` sprite. Right-click on it and choose **show** so that it appears on the stage.
++ عُد إلى كائن `المفتاح`. Right-click on it and choose **show** so that it appears on the stage.
 
 + Edit the `key` sprite's costume so that it is blue.
 
