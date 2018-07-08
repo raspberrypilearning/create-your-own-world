@@ -13,10 +13,10 @@
 
 + استخدم العملات الذهبية للحصول على معلومات من الأشخاص:
 
-![screenshot](images/world-bribe.png)
+![لقطة الشاشة](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, if you had nine rooms, you could think of them as being in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ يمكنك أيضًا إضافة أبواب في الحائطَين العلوي والسفلي للغرفة 1، بحيث يتمكن اللاعب من التحرك بين الغرف في كل الاتجاهات الأربعة. على سبيل المثال، إذا كانت لديك تسع غرف، فيمكنك التفكير فيها كشبكة 3×3. ثم يمكنك إضافة `3` إلى رقم الغرفة للنزول مستوى واحدًا.
 
-![screenshot](images/world-north-south.png)
+![لقطة الشاشة](images/world-north-south.png)
 
-\--- /challenge \---
+\--- challenge \---
