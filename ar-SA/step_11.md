@@ -8,7 +8,7 @@
 
 + حوِّل خلفية المنصة إلى الغرفة 3، وضَع كائن `المفتاح` في مكان ما بحيث يصعُب الوصول إليه!
     
-    ![screenshot](images/world-key.png)
+    ![لقطة الشاشة](images/world-key.png)
 
 + أضف تعليمة برمجية إلى كائن `المفتاح` بحيث تضمن أنه لن يظهر إلّا في الغرفة 3.
 
@@ -19,32 +19,32 @@
 + التعليمة البرمجية لالتقاط المفتاح تُشبه التعليمةَ البرمجية لجمع العملات الذهبية إلى حدٍ كبير. الفرق هو أنك تضيف المفتاح إلى المخزون.
 
 ```blocks
-    when flag clicked
-    wait until <touching [player v]?>
-    add [blue key] to [inventory v]
-    stop [other scripts in sprite v]
-    hide
+    عند نقر ⚑
+  انتظر حتى <ملامس لـ [player v] ؟>
+  أضف [blue key] إلى [inventory v]
+  أوقف [المقاطع الأخرى في الكائن v]
+  اختف
 ```
 
-+ Test out your `key` sprite to see if you can collect it and add it to your inventory. Remember to add code to your Stage to empty your inventory at the start of the game.
++ اختبر كائن `المفتاح` لتعرف هل بإمكانك التقاطه وإضافته إلى المخزون أم لا. وتذكَّر أن تضيف تعليمة برمجية إلى المنصة ليكون المخزون فارغًا في بداية اللعبة.
 
 ```blocks
-    delete (all v) of [inventory v]
+    	احذف (الكل v) من [inventory v]
 ```
 
-+ Now let's add the locked door. Right-click on the `door-blue` sprite and select **show**, then position the sprite across the gap in the two walls.
++ لنضِف الآن الباب المغلق. انقر بزر الفأره الأيمن على الكائن `باب أزرق` وحدِّد **إظهار**، ثم ضع الكائن بطول الفتحة بين الحائطين.
 
-![screenshot](images/world-door.png)
+![لقطة الشاشة](images/world-door.png)
 
-+ Add code to the `door-blue` sprite so that it is only visible in room 3.
++ أضف تعليمة برمجية إلى الكائن `باب أزرق` بحيث لا يظهر إلّا في الغرفة 3.
 
-+ The `door-blue` sprite should hide to allow your `player` sprite to pass once you have the blue key in your inventory.
++ يجب أن يختفي الكائن `باب أزرق` للسماح لكائن `اللاعب` بالمرور بمجرد أن يُضاف المفتاح الأزرق إلى المخزون.
 
 ```blocks
-    when flag clicked
-    wait until <[inventory v] contains [blue key]>
-    stop [other scripts in sprite v]
-    hide
+    عند نقر ⚑
+  انتظر حتى <[inventory v] تحتوي [blue key] ؟>
+  أوقف [المقاطع الأخرى في الكائن v]
+  اختف
 ```
 
-+ Test out your project, and see if you can collect the blue key to open the door!
++ اختبر مشروعك، ثم لاحظ هل يمكنك التقاط المفتاح الأزرق لفتح الباب أم لا!
