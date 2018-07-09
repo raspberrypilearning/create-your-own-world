@@ -6,9 +6,9 @@
 
 ![لقطة الشاشة](images/world-backdrops.png)
 
-+ أنشىء متغير جديد لكل الكائنات يسمى `الغرفة` {:class="blockdata"} لتتبع الغرفة التي يكون كائن `اللاعب`موجود فيها.
++ أنشىء متغير جديد لكل الكائنات يسمى `الغرفة`{:class="blockdata"} لتتبع الغرفة التي يكون كائن `اللاعب`موجود فيها.
 
-[generic-scratch-add-variable]
+[[[generic-scratch-add-variable]]]
 
 ![لقطة الشاشة](images/world-room.png)
 
