@@ -13,7 +13,7 @@
 
 ### ما الذي ستتعلمه
 
-يحتوي هذا المشروع على عناصر من الصفوف التالية من المناهج الرقمية الخاصة بـ Raspberry Pi:
+يحتوي هذا المشروع على عناصر من الصفوف التالية من[ المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
 + [دمج الإنشاءات البرمجية لحل مشكلة.](https://www.raspberrypi.org/curriculum/programming/builder)
 
