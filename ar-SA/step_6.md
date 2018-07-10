@@ -35,8 +35,8 @@ end
   end
   إذا <ملامس لـ [player v] ؟>
   end
-end؟ > then
-قل [Welcome!]! Can you get to the treasure?\]
+end > then
+قل [مرحباً!] Can you get to the treasure?\]
 else
 قل []
 end
