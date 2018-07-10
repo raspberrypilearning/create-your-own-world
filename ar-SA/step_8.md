@@ -12,9 +12,10 @@
     عند نقر ⚑
 اذهب إلى الموضع س: (0) ص: (-150)
 كرر باستمرار 
-  إذا <ملامس لـ [player v] ؟>؟
- > then
-قل [Did you know that you can go through orange and yellow doors?]
+  إذا <ملامس لـ [player v] ؟>
+  end
+end > then
+قل [هل تعلم أنه يمكنك المرور عبر الأبواب البرتقالية والصفراء؟]
 else
 قل []
 end
