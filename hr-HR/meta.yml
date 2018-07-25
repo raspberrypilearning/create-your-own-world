@@ -1,0 +1,19 @@
+hero_image: images/create-your-own-world.png
+title: Kreiraj vlastiti svijet
+description: U ovom projektu naučit ćeš napraviti vlastitu igricu avanture.
+original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
+theme: orange
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
+interests: games
+technologies: scratch
+site_areas: projects
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps: 
+- title: Kreiraj vlastiti svijet
