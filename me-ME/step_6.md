@@ -41,6 +41,6 @@ Dodajmo u tvoj svijet znakove koji će voditi igrača na njegovom putovanju.
     end
 ```
 
-+ Isprobaj lik ` znaka dobrodošlice` — sada bi trebalo da vidiš poruku kada ga lik `igrača` dodirne.
++ Isprobaj lik `znaka dobrodošlice` — sada bi trebalo da vidiš poruku kada ga lik `igrača` dodirne.
 
 ![screenshot](images/world-sign-test2.png)

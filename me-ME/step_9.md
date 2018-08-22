@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Izazov: dodaj neprijatelja
+## Izazov: neprijatelji
 
 Možeš da dodaš i neprijatelje koji patroliraju. Ako igrač dodirne neprijatelja, igra se završava.
 
@@ -10,7 +10,8 @@ Možeš da dodaš i neprijatelje koji patroliraju. Ako igrač dodirne neprijatel
 
 ![screenshot](images/world-enemy-code.png)
 
-+ + Da je vidljiv samo u sobi 2
++ Isprobaj svoj lik `neprijatelja` da se uvjeriš u sljedeće:
+    + Da je vidljiv samo u sobi 2
     + Da patrolira po sobi
     + Da se igra završava ako ga lik `igrača` dodirne
 
