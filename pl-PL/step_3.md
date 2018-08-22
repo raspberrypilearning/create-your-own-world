@@ -1,59 +1,59 @@
-## Moving the `player` sprite
+## Kierowanie duszkiem `gracza`
 
-Let's start by creating a `player` sprite that can move around your world.
+Zacznijmy od utworzenia duszka `gracza`, który będzie mógł poruszać się po świecie gry.
 
-+ If you're using Scratch online, open the 'Create your own world' Scratch project at <http://jumpto.cc/world-go>{:target="_blank"}. If you are using Scratch offline, download the project [here](http://jumpto.cc/world-get){:target="_blank"}, and then open it using the offline editor. 
++ Jeżeli używasz Scratcha w wersji online, otwórz projekt 'Stwórz swój własny świat' spod adresu <http://jumpto.cc/world-go>{:target="_blank"}. Jeżeli używasz Scratcha w wersji offline, pobierz projekt [stąd](http://jumpto.cc/world-get){:target="_blank"} i nastepnie otwórz go w edytorze offline. 
 
 ![screenshot](images/world-starter.png)
 
-The person playing the game will use the arrow keys to move the `player` sprite around. When the person presses the up arrow, you need to tell the `player` sprite to move up in response, so that it moves in the right direction.
+Osoba grająca w grę będzie używać klawiszy strzałek do poruszania duszkiem `gracza`. Kiedy gracz naciśnie strzałkę w górę, musisz przekazać duszkowi `gracza`, aby w odpowiedzi poruszył się we właściwym kierunku.
 
-+ Add this code to the `player` sprite:
++ Dodaj poniższy kod do duszka `gracza`:
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
+    kiedy kliknięto flag
+    zawsze        
+        jeżeli <klawisz [strzałka w górę v] naciśnięty? > to
+            ustaw kierunek na (0)
+            przesuń o (4) kroków
         end
     end
 ```
 
-+ Test out your `player` sprite by clicking the flag and then holding down the up arrow. Does your `player` sprite move up?
++ Przetestuj zachowanie duszka `gracza` klikając na zieloną flagę i wciskając strzałkę w górę. Czy duszek `gracza` porusza się do góry?
     
     ![screenshot](images/world-up.png)
 
-+ To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to it:
++ Aby poruszyć duszka `gracza` w lewo, musisz dodać do niego kolejny blok `jeżeli` {:class="blockcontrol"} z podobnym kodem:
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
+    kiedy kliknięto flag
+    zawsze        
+        jeżeli <klawisz [strzałka w górę v] naciśnięty? > to
+            ustaw kierunek na (0)
+            przesuń o (4) kroków
         end
-        if <key [left arrow v] pressed? > then
-            point in direction (-90)
-            move (4) steps
+        jeżeli <klawisz [strzałka w lewo v] naciśnięty? > to
+            ustaw kierunek na (-90)
+            przesuń o (4) kroków
         end
     end
 ```
 
-+ Add more code to your `player` sprite so that they can move down and right as well. Use the code you already have to help you.
++ Dodaj więcej kodu do swojego duszka `gracza` tak, aby mógł poruszać się również w dół i w prawo. Użyj kodu, który już masz, aby sobie pomóc.
 
-\--- hints \--- \--- hint \--- To move up, you pointed the `player` sprite into the direction `0` degrees. What would you have to do to move the sprite down?
+\--- hints \--- \--- hint \--- Aby poruszać się w górę, ustawiłeś kierunek duszka `gracza` na `0` stopni. Co musiałbyś zrobić, aby ruszyć duszkiem w dół?
 
-To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the sprite right? \--- /hint \--- \--- hint \--- You will need to change these two blocks:
+Aby poruszyć się w lewo, ustawiłeś kierunek duszka na `-90` stopni. Co musiałbyś zrobić, aby ruszyć duszkiem w prawo? \--- /hint \--- \--- hint \--- Będziesz musiał zmienić te dwa bloki:
 
 ```blocks
-<key [ v] pressed>
+< klawisz [ v] naciśnięty? >
 ```
 
 ```blocks
-point in direction ()
+ustaw kierunek na ()
 ```
 
-Duplicate the code you have used to go up, but change these two blocks to make the `player` sprite move down. Do the same for moving right. \--- /hint \--- \--- hint \--- Here is how your code should look:
+Powiel kod, którego używałeś do poruszania się w górę, ale zmień te dwa bloki, aby sprawić, że duszek `gracza` pójdzie w dół. Zrób to samo, aby poruszać się w prawo. \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
 
 ![Moving down and right](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
