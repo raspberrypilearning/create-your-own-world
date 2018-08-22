@@ -1,50 +1,50 @@
-## Doors and keys
+## Vrata i ključevi
 
-What if some of the doors in your world are locked, and the player must find the key to progress?
+Kako bi bilo da neka od vrata u tvom svijetu budu zaključana i da igrač mora da nađe ključ da bi nastavio dalje?
 
-+ Switch to the `key` sprite. Right-click on it and choose **show** so that it appears on the stage.
++ Pređi na lik `ključa`. Klikni desnim tasterom miša na njega i izaberi **show** (prikaži), tako da se ključ pojavi na pozornici.
 
-+ Edit the `key` sprite's costume so that it is blue.
++ Izmijeni kostim lika `ključa` da bude plave boje.
 
-+ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
++ Postavi da pozadina Pozornice bude soba 3 i postavi lik `ključa` na neko mjesto do kojeg je teško doći!
     
     ![screenshot](images/world-key.png)
 
-+ Add code to the `key` sprite to make sure that it is only visible in room 3.
++ Dodaj kôd liku `ključa` tako da se pojavljuje samo u sobi 3.
 
-+ Create a new list variable called `inventory`{:class="blockdata"}. This will be where you store all of the items your `player` sprite collects.
++ Kreiraj novu listu (new list) i nazovi je `inventar`{:class="blockdata"}. U njoj ćeš čuvati sve stvari koje tvoj lik `igrača` sakupi.
 
 [[[generic-scratch-make-list]]]
 
-+ The code for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to your inventory.
++ Kôd za sakupljanje ključa veoma je sličan kôdu za sakupljanje novčića. Razlika je u tome što ključ dodaješ u svoj inventar.
 
 ```blocks
     when flag clicked
     wait until <touching [player v]?>
-    add [blue key] to [inventory v]
+    add [plavi ključ] to [inventar v]
     stop [other scripts in sprite v]
     hide
 ```
 
-+ Test out your `key` sprite to see if you can collect it and add it to your inventory. Remember to add code to your Stage to empty your inventory at the start of the game.
++ Isprobaj lik `ključa` da provjeriš da li možeš da ga pokupiš i dodaš u svoj inventar. Ne zaboravi da dodaš kôd Pozornici da se tvoj inventar isprazni na početku igre.
 
 ```blocks
-    delete (all v) of [inventory v]
+    delete (all v) of [inventar v]
 ```
 
-+ Now let's add the locked door. Right-click on the `door-blue` sprite and select **show**, then position the sprite across the gap in the two walls.
++ Sada dodajmo zaključana vrata. Klikni desnim tasterom miša na lik `vrata-plava` i izaberi **show** (prikaži), a zatim postavi lik na otvor između dva zida.
 
 ![screenshot](images/world-door.png)
 
-+ Add code to the `door-blue` sprite so that it is only visible in room 3.
++ Dodaj kôd liku `plavih vrata` tako da se pojavljuje samo u sobi 3.
 
-+ The `door-blue` sprite should hide to allow your `player` sprite to pass once you have the blue key in your inventory.
++ Lik `plavih vrata` treba da se sakrije, kako bi dozvolio liku `igrača` da prođe kada imaš plavi ključ u svom inventaru.
 
 ```blocks
     when flag clicked
-    wait until <[inventory v] contains [blue key]>
+    wait until <[inventar v] contains [plavi ključ]>
     stop [other scripts in sprite v]
     hide
 ```
 
-+ Test out your project, and see if you can collect the blue key to open the door!
++ Isprobaj svoj projekat i provjeri da li možeš da pokupiš plavi ključ i otvoriš vrata!
