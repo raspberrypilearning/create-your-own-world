@@ -1,0 +1,43 @@
+---
+hero_image: images / create-your-own-world.png
+title: あなた自身の世界を作りなさい
+description: あなた自身のオープンワールドアドベンチャーゲームを作成する方法を学んでください。
+original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
+theme: オレンジ
+duration: 2
+listed: true
+ingredient: false
+copyedit: false
+curriculum: 2、design-0、programming-2、phys-comp-0、製造-0、コミュニティ-0
+interests: ゲーム
+technologies: スクラッチ
+site_areas: プロジェクト
+hardware: ''
+software: スクラッチ
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: 前書き
+  - 
+    title: あなたが必要とするもの
+  - 
+    title: プレーヤスプライトの移動
+  - 
+    title: 無垢の壁
+  - 
+    title: あなたの世界をコーディングする
+  - 
+    title: サイン
+  - 
+    title: '挑戦：宝物！'
+  - 
+    title: 人
+  - 
+    title: '挑戦：敵'
+  - 
+    title: コインを収集
+  - 
+    title: ドアとキー
+  - 
+    title: '課題：あなたの世界を広げる'
