@@ -1,26 +1,26 @@
 \--- challenge \---
 
-## Challenge: add an enemy
+## Sfida: aggiungi un nemico
 
-You could also add in patrolling enemies. If the player touches an enemy, the game ends.
+Puoi anche aggiungere una pattuglia di nemici. Se il giocatore tocca un nemico, il gioco finisce.
 
-+ Add code to the `enemy` sprite so that it only appears in room 2.
++ Aggiungi del codice allo sprite `nemico` per far sì che appaia solo nella stanza 2.
 
-+ Add code to move the `enemy` sprite, and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ Aggiungi del codice per far muovere lo sprite `nemico` e per far terminare il gioco se lo sprite `nemico` tocca lo sprite `giocatore`. È più facile farlo in blocchi di codice separati. Ecco come il codice del tuo sprite `nemico` potrebbe apparire:
 
 ![screenshot](images/world-enemy-code.png)
 
-+ + It's only visible in room 2
-    + It patrols the room
-    + The game ends if the `player` sprite touches it
++ + Sia visibile solo nella stanza 2
+    + Pattugli la stanza
+    + Il gioco termini se lo sprite `giocatore` lo tocca
 
 \--- /challenge \---
 
 \--- challenge \---
 
-## Challenge: more enemies
+## Sfida: più nemici
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Sapresti creare un altro sprite `nemico` nella stanza 3 che pattugli su e giù attraverso lo spazio nel muro?
 
 ![screenshot](images/world-enemy2.png)
 
