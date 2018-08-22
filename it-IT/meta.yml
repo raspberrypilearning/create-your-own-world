@@ -1,7 +1,7 @@
 ---
 hero_image: images/create-your-own-world.png
 title: Crea il Tuo Mondo
-description: Impara a creare il tuo gioco di avventura open world.
+description: Scopri come creare il tuo gioco di avventura open-world.
 original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
 theme: orange
 duration: 2
@@ -20,24 +20,24 @@ steps:
   - 
     title: Introduzione
   - 
-    title: Codifica il tuo giocatore
+    title: Di cosa avrai bisogno
   - 
-    title: Codifica il tuo mondo
+    title: Spostare lo sprite del giocatore
   - 
-    title: Segnali
+    title: Muri solidi
+  - 
+    title: Programmare il tuo mondo
+  - 
+    title: Cartelli
+  - 
+    title: 'Sfida: tesoro!'
   - 
     title: Persone
   - 
-    title: Raccogli monete
+    title: 'Sfida: nemici'
   - 
-    title: 'Porte e chiavi'
+    title: Raccogliere monete
   - 
-    title: People
+    title: Porte e chiavi
   - 
-    title: 'Challenge: enemies'
-  - 
-    title: Collecting coins
-  - 
-    title: Doors and keys
-  - 
-    title: 'Challenge: extend your world'
+    title: 'Sfida: espandi il tuo mondo'
