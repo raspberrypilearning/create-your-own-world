@@ -1,24 +1,24 @@
-## Introduction
+## Uvod
 
-In this project, you'll learn how to create your own adventure game with multiple rooms for the player to explore.
+U ovom projektu naučićeš kako da napraviš sopstvenu igru avanture sa više soba koje igrač treba da istraži.
 
-### What you will make
+### Šta ćeš napraviti
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Klikni na zelenu zastavicu da započneš projekat. Koristi tastere sa strelicama za kretanje tvog karaktera po svijetu.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
   <img src="images/world-final.png">
 </div>
 
-### What you will learn
+### Šta ćeš naučiti
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Kombinujte programske konstrukcije za rješavanje problema.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-### Additional information for educators
+### Dodatne informacije za nastavnike
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Ukoliko je potrebno da odštampate ovaj projekat, koristite [verziju za štampu](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the `en/resources` folder.
+Koristite link koji se nalazi u podnožju stranice da pristupite GitHub repozitorijumu za ovaj projekat, koji sadrži sve izvore (uključujući primjer završenog projekta) u `en/resources` folderu.
