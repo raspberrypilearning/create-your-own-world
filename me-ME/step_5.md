@@ -1,43 +1,43 @@
-## Coding your world
+## Programiranje tvog svijeta
 
-Let's allow the `player` sprite to walk through doors into other rooms.
+Omogućimo liku `igrača` da prolazi kroz vrata u druge sobe.
 
-Your project contains backdrops for additional rooms:
+Tvoj projekat sadrži pozadine (backdrops) za dodatne sobe:
 
 ![screenshot](images/world-backdrops.png)
 
-+ Create a new 'for all sprites' variable called `room`{:class="blockdata"} to keep track of which room the `player` sprite is in.
++ Kreiraj novu promjenljivu 'za sve likove' ('for all sprites' variable) pod nazivom `soba`{:class="blockdata"}, koja će ti pokazivati u kojoj sobi se lik `igrača` nalazi.
 
 [[[generic-scratch-add-variable]]]
 
 ![screenshot](images/world-room.png)
 
-+ When the `player` sprite touches the orange door in the first room, the next backdrop should be displayed, and the `player` sprite should move back to the left side of the stage. Add this code inside the `player` sprite's `forever`{:class="blockcontrol"} loop:
++ Kada lik `igrača` dodirne narandžasta vrata u prvoj sobi, treba da se prikaže sljedeća pozadina (next backdrop), a lik `igrača` treba da se vrati na lijevu stranu pozornice. Dodaj ovaj kôd unutar petlje `forever`{:class="blockcontrol"} (ponavljaj) lika `igrača`:
 
 ```blocks
     if < touching color [#F2A24A] > then
         switch backdrop to [next backdrop v]
         go to x: (-200) y: (0)
-        change [room v] by (1)
+        change [soba v] by (1)
     end
 ```
 
-+ Add this code to the **start** of your `player` sprite code (above the `forever`{:class="blockcontrol"} loop) to make sure that everything is reset when the flag is clicked:
++ Dodaj ovaj kôd na **početak** kôda lika `igrača` (prije petlje `forever`{:class="blockcontrol"}), kako bi se sve vratilo na početnu poziciju kada se klikne na zastavicu:
     
     ```blocks
-        set [room v] to (1)
+        set [soba v] to (1)
         go to x: (-200) y: (0)
-        switch backdrop to [room1 v]
+        switch backdrop to [soba1 v]
     ```
 
-+ Click the flag and move your `player` sprite over the orange door. Does your sprite move to the next screen? Does the `room`{:class="blockdata"} variable change to `2`?
++ Klikni na zastavicu i pomjeraj svoj lik `igrača` preko narandžastih vrata. Da li tvoj lik prelazi na sljedeći ekran? Da li se vrijednost promjenljive `soba`{:class="blockdata"} mijenja na `2`?
 
 ![screenshot](images/world-room-test.png)
 
 \--- challenge \---
 
-### Challenge: moving to the previous room
+### Izazov: vraćanje u prethodnu sobu
 
-+ Can you make your `player` sprite move to the previous room when they touch a yellow door? The code you need for this is very similar to the code you've already added for moving to the next room.
++ Da li možeš da napraviš da se tvoj lik `igrača` vrati u prethodnu sobu kada dodirne žuta vrata? Kôd koji ti je potreban je veoma sličan kôdu koji smo već dodali za prelazak u sljedeću sobu.
 
 \--- /challenge \---
