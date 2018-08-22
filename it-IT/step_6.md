@@ -1,46 +1,46 @@
-## Signs
+## Cartelli
 
-Let's add signs to your world to guide the player on their journey.
+Aggiungiamo cartelli al tuo mondo per guidare il giocatore nel suo viaggio.
 
-+ Your project includes a `welcome sign` sprite:
++ Il tuo progetto contiene uno sprite `cartello di benvenuto`:
 
 ![screenshot](images/world-sign.png)
 
-+ The `welcome sign` sprite should only be visible in room 1, so add some code to the `welcome sign` sprite to make sure that this happens:
++ Lo sprite `cartello di benvenuto` dovrebbe essere visibile solo nella stanza 1, quindi aggiungi del codice allo sprite `cartello di benvenuto` per assicurarti che ciò avvenga:
 
 ```blocks
-    when flag clicked
-    forever
-        if < (room) = [1] > then
-            show
-        else
-            hide
-        end
-    end
+    quando si clicca su ⚑
+	per sempre 
+	  se < (stanza) = [1] > allora 
+		mostra
+	  altrimenti 
+		nascondi
+	  fine
+	fine
 ```
 
-+ Test your `welcome sign` sprite by moving between rooms. Your sign should only be visible in room 1.
++ Metti alla prova il tuo sprite `cartello di benvenuto` muovendoti tra le stanze. Il tuo cartello dovrebbe essere visibile solo nella stanza 1.
     
     ![screenshot](images/world-sign-test.png)
 
-+ A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
++ Un cartello non è molto utile se non dice nulla! Aggiungi del codice per far visualizzare un messaggio se lo sprite `cartello di benvenuto` sta toccando lo sprite `giocatore`:
 
 ```blocks
-    when flag clicked
-    forever
-        if < (room) = [1] > then
-            show
-        else
-            hide
-        end
-        if < touching [player v]? > then
-            say [Welcome! Can you get to the treasure?]
-        else
-            say []
-        end
-    end
+    quando si clicca su ⚑
+	per sempre 
+	  se < (stanza) = [1] > allora 
+		mostra
+	  altrimenti 
+		nascondi
+	  fine
+	  se < sta toccando [giocatore v] > allora 
+		dire [Benvenuto! Riesci a trovare il tesoro?]
+	  altrimenti 
+		dire []
+	  fine
+	fine
 ```
 
-+ Test out your `welcome sign` sprite — you should now see a message when the `player` sprite touches it.
++ Prova il tuo sprite `cartello di benvenuto`. Ora dovrebbe apparire un messaggio quando lo sprite `giocatore` lo tocca.
 
 ![screenshot](images/world-sign-test2.png)
