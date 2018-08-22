@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: treasure!
+## Izazov: blago!
 
-Can you add some treasure for the player to find?
+Možeš li da dodaš neko blago koje igrač treba da nađe?
 
-Make the `treasure chest` sprite appear only in room 3, and have it say 'Well done!' when the `player` sprite touches it.
+Napravi da se lik `kovčega sa blagom` pojavi samo u sobi 3 i da kaže 'Bravo!' kada ga lik `igrača` dodirne.
 
 ![screenshot](images/world-treasure.png)
 
