@@ -1,35 +1,35 @@
-## Collecting coins
+## Raccogliere monete
 
-As your `player` sprite moves through the world, they can collect coins.
+Durante i suoi spostamenti all'interno del mondo, il tuo sprite `giocatore` può raccogliere alcune monete.
 
-+ Add a new variable valled `coins`{:class="blockdata"} to your project.
++ Aggiungi una nuova variabile chiamata `monete`{:class="blockdata"} al tuo progetto.
 
-+ Right-click on the `coin` sprite and choose **show**.
++ Fai click con il tasto destro del mouse sullo sprite `moneta` e scegli **mostra**.
 
 ![screenshot](images/world-coins.png)
 
-+ Add code to your `coin` sprite so that it only appears in room 1.
++ Aggiungi del codice allo sprite `moneta` per far sì che appaia solo nella stanza 1.
 
-+ Add code to your `coin` sprite so that `1` is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
++ Aggiungi del codice allo sprite `moneta` per far sì che `1` venga aggiunto alle variabile `monete`{:class="blockdata"} una volta che lo sprite `giocatore ` tocca lo sprite `moneta` per "raccoglierlo".
     
     ```blocks
-        when flag clicked
-        wait until <touching [player v]?>
-        change [coins v] by (1)
-        stop [other scripts in sprite v]
-        hide
+        quando si clicca su ⚑
+    	attendi fino a quando < sta toccando [giocatore v]>
+    	cambia [monete v] di (1)
+    	ferma [tutti gli altri script dello sprite v]
+    	nascondi
     ```
     
-    The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+    Il codice `ferma tutti gli altri script dello sprite`{:class="blockcontrol"} è necessario affinchè lo sprite `moneta` smetta di essere visualizzato nella stanza 1 una volta che è stato raccolto.
 
-+ You'll also need to add code to set your `coins`{:class="blockdata"} variable to `0` at the start of your game.
++ Dovrai anche aggiungere del codice per impostare la tua variabile `monete`{:class="blockdata"} al valore `0` all'inizio del tuo gioco.
 
-+ Test your project — collecting a coin should change your `coins` score to `1`.
++ Prova il tuo progetto: raccogliere una moneta dovrebbe portare il valore delle tue `monete` a `1`.
 
 \--- challenge \---
 
-### Challenge: more coins
+### Sfida: ancora più monete
 
-Can you add more coins to your game? They can be in different rooms, and some coins could even be guarded by patrolling enemies!
+Puoi aggiungere altre monete al tuo gioco? Possono trovarsi in stanze diverse e alcune monete potrebbero persino essere sorvegliate dai nemici che pattugliano!
 
 \--- /challenge \---
