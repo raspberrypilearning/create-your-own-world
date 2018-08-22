@@ -1,17 +1,17 @@
-## Solid walls
+## Muri solidi
 
-+ Test out your `player` sprite again, and you'll probably notice that they have the ability to walk through the light grey walls.
++ Metti di nuovo alla prova lo sprite `giocatore`: probabilmente noterai che ha la capacità di attraversare le pareti color grigio chiaro.
 
 ![screenshot](images/world-walls.png)
 
-+ To fix this, you should move the `player` sprite back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
++ Per risolvere questo problema, devi spostare lo sprite `giocatore` indietro se sta toccando un muro color grigio chiaro. Ecco il codice che dovrai aggiungere all'interno del tuo blocco `per sempre`{:class="blockcontrol"}, sotto il blocco relativo alle direzioni:
 
 ```blocks
-    if < touching color [#BABABA]? > then
-        move (-4) steps
-    end
+    se < sta toccando il colore [#BABABA] > allora 
+        fai (-4) passi 
+    fine
 ```
 
-+ Test this new code: move the `player` sprite below the wall, and then see whether you can move them up into it. If your code works, this shouldn't be possible.
++ Prova questo nuovo codice: sposta lo sprite `giocatore` verso il muro, e controlla se è possibile farlo passare attraverso. Se il tuo codice è corretto, non dovrebbe essere possibile farlo.
 
 ![screenshot](images/world-walls-test.png)
