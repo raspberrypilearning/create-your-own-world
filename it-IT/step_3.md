@@ -1,59 +1,59 @@
-## Moving the `player` sprite
+## Spostare lo sprite del `giocatore`
 
-Let's start by creating a `player` sprite that can move around your world.
+Inizia creando uno sprite `giocatore` che possa muoversi nel tuo mondo.
 
-+ If you're using Scratch online, open the 'Create your own world' Scratch project at <http://jumpto.cc/world-go>{:target="_blank"}. If you are using Scratch offline, download the project [here](http://jumpto.cc/world-get){:target="_blank"}, and then open it using the offline editor. 
++ Se stai utilizzando Scratch online, apri il progetto Scratch "Crea il tuo mondo" su <http://jumpto.cc/world-go>{:target="_blank"}. Se stai utilizzando Scratch offline, scarica il progetto [da qui](http://jumpto.cc/world-get){: target = "_ blank"}, e aprilo utilizzando l'editor offline. 
 
 ![screenshot](images/world-starter.png)
 
-The person playing the game will use the arrow keys to move the `player` sprite around. When the person presses the up arrow, you need to tell the `player` sprite to move up in response, so that it moves in the right direction.
+La persona che gioca userà i tasti freccia per spostare lo sprite `giocatore`. Quando la persona preme la freccia "su", devi dire allo sprite `giocatore` di spostarsi verso l'alto, in modo che vada nella giusta direzione.
 
-+ Add this code to the `player` sprite:
++ Aggiungi questo codice allo sprite `giocatore`:
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
-        end
-    end
+    quando si clicca su ⚑
+    per sempre 
+        se <tasto [freccia su v] premuto > allora
+            punta in direzione (0)
+            fai (4) passi 
+        fine
+    fine
 ```
 
-+ Test out your `player` sprite by clicking the flag and then holding down the up arrow. Does your `player` sprite move up?
++ Metti alla prova il tuo sprite `giocatore` facendo click sulla bandierina verde e tenendo premuta la freccia "su". Il tuo sprite `giocatore` si muove verso l'alto?
     
     ![screenshot](images/world-up.png)
 
-+ To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to it:
++ Per spostare lo sprite `giocatore` a sinistra, è necessario aggiungere un altro blocco `se`{:class="blockcontrol"} con un codice simile a quello precedente:
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
-        end
-        if <key [left arrow v] pressed? > then
-            point in direction (-90)
-            move (4) steps
-        end
-    end
+    quando si clicca su ⚑
+    per sempre 
+        se <tasto [freccia su v] premuto > allora
+            punta in direzione (0)
+            fai (4) passi 
+        fine
+        se <tasto [freccia sinistra v] premuto > allora
+            punta in direzione (-90)
+            fai (4) passi 
+        fine
+    fine
 ```
 
-+ Add more code to your `player` sprite so that they can move down and right as well. Use the code you already have to help you.
++ Aggiungi altro codice al tuo sprite `giocatore` in modo che possa muoversi anche verso destra e verso il basso. Usa il codice che hai già per aiutarti.
 
-\--- hints \--- \--- hint \--- To move up, you pointed the `player` sprite into the direction `0` degrees. What would you have to do to move the sprite down?
+\--- hints \--- \--- hint \--- Per spostarti verso l'alto, hai puntato lo sprite `giocatore` in direzione `0` gradi. Cosa dovresti fare per spostare lo sprite verso il basso?
 
-To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the sprite right? \--- /hint \--- \--- hint \--- You will need to change these two blocks:
+Per spostarti a sinistra, hai puntato lo sprite in direzione `-90` gradi. Cosa dovresti fare per spostare lo sprite verso destra? \--- /hint \--- \--- hint \--- Dovrai cambiare questi due blocchi:
 
 ```blocks
-<key [ v] pressed>
+<tasto [ v] premuto>
 ```
 
 ```blocks
-point in direction ()
+punta in direzione (0)
 ```
 
-Duplicate the code you have used to go up, but change these two blocks to make the `player` sprite move down. Do the same for moving right. \--- /hint \--- \--- hint \--- Here is how your code should look:
+Duplica il codice che hai usato per salire, ma cambia questi due blocchi per far sì che lo sprite `giocatore` si sposti verso il basso. Fai lo stesso per spostarti a destra. \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice:
 
-![Moving down and right](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
+![Muoversi verso il basso e verso destra](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
