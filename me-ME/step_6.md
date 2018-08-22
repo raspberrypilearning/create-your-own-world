@@ -1,17 +1,17 @@
-## Signs
+## Znakovi
 
-Let's add signs to your world to guide the player on their journey.
+Dodajmo u tvoj svijet znakove koji će voditi igrača na njegovom putovanju.
 
-+ Your project includes a `welcome sign` sprite:
++ Tvoj projekat sadrži lik `znaka dobrodošlice`:
 
 ![screenshot](images/world-sign.png)
 
-+ The `welcome sign` sprite should only be visible in room 1, so add some code to the `welcome sign` sprite to make sure that this happens:
++ Lik `znaka dobrodošlice` treba da bude vidljiv samo u sobi1, pa zato dodaj kôd liku `znaka dobrodošlice` da to osiguraš:
 
 ```blocks
     when flag clicked
     forever
-        if < (room) = [1] > then
+        if < (soba) = [1] > then
             show
         else
             hide
@@ -19,28 +19,28 @@ Let's add signs to your world to guide the player on their journey.
     end
 ```
 
-+ Test your `welcome sign` sprite by moving between rooms. Your sign should only be visible in room 1.
++ Isprobaj svoj lik `znaka dobrodošlice` krećući se između soba. Tvoj znak bi trebalo da bude vidljiv samo u sobi 1.
     
     ![screenshot](images/world-sign-test.png)
 
-+ A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
++ Znak nije koristan ako ništa ne govori! Dodaj kôd da se prikaže poruka kada lik `znaka dobrodošlice` dodirne lik `igrača`:
 
 ```blocks
     when flag clicked
     forever
-        if < (room) = [1] > then
+        if < (soba) = [1] > then
             show
         else
             hide
         end
-        if < touching [player v]? > then
-            say [Welcome! Can you get to the treasure?]
+        if < touching [igrač v]? > then
+            say [Dobro došao! Možeš li da dođeš do blaga?]
         else
             say []
         end
     end
 ```
 
-+ Test out your `welcome sign` sprite — you should now see a message when the `player` sprite touches it.
++ Isprobaj lik ` znaka dobrodošlice` — sada bi trebalo da vidiš poruku kada ga lik `igrača` dodirne.
 
 ![screenshot](images/world-sign-test2.png)
