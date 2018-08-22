@@ -1,35 +1,35 @@
-## Collecting coins
+## Sakupljanje novčića
 
-As your `player` sprite moves through the world, they can collect coins.
+Dok se kreće po svijetu, tvoj lik `igrača` može da sakuplja novčiće.
 
-+ Add a new variable valled `coins`{:class="blockdata"} to your project.
++ Dodaj u svoj projekat novu promjenljivu pod nazivom `novčići`{:class="blockdata"}.
 
-+ Right-click on the `coin` sprite and choose **show**.
++ Klikni desnim tasterom miša na lik `novčića` i izaberi **show** (prikaži).
 
 ![screenshot](images/world-coins.png)
 
-+ Add code to your `coin` sprite so that it only appears in room 1.
++ Dodaj kôd svom liku `novčića` tako da se pojavljuje samo u sobi 1.
 
-+ Add code to your `coin` sprite so that `1` is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
++ Dodaj kôd liku `novčića` da napraviš da se vrijednost promjenljive `novčići`{:class="blockdata"} uveća za `1` kada lik `igrača` dodirne lik `novčića` da ga 'pokupi'.
     
     ```blocks
         when flag clicked
         wait until <touching [player v]?>
-        change [coins v] by (1)
+        change [novčići v] by (1)
         stop [other scripts in sprite v]
         hide
     ```
     
-    The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+    Kôd `stop other scripts in sprite`{:class="blockcontrol"} (zaustavi ostale skripte lika) nam je potreban da napravimo da se lik `novčića` više ne prikazuje u sobi 1 kada ga igrač pokupi.
 
-+ You'll also need to add code to set your `coins`{:class="blockdata"} variable to `0` at the start of your game.
++ Treba da dodaš i kôd za postavljanje tvoje promjenljive `novčići`{:class="blockdata"} na `0` na početku igre.
 
-+ Test your project — collecting a coin should change your `coins` score to `1`.
++ Isprobaj svoj projekat — kada pokupiš novčić, broj tvojih `novčića` bi trebalo da se promijeni u `1`.
 
 \--- challenge \---
 
-### Challenge: more coins
+### Izazov: više novčića
 
-Can you add more coins to your game? They can be in different rooms, and some coins could even be guarded by patrolling enemies!
+Možeš li da dodaš još novčića u svoju igru? Oni mogu da budu u različitim sobama, a neke od njih bi čak mogli da čuvaju neprijatelji koji patroliraju!
 
 \--- /challenge \---
