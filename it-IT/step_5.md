@@ -1,43 +1,43 @@
-## Coding your world
+## Programmare il tuo mondo
 
-Let's allow the `player` sprite to walk through doors into other rooms.
+Permettiamo allo sprite `giocatore` di camminare attraverso le porte verso altre stanze.
 
-Your project contains backdrops for additional rooms:
+Il tuo progetto contiene sfondi per ulteriori stanze:
 
 ![screenshot](images/world-backdrops.png)
 
-+ Create a new 'for all sprites' variable called `room`{:class="blockdata"} to keep track of which room the `player` sprite is in.
++ Crea una nuova variabile valida 'per tutti gli sprite' chiamata `stanza`{: class="blockdata"}, per definire in quale stanza si trova lo sprite `giocatore`.
 
 [[[generic-scratch-add-variable]]]
 
 ![screenshot](images/world-room.png)
 
-+ When the `player` sprite touches the orange door in the first room, the next backdrop should be displayed, and the `player` sprite should move back to the left side of the stage. Add this code inside the `player` sprite's `forever`{:class="blockcontrol"} loop:
++ Quando lo sprite `giocatore` tocca la porta arancione nella prima stanza, bisogna rendere visibile lo sfondo successivo, e lo sprite `giocatore` dove tornare sul lato sinistro della scena. Aggiungi questo codice all'interno del ciclo `per sempre`{:class="blockcontrol"} dello sprite `giocatore`:
 
 ```blocks
-    if < touching color [#F2A24A] > then
-        switch backdrop to [next backdrop v]
-        go to x: (-200) y: (0)
-        change [room v] by (1)
-    end
+    se < sta toccando il colore [#F2A24A] > allora 
+        passa allo sfondo [sfondo successivo v]
+        vai a x: (-200) y: (0)
+        cambia [stanza v] di (1)
+    fine
 ```
 
-+ Add this code to the **start** of your `player` sprite code (above the `forever`{:class="blockcontrol"} loop) to make sure that everything is reset when the flag is clicked:
++ Aggiungi questo codice **all'inizio** del codice del tuo sprite `giocatore` (prima del ciclo `per sempre`{:class="blockcontrol"}), per assicurarti che tutto venga ripristinato quando viene cliccata la bandierina verde:
     
     ```blocks
-        set [room v] to (1)
-        go to x: (-200) y: (0)
-        switch backdrop to [room1 v]
+        porta [stanza v] a (1)
+        vai a x: (-200) y: (0)
+        passa allo sfondo [stanza 1 v]
     ```
 
-+ Click the flag and move your `player` sprite over the orange door. Does your sprite move to the next screen? Does the `room`{:class="blockdata"} variable change to `2`?
++ Fai click sulla bandierina verde e sposta il tuo sprite `giocatore` sopra la porta arancione. Il tuo sprite passa alla schermata successiva? La variabile `stanza`{:class="blockdata"} cambia il proprio valore a `2`?
 
 ![screenshot](images/world-room-test.png)
 
 \--- challenge \---
 
-### Challenge: moving to the previous room
+### Sfida: trasferirsi nella stanza precedente
 
-+ Can you make your `player` sprite move to the previous room when they touch a yellow door? The code you need for this is very similar to the code you've already added for moving to the next room.
++ Riesci a fare in modo che il tuo sprite `giocatore` torni nella stanza precedente dopo aver toccato una porta gialla? Il codice necessario per fare ciò è molto simile al codice che hai già aggiunto per far passare il giocatore alla stanza successiva.
 
 \--- /challenge \---
