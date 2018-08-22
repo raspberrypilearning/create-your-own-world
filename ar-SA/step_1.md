@@ -1,10 +1,10 @@
 ## المقدمة
 
-في هذا المشروع، ستتعلم كيف تُنشئ لعبة مغامرات خاصة بك مليئة بغرف متعددة ليكتشفها الاعب.
+في هذا المشروع، ستتعلم كيف تُنشئ لعبة مغامرات خاصة بك مليئة بغرف متعددة ليسكتشفها الاعب.
 
 ### ما الذي ستصنعه
 
-انقر على العلم الأخضر للبدء. واستخدم مفتاح الأسهم لتحريك شخصيتك في أنحاء العالم.
+انقر على العلم الأخضر للبدء. استخدم مفاتيح الأسهم لتحريك شخصيتك في أنحاء العالم.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
@@ -13,9 +13,9 @@
 
 ### ما الذي ستتعلمه
 
-يحتوي هذا المشروع على عناصر من الصفوف التالية من[ المناهج الرقمية الخاصة بـ Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
+يتناول هذا المشروع عناصر من معايير المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [دمج الإنشاءات البرمجية لحل مشكلة.](https://www.raspberrypi.org/curriculum/programming/builder)
++ [دمج الإنشاءات البرمجية لحل مشكلة.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
 ### معلومات إضافية للمعلمين
 
