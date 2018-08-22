@@ -1,21 +1,21 @@
 \--- challenge \---
 
-## Challenge: extend your world
+## Sfida: espandi il tuo mondo
 
-You can now continue creating your own world! Here are some ideas:
+Ora puoi continuare a creare il tuo mondo! Ecco alcune idee:
 
-+ Change the setting of your game, and change your game graphics
-+ Add sound and music to your game
-+ Add more people, enemies, signs, and coins
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Cambia le impostazioni del gioco e modificane la grafica
++ Aggiungi suoni e musica al tuo gioco
++ Aggiungi più persone, nemici, messaggi e monete
++ Aggiungi porte rosse e gialle e chiavi speciali per aprirle
++ Aggiungi più stanze al tuo mondo
++ Aggiungi altri oggetti utili al tuo gioco
 
-+ Use coins to get information from other people:
++ Usa le monete per ottenere informazioni dalle altre persone:
 
 ![screenshot](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, if you had nine rooms, you could think of them as being in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ Potresti persino aggiungere porte nelle pareti nord e sud della stanza 1, in modo che il giocatore possa spostarsi tra le stanze in tutte e quattro le direzioni. Ad esempio, se avessi nove stanze, potresti disporle come una griglia 3×3. Potresti quindi aggiungere `3` al numero delle stanze per scendere di un livello.
 
 ![screenshot](images/world-north-south.png)
 
