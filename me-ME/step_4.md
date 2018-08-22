@@ -1,10 +1,10 @@
-## Solid walls
+## Čvrsti zidovi
 
-+ Test out your `player` sprite again, and you'll probably notice that they have the ability to walk through the light grey walls.
++ Isprobaj ponovo svoj lik `igrača`. Vjerovatno ćeš primijetiti da može da se kreće kroz svijetlosive zidove.
 
 ![screenshot](images/world-walls.png)
 
-+ To fix this, you should move the `player` sprite back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
++ Da to popraviš, treba da vratiš lik `igrača` nazad kada dodirne svijetlosivi zid. Ovdje je kôd koji treba da dodaš unutar svog bloka `forever`{:class="blockcontrol"} (ponavljaj), ispod blokova za smjer:
 
 ```blocks
     if < touching color [#BABABA]? > then
@@ -12,6 +12,6 @@
     end
 ```
 
-+ Test this new code: move the `player` sprite below the wall, and then see whether you can move them up into it. If your code works, this shouldn't be possible.
++ Isprobaj ovaj novi kôd: pomjeri lik `igrača` ispod zida, a zatim provjeri da li možeš da ga pomjeriš nagore da prođe kroz zid. Ako tvoj kôd funkcioniše, ne bi trebalo da je moguće to uraditi.
 
 ![screenshot](images/world-walls-test.png)
