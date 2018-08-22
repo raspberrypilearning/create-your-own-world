@@ -1,14 +1,14 @@
-## Moving the `player` sprite
+## Pomjeranje lika `igrača`
 
-Let's start by creating a `player` sprite that can move around your world.
+Počnimo tako što ćemo kreirati lik `igrača` koji može da se kreće po tvom svijetu.
 
-+ If you're using Scratch online, open the 'Create your own world' Scratch project at <http://jumpto.cc/world-go>{:target="_blank"}. If you are using Scratch offline, download the project [here](http://jumpto.cc/world-get){:target="_blank"}, and then open it using the offline editor. 
++ Ako koristiš Scratch online, otvori Scratch projekat 'Create your own world' na <http://jumpto.cc/world-go>{:target="_blank"}. Ako koristiš Scratch offline, preuzmi projekat [ovdje](http://jumpto.cc/world-get){:target="_blank"} i otvori ga koristeći offline editor. 
 
 ![screenshot](images/world-starter.png)
 
-The person playing the game will use the arrow keys to move the `player` sprite around. When the person presses the up arrow, you need to tell the `player` sprite to move up in response, so that it moves in the right direction.
+Osoba koja igra igru koristiće tastere sa strelicama za pomjeranje lika `igrača`. Kada osoba pritisne strelicu nagore, treba da kažeš liku `igrača` da odgovori kretanjem prema gore, kako bi se kretao u ispravnom smjeru.
 
-+ Add this code to the `player` sprite:
++ Dodaj ovaj kôd liku `igrača`:
 
 ```blocks
     when flag clicked
@@ -20,11 +20,11 @@ The person playing the game will use the arrow keys to move the `player` sprite 
     end
 ```
 
-+ Test out your `player` sprite by clicking the flag and then holding down the up arrow. Does your `player` sprite move up?
++ Isprobaj lik `igrača` tako što ćeš kliknuti na zastavicu, a zatim držati pritisnutu strelicu nagore. Da li se lik `igrača` kreće nagore?
     
     ![screenshot](images/world-up.png)
 
-+ To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to it:
++ Za pomjeranje lika `igrača` ulijevo, treba da mu dodaš još jedan blok `if`{:class="blockcontrol"} (ako) sa sličnim kôdom:
 
 ```blocks
     when flag clicked
@@ -40,11 +40,11 @@ The person playing the game will use the arrow keys to move the `player` sprite 
     end
 ```
 
-+ Add more code to your `player` sprite so that they can move down and right as well. Use the code you already have to help you.
++ Dodaj još kôda svom liku `igrača`, tako da može da se kreće nadolje i udesno. Kao pomoć, koristi kôd koji već imaš.
 
-\--- hints \--- \--- hint \--- To move up, you pointed the `player` sprite into the direction `0` degrees. What would you have to do to move the sprite down?
+\--- hints \--- \--- hint \--- Da bismo lik `igrača` pomjerali nagore, okrenuli smo ga u smjeru `0` stepeni. Šta bi trebalo da uradiš za pomjeranje lika nadolje?
 
-To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the sprite right? \--- /hint \--- \--- hint \--- You will need to change these two blocks:
+Da bismo lik igrača pomjerali ulijevo, okrenuli smo ga u smjeru `-90` stepeni. Šta bi trebalo da uradiš za pomjeranje lika udesno? \--- /hint \--- \--- hint \--- Treba da izmijeniš ova dva bloka:
 
 ```blocks
 <key [ v] pressed>
@@ -54,6 +54,6 @@ To move left, you pointed the sprite in the direction `-90` degrees. What would 
 point in direction ()
 ```
 
-Duplicate the code you have used to go up, but change these two blocks to make the `player` sprite move down. Do the same for moving right. \--- /hint \--- \--- hint \--- Here is how your code should look:
+Umnoži (duplicate) kôd koji si koristio/koristila za kretanje nagore, ali izmijeni ova dva bloka da napraviš da se lik `igrača` kreće nadolje. Uradi isto za kretanje udesno. \--- /hint \--- \--- hint \--- Ovako treba da izgleda tvoj kôd:
 
-![Moving down and right](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
+![Kretanje nadolje i udesno](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
