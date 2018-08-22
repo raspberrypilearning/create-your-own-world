@@ -1,10 +1,10 @@
 \--- challenge \---
 
-## Challenge: treasure!
+## Sfida: tesoro!
 
-Can you add some treasure for the player to find?
+Sapresti aggiungere un tesoro da far trovare al giocatore?
 
-Make the `treasure chest` sprite appear only in room 3, and have it say 'Well done!' when the `player` sprite touches it.
+Crea lo sprite `tesoro`. Fai in modo che appaia solo nella stanza 3, e dica "Ben fatto!" quando lo sprite `giocatore` lo tocca.
 
 ![screenshot](images/world-treasure.png)
 
