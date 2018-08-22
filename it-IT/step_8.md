@@ -1,40 +1,40 @@
-## People
+## Persone
 
-Let's add other people to your world who your `player` sprite can interact with.
+Aggiungiamo altre persone al tuo mondo con cui il tuo sprite `giocatore` possa interagire.
 
-+ Switch to the `person` sprite.
++ Seleziona lo sprite `persona`.
 
-![Person sprite](images/person-sprite.png)
+![Sprite persona](images/person-sprite.png)
 
-+ Add some code to the `person` sprite, so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
-
-```blocks
-    when flag clicked
-    go to x: (0) y: (-150)
-    forever
-        if < touching [player v]? > then
-            say [Did you know that you can go through orange and yellow doors?]
-        else
-            say []
-        end
-    end
-```
-
-+ You could also allow your `person` sprite to move by adding these two blocks in the `else`{:class="blockcontrol"} section of your code:
++ Aggiungi del codice allo sprite `persona`, per far sì che la persona parli con lo sprite `giocatore`. Questo codice è molto simile al codice che hai aggiunto al tuo sprite `cartello di benvenuto`:
 
 ```blocks
-move (1) steps
-if on edge, bounce
+    quando si clicca su ⚑
+	vai a x: (0) y: (-150)
+	per sempre 
+	  se < sta toccando [giocatore v] > allora 
+		dire [Lo sai che puoi passare attraverso le porte arancioni e gialle?]
+	  altrimenti 
+		dire []
+	  fine
+	fine
 ```
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
++ Puoi anche consentire allo sprite `persona` di spostarsi aggiungendo questi due blocchi nella sezione `altrimenti`{:class="blockcontrol"} del tuo codice:
+
+```blocks
+fai (1) passi
+rimbalza quando tocchi il bordo
+```
+
+Il tuo sprite `persona` ora si muoverà, ma si fermerà per parlare con lo sprite `giocatore`.
 
 ![screenshot](images/world-person-test.png)
 
 \--- challenge \---
 
-### Challenge: improve the person
+### Sfida: migliorare la persona
 
-Can you add code to your new `person` sprite so that they only appear in room 1? Make sure you test out your new code.
+Sapresti aggiungere del codice alla sprite `persona` per far sì che compaia solo nella stanza 1? Assicurati di testare il tuo nuovo codice.
 
 \--- /challenge \---
