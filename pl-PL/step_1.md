@@ -1,24 +1,24 @@
-## Introduction
+## Wprowadzenie
 
-In this project, you'll learn how to create your own adventure game with multiple rooms for the player to explore.
+W tym projekcie dowiesz się, jak stworzyć własną grę przygodową z wieloma pomieszczeniami, które gracz może eksplorować.
 
-### What you will make
+### Co będziesz robił
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Kliknij na zieloną flagę, aby rozpocząć. Użyj klawiszy strzałek, aby poruszać swoją postać w świecie gry.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
   <img src="images/world-final.png">
 </div>
 
-### What you will learn
+### Czego się nauczysz
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Ten projekt obejmuje elementy z następujących wątków z [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Łącz konstrukty programistyczne, aby rozwiązać problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-### Additional information for educators
+### Dodatkowe informacje dla nauczycieli
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the `en/resources` folder.
+Użyj odnośnika w stopce, aby uzyskać dostęp do repozytorium kodu tego projektu w serwisie GitHub, które zawiera wszystkie zasoby (w tym przykład gotowego projektu) w folderze `pl-PL/resources`.
