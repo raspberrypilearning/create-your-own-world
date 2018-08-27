@@ -1,6 +1,6 @@
-## Coding your world
+## Oprogramuj swój świat
 
-Let's allow the `player` sprite to walk through doors into other rooms.
+Pozwólmy duszkowi `gracza` przechodzić przez drzwi do innych pomieszczeń.
 
 Your project contains backdrops for additional rooms:
 
