@@ -15,10 +15,10 @@ Twój projekt zawiera tła dla dodatkowych pokoi:
 + Kiedy duszek `gracza` dotknie pomarańczowych drzwi w pierwszym pomieszczeniu, kolejne tło powinno być wyświetlone, a duszek `gracza` powinien wrócić na lewą stronę sceny. Dodaj ten kod do duszka `gracza` wewnątrz pętli `zawsze`{:class="blockcontrol"}:
 
 ```blocks
-    if < touching color [#F2A24A] > then
-        switch backdrop to [next backdrop v]
-        go to x: (-200) y: (0)
-        change [room v] by (1)
+    jeżeli < dotyka koloru [#F2A24A]?> to 
+        zmień tło na [następne tło v]
+        idź do x: (-200) y: (0)
+        zmień [room v] o (1)        
     end
 ```
 
