@@ -1,10 +1,10 @@
 ## Solidne ściany
 
-+ Test out your `player` sprite again, and you'll probably notice that they have the ability to walk through the light grey walls.
++ Przetestuj duszka `gracza` ponownie, a zapewne zauważysz, że ma zdolność przechodzenia przez jasnoszare ściany.
 
 ![screenshot](images/world-walls.png)
 
-+ To fix this, you should move the `player` sprite back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
++ Aby to naprawić, należy cofnąć duszka `gracza`, jeśli dotyka jasnoszarej ściany. Oto kod, który musisz dodać wewnątrz bloku `zawsze`{:class="blockcontrol"} poniżej bloków kierunku:
 
 ```blocks
     if < touching color [#BABABA]? > to
