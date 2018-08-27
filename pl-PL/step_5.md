@@ -2,17 +2,17 @@
 
 Pozwólmy duszkowi `gracza` przechodzić przez drzwi do innych pomieszczeń.
 
-Your project contains backdrops for additional rooms:
+Twój projekt zawiera tła dla dodatkowych pokoi:
 
 ![screenshot](images/world-backdrops.png)
 
-+ Create a new 'for all sprites' variable called `room`{:class="blockdata"} to keep track of which room the `player` sprite is in.
++ Utwórz nową zmienną 'dla wszystkich duszków' o nazwie `pokój`{:class="blockdata"}, aby śledzić w którym pomieszczeniu znajduje się duszek `gracza`.
 
 [[[generic-scratch-add-variable]]]
 
 ![screenshot](images/world-room.png)
 
-+ When the `player` sprite touches the orange door in the first room, the next backdrop should be displayed, and the `player` sprite should move back to the left side of the stage. Add this code inside the `player` sprite's `forever`{:class="blockcontrol"} loop:
++ Kiedy duszek `gracza` dotknie pomarańczowych drzwi w pierwszym pomieszczeniu, kolejne tło powinno być wyświetlone, a duszek `gracza` powinien wrócić na lewą stronę sceny. Dodaj ten kod do duszka `gracza` wewnątrz pętli `zawsze`{:class="blockcontrol"}:
 
 ```blocks
     if < touching color [#F2A24A] > then
