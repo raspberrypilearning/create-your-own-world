@@ -11,7 +11,7 @@ Osoba grająca w grę będzie używać klawiszy strzałek do poruszania duszkiem
 + Dodaj poniższy kod do duszka `gracza`:
 
 ```blocks
-    kiedy kliknięto flag
+    kiedy kliknięto zieloną flagę
     zawsze        
         jeżeli <klawisz [strzałka w górę v] naciśnięty? > to
             ustaw kierunek na (0)
@@ -27,7 +27,7 @@ Osoba grająca w grę będzie używać klawiszy strzałek do poruszania duszkiem
 + Aby poruszyć duszka `gracza` w lewo, musisz dodać do niego kolejny blok `jeżeli` {:class="blockcontrol"} z podobnym kodem:
 
 ```blocks
-    kiedy kliknięto flag
+    kiedy kliknięto zieloną flagę
     zawsze        
         jeżeli <klawisz [strzałka w górę v] naciśnięty? > to
             ustaw kierunek na (0)
