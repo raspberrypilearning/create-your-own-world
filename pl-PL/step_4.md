@@ -7,9 +7,9 @@
 + To fix this, you should move the `player` sprite back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
 
 ```blocks
-    if < touching color [#BABABA]? > then
-        move (-4) steps
-    end
+    if < touching color [#BABABA]? > to
+         przesuń o (-4) kroków
+     end
 ```
 
 + Test this new code: move the `player` sprite below the wall, and then see whether you can move them up into it. If your code works, this shouldn't be possible.
