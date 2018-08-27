@@ -4,7 +4,7 @@ Zacznijmy od utworzenia duszka `gracza`, który będzie mógł poruszać się po
 
 + Jeżeli używasz Scratcha w wersji online, otwórz projekt 'Stwórz swój własny świat' spod adresu <http://jumpto.cc/world-go>{:target="_blank"}. Jeżeli używasz Scratcha w wersji offline, pobierz projekt [stąd](http://jumpto.cc/world-get){:target="_blank"} i nastepnie otwórz go w edytorze offline. 
 
-![screenshot](images/world-starter.png)
+![zrzut ekranu](images/world-starter.png)
 
 Osoba grająca w grę będzie używać klawiszy strzałek do poruszania duszkiem `gracza`. Kiedy gracz naciśnie strzałkę w górę, musisz przekazać duszkowi `gracza`, aby w odpowiedzi poruszył się we właściwym kierunku.
 
@@ -22,7 +22,7 @@ Osoba grająca w grę będzie używać klawiszy strzałek do poruszania duszkiem
 
 + Przetestuj zachowanie duszka `gracza` klikając na zieloną flagę i wciskając strzałkę w górę. Czy duszek `gracza` porusza się do góry?
     
-    ![screenshot](images/world-up.png)
+    ![zrzut ekranu](images/world-up.png)
 
 + Aby poruszyć duszka `gracza` w lewo, musisz dodać do niego kolejny blok `jeżeli` {:class="blockcontrol"} z podobnym kodem:
 
@@ -56,4 +56,4 @@ ustaw kierunek na ()
 
 Powiel kod, którego używałeś do poruszania się w górę, ale zmień te dwa bloki, aby sprawić, że duszek `gracza` pójdzie w dół. Zrób to samo, aby poruszać się w prawo. \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
 
-![Moving down and right](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
+![Poruszanie się w dół i w prawo](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
