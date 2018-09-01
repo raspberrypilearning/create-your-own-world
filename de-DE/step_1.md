@@ -19,6 +19,6 @@ Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digit
 
 ### Zusätzliche Informationen für Pädagogen
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Wenn Sie dieses Projekt ausdrucken möchten, dann verwenden Sie bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){: target = "_ blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the `en/resources` folder.
+Verwenden Sie den Link in der Fußzeile, um auf das GitHub-Repo für dieses Projekt zuzugreifen, wo alle Ressourcen (mit einem Beispiel für das abgeschlossene Projekt) im Ordner `en/resources` enthalten sind.
