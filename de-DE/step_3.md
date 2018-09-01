@@ -11,13 +11,13 @@ Die Person, die das Spiel spielt, bewegt die Figur des `Spielers` mit den Pfeilt
 + Füge diesen Code der Figur des `Spielers` hinzu:
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
-        end
-    end
+    Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste [Pfeil nach oben v] gedrückt? > dann 
+    setze Richtung auf (0)
+    gehe (4) er-Schritt
+  end
+end
 ```
 
 + Test out your `player` sprite by clicking the flag and then holding down the up arrow. Does your `player` sprite move up?
