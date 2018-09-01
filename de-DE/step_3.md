@@ -13,14 +13,14 @@ Die Person, die das Spiel spielt, bewegt die Figur des `Spielers` mit den Pfeilt
 ```blocks
     Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls <Taste [Pfeil nach oben v] gedrückt? > dann 
+  falls &ltTaste [Pfeil nach oben v] gedrückt?&gt dann 
     setze Richtung auf (0)
     gehe (4) er-Schritt
   end
-end
+end  
 ```
 
-+ Test out your `player` sprite by clicking the flag and then holding down the up arrow. Does your `player` sprite move up?
++ Teste die Figur deines `Spielers`, indem du auf die Flagge klickst und dann den Pfeil nach oben gedrückt hältst. Bewegt sich dein `Spieler` nach oben?
     
     ![screenshot](images/world-up.png)
 
