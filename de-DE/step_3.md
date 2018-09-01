@@ -1,4 +1,4 @@
-## Moving the `player` sprite
+## Die Figur vom `Spieler` bewegen
 
 Let's start by creating a `player` sprite that can move around your world.
 
