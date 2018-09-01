@@ -1,8 +1,8 @@
 ## Die Figur vom `Spieler` bewegen
 
-Let's start by creating a `player` sprite that can move around your world.
+Beginnen wir mit der Programmierung einer `Spieler`-Figur die sich in deiner Welt umher bewegen kann.
 
-+ If you're using Scratch online, open the 'Create your own world' Scratch project at <http://jumpto.cc/world-go>{:target="_blank"}. If you are using Scratch offline, download the project [here](http://jumpto.cc/world-get){:target="_blank"}, and then open it using the offline editor. 
++ Wenn du Scratch online verwendest, öffne das Scratch-Projekt 'Erschaffe deine eigene Welt' hier: <http://jumpto.cc/world-go>{:target="_blank"}. If you are using Scratch offline, download the project [here](http://jumpto.cc/world-get){:target="_blank"}, and then open it using the offline editor. 
 
 ![screenshot](images/world-starter.png)
 
