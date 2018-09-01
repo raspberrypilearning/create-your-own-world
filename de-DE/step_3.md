@@ -6,9 +6,9 @@ Beginnen wir mit der Programmierung einer `Spieler`-Figur die sich in deiner Wel
 
 ![screenshot](images/world-starter.png)
 
-Die Person, die das Spiel spielt, bewegt die Figur des `Spielers` mit den Pfeiltasten herum. When the person presses the up arrow, you need to tell the `player` sprite to move up in response, so that it moves in the right direction.
+Die Person, die das Spiel spielt, bewegt die Figur des `Spielers` mit den Pfeiltasten herum. Wenn die Person den Pfeil nach oben drückt, musst du dem `Spieler` sagen, dass er mit einer Bewegung nach oben reagieren soll, so dass er sich in die richtige Richtung bewegt.
 
-+ Add this code to the `player` sprite:
++ Füge diesen Code der Figur des `Spielers` hinzu:
 
 ```blocks
     when flag clicked
