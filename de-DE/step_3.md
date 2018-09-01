@@ -44,16 +44,16 @@ end
 
 \--- hints \--- \--- hint \--- Um nach oben zu gehen, hast du den `Spieler` in Richtung `0` Grad dirigiert. Was hättest du machen müssen, um die Figur nach unten zu bewegen?
 
-Um nach links zu gehen, hast du die Figur nach ` -90` Grad ausgerichtet. Was hättest du machen müssen, um die Figur nach rechts zu bewegen? \--- /hint \--- \--- hint \--- You will need to change these two blocks:
+Um nach links zu gehen, hast du die Figur nach ` -90` Grad ausgerichtet. Was hättest du machen müssen, um die Figur nach rechts zu bewegen? \--- /hint \--- \--- hint \--- Du musst diese beiden Blöcke ändern:
 
 ```blocks
-<key [ v] pressed>
+<Taste [ v] gedrückt?>
 ```
 
 ```blocks
-point in direction ()
+setze Richtung auf ()
 ```
 
-Duplicate the code you have used to go up, but change these two blocks to make the `player` sprite move down. Do the same for moving right. \--- /hint \--- \--- hint \--- Here is how your code should look:
+Kopiere den Code den du verwendet hast um nach oben zu gehen, aber ändere diese beiden Blöcke damit sich die Figur des `Spielers` nach unten bewegt. Mache das Gleiche um nach rechts zu gehen. \--- /hint \--- \--- hint \--- Here is how your code should look:
 
 ![Moving down and right](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
