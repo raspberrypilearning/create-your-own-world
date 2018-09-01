@@ -4,7 +4,7 @@ Beginnen wir mit der Programmierung einer `Spieler`-Figur die sich in deiner Wel
 
 + Wenn du Scratch online verwendest, öffne das Scratch-Projekt 'Erschaffe deine eigene Welt' hier: <http://jumpto.cc/world-go>{:target="_blank"}. Wenn Du Scratch offline verwendest, kannst du das Projekt [hier](http://jumpto.cc/world-get){:target="_blank"} herunterladen und es dann mit dem offline Editor öffnen. 
 
-![screenshot](images/world-starter.png)
+![Screenshot](images/world-starter.png)
 
 Die Person, die das Spiel spielt, bewegt die Figur des `Spielers` mit den Pfeiltasten herum. Wenn die Person den Pfeil nach oben drückt, musst du dem `Spieler` sagen, dass er mit einer Bewegung nach oben reagieren soll, so dass er sich in die richtige Richtung bewegt.
 
@@ -22,7 +22,7 @@ end
 
 + Teste die Figur deines `Spielers`, indem du auf die Flagge klickst und dann den Pfeil nach oben gedrückt hältst. Bewegt sich dein `Spieler` nach oben?
     
-    ![screenshot](images/world-up.png)
+    ![Screenshot](images/world-up.png)
 
 + Um den `Spieler` nach links zu bewegen, musst du einen weiteren `falls`{:class="blockcontrol"}-Block mit ähnlichem Code hinzufügen:
 
@@ -54,6 +54,6 @@ Um nach links zu gehen, hast du die Figur nach ` -90` Grad ausgerichtet. Was hä
 setze Richtung auf ()
 ```
 
-Kopiere den Code den du verwendet hast um nach oben zu gehen, aber ändere diese beiden Blöcke damit sich die Figur des `Spielers` nach unten bewegt. Mache das Gleiche um nach rechts zu gehen. \--- /hint \--- \--- hint \--- Here is how your code should look:
+Kopiere den Code den du verwendet hast um nach oben zu gehen, aber ändere diese beiden Blöcke damit sich die Figur des `Spielers` nach unten bewegt. Mache das Gleiche um nach rechts zu gehen. \--- /hint \--- \--- hint \--- Dein Code sollte so aussehen:
 
-![Moving down and right](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
+![Sich nach unten und nach rechts bewegen](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
