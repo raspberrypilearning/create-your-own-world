@@ -29,22 +29,22 @@ end
 ```blocks
     Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls &ltTaste [Pfeil nach oben v] gedrückt? &gt dann 
+  falls &ltTaste [Pfeil nach oben v] gedrückt? > dann 
     setze Richtung auf (0)
     gehe (4) er-Schritt
   end
- > then
-            point in direction (-90)
-            move (4) steps
-        end
-    end
+  falls <Taste [Pfeil nach links v] gedrückt? > dann 
+    setze Richtung auf (-90)
+    gehe (4) er-Schritt
+  end
+end
 ```
 
-+ Add more code to your `player` sprite so that they can move down and right as well. Use the code you already have to help you.
++ Füge deinem `Spieler` mehr code hinzu, damit er sich auch nach unten und nach rechts bewegen kann. Verwende den bereits geschriebenen Code als Hilfe.
 
-\--- hints \--- \--- hint \--- To move up, you pointed the `player` sprite into the direction `0` degrees. What would you have to do to move the sprite down?
+\--- hints \--- \--- hint \--- Um nach oben zu gehen, hast du den `Spieler` in Richtung `0` Grad dirigiert. Was hättest du machen müssen, um die Figur nach unten zu bewegen?
 
-To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the sprite right? \--- /hint \--- \--- hint \--- You will need to change these two blocks:
+Um nach links zu gehen, hast du die Figur nach ` -90` Grad ausgerichtet. Was hättest du machen müssen, um die Figur nach rechts zu bewegen? \--- /hint \--- \--- hint \--- You will need to change these two blocks:
 
 ```blocks
 <key [ v] pressed>
