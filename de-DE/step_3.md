@@ -2,11 +2,11 @@
 
 Beginnen wir mit der Programmierung einer `Spieler`-Figur die sich in deiner Welt umher bewegen kann.
 
-+ Wenn du Scratch online verwendest, öffne das Scratch-Projekt 'Erschaffe deine eigene Welt' hier: <http://jumpto.cc/world-go>{:target="_blank"}. If you are using Scratch offline, download the project [here](http://jumpto.cc/world-get){:target="_blank"}, and then open it using the offline editor. 
++ Wenn du Scratch online verwendest, öffne das Scratch-Projekt 'Erschaffe deine eigene Welt' hier: <http://jumpto.cc/world-go>{:target="_blank"}. Wenn Du Scratch offline verwendest, kannst du das Projekt [hier](http://jumpto.cc/world-get){:target="_blank"} herunterladen und es dann mit dem offline Editor öffnen. 
 
 ![screenshot](images/world-starter.png)
 
-The person playing the game will use the arrow keys to move the `player` sprite around. When the person presses the up arrow, you need to tell the `player` sprite to move up in response, so that it moves in the right direction.
+Die Person, die das Spiel spielt, bewegt die Figur des `Spielers` mit den Pfeiltasten herum. When the person presses the up arrow, you need to tell the `player` sprite to move up in response, so that it moves in the right direction.
 
 + Add this code to the `player` sprite:
 
