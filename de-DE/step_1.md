@@ -1,23 +1,23 @@
-## Introduction
+## Einleitung
 
-In this project, you'll learn how to create your own adventure game with multiple rooms for the player to explore.
+In diesem Projekt lernst du, wie du dein eigenes Abenteuerspiel programmieren kannst - mit mehreren Räumen, die der Spieler erkunden kann.
 
-### What you will make
+### Was du machen wirst
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Klicke zum Starten auf die grüne Flagge. Benutze die Pfeiltasten, um deinen Charakter in der Welt zu bewegen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
   <img src="images/world-final.png">
 </div>
 
-### What you will learn
+### Was du lernen wirst
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+Dieses Projekt umfasst Elemente aus den folgenden Themen des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
++ [Kombinieren von grundlegenden Programmierstrukturen um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
 
-### Additional information for educators
+### Zusätzliche Informationen für Pädagogen
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
