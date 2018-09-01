@@ -1,7 +1,7 @@
 ---
 hero_image: images/create-your-own-world.png
-title: Erstelle deine eigene Welt
-description: Lerne, wie du dein eigenes Open-World Abenteuerspiel erstellen kannst.
+title: Erschaffe deine eigene Welt
+description: Lerne, wie du dein eigenes Open-World Abenteuerspiel programmieren kannst.
 original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
 theme: orange
 duration: 2
@@ -18,7 +18,7 @@ version: 4
 last_tested: 2017-01-01
 steps:
   - 
-    title: Einführung
+    title: Einleitung
   - 
     title: Programmiere deinen Spieler
   - 
@@ -32,12 +32,12 @@ steps:
   - 
     title: 'Türen und Schlüssel'
   - 
-    title: People
+    title: Leute
   - 
-    title: 'Challenge: enemies'
+    title: 'Herausforderung: Feinde'
   - 
-    title: Collecting coins
+    title: Münzen sammeln
   - 
-    title: Doors and keys
+    title: Türen und Schlüssel
   - 
-    title: 'Challenge: extend your world'
+    title: 'Herausforderung: Erweitere deine Welt'
