@@ -24,16 +24,16 @@ end
     
     ![screenshot](images/world-up.png)
 
-+ To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to it:
++ Um den `Spieler` nach links zu bewegen, musst du einen weiteren `falls`{:class="blockcontrol"}-Block mit ähnlichem Code hinzufügen:
 
 ```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
-        end
-        if <key [left arrow v] pressed? > then
+    Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls &ltTaste [Pfeil nach oben v] gedrückt? &gt dann 
+    setze Richtung auf (0)
+    gehe (4) er-Schritt
+  end
+ > then
             point in direction (-90)
             move (4) steps
         end
