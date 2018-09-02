@@ -4,13 +4,13 @@ Pozwólmy duszkowi `gracza` przechodzić przez drzwi do innych pomieszczeń.
 
 Twój projekt zawiera tła dla dodatkowych pokoi:
 
-![screenshot](images/world-backdrops.png)
+![zrzut ekranu](images/world-backdrops.png)
 
 + Utwórz nową zmienną 'dla wszystkich duszków' o nazwie `pokój`{:class="blockdata"}, aby śledzić w którym pomieszczeniu znajduje się duszek `gracza`.
 
 [[[generic-scratch-add-variable]]]
 
-![screenshot](images/world-room.png)
+![zrzut ekranu](images/world-room.png)
 
 + Kiedy duszek `gracza` dotknie pomarańczowych drzwi w pierwszym pomieszczeniu, kolejne tło powinno być wyświetlone, a duszek `gracza` powinien wrócić na lewą stronę sceny. Dodaj ten kod do duszka `gracza` wewnątrz pętli `zawsze`{:class="blockcontrol"}:
 
@@ -32,12 +32,12 @@ Twój projekt zawiera tła dla dodatkowych pokoi:
 
 + Kliknij flagę i przejdź duszkiem `gracza` przez pomarańczowe drzwi. Czy twój duszek przechodzi do następnego ekranu? Czy zmienna `pokój` {:class="blockdata"} zmienia się na `2`?
 
-![screenshot](images/world-room-test.png)
+![zrzut ekranu](images/world-room-test.png)
 
 \--- challenge \---
 
 ### Wyzwanie: przejście do poprzedniego pokoju
 
-+ Czy potrafisz wrócić duszkiem swojego `gracza` do poprzedniego pokoju, kiedy dotknie on żółtych drzwi? The code you need for this is very similar to the code you've already added for moving to the next room.
++ Czy potrafisz wrócić duszkiem swojego `gracza` do poprzedniego pokoju, kiedy dotknie on żółtych drzwi? Kod potrzebny do tego jest bardzo podobny do kodu, który już dodałeś, aby przejść do następnego pokoju.
 
 \--- /challenge \---
