@@ -1,12 +1,12 @@
-## Signs
+## Znaki
 
-Let's add signs to your world to guide the player on their journey.
+Dodajmy znaki do twojego świata, aby poprowadzić gracza w jego podróży.
 
-+ Your project includes a `welcome sign` sprite:
++ Twój projekt zawiera duszka `znak-powitanie`:
 
 ![screenshot](images/world-sign.png)
 
-+ The `welcome sign` sprite should only be visible in room 1, so add some code to the `welcome sign` sprite to make sure that this happens:
++ Duszek `znak-powitanie` powinien być widoczny tylko w pokoju 1, więc dodajmy kod do duszka `znak-powitanie`, aby mieć pewność, że tak się stanie:
 
 ```blocks
     when flag clicked
