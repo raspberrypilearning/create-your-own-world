@@ -2,10 +2,10 @@
 
 ## Wyzwanie: skarb!
 
-Can you add some treasure for the player to find?
+Czy możesz dodać jakiś skarb do odnalezienia przez gracza?
 
-Make the `treasure chest` sprite appear only in room 3, and have it say 'Well done!' when the `player` sprite touches it.
+Spraw, aby duszek `skrzynia` pojawił się tylko w pokoju 3 i powinien powiedzieć "Dobra robota!", kiedy duszek `gracza` go dotknie.
 
-![screenshot](images/world-treasure.png)
+![zrzut ekranu](images/world-treasure.png)
 
 \--- /challenge \---
