@@ -1,6 +1,6 @@
 \--- challenge \---
 
-## Challenge: treasure!
+## Wyzwanie: skarb!
 
 Can you add some treasure for the player to find?
 
