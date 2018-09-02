@@ -9,21 +9,21 @@ Dodajmy znaki do twojego świata, aby poprowadzić gracza w jego podróży.
 + Duszek `znak-powitanie` powinien być widoczny tylko w pokoju 1, więc dodajmy kod do duszka `znak-powitanie`, aby mieć pewność, że tak się stanie:
 
 ```blocks
-    when flag clicked
-    forever
-        if < (room) = [1] > then
-            show
-        else
-            hide
+    kiedy kliknięto zieloną flagę
+    zawsze 
+        jeżeli <(pokój) = [1]> to 
+            pokaż
+        w przeciwnym razie
+            ukryj
         end
     end
 ```
 
-+ Test your `welcome sign` sprite by moving between rooms. Your sign should only be visible in room 1.
++ Przetestuj duszka `znak-powitanie` przemieszczając się między pokojami. Twój znak powinien być widoczny tylko w pokoju 1.
     
     ![screenshot](images/world-sign-test.png)
 
-+ A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
++ Znak nie jest zbyt dobry, jeśli nic nie mówi! Dodaj więcej kodu, aby wyświetlić wiadomość, jeśli duszek `znak-powitanie` dotknie duszka `gracza`:
 
 ```blocks
     when flag clicked
