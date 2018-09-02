@@ -18,7 +18,7 @@ Twój projekt zawiera tła dla dodatkowych pokoi:
     jeżeli < dotyka koloru [#F2A24A]?> to 
         zmień tło na [następne tło v]
         idź do x: (-200) y: (0)
-        zmień [room v] o (1)        
+        zmień [pokój v] o (1)        
     end
 ```
 
