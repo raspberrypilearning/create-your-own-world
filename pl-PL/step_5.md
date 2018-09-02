@@ -22,22 +22,22 @@ Twój projekt zawiera tła dla dodatkowych pokoi:
     end
 ```
 
-+ Add this code to the **start** of your `player` sprite code (above the `forever`{:class="blockcontrol"} loop) to make sure that everything is reset when the flag is clicked:
++ Dodaj ten kod na **początku** kodu twojego duszka `gracza` (powyżej pętli `zawsze`{:class="blockcontrol"}), aby mieć pewność, że wszystko zostanie ustawione od nowa po kliknięciu flagi:
     
     ```blocks
-        set [room v] to (1)
-        go to x: (-200) y: (0)
-        switch backdrop to [room1 v]
+        ustaw [pokój v] na (1)
+        idź do x: (-200) y: (0)
+        zmień tło na [pokój1 v]
     ```
 
-+ Click the flag and move your `player` sprite over the orange door. Does your sprite move to the next screen? Does the `room`{:class="blockdata"} variable change to `2`?
++ Kliknij flagę i przejdź duszkiem `gracza` przez pomarańczowe drzwi. Czy twój duszek przechodzi do następnego ekranu? Czy zmienna `pokój` {:class="blockdata"} zmienia się na `2`?
 
 ![screenshot](images/world-room-test.png)
 
 \--- challenge \---
 
-### Challenge: moving to the previous room
+### Wyzwanie: przejście do poprzedniego pokoju
 
-+ Can you make your `player` sprite move to the previous room when they touch a yellow door? The code you need for this is very similar to the code you've already added for moving to the next room.
++ Czy potrafisz wrócić duszkiem swojego `gracza` do poprzedniego pokoju, kiedy dotknie on żółtych drzwi? The code you need for this is very similar to the code you've already added for moving to the next room.
 
 \--- /challenge \---
