@@ -44,7 +44,7 @@ end
 
 \--- hints \--- \--- hint \--- Um nach oben zu gehen, hast du den `Spieler` in Richtung `0` Grad dirigiert. Was hättest du machen müssen, um die Figur nach unten zu bewegen?
 
-Um nach links zu gehen, hast du die Figur nach ` -90` Grad ausgerichtet. Was hättest du machen müssen, um die Figur nach rechts zu bewegen? \--- /hint \--- \--- hint \--- Du musst diese beiden Blöcke ändern:
+Um nach links zu gehen, muss die Figur in Richtung ` -90` Grad zeigen. Was hättest du machen müssen, um die Figur nach rechts zu bewegen? \--- /hint \--- \--- hint \--- Du musst diese beiden Blöcke ändern:
 
 ```blocks
 <Taste [ v] gedrückt?>
