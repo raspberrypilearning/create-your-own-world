@@ -8,16 +8,16 @@ Beginnen wir mit der Programmierung einer `Spieler`-Figur die sich in deiner Wel
 
 Die Person, die das Spiel spielt, bewegt die Figur des `Spielers` mit den Pfeiltasten herum. Wenn die Person den Pfeil nach oben drückt, musst du dem `Spieler` sagen, dass er mit einer Bewegung nach oben reagieren soll, so dass er sich in die richtige Richtung bewegt.
 
-+ Füge diesen Code der Figur des `Spielers` hinzu:
++ Füge diesen Code zu der Figur des `Spielers` hinzu:
 
 ```blocks
     Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls &ltTaste [Pfeil nach oben v] gedrückt?&gt dann 
+  falls &ltTaste [Pfeil nach oben v] gedrückt? > dann 
     setze Richtung auf (0)
     gehe (4) er-Schritt
   end
-end  
+end
 ```
 
 + Teste die Figur deines `Spielers`, indem du auf die Flagge klickst und dann den Pfeil nach oben gedrückt hältst. Bewegt sich dein `Spieler` nach oben?
@@ -54,6 +54,6 @@ Um nach links zu gehen, muss die Figur in Richtung ` -90` Grad zeigen. Was hätt
 setze Richtung auf ()
 ```
 
-Kopiere den Code den du verwendet hast um nach oben zu gehen, aber ändere diese beiden Blöcke damit sich die Figur des `Spielers` nach unten bewegt. Mache das Gleiche um nach rechts zu gehen. \--- /hint \--- \--- hint \--- Dein Code sollte so aussehen:
+Kopiere den Code, den du verwendet hast, um nach oben zu gehen, aber ändere diese beiden Blöcke damit sich die Figur des `Spielers` nach unten bewegt. Mache das Gleiche um nach rechts zu gehen. \--- /hint \--- \--- hint \--- Dein Code sollte so aussehen:
 
 ![Sich nach unten und nach rechts bewegen](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
