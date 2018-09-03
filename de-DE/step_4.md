@@ -1,4 +1,4 @@
-## Solid walls
+## Massive Wände
 
 + Test out your `player` sprite again, and you'll probably notice that they have the ability to walk through the light grey walls.
 
