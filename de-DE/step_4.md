@@ -1,6 +1,6 @@
 ## Massive Wände
 
-+ Test out your `player` sprite again, and you'll probably notice that they have the ability to walk through the light grey walls.
++ Prüfe deine `Spieler`-Figur, und du siehst wahrscheinlich, dass sie die Fähigkeit besitzt, durch die hellgrauen Wände hindurchzugehen.
 
 ![Screenshot](images/world-walls.png)
 
