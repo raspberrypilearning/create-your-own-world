@@ -4,12 +4,12 @@
 
 ![Screenshot](images/world-walls.png)
 
-+ To fix this, you should move the `player` sprite back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
++ Um dies zu beheben, solltest du den `Spieler` zurückbewegen, wenn er eine hellgraue Wand berührt. Hier ist der Code, den du innerhalb des `wiederhole fortlaufend`{:class="blockcontrol"} -Blocks unter den Richtungs-Blöcken hinzufügen musst:
 
 ```blocks
-    if < touching color [#BABABA]? > then
-        move (-4) steps
-    end
+    falls < wird Farbe [#BABABA] berührt? > dann 
+  gehe (-4) er-Schritt
+end
 ```
 
 + Test this new code: move the `player` sprite below the wall, and then see whether you can move them up into it. If your code works, this shouldn't be possible.
