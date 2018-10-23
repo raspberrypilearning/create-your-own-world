@@ -11,11 +11,15 @@ steps:
 - title: Solid walls
 - title: Coding your world
 - title: "Challenge: moving to the previous room"
+  challenge: true
 - title: Signs
 - title: "Challenge: treasure!"
+  challenge: true
 - title: People
 - title: "Challenge: enemies"
+  challenge: true
 - title: Collecting coins
 - title: Doors and keys
 - title: "Challenge: extend your world"
+  challenge: true
 - title: "What next?"

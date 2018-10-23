@@ -2,7 +2,6 @@
 
 Let's start by creating a `player` sprite that can move around your world.
 
-
 --- task ---
 If you're using Scratch online, open the 'Create your own world' Scratch project at [http://rpf.io/p/en/on](http://rpf.io/p/en/on){:target="_blank"}.
 
