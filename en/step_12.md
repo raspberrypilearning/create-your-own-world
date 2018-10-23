@@ -1,14 +1,14 @@
 ## Challenge: extend your world
-You can now continue creating your own world! Here are some ideas:
 
-+ Can you add more coins to your game in different rooms?
-+ Can you add some coins could even be guarded by patrolling enemies?
-+ Change the setting of your game, and change your game graphics
-+ Add sound and music to your game
-+ Add more people, enemies, signs, and coins
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
+- You can now continue creating your own world! Here are some ideas:
+  + Can you add more coins to your game in different rooms?
+  + Can you add some coins could even be guarded by patrolling enemies?
+  + Change the setting of your game, and change your game graphics
+  + Add sound and music to your game
+  + Add more people, enemies, signs, and coins
+  + Add red and yellow doors, and special keys to open them
+  + Add more rooms to your world
+  + Add other useful items to your game
 
 + Use coins to get information from other people:
 
