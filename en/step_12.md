@@ -1,4 +1,6 @@
---- challenge ---
+## Challenge: more coins
+Can you add more coins to your game? They can be in different rooms, and some coins could even be guarded by patrolling enemies!
+
 ## Challenge: extend your world
 You can now continue creating your own world! Here are some ideas:
 
@@ -16,5 +18,3 @@ You can now continue creating your own world! Here are some ideas:
 + You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, if you had nine rooms, you could think of them as being in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
 ![screenshot](images/world-north-south.png)
-
---- /challenge ---

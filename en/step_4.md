@@ -1,17 +1,98 @@
-## Solid walls
+## Coding your world
 
-+ Test out your `player` sprite again, and you'll probably notice that they have the ability to walk through the light grey walls.
+Let's allow the `player` sprite to walk through doors into other rooms.
 
-![screenshot](images/world-walls.png)
+Your project contains backdrops for additional rooms:
 
-+ To fix this, you should move the `player` sprite back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
+![screenshot](images/world-backdrops.png)
+
+--- task ---
+Create a new 'for all sprites' variable called `room`{:class="blockdata"} to keep track of which room the `player` sprite is in.
+
+[[[generic-scratch-add-variable]]]
+
+![screenshot](images/world-room.png)
+--- /task ---
+
+--- task ---
+When the `player` sprite touches the orange door in the first room, the next backdrop should be displayed, and the `player` sprite should move back to the left side of the stage. Add this code inside the `player` sprite's `forever`{:class="blockcontrol"} loop:
+
+![player](images/player.png)
 
 ```blocks
-	if < touching color [#BABABA]? > then
-		move (-4) steps
+when flag clicked
+forever
+	if <key [up arrow v] pressed? > then
+		point in direction (0)
+		move (4) steps
 	end
+	if <key [left arrow v] pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key [down arrow v] pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key [right arrow v] pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
++	if < touching color [#F2A24A] > then
+	switch backdrop to [next backdrop v]
+	go to x: (-200) y: (0)
+	change [room v] by (1)
+	end
+end
 ```
+--- /task ---
 
-+ Test this new code: move the `player` sprite below the wall, and then see whether you can move them up into it. If your code works, this shouldn't be possible.
+--- task ---
+Add this code to the **start** of your `player` sprite code (above the `forever`{:class="blockcontrol"} loop) to make sure that everything is reset when the flag is clicked:
 
-![screenshot](images/world-walls-test.png)
+![player](images/player.png)
+
+```blocks
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to [room1 v]
+forever
+	if <key [up arrow v] pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key [left arrow v] pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key [down arrow v] pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key [right arrow v] pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
+	if < touching color [#F2A24A] > then
+	switch backdrop to [next backdrop v]
+	go to x: (-200) y: (0)
+	change [room v] by (1)
+end
+end
+```
+--- /task ---
+
+--- task ---
+Click the flag and move your `player` sprite over the orange door. Does your sprite move to the next screen? Does the `room`{:class="blockdata"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+--- /task ---
+
+

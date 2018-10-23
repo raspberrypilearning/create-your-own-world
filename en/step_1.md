@@ -3,22 +3,53 @@
 In this project, you'll learn how to create your own adventure game with multiple rooms for the player to explore.
 
 ### What you will make
-
+--- no-print ---
 Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
   <img src="images/world-final.png">
 </div>
+--- /no-print ---
 
-### What you will learn
+--- print-only ---
+You'll be able to use the arrow keys to move your character aroudn your world.
+![showcase.png](images/showcase.png)
+--- /print-only ---
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+--- collapse ---
+---
+title: What you will need
+---
+### Hardware
 
-+ [Combine programming constructs to solve a problem.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+A computer capable of running Scratch 2.0
 
-### Additional information for educators
+### Software
 
+Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
+
+### Downloads
+
+You can find everything you need to complete this project at [rpf.io/p/create-your-own-world/go](rpf.io/p/create-your-own-world/go)
+--- /collapse ---
+
+--- collapse ---
+---
+title: What you will learn
+---
+1.
+2.
+3.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Additional information for educators
+---
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-Use the link in the footer to access the GitHub repo for this project, which contains all resources (including an example finished project) in the `en/resources` folder.
+You can find the solutions to this project at [rpf.io/p/create-your-own-world/get](rpf.io/p/create-your-own-world/get)
+--- /collapse ---
+

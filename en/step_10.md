@@ -2,32 +2,43 @@
 
 As your `player` sprite moves through the world, they can collect coins.
 
-+ Add a new variable valled `coins`{:class="blockdata"} to your project.
+--- task ---
+Add a new variable valled `coins`{:class="blockdata"} to your project.
+--- /task ---
 
-+ Right-click on the `coin` sprite and choose **show**.
+--- task ---
+Right-click on the `coin` sprite and choose **show**.
 
 ![screenshot](images/world-coins.png)
+--- /task ---
 
-+ Add code to your `coin` sprite so that it only appears in room 1.
+--- task ---
+Add code to your `coin` sprite so that it only appears in room 1.
+--- /task ---
 
-+ Add code to your `coin` sprite so that `1` is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-	```blocks
-		when flag clicked
-		wait until <touching [player v]?>
-		change [coins v] by (1)
-		stop [other scripts in sprite v]
-		hide
-	```
+--- task ---
 
-	The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+Add code to your `coin` sprite so that `1` is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-+ You'll also need to add code to set your `coins`{:class="blockdata"} variable to `0` at the start of your game.
+![coin](images/coin.png)
 
-+ Test your project — collecting a coin should change your `coins` score to `1`.
+```blocks
+when flag clicked
+wait until <touching [player v]?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
+```
 
---- challenge ---
-### Challenge: more coins
-Can you add more coins to your game? They can be in different rooms, and some coins could even be guarded by patrolling enemies!
+The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+--- /task ---
 
---- /challenge ---
+--- task ---
+You'll also need to add code to set your `coins`{:class="blockdata"} variable to `0` at the start of your game.
+--- /task ---
+
+--- task ---
+Test your project — collecting a coin should change your `coins` score to `1`.
+--- /task ---
+

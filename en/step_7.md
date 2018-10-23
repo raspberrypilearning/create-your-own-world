@@ -1,4 +1,3 @@
---- challenge ---
 ## Challenge: treasure!
 
 Can you add some treasure for the player to find?
@@ -7,4 +6,3 @@ Make the `treasure chest` sprite appear only in room 3, and have it say 'Well do
 
 ![screenshot](images/world-treasure.png)
 
---- /challenge ---
