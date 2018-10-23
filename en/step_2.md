@@ -52,23 +52,6 @@ Test out your `player` sprite by clicking the flag and then holding down the up 
 
 To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to it:
 
---- hints --- --- hint ---
-You can use the same code you have above, but this time use the `key left arrow pressed?`{:class="blocksensing"} and set the direction to `-90`{:class="blockmovement"}
---- /hint --- --- hint ---
-Here are the new blocks you will need
-![player](images/player.png)
-```blocks
-if < > then
-end
-
-move (4) steps
-
-point in direction (-90)
-
-<key [left arrow v] pressed? >
-
-```
---- /hint --- --- hint ---
 ![player](images/player.png)
 
 ```blocks
@@ -78,14 +61,13 @@ forever
 		point in direction (0)
 		move (4) steps
 	end
-+	if <key [left arrow v] pressed? > then
+	if <key [left arrow v] pressed? > then
 		point in direction (-90)
 		move (4) steps
 	end
 end
 ```
 
---- /hint --- --- /hints ---
 --- /task ---
 
 --- task ---

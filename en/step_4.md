@@ -51,7 +51,27 @@ end
 --- /task ---
 
 --- task ---
-Add this code to the **start** of your `player` sprite code (above the `forever`{:class="blockcontrol"} loop) to make sure that everything is reset when the flag is clicked:
+At the start of the game the room, cahracter position and backdrop need to be rest.
+
+Add this code to the **start** of your `player` sprite code above the `forever`{:class="blockcontrol"} loop, to make sure that everything is reset when the flag is clicked:
+
+--- hints --- --- hint ---
+When the game starts, you want the `room`{:class="blockdata"} to be set to `1`{:class="blockdata"}.
+You also want the `backdrop`{:class="blocklooks"} to be set to `room1`{:class="blocklooks"} and the position of the character to be set to `x: -200 y: 0`{:class="blockmotion"}
+--- /hint --- --- hint ---
+Here are the extra blocks you need
+
+![player](images/player.png)
+
+```blocks
+go to x: (-200) y: (0)
+
+set [room v] to (1)
+
+switch backdrop to [room1 v]
+```
+--- /hint --- --- hint ---
+Here's what your finished script should look like.
 
 ![player](images/player.png)
 
@@ -87,6 +107,8 @@ forever
 end
 end
 ```
+--- /hint --- --- /hints ---
+
 --- /task ---
 
 --- task ---
