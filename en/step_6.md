@@ -27,6 +27,7 @@ end
 < (room) = [1] >
 
 hide
+
 show
 
 forever
