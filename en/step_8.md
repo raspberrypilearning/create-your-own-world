@@ -51,3 +51,6 @@ Your `person` sprite will now move, but will stop to talk to the `player` sprite
 
 ![screenshot](images/world-person-test.png)
 
+--- task ---
+Add code to your new `person` sprite so that they only appear in room 1? Make sure you test out your new code. It's exactly the same code as you used to make sure the sign was only visible in room 1.
+--- /task ---

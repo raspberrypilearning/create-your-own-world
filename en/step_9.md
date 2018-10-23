@@ -1,7 +1,3 @@
-## Challenge: improve the person
-
-Can you add code to your new `person` sprite so that they only appear in room 1? Make sure you test out your new code.
-
 ## Challenge: add an enemy
 
 You could also add in patrolling enemies. If the player touches an enemy, the game ends.
@@ -17,7 +13,7 @@ You could also add in patrolling enemies. If the player touches an enemy, the ga
 	+ It patrols the room
 	+ The game ends if the `player` sprite touches it
 
-## Challenge: more enemies
+
 Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
 ![screenshot](images/world-enemy2.png)

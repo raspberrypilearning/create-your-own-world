@@ -42,9 +42,10 @@ You can find everything you need to complete this project at [rpf.io/p/create-yo
 ---
 title: What you will learn
 ---
-1.
-2.
-3.
+1. Use conditional selection to act upon key presses
+2. Use variables to store a game's state
+3. Use conditional selection based upon the value of a variable
+4. Use lists to store data
 
 --- /collapse ---
 
@@ -54,7 +55,7 @@ title: Additional information for educators
 ---
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the solutions to this project at [rpf.io/p/create-your-own-world/get](rpf.io/p/create-your-own-world/get)
+You can find the solutions to this project at [rpf.io/p/create-your-own-world/get](rpf.io/p/create-your-own-world/get).
 
 --- /collapse ---
 
