@@ -1,9 +1,8 @@
-## Challenge: more coins
-Can you add more coins to your game? They can be in different rooms, and some coins could even be guarded by patrolling enemies!
-
 ## Challenge: extend your world
 You can now continue creating your own world! Here are some ideas:
 
++ Can you add more coins to your game in different rooms?
++ Can you add some coins could even be guarded by patrolling enemies?
 + Change the setting of your game, and change your game graphics
 + Add sound and music to your game
 + Add more people, enemies, signs, and coins
