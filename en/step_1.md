@@ -4,17 +4,21 @@ In this project, you'll learn how to create your own adventure game with multipl
 
 ### What you will make
 --- no-print ---
+
 Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
   <img src="images/world-final.png">
 </div>
+
 --- /no-print ---
 
 --- print-only ---
+
 You'll be able to use the arrow keys to move your character aroudn your world.
 ![showcase.png](images/showcase.png)
+
 --- /print-only ---
 
 --- collapse ---
@@ -51,5 +55,6 @@ title: Additional information for educators
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
 You can find the solutions to this project at [rpf.io/p/create-your-own-world/get](rpf.io/p/create-your-own-world/get)
+
 --- /collapse ---
 
