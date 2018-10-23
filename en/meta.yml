@@ -2,7 +2,6 @@ hero_image: images/create-your-own-world.png
 title: Create your own world
 description: Learn how to create your own open-world adventure game.
 listed: true
-ingredient: false
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
@@ -13,10 +12,10 @@ steps:
 - title: Coding your world
 - title: "Challenge: moving to the previous room"
 - title: Signs
-- title: 'Challenge: treasure!'
+- title: "Challenge: treasure!"
 - title: People
-- title: 'Challenge: enemies'
+- title: "Challenge: enemies"
 - title: Collecting coins
 - title: Doors and keys
-- title: 'Challenge: extend your world'
-- title: 'What next?'
+- title: "Challenge: extend your world"
+- title: "What next?"
