@@ -2,11 +2,9 @@
 
 Let's add signs to your world to guide the player on their journey.
 
---- task ---
 Your project includes a `welcome sign` sprite:
 
 ![screenshot](images/world-sign.png)
---- /task ---
 
 --- task ---
 The `welcome sign` sprite should only be visible in room 1, so add some code to the `welcome sign` sprite to make sure that this happens:

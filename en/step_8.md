@@ -5,7 +5,7 @@ Let's add other people to your world who your `player` sprite can interact with.
 --- task ---
 Switch to the `person` sprite.
 
-![Person sprite](images/person-sprite.png)
+![Person sprite](images/person.png)
 --- /task ---
 
 --- task ---

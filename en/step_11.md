@@ -22,7 +22,7 @@ Add code to the `key` sprite to make sure that it is only visible in room 3.
 --- /task ---
 
 --- task ---
-Create a new list variable called `inventory`{:class="blockdata"}. This will be where you store all of the items your `player` sprite collects.
+Create a new list called `inventory`{:class="blockdata"}. This will be where you store all of the items your `player` sprite collects.
 
 [[[generic-scratch-make-list]]]
 --- /task ---
@@ -67,7 +67,7 @@ The `door-blue` sprite should hide to allow your `player` sprite to pass once yo
 
 ```blocks
 when flag clicked
-wait until <[inventory v] contains [blue key]>
+wait until <[inventory v] contains [blue key]?>
 stop [other scripts in sprite v]
 hide
 ```

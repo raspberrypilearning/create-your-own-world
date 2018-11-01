@@ -51,9 +51,9 @@ end
 --- /task ---
 
 --- task ---
-At the start of the game the room, cahracter position and backdrop need to be rest.
+At the start of the game the room, character position and backdrop need to be reset.
 
-Add this code to the **start** of your `player` sprite code above the `forever`{:class="blockcontrol"} loop, to make sure that everything is reset when the flag is clicked:
+Add code to the **start** of your `player` sprite code above the `forever`{:class="blockcontrol"} loop, to make sure that everything is reset when the flag is clicked:
 
 --- hints --- --- hint ---
 When the game starts, you want the `room`{:class="blockdata"} to be set to `1`{:class="blockdata"}.
