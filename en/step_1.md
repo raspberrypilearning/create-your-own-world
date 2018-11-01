@@ -8,7 +8,7 @@ In this project, you'll learn how to create your own adventure game with multipl
 Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0"></iframe>
   <img src="images/world-final.png">
 </div>
 
@@ -16,7 +16,7 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 --- print-only ---
 
-You'll be able to use the arrow keys to move your character aroudn your world.
+You'll be able to use the arrow keys to move your character around your world.
 ![showcase.png](images/showcase.png)
 
 --- /print-only ---
@@ -31,8 +31,8 @@ A computer capable of running Scratch 2.0
 
 ### Software
 
-Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/){:target="_blank"} or [offline](https://scratch.mit.edu/scratch2download/){:target="_blank"})
-
+Scratch 2.0 (either [online](http://rpf.io/scratch-new){:target="_blank"} or [offline](http://rpf.io/scratch-off){:target="_blank"})
+ 
 ### Downloads
 
 You can find everything you need to complete this project at [rpf.io/p/create-your-own-world/go](rpf.io/p/create-your-own-world/go)
@@ -42,10 +42,10 @@ You can find everything you need to complete this project at [rpf.io/p/create-yo
 ---
 title: What you will learn
 ---
-1. Use conditional selection to act upon key presses
-2. Use variables to store a game's state
-3. Use conditional selection based upon the value of a variable
-4. Use lists to store data
+- Use conditional selection to act upon key presses
+- Use variables to store a game's state
+- Use conditional selection based upon the value of a variable
+- Use lists to store data
 
 --- /collapse ---
 

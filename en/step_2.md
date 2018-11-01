@@ -1,19 +1,23 @@
-## Moving the `player` sprite
+## Moving the player sprite
 
-Let's start by creating a `player` sprite that can move around your world.
-
---- task ---
+--- task ---Let's start by creating a `player` sprite that can move around your world. Open the starter project
 
 --- collapse ---
 ---
-title: Starting your project
+itle: I'm using Scratch online
 ---
 
-If you're using Scratch online, open the 'Create your own world' Scratch project at [http://rpf.io/p/en/on](http://rpf.io/p/en/on){:target="_blank"}.
+- If you're using Scratch online, open the 'Create your own world' Scratch project at [http://rpf.io/p/en/on](http://rpf.io/p/en/on){:target="_blank"}.
+- If you have a Scratch account, you can click on Remix in the top right-hand corner to save a copy of the project to your account.
+--- /collapse ---
 
+--- collapse ---
+
+---
+title: I'm using Scratch offline
+---
 If you are using Scratch offline, download the project [http://rpf.io/p/en/off](http://rpf.io/p/en/off){:target="_blank"}, and then open it using the 
 offline editor.
-
 --- /collapse ---
 
 ![screenshot](images/world-starter.png)
@@ -61,7 +65,7 @@ forever
 		point in direction (0)
 		move (4) steps
 	end
-	if <key [left arrow v] pressed? > then
+	+if <key [left arrow v] pressed? > then
 		point in direction (-90)
 		move (4) steps
 	end
@@ -109,11 +113,11 @@ forever
 		point in direction (-90)
 		move (4) steps
 	end
-+		if <key [down arrow v] pressed? > then
-		point in direction (-180)
+    +if <key [down arrow v] pressed? > then
+		point in direction (180)
 		move (4) steps
 	end
-+		if <key [right arrow v] pressed? > then
+    +if <key [right arrow v] pressed? > then
 		point in direction (90)
 		move (4) steps
 	end
