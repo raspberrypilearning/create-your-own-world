@@ -1,30 +1,22 @@
-## Moving the player sprite
+## Move the player sprite
 
---- task ---Let's start by creating a `player` sprite that can move around your world. Open the starter project
+Start by creating a `player` sprite that can move around your world. 
 
---- collapse ---
----
-itle: I'm using Scratch online
----
+--- task ---
 
-- If you're using Scratch online, open the 'Create your own world' Scratch project at [http://rpf.io/p/en/on](http://rpf.io/p/en/on){:target="_blank"}.
-- If you have a Scratch account, you can click on Remix in the top right-hand corner to save a copy of the project to your account.
---- /collapse ---
+Open the 'Create your own world' Scratch starter project.
 
---- collapse ---
+**Online**: open the online starter project at at [http://rpf.io/p/en/on](http://rpf.io/p/en/on){:target="_blank"}.
+If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
 
----
-title: I'm using Scratch offline
----
-If you are using Scratch offline, download the project [http://rpf.io/p/en/off](http://rpf.io/p/en/off){:target="_blank"}, and then open it using the 
-offline editor.
---- /collapse ---
+**Offline**: download the starter project [http://rpf.io/p/en/off](http://rpf.io/p/en/off){:target="_blank"}, and then open it using the offline editor.
+If you need to download and install the Scratch offline editor, you can find it at rpf.io/scratchoff.
 
 ![screenshot](images/world-starter.png)
 
 --- /task ---
 
-The person playing the game will use the arrow keys to move the `player` sprite around. When the person presses the up arrow, you need to tell the `player` sprite to move up in response, so that it moves in the right direction.
+Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
 
 --- task ---
 
@@ -46,7 +38,7 @@ end
 
 --- task ---
 
-Test out your `player` sprite by clicking the flag and then holding down the up arrow. Does your `player` sprite move up?
+Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
 ![screenshot](images/world-up.png)
 
@@ -54,7 +46,7 @@ Test out your `player` sprite by clicking the flag and then holding down the up 
 
 --- task ---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code to it:
+To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code:
 
 ![player](images/player.png)
 
@@ -76,16 +68,21 @@ end
 
 --- task ---
 
-Add more code to your `player` sprite so that they can move down and right as well. Use the code you already have to help you.
+Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
 --- hints ---
---- hint ---
-To move up, you pointed the `player` sprite into the direction `0` degrees. What would you have to do to move the sprite down?
 
-To move left, you pointed the sprite in the direction `-90` degrees. What would you have to do to move the sprite right?
---- /hint ---
 --- hint ---
-You will need to change these two blocks:
+
+To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+
+To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+
+--- /hint ---
+
+--- hint ---
+
+You need to change these two blocks:
 
 ![player](images/player.png)
 
@@ -95,7 +92,8 @@ You will need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code you have used to go up, but change these two blocks to make the `player` sprite move down. Do the same for moving right.
+Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+
 --- /hint ---
 --- hint ---
 Here is how your code should look:
