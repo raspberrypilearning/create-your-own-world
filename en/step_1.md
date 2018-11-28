@@ -1,6 +1,6 @@
 ## Introduction
 
-In this project, you'll learn how to create your own adventure game with multiple rooms for the player to explore.
+In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
 ### What you will make
 --- no-print ---
@@ -16,7 +16,7 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 --- print-only ---
 
-You'll be able to use the arrow keys to move your character around your world.
+You'll use the arrow keys to move your character around in the world.
 ![showcase.png](images/showcase.png)
 
 --- /print-only ---
@@ -27,24 +27,25 @@ title: What you will need
 ---
 ### Hardware
 
-A computer capable of running Scratch 2.0
++ A computer capable of running Scratch 2.0
 
 ### Software
 
-Scratch 2.0 (either [online](http://rpf.io/scratch-new){:target="_blank"} or [offline](http://rpf.io/scratch-off){:target="_blank"})
++ Scratch 2.0 (either [online](http://rpf.io/scratch-new){:target="_blank"} or [offline](http://rpf.io/scratch-off){:target="_blank"})
  
 ### Downloads
 
-You can find everything you need to complete this project at [rpf.io/p/create-your-own-world/go](rpf.io/p/create-your-own-world/go)
+You can find everything you need to complete this project at [rpf.io/p/create-your-own-world/go](rpf.io/p/create-your-own-world/go).
+
 --- /collapse ---
 
 --- collapse ---
 ---
 title: What you will learn
 ---
-- Use conditional selection to act upon key presses
+- Use conditional selection to react to key presses
 - Use variables to store a game's state
-- Use conditional selection based upon the value of a variable
+- Use conditional selection based on the value of a variable
 - Use lists to store data
 
 --- /collapse ---
