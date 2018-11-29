@@ -1,9 +1,9 @@
 ## Doors and keys
 
-What if some of the doors in your world are locked, and the player must find the key to progress?
+No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 --- task ---
-Switch to the `key` sprite. Right-click on it and choose **show** so that it appears on the stage.
+Switch to the `key` sprite. Right-click on it and choose **show** so that it appears on the Stage.
 --- /task ---
 
 --- task ---
@@ -18,17 +18,17 @@ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere diffi
 --- /task ---
 
 --- task ---
-Add code to the `key` sprite to make sure that it is only visible in room 3.
+Add code to the `key` sprite to make it only visible in room 3.
 --- /task ---
 
 --- task ---
-Create a new list called `inventory`{:class="blockdata"}. This will be where you store all of the items your `player` sprite collects.
+Create a new list called `inventory`{:class="blockdata"} to store the items your `player` sprite collects.
 
 [[[generic-scratch-make-list]]]
 --- /task ---
 
 --- task ---
-The code for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to your inventory.
+The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="blockdata"}.
 
 ![key](images/key.png)
 
@@ -42,7 +42,7 @@ stop [other scripts in sprite v]
 --- /task ---
 
 --- task ---
-Test out your `key` sprite to see if you can collect it and add it to your inventory. Remember to add code to your Stage to empty your inventory at the start of the game.
+Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks
 delete (all v) of [inventory v]
@@ -51,7 +51,11 @@ delete (all v) of [inventory v]
 --- /task ---
 
 --- task ---
-Now let's add the locked door. Right-click on the `door-blue` sprite and select **show**, then position the sprite across the gap in the two walls.
+Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+--- /task ---
+
+--- task ---
+Now add the locked door. Right-click on the `door-blue` sprite and select **show**, then position the sprite across the gap in the two walls.
 
 ![screenshot](images/world-door.png)
 --- /task ---
@@ -61,7 +65,7 @@ Add code to the `door-blue` sprite so that it is only visible in room 3.
 --- /task ---
 
 --- task ---
-The `door-blue` sprite should hide to allow your `player` sprite to pass once you have the blue key in your inventory.
+Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="blockdata"}, the sprite `hides`{:class="blocklooks"} to allow your `player` sprite to pass.
 
 ![door](images/door.png)
 
@@ -74,5 +78,5 @@ hide
 --- /task ---
 
 --- task ---
-Test out your project, and see if you can collect the blue key to open the door!
+Test out your game and see if you can collect the blue key to open the door!
 --- /task ---
