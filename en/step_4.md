@@ -1,4 +1,4 @@
-## Coding your world
+## Move around your world
 
 The `player` sprite should be able to walk through doors into other rooms.
 
