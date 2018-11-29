@@ -1,6 +1,6 @@
 ## People
 
-Let's add other people to your world who your `player` sprite can interact with.
+Add other people to your world who your `player` sprite can interact with.
 
 --- task ---
 Switch to the `person` sprite.
@@ -9,7 +9,7 @@ Switch to the `person` sprite.
 --- /task ---
 
 --- task ---
-Add some code to the `person` sprite, so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
 ![person](images/person.png)
 
@@ -27,7 +27,7 @@ end
 --- /task ---
 
 --- task ---
-You could also allow your `person` sprite to move by adding these two blocks in the `else`{:class="blockcontrol"} section of your code:
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="blockcontrol"} section of your code:
 
 ![person](images/person.png)
 
@@ -52,5 +52,7 @@ Your `person` sprite will now move, but will stop to talk to the `player` sprite
 ![screenshot](images/world-person-test.png)
 
 --- task ---
-Add code to your new `person` sprite so that they only appear in room 1? Make sure you test out your new code. It's exactly the same code as you used to make sure the sign was only visible in room 1.
+Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code. 
 --- /task ---
