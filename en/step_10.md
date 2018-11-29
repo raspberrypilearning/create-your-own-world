@@ -1,6 +1,6 @@
 ## Collecting coins
 
-As your `player` sprite moves through the world, they can collect coins.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 --- task ---
 Add a new variable valled `coins`{:class="blockdata"} to your project.
@@ -28,7 +28,7 @@ hide
 
 --- task ---
 
-Add code to your `coin` sprite so that `1`{:class="blockdata"} is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Add code to your `coin` sprite so that the sprite `hides`{:class="blocklooks"} and `1`{:class="blockdata"} is added to the `coins`{:class="blockdata"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
 ![coin](images/coin.png)
 
@@ -41,10 +41,11 @@ stop [other scripts in sprite v]
 ```
 
 The code `stop other scripts in sprite`{:class="blockcontrol"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+
 --- /task ---
 
 --- task ---
-You'll also need to add code to set your `coins`{:class="blockdata"} variable to `0`{:class="blockdata"} at the start of your game. This can be done on the stage
+Now add code to the Stage to set your `coins`{:class="blockdata"} variable to `0`{:class="blockdata"} at the start of the game.
 
 ![stage](images/stage.png)
 ```blocks
@@ -54,6 +55,6 @@ set [coins v] to [0]
 --- /task ---
 
 --- task ---
-Test your project — collecting a coin should change your `coins` score to `1`{:class="blockdata"}.
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="blockdata"}.
 --- /task ---
 
