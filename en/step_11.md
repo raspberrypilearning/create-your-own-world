@@ -22,17 +22,17 @@ Add code to the `key` sprite to make it only visible in room 3.
 --- /task ---
 
 --- task ---
-Create a new list called `inventory`{:class="blockdata"} to store the items your `player` sprite collects.
+Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
 
-[[[generic-scratch-make-list]]]
+[[[generic-scratch3-make-list]]]
 --- /task ---
 
 --- task ---
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="blockdata"}.
+The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
 
 ![key](images/key.png)
 
-```blocks
+```blocks3
 when flag clicked
 wait until <touching [player v]?>
 add [blue key] to [inventory v]
@@ -44,7 +44,7 @@ stop [other scripts in sprite v]
 --- task ---
 Add code to your Stage to empty your inventory at the start of the game.
 
-```blocks
+```blocks3
 delete (all v) of [inventory v]
 ```
 
@@ -65,11 +65,11 @@ Add code to the `door-blue` sprite so that it is only visible in room 3.
 --- /task ---
 
 --- task ---
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="blockdata"}, the sprite `hides`{:class="blocklooks"} to allow your `player` sprite to pass.
+Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
 
 ![door](images/door.png)
 
-```blocks
+```blocks3
 when flag clicked
 wait until <[inventory v] contains [blue key]?>
 stop [other scripts in sprite v]

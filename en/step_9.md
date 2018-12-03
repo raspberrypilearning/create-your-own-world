@@ -6,7 +6,7 @@ If you want, you can also add patrolling enemies to your game. If the `player` s
 
 + Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
 
-```blocks
+```blocks3
 when flag clicked
 forever
 if <(room)=[2]> then

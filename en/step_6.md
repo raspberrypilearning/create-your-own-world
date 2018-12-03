@@ -10,13 +10,13 @@ Your project includes a `welcome sign` sprite:
 The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
 --- hints --- --- hint ---
-`When the flag is clicked`{:class="blockevents"}, in a `forever`{:class="blockcontrol"} loop, check `if`{:class="blockcontrol"} the `room is 1`{:class="blockdata"} and in that case `show`{:class="blocklooks"} `welcome sign` sprite, `else`{:class="blockcontrol"} `hide`{:class="blocklooks"} the sprite.
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
 --- /hint --- --- hint ---
 Here are the blocks you need:
 
 ![sign](images/sign.png)
 
-```blocks
+```blocks3
 
 if < > then
 else
@@ -39,7 +39,7 @@ Here is the complete code:
 
 ![sign](images/sign.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	if < (room) = [1] > then
@@ -65,7 +65,7 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 
 ![sign](images/sign.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	if < (room) = [1] > then

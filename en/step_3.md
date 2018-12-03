@@ -7,11 +7,11 @@ Test your `player` sprite again. Do you see that it can walk through the light g
 --- /task ---
 
 --- task ---
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
 
 ![player](images/player.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	if <key [up arrow v] pressed? > then

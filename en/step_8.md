@@ -13,7 +13,7 @@ Add some code to the `person` sprite so that the person talks to the `player` sp
 
 ![person](images/person.png)
 
-```blocks
+```blocks3
 when flag clicked
 go to x: (0) y: (-150)
 forever
@@ -27,11 +27,11 @@ end
 --- /task ---
 
 --- task ---
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="blockcontrol"} section of your code:
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
 
 ![person](images/person.png)
 
-```blocks
+```blocks3
 when flag clicked
 go to x: (0) y: (-150)
 forever

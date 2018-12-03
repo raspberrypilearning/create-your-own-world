@@ -24,7 +24,7 @@ Add this code to the `player` sprite:
 
 ![player](images/player.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	if <key [up arrow v] pressed? > then
@@ -46,11 +46,11 @@ Click the flag and then hold down the up arrow. Does the `player` sprite move up
 
 --- task ---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="blockcontrol"} block with similar code:
+To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
 
 ![player](images/player.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	if <key [up arrow v] pressed? > then
@@ -86,7 +86,7 @@ You need to change these two blocks:
 
 ![player](images/player.png)
 
-```blocks
+```blocks3
 <key [ v] pressed>
 
 point in direction ()
@@ -100,7 +100,7 @@ Here is how your code should look:
 
 ![player](images/player.png)
 
-```blocks
+```blocks3
 when flag clicked
 forever
 	if <key [up arrow v] pressed? > then

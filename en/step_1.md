@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
@@ -27,11 +33,11 @@ title: What you will need
 ---
 ### Hardware
 
-+ A computer capable of running Scratch 2.0
++ A computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratch-new){:target="_blank"} or [offline](http://rpf.io/scratch-off){:target="_blank"})
++ Scratch 3 (either [online](http://rpf.io/scratch-new){:target="_blank"} or [offline](http://rpf.io/scratch-off){:target="_blank"})
  
 ### Downloads
 
