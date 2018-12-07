@@ -9,7 +9,7 @@ steps:
 - title: Introduction
 - title: Move the player sprite
 - title: Solid walls
-- title: CMove around your world
+- title: Move around your world
 - title: "Challenge: move back to the previous room"
   challenge: true
 - title: Signs
