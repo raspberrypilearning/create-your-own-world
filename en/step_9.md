@@ -25,7 +25,6 @@ forever
 repeat (130)
 change x by (-1)
 end
-
 repeat (130)
 change x by (1)
 ```

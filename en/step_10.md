@@ -9,12 +9,12 @@ Add a new variable valled `coins`{:class="block3variables"} to your project.
 --- task ---
 Right-click on the `coin` sprite and choose **show**.
 
-![screenshot](images/coins.png)
+![screenshot](images/coin.png)
 --- /task ---
 
 --- task ---
 Add code to your `coin` sprite so that it only appears in room 1.
-![screenshot](images/coins.png)
+![screenshot](images/coin.png)
 ```blocks3
 when flag clicked
 forever
