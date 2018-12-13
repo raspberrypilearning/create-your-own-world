@@ -3,7 +3,7 @@
 No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 --- task ---
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the scripts menu so that it appears on the Stage.
+Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
 --- /task ---
 
 --- task ---
@@ -55,7 +55,7 @@ Test out your game to check whether you can collect the `key` sprite and add it 
 --- /task ---
 
 --- task ---
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the scripts menu, then position the sprite across the gap in the two walls.
+Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
 ![screenshot](images/world-door.png)
 --- /task ---
