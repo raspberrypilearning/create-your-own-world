@@ -21,6 +21,6 @@ You can now continue creating your own world! Here are some ideas:
 ```blocks3
 if <touching color [ ]?> then
 switch backdrop to ((costume #) + (3))
-got to x:(0) y:(200)
+go to x:(0) y:(200)
 change [room v] by (3)
 ```
