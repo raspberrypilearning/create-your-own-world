@@ -18,7 +18,7 @@ Add code to your `coin` sprite so that it only appears in room 1.
 ```blocks3
 when flag clicked
 forever
-if <(room)=[1]> then
+if <(room :: variables)=[1]> then
 show
 else
 hide
@@ -34,7 +34,7 @@ Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} 
 
 ```blocks3
 when flag clicked
-wait until <touching [player v]?>
+wait until <touching (player v)?>
 change [coins v] by (1)
 hide
 stop [other scripts in sprite v]

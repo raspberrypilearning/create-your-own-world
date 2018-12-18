@@ -27,7 +27,7 @@ Add this code to the `player` sprite:
 ```blocks3
 when flag clicked
 forever
-	if <key [up arrow v] pressed? > then
+	if <key (up arrow v) pressed? > then
 		point in direction (0)
 		move (4) steps
 	end
@@ -53,11 +53,11 @@ To move the `player` sprite to the left, you need to add another `if`{:class="bl
 ```blocks3
 when flag clicked
 forever
-	if <key [up arrow v] pressed? > then
+	if <key (up arrow v) pressed? > then
 		point in direction (0)
 		move (4) steps
 	end
-	+if <key [left arrow v] pressed? > then
++	if <key (left arrow v) pressed? > then
 		point in direction (-90)
 		move (4) steps
 	end
@@ -87,7 +87,7 @@ You need to change these two blocks:
 ![player](images/player.png)
 
 ```blocks3
-<key [ v] pressed>
+<key ( v) pressed>
 
 point in direction ()
 ```
@@ -103,15 +103,15 @@ Here is how your code should look:
 ```blocks3
 when flag clicked
 forever
-	if <key [up arrow v] pressed? > then
+	if <key (up arrow v) pressed? > then
 		point in direction (0)
 		move (4) steps
 	end
-	if <key [left arrow v] pressed? > then
+	if <key (left arrow v) pressed? > then
 		point in direction (-90)
 		move (4) steps
 	end
-+    if <key [down arrow v] pressed? > then
++    if <key (down arrow v) pressed? > then
 		point in direction (180)
 		move (4) steps
 	end

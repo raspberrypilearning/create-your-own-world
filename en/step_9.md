@@ -9,14 +9,14 @@ If you want, you can also add patrolling enemies to your game. If the `player` s
 ```blocks3
 when flag clicked
 forever
-if <(room)=[2]> then
+if <(room :: variables)=[2]> then
 show
 else
 hide
 
 when flag clicked
 forever
-if <touching [player v]?> then
+if <touching (player v)?> then
 stop [all v]
 
 when flag clicked

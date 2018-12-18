@@ -22,7 +22,7 @@ if < > then
 else
 end
 
-< (room) = [1] >
+< (room :: variables) = [1] >
 
 hide
 
@@ -32,7 +32,7 @@ forever
 end
 
 when flag clicked
-end
+
 ```
 --- /hint --- --- hint ---
 Here is the complete code:
@@ -42,7 +42,7 @@ Here is the complete code:
 ```blocks3
 when flag clicked
 forever
-	if < (room) = [1] > then
+	if < (room :: variables) = [1] > then
 		show
 	else
 		hide
@@ -68,12 +68,12 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ```blocks3
 when flag clicked
 forever
-	if < (room) = [1] > then
+	if < (room :: variables) = [1] > then
 		show
 	else
 		hide
 	end
-	if < touching [player v]? > then
+	if < touching (player v)? > then
 		say [Welcome! Can you get to the treasure?]
 	else
 		say []

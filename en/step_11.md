@@ -34,7 +34,7 @@ The code you need to add for collecting the key is very similar to the code for 
 
 ```blocks3
 when flag clicked
-wait until <touching [player v]?>
+wait until <touching (player v)?>
 add [blue key] to [inventory v]
 hide
 stop [other scripts in sprite v]
