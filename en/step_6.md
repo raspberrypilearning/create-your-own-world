@@ -16,39 +16,13 @@ Here are the blocks you need:
 
 ![sign](images/sign.png)
 
-```blocks3
-
-if < > then
-else
-end
-
-< (room :: variables) = [1] >
-
-hide
-
-show
-
-forever
-end
-
-when flag clicked
-
-```
+![blocks_1545306402_7362342](images/blocks_1545306402_7362342.png)
 --- /hint --- --- hint ---
 Here is the complete code:
 
 ![sign](images/sign.png)
 
-```blocks3
-when flag clicked
-forever
-	if < (room :: variables) = [1] > then
-		show
-	else
-		hide
-	end
-end
-```
+![blocks_1545306403_8434722](images/blocks_1545306403_8434722.png)
 --- /hint --- --- /hints ---
 
 
@@ -65,21 +39,7 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 
 ![sign](images/sign.png)
 
-```blocks3
-when flag clicked
-forever
-	if < (room :: variables) = [1] > then
-		show
-	else
-		hide
-	end
-	if < touching (player v)? > then
-		say [Welcome! Can you get to the treasure?]
-	else
-		say []
-	end
-end
-```
+![blocks_1545306404_9641402](images/blocks_1545306404_9641402.png)
 --- /task ---
 
 --- task ---

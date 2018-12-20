@@ -20,35 +20,7 @@ When the `player` sprite touches the orange door in the first room, the game sho
 
 ![player](images/player.png)
 
-```blocks3
-when flag clicked
-forever
-	if <key (up arrow v) pressed? > then
-		point in direction (0)
-		move (4) steps
-	end
-	if <key (left arrow v) pressed? > then
-		point in direction (-90)
-		move (4) steps
-	end
-		if <key (down arrow v) pressed? > then
-		point in direction (-180)
-		move (4) steps
-	end
-		if <key [right arrow v] pressed? > then
-		point in direction (90)
-		move (4) steps
-	end
-	if < touching color [#BABABA]? > then
-	move (-4) steps
-	end
-+	if < touching color [#F2A24A] > then
-	switch backdrop to (next backdrop v)
-	go to x: (-200) y: (0)
-	change [room v] by (1)
-	end
-end
-```
+![blocks_1545306399_181614](images/blocks_1545306399_181614.png)
 --- /task ---
 
 --- task ---
@@ -66,50 +38,13 @@ Here are the extra blocks you need:
 
 ![player](images/player.png)
 
-```blocks3
-go to x: (-200) y: (0)
-
-set [room v] to (1)
-
-switch backdrop to (room1 v)
-```
+![blocks_1545306400_393116](images/blocks_1545306400_393116.png)
 --- /hint --- --- hint ---
 Here's what your finished script should look like:
 
 ![player](images/player.png)
 
-```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-	if <key (up arrow v) pressed? > then
-		point in direction (0)
-		move (4) steps
-	end
-	if <key (left arrow v) pressed? > then
-		point in direction (-90)
-		move (4) steps
-	end
-		if <key (down arrow v) pressed? > then
-		point in direction (-180)
-		move (4) steps
-	end
-		if <key [right arrow v] pressed? > then
-		point in direction (90)
-		move (4) steps
-	end
-	if < touching color [#BABABA]? > then
-	move (-4) steps
-	end
-	if < touching color [#F2A24A] > then
-	switch backdrop to (next backdrop v)
-	go to x: (-200) y: (0)
-	change [room v] by (1)
-end
-end
-```
+![blocks_1545306401_4840732](images/blocks_1545306401_4840732.png)
 --- /hint --- --- /hints ---
 
 --- /task ---

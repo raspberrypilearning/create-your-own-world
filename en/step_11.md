@@ -32,21 +32,13 @@ The code you need to add for collecting the key is very similar to the code for 
 
 ![key](images/key.png)
 
-```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
-```
+![blocks_1545306388_9003403](images/blocks_1545306388_9003403.png)
 --- /task ---
 
 --- task ---
 Add code to your Stage to empty your inventory at the start of the game.
 
-```blocks3
-delete (all v) of [inventory v]
-```
+![blocks_1545306390_0642252](images/blocks_1545306390_0642252.png)
 
 --- /task ---
 
@@ -69,12 +61,7 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 
 ![door](images/door.png)
 
-```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
-```
+![blocks_1545306391_1686816](images/blocks_1545306391_1686816.png)
 --- /task ---
 
 --- task ---

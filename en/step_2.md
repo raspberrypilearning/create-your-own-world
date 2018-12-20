@@ -24,15 +24,7 @@ Add this code to the `player` sprite:
 
 ![player](images/player.png)
 
-```blocks3
-when flag clicked
-forever
-	if <key (up arrow v) pressed? > then
-		point in direction (0)
-		move (4) steps
-	end
-end
-```
+![blocks_1545306393_465496](images/blocks_1545306393_465496.png)
 
 --- /task ---
 
@@ -50,19 +42,7 @@ To move the `player` sprite to the left, you need to add another `if`{:class="bl
 
 ![player](images/player.png)
 
-```blocks3
-when flag clicked
-forever
-	if <key (up arrow v) pressed? > then
-		point in direction (0)
-		move (4) steps
-	end
-+	if <key (left arrow v) pressed? > then
-		point in direction (-90)
-		move (4) steps
-	end
-end
-```
+![blocks_1545306394_5575218](images/blocks_1545306394_5575218.png)
 
 --- /task ---
 
@@ -86,11 +66,7 @@ You need to change these two blocks:
 
 ![player](images/player.png)
 
-```blocks3
-<key ( v) pressed>
-
-point in direction ()
-```
+![blocks_1545306395_7064476](images/blocks_1545306395_7064476.png)
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
@@ -100,27 +76,7 @@ Here is how your code should look:
 
 ![player](images/player.png)
 
-```blocks3
-when flag clicked
-forever
-	if <key (up arrow v) pressed? > then
-		point in direction (0)
-		move (4) steps
-	end
-	if <key (left arrow v) pressed? > then
-		point in direction (-90)
-		move (4) steps
-	end
-+    if <key (down arrow v) pressed? > then
-		point in direction (180)
-		move (4) steps
-	end
-+    if <key [right arrow v] pressed? > then
-		point in direction (90)
-		move (4) steps
-	end
-end
-```
+![blocks_1545306396_8044908](images/blocks_1545306396_8044908.png)
 --- /hint ---
 --- /hints ---
 

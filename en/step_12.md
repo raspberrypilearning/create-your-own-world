@@ -18,9 +18,4 @@ You can now continue creating your own world! Here are some ideas:
 
 ![screenshot](images/north-south-rooms.png)
 ![screenshot](images/number-grid.png)
-```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume #) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
-```
+![blocks_1545306392_3600876](images/blocks_1545306392_3600876.png)
