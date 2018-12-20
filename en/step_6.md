@@ -16,13 +16,13 @@ Here are the blocks you need:
 
 ![sign](images/sign.png)
 
-![blocks_1545306402_7362342](images/blocks_1545306402_7362342.png)
+![blocks_1545307903_0573409](images/blocks_1545307903_0573409.png)
 --- /hint --- --- hint ---
 Here is the complete code:
 
 ![sign](images/sign.png)
 
-![blocks_1545306403_8434722](images/blocks_1545306403_8434722.png)
+![blocks_1545307904_1920574](images/blocks_1545307904_1920574.png)
 --- /hint --- --- /hints ---
 
 
@@ -39,7 +39,7 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 
 ![sign](images/sign.png)
 
-![blocks_1545306404_9641402](images/blocks_1545306404_9641402.png)
+![blocks_1545307905_288996](images/blocks_1545307905_288996.png)
 --- /task ---
 
 --- task ---
