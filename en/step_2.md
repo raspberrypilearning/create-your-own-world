@@ -10,7 +10,7 @@ Open the 'Create your own world' Scratch starter project.
 If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
 
 **Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor.
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![screenshot](images/world-starter.png)
 
