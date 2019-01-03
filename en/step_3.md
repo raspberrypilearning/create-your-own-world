@@ -11,7 +11,7 @@ To fix this, you need to make the `player` sprite move back if it touches a ligh
 
 ![player](images/player.png)
 
-![blocks_1545307898_3494835](images/blocks_1545307898_3494835.png)
+![blocks_1546523586_0779033](images/blocks_1546523586_0779033.png)
 --- /task ---
 
 --- task ---

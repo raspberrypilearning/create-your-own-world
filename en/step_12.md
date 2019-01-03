@@ -18,4 +18,4 @@ You can now continue creating your own world! Here are some ideas:
 
 ![screenshot](images/north-south-rooms.png)
 ![screenshot](images/number-grid.png)
-![blocks_1545307892_700913](images/blocks_1545307892_700913.png)
+![blocks_1546523577_8014743](images/blocks_1546523577_8014743.png)
