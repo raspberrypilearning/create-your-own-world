@@ -1,17 +1,58 @@
-## Solid walls
+## Move around your world
 
-+ Test out your `player` sprite again, and you'll probably notice that they have the ability to walk through the light grey walls.
+The `player` sprite should be able to walk through doors into other rooms.
 
-![screenshot](images/world-walls.png)
+Your project contains backdrops for additional rooms:
 
-+ To fix this, you should move the `player` sprite back if they're touching a light grey wall. Here's the code you'll need to add inside your `forever`{:class="blockcontrol"} block below the direction blocks:
+![screenshot](images/world-backdrops.png)
 
-```blocks
-	if < touching color [#BABABA]? > then
-		move (-4) steps
-	end
-```
+--- task ---
 
-+ Test this new code: move the `player` sprite below the wall, and then see whether you can move them up into it. If your code works, this shouldn't be possible.
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
-![screenshot](images/world-walls-test.png)
+[[[generic-scratch3-add-variable]]]
+
+![screenshot](images/world-room.png)
+--- /task ---
+
+--- task ---
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+
+![player](images/player.png)
+
+![blocks_1545307899_5114844](images/blocks_1545307899_5114844.png)
+--- /task ---
+
+--- task ---
+Every time the game starts, the room, character position, and backdrop need to be reset.
+
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+--- hints --- --- hint ---
+When the game starts:
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
+--- /hint --- --- hint ---
+Here are the extra blocks you need:
+
+![player](images/player.png)
+
+![blocks_1545307900_694908](images/blocks_1545307900_694908.png)
+--- /hint --- --- hint ---
+Here's what your finished script should look like:
+
+![player](images/player.png)
+
+![blocks_1545307901_8019812](images/blocks_1545307901_8019812.png)
+--- /hint --- --- /hints ---
+
+--- /task ---
+
+--- task ---
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+--- /task ---
+
+
