@@ -10,7 +10,7 @@ Open the 'Create your own world' Scratch starter project.
 If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
 
 **Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor.
-If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff).
+If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![screenshot](images/world-starter.png)
 
@@ -24,7 +24,7 @@ Add this code to the `player` sprite:
 
 ![player](images/player.png)
 
-![blocks_1545307893_8341105](images/blocks_1545307893_8341105.png)
+![blocks_1546523579_4535265](images/blocks_1546523579_4535265.png)
 
 --- /task ---
 
@@ -42,7 +42,7 @@ To move the `player` sprite to the left, you need to add another `if`{:class="bl
 
 ![player](images/player.png)
 
-![blocks_1545307894_9338462](images/blocks_1545307894_9338462.png)
+![blocks_1546523581_1083205](images/blocks_1546523581_1083205.png)
 
 --- /task ---
 
@@ -66,7 +66,7 @@ You need to change these two blocks:
 
 ![player](images/player.png)
 
-![blocks_1545307896_0633843](images/blocks_1545307896_0633843.png)
+![blocks_1546523582_7517009](images/blocks_1546523582_7517009.png)
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
@@ -76,7 +76,7 @@ Here is how your code should look:
 
 ![player](images/player.png)
 
-![blocks_1545307897_1598177](images/blocks_1545307897_1598177.png)
+![blocks_1546523584_3617783](images/blocks_1546523584_3617783.png)
 --- /hint ---
 --- /hints ---
 

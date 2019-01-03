@@ -6,7 +6,7 @@ If you want, you can also add patrolling enemies to your game. If the `player` s
 
 + Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
 
-![blocks_1545307908_7518566](images/blocks_1545307908_7518566.png)
+![blocks_1546523601_2540247](images/blocks_1546523601_2540247.png)
 
 + Test out your new code to make sure that:
 	+ The `enemy` sprite only visible in room 2

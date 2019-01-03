@@ -20,7 +20,7 @@ When the `player` sprite touches the orange door in the first room, the game sho
 
 ![player](images/player.png)
 
-![blocks_1545307899_5114844](images/blocks_1545307899_5114844.png)
+![blocks_1546523587_8603773](images/blocks_1546523587_8603773.png)
 --- /task ---
 
 --- task ---
@@ -38,13 +38,13 @@ Here are the extra blocks you need:
 
 ![player](images/player.png)
 
-![blocks_1545307900_694908](images/blocks_1545307900_694908.png)
+![blocks_1546523589_6206675](images/blocks_1546523589_6206675.png)
 --- /hint --- --- hint ---
 Here's what your finished script should look like:
 
 ![player](images/player.png)
 
-![blocks_1545307901_8019812](images/blocks_1545307901_8019812.png)
+![blocks_1546523591_2402523](images/blocks_1546523591_2402523.png)
 --- /hint --- --- /hints ---
 
 --- /task ---
