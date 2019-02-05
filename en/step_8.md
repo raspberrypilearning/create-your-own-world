@@ -13,7 +13,17 @@ Add some code to the `person` sprite so that the person talks to the `player` sp
 
 ![person](images/person.png)
 
-![blocks_1546523597_935971](images/blocks_1546523597_935971.png)
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (player v)? > then
+		say [Did you know that you can go through orange and yellow doors?]
+	else
+		say []
+	end
+end
+```
 --- /task ---
 
 --- task ---
@@ -21,7 +31,20 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 
 ![person](images/person.png)
 
-![blocks_1546523599_5811183](images/blocks_1546523599_5811183.png)
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (player v)? > then
+		say [Did you know that you can go through orange and yellow doors?]
+	else
+		say []
++		move (1) steps
++		if on edge, bounce
+	end
+end
+
+```
 --- /task ---
 
 Your `person` sprite will now move, but will stop to talk to the `player` sprite.
