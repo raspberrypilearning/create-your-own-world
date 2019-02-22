@@ -1,59 +1,42 @@
-## Die Figur vom `Spieler` bewegen
+## Solid walls
 
-Beginnen wir mit der Programmierung einer `Spieler`-Figur die sich in deiner Welt umher bewegen kann.
+\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-+ Wenn du Scratch online verwendest, öffne das Scratch-Projekt 'Erschaffe deine eigene Welt' hier: <http://jumpto.cc/world-go>{:target="_blank"}. Wenn Du Scratch offline verwendest, kannst du das Projekt [hier](http://jumpto.cc/world-get){:target="_blank"} herunterladen und es dann mit dem offline Editor öffnen. 
+![screenshot](images/world-walls.png) \--- /task \---
 
-![Screenshot](images/world-starter.png)
+\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
 
-Die Person, die das Spiel spielt, bewegt die Figur des `Spielers` mit den Pfeiltasten herum. Wenn die Person den Pfeil nach oben drückt, musst du dem `Spieler` sagen, dass er mit einer Bewegung nach oben reagieren soll, so dass er sich in die richtige Richtung bewegt.
+![player](images/player.png)
 
-+ Füge diesen Code zu der Figur des `Spielers` hinzu:
-
-```blocks
-    Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  falls &ltTaste [Pfeil nach oben v] gedrückt? > dann 
-    setze Richtung auf (0)
-    gehe (4) er-Schritt
-  end
+```blocks3
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
 end
 ```
 
-+ Teste die Figur deines `Spielers`, indem du auf die Flagge klickst und dann den Pfeil nach oben gedrückt hältst. Bewegt sich dein `Spieler` nach oben?
-    
-    ![Screenshot](images/world-up.png)
+\--- /task \---
 
-+ Um den `Spieler` nach links zu bewegen, musst du einen weiteren `falls`{:class="blockcontrol"}-Block mit ähnlichem Code hinzufügen:
+\--- task \---
 
-```blocks
-    Wenn die grüne Flagge angeklickt
-wiederhole fortlaufend 
-  falls &ltTaste [Pfeil nach oben v] gedrückt? > dann 
-    setze Richtung auf (0)
-    gehe (4) er-Schritt
-  end
-  falls <Taste [Pfeil nach links v] gedrückt? > dann 
-    setze Richtung auf (-90)
-    gehe (4) er-Schritt
-  end
-end
-```
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-+ Füge deinem `Spieler` mehr code hinzu, damit er sich auch nach unten und nach rechts bewegen kann. Verwende den bereits geschriebenen Code als Hilfe.
-
-\--- hints \--- \--- hint \--- Um nach oben zu gehen, hast du den `Spieler` in Richtung `0` Grad dirigiert. Was hättest du machen müssen, um die Figur nach unten zu bewegen?
-
-Um nach links zu gehen, muss die Figur in Richtung ` -90` Grad zeigen. Was hättest du machen müssen, um die Figur nach rechts zu bewegen? \--- /hint \--- \--- hint \--- Du musst diese beiden Blöcke ändern:
-
-```blocks
-<Taste [ v] gedrückt?>
-```
-
-```blocks
-setze Richtung auf ()
-```
-
-Kopiere den Code, den du verwendet hast, um nach oben zu gehen, aber ändere diese beiden Blöcke damit sich die Figur des `Spielers` nach unten bewegt. Mache das Gleiche um nach rechts zu gehen. \--- /hint \--- \--- hint \--- Dein Code sollte so aussehen:
-
-![Sich nach unten und nach rechts bewegen](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/world-walls-test.png) \--- /task \---
