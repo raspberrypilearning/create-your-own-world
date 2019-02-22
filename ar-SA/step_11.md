@@ -1,50 +1,64 @@
 ## الأبواب والمفاتيح
 
-ماذا لو كانت بعض الأبواب مغلقة في لعبتك، ويجب على اللاعب أن يعثر على المفاتيح لمتابعة اللعبة؟
+No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
-+ عُد إلى كائن `المفتاح`. انقر فوقه بزر الفأرة الأيمن واختر **إظهار** ليظهر على المنصة.
+\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
 
-+ حرر مظهر كائن `المفتاح` بحيث يكون لونه أزرق.
+\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
 
-+ حوِّل خلفية المنصة إلى الغرفة 3، وضَع كائن `المفتاح` في مكان ما بحيث يصعُب الوصول إليه!
-    
-    ![لقطة الشاشة](images/world-key.png)
+\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
-+ أضف تعليمة برمجية إلى كائن `المفتاح` بحيث تضمن أنه لن يظهر إلّا في الغرفة 3.
+![screenshot](images/world-key.png)
 
-+ أنشئ متغير قائمة جديدًا يُسمى `المخزون`{:class="blockdata"}. وسيكون هذا المخزون هو المكان الذي يخزِّن فيه كائن `اللاعب` كل الأشياء التي يجمعها.
+\--- /task \---
 
-[[[generic-scratch-make-list]]]
+\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
 
-+ التعليمة البرمجية لجمع المفتاح تُشبه التعليمةَ البرمجية لجمع العملات الذهبية إلى حدٍ كبير. الفرق هو أنك تضيف المفتاح إلى المخزون.
+\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
 
-```blocks
-    عند نقر ⚑
-انتظر حتى <touching [player v]?>
-أضف [blue key] إلى [inventory v]
-أوقف [المقاطع الأخرى في الكائن v]
-اختف
+[[[generic-scratch3-make-list]]] \--- /task \---
+
+\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+
+![key](images/key.png)
+
+```blocks3
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
-+ اختبر كائن `المفتاح` لتعرف هل بإمكانك جمعه وإضافته إلى المخزون أم لا. وتذكَّر أن تضيف تعليمة برمجية إلى المنصة ليكون المخزون فارغًا في بداية اللعبة.
+\--- /task \---
 
-```blocks
-    	احذف (الكل v) من [inventory v]
+\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+
+```blocks3
+	احذف (الكل v) من [inventory v]
 ```
 
-+ لنضِف الآن الباب المغلق. انقر بزر الفأرة الأيمن على الكائن `باب أزرق` وحدِّد **إظهار**، ثم ضع الكائن بطول الفتحة بين الجدارين.
+\--- /task \---
 
-![لقطة الشاشة](images/world-door.png)
+\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
 
-+ أضف تعليمة برمجية إلى الكائن `باب أزرق` بحيث لا يظهر إلّا في الغرفة 3.
+\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-+ يجب أن يختفي الكائن `باب أزرق` للسماح لكائن `اللاعب` بالمرور بمجرد أن يُضاف المفتاح الأزرق إلى المخزون.
+![screenshot](images/world-door.png) \--- /task \---
 
-```blocks
-    عند نقر ⚑
-انتظر حتى <[inventory v] تحتوي [blue key]>
-أوقف [المقاطع الأخرى في الكائن v]
-اختف
+\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+
+\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+
+![door](images/door.png)
+
+```blocks3
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
-+ اختبر مشروعك، ثم لاحظ هل يمكنك التقاط المفتاح الأزرق لفتح الباب أم لا!
+\--- /task \---
+
+\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
