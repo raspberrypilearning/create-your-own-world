@@ -1,50 +1,64 @@
 ## Deuren en sleutels
 
-Hoe zou het zijn als sommige deuren op slot zijn en de speler eerst een sleutel moet hebben om door te kunnen gaan?
+No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
-+ Neem de sprite `persoon`. Klik er met de rechtermuisknop op en kies **verschijn** zodat het te zien is op het speelveld.
+\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
 
-+ Bewerk het uiterlijk van de sprite` sleutel `zodat die blauw is.
+\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
 
-+ Ga naar speelveldachtergrond kamer 3 en zet de sprite `sleutel` op een lastig te bereiken plek!
-    
-    ![screenshot](images/world-key.png)
+\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
-+ Voeg code toe aan de sprite `sleutel` zodat die alleen in kamer 3 verschijnt.
+![screenshot](images/world-key.png)
 
-+ Maak een nieuwe lijst met de naam `inventaris`{: class = "blockdata"}. Hier bewaar je alle dingen die je sprite `speler` verzamelt.
+\--- /task \---
 
-[[[generic-scratch-make-list]]]
+\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
 
-+ De code voor het pakken van de sleutel lijkt erg op de code voor het pakken van munten. Het verschil is dat je de sleutel toevoegt aan de inventaris.
+\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
 
-```blocks
-    wanneer groene vlag wordt aangeklikt
-wacht tot <raak ik [speler v] ?>
-voeg [blauwe sleutel] toe aan [inventaris v]
-stop [andere scripts in sprite v]
-verdwijn
+[[[generic-scratch3-make-list]]] \--- /task \---
+
+\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+
+![key](images/key.png)
+
+```blocks3
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
-+ Test de sprite `sleutel` om te zien of je hem kan pakken en toevoegen aan de inventaris. Vergeet niet om code aan het Speelveld toe te voegen om de inventaris leeg te maken aan het begin van het spel.
+\--- /task \---
 
-```blocks
-    verwijder item (alle v) van [inventaris v]
+\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+
+```blocks3
+verwijder item (alle v) van [inventaris v]
 ```
 
-+ Laten we nu de gesloten deur toevoegen. Klik met de rechtermuisknop op de sprite ` blauwedeur`, selecteer ** verschijn ** en zet de sprite dan in de opening tussen de twee muren.
+\--- /task \---
 
-![screenshot](images/world-door.png)
+\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
 
-+ Voeg code toe aan de sprite `blauwedeur` zodat die alleen in kamer 3 te zien is.
+\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-+ De sprite `blauwedeur` moet kunnen verdwijnen om de sprite `speler` de doorgang te geven, als die de blauwe sleutel in de inventaris heeft.
+![screenshot](images/world-door.png) \--- /task \---
 
-```blocks
-    wanneer groene vlag wordt aangeklikt
-wacht tot <[inventaris v] bevat [blauwe sleutel]?>
-stop [andere scripts in sprite v]
-verdwijn
+\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+
+\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+
+![door](images/door.png)
+
+```blocks3
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
-+ Test je project en kijk of je de blauwe sleutel kunt pakken om de deur te openen!
+\--- /task \---
+
+\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
