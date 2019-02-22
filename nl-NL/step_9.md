@@ -1,27 +1,39 @@
-\--- challenge \---
-
 ## Uitdaging: voeg een vijand toe
 
-Je zou ook rondlopende vijanden kunnen toevoegen. Als de speler een vijand aanraakt stopt het spel.
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Voeg code toe aan de sprite `vijand` zodat die alleen in kamer 2 verschijnt.
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ Voeg code toe om de sprite `vijand` te laten bewegen en om het spel te stoppen als sprite `vijand` de sprite `speler` aanraakt. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou sprite `vijand` eruit kunnen zien:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou sprite `vijand` eruit kunnen zien:
 
-![screenshot](images/world-enemy-code.png)
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-+ + die alleen in kamer 2 te zien is
-    + die rondloopt in de kamer
-    + het spel eindigt als de sprite `speler` hem aanraakt
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-\--- /challenge \---
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
+```
 
-\--- challenge \---
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-## Uitdaging: meer vijanden
-
-Kun je nog een sprite `vijand` maken in kamer 3 die op en neer beweegt door het gat in de muur?
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
 ![screenshot](images/world-enemy2.png)
-
-\--- /challenge \---
