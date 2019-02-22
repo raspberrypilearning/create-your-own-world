@@ -1,39 +1,39 @@
 ## 課題：敵を追加する
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+あなたが望むなら、あなたはまたあなたのゲームにパトロールの敵を追加することができます。 `プレイヤー` スプライトが敵に触れると、ゲームは終了です。
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ あなたのゲームは既に `敵` スプライトを含んでいます。 `敵` スプライトにコードを追加して、それが部屋2にのみ現れるようにします。
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. 別のコードブロックでこれを行う方が簡単です。 `敵` スプライトコードがどのように見えるかは次のとおりです。
++ `敵` スプライトを移動し、 `敵` スプライトが `プレーヤー` スプライトに触れるとゲームを終了するコードを追加します。 別のコードブロックでこれを行う方が簡単です。 `敵` スプライトコードがどのように見えるかは次のとおりです。
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
+フラグがクリックされたときに
+永久
+であれば <（部屋::変数）=[2]> 次に
+ショー
+そう
+隠す
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+フラグをクリック
+永久
+あれば <touching (player v)?> 、次いで
+STOP [全てV]
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
+フラグがクリックしたときに
+行くxに：（ 170）y：（0）
+永遠に
+繰り返し（130）
+xを（-1）だけ変えて
 end
-repeat (130)
-change x by (1)
+繰り返し（130）
+xを（1）だけ変えて
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ 次のことを確認するために新しいコードをテストします。 
+    + `敵` スプライトは部屋2にのみ見える
+    + `敵` スプライトが部屋をパトロール
+    + `プレイヤー` スプライトが `敵` スプライトに触れるとゲームが終了します
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+あなたは部屋3にもう</code> つの `敵`スプライトを作り、壁の隙間を通して上下に巡回することができますか？
 
 ![スクリーンショット](images/world-enemy2.png)
