@@ -1,7 +1,7 @@
 ---
 hero_image: images / create-your-own-world.png
 title: あなた自身の世界を作りなさい
-description: Create your own open-world adventure game
+description: あなた自身のオープンワールドアドベンチャーゲームを作りましょう
 listed: true
 copyedit: false
 version: 4.1.0
@@ -10,13 +10,13 @@ steps:
   - 
     title: 前書き
   - 
-    title: Move the player sprite
+    title: プレーヤーのスプライトを移動する
   - 
-    title: Solid walls
+    title: 堅い壁
   - 
-    title: Move around your world
+    title: あなたの世界を動き回る
   - 
-    title: "Challenge: move back to the previous room"
+    title: "課題：前の部屋に戻る"
     challenge: true
   - 
     title: サイン
@@ -29,11 +29,11 @@ steps:
     title: "挑戦：敵"
     challenge: true
   - 
-    title: Collect coins
+    title: コインを集める
   - 
     title: ドアとキー
   - 
     title: "課題：あなたの世界を広げる"
     challenge: true
   - 
-    title: "What next?"
+    title: "次は何？"
