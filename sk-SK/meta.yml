@@ -12,7 +12,7 @@ steps:
   - 
     title: Move the player sprite
   - 
-    title: Solid walls
+    title: Pevné steny
   - 
     title: Move around your world
   - 
