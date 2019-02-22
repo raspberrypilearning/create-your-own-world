@@ -2,10 +2,10 @@
 
 Możesz teraz kontynuować tworzenie własnego świata! Oto kilka pomysłów:
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
++ Dodaj więcej monet do gry w różnych pokojach. Czy możesz pozwolić, aby niektóre monety były strzeżone przez patrolowanie wrogów?
++ Zmień tło swojej gry
 + Dodaj dźwięk i muzykę do swojej gry
-+ Add more people, enemies, and signs
++ Dodaj więcej osób, wrogów i znaków
 + Dodaj czerwone i żółte drzwi i specjalne klucze, aby je otworzyć
 + Dodaj więcej pokoi do swojego projektu
 + Dodaj inne przydatne przedmioty do swojej gry
@@ -14,13 +14,13 @@ Możesz teraz kontynuować tworzenie własnego świata! Oto kilka pomysłów:
 
 ![screenshot](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ Możesz nawet dodać drzwi w północnej i południowej ścianie pokoju 1, aby gracz mógł poruszać się między pokojami we wszystkich czterech kierunkach. Na przykład Twoja gra może mieć dziewięć pomieszczeń w siatce 3 × 3. Następnie możesz dodać `3` do numeru pokoju, aby przejść o jeden poziom niżej.
 
 ![zrzut ekranu](images/north-south-rooms.png) ![zrzut ekranu](images/number-grid.png)
 
 ```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
+jeśli <touching color [ ]?> to
+zmienisz tło na ((kostium [numer v]) + (3))
+przejdź do x: (0) y: (200)
+zmień [pokój v] o (3)
 ```
