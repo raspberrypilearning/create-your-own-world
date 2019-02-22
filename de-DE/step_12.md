@@ -1,22 +1,22 @@
 ## Herausforderung: Erweitere deine Welt
 
-You can now continue creating your own world! Here are some ideas:
+Du kannst jetzt mit dem Bau deiner eigenen Welt weitermachen! Hier sind ein paar Vorschläge:
 
 + Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
 + Change your game's backdrops
-+ Add sound and music to your game
++ Füge deinem Spiel Töne und Musik hinzu
 + Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Füge rote und gelbe Türen - und spezielle Schlüssel - hinzu, um sie zu öffnen
++ Füge deiner Welt mehr Zimmer hinzu
++ Füge dem Spiel weitere nützliche Gegenstände hinzu
     
-    + Use coins to get information from other people:
+    + Verwende Münzen, um Informationen von anderen Personen zu erhalten:
 
-![screenshot](images/world-bribe.png)
+![Screenshot](images/world-bribe.png)
 
 + Du kannst sogar Türen in den nördlichen und südlichen Wänden von Zimmer 1 hinzufügen, so dass sich der Spieler in allen vier Richtungen zwischen den Zimmern bewegen kann. For example, your game can have nine rooms in a 3×3 grid. Du kannst dann `3` zu der Zimmernummer addieren, um eine Ebene tiefer zu kommen.
 
-![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
+![screenshot](images/north-south-rooms.png) ![Screenshot](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
