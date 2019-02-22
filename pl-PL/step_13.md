@@ -1,5 +1,5 @@
 ## Co następne?
 
-- Have a go at creating another game by working through the [CATS!](https://projects.raspberrypi.org/en/projects/cats) project.
+- Spróbuj stworzyć kolejną grę, pracując przez [CATS!](https://projects.raspberrypi.org/en/projects/cats) projekt.
 
-- If you want to make a game using Python instead of Scratch, tyr out the [RPG](https://projects.raspberrypi.org/en/projects/rpg) project.
+- Jeśli chcesz stworzyć grę używając Pythona zamiast Scratch, wyrzuć projekt [RPG](https://projects.raspberrypi.org/en/projects/rpg).
