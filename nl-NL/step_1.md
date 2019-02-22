@@ -8,11 +8,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### Wat je gaat maken
+### Wat ga je maken
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Klik op de groene vlag om te starten. Gebruik de pijltjestoetsen om je spelfiguur in de wereld rond te bewegen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -29,15 +29,15 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
-- A computer capable of running Scratch 3
+- Een computer die Scratch 3 kan uitvoeren
 
 ### Software
 
-- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:Target="_blank"})
 
 ### Downloads
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Wat ga je leren
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -60,7 +60,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {:target="_ blank"}.
 
 You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
 
