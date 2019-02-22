@@ -1,26 +1,26 @@
 ## 課題：あなたの世界を広げる
 
-You can now continue creating your own world! Here are some ideas:
+あなたは今あなた自身の世界を創造し続けることができます！ ここにいくつかのアイデアがあります：
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
-+ Add sound and music to your game
-+ Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ 別の部屋であなたのゲームにもっとコインを追加してください。 あなたはいくつかのコインが敵をパトロールすることによって守られるようにすることができますか？
++ ゲームの背景を変更する
++ ゲームにサウンドと音楽を追加する
++ 人、敵、サインを追加する
++ 赤と黄色の扉、そしてそれらを開くための特別な鍵を追加する
++ あなたの世界にもっと部屋を追加する
++ 他の便利なアイテムをあなたのゲームに追加する
     
-    + Use coins to get information from other people:
+    + コインを使って他の人から情報を入手する：
 
-![screenshot](images/world-bribe.png)
+![スクリーンショット](images/world-bribe.png)
 
-+ 部屋1の北と南の壁にドアを追加することもでき、プレイヤーは4方向すべての部屋を移動できます。 For example, your game can have nine rooms in a 3×3 grid. 部屋番号に `3` を追加して1つ下の階層に移動できます。
++ 部屋1の北と南の壁にドアを追加することもでき、プレイヤーは4方向すべての部屋を移動できます。 たとえば、3×3のグリッドに9つの部屋があるとします。 部屋番号に `3` を追加して1つ下の階層に移動できます。
 
-![スクリーンショット](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
+![スクリーンショット](images/north-south-rooms.png) ![スクリーンショット](images/number-grid.png)
 
 ```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
+もし <touching color [ ]?> 次に
+へスイッチ背景（（衣装[数V]）+（3））
+Xに移動します（0）、Y（200）
+によって変化[ルームV]（3）
 ```
