@@ -1,54 +1,56 @@
 ## 人
 
-Add other people to your world who your `player` sprite can interact with.
+あなたの `プレイヤー` スプライトが相互作用できる他の人々をあなたの世界に追加しましょう。
 
-\--- task \--- Switch to the `person` sprite.
+\--- task \--- `人` 人のスプライトに切り替えます。
 
-![Person sprite](images/person.png) \--- /task \---
+![人スプライト](images/person.png) - - /仕事 - -
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\--- task \--- `人の` 人のスプライトにコードを追加して、その人が `プレーヤ` スプライトと話すようにします。 このコードは、 `sign` スプライトに追加したコードと非常によく似ています。
 
-![person](images/person.png)
-
-```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
-end
-```
-
-\--- /task \---
-
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
-
-![person](images/person.png)
+![人](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
-end
+旗がクリックされたとき
+はxに行きます：（0）y：（-150）
+永遠に
+ < 触れたら
+ （プレイヤーv） > その後、
+        [あなたはオレンジと黄色のドアを通って行くことができることを知っていますか？]と言う
+    他
+        []と言う
+    終了
+終了
+```
+
+- - /仕事 - -
+
+\--- task \--- コードの `else`{：class = "block3control"}セクションにこれら2つのブロックを追加して、 `人の` 人のスプライトを移動させます。
+
+![人](images/person.png)
+
+```blocks3
+旗がクリックされたとき
+はxに行きます：（0）y：（-150）
+永遠に
+ < 触れたら
+ （プレイヤーv） > その後、
+        [あなたはオレンジと黄色のドアを通って行くことができることを知っていますか？]と言う
+    他
+        []と言う
++移動が（1）の手順
+端に、バウンス場合は+
+    終了
+終了を
 
 ```
 
-\--- /task \---
+- - /仕事 - -
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+あなたの `人の` スプライトは移動しますが、 `プレーヤー` スプライトと話すのをやめるでしょう。
 
-![screenshot](images/world-person-test.png)
+![スクリーンショット](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- task \--- 新しい `人` 人のスプライトにコードを追加して、そのスプライトが部屋1にのみ現れるようにします。 必要なコードは、 `sign` スプライトをroom 1でのみ見えるようにするコードとまったく同じです。
 
-Make sure you test out your new code. \--- /task \---
+新しいコードをテストしてください。 - - /仕事 - -
