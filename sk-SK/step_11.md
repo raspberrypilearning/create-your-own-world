@@ -1,4 +1,4 @@
-## Doors and keys
+## Dvere a kľúče
 
 No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
@@ -8,7 +8,7 @@ No you are going to add code so that some of the doors in your game world are lo
 
 \--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
-![screenshot](images/world-key.png)
+![snímka obrazovky](images/world-key.png)
 
 \--- /task \---
 
@@ -20,7 +20,7 @@ No you are going to add code so that some of the doors in your game world are lo
 
 \--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
 
-![key](images/key.png)
+![kláves](images/key.png)
 
 ```blocks3
 when flag clicked
@@ -44,7 +44,7 @@ delete (all v) of [inventory v]
 
 \--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![screenshot](images/world-door.png) \--- /task \---
+![snímka obrazovky](images/world-door.png) \--- /task \---
 
 \--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
 
