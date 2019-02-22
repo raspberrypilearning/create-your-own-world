@@ -1,45 +1,45 @@
 ## Postacie
 
-Add other people to your world who your `player` sprite can interact with.
+Dodaj inne osoby do swojego świata, którzy swoją `gracz` sprite może wchodzić w interakcje z.
 
-\--- task \--- Switch to the `person` sprite.
+\--- task \--- Przejdź do `duszka` osoby.
 
 ![duszek postać](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. Ten kod jest bardzo podobny do kodu dodanego do duszka `znak`:
+\--- task \--- Dodaj trochę kodu do `osoby` duszka, aby ta osoba rozmawiała z `ikonką` graczy. Ten kod jest bardzo podobny do kodu dodanego do duszka `znak`:
 
-![person](images/person.png)
+![osoba](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
-end
+kiedy flaga kliknęła
+przejdź do x: (0) y: (-150)
+zawsze
+    jeśli < dotyka (gracz v)? > wtedy
+        powiedz [Czy wiesz, że możesz przejść przez pomarańczowe i żółte drzwi?]
+    inne
+        powiedz []
+    koniec
+koniec
 ```
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- zadanie \--- Pozwól `osoba` ikonki, aby przejść przez dodanie tych dwóch bloków w `indziej`{class = „block3control”} sekcji kodu:
 
-![person](images/person.png)
+![osoba](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
-end
+kiedy flaga kliknęła
+przejdź do x: (0) y: (-150)
+zawsze
+    jeśli < dotyka (gracz v)? > wtedy
+        powiedz [Czy wiesz, że możesz przejść przez pomarańczowe i żółte drzwi?]
+    inne
+        powiedz []
++ ruch (1) kroki
++ jeśli na krawędzi, odbicie
+    koniec
+koniec
 
 ```
 
@@ -49,6 +49,6 @@ Twój duszek `postać` będzie się teraz poruszać, ale zatrzyma się aby poroz
 
 ![zrzut ekranu](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- task \--- Dodaj kod do nowego `osobowego` duszka, tak aby duszek pojawił się tylko w pokoju 1. Kod, którego potrzebujesz, jest dokładnie taki sam jak kod, który sprawia, że ikonka `znak` widoczna tylko w pokoju 1.
 
 Pamiętaj o przetestowaniu swojego nowego kodu. \--- /task \---
