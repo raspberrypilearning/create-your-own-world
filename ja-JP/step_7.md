@@ -1,11 +1,7 @@
-\---挑戦\---
-
 ## 挑戦：宝物！
 
-あなたが見つけるためにいくつかの宝物を追加することはできますか？
+Can you add some treasure for the player to find?
 
-作る `トレジャーチェスト` スプライトを部屋3にのみ表示され、それは言う持っている「よくやりました！」 `プレイヤー` スプライトがそれに触れたとき。
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
-![スクリーンショット](images/world-treasure.png)
-
-\--- /チャレンジ\---
+![screenshot](images/world-treasure.png)
