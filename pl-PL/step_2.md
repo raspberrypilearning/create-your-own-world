@@ -1,42 +1,42 @@
-## Move the player sprite
+## Przenieś sprite gracza
 
-Start by creating a `player` sprite that can move around your world.
+Zacznij od stworzenia sprite'a `gracza` który może poruszać się po Twoim świecie.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Otwórz projekt startowy "Utwórz swój własny świat".
 
-**Online**: open the online starter project at at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
+**Online**: otwórz projekt online startowy o [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){: target = "_ blank"}. Jeśli posiadasz konto Scratch, możesz kliknąć **Remix** w prawym górnym rogu, aby zapisać kopię projektu na swoim koncie.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: pobierz projekt startowy [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){: target = "_ blank"}, a następnie otwórz go za pomocą edytora offline. Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![zrzut ekranu](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Naciśnięcie klawiszy strzałek powinno przesunąć ikonkę `gracza` dookoła. Po naciśnięciu strzałki w górę, ikonka `gracza` powinna przesunąć się w górę na stole montażowym w odpowiedzi.
 
 \--- task \---
 
 Dodaj poniższy kod do duszka `gracz`:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-end
+kiedy flaga kliknęła
+zawsze
+    jeśli naciśnięty został <przycisk (strzałka w górę v)? > a następnie
+        punkt w kierunku (0)
+        ruch (4) kroki
+    koniec
+koniec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Kliknij flagę, a następnie przytrzymaj strzałkę w górę. Czy `gracz` sprite poruszać się w górę?
 
 ![zrzut ekranu](images/world-up.png)
 
@@ -44,79 +44,79 @@ Click the flag and then hold down the up arrow. Does the `player` sprite move up
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Aby przesunąć ikonkę `gracza` na lewo, musisz dodać kolejny blok `jeśli`{: class = "block3control"} z podobnym kodem:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-end
+kiedy flaga kliknęła
+zawsze
+    jeśli naciśnięty został <przycisk (strzałka w górę v)? > to
+        punkt w kierunku (0)
+        ruch (4) kroki
+    koniec
++ jeśli naciśnięto <przycisk (lewa strzałka v)? > następnie
+        punkt w kierunku (-90)
+        ruch (4) kroki
+    koniec
+koniec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Użyj kodu, który już masz, aby sobie pomóc.
+Dodaj więcej kodu do `player` ikonki więc może poruszać się w dół i na prawo, jak również. Użyj kodu, który już masz, aby sobie pomóc.
 
 \--- wskazówka \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Aby przejść do góry, należy wskazać ikonkę `gracza` w kierunku `0` stopni. Co musisz zrobić, aby przesunąć duszka w dół?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Aby przejść w lewo, kierujesz duszkiem w kierunku `-90 o` stopień. Co musisz zrobić, aby przenieść duszka w prawo?
 
 \--- /wskazówka \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Musisz zmienić te dwa bloki:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
 
-point in direction ()
+punkt w kierunku ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Powiel kod, który sprawia, że grzebień `gracza` porusza się w górę, i zmień te dwa bloki, aby sprite przesunąć w dół. Ponownie skopiuj kod i zmień go, aby sprite przesuwał się w prawo.
 
 \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+kiedy flaga kliknęła
+zawsze
+    jeśli naciśnięty został <przycisk (strzałka w górę v)? > to
+        punkt w kierunku (0)
+        ruch (4) kroki
+    koniec
+    jeśli naciśnięto <przycisk (lewa strzałka v)? > to
+        punkt w kierunku (-90)
+        ruch (4) kroki
+    koniec
 
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-end
++ czy naciśnięto <przycisk (strzałka w dół v)? > to
+        punkt w kierunku (180)
+        ruch (4) kroki
+    koniec
++ jeśli naciśnięty jest <przycisk [prawa strzałka v]? > następnie
+        punkt w kierunku (90)
+        ruch (4) kroki
+    koniec
+koniec
 ```
 
 \--- /hint \--- \--- /hints \---
