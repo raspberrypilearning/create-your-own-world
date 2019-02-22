@@ -1,4 +1,4 @@
-## People
+## Ľudia
 
 Add other people to your world who your `player` sprite can interact with.
 
@@ -47,7 +47,7 @@ end
 
 Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![screenshot](images/world-person-test.png)
+![snímka obrazovky](images/world-person-test.png)
 
 \--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
 
