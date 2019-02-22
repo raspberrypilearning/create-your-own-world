@@ -8,11 +8,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### Cosa creerai
+### Che cosa creerai
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Clicca sulla bandiera verde per cominciare. Usa i tasti freccia per muovere il tuo personaggio in giro per il mondo.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -29,15 +29,15 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Di cosa avrete bisogno?
 
 ### Hardware
 
-- A computer capable of running Scratch 3
+- Un computer in grado di eseguire Scratch 3
 
 ### Software
 
-- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} o [offline](http://rpf.io/scratchoff){:target="_blank"}"})
 
 ### Downloads
 
@@ -47,21 +47,21 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Cosa imparerai
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
 - Use conditional selection based on the value of a variable
 - Use lists to store data
 
-\--- /collapse \---
+\--- / chiudi \---
 
 ## \--- collapse \---
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_ blank"}.
 
 You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
 
-\--- /collapse \---
+\--- / chiudi \---
