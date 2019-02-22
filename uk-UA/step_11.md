@@ -1,50 +1,64 @@
 ## Двері та ключі
 
-Що робити, якщо деякі двері у вашому світі заблоковані, і гравець повинен знайти ключ до прогресу?
+No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
-+ Поверніться назад до `key` ельфа. Клацніть правою кнопкою миші та виберіть **show** так щоб він з'явився на сцені.
+\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
 
-+ Редагуйте `key` костюм ельфа так, щоб він був синім кольором.
+\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
 
-+ Переключіть фоновий сценарій у кімнату 3 та покладіть клавішу `key` де важко добратися!
-    
-    ![скріншот](images/world-key.png)
+\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
-+ Додайте код до `enemy` так, щоб він з'явився лише в кімнаті 3.
+![screenshot](images/world-key.png)
 
-+ Створіть список, який називається `inventory`{:class="blockdata"}. Це буде там, де ви зберігатимете всі елементи вашого `player` ельфа
+\--- /task \---
 
-[[[generic-scratch-make-list]]]
+\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
 
-+ Код для збору ключів дуже схожий на код для збору монет. Різниця полягає в тому, що ви додаєте ключ до свого списку
+\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
 
-```blocks
-    when flag clicked
-    wait until <touching [player v]?>
-    add [blue key] to [inventory v]
-    stop [other scripts in sprite v]
-    hide
+[[[generic-scratch3-make-list]]] \--- /task \---
+
+\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+
+![key](images/key.png)
+
+```blocks3
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
-+ Випробуйте `key` щоб дізнатись, чи можете ви його зібрати і додати до інвентарю. Не забудьте додати код до вашої сцени, щоб видалити ваш інвентар на початку гри.
+\--- /task \---
 
-```blocks
-    видалити (all v) [inventory v]
+\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+
+```blocks3
+видалити (all v) [inventory v]
 ```
 
-+ Тепер давайте додамо заблоковані двері. Клацніть правою кнопкою миші на `door-blue` і виберіть **show** , а потім помістіть ельфа у розриві двох стін.
+\--- /task \---
 
-![скріншот](images/world-door.png)
+\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
 
-+ Додайте код до `enemy` так, щоб він з'явився лише в кімнаті 3.
+\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-+ `door-blue` повинен ховатися, щоб дозволити вашому`player` ельфу пройти, коли у вас є синій ключ у вашому інвентарі.
+![screenshot](images/world-door.png) \--- /task \---
 
-```blocks
-    when flag clicked
-    wait until <[inventory v] contains [blue key]>
-    stop [other scripts in sprite v]
-    hide
+\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+
+\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+
+![door](images/door.png)
+
+```blocks3
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
-+ Випробуйте свій проект і подивіться, чи можете ви зібрати синій ключ, щоб відкрити двері!
+\--- /task \---
+
+\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
