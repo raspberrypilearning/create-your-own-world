@@ -1,8 +1,8 @@
-## Move around your world
+## Stevige muren
 
 The `player` sprite should be able to walk through doors into other rooms.
 
-Your project contains backdrops for additional rooms:
+Het project bevat achtergronden voor extra kamers:
 
 ![screenshot](images/world-backdrops.png)
 
