@@ -1,124 +1,126 @@
-## Move the player sprite
+## プレーヤーのスプライトを移動する
 
-Start by creating a `player` sprite that can move around your world.
+あなたの世界を動き回ることができる `プレイヤー` スプライトを作成することから始めます。
 
-\--- task \---
+- - 仕事 - -
 
-Open the 'Create your own world' Scratch starter project.
+'Create your own world'スクラッチスタータープロジェクトを開きます。
 
-**Online**: open the online starter project at at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
+**オンライン**： [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on)でオンラインスタータープロジェクトを開きます。{：target = "_ blank"}。 Scratchアカウントをお持ちの場合は、右上隅にある **Remix** クリックしてプロジェクトのコピーを自分のアカウントに保存できます。
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**オフライン**：スタータープロジェクトをダウンロードします [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){：target = "_ blank"}、次にオフラインエディターを使用して開きます。 Scratchオフラインエディタをダウンロードしてインストールする必要がある場合は、 [rpf.io / scratchoff](https://rpf.io/scratchoff){：target = "_ blank"}で見つけることができます。
 
-![screenshot](images/world-starter.png)
+![スクリーンショット](images/world-starter.png)
 
-\--- /task \---
+- - /仕事 - -
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+矢印キーを押すと、 `プレイヤー` スプライトが移動します。 上向き矢印が押されると、それに応じて `プレイヤー` スプライトがステージ上を上向きに動くはずです。
 
-\--- task \---
+- - 仕事 - -
 
-Add this code to the `player` sprite:
+このコードを `プレイヤー` スプライトに追加します。
 
-![player](images/player.png)
-
-```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-end
-```
-
-\--- /task \---
-
-\--- task \---
-
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
-
-![screenshot](images/world-up.png)
-
-\--- /task \---
-
-\--- task \---
-
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
-
-![player](images/player.png)
+![プレーヤー](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-end
+<キー（上向き矢印v）が押されたらフラグが永久に
+クリックしたとき
+ > から
+        方向に
+ポイント（0）
+        移動（4）ステップ
+    終了
+終了
 ```
 
-\--- /task \---
+- - /仕事 - -
 
-\--- task \---
+- - 仕事 - -
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+旗をクリックしてから上向きの矢印を押したままにします。 `プレイヤー` スプライトは上に動きますか？
 
-\--- hints \---
+![スクリーンショット](images/world-up.png)
 
-\--- hint \---
+- - /仕事 - -
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+- - 仕事 - -
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+`プレーヤー` スプライトを左に移動するには、同様のコードで `if`{：class = "block3control"}ブロックを追加する必要があります。
 
-\--- /hint \---
-
-\--- hint \---
-
-You need to change these two blocks:
-
-![player](images/player.png)
+![プレーヤー](images/player.png)
 
 ```blocks3
-<key ( v) pressed>
-
-point in direction ()
+<キー（上向き矢印v）が押されたらフラグが永久に
+クリックしたとき
+ > 次に方向
+        指す（0）
+        移動する（4）ステップ
+    終了
++ <キー（左矢印v）を押すと？ > から
+        方向に
+ポイント（-90）
+        移動（4）ステップ
+    終了
+終了
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+- - /仕事 - -
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+- - 仕事 - -
 
-![player](images/player.png)
+`プレーヤー` スプライトにもっと多くのコードを追加して、右下に移動できるようにします。 あなたがあなたを助けるためにすでに持っているコードを使用してください。
+
+- - ヒント - -
+
+\---ヒント\---
+
+上に移動するには、 `プレイヤー` スプライトを `0` 度の方向に向けます。 あなたはスプライトを下に動かすために何をしなければなりませんか？
+
+左に移動するには、スプライトを0〜90</code> 度の方向に向け `。 あなたはスプライトを正しく動かすために何をしなければなりませんか？</p>
+
+<p>--- /ヒント---</p>
+
+<p>---ヒント---</p>
+
+<p>これら2つのブロックを変更する必要があります。</p>
+
+<p><img src="images/player.png" alt="プレーヤー" /></p>
+
+<pre><code class="blocks3"><key ( v) pressed>
+
+方向のポイント（）
+`</pre> 
+
+`プレーヤー` スプライトを上方に移動させるコードを複製し、これら2つのブロックを変更してスプライトを下方に移動させます。 コードをもう一度複製し、スプライトが右に移動するように変更します。
+
+\--- / hint \--- \--- hint \--- があなたのコードがどう見えるべきかです：
+
+![プレーヤー](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+<キー（上向き矢印v）が押されたらフラグが永久に
+クリックしたとき
+ > 次に方向
+        指す（0）
+        移動する（4）ステップ
+    終了
+ <キー（左矢印v）を押すと？ > から
+        方向に
+ポイント（-90）
+        移動（4）ステップ
+    終了
 
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-end
++ <キー（下矢印v）が押されたら > そして
+        方向を向く（180）
+        動く（4）ステップ
+    終了
++ <キー[右矢印v]が押されたら？ > 方向に
+        ポイント（90）
+        移動（4）ステップ
+    終了
+終了
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- / / hints \---
 
-\--- /task \---
+- - /仕事 - -
