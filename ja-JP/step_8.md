@@ -1,39 +1,54 @@
 ## 人
 
-あなたの `プレイヤー` スプライトが相互作用できる他の人をあなたの世界に追加しましょう。
+Add other people to your world who your `player` sprite can interact with.
 
-+ `人` スプライトに切り替えます。
+\--- task \--- Switch to the `person` sprite.
 
-![人スプライト](images/person-sprite.png)
+![Person sprite](images/person.png) \--- /task \---
 
-+ `人の` スプライトにいくつかのコードを追加して、その人が `人の` スプライトと話すようにします。 このコードは、 `記号` スプライトに追加したコードと非常によく似ています。
+\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-```blocks
-    フラグが
-    ときx：（0）y：（-150）
-    永遠に
- < [player v]に触れたら？ > と
-            言う[あなたはオレンジとイエローのドアを通過できることを知っていましたか？]
-        else
-            say []
-        end
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
     end
+end
 ```
 
-+ また、コードの `else`{：class = "blockcontrol"}セクションにこれら2つのブロックを追加することで、 `人の` スプライトを移動させることもできます`</li>
-</ul>
+\--- /task \---
 
-<pre><code class="blocks">move（1）エッジの場合は
-ステップ、バウンス
-`</pre> 
-    あなたの `人` スプライトは移動しますが、 `人の` スプライトと話すのを止めます。
-    
-    ![スクリーンショット](images/world-person-test.png)
-    
-    \---挑戦\---
-    
-    ### 課題：人を改善する
-    
-    新しい `人` スプライトにコードを追加して、ルーム1にしか表示されないようにすることはできますか？ 新しいコードをテストしてください。
-    
-    \--- /チャレンジ\---
+\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
+
+```
+
+\--- /task \---
+
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+
+![screenshot](images/world-person-test.png)
+
+\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code. \--- /task \---
