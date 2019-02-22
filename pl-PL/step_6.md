@@ -2,7 +2,7 @@
 
 Now add signs to your world to guide players on their journey.
 
-Your project includes a `welcome sign` sprite:
+Twój projekt zawiera duszka `znak-powitanie`:
 
 ![zrzut ekranu](images/world-sign.png)
 
@@ -45,15 +45,15 @@ forever
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+-- /hint \--- \--- hints \---
 
 \--- /task \---
 
 \--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-![screenshot](images/world-sign-test.png) \--- /task \---
+![zrzut ekranu](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+\--- task \--- A sign isn't much good if it doesn't say anything! Dodaj więcej kodu, aby wyświetlić wiadomość, jeśli duszek `znak-powitanie` dotknie duszka `gracz`:
 
 ![sign](images/sign.png)
 
@@ -77,4 +77,4 @@ end
 
 \--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
 
-![screenshot](images/world-sign-test2.png) \--- /task \---
+![zrzut ekranu](images/world-sign-test2.png) \--- /task \---
