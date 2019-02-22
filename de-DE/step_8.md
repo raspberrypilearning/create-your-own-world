@@ -4,9 +4,9 @@ Add other people to your world who your `player` sprite can interact with.
 
 \--- task \--- Switch to the `person` sprite.
 
-![Person sprite](images/person.png) \--- /task \---
+![Figur Person](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. Dieser Code ist dem Code, den du bereits zum `Schild` hinzugefügt hast, sehr ähnlich:
 
 ![person](images/person.png)
 
@@ -45,10 +45,10 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Die `Person` bewegt sich jetzt hin und her, bleibt aber stehen, um mit dem `Spieler` zu sprechen.
 
-![screenshot](images/world-person-test.png)
+![Screenshot](images/world-person-test.png)
 
 \--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
 
-Make sure you test out your new code. \--- /task \---
+Vergiss nicht, den neuen Code zu testen. \--- /task \---
