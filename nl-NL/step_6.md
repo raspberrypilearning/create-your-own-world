@@ -2,7 +2,7 @@
 
 Now add signs to your world to guide players on their journey.
 
-Your project includes a `welcome sign` sprite:
+Je project bevat een sprite `welkomstbord`:
 
 ![screenshot](images/world-sign.png)
 
@@ -51,9 +51,9 @@ end
 
 \--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-![screenshot](images/world-sign-test.png) \--- /task \---
+![screenshot](images/world-sign-test.png) -- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+\--- task \--- A sign isn't much good if it doesn't say anything! Voeg code toe om een bericht weer te geven als de sprite `welkomstbord` wordt aangeraakt door de sprite `speler`:
 
 ![sign](images/sign.png)
 
