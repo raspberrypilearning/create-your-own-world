@@ -30,7 +30,7 @@ hide
 stop [other scripts in sprite v]
 ```
 
-\--- /task \---
+-- /task \---
 
 \--- task \--- Add code to your Stage to empty your inventory at the start of the game.
 
