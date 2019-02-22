@@ -1,40 +1,54 @@
 ## Люди
 
-Давайте додамо інших людей у ваш світ, з ким ваш ` гравець `ельф може взаємодіяти.
+Add other people to your world who your `player` sprite can interact with.
 
-+ Поверніться назад до ельфа
+\--- task \--- Switch to the `person` sprite.
 
-![Person sprite](images/person-sprite.png)
+![Person sprite](images/person.png) \--- /task \---
 
-+ Додайте код до `person`, щоб людина розмовляла з ` player` ельф. Цей код дуже схожий з кодом, який ви додали до свого знаку ` ` ельф:
+\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-```blocks
-    when flag clicked
-    go to x: (0) y: (-150)
-    forever
-        if < touching [player v]? > then
-            say [Did you know that you can go through orange and yellow doors?]
-        else
-            say []
-        end
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
     end
+end
 ```
 
-+ Ви також можете дозволити своєму `person` ельфу переміщатися, додавши ці два блоки в `else` {: class = "blockcontrol"} до розділу вашого коду:
+\--- /task \---
 
-```blocks
-перемістити (1) крок, 
-якщо на краю, стрибок
+\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
+
 ```
 
-Ваш `person` ельф тепер рухатиметься, але перестане говорити з `player` ельф.
+\--- /task \---
 
-![скріншот](images/world-person-test.png)
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-\--- challenge \---
+![screenshot](images/world-person-test.png)
 
-### Challange: Вдосконалення неба
+\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
 
-Чи можете ви додати код до `person` так, щоб вони з'являлися тільки в номері 1? Переконайтеся, що ви перевірили новий код.
-
-\--- /challenge \---
+Make sure you test out your new code. \--- /task \---
