@@ -1,40 +1,54 @@
 ## Osobe
 
-Dodajmo u tvoj svijet druge osobe sa kojima tvoj lik `igrača` može da komunicira.
+Add other people to your world who your `player` sprite can interact with.
 
-+ Pređi na lik `osobe`.
+\--- task \--- Switch to the `person` sprite.
 
-![Lik osobe](images/person-sprite.png)
+![Person sprite](images/person.png) \--- /task \---
 
-+ Dodaj kôd liku `osobe` da napraviš da osoba razgovara sa likom `igrača`. Ovaj kôd je veoma sličan kôdu koji si dodao/dodala svom liku `znaka`:
+\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-```blocks
-    when flag clicked
-    go to x: (0) y: (-150)
-    forever
-        if < touching [igrač v]? > then
-            say [Znaš li da možeš da prođeš kroz narandžasta i žuta vrata?]
-        else
-            say []
-        end
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
     end
+end
 ```
 
-+ Takođe, možeš omogućiti liku `osobe` da se kreće tako što ćeš dodati ova dva bloka u dio `else`{:class="blockcontrol"} (inače) svog kôda:
+\--- /task \---
 
-```blocks
-move (1) steps
-if on edge, bounce
+\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
+
 ```
 
-Tvoj lik `osobe` sada će se kretati, ali će prestati da razgovara sa likom `igrača`.
+\--- /task \---
+
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
 ![screenshot](images/world-person-test.png)
 
-\--- challenge \---
+\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
 
-### Izazov: poboljšaj osobu
-
-Da li možeš da dodaš kôd svom novom liku `osobe` tako da se pojavljuje samo u sobi 1? Ne zaboravi da isprobaš svoj novi kôd.
-
-\--- /challenge \---
+Make sure you test out your new code. \--- /task \---
