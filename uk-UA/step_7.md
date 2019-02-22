@@ -1,11 +1,7 @@
-\--- challenge \---
-
 ## Challenge: скарб!
 
-Ви можете додати який-небудь скарб для гравця ?
+Can you add some treasure for the player to find?
 
-Зробіть `treasure chest` ельф з'являється тільки в кімнаті 3, і має сказати так: "Добре!" коли `player` доторкається.
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
-![скріншот](images/world-treasure.png)
-
-\--- /challenge \---
+![screenshot](images/world-treasure.png)
