@@ -1,4 +1,4 @@
-## Move the player sprite
+## Coder votre joueur
 
 Start by creating a `player` sprite that can move around your world.
 
@@ -10,7 +10,7 @@ Open the 'Create your own world' Scratch starter project.
 
 **Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![capture d'écran](images/world-starter.png)
 
 \--- /task \---
 
@@ -18,7 +18,7 @@ Pressing the arrow keys should move the `player` sprite around. When the up arro
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Ajoute ce code au lutin `jouer` :
 
 ![player](images/player.png)
 
@@ -38,7 +38,7 @@ end
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![screenshot](images/world-up.png)
+![capture d'écran](images/world-up.png)
 
 \--- /task \---
 
@@ -66,9 +66,9 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Add more code to your `player` sprite so it can move down and to the right as well. Utilise le code que tu as déjà pour t'aider.
 
-\--- hints \---
+\--- astuces \---
 
 \--- hint \---
 
@@ -76,7 +76,7 @@ To move up, you point the `player` sprite in the direction `0` degrees. What do 
 
 To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
 
-\--- /hint \---
+\--- /indice \---
 
 \--- hint \---
 
@@ -92,7 +92,7 @@ point in direction ()
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\---/hint\--- \---hint\--- Voici a quoi devrait ressembler ton code :
 
 ![player](images/player.png)
 
