@@ -1,72 +1,72 @@
 ## Znaki
 
-Now add signs to your world to guide players on their journey.
+Teraz dodaj znaki do swojego świata, aby poprowadzić graczy w ich podróży.
 
 Twój projekt zawiera duszka `znak-powitanie`:
 
 ![zrzut ekranu](images/world-sign.png)
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+\--- zadanie \--- `zadowoleniem powitać` ikonki powinny być widoczne tylko w pokoju 1, więc dodać trochę kodu do ikonki, aby upewnić się, że tak się dzieje:
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- wskazówki \--- \--- wskazówka \--- `Kiedy flaga zostanie kliknięta`{: class = "block3events"}, w pętli `zawsze`{: class = "block3control"}, sprawdź `jeśli`{: class = "block3control"} `pokój to 1`{: class = "block3variables"} iw takim przypadku `show`{: class = "block3looks"} `znak powitalny` ikonki, `innych`{: class = "block3control"} `hide`{: class = "block3looks"} duszek. \--- / wskazówka \--- \--- wskazówka \--- Oto bloki, których potrzebujesz:
 
-![sign](images/sign.png)
+![znak](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
-else
-end
+<br />jeśli &lt; &gt; to
 
-&lt; (room :: variables) = [1] &gt;
+koniec
 
-hide
+&lt; (pokój :: zmienne) = [1] &gt;
 
-show
+ukryj
 
-forever
-end
+pokaż
 
-when flag clicked
+zawsze
+koniec
+
+po kliknięciu flagi
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- / wskazówka \--- \--- podpowiedź \--- Oto pełny kod:
 
-![sign](images/sign.png)
+![znak](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
+kiedy flaga kliknęła
+zawsze
+    jeśli < (pokój :: zmienne) = [1] > a następnie
+        pokazuje
+    inne
+        ukryj
+    koniec
+końca
 ```
 
 -- /hint \--- \--- hints \---
 
 \--- /task \---
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- task \--- Przetestuj kod dla swojego `duszka` znaku powitalnego, przechodząc między pokojami. Znak powinien być widoczny tylko w pokoju 1.
 
 ![zrzut ekranu](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Dodaj więcej kodu, aby wyświetlić wiadomość, jeśli duszek `znak-powitanie` dotknie duszka `gracz`:
+\--- task \--- Znak nie jest zbyt dobry, jeśli nic nie mówi! Dodaj więcej kodu, aby wyświetlić wiadomość, jeśli duszek `znak-powitanie` dotknie duszka `gracz`:
 
-![sign](images/sign.png)
+![znak](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
+kiedy flaga kliknęła
+zawsze
+jeśli < (pokój :: zmienne) = [1] > a następnie
+pokazuje
+jeszcze
+ukryć
+koniec
++ czy < dotyka (gracz v)? > a następnie
+powiedz [Witamy! Czy możesz dostać się do skarbu?]
 else
 say []
 end
@@ -75,6 +75,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- task \--- Ponownie sprawdź swoją `duszpasterkę` znaku powitalnego. Teraz powinieneś zobaczyć komunikat, gdy `gracz` sprite dotyka `powitalny znak` ikonki.
 
 ![zrzut ekranu](images/world-sign-test2.png) \--- /task \---
