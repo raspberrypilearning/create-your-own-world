@@ -1,22 +1,26 @@
-\--- challenge \---
-
 ## تحدي: وسِّع عالمك
 
-يمكنك الآن أن تُكمل إنشاء عالَمك الخاص! إليك بعض الأفكار:
+You can now continue creating your own world! Here are some ideas:
 
-+ غيِّر خلفية اللعبة ورسوماتها
-+ أضف موسيقى ومؤثرات صوتية إلى اللعبة
-+ أضف المزيد من الأشخاص والأعداء واللافتات والعملات الذهبية
-+ أضف أبوابًا حمراء وصفراء، ومفاتيح خاصة لفتحها
-+ أضف المزيد من الغرف إلى اللعبة
-+ أضف عناصر أخرى مفيدة إلى اللعبة
++ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
++ Change your game's backdrops
++ Add sound and music to your game
++ Add more people, enemies, and signs
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
+    
+    + Use coins to get information from other people:
 
-+ استخدم العملات الذهبية للحصول على معلومات من الأشخاص:
+![screenshot](images/world-bribe.png)
 
-![لقطة الشاشة](images/world-bribe.png)
++ يمكنك أيضًا إضافة أبواب في الحائطَين العلوي والسفلي للغرفة 1، بحيث يتمكن اللاعب من التحرك بين الغرف في كل الاتجاهات الأربعة. For example, your game can have nine rooms in a 3×3 grid. ثم يمكنك إضافة `3` إلى رقم الغرفة للنزول مستوى واحدًا.
 
-+ يمكنك أيضًا إضافة أبواب في الحائطَين العلوي والسفلي للغرفة 1، بحيث يتمكن اللاعب من التحرك بين الغرف في كل الاتجاهات الأربعة. على سبيل المثال، إذا كانت لديك تسع غرف، فيمكنك التفكير فيها كشبكة 3×3. ثم يمكنك إضافة `3` إلى رقم الغرفة للنزول مستوى واحدًا.
+![لقطة الشاشة](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
 
-![لقطة الشاشة](images/world-north-south.png)
-
-\--- challenge \---
+```blocks3
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [room v] by (3)
+```
