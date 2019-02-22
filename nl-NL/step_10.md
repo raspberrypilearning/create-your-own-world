@@ -1,4 +1,4 @@
-## Collect coins
+## Munten verzamelen
 
 Your `player` sprite should have be able to collect coins as it moves through the world.
 
