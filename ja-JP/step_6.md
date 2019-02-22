@@ -1,48 +1,80 @@
 ## サイン
 
-あなたの世界に看板を入れて、プレイヤーの旅をガイドしましょう。
+Now add signs to your world to guide players on their journey.
 
-+ あなたのプロジェクトにはウェルカムサイン</code> スプライトが含まれてい `：</li>
-</ul>
+Your project includes a `welcome sign` sprite:
 
-<p><img src="images/world-sign.png" alt="スクリーンショット" /></p>
+![スクリーンショット](images/world-sign.png)
 
-<ul>
-<li><code>歓迎記号` スプライトは部屋1に表示され、これにいくつかのコードを追加する必要があります `歓迎看板` この問題が発生したことを確認するスプライト：
+\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-```blocks
-    フラグを
-    永遠に
- < （部屋）= [1] > 、次に
+\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
 
-        その他
+![sign](images/sign.png)
 
+```blocks3
+<br />if &lt; &gt; then
+else
+end
 
-    終了
+&lt; (room :: variables) = [1] &gt;
+
+hide
+
+show
+
+forever
+end
+
+when flag clicked
+
 ```
 
-+ 部屋の間を移動することによって、あなたの `ウェルカムサイン` スプライトをテストしてください。 あなたの看板は部屋1にしか見えません。
-    
-    ![スクリーンショット](images/world-sign-test.png)
+\--- /hint \--- \--- hint \--- Here is the complete code:
 
-+ それが何も言わないとサインはあまり良くない！ `ウェルカムサイン` スプライトが `プレイヤー` スプライトに触れている場合、メッセージを表示するコードをいくつか追加してください：
+![sign](images/sign.png)
 
-```blocks
-    フラグが
-    ときは永遠に
- < （部屋）= [1] > 次に
-            場合
-        else
-            場合
-        終了
-        場合 < [player v]に触れる？ > から
-            は[ようこそ！ あなたは宝に出ることができますか？]
-        else
-            say []
-        end
+```blocks3
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
     end
+end
 ```
 
-+ あなたの `歓迎サイン` スプライトを試してください - あなたは `プレイヤー` スプライトがそれに触れるとメッセージを表示するはずです。
+\--- /hint \--- \--- /hints \---
 
-![スクリーンショット](images/world-sign-test2.png)
+\--- /task \---
+
+\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+
+![screenshot](images/world-sign-test.png) \--- /task \---
+
+\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+
+![sign](images/sign.png)
+
+```blocks3
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
+end
+```
+
+\--- /task \---
+
+\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png) \--- /task \---
