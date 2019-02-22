@@ -1,40 +1,54 @@
 ## الأشخاص
 
-لنُضِيف أشخاصًا آخرين إلى لعبتك ليتعامل معها كائن `اللاعب`.
+Add other people to your world who your `player` sprite can interact with.
 
-+ عُد إلى كائن `الشخص`.
+\--- task \--- Switch to the `person` sprite.
 
-![كائن الشخص](images/person-sprite.png)
+![Person sprite](images/person.png) \--- /task \---
 
-+ أضف بعض التعليمات البرمجية إلى كائن `الشخص`، ليتحدث مع كائن `اللاعب`. هذه التعليمة البرمجية تشبه إلى حدٍ كبير التعليمة البرمجية التي أضفتها إلى كائن`لافتة`:
+\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-```blocks
-    عند نقر ⚑
-اذهب إلى الموضع س: (0) ص: (-150)
-كرر باستمرار 
-  إذا <ملامس لـ [player v] ؟ > then
-قل [هل تعلم أنه يمكنك المرور عبر الأبواب البرتقالية والصفراء؟]
-else
-قل []
-end
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
 end
 ```
 
-+ ويمكنك أيضًا أن تسمح لكائن `الشخص` بالتحرك عن طريق إضافة هذين القالبين البرمجيين في التعليمة البرمجية `else`{:class="blockcontrol"}:
+\--- /task \---
 
-```blocks
-تحرك (1) خطوة
-ارتد إذا كنت عند الحافة
+\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
+
 ```
 
-سيتحرك الآن كائن `الشخص`، لكن لن يتوقف ليتحدث مع كائن `اللاعب`.
+\--- /task \---
 
-![لقطة الشاشة](images/world-person-test.png)
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-\--- challenge \---
+![screenshot](images/world-person-test.png)
 
-### تحدي: تحسين الشخص
+\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
 
-هل يمكنك إضافة تعليمة برمجية جديدة إلى كائن `الشخص` بحيث يظهر في الغرفة 1 فقط؟ تأكد من اختبار التعليمة البرمجية الجديدة.
-
-\--- /challenge \---
+Make sure you test out your new code. \--- /task \---
