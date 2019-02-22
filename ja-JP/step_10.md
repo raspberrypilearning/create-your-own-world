@@ -1,53 +1,53 @@
-## Collect coins
+## コインを集める
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+あなたの `プレイヤー` スプライトは、世界中を移動するにつれてコインを集めることができるはずです。
 
-\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
+\--- task \--- `コイン`コイン付きの新しい変数</code> {：class = "block3variables"}をあなたのプロジェクトに追加します。 - - /仕事 - -
 
-\--- task \--- Right-click on the `coin` sprite and choose **show**.
+\--- task \--- `コイン` スプライトを右クリックし、 **表示**を選択します。
 
-![screenshot](images/coin.png) \--- /task \---
+![スクリーンショット](images/coin.png) - - /仕事 - -
 
-\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![screenshot](images/coin.png)
-
-```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[1]> then
-show
-else
-hide
-```
-
-\--- /task \---
-
-\--- task \---
-
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
-
-![coin](images/coin.png)
+\--- task \--- `コイン` スプライトにコードを追加し、それが部屋1にのみ現れるようにする。 ![スクリーンショット](images/coin.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
-hide
-stop [other scripts in sprite v]
+flagが永遠に
+クリックしたとき
+ <（room :: variables）=[1]>
+>
+それ以外のとき
+隠す
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+- - /仕事 - -
 
-\--- /task \---
+- - 仕事 - -
 
-\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+`コイン` スプライトにコードを追加して、スプライト `が`{：class = "block3looks"}を隠し、 `1`{：class = "block3variables"}が `コインに追加されるようにします`{：class = "block3variables"} `プレイヤー` スプライトが `コイン` スプライトに触れて「それを拾う」場合に可変です。
 
-![stage](images/stage.png)
+![コイン](images/coin.png)
 
 ```blocks3
-when flag clicked
-set [coins v] to [0]
+フラグがクリックされたときに
+になるまで待ち <touching (player v)?>
+変化[コインV]（1）によって
+隠す
+STOP [スプライトVの他のスクリプト]
 ```
 
-\--- /task \---
+スプライト</code>{：class = "block3control"}の他のスクリプトを停止するコード `は、 <code>コイン` スプライトが収集後に部屋1に表示されないようにするために必要です。
 
-\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
+- - /仕事 - -
+
+\--- task \--- ゲームの開始時に `コイン`{：class = "block3variables"}変数を `0`{：class = "block3variables"}に設定するコードをステージに追加します。
+
+![ステージ](images/stage.png)
+
+```blocks3
+flagが
+クリックしたとき[coins v]を [0]
+```
+
+- - /仕事 - -
+
+\--- task \--- ゲームをテストしてください。 コインを集めると `コイン` 得点が `1`{：class = "block3variables"}に変わります - - /仕事 - -
