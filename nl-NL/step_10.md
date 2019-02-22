@@ -1,35 +1,53 @@
-## Munten verzamelen
+## Collect coins
 
-Terwijl de sprite `speler` door de wereld gaat kan die munten verzamelen.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
-+ Voeg een nieuwe variabele `munten`{:class="blockdata"} toe aan je project.
+\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
 
-+ Klik rechts op de sprite `munt` en kies **verschijn**.
+\--- task \--- Right-click on the `coin` sprite and choose **show**.
 
-![screenshot](images/world-coins.png)
+![screenshot](images/coin.png) \--- /task \---
 
-+ Voeg code toe aan de sprite `munt` zodat die alleen in kamer 1 verschijnt.
+\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![screenshot](images/coin.png)
 
-+ Voeg code toe aan de sprite `munt` zodat `1` wordt toegevoegd aan de `munten`{:class="blockdata"} variabele als de sprite `speler` de sprite `munt` aanraakt om die 'op te pakken'.
-    
-    ```blocks
-        wanneer groene vlag wordt aangeklikt
-    wacht tot <raak ik [speler v] ?>
-    verander [munten v] met (1)
-    stop [andere scripts in sprite v]
-    verdwijn
-    ```
-    
-    De code `stop andere scripts in sprite`{:class="blockcontrol"} is nodig, zodat de sprite `munt` niet meer is te zien in kamer 1 nadat het is opgepakt.
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
+```
 
-+ Er moet aan het begin van je spel ook code worden toegevoegd om de variabele `munten`{:class="blockdata"} in te stellen op `0`.
+\--- /task \---
 
-+ Test je project - het verzamelen van een munt zou de score voor `munten` moeten veranderen naar `1`.
+\--- task \---
 
-\--- challenge \---
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-### Uitdaging: meer munten
+![coin](images/coin.png)
 
-Kun je meer munten aan je spel toevoegen? Ze kunnen in verschillende kamers liggen en sommige munten kunnen zelfs worden bewaakt door rondlopende vijanden!
+```blocks3
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
+```
 
-\--- /challenge \---
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+
+\--- /task \---
+
+\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
+
+```blocks3
+when flag clicked
+set [coins v] to [0]
+```
+
+\--- /task \---
+
+\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
