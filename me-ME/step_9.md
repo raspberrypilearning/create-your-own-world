@@ -1,27 +1,39 @@
-\--- challenge \---
-
 ## Izazov: dodaj neprijatelja
 
-Možeš da dodaš i neprijatelje koji patroliraju. Ako igrač dodirne neprijatelja, igra se završava.
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Dodaj kôd liku `neprijatelja` tako da se pojavljuje samo u sobi 2.
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ Dodaj kôd da se lik `neprijatelja` kreće i da se igra završi ako lik `neprijatelja` dodirne lik `igrača`. Ovo je lakše uraditi u odvojenim blokovima kôda. Ovako bi mogao da izgleda kôd tvog lika `neprijatelja`:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Ovo je lakše uraditi u odvojenim blokovima kôda. Ovako bi mogao da izgleda kôd tvog lika `neprijatelja`:
 
-![screenshot](images/world-enemy-code.png)
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-+ + Da je vidljiv samo u sobi 2
-    + Da patrolira po sobi
-    + Da se igra završava ako ga lik `igrača` dodirne
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-\--- /challenge \---
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
+```
 
-\--- challenge \---
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-## Izazov: više neprijatelja
-
-Da li možeš u sobi 3 da kreiraš još jedan lik `neprijatelja` koji patrolira gore-dolje kroz otvor u zidu?
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
 ![screenshot](images/world-enemy2.png)
-
-\--- /challenge \---
