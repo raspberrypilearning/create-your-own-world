@@ -1,61 +1,42 @@
-## 移動 `プレイヤー` スプライトを
+## Solid walls
 
-あなたの世界を動かすことができる `プレイヤー` スプライトを作成しましょう。
+\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-+ Scratchをオンラインで使用している場合、 <http://jumpto.cc/world-go>{{target = "_ blank"}で「自分の世界を作成する」スクラッチプロジェクトを開きます。 Scratchをオフラインで使用している場合は、プロジェクト [ここ](http://jumpto.cc/world-get){{target = "_ blank"}でダウンロードし、オフラインエディタを使用して開きます。 
+![screenshot](images/world-walls.png) \--- /task \---
 
-![スクリーンショット](images/world-starter.png)
+\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
 
-ゲームをプレイしている人は矢印キーを使って `プレイヤー` スプライトを移動させます。 人が上向きの矢印を押すと、 `プレイヤーに` スプライトが上に移動するように指示する必要があります。その結果、右の方向に移動します。
+![player](images/player.png)
 
-+ このコードを `プレイヤーに追加する` スプライト：
-
-```blocks
-    
-    永久にクリックしたとき
- <キー[上向き矢印v]が押された場合
- ？ > 場合は
-            方向（0）
-            移動（4）のステップ
-        終了
-    終了
+```blocks3
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+end
 ```
 
-+ フラグをクリックして上向き矢印を押しながら、あなたの `プレイヤー` スプライトをテストします。 あなたの `プレイヤー` スプライトは上がっていますか？
-    
-    ![スクリーンショット](images/world-up.png)
+\--- /task \---
 
-+ プレーヤー `` スプライトを左に移動するには、</code>{：class = "blockcontrol"}ブロックに同様のコードを使用する場合は、別の `を追加する必要があります。</p></li>
-</ul>
+\--- task \---
 
-<pre><code class="blocks">    
-    永久にクリックしたとき
- <キー[上向き矢印v]が押された場合
- ？ > 方向に
-            点移動（0）
-            移動（4）手順
-        終了
- <キー[左矢印v]を押すと？ >
-            方向（-90）
-            移動（4）ステップ
-        エンド
-    エンド
-`</pre> 
-    
-    + あなたの `プレイヤー` スプライトにさらにコードを追加して、彼らが右下に移動できるようにします。 すでに必要なコードを使用してください。
-    
-    \---ヒント\--- \---ヒント\--- \--- に移動するには、 `プレイヤー` スプライトが `0` 度の方向を指していたとします。 スプライトを動かすためにあなたは何をしなければなりませんか？
-    
-    左に移動するには、方向のスプライトを指摘 `-90` 度。 あなたはスプライトを正しく動かすために何をしなければなりませんか？ \--- /ヒント\--- \---ヒント\--- \--- これらの2つのブロックを変更する必要があります：
-    
-    ```blocks
-    <key [ v] pressed>
-    ```
-    
-    ```blocks
-    方向を指す（）
-    ```
-    
-    上がっていたコードを複製しますが、これらの2つのブロックを変更して `プレーヤー` スプライトを下に移動させます。 右に動いても同じことをしてください。 \--- / hint \--- \--- hint \--- あなたのコードがどのように見えるかは次のとおりです：
-    
-    ![上下に移動](images/finished-move-down-right.png) \--- /ヒント\--- \--- /ヒント\---
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+
+![screenshot](images/world-walls-test.png) \--- /task \---
