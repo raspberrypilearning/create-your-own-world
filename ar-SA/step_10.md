@@ -1,35 +1,53 @@
-## جمع العملات الذهبية
+## Collect coins
 
-أثناء تحرك كائن `اللاعب` في اللعبة، يمكنه أن يجمع العملات الذهبية.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
-+ أضف متغير جديد يُسمى`العملات الذهبية`{:class="blockdata"} إلى مشروعك.
+\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
 
-+ انقر بزر الفأره الأيمن فوق كائن`العملات الذهبية` واختر **إظهار**.
+\--- task \--- Right-click on the `coin` sprite and choose **show**.
 
-![لقطة الشاشة](images/world-coins.png)
+![screenshot](images/coin.png) \--- /task \---
 
-+ أضف تعليمة برمجية إلى كائن `العملات الذهبية` بحيث لا يظهر إلا في الغرفة 1.
+\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![screenshot](images/coin.png)
 
-+ أضف تعليمة برمجية لكائن `العملات الذهبية` بحيث يضاف `1` إلى متغير `العملات الذهبية`{:class="blockdata"} عندما يلمس كائن `اللاعب` كائن `العملات الذهبية` لكي يلتقطها.
-    
-    ```blocks
-        عند نقر ⚑
-    انتظر حتى <touching [player v]?>
-    غيِّر [coins v] بمقدار (1)
-    أوقف [المقاطع الأخرى في الكائن v]
-    اختف
-    ```
-    
-    يجب استخدام التعليمة البرمجية `أوقف النصوص الأخرى في الكائن`{:class="blockcontrol"} بحيث يختفي كائن `العملات الذهبية` من الغرفة 1 بمجرد جمعِها.
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
+```
 
-+ وستحتاج أيضا إلى إضافة تعليمة برمجية لضبط متغير `العملات الذهبية`{:class="blockdata"} إلى `0` في بداية اللعبة.
+\--- /task \---
 
-+ اختبر مشروعك ــ ويجب أن يؤدي جمع العملات الذهبية إلى تغيير نتيجة `العملات الذهبية` إلى `1`.
+\--- task \---
 
-\--- challenge \---
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-### تحدي: المزيد من العملات
+![coin](images/coin.png)
 
-هل يمكنك إضافة المزيد من العملات الذهبية إلى اللعبة؟ يمكن أن تكون هذه العملات في غرف مختلفة، بل ويُمكن أن يحرس الأعداء بعض من هذه العملات!
+```blocks3
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
+```
 
-\--- /challenge \---
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+
+\--- /task \---
+
+\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
+
+```blocks3
+when flag clicked
+set [coins v] to [0]
+```
+
+\--- /task \---
+
+\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
