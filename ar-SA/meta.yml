@@ -12,7 +12,7 @@ steps:
   - 
     title: ما ستحتاج إليه
   - 
-    title: تحريك كائن اللاعب
+    title: جدران صلبة
   - 
     title: حوائط صلبة
   - 
@@ -36,4 +36,4 @@ steps:
     title: "تحدي: وسِّع عالمك"
     challenge: true
   - 
-    title: "What next?"
+    title: "ما التالي؟"
