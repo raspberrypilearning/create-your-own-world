@@ -1,59 +1,42 @@
-## Pomjeranje lika `igrača`
+## Solid walls
 
-Počnimo tako što ćemo kreirati lik `igrača` koji može da se kreće po tvom svijetu.
+\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-+ Ako koristiš Scratch online, otvori Scratch projekat 'Create your own world' na <http://jumpto.cc/world-go>{:target="_blank"}. Ako koristiš Scratch offline, preuzmi projekat [ovdje](http://jumpto.cc/world-get){:target="_blank"} i otvori ga koristeći offline editor. 
+![screenshot](images/world-walls.png) \--- /task \---
 
-![screenshot](images/world-starter.png)
+\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
 
-Osoba koja igra igru koristiće tastere sa strelicama za pomjeranje lika `igrača`. Kada osoba pritisne strelicu nagore, treba da kažeš liku `igrača` da odgovori kretanjem prema gore, kako bi se kretao u ispravnom smjeru.
+![player](images/player.png)
 
-+ Dodaj ovaj kôd liku `igrača`:
-
-```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
-        end
+```blocks3
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
     end
-```
-
-+ Isprobaj lik `igrača` tako što ćeš kliknuti na zastavicu, a zatim držati pritisnutu strelicu nagore. Da li se lik `igrača` kreće nagore?
-    
-    ![screenshot](images/world-up.png)
-
-+ Za pomjeranje lika `igrača` ulijevo, treba da mu dodaš još jedan blok `if`{:class="blockcontrol"} (ako) sa sličnim kôdom:
-
-```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
-        end
-        if <key [left arrow v] pressed? > then
-            point in direction (-90)
-            move (4) steps
-        end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
     end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+end
 ```
 
-+ Dodaj još kôda svom liku `igrača`, tako da može da se kreće nadolje i udesno. Kao pomoć, koristi kôd koji već imaš.
+\--- /task \---
 
-\--- hints \--- \--- hint \--- Da bismo lik `igrača` pomjerali nagore, okrenuli smo ga u smjeru `0` stepeni. Šta bi trebalo da uradiš za pomjeranje lika nadolje?
+\--- task \---
 
-Da bismo lik igrača pomjerali ulijevo, okrenuli smo ga u smjeru `-90` stepeni. Šta bi trebalo da uradiš za pomjeranje lika udesno? \--- /hint \--- \--- hint \--- Treba da izmijeniš ova dva bloka:
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-```blocks
-<key [ v] pressed>
-```
-
-```blocks
-point in direction ()
-```
-
-Umnoži (duplicate) kôd koji si koristio/koristila za kretanje nagore, ali izmijeni ova dva bloka da napraviš da se lik `igrača` kreće nadolje. Uradi isto za kretanje udesno. \--- /hint \--- \--- hint \--- Ovako treba da izgleda tvoj kôd:
-
-![Kretanje nadolje i udesno](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/world-walls-test.png) \--- /task \---
