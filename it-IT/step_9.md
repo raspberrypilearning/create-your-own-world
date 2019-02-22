@@ -1,27 +1,39 @@
-\--- challenge \---
-
 ## Sfida: aggiungi un nemico
 
-Puoi anche aggiungere una pattuglia di nemici. Se il giocatore tocca un nemico, il gioco finisce.
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Aggiungi del codice allo sprite `nemico` per far sì che appaia solo nella stanza 2.
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ Aggiungi del codice per far muovere lo sprite `nemico` e per far terminare il gioco se lo sprite `nemico` tocca lo sprite `giocatore`. È più facile farlo in blocchi di codice separati. Ecco come il codice del tuo sprite `nemico` potrebbe apparire:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. È più facile farlo in blocchi di codice separati. Ecco come il codice del tuo sprite `nemico` potrebbe apparire:
 
-![screenshot](images/world-enemy-code.png)
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-+ + Sia visibile solo nella stanza 2
-    + Pattugli la stanza
-    + Il gioco termini se lo sprite `giocatore` lo tocca
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-\--- /challenge \---
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
+```
 
-\--- challenge \---
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-## Sfida: più nemici
-
-Sapresti creare un altro sprite `nemico` nella stanza 3 che pattugli su e giù attraverso lo spazio nel muro?
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
 ![screenshot](images/world-enemy2.png)
-
-\--- /challenge \---
