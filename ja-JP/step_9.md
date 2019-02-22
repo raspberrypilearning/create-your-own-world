@@ -1,27 +1,39 @@
-\---挑戦\---
-
 ## 課題：敵を追加する
 
-巡回敵に追加することもできます。 プレイヤーが敵に触れると、ゲームは終了します。
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ `敵` スプライトにコードを追加して、部屋2にのみ表示されるようにします。
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ 移動するためにコードを追加します `敵` スプライトを、そして場合は、ゲームを終了する `敵` スプライトが触れた `選手` スプライトを。 別のコードブロックでこれを行う方が簡単です。 `敵` スプライトコードがどのように見えるかは次のとおりです。
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. 別のコードブロックでこれを行う方が簡単です。 `敵` スプライトコードがどのように見えるかは次のとおりです。
 
-![スクリーンショット](images/world-enemy-code.png)
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-+ + それは部屋2にしか見えません
-    + それは部屋をパトロールする
-    + あればゲームは終了 `プレイヤー` スプライトがそれに触れます
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-\--- /チャレンジ\---
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
+```
 
-\---挑戦\---
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-## 課題：より多くの敵
-
-あなたは別の作成することができます `敵` 壁の隙間を通ってそのパトロール上下室3でスプライトを？
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
 ![スクリーンショット](images/world-enemy2.png)
-
-\--- /チャレンジ\---
