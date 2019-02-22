@@ -36,4 +36,4 @@ change x by (1)
 
 Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
-![screenshot](images/world-enemy2.png)
+![snímka obrazovky](images/world-enemy2.png)
