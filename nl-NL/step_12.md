@@ -1,22 +1,26 @@
-\--- challenge \---
-
 ## Uitdaging: vergroot je wereld
 
-Je kunt nu doorgaan met het maken van je eigen wereld! Hier zijn wat ideeën:
+You can now continue creating your own world! Here are some ideas:
 
-+ Verander de spelomgeving en verander spelafbeeldingen
-+ Voeg geluid en muziek toe aan je spel
-+ Voeg meer mensen, vijanden, borden en munten toe
-+ Voeg rode en gele deuren toe en bijzondere sleutels om ze te openen
-+ Voeg meer kamers toe aan je wereld
-+ Voeg andere nuttige dingen toe aan je spel
-
-+ Gebruik munten om informatie van andere personen te krijgen:
++ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
++ Change your game's backdrops
++ Add sound and music to your game
++ Add more people, enemies, and signs
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
+    
+    + Use coins to get information from other people:
 
 ![screenshot](images/world-bribe.png)
 
-+ Je zou zelfs deuren kunnen toevoegen aan de noord- en zuidwanden van kamer 1, zodat de speler in alle vier de richtingen door kamers kan lopen. Als je bijvoorbeeld negen kamers hebt, zou je die kunnen zien als een raster van 3 × 3. Je kunt dan `3` optellen bij het kamernummer om naar een ​​niveau lager te gaan.
++ Je zou zelfs deuren kunnen toevoegen aan de noord- en zuidwanden van kamer 1, zodat de speler in alle vier de richtingen door kamers kan lopen. For example, your game can have nine rooms in a 3×3 grid. Je kunt dan `3` optellen bij het kamernummer om naar een ​​niveau lager te gaan.
 
-![screenshot](images/world-north-south.png)
+![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
 
-\--- /challenge \---
+```blocks3
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [room v] by (3)
+```
