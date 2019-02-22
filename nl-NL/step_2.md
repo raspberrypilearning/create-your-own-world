@@ -1,4 +1,4 @@
-## Move the player sprite
+## Wat je nodig hebt
 
 Start by creating a `player` sprite that can move around your world.
 
@@ -18,7 +18,7 @@ Pressing the arrow keys should move the `player` sprite around. When the up arro
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Voeg deze code toe aan de sprite ` speler `:
 
 ![player](images/player.png)
 
@@ -32,9 +32,9 @@ forever
 end
 ```
 
-\--- /task \---
+-- /task \---
 
-\--- task \---
+\--- task \----
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
@@ -66,7 +66,7 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Add more code to your `player` sprite so it can move down and to the right as well. Gebruik als hulp de code die je al hebt.
 
 \--- hints \---
 
@@ -92,7 +92,7 @@ point in direction ()
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Zo zou de code eruit moeten zien:
 
 ![player](images/player.png)
 
