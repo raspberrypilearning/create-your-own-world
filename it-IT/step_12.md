@@ -1,22 +1,26 @@
-\--- challenge \---
-
 ## Sfida: espandi il tuo mondo
 
-Ora puoi continuare a creare il tuo mondo! Ecco alcune idee:
+You can now continue creating your own world! Here are some ideas:
 
-+ Cambia le impostazioni del gioco e modificane la grafica
-+ Aggiungi suoni e musica al tuo gioco
-+ Aggiungi più persone, nemici, messaggi e monete
-+ Aggiungi porte rosse e gialle e chiavi speciali per aprirle
-+ Aggiungi più stanze al tuo mondo
-+ Aggiungi altri oggetti utili al tuo gioco
-
-+ Usa le monete per ottenere informazioni dalle altre persone:
++ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
++ Change your game's backdrops
++ Add sound and music to your game
++ Add more people, enemies, and signs
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
+    
+    + Use coins to get information from other people:
 
 ![screenshot](images/world-bribe.png)
 
-+ Potresti persino aggiungere porte nelle pareti nord e sud della stanza 1, in modo che il giocatore possa spostarsi tra le stanze in tutte e quattro le direzioni. Ad esempio, se avessi nove stanze, potresti disporle come una griglia 3×3. Potresti quindi aggiungere `3` al numero delle stanze per scendere di un livello.
++ Potresti persino aggiungere porte nelle pareti nord e sud della stanza 1, in modo che il giocatore possa spostarsi tra le stanze in tutte e quattro le direzioni. For example, your game can have nine rooms in a 3×3 grid. Potresti quindi aggiungere `3` al numero delle stanze per scendere di un livello.
 
-![screenshot](images/world-north-south.png)
+![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
 
-\--- /challenge \---
+```blocks3
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [room v] by (3)
+```
