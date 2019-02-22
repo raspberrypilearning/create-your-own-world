@@ -1,26 +1,26 @@
 ## Výzva: rozšírte svoj svet
 
-You can now continue creating your own world! Here are some ideas:
+Teraz môžete pokračovať vo vytváraní vlastného sveta! Tu je niekoľko nápadov:
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
-+ Add sound and music to your game
-+ Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Pridajte do svojej hry viac mincí v rôznych miestnostiach. Môžete nechať niektoré mince byť strážené hliadkami nepriateľov?
++ Zmeňte zázemie svojej hry
++ Pridajte zvuk a hudbu do hry
++ Pridajte ďalších ľudí, nepriateľov a znakov
++ Pridajte červené a žlté dvere a špeciálne klávesy na ich otvorenie
++ Pridajte ďalšie priestory do vášho sveta
++ Pridajte do hry ďalšie užitočné položky
     
-    + Use coins to get information from other people:
+    + Použite mince na získanie informácií od iných ľudí:
 
 ![snímka obrazovky](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ Môžete dokonca pridať dvere do severnej a južnej steny miestnosti 1, aby sa hráč mohol pohybovať medzi miestnosťami vo všetkých štyroch smeroch. Napríklad vaša hra môže mať deväť miestností v 3 × 3 mriežke. Potom môžete pridať `3` do čísla miestnosti, aby ste sa posunuli o jednu úroveň nadol.
 
 ![snímka obrazovky](images/north-south-rooms.png) ![snímka obrazovky](images/number-grid.png)
 
 ```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
+ak <touching color [ ]?> potom
+spínací kulisu ((kroj [číslo v]) + (3)),
+prejsť na x: (0) y: (200)
+zmena [miestnosti v] o (3)
 ```
