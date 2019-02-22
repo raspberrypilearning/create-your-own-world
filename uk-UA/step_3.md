@@ -1,61 +1,42 @@
-## Переміщення ` гравця ` ельфа
+## Solid walls
 
-Почнемо з створення ` player` ельфа, який може рухатися навколо вашого світу.
+\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-+ Якщо ви використовуєте Scratchонлайн, відкрийте Scratch проект "Створення власного світу" на [ http://jumpto.cc/world-go ](http://jumpto.cc/world-go) {: target = "_ blank"}. Якщо ви використовуєте Scratch у режимі офлайн, завантажте проект [here](http://jumpto.cc/world-get) {: target = "_ blank"}, а потім відкрийте його за допомогою автономного редактора. 
+![screenshot](images/world-walls.png) \--- /task \---
 
-![скріншот](images/world-starter.png)
+\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
 
-Особа, яка грає в гру, використовує клавіші зі стрілками, щоб перемістити `player`ельфа навколо. Коли людина натискає стрілку вгору, вам слід сказати `player` ельфу рухатися у відповідь, щоб він переміщався у правильному напрямку.
+![player](images/player.png)
 
-+ Додайте цей код `player`ельф:
-
-```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
-        end
+```blocks3
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
     end
-```
-
-+ Протестуй свого `player` натискаючи прапорець і потім тримаючи клавішу вправо. Ваш `player`ельф рухається вгору?
-    
-    ![скріншот](images/world-up.png)
-
-+ Перемістити `player` ельфа ліворуч, вам потрібно додати ще `if` {: class = "blockcontrol"} блок з аналогічним кодом:
-
-```blocks
-    when flag clicked
-    forever
-        if <key [up arrow v] pressed? > then
-            point in direction (0)
-            move (4) steps
-        end
-        if <key [left arrow v] pressed?
- 
- > then
-            point in direction (-90)
-            move (4) steps
-        end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
     end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+end
 ```
 
-+ Додайте більше коду до свого `player` ельфа так, щоб вони могли рухатися вниз і право. Використовуйте код, який ви вже маєте, щоб допомогти собі.
+\--- /task \---
 
-\--- hints \--- \--- hint \--- Щоб перемістити вгору, вкажіть `player` ельфа у напрямку `0`. Що б ви мали зробити, щоб перемістити спрайт вниз?
+\--- task \---
 
-Щоб перемістити вліво, вкажіть напрямок ` -90 ` Що б ви мали зробити, щоб перемістити ельфа вниз? \--- /hint \--- \--- hint \--- Вам доведеться змінити ці два блоки:
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-```blocks
-<key [ v] pressed>
-```
-
-```blocks
-рухатись в напрямку ()
-```
-
-Скопіюйте код, який ви використовували для підвищення, але змініть ці два блоки, щоб `player` рухався вниз. Зробіть те ж саме, щоб рухатися вправо. \--- /hint \--- \--- hint \--- Так повинен виглядати ваш блок:
-
-![Переміщення вниз і вправо](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/world-walls-test.png) \--- /task \---
