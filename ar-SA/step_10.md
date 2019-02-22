@@ -1,4 +1,4 @@
-## Collect coins
+## جمع العملات الذهبية
 
 Your `player` sprite should have be able to collect coins as it moves through the world.
 
@@ -6,9 +6,9 @@ Your `player` sprite should have be able to collect coins as it moves through th
 
 \--- task \--- Right-click on the `coin` sprite and choose **show**.
 
-![screenshot](images/coin.png) \--- /task \---
+![لقطة الشاشة](images/coin.png) \---/task--
 
-\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![screenshot](images/coin.png)
+\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![لقطة الشاشة](images/coin.png)
 
 ```blocks3
 when flag clicked
