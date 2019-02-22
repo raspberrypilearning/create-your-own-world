@@ -1,35 +1,53 @@
-## Raccogliere monete
+## Collect coins
 
-Durante i suoi spostamenti all'interno del mondo, il tuo sprite `giocatore` può raccogliere alcune monete.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
-+ Aggiungi una nuova variabile chiamata `monete`{:class="blockdata"} al tuo progetto.
+\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
 
-+ Fai click con il tasto destro del mouse sullo sprite `moneta` e scegli **mostra**.
+\--- task \--- Right-click on the `coin` sprite and choose **show**.
 
-![screenshot](images/world-coins.png)
+![screenshot](images/coin.png) \--- /task \---
 
-+ Aggiungi del codice allo sprite `moneta` per far sì che appaia solo nella stanza 1.
+\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![screenshot](images/coin.png)
 
-+ Aggiungi del codice allo sprite `moneta` per far sì che `1` venga aggiunto alle variabile `monete`{:class="blockdata"} una volta che lo sprite `giocatore ` tocca lo sprite `moneta` per "raccoglierlo".
-    
-    ```blocks
-        quando si clicca su ⚑
-    	attendi fino a quando < sta toccando [giocatore v]>
-    	cambia [monete v] di (1)
-    	ferma [tutti gli altri script dello sprite v]
-    	nascondi
-    ```
-    
-    Il codice `ferma tutti gli altri script dello sprite`{:class="blockcontrol"} è necessario affinchè lo sprite `moneta` smetta di essere visualizzato nella stanza 1 una volta che è stato raccolto.
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
+```
 
-+ Dovrai anche aggiungere del codice per impostare la tua variabile `monete`{:class="blockdata"} al valore `0` all'inizio del tuo gioco.
+\--- /task \---
 
-+ Prova il tuo progetto: raccogliere una moneta dovrebbe portare il valore delle tue `monete` a `1`.
+\--- task \---
 
-\--- challenge \---
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-### Sfida: ancora più monete
+![coin](images/coin.png)
 
-Puoi aggiungere altre monete al tuo gioco? Possono trovarsi in stanze diverse e alcune monete potrebbero persino essere sorvegliate dai nemici che pattugliano!
+```blocks3
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
+```
 
-\--- /challenge \---
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+
+\--- /task \---
+
+\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
+
+```blocks3
+when flag clicked
+set [coins v] to [0]
+```
+
+\--- /task \---
+
+\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
