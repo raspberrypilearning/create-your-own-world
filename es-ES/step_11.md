@@ -44,7 +44,7 @@ borrar (todos v) de [Inventario v]
 
 \--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![screenshot](images/world-door.png) \--- /task \---
+![captura de pantalla](images/world-door.png) \--- /task \---
 
 \--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
 
