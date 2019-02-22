@@ -1,16 +1,16 @@
 ## Uitdaging: vergroot je wereld
 
-You can now continue creating your own world! Here are some ideas:
+Je kunt nu doorgaan met het maken van je eigen wereld! Hier zijn wat ideeën:
 
 + Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
 + Change your game's backdrops
-+ Add sound and music to your game
++ Voeg geluid en muziek toe aan je spel
 + Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Voeg rode en gele deuren toe en bijzondere sleutels om ze te openen
++ Voeg meer kamers toe aan je wereld
++ Voeg andere nuttige dingen toe aan je spel
     
-    + Use coins to get information from other people:
+    + Gebruik munten om informatie van andere personen te krijgen:
 
 ![screenshot](images/world-bribe.png)
 
