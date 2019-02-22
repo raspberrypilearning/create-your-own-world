@@ -1,27 +1,39 @@
-\--- challenge \---
-
 ## تحدي: إضافة عدو
 
-يمكنك أيضًا إضافة أعداء يقومون بدوريات حراسة. وإذا لمس اللاعب عدوًا، فستنتهي اللعبة.
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ أضف تعليمة برمجية إلى الكائن`عدو (enemy)` بحيث لا يظهر إلّا في الغرفة 2.
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ أضف تعليمة برمجية لتحريك الكائن `عدو (enemy)`، ولتنتهي اللعبة إذا لمس الكائن `عدو (enemy)` الكائنَ `اللاعب`. من الأسهل أن تكون التعليمات البرمجية على هيئة قوالب منفصلة. يجب أن يكون الرمز للكائن `عدو` كما يلي:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. من الأسهل أن تكون التعليمات البرمجية على هيئة قوالب منفصلة. يجب أن يكون الرمز للكائن `عدو` كما يلي:
 
-![لقطة الشاشة](images/world-enemy-code.png)
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-+ + أنه لا يظهر إلا في الغرفة 2
-    + أنه يحرس الغرفة
-    + أن اللعبة تنتهي إذا لمسه كائن `اللاعب`
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-\--- /challenge \---
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
+```
 
-\--- challenge \---
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-## تحدي: زيادة عدد الأعداء
-
-هل يمكنك إنشاء كائن `عدو (enemy)` آخر في الغرفة 3 يتحرك إلى أعلى وإلى أسفل لحراسة الفتحة الموجودة في الحائط؟
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
 ![لقطة الشاشة](images/world-enemy2.png)
-
-\--- /challenge \---
