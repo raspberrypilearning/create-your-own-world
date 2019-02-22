@@ -12,7 +12,7 @@ In this project, you'll learn how to create your own adventure game world with m
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Kliknutím na zelenú vlajku spustíte hru. Použitím kurzorových kláves sa môžete v hernom svete s vašou postavou pohybovať.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -31,11 +31,11 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## title: What you will need
 
-### Hardware
+### Hardvér
 
-- A computer capable of running Scratch 3
+- Počítač schopný spustiť aplikáciu Scratch 3
 
-### Software
+### Softvér
 
 - Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
@@ -60,7 +60,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Ak potrebujete tento projekt vytlačiť, použite [verziu určenú pre tlač](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){: target = "_ blank"}.
 
 You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
 
