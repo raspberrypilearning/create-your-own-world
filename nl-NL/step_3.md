@@ -1,4 +1,4 @@
-## Solid walls
+## Stevige muren
 
 \--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
