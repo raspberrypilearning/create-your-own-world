@@ -1,22 +1,22 @@
 ## Wyzwanie: rozwiń swój świat
 
-You can now continue creating your own world! Here are some ideas:
+Możesz teraz kontynuować tworzenie własnego świata! Oto kilka pomysłów:
 
 + Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
 + Change your game's backdrops
-+ Add sound and music to your game
++ Dodaj dźwięk i muzykę do swojej gry
 + Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Dodaj czerwone i żółte drzwi i specjalne klucze, aby je otworzyć
++ Dodaj więcej pokoi do swojego projektu
++ Dodaj inne przydatne przedmioty do swojej gry
     
-    + Use coins to get information from other people:
+    + Użyj monet, aby uzyskać informacje od innych postaci:
 
 ![screenshot](images/world-bribe.png)
 
 + You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
-![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
+![zrzut ekranu](images/north-south-rooms.png) ![zrzut ekranu](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
