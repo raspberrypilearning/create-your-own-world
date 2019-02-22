@@ -8,7 +8,7 @@ No you are going to add code so that some of the doors in your game world are lo
 
 \--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
-![screenshot](images/world-key.png)
+![لقطة الشاشة](images/world-key.png)
 
 \--- /task \---
 
@@ -44,7 +44,7 @@ stop [other scripts in sprite v]
 
 \--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![screenshot](images/world-door.png) \--- /task \---
+![لقطة الشاشة](images/world-door.png) \--- /task \---
 
 \--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
 
