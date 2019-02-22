@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+To jest wersja **Scratch 3**. Istnieje również [Scratch 2 wersja projektu](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
 ## Wprowadzenie
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+W tym projekcie nauczysz się tworzyć własny świat gier przygodowych z wieloma poziomami do odkrycia.
 
 ### Co będziesz robił
 
@@ -23,7 +23,7 @@ Kliknij na zieloną flagę, aby rozpocząć. Użyj klawiszy strzałek, aby porus
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Użyjesz klawiszy strzałek, aby przenieść swoją postać na całym świecie. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -39,9 +39,9 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 - Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} lub [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Pliki do pobrania
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Możesz znaleźć wszystko, czego potrzebujesz, aby ukończyć ten projekt na [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
@@ -49,10 +49,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Czego się nauczysz
 
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+- Użyj wyboru warunkowego, aby zareagować na naciśnięcia przycisków
+- Użyj zmiennych do przechowywania stanu gry
+- Użyj wyboru warunkowego na podstawie wartości zmiennej
+- Używaj list do przechowywania danych
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
+Możesz znaleźć rozwiązania tego projektu na [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
 
 \--- /collapse \---
