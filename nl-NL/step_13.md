@@ -1,4 +1,4 @@
-## What next?
+## Wat kun je verder nog doen?
 
 - Have a go at creating another game by working through the [CATS!](https://projects.raspberrypi.org/en/projects/cats) project.
 
