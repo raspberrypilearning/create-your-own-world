@@ -1,80 +1,81 @@
 ## サイン
 
-Now add signs to your world to guide players on their journey.
+今すぐあなたの世界にサインを追加して、プレイヤーを彼らの旅に導いてください。
 
-Your project includes a `welcome sign` sprite:
+あなたのプロジェクトには、 `ウェルカムサイン` スプライトが含まれてい` 。</p>
 
-![スクリーンショット](images/world-sign.png)
+<p><img src="images/world-sign.png" alt="スクリーンショット" /></p>
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+<p>--- task ---
+ <code>ウェルカムサイン` スプライトはルーム1にのみ表示されるはずです そのため、スプライトにコードを追加してこれを確実に実行します。
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\---ヒント\--- \---ヒント\--- `フラグがクリックされたとき`{：class = "block3events"}、永遠に ``{：class = "block3control"}ループ、 `なら`{：class = "block3control"} `部屋は1`{：class = "block3variables"}で、その場合は `show`{：class = "block3looks"} `ウェルカムサイン` スプライト、 `その他`{：class = "block3control"} `hide`{：class = "block3looks"}スプライト。 \--- / hint \--- \--- hint \--- 必要なブロックは次のとおりです。
 
-![sign](images/sign.png)
+![符号](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
-else
-end
+<br />場合 &lt; &gt; 、次いで
+他の
+末端
 
-&lt; (room :: variables) = [1] &gt;
+&lt; （部屋::変数）= [1] &gt;
 
-hide
+隠す
 
-show
+ショー
 
-forever
-end
+永久
+の端部
 
-when flag clicked
+フラグがクリックしたとき
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- / hint \--- \--- hint \--- が完全なコードです。
 
-![sign](images/sign.png)
+![符号](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
+flagが永遠に
+クリックしたとき
+ < （room :: variables）= [1] >
+        >
+    それ以外のとき
+        隠す
     end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- \--- / hints \---
 
-\--- /task \---
+- - /仕事 - -
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- task \--- 部屋間を移動して、 `ウェルカムサイン` スプライトのコードをテストします。 看板は部屋1にだけ見えるはずです。
 
-![screenshot](images/world-sign-test.png) \--- /task \---
+![スクリーンショット](images/world-sign-test.png) - - /仕事 - -
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+\--- task \--- 何も言わなければサインはあまり良くありません！ `ウェルカムサイン` スプライトが `プレーヤー` スプライトに触れている場合にメッセージを表示するためのコードをさらに追加します。
 
-![sign](images/sign.png)
+![符号](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
+flagが永遠に
+クリックしたとき
+ < （room :: variables）= [1] >
 show
 else
 hide
 end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
++ < タッチしている場合（プレーヤーv） > それから
+と言う[ようこそ！ あなたは宝物に得ることができますか？]
+他
+[]と言う
+エンド
+終了
 ```
 
-\--- /task \---
+- - /仕事 - -
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- task \--- `ウェルカムサイン` スプライトをもう一度テストします。 `プレイヤー` スプライトが `ウェルカムサイン` スプライトに触れるとメッセージが表示されます。
 
-![screenshot](images/world-sign-test2.png) \--- /task \---
+![スクリーンショット](images/world-sign-test2.png) - - /仕事 - -
