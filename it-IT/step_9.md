@@ -2,7 +2,7 @@
 
 If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Your game already contains an `enemy` sprite. Aggiungi del codice allo sprite `nemico` per far sì che appaia solo nella stanza 2.
 
 + Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. È più facile farlo in blocchi di codice separati. Ecco come il codice del tuo sprite `nemico` potrebbe apparire:
 
@@ -34,6 +34,6 @@ change x by (1)
     + The `enemy` sprite patrols the room
     + The game ends if the `player` sprite touches the `enemy` sprite
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Sapresti creare un altro sprite `nemico` nella stanza 3 che pattugli su e giù attraverso lo spazio nel muro?
 
 ![screenshot](images/world-enemy2.png)
