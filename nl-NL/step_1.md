@@ -1,24 +1,67 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+
+\--- /no-print \---
+
 ## Inleiding
 
-In dit project leer je je eigen adventure-spel te maken waar de speler meerdere kamers gaat ontdekken.
+In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
 ### Wat je gaat maken
 
-Klik op de groene vlag om te starten. Gebruik de pijltjestoetsen om je spelfiguur in de wereld rond te bewegen.
+\--- no-print \---
+
+Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/world-final.png">
 </div>
 
-### Wat je gaat leren
+\--- /no-print \---
 
-Dit project behandelt elementen uit de volgende onderdelen van de[Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+\--- print-only \---
 
-+ [ Gebruik programmeerconstructies om om een probleem op te lossen. ](https://www.raspberrypi.org/curriculum/programming/builder) {:target="_ blank"}
+You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
 
-### Aanvullende informatie voor docenten
+\--- /print-only \---
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {:target="_ blank"}.
+## \--- collapse \---
 
-Gebruik de link in de voettekst voor toegang tot de GitHub opslagplaats voor dit project, met daarin alle bronnen (inclusief een voorbeeld van een voltooid project) in de map `en/resources`.
+## title: What you will need
+
+### Hardware
+
+- A computer capable of running Scratch 3
+
+### Software
+
+- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
+You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: What you will learn
+
+- Use conditional selection to react to key presses
+- Use variables to store a game's state
+- Use conditional selection based on the value of a variable
+- Use lists to store data
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional information for educators
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+
+You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
+
+\--- /collapse \---
