@@ -1,19 +1,9 @@
 ---
 hero_image: images/create-your-own-world.png
-title: Crea Tu Propio Mundo
+title: Crea tu propio mundo
 description: Aprende a crear tu propio juego de aventura mundial.
-original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
-theme: orange
-duration: 2
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
@@ -26,18 +16,24 @@ steps:
   - 
     title: Señales
   - 
+    title: "Personas"
+    challenge: true
+  - 
+    title: Señales
+  - 
+    title: "Desafío: ¡Un tesoro!"
+    challenge: true
+  - 
     title: Personas
   - 
-    title: Recoger monedas
+    title: "Desafío: Enemigos"
+    challenge: true
   - 
-    title: 'Puertas y llaves'
+    title: Collect coins
   - 
-    title: People
+    title: Puertas y llaves
   - 
-    title: 'Challenge: enemies'
+    title: "Desafío: Amplía tu mundo"
+    challenge: true
   - 
-    title: Collecting coins
-  - 
-    title: Doors and keys
-  - 
-    title: 'Challenge: extend your world'
+    title: "What next?"
