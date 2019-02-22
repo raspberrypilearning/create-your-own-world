@@ -1,64 +1,64 @@
 ## Dvere a kľúče
 
-No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Nie, pridáte kód tak, aby niektoré z dverí vo vašom hernom svete boli zamknuté a hráč musí nájsť kľúč na ich otvorenie a dostať sa do ďalšej miestnosti.
 
-\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
+\--- task \--- Prepnúť na `kľúč` sprite. Kliknite na `zobraziť`{: class = "blocklooks"} v ponuke Skripty tak, aby sa na scéne zobrazil skript. \--- / úloha \---
 
-\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
+\--- úloha \--- Upravte kostým `kruhu` , aby bol modrý. \--- / úloha \---
 
-\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+\--- úloha \--- Prepnite si pozadie Scény do miestnosti 3 a umiestnite `kľúč` sprite niekde ťažko dosiahnuteľné!
 
 ![snímka obrazovky](images/world-key.png)
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
+\--- úloha \--- Pridajte kód na `kľúč` sprite, aby bol viditeľný iba v miestnosti 3. \--- / úloha \---
 
-\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+\--- task \--- Vytvorte nový zoznam s názvom `inventár`{: class = "block3variables"} pre uloženie položiek, ktoré váš `hráč` sprite.
 
-[[[generic-scratch3-make-list]]] \--- /task \---
+[[[generic-scratch3-make-list]]] \--- / úloha \---
 
-\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+\--- task \--- Kód, ktorý potrebujete pridať na zber kľúča, je veľmi podobný kódu pre zbieranie mincí. Rozdiel je v tom, že ste pridať kľúč do `inventári`{: class = "block3variables"}.
 
 ![kláves](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+keď vlajka klikne
+čakajte, až <touching (player v)?>
+pridajte [blue key] do [inventory v]
+skryť
+stop [iné skripty v sprite v]
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+\--- task \--- Pridajte kód na svoju plochu, aby ste vyprázdnili inventár na začiatku hry.
 
 ```blocks3
-delete (all v) of [inventory v]
+odstrániť (všetky v) položky [inventár v]
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
+\--- task \--- Vyskúšajte svoju hru, aby ste skontrolovali, či môžete zbierať `kľúč` sprite a pridať ho do vášho inventára. \--- / úloha \---
 
-\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+\--- úloha \--- Teraz pridajte zamknuté dvere. Zvoľte `dverí-modrý` sprite a kliknite na `zobraziť`{: class = "blocklooks} v ponuke Scripts a potom umiestnite sprite cez medzeru medzi dvoma stenami.
 
-![snímka obrazovky](images/world-door.png) \--- /task \---
+![snímka obrazovky](images/world-door.png) \--- / úloha \---
 
-\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+\--- úloha \--- Pridajte kód do `dverí-modrej` sprite tak, aby bol viditeľný len v miestnosti 3. \--- / úloha \---
 
-\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+\--- úloha \--- Pridajte kód do `dverí-modrá` sprite tak, že keď je kľúč v `inventári`{: class = "block3variables"}, sprite `skryje`{: class = "block3looks "}, aby váš `hráčov` sprite prešiel.
 
-![door](images/door.png)
+![dvere](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+keď má príznak
+počkajte, kým <[inventár v] neobsahuje [modrý kľúč]?>
+stop [iné skripty v sprite v]
+skryť
 ```
 
-\--- /task \---
+\--- / úloha \---
 
-\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
+\--- task \--- Vyskúšajte hru a uvidíte, či môžete vyzdvihnúť modrý kľúč na otvorenie dverí! \--- / úloha \---
