@@ -1,7 +1,7 @@
 ## تحدي: الكنز!
 
-Can you add some treasure for the player to find?
+هل يمكنك إضافة بعض الكنز ليبحث عنه اللاعب ويجده؟
 
 Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
-![screenshot](images/world-treasure.png)
+![لقطة شاشة](images/world-treasure.png)
