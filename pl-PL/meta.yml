@@ -4,15 +4,15 @@ title: Stwórz własny świat
 description: Naucz się, jak stworzyć własną grę przygodową.
 listed: true
 copyedit: false
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-23
 steps:
   - 
-    title: Stwórz własny świat
+    title: Życzenia urodzinowe
   - 
     title: Move the player sprite
   - 
-    title: Solid walls
+    title: Solidne ściany
   - 
     title: Move around your world
   - 
@@ -36,4 +36,4 @@ steps:
     title: "Wyzwanie: rozwiń swój świat"
     challenge: true
   - 
-    title: "What next?"
+    title: "Co następne?"
