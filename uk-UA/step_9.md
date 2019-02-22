@@ -1,27 +1,39 @@
-\--- challenge \---
-
 ## Виклик: додати ворога
 
-Ви також можете додати патрулюючих ворогів. Якщо гравець торкається ворога, гра закінчується.
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Додайте код до `enemy` так, щоб він з'явився лише в номері 2.
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ Додайте код, щоб перемістити `enemy` ельфа, і закінчити гру, якщо `enemy` ельф торкається `enemy` ельфа. Простіше зробити це в окремих блоках коду. Ось як ваш `enemy` ельф код може виглядати:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Простіше зробити це в окремих блоках коду. Ось як ваш `enemy` ельф код може виглядати:
 
-![скріншот](images/world-enemy-code.png)
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-+ + його видно лише в номері 2
-    + Він патрулює кімнату
-    + Гра закінчується, якщо `player` ельф торкається цього
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
--- /challenge \---
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
+```
 
-\--- challenge \---
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-## Challenge: більше ворогів
-
-Ви можете створити іншого `enemy` в кімнаті 3, який патрулює вгору і вниз через розрив у стіні?
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
 ![скріншот](images/world-enemy2.png)
-
-\--- /challenge \---
