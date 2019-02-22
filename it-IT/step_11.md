@@ -1,50 +1,64 @@
 ## Porte e chiavi
 
-Cosa succede se alcune porte del tuo mondo sono chiuse e il giocatore deve trovare la chiave per aprirle?
+No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
-+ Seleziona lo sprite `chiave`. Fai click con il tasto destro del mouse su di esso e seleziona **mostra** in modo che appaia sullo schermo.
+\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
 
-+ Modifica il costume dello sprite `chiave` in modo che sia blu.
+\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
 
-+ Passa alla stanza 3 cambiando sfondo dallo stage e posiziona lo sprite `chiave` in qualche punto difficile da raggiungere!
-    
-    ![screenshot](images/world-key.png)
+\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
-+ Aggiungi del codice allo sprite `chiave` in modo che sia visibile solo nella stanza 3.
+![screenshot](images/world-key.png)
 
-+ Crea una nuova variabile lista chiamata `inventario`{:class="blockdata"}. Qui è dove verranno memorizzati tutti gli oggetti che il tuo sprite `giocatore` raccoglie.
+\--- /task \---
 
-[[[generic-scratch-make-list]]]
+\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
 
-+ Il codice per raccogliere la chiave è molto simile al codice per raccogliere le monete. La differenza è che aggiungi la chiave al tuo inventario.
+\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
 
-```blocks
-    quando si clicca su ⚑
-	attendi fino a quando <sta toccando [giocatore v]>
-	aggiungi [chiave blu] a [inventario v]
-	ferma [tutti gli altri script dello sprite v]
-	nascondi
+[[[generic-scratch3-make-list]]] \--- /task \---
+
+\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+
+![key](images/key.png)
+
+```blocks3
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
-+ Prova il tuo sprite `chiave` per vedere se è possibile raccoglierlo e aggiungerlo al tuo inventario. Ricorda di aggiungere del codice al tuo Stage per svuotare il tuo inventario all'inizio del gioco.
+\--- /task \---
 
-```blocks
-    cancella (tutto v) da [inventario v]
+\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+
+```blocks3
+cancella (tutto v) da [inventario v]
 ```
 
-+ Ora aggiungiamo una porta chiusa. Fai click con il pulsante destro del mouse sullo sprite `porta blu` e seleziona **mostra**, quindi posiziona lo sprite nello spazio tra le due pareti.
+\--- /task \---
 
-![screenshot](images/world-door.png)
+\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
 
-+ Aggiungi del codice allo sprite `porta blu` per far sì che sia visibile solo nella stanza 3.
+\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-+ Lo sprite `porta blu` dovrebbe nascondersi per permettere al tuo sprite `giocatore` di passare una volta raccolta la chiave blu e questa sia presente nell'inventario.
+![screenshot](images/world-door.png) \--- /task \---
 
-```blocks
-    quando si clicca su ⚑
-	attendi fino a quando <[inventario v] contiene [chiave blu]>>
-	ferma [tutti gli altri script dello sprite v]
-	nascondi
+\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+
+\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+
+![door](images/door.png)
+
+```blocks3
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
-+ Prova il tuo progetto e controlla se riesci a raccogliere la chiave blu per aprire la porta!
+\--- /task \---
+
+\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
