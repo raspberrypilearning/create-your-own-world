@@ -2,7 +2,7 @@
 
 Now add signs to your world to guide players on their journey.
 
-Your project includes a `welcome sign` sprite:
+Tvoj projekat sadrži lik `znaka dobrodošlice`:
 
 ![screenshot](images/world-sign.png)
 
@@ -53,7 +53,7 @@ end
 
 ![screenshot](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+\--- task \--- A sign isn't much good if it doesn't say anything! Dodaj kôd da se prikaže poruka kada lik `znaka dobrodošlice` dodirne lik `igrača`:
 
 ![sign](images/sign.png)
 
