@@ -1,7 +1,7 @@
 ## 挑戦：宝物！
 
-Can you add some treasure for the player to find?
+プレイヤーに宝物を追加してもらえますか？
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+`宝箱` スプライトを部屋3にのみ出現させ、このスプライトに「よくできました」と言わせます `プレーヤー` スプライトがそれに触れると。
 
-![screenshot](images/world-treasure.png)
+![スクリーンショット](images/world-treasure.png)
