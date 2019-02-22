@@ -1,40 +1,54 @@
 ## Personen
 
-Laten we andere personen aan je wereld toevoegen waarmee de sprite `speler` kan communiceren.
+Add other people to your world who your `player` sprite can interact with.
 
-+ Schakel over naar de ` persoon ` sprite.
+\--- task \--- Switch to the `person` sprite.
 
-![Person sprite](images/person-sprite.png)
+![Person sprite](images/person.png) \--- /task \---
 
-+ Voeg een code toe aan de sprite `persoon` zodat die praat met de sprite `speler`. Deze code zal erg lijken op de code die je aan je sprite `welkomstbord` hebt gegeven:
+\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-```blocks
-    wanneer groene vlag wordt aangeklikt
-ga naar x: (0) y: (-150)
-herhaal 
-  als <raak ik [speler v]? > dan 
-    zeg [Wist je dat je door de oranje en gele deuren kunt gaan?]
-  anders
-    zeg []
-  end
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
 end
 ```
 
-+ Je kunt de sprite `persoon` ook laten bewegen door deze twee blokken toe te voegen in de `anders`{:class="blockcontrol"} sectie van je code:
+\--- /task \---
 
-```blocks
-neem (1) stappen
-keer om aan de rand
+\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
+
+```blocks3
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
+
 ```
 
-De sprite `persoon` zal nu gaan bewegen maar stopt om te spreken met sprite `speler`.
+\--- /task \---
+
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
 ![screenshot](images/world-person-test.png)
 
-\--- challenge \---
+\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
 
-### Uitdaging: verbeter de persoon
-
-Kun je code toevoegen aan de sprite `persoon` zodat die alleen in kamer 1 verschijnt? Zorg ervoor dat je je code test.
-
-\--- /challenge \---
+Make sure you test out your new code. \--- /task \---
