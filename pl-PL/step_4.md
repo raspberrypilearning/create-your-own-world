@@ -1,6 +1,6 @@
-## Move around your world
+## Poruszaj się po swoim świecie
 
-The `player` sprite should be able to walk through doors into other rooms.
+Gospoda `graczy` powinna móc przejść przez drzwi do innych pomieszczeń.
 
 Twój projekt zawiera tła dla dodatkowych pokoi:
 
@@ -8,109 +8,109 @@ Twój projekt zawiera tła dla dodatkowych pokoi:
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Utwórz nowy „dla wszystkich ikonek” zmiennej o nazwie `pokój`{: class = „block3variables”}, aby śledzić, które pokojach `gracz` Sprite jest w.
 
 [[[generic-scratch3-add-variable]]]
 
 ![zrzut ekranu](images/world-room.png) \--- /task \---
 
-\--- task \--- When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Kiedy `gracz` sprite dotknie pomarańczowych drzwi w pierwszym pokoju, gra powinna wyświetlić następne tło, a sprite `gracza` powrócić na lewą stronę stołu montażowego. Dodaj ten kod wewnątrz pętli `gracza` sprite'a ``{: class = "block3control"}:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-    end
-end
+kiedy flaga kliknęła
+zawsze
+    jeśli naciśnięty został <przycisk (strzałka w górę v)? > to
+        punkt w kierunku (0)
+        ruch (4) kroki
+    koniec
+    jeśli naciśnięto <przycisk (lewa strzałka v)? > następnie
+        punkt w kierunku (-90)
+        ruch (4) kroki
+    koniec
+        jeśli naciśnięto <przycisk (strzałka w dół v)? > następnie
+        punkt w kierunku (-180)
+        ruch (4) kroki
+    koniec
+        jeśli naciśnięty został <przycisk [prawa strzałka v]? > to
+        punkt w kierunku (90)
+        ruch (4) kroki
+    koniec
+    jeśli < dotyka koloru [#BABABA]? > następnie
+    ruch (-4) kroki
+    koniec
++ jeśli < dotyka kolor [# F2A24A] > następnie
+    przełącz tło na (następne tło v)
+    przejdź do x: (-200) Y: (0)
+    zmień [pokój v] przez koniec (1)
+    końca
+
 ```
 
 \--- /task \---
 
-\--- task \--- Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Za każdym razem, gdy gra się rozpocznie, należy zresetować pomieszczenie, pozycję postaci i tło.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Dodaj kod do **rozpocznij** od `kodu` duszków powyżej `pętli`{: class = "block3control"}, aby zresetować wszystko po kliknięciu flagi:
 
-\--- hints \--- \--- hint \--- When the game starts:
+\--- wskazówki \--- \--- wskazówka \--- Kiedy gra się rozpoczyna:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Here are the extra blocks you need:
++ Wartość `room`{: class = "block3variables"} powinna być ustawiona na `1`{: class = "block3variables"}
++ `backdrop`{: class = "block3looks"} powinno być ustawione na `room1`{: class = "block3looks"}
++ Pozycja ikonki `gracza` powinna być ustawiona na `x: -200 y: 0`{: class = "block3motion"} \--- / wskazówka \--- \--- podpowiedź \--- Tutaj są dodatkowe bloki, których potrzebujesz:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+przejdź do x: (-200) y: (0)
 
-set [room v] to (1)
+ustaw [pokój v] na (1)
 
-switch backdrop to (room1 v)
+przełącz tło na (pokój1 v)
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your finished script should look like:
+\--- / hint \--- \--- hint \--- Oto, jak powinien wyglądać ukończony skrypt:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
-end
+kiedy flaga kliknęła
++ ustaw [pokój v] na (1)
++ przejdź do x: (-200) y: (0)
++ przełącz tło na (pokój1 v)
+zawsze
+    jeśli <klawisz (strzałka w górę v) naciśnięty ? > to
+        punkt w kierunku (0)
+        ruch (4) kroki
+    koniec
+    jeśli naciśnięto <przycisk (lewa strzałka v)? > następnie
+        punkt w kierunku (-90)
+        ruch (4) kroki
+    koniec
+        jeśli naciśnięto <przycisk (strzałka w dół v)? > następnie
+        punkt w kierunku (-180)
+        ruch (4) kroki
+    koniec
+        jeśli naciśnięty został <przycisk [prawa strzałka v]? > to
+        punkt w kierunku (90)
+        ruch (4) kroki
+    koniec
+    jeśli < dotyka koloru [#BABABA]? > następnie
+    ruch (-4) kroki
+    koniec
+    jeśli < dotyka kolor [# F2A24A] > następnie
+    przełącz tło na (następne tło v)
+    przejdź do x: (-200) Y: (0)
+    zmiana [pokój v ] przez (1)
+koniec
+koniec
 ```
 
 -- /hint \--- \--- hints \---
 
 \--- /task \---
 
-\--- task \--- Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Kliknij flagę, a następnie przesuń swój `duszek` gracza, aż dotknie pomarańczowych drzwi. Czy sprite przesuwa się do następnego ekranu? Czy zmienna `room`{: class = "block3variables"} zmienia się na `2`?
 
 ![zrzut ekranu](images/world-room-test.png) \--- /task \---
