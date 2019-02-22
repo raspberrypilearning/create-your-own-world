@@ -1,38 +1,38 @@
 ## Drzwi i klucze
 
-No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Nie, masz zamiar dodać kod, aby niektóre drzwi w świecie gry były zablokowane, a gracz musi znaleźć klucz, aby je otworzyć i dostać się do następnego pokoju.
 
-\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
+\--- task \--- Przełącz na `duszek z` klawiszami. Kliknij `show`{: class = "blocklooks"} w menu Skrypty, aby ikonka pojawiła się na stole montażowym. \--- /task \---
 
-\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
+\--- zadanie \--- edytować `klucz` kostium Sprite, tak, że jest niebieski. \--- /task \---
 
-\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+\--- task \--- Zmień tło stołu montażowego na pokój 3 i umieść `duszek z` klawiszami w trudno dostępnym miejscu!
 
 ![zrzut ekranu](images/world-key.png)
 
 \--- /task \---
 
-\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
+\--- task \--- Dodaj kod do `przycisku` duszka, aby był widoczny tylko w pokoju 3. \--- /task \---
 
-\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+\--- zadanie \--- Utwórz nową listę o nazwie `zapasów`{: class = "block3variables"} do przechowywania przedmiotów Twój `gracz` sprite zbiera.
 
-[[[generic-scratch3-make-list]]] \--- /task \---
+[[[generic-scratch3-make-list]]] \--- / zadanie \---
 
-\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+\--- task \--- Kod, który musisz dodać do zebrania klucza, jest bardzo podobny do kodu do zbierania monet. Różnica polega na tym, że dodajesz klucz do `inwentarza`{: class = "block3variables"}.
 
-![key](images/key.png)
+![klawisz](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+kiedy flaga kliknęła
+czekaj aż <touching (player v)?>
+dodaj [niebieski klucz] do [zapasy v]
+ukryj
+zatrzymaj [inne skrypty w sprite v]
 ```
 
 \--- /task \---
 
-\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+\--- task \--- Dodaj kod do stołu montażowego, aby opróżnić ekwipunek na początku gry.
 
 ```blocks3
 usuń (wszystko v) z [ekwipunek v]
@@ -40,25 +40,25 @@ usuń (wszystko v) z [ekwipunek v]
 
 \--- /task \---
 
-\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
+\--- task \--- Przetestuj swoją grę, aby sprawdzić, czy możesz zebrać `klawisz` sprite i dodać go do swojego ekwipunku. \--- /task \---
 
-\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+\--- zadanie \--- Teraz dodaj zamknięte drzwi. Wybierz ikonkę " `drzwi-niebieski` i kliknij `show`{: class = "blocklooks} w menu Skrypty, a następnie umieść duszek w szczelinie między dwiema ścianami.
 
 ![zrzut ekranu](images/world-door.png) \--- /task \---
 
-\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+\--- task \--- Dodaj kod do `duszka-niebieskiego` duszka, aby był widoczny tylko w pokoju 3. \--- /task \---
 
-\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+\--- task \--- Dodaj kod do `duszka-niebieskiego` duszka, tak, że gdy klucz znajduje się w `inwentarzu`{: class = "block3variables"}, sprite `ukrywa`{: class = "block3looks "}, aby pozwolić twojemu `graczowi na` duszków.
 
-![door](images/door.png)
+![drzwi](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+kiedy flaga kliknęła
+czekaj aż <[zapasy v] zawiera [niebieski klawisz]?>
+zatrzymaj [inne skrypty w sprite v]
+ukryj
 ```
 
 \--- /task \---
 
-\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
+\--- task \--- Sprawdź swoją grę i sprawdź, czy możesz zabrać niebieski klucz, aby otworzyć drzwi! \--- /task \---
