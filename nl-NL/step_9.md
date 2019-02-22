@@ -2,7 +2,7 @@
 
 If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Your game already contains an `enemy` sprite. Voeg code toe aan de sprite `vijand` zodat die alleen in kamer 2 verschijnt.
 
 + Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou sprite `vijand` eruit kunnen zien:
 
@@ -34,6 +34,6 @@ change x by (1)
     + The `enemy` sprite patrols the room
     + The game ends if the `player` sprite touches the `enemy` sprite
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Kun je nog een sprite `vijand` maken in kamer 3 die op en neer beweegt door het gat in de muur?
 
 ![screenshot](images/world-enemy2.png)
