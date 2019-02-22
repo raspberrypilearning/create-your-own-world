@@ -1,4 +1,4 @@
-## Move the player sprite
+## Šta će ti biti potrebno
 
 Start by creating a `player` sprite that can move around your world.
 
@@ -18,7 +18,7 @@ Pressing the arrow keys should move the `player` sprite around. When the up arro
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Dodaj ovaj kôd liku `igrača`:
 
 ![player](images/player.png)
 
@@ -66,11 +66,11 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Add more code to your `player` sprite so it can move down and to the right as well. Kao pomoć, koristi kôd koji već imaš.
 
-\--- hints \---
+\--- pomoć \---
 
-\--- hint \---
+\--- pomoć \---
 
 To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
 
@@ -78,7 +78,7 @@ To move left, you point the sprite in the direction `-90` degrees. What do you h
 
 \--- /hint \---
 
-\--- hint \---
+\--- pomoć \---
 
 You need to change these two blocks:
 
@@ -92,7 +92,7 @@ point in direction ()
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Ovako treba da izgleda tvoj kôd:
 
 ![player](images/player.png)
 
