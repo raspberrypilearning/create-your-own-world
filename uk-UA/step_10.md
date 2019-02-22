@@ -1,35 +1,53 @@
-## Збирай монети
+## Collect coins
 
-Оскільки ваш `player`ельф рухається по світу, він може збирати монети.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
-+ Додайте нову змінну valled `coins`{:class="blockdata"} до вашого проекту.
+\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
 
-+ Клацніть правою кнопкою миші на `coin` ельф і виберіть **show**.
+\--- task \--- Right-click on the `coin` sprite and choose **show**.
 
-![знімок екрану](images/world-coins.png)
+![screenshot](images/coin.png) \--- /task \---
 
-+ Додайте код до `coin` так, щоб він з'явився лише в номері 1.
+\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![screenshot](images/coin.png)
 
-+ Додайте код до своєї `coin` так, що ` 1 ` додається до `coins`{:class="blockdata"} коли `player` ельф торкається `coin` "зібрати".
-    
-    ```blocks
-        when flag clicked
-        wait until <touching [player v]?>
-        change [coins v] by (1)
-        stop [other scripts in sprite v]
-        hide
-    ```
-    
-    Код `stop other scripts in sprite`{: class = "blockcontrol"} потрібно, щоб `coin` ельф перестав відображатися в кімнаті 1, коли їх збирають.
+```blocks3
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
+```
 
-+ Вам також потрібно буде додати код для встановлення `coin` {: class = "blockdata"} до ` 0 ` на початку вашої гри.
+\--- /task \---
 
-+ Перевірте свій проект - збираючи монети, слід змінити свої `coins` score to `1`.
+\--- task \---
 
-\--- challenge \---
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-### Challenge: більше монет
+![coin](images/coin.png)
 
-Чи можете ви додати більше монет до вашої гри? Вони можуть бути в різних кімнатах, а деякі монети навіть можуть охоронятися ворогами!
+```blocks3
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
+```
 
-\--- /challenge \---
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+
+\--- /task \---
+
+\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
+
+```blocks3
+when flag clicked
+set [coins v] to [0]
+```
+
+\--- /task \---
+
+\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
