@@ -1,59 +1,42 @@
-## تحريك كائن `اللاعب`
+## Solid walls
 
-لنبدأ بإنشاء كائن `اللاعب` الذي يمكنه أن يتحرك في جميع أرجاء اللعبة.
+\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-+ إذا كنتَ تستخدم برنامج Scratch عبر الإنترنت، فافتح مشروع 'أنشئ عالمك الخاص' لبرنامج Scratch على <http://jumpto.cc/world-go>{:target="_blank"}. وإذا كنتَ تستخدم برنامج Scratch دون اتصال بالإنترنت، فنزِّل المشروع من [هنا](http://jumpto.cc/world-get){:target="_blank"}، ثم افتحه باستخدام المحرر الموجود على جهازك. 
+![screenshot](images/world-walls.png) \--- /task \---
 
-![لقطة الشاشة](images/world-starter.png)
+\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
 
-سيستخدم الشخص الذي يلعب اللعبة مفاتيح الأسهم لتحريك كائن `اللاعب` في كل مكان. فعندما يضغط الشخص على مفتاح السهم إلى أعلى، ستأمر كائن `اللاعب` بالتحرك لأعلى، لكي يتحرك الى الاتجاه الأيمن.
+![player](images/player.png)
 
-+ أضف هذه التعليمات البرمجية إلى كائن `اللاعب`:
-
-```blocks
-    عند نقر ⚑
-كرر باستمرار 
-  إذا <مفتاح [السهم العلوي v] مضغوط؟ > then
-اتجه نحو الاتجاه (0)
-تحرك (4) خطوة
-end
-end
-```
-
-+ اختبر كائن `اللاعب` بالنقر على العلم ثم الضغط مطولاً على مفتاح السهم إلى الأعلى. هل تحرك كائن `اللاعب` إلى أعلى؟
-    
-    ![لقطة الشاشة](images/world-up.png)
-
-+ لتحريك كائن `اللاعب` إلى اليسار، تحتاج إلى إضافة قالب`if`{:class="blockcontrol"} آخر إليه بالتعليمة البرمجية نفسها:
-
-```blocks
-    عند نقر ⚑
-كرر باستمرار 
-  إذا <مفتاح [السهم العلوي v] مضغوط؟ > then
-اتجه نحو الاتجاه (0)
-تحرك (4) خطوة
-end
-إذا <مفتاح [السهم الأيسر v] مضغوط؟ > then
-اتجه نحو الاتجاه (-90)
-تحرك (4) خطوة
-end
+```blocks3
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
 end
 ```
 
-+ أضف تعليمات برمجية أخرى لكائن `اللاعب` بحيث يتحرك إلى أسفل وإلى اليمين أيضاً. واستخدم التعليمة البرمجية التي لديك لمساعدتك.
+\--- /task \---
 
-\--- hints \--- \--- hint \--- لتحريك لأعلى، وجهت كائن `اللاعب` بإتجاه `0` درجة. مالذي ستفعله لتحريك الكائن إلى أسفل؟
+\--- task \---
 
-لتحريك إلى اليسار، وجهت الكائن باتجاه `-90` درجة. مالذي ستفعله لتحريك الكائن إلى اليمين؟ \---/hint\--- \--- hint \--- تحتاج إلى تغيير هاتين التعليمتين البرمجية:
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-```blocks
-<مفتاح [ v] مضغوط؟>
-```
-
-```blocks
-اتجه نحو الإتجاه ()
-```
-
-ضاعف التعليمة البرمجية التي استخدمتها لتحريك الكائن للأعلى، لكن غير هاتتين التعليمتين البرمجية لتجعل كائن `اللاعب` يتحرك لأسفل. وافعل الشيء نفسه لتحريك لليمين. \--- /hint \--- \--- hint \--- وهنا كيف يجب أن تكون التعليمات البرمجية لديك:
-
-![التحريك للأسفل واليمين](images/finished-move-down-right.png) \--- /hint \--- \--- /hints \---
+![screenshot](images/world-walls-test.png) \--- /task \---
