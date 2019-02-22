@@ -1,80 +1,80 @@
 ## Značky
 
-Now add signs to your world to guide players on their journey.
+Teraz pridajte značky do vášho sveta, aby ste sa naučili hráčov na ich ceste.
 
-Your project includes a `welcome sign` sprite:
+Váš projekt obsahuje `vítaný znak` sprite:
 
 ![snímka obrazovky](images/world-sign.png)
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+\--- úloha \--- `vítaný znak` sprite by mal byť viditeľný len v miestnosti 1, takže pridajte nejaký kód do sprite, aby ste sa uistili, že k tomu dôjde:
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- pokyny \--- \--- tip \--- `Keď sa na vlajku klikne`{: class = "block3events"}, v smere `navždy`{: class = "block3control"}, začiarknite `ak`{: class = "block3control"} na `izbe je 1`{: class = "block3variables"} a v tomto prípade `ukazujú,`{: class = "block3looks"} `uvítací tabule` vodník, `ešte`{: class = "block3control"} `skryť`{: class = "block3looks"} Sprite. \--- / hint \--- \--- hint \--- Tu sú bloky, ktoré potrebujete:
 
-![sign](images/sign.png)
+![znamenie](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
-else
-end
+<br />ak &lt; &gt; potom
+iný
+koniec
 
-&lt; (room :: variables) = [1] &gt;
+&lt; (miestnosť :: premenné) = [1] &gt;
 
-hide
+skryť
 
-show
+zobraziť
 
-forever
-end
+navždy
+koniec
 
-when flag clicked
+keď klepol vlajku
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- / hint \--- \--- hint \--- Tu je kompletný kód:
 
-![sign](images/sign.png)
-
-```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
-```
-
-\--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
-
-![snímka obrazovky](images/world-sign-test.png) \--- /task \---
-
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
-
-![sign](images/sign.png)
+![znamenie](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
+keď vlajka klikne
+navždy
+    ak < (miestnosť :: premenné) = [1] > potom
+        zobraziť
+    iný
+        skryť
+    koniec
+koniec
 ```
 
-\--- /task \---
+\--- / tip \--- \--- / tipy \---
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- / úloha \---
 
-![snímka obrazovky](images/world-sign-test2.png) \--- /task \---
+\--- task \--- Vyskúšajte kód pre svoj `vítaný znak` sprite pohybom medzi miestnosťami. Značka by mala byť viditeľná iba v miestnosti 1.
+
+![snímka obrazovky](images/world-sign-test.png) \--- / úloha \---
+
+\--- task \--- Znak nie je moc dobrý, ak nehovorí nič! Pridajte trochu viac kódu pre zobrazenie správy v prípade, že `vítanou známkou` sprite sa dotýka `hráča` sprite:
+
+![znamenie](images/sign.png)
+
+```blocks3
+keď sa klavírka na
+navždy
+ak < (miestnosť :: premenné) = [1] > potom
+zobrazuje
+iný
+skryť
+koniec
++ ak sa < dotýka (hráč v)? > potom
+povedzte [Vitajte! Môžete sa dostať k pokladu?]
+iný
+povedať []
+koniec
+koniec
+```
+
+\--- / úloha \---
+
+\--- úloha \--- Vyskúšajte svoje `vítané znamenie` Sprite znovu. Teraz by ste mali vidieť správu, keď sa prehrávač `prehrávača` dotýka `vítaných znamienok` sprite.
+
+![snímka obrazovky](images/world-sign-test2.png) \--- / úloha \---
