@@ -6,7 +6,7 @@ Add other people to your world who your `player` sprite can interact with.
 
 ![Person sprite](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. Ce code est très similaire a celui que tu as ajouté à ton lutin `panneau`:
 
 ![person](images/person.png)
 
@@ -45,10 +45,10 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Ton lutin `personne` va maintenant bouger, mais il va arrêter pour parler au lutin `joueur`.
 
-![screenshot](images/world-person-test.png)
+![capture d'écran](images/world-person-test.png)
 
 \--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
 
-Make sure you test out your new code. \--- /task \---
+Assure-toi de tester ton nouveau code. \--- /task \---
