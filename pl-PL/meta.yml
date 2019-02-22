@@ -10,13 +10,13 @@ steps:
   - 
     title: Życzenia urodzinowe
   - 
-    title: Move the player sprite
+    title: Przenieś sprite gracza
   - 
     title: Solidne ściany
   - 
-    title: Move around your world
+    title: Poruszaj się po swoim świecie
   - 
-    title: "Challenge: move back to the previous room"
+    title: "Wyzwanie: wróć do poprzedniego pokoju"
     challenge: true
   - 
     title: Znaki
@@ -29,7 +29,7 @@ steps:
     title: "Wyzwanie: wrogowie"
     challenge: true
   - 
-    title: Collect coins
+    title: Zbierać monety
   - 
     title: Drzwi i klucze
   - 
