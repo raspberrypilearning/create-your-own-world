@@ -16,7 +16,7 @@ Klicke zum Starten auf die grüne Flagge. Benutze die Pfeiltasten, um deinen Cha
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/world-final.png">
+  <img src="images/showcase.png">
 </div>
 
 \--- /no-print \---
