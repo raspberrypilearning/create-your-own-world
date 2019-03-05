@@ -10,13 +10,13 @@ steps:
   - 
     title: Inleiding
   - 
-    title: Wat je nodig hebt
+    title: De sprite van de speler verplaatsen
   - 
     title: Stevige muren
   - 
-    title: Stevige muren
+    title: Verplaats je door je wereld
   - 
-    title: "Programmeer je wereld"
+    title: "Uitdaging: naar de vorige kamer gaan"
     challenge: true
   - 
     title: Borden
