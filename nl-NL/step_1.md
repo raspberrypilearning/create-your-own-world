@@ -6,7 +6,7 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 ## Inleiding
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+In dit project leer je hoe je je eigen avonturen-spelwereld kunt maken met meerdere niveaus om te verkennen.
 
 ### Wat ga je maken
 
@@ -23,7 +23,7 @@ Klik op de groene vlag om te starten. Gebruik de pijltjestoetsen om je spelfiguu
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Je gebruikt de pijltjestoetsen om je karakter in de wereld te verplaatsen. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ### Downloads
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Je kunt alles vinden wat je nodig hebt om dit project te voltooien op [ rpf.io/p/en/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
@@ -58,10 +58,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Aanvullende informatie voor docenten
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {:target="_ blank"}.
 
-You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
+Je kunt alles vinden wat je nodig hebt om dit project te voltooien op [ rpf.io/p/en/create-your-own-world-get ](https://rpf.io/p/en/create-your-own-world-get).
 
 \--- /collapse \---
