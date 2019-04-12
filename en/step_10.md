@@ -7,7 +7,7 @@ Add a new variable valled `coins`{:class="block3variables"} to your project.
 --- /task ---
 
 --- task ---
-Right-click on the `coin` sprite and choose **show**.
+Select the `coin` sprite and click **show**.
 
 ![screenshot](images/coin.png)
 --- /task ---
