@@ -2,25 +2,27 @@
 
 あなたの世界を動き回ることができる `プレイヤー` スプライトを作成することから始めます。
 
-- - 仕事 - -
+\--- task \---
 
 'Create your own world'スクラッチスタータープロジェクトを開きます。
 
-**オンライン**： [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on)でオンラインスタータープロジェクトを開きます。{：target = "_ blank"}。 Scratchアカウントをお持ちの場合は、右上隅にある **Remix** クリックしてプロジェクトのコピーを自分のアカウントに保存できます。
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-**オフライン**：スタータープロジェクトをダウンロードします [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){：target = "_ blank"}、次にオフラインエディターを使用して開きます。 Scratchオフラインエディタをダウンロードしてインストールする必要がある場合は、 [rpf.io / scratchoff](https://rpf.io/scratchoff){：target = "_ blank"}で見つけることができます。
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-![スクリーンショット](images/world-starter.png)
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-- - /仕事 - -
+![screenshot](images/world-starter.png)
 
-矢印キーを押すと、 `プレイヤー` スプライトが移動します。 上向き矢印が押されると、それに応じて `プレイヤー` スプライトがステージ上を上向きに動くはずです。
+\--- /task \---
 
-- - 仕事 - -
+Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
 
-このコードを `プレイヤー` スプライトに追加します。
+\--- task \---
 
-![プレーヤー](images/player.png)
+Add this code to the `player` sprite:
+
+![player](images/player.png)
 
 ```blocks3
 <キー（上向き矢印v）が押されたらフラグが永久に
@@ -33,21 +35,21 @@
 終了
 ```
 
-- - /仕事 - -
+\--- /task \---
 
-- - 仕事 - -
+\--- task \---
 
-旗をクリックしてから上向きの矢印を押したままにします。 `プレイヤー` スプライトは上に動きますか？
+Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![スクリーンショット](images/world-up.png)
+![screenshot](images/world-up.png)
 
-- - /仕事 - -
+\--- /task \---
 
-- - 仕事 - -
+\--- task \---
 
-`プレーヤー` スプライトを左に移動するには、同様のコードで `if`{：class = "block3control"}ブロックを追加する必要があります。
+To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
 
-![プレーヤー](images/player.png)
+![player](images/player.png)
 
 ```blocks3
 <キー（上向き矢印v）が押されたらフラグが永久に
@@ -64,38 +66,39 @@
 終了
 ```
 
-- - /仕事 - -
+\--- /task \---
 
-- - 仕事 - -
+\--- task \---
 
-`プレーヤー` スプライトにもっと多くのコードを追加して、右下に移動できるようにします。 あなたがあなたを助けるためにすでに持っているコードを使用してください。
+Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
-- - ヒント - -
+\--- hints \---
 
-\---ヒント\---
+\--- hint \---
 
-上に移動するには、 `プレイヤー` スプライトを `0` 度の方向に向けます。 あなたはスプライトを下に動かすために何をしなければなりませんか？
+To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
 
-左に移動するには、スプライトを0〜90</code> 度の方向に向け `。 あなたはスプライトを正しく動かすために何をしなければなりませんか？</p>
+To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
 
-<p>--- /ヒント---</p>
+\--- /hint \---
 
-<p>---ヒント---</p>
+\--- hint \---
 
-<p>これら2つのブロックを変更する必要があります。</p>
+You need to change these two blocks:
 
-<p><img src="images/player.png" alt="プレーヤー" /></p>
+![player](images/player.png)
 
-<pre><code class="blocks3"><key ( v) pressed>
+```blocks3
+<key ( v) pressed>
 
 方向のポイント（）
-`</pre> 
+```
 
-`プレーヤー` スプライトを上方に移動させるコードを複製し、これら2つのブロックを変更してスプライトを下方に移動させます。 コードをもう一度複製し、スプライトが右に移動するように変更します。
+Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- / hint \--- \--- hint \--- があなたのコードがどう見えるべきかです：
+\--- /hint \--- \--- hint \--- Here is how your code should look:
 
-![プレーヤー](images/player.png)
+![player](images/player.png)
 
 ```blocks3
 <キー（上向き矢印v）が押されたらフラグが永久に
@@ -121,6 +124,6 @@
 終了
 ```
 
-\--- / hint \--- \--- / / hints \---
+\--- /hint \--- \--- /hints \---
 
-- - /仕事 - -
+\--- /task \---
