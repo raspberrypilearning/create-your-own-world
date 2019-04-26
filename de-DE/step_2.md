@@ -6,11 +6,13 @@ Start by creating a `player` sprite that can move around your world.
 
 Open the 'Create your own world' Scratch starter project.
 
-**Online**: open the online starter project at at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![Screenshot](images/world-starter.png)
+![screenshot](images/world-starter.png)
 
 \--- /task \---
 
@@ -18,7 +20,7 @@ Pressing the arrow keys should move the `player` sprite around. When the up arro
 
 \--- task \---
 
-Füge diesen Code zur Figur des `Spielers` hinzu:
+Add this code to the `player` sprite:
 
 ![player](images/player.png)
 
@@ -38,7 +40,7 @@ end
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![Screenshot](images/world-up.png)
+![screenshot](images/world-up.png)
 
 \--- /task \---
 
@@ -66,9 +68,9 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Verwende den bereits geschriebenen Code als Hilfe.
+Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
-\--- hinweise \---
+\--- hints \---
 
 \--- hint \---
 
@@ -92,7 +94,7 @@ point in direction ()
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- /hint \--- \--- hint \--- Dein Code sollte so aussehen:
+\--- /hint \--- \--- hint \--- Here is how your code should look:
 
 ![player](images/player.png)
 
