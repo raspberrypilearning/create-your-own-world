@@ -1,3 +1,3 @@
-## Programmeer je wereld
+## Uitdaging: ga naar de vorige kamer
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+Kun je de `speler` sprite terug naar de vorige kamer laten gaan door een gele deur aan te raken? De code die je hiervoor nodig hebt lijkt erg op de code die je al hebt gemaakt om naar de volgende ruimte te gaan.
