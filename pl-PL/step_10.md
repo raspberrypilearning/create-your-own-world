@@ -4,7 +4,7 @@ Twój `gracz` sprite powinien być w stanie zbierać monety, jak porusza się po
 
 \--- task \--- Dodaj nową zmienną valled `coins`{: class = "block3variables"} do swojego projektu. \--- /task \---
 
-\--- task \--- Kliknij na ikonkę `monetę` i wybierz **pokaż**.
+\--- task \--- Select the `coin` sprite and click **show**.
 
 ![zrzut ekranu](images/coin.png) \--- /task \---
 
