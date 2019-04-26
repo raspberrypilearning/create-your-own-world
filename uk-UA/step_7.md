@@ -1,7 +1,7 @@
 ## Challenge: скарб!
 
-Can you add some treasure for the player to find?
+Ви можете додати який-небудь скарб для гравця ?
 
 Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
-![screenshot](images/world-treasure.png)
+![знімок екрану](images/world-treasure.png)
