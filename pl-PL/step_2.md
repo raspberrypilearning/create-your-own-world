@@ -6,21 +6,23 @@ Zacznij od stworzenia sprite'a `gracza` który może poruszać się po Twoim św
 
 Otwórz projekt startowy "Utwórz swój własny świat".
 
-**Online**: otwórz projekt online startowy o [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){: target = "_ blank"}. Jeśli posiadasz konto Scratch, możesz kliknąć **Remix** w prawym górnym rogu, aby zapisać kopię projektu na swoim koncie.
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-**Offline**: pobierz projekt startowy [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){: target = "_ blank"}, a następnie otwórz go za pomocą edytora offline. Jeśli musisz pobrać i zainstalować edytor Scratcha, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-![zrzut ekranu](images/world-starter.png)
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+
+![screenshot](images/world-starter.png)
 
 \--- /task \---
 
-Naciśnięcie klawiszy strzałek powinno przesunąć ikonkę `gracza` dookoła. Po naciśnięciu strzałki w górę, ikonka `gracza` powinna przesunąć się w górę na stole montażowym w odpowiedzi.
+Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
 
 \--- task \---
 
-Dodaj poniższy kod do duszka `gracz`:
+Add this code to the `player` sprite:
 
-![gracz](images/player.png)
+![player](images/player.png)
 
 ```blocks3
 kiedy flaga kliknęła
@@ -36,17 +38,17 @@ koniec
 
 \--- task \---
 
-Kliknij flagę, a następnie przytrzymaj strzałkę w górę. Czy `gracz` sprite poruszać się w górę?
+Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![zrzut ekranu](images/world-up.png)
+![screenshot](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-Aby przesunąć ikonkę `gracza` na lewo, musisz dodać kolejny blok `jeśli`{: class = "block3control"} z podobnym kodem:
+To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
 
-![gracz](images/player.png)
+![player](images/player.png)
 
 ```blocks3
 kiedy flaga kliknęła
@@ -66,23 +68,23 @@ koniec
 
 \--- task \---
 
-Dodaj więcej kodu do `player` ikonki więc może poruszać się w dół i na prawo, jak również. Użyj kodu, który już masz, aby sobie pomóc.
+Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
-\--- wskazówka \---
-
-\--- hint \---
-
-Aby przejść do góry, należy wskazać ikonkę `gracza` w kierunku `0` stopni. Co musisz zrobić, aby przesunąć duszka w dół?
-
-Aby przejść w lewo, kierujesz duszkiem w kierunku `-90 o` stopień. Co musisz zrobić, aby przenieść duszka w prawo?
-
-\--- /wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
-Musisz zmienić te dwa bloki:
+To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
 
-![gracz](images/player.png)
+To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+
+\--- /hint \---
+
+\--- hint \---
+
+You need to change these two blocks:
+
+![player](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -90,11 +92,11 @@ Musisz zmienić te dwa bloki:
 punkt w kierunku ()
 ```
 
-Powiel kod, który sprawia, że grzebień `gracza` porusza się w górę, i zmień te dwa bloki, aby sprite przesunąć w dół. Ponownie skopiuj kod i zmień go, aby sprite przesuwał się w prawo.
+Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
+\--- /hint \--- \--- hint \--- Here is how your code should look:
 
-![gracz](images/player.png)
+![player](images/player.png)
 
 ```blocks3
 kiedy flaga kliknęła
