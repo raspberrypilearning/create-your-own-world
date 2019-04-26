@@ -1,5 +1,5 @@
 ---
-hero_image: images / create-your-own-world.png
+hero_image: images/banner.png
 title: あなた自身の世界を作りなさい
 description: あなた自身のオープンワールドアドベンチャーゲームを作りましょう
 listed: true
@@ -36,4 +36,4 @@ steps:
     title: "課題：あなたの世界を広げる"
     challenge: true
   - 
-    title: "次は何？"
+    title: "次は何をしますか？"
