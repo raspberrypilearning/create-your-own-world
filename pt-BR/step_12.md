@@ -1,6 +1,6 @@
 ## Challenge: extend your world
 
-You can now continue creating your own world! Here are some ideas:
+You can now continue creating your own world! Aqui estão algumas idéias:
 
 + Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
 + Change your game's backdrops
