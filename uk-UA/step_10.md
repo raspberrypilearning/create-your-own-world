@@ -4,11 +4,11 @@ Your `player` sprite should have be able to collect coins as it moves through th
 
 \--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
 
-\--- task \--- Right-click on the `coin` sprite and choose **show**.
+\--- task \--- Select the `coin` sprite and click **show**.
 
-![screenshot](images/coin.png) \--- /task \---
+![скріншот](images/coin.png) \--- /task \---
 
-\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![screenshot](images/coin.png)
+\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![скріншот](images/coin.png)
 
 ```blocks3
 when flag clicked
