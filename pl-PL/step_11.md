@@ -1,6 +1,6 @@
 ## Drzwi i klucze
 
-Nie, masz zamiar dodać kod, aby niektóre drzwi w świecie gry były zablokowane, a gracz musi znaleźć klucz, aby je otworzyć i dostać się do następnego pokoju.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \--- Przełącz na `duszek z` klawiszami. Kliknij `show`{: class = "blocklooks"} w menu Skrypty, aby ikonka pojawiła się na stole montażowym. \--- /task \---
 
