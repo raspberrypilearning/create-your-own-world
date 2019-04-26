@@ -1,6 +1,6 @@
-## Stevige muren
+## Verplaats je door je wereld
 
-The `player` sprite should be able to walk through doors into other rooms.
+De `speler` Sprite zou door deuren naar andere kamers moeten kunnen lopen.
 
 Het project bevat achtergronden voor extra kamers:
 
@@ -8,102 +8,102 @@ Het project bevat achtergronden voor extra kamers:
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Maak een nieuwe variabele 'voor alle sprites' met de naam `kamer`{:class="block3variables"} om bij te houden in welke kamer de `speler` sprite zich bevindt.
 
 [[[generic-scratch3-add-variable]]]
 
 ![screenshot](images/world-room.png) \--- /task \---
 
-\--- task \--- When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task\--- Als de `speler` sprite de oranje deur in de eerste kamer raakt moet de volgende achtergrond worden weergegeven en de `speler`sprite moet teruggaan naar de linkerkant van het speelveld. Voeg deze code toe aan de `speler` sprite ` herhaal `{:class="block3control"} lus:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <toets (pijltje omhoog v) ingedrukt? > dan
+            richt naar (0) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje links v) ingedrukt? > dan
+            richt naar (-90) graden
+            neem (4) stappen
+      end
+        als <toets (pijltje omlaag v) ingedrukt? > dan
+            richt naar (180) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje rechts v) ingedrukt? > dan
+            richt naar (90) graden
+            neem (4) stappen
+        end
+        als < raak ik kleur[#BARBARA]? > dan
+    zet (-4) stappen
     end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
++ als < raak ik kleur [# F2A24A] > dan
+    verander achtergrond naar (volgende achtergrond v)
+    ga naar x: (-200) y: (0)
+    verandering [kamer v] met (1)
     end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Elke keer dat het spel start, moeten de kamer, de positie van het personage en de achtergrond worden opnieuw ingesteld worden.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Voeg code toe aan de **start** van je `speler` sprite-code boven de `herhaal` {: class = "block3control"} lus, om alles opnieuw in te stellen wanneer op de vlag wordt geklikt:
 
-\--- hints \--- \--- hint \--- When the game starts:
+\--- hints \--- \--- hint \--- Wanneer het spel start:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Here are the extra blocks you need:
++ De waarde van `kamer`{:class="block3variables"} moet zijn ingesteld op `1` {:Class="block3variables"}
++ De `achtergrond` {:class="block3looks"} moet zijn ingesteld op `kamer1` {:Class="block3looks"}
++ De positie van de `speler` sprite moet worden ingesteld op `x:-200 y:0` {:class="block3motion"} \--- / hint \--- \--- hint \--- Dit zijn de extra blokken die je nodig hebt:
 
 ![player](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+ga naar x: (-200) y: (0)
 
-set [room v] to (1)
+maak [kamer v] (1)
 
-switch backdrop to (room1 v)
+verander achtergrond naar (kamer1 v)
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your finished script should look like:
+\--- / hint \--- \--- hint \--- Hier zie je hoe je voltooide script er uit moet zien:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
+wanneer op groene vlag wordt geklikt
++ maak [kamer v] (1)
++ ga naar x: (-200) y: (0)
++ verander achtergrond naar (kamer1 v)
+herhaal
+    als <toets (pijltje omhoog v) ingedrukt? > dan
+            richt naar (0) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje links v) ingedrukt? > dan
+            richt naar (-90) graden
+            neem (4) stappen
+      end
+        als <toets (pijltje omlaag v) ingedrukt? > dan
+            richt naar (-180) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje rechts v) ingedrukt? > dan
+            richt naar (90) graden
+            neem (4) stappen
+        end
+        als < raak ik kleur[#BARBARA]? > dan
+    zet (-4) stappen
     end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
+   als < raak ik kleur [# F2A24A] > dan
+    verander achtergrond naar (volgende achtergrond v)
+    ga naar x: (-200) y: (0)
+    verander [kamer v] met (1)
     end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
 end
 ```
 
@@ -111,6 +111,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- taak \--- Klik op de vlag en verplaats vervolgens je `speler` sprite totdat het de oranje deur raakt. Gaat de sprite naar het volgende scherm? Verandert de variabele `kamer`{:class="block3variables"} naar `2`?
 
 ![screenshot](images/world-room-test.png) \--- /task \---
