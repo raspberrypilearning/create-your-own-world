@@ -4,11 +4,11 @@ title: Crie seu próprio mundo
 description: Neste projeto, você aprenderá como criar o seu próprio jogo de aventura em mundo aberto.
 listed: true
 copyedit: false
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-23
 steps:
   - 
-    title: Crie seu próprio mundo
+    title: Introdução
   - 
     title: Move the player sprite
   - 
@@ -36,4 +36,4 @@ steps:
     title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "What next?"
+    title: "E agora?"
