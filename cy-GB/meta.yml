@@ -1,0 +1,39 @@
+---
+hero_image: images/create-your-own-world.png
+title: Creu dy Fydysawd
+description: Dysga sut i greu gêm antur.
+listed: true
+copyedit: false
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Cyflwyniad
+  - 
+    title: Codio dy chwareuwr
+  - 
+    title: Codio dy fydysawd
+  - 
+    title: Arwyddion
+  - 
+    title: "Pobl"
+    challenge: true
+  - 
+    title: Casglu darnau arian
+  - 
+    title: "Drysau ac allweddi"
+    challenge: true
+  - 
+    title: People
+  - 
+    title: "Challenge: enemies"
+    challenge: true
+  - 
+    title: Collect coins
+  - 
+    title: Doors and keys
+  - 
+    title: "Challenge: extend your world"
+    challenge: true
+  - 
+    title: "What next?"
