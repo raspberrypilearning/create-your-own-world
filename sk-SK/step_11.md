@@ -1,6 +1,6 @@
 ## Dvere a kľúče
 
-Nie, pridáte kód tak, aby niektoré z dverí vo vašom hernom svete boli zamknuté a hráč musí nájsť kľúč na ich otvorenie a dostať sa do ďalšej miestnosti.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \--- Prepnúť na `kľúč` sprite. Kliknite na `zobraziť`{: class = "blocklooks"} v ponuke Skripty tak, aby sa na scéne zobrazil skript. \--- / úloha \---
 
