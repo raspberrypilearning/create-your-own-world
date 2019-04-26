@@ -1,6 +1,6 @@
 \--- no-print \---
 
-To jest wersja **Scratch 3**. Istnieje również [Scratch 2 wersja projektu](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersja tego projektu dla Scratch 2](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
@@ -39,7 +39,7 @@ Użyjesz klawiszy strzałek, aby przenieść swoją postać na całym świecie. 
 
 - Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} lub [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Pliki do pobrania
+### Pobrane
 
 Możesz znaleźć wszystko, czego potrzebujesz, aby ukończyć ten projekt na [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
