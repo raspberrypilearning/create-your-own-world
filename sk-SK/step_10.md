@@ -4,7 +4,7 @@ Váš `hráč` by mal byť schopný zbierať mince pri pohybe po celom svete.
 
 \--- task \--- Pridajte novú premennú valled `mince`{: class = "block3variables"} do vášho projektu. \--- / úloha \---
 
-\--- úloha \--- Kliknite pravým tlačidlom na `mincu` a vyberte **zobraziť**.
+\--- task \--- Select the `coin` sprite and click **show**.
 
 ![snímka obrazovky](images/coin.png) \--- / úloha \---
 
