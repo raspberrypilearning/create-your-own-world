@@ -1,35 +1,35 @@
 ## Stevige muren
 
-\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
+\--- task \--- Test je `speler` sprite opnieuw. Zie je dat het door de lichtgrijze muren kan lopen.
 
 ![screenshot](images/world-walls.png) \--- /task \---
 
-\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+\--- task \--- Om dit te verhelpen, moet je de ` speler` Sprite zo maken dat deze terug beweegt als het een lichtgrijze muur raakt. Dit is de code die je moet toevoegen in je `herhaal`{:class = "block3control"} -blok onder de blokken voor de richting:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-+   if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <toets (pijltje omhoog v) ingedrukt? > dan
+            richt naar (0) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje links v) ingedrukt? > dan
+            richt naar (-90) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje omlaag v) ingedrukt? > dan
+            richt naar (180) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje rechts v) ingedrukt? > dan
+            richt naar (90) graden
+            neem (4) stappen
+        end
+        als < raak ik kleur[#BARBARA]? > dan 
+  neem (-4) stappen
+  end
 end
 ```
 
@@ -37,6 +37,6 @@ end
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+Probeer de `speler` sprite door een muur te verplaatsen. Als je nieuwe code werkt, zou dit niet mogelijk zijn.
 
 ![screenshot](images/world-walls-test.png) \--- /task \---
