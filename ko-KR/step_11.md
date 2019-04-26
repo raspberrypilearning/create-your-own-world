@@ -1,6 +1,6 @@
 ## Doors and keys
 
-No you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
 
@@ -44,7 +44,7 @@ delete (all v) of [inventory v]
 
 \--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![screenshot](images/world-door.png) \--- /task \---
+![스크린샷](images/world-door.png) \--- /task \---
 
 \--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
 
