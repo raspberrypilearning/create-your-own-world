@@ -1,12 +1,14 @@
-## Wat je nodig hebt
+## De sprite van de speler verplaatsen
 
-Start by creating a `player` sprite that can move around your world.
+Laten we beginnen met het maken van een sprite voor de` speler `die zich in jouw wereld kan bewegen.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Open de 'Maak je eigen wereld' Scratch-starterproject.
 
-**Online**: open the online starter project at at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}. If you have a Scratch account, you can click on **Remix** in the top right-hand corner to save a copy of the project to your account.
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
@@ -18,23 +20,23 @@ Pressing the arrow keys should move the `player` sprite around. When the up arro
 
 \--- task \---
 
-Voeg deze code toe aan de sprite ` speler `:
+Add this code to the `player` sprite:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <toets (pijltje omhoog v) ingedrukt? > dan 
+    richt naar (0) graden
+    neem (4) stappen
+  end
 end
 ```
 
--- /task \---
+\--- /task \---
 
-\--- task \----
+\--- task \---
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
@@ -49,16 +51,16 @@ To move the `player` sprite to the left, you need to add another `if`{:class="bl
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <toets (pijltje omhoog v) ingedrukt? > dan
+            richt naar (0) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje links v) ingedrukt? > dan 
+    richt naar (90) graden
+    neem (4) stappen
+  end
 end
 ```
 
@@ -66,7 +68,7 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Gebruik als hulp de code die je al hebt.
+Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
 \--- hints \---
 
@@ -87,35 +89,34 @@ You need to change these two blocks:
 ```blocks3
 <key ( v) pressed>
 
-point in direction ()
+richt naar () graden
 ```
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- /hint \--- \--- hint \--- Zo zou de code eruit moeten zien:
+\--- /hint \--- \--- hint \--- Here is how your code should look:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
+wanneer groene vlag wordt aangeklikt
+herhaal 
+  als <toets (pijltje omhoog v) ingedrukt? > dan
+            richt naar (0) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje links v) ingedrukt? > dan
+            richt naar (-90) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje omlaag v) ingedrukt? > dan
+            richt naar (180) graden
+            neem (4) stappen
+        end
+        als <toets (pijltje rechts v) ingedrukt? > dan 
+    richt naar (90) graden
+    neem (4) stappen
+  end
 end
 ```
 
