@@ -12,7 +12,7 @@ Możesz teraz kontynuować tworzenie własnego świata! Oto kilka pomysłów:
     
     + Użyj monet, aby uzyskać informacje od innych postaci:
 
-![screenshot](images/world-bribe.png)
+![zrzut ekranu](images/world-bribe.png)
 
 + Możesz nawet dodać drzwi w północnej i południowej ścianie pokoju 1, aby gracz mógł poruszać się między pokojami we wszystkich czterech kierunkach. Na przykład Twoja gra może mieć dziewięć pomieszczeń w siatce 3 × 3. Następnie możesz dodać `3` do numeru pokoju, aby przejść o jeden poziom niżej.
 
