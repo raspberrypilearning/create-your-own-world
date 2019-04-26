@@ -4,7 +4,7 @@ The `player` sprite should be able to walk through doors into other rooms.
 
 Your project contains backdrops for additional rooms:
 
-![screenshot](images/world-backdrops.png)
+![스크린샷](images/world-backdrops.png)
 
 \--- task \---
 
@@ -12,7 +12,7 @@ Create a new 'for all sprites' variable called `room`{:class="block3variables"} 
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png) \--- /task \---
+![스크린샷](images/world-room.png) \--- /task \---
 
 \--- task \--- When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
 
@@ -113,4 +113,4 @@ end
 
 \--- task \--- Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
 
-![screenshot](images/world-room-test.png) \--- /task \---
+![스크린샷](images/world-room-test.png) \--- /task \---
