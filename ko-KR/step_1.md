@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## 들어가며
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### What you will make
+### 만들 작품
 
 \--- no-print \---
 
@@ -29,15 +29,15 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 준비물
 
-### Hardware
+### 하드웨어
 
-- A computer capable of running Scratch 3
+- 스크래치 3을 실행할 수 있는 컴퓨터
 
-### Software
+### 소프트웨어
 
-- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+- 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [offline](http://rpf.io/scratchoff){:target="_ blank"})
 
 ### Downloads
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 배우게 될 것
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -60,7 +60,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}을 사용해 주십시오.
 
 You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
 
