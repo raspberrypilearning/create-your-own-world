@@ -49,10 +49,10 @@ Je kunt alles vinden wat je nodig hebt om dit project te voltooien op [ rpf.io/p
 
 ## title: Wat ga je leren
 
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+- Gebruik voorwaardelijke selectie om te reageren op toetsaanslagen
+- Gebruik variabelen om de status van een spel op te slaan
+- Gebruik voorwaardelijke selectie op basis van de waarde van een variabele
+- Gebruik lijsten om gegevens op te slaan
 
 \--- /collapse \---
 
