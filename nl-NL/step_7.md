@@ -1,7 +1,7 @@
 ## Uitdaging: schat!
 
-Kun je een schat toevoegen die de speler kan vinden?
+Kun je een schat toevoegen die de speler kan zoeken?
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+Zorg ervoor dat de `schatkist` sprite alleen in kamer 3 te zien is en laat het 'Goed gedaan!' zeggen als de `speler` sprite het raakt.
 
 ![screenshot](images/world-treasure.png)
