@@ -1,16 +1,16 @@
-\---印刷なし\---
+\--- no-print \---
 
 これはプロジェクトの **Scratch 3** バージョンです。 プロジェクト</a>Scratch 2バージョンもあります。</p> 
 
-\--- / no-print \---
+\--- /no-print \---
 
-## 前書き
+## はじめに
 
 このプロジェクトでは、探索するための複数のレベルを持つ独自のアドベンチャーゲームの世界を作成する方法を学びます。
 
-### あなたが作るもの
+### 作るもの
 
-\---印刷なし\---
+\--- no-print \---
 
 緑色の旗をクリックして開始します。 あなたのキャラクターを世界中に動かすには矢印キーを使ってください。
 
@@ -19,49 +19,49 @@
   <img src="images/showcase.png">
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\---印刷専用\---
+\--- print-only \---
 
 あなたは世界中であなたのキャラクターを動かすのに矢印キーを使うでしょう。 ![showcase.png](images/showcase.png)
 
-\--- / print-only \---
+\--- /print-only \---
 
-## \---崩壊\---
+## \--- collapse \---
 
-## title：必要なもの
+## title: 必要なもの
 
 ### ハードウェア
 
-- Scratch 3を実行できるコンピューター
+- Scratch 3を実行できるコンピュータ
 
 ### ソフトウェア
 
-- スクラッチ3（ [オンライン](http://rpf.io/scratchon){：target = "_ blank"}または [オフライン](http://rpf.io/scratchoff){：target = "_ blank"}）
+- Scratch 3 ([オンライン](http://rpf.io/scratchon){:target="_blank"}または[オフライン](http://rpf.io/scratchoff){:target="_blank"})
 
 ### ダウンロード
 
 このプロジェクトを完成させるのに必要なものはすべて [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go)ます。
 
-\--- /崩壊\---
+\--- /collapse \---
 
-## \---崩壊\---
+## \--- collapse \---
 
-## title：学ぶこと
+## title: 学習すること
 
 - 条件付き選択を使用してキーの押下に反応する
 - 変数を使ってゲームの状態を保存する
 - 変数の値に基づいて条件付き選択を使用する
 - リストを使ってデータを保存する
 
-\--- /崩壊\---
+\--- /collapse \---
 
-## \---崩壊\---
+## \--- collapse \---
 
 ## title：教育者向けの追加情報
 
-このプロジェクトを印刷する必要がある場合は、印刷用バージョン [を使用してください](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){：target = "_ blank"}。
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_ blank"}を使用してください。
 
 このプロジェクトに対する解決策は、 [rpf.io / p / en / create-your-town-world](https://rpf.io/p/en/create-your-own-world-get)ます。
 
-\--- /崩壊\---
+\--- /collapse \---
