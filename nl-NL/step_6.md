@@ -1,46 +1,46 @@
 ## Borden
 
-Now add signs to your world to guide players on their journey.
+Laten we borden aan je wereld toevoegen om de speler op zijn reis te begeleiden.
 
 Je project bevat een sprite `welkomstbord`:
 
 ![screenshot](images/world-sign.png)
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+\---task\--- De `Welkomstbord` sprite moeten alleen zichtbaar zijn in kamer 1, dus voeg code code aan de sprite toe om ervoor te zorgen dat dit gebeurt:
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- hints \--- \--- hint \--- `Wanneer op de groene vlag wordt geklikt` {: class="block3events"}, in een `herhaal` {:class="block3control"} lus, controleer `als ` {:class="block3control"} de `kamer 1 is ` {:class="block3variables"} en activeer in dat geval het {:class="block3looks"} `welkomstbord`sprite` verschijn`, `anders` {:class="block3control"} `verdwijn` {:class="block3looks"} sprite. \--- /hint \--- \--- hint \--- Dit zijn de codeblokken die je nodig hebt:
 
 ![sign](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
-else
+<br />als &lt; &gt; dan
+anders
 end
 
-&lt; (room :: variables) = [1] &gt;
+&lt; (kamer:: variables) = [1] &gt;
 
-hide
+verdwijn
 
-show
+verschijn
 
-forever
+herhaal
 end
 
-when flag clicked
+wanneer op groene vlag wordt geklikt
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- / hint \--- \--- hint \--- Dit is de complete code die je moet toevoegen:
 
 ![sign](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
+wanneer op groene vlag wordt geklikt
+herhaal
+    als< (kamer :: variables) = [1] > dan
+        verschijn
+    anders
+        verdwijn
     end
 end
 ```
@@ -49,32 +49,32 @@ end
 
 \--- /task \---
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- taak \--- Test de code voor je `welkomstbord` sprite door tussen kamers te bewegen. Het bord mag alleen zichtbaar zijn in kamer 1.
 
 ![screenshot](images/world-sign-test.png) -- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Voeg code toe om een bericht weer te geven als de sprite `welkomstbord` wordt aangeraakt door de sprite `speler`:
+\--- task \--- Een bord is niet veel als het niets zegt! Voeg code toe om een bericht weer te geven als de sprite `welkomstbord` wordt aangeraakt door de sprite `speler`:
 
 ![sign](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
+wanneer groene vlag wordt aangeklikt
+herhaal
+als < (kamer :: variabelen) = [1] > dan
+verschijn
+anders
+verberg
+einde
++ als < raak ik (speler v)? > dan
+zeg [Welkom! Kun je bij de schat komen?]
+anders
+zeg []
 end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- taak \--- Test je `welkomstbord` sprite opnieuw. Je zou nu een bericht moeten zien wanneer de `speler` sprite het `welkomstbord` sprite raakt.
 
 ![screenshot](images/world-sign-test2.png) \--- /task \---
