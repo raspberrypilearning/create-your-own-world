@@ -1,39 +1,39 @@
 ## Uitdaging: voeg een vijand toe
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Als je wilt, kun je ook patrouillerende vijanden aan je spel toevoegen. Als de `speler` Sprite een vijand raakt, eindigt het spel.
 
-+ Your game already contains an `enemy` sprite. Voeg code toe aan de sprite `vijand` zodat die alleen in kamer 2 verschijnt.
++ Je spel bevat al een `vijand` sprite. Voeg code toe aan de `vijand` sprite zodat deze alleen in kamer 2 verschijnt.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou sprite `vijand` eruit kunnen zien:
++ Voeg code toe om de `vijand` sprite te laten bewegen en om het spel te stoppen als `vijand` sprite de `speler` sprite raakt. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou de code van de `vijand` sprite eruit kunnen zien:
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
+wanneer groene vlag wordt aangeklikt
+herhaal
+als <(kamer :: variables)=[2]> dan
+vershijn
+anders
+verdwijn
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+wanneer groene vlag wordt aangeklikt
+herhaal
+als <touching (player v)?> dan
+stop [alle v]
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
+wanneer groene vlag wordt aangeklikt
+ga naar x : (170) y: (0)
+herhaal
+herhaal (130)
+verander x met (-1)
 end
-repeat (130)
-change x by (1)
+herhaal (130)
+verander x met (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Test je nieuwe code om ervoor te zorgen dat: 
+    + De `vijand` Sprite alleen zichtbaar is in kamer 2
+    + De `vijand` sprite door de kamer patrouilleert
+    + Het spel eindigt als de `speler` sprite de `vijand` sprite raakt
 
-Kun je nog een sprite `vijand` maken in kamer 3 die op en neer beweegt door het gat in de muur?
+Kun je nog een`vijand` sprite in kamer 3 maken die op en neer door het gat in de muur beweegt?
 
 ![screenshot](images/world-enemy2.png)
