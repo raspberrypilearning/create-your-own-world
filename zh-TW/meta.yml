@@ -1,0 +1,39 @@
+---
+hero_image: images/banner.png
+title: 創造屬於自己的世界
+description: 創建自己的開放世界冒險遊戲
+listed: true
+copyedit: false
+version: 4.1.0
+last_tested: 2018年10月23日
+steps:
+  - 
+    title: 介紹
+  - 
+    title: 移動玩家精靈
+  - 
+    title: 堅固的牆壁
+  - 
+    title: 走動你的世界
+  - 
+    title: "挑戰：回到上一個房間"
+    challenge: true
+  - 
+    title: 跡象
+  - 
+    title: "挑戰：珍惜！"
+    challenge: true
+  - 
+    title: 人
+  - 
+    title: "挑戰：敵人"
+    challenge: true
+  - 
+    title: 收集硬幣
+  - 
+    title: 門和鑰匙
+  - 
+    title: "挑戰：拓展你的世界"
+    challenge: true
+  - 
+    title: "接下來是什麼？"
