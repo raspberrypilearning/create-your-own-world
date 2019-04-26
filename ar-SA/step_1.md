@@ -58,7 +58,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: معلومات إضافية للمعلمين
 
 إذا كنت بحاجة إلى طباعة هذا المشروع ، فالرجاء استخدام الإصدار [الملائم للطابعة](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
