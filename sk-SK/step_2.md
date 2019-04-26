@@ -6,21 +6,23 @@ Začnite tým, že vytvoríte `hráčov` sprite, ktorý sa môže pohybovať po 
 
 Otvorte projekt "Vytvorte si vlastný svet" Scratch starter.
 
-**Online**: otvorte online štartovací projekt na adrese [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){: target = "_ blank"}. Ak máte účet Scratch, môžete kliknúť na **Remix** v pravom hornom rohu a uložiť kópiu projektu do svojho účtu.
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-**Offline**: stiahnite štartovací projekt [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){: target = "_ blank"} a potom ho otvorte pomocou editora offline. Ak potrebujete stiahnuť a nainštalovať editor Scratch offline, môžete ho nájsť na adrese [rpf.io/scratchoff](https://rpf.io/scratchoff){: target = "_ blank"}.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-![snímka obrazovky](images/world-starter.png)
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-\--- / úloha \---
+![screenshot](images/world-starter.png)
 
-Stlačenie klávesov so šípkami by malo presunúť prehrávač `prehrávača`. Keď stlačíte šípku hore, hráč `hráča` by sa mal v reakcii pohybovať smerom hore.
+\--- /task \---
 
-\--- úloha \---
+Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
 
-Pridajte tento kód k prehrávaču `prehrávača`:
+\--- task \---
 
-![prehrávač](images/player.png)
+Add this code to the `player` sprite:
+
+![player](images/player.png)
 
 ```blocks3
 keď sa vlajka preklikne
@@ -32,21 +34,21 @@ navždy
 koniec
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
-Kliknite na príznak a podržte šípku nahor. Hráč `hráča` ťahá hore?
+Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![snímka obrazovky](images/world-up.png)
+![screenshot](images/world-up.png)
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
-Ak chcete presunúť prehrávač `prehrávača` doľava, musíte pridať ďalší blok `ak je`{: class = "block3control"} s podobným kódom:
+To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
 
-![prehrávač](images/player.png)
+![player](images/player.png)
 
 ```blocks3
 keď sa vlajka preklikne
@@ -62,27 +64,27 @@ navždy
 koniec
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
-Pridajte ďalší kód do vášho prehrávača `` tak, aby sa mohol posunúť dole aj napravo. Použite kód, ktorý už máte, aby vám pomohol.
+Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
-\--- rady \---
+\--- hints \---
 
 \--- hint \---
 
-Ak chcete prejsť hore, ukážte prehrávač `prehrávača` v smere `0` stupne. Čo musíte urobiť, aby ste posunuli sprite?
+To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
 
-Pohyb doľava, ukážete sprite v smere `-90` stupňov. Čo musíte urobiť, aby ste správne presunuli skript?
+To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
 
 \--- /hint \---
 
 \--- hint \---
 
-Tieto dva bloky musíte zmeniť:
+You need to change these two blocks:
 
-![prehrávač](images/player.png)
+![player](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -90,11 +92,11 @@ Tieto dva bloky musíte zmeniť:
 bod v smere ()
 ```
 
-Duplikovať kód, ktorý spôsobí, že sa prehrávač `prehrávača` presunie smerom hore a zmení tieto dva bloky tak, aby sa spriahol dole. Duplikujte kód znova a zmeňte ho tak, aby sa sprite presunul doprava.
+Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- / hint \--- \--- tip \--- Tu je návod, ako by mal vyzerať váš kód:
+\--- /hint \--- \--- hint \--- Here is how your code should look:
 
-![prehrávač](images/player.png)
+![player](images/player.png)
 
 ```blocks3
 keď sa vlajka preklikne
@@ -121,4 +123,4 @@ koniec
 
 \--- /hint \--- \--- /hints \---
 
-\--- / úloha \---
+\--- /task \---
