@@ -12,7 +12,7 @@ In this project, you'll learn how to create your own adventure game world with m
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Нажміть на зелений прапорець, щоб почати. Використовуйте клавіші зі стрілками для переміщення вашого персонажа навколо світу.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -31,11 +31,11 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## title: What you will need
 
-### Hardware
+### Обладнання
 
-- A computer capable of running Scratch 3
+- Комп'ютер, що підтримує Scratch 3
 
-### Software
+### Програмне забезпечення
 
 - Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
@@ -54,13 +54,13 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 - Use conditional selection based on the value of a variable
 - Use lists to store data
 
-\--- /collapse \---
+-- /collapse \---
 
 ## \--- collapse \---
 
 ## title: Additional information for educators
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
 You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
 
