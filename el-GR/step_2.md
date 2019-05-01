@@ -12,7 +12,7 @@
 
 **Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, και μετά άνοιξέ το στην offline εφαρμογή Scratch της συσκευής σου. Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![στιγμιότυπο οθόνης](images/world-starter.png)
 
 \--- /task \---
 
@@ -22,7 +22,7 @@
 
 Πρόσθεσε αυτόν τον κώδικα στο αντικείμενο του `παίκτη`:
 
-![player](images/player.png)
+![παίκτης](images/player.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -40,7 +40,7 @@ end
 
 Κάνε κλικ στη σημαία και στη συνέχεια κράτα πατημένο το πάνω βελάκι. Μετακινείται ο `παίκτης` προς τα πάνω;
 
-![screenshot](images/world-up.png)
+![στιγμιότυπο οθόνης](images/world-up.png)
 
 \--- /task \---
 
@@ -48,7 +48,7 @@ end
 
 Για να μετακινήσεις τον `παίκτη`προς τ' αριστερά, θα χρειαστεί να προσθέσεις άλλο ένα μπλοκ `εάν`{:class="block3control"} με παρόμοιο κώδικα:
 
-![player](images/player.png)
+![παίκτης](images/player.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -76,26 +76,26 @@ end
 
 Για να μετακινηθείς προς τα πάνω, τοποθετείς τον `παίκτη`σου να δείχνει σε κατεύθυνση `0` μοιρών. Τι χρειάζεται να κάνεις για να τον μετακινήσεις προς τα κάτω;
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Για να μετακινηθεί αριστερά, τοποθετείς τον παίκτη σε κατεύθυνση `-90` μοίρες. Τι χρειάζεται να κάνεις για να μετακινήσεις τον παίκτη προς τα δεξιά;
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Πρέπει να αλλάξεις αυτά τα δύο μπλοκ εντολών:
 
-![player](images/player.png)
+![παίκτης](images/player.png)
 
 ```blocks3
 <πατήθηκε το πλήκτρο (  v) :: sensing>
 στρίψε προς την κατεύθυνση των (  ) μοιρών
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Κάνε διπλασιασμό του κώδικα που κάνει τον `παίκτη` να κινείται προς τα πάνω και άλλαξε αυτά τα δύο μπλοκ εντολών προκειμένου να τον κάνεις να μετακινηθεί προς τα κάτω. Ξανακάνε διπλασιασμό του κώδικα και άλλαξέ τον προκειμένου να μετακινείται ο παίκτης προς τα δεξιά.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Να πώς πρέπει να είναι ο κώδικάς σου:
 
-![player](images/player.png)
+![παίκτης](images/player.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
