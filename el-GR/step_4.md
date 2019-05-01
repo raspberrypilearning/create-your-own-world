@@ -1,14 +1,14 @@
 ## Περιηγήσου στον κόσμο σου
 
-The `player` sprite should be able to walk through doors into other rooms.
+Το αντικείμενο `παίκτης` θα πρέπει να είναι σε θέση να περάσει μέσα από τις πόρτες σε άλλα δωμάτια.
 
-Your project contains backdrops for additional rooms:
+Το έργο περιέχει υπόβαθρα σκηνής για επιπλέον αίθουσες:
 
 ![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Δημιούργησε μια νέα 'Για όλα τα αντικείμενα' μεταβλητή με το όνομα `αίθουσα`{:class="block3variables"} για να καταγράφει τον αριθμό της αίθουσας στην οποία βρίσκεται ο `παίκτης`.
 
 [[[generic-scratch3-add-variable]]]
 
