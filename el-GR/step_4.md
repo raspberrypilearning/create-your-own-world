@@ -1,4 +1,4 @@
-## Move around your world
+## Περιηγήσου στον κόσμο σου
 
 The `player` sprite should be able to walk through doors into other rooms.
 
