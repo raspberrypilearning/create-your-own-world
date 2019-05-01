@@ -6,21 +6,21 @@
 
 Άνοιξε το αρχικό έργο Scratch 'Δημιούργησε τον δικό σου κόσμο'.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online:** άνοιξε το αρχικό έργο στο [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, και μετά άνοιξέ το στην offline εφαρμογή Scratch της συσκευής σου. Αν χρειαστεί να κατεβάσεις και να εγκαταστήσεις τον offline editor για το Scratch, μπορείς να το βρεις στο [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![screenshot](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Πατώντας τα βελάκια του πληκτρολογίου πρέπει να μετακινείται ο `παίκτης` τριγύρω. Όταν το πάνω βελάκι είναι πατημένο, ο `παίκτης` θα πρέπει να μετακινείται προς τα πάνω στη σκηνή.
 
-\--- task \---
+\--- task --
 
-Add this code to the `player` sprite:
+Πρόσθεσε αυτόν τον κώδικα στο αντικείμενο του `παίκτη`:
 
 ![player](images/player.png)
 
@@ -36,17 +36,17 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Κάνε κλικ στη σημαία και στη συνέχεια κράτα πατημένο το πάνω βελάκι. Μετακινείται ο `παίκτης` προς τα πάνω;
 
 ![screenshot](images/world-up.png)
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Για να μετακινήσεις τον `παίκτη`προς τ' αριστερά, θα χρειαστεί να προσθέσεις άλλο ένα μπλοκ `εάν`{:class="block3control"} με παρόμοιο κώδικα:
 
 ![player](images/player.png)
 
@@ -66,15 +66,15 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Πρόσθεσε επιπλέον κώδικα στον `παίκτη` σου ώστε να μπορεί να μετακινηθεί προς τα κάτω και προς τα δεξιά επίσης. Χρησιμοποίησε τον κώδικα που έχεις ήδη για να βοηθηθείς.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Για να μετακινηθείς προς τα πάνω, τοποθετείς τον `παίκτη`σου να δείχνει σε κατεύθυνση `0` μοιρών. Τι χρειάζεται να κάνεις για να τον μετακινήσεις προς τα κάτω;
 
 To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
 
