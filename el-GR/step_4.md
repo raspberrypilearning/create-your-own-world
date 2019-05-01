@@ -50,7 +50,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Κάθε φορά που ξεκινάει το παιχνίδι, πρέπει να ρυθμίζεται ξανά η αίθουσα, η θέση του αντικειμένου και το υπόβαθρο σκηνής.
 
 Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
 
