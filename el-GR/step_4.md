@@ -1,6 +1,6 @@
 ## Περιηγήσου στον κόσμο σου
 
-Το αντικείμενο `παίκτης` θα πρέπει να είναι σε θέση να περάσει μέσα από τις πόρτες σε άλλα δωμάτια.
+Το αντικείμενο `παίκτης` θα πρέπει να είναι σε θέση να περάσει μέσα από τις πόρτες σε άλλες αίθουσες.
 
 Το έργο περιέχει υπόβαθρα σκηνής για επιπλέον αίθουσες:
 
@@ -14,7 +14,7 @@
 
 ![screenshot](images/world-room.png) \--- /task \---
 
-\--- task \--- When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Όταν το αντικείμενο `παίκτης` αγγίξει την πορτοκαλί πόρτα στην πρώτη αίθουσα, θα πρέπει να εμφανιστεί το επόμενο υπόβαθρο σκηνής και ο `παίκτης` θα πρέπει να μετακινηθεί πίσω στην αριστερή πλευρά της σκηνής. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
 
 ![player](images/player.png)
 
