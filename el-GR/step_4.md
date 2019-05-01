@@ -12,11 +12,11 @@
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/world-room.png) \--- /task \---
 
 \--- task \--- Όταν το αντικείμενο `παίκτης` αγγίξει την πορτοκαλί πόρτα στην πρώτη αίθουσα, θα πρέπει να εμφανιστεί το επόμενο υπόβαθρο σκηνής και ο `παίκτης` θα πρέπει να μετακινηθεί πίσω στην αριστερή πλευρά της σκηνής. Πρόσθεσε αυτόν τον βρόγχο επανάληψης μέσα στο αντικείμενο `παίκτης` `για πάντα`{:class="block3control"}:
 
-![player](images/player.png)
+![παίκτης](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -60,7 +60,7 @@ end
 + Το `υπόβαθρο`{:class="block3looks"} πρέπει να γίνει `αίθουσα1`{:class="block3looks"}
 + Η θέση του αντικειμένου `παίκτης` πρέπει να πάρει τιμές για `x:-200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Εδώ είναι τα επιπλέον μπλοκ που θα χρειαστείς:
 
-![player](images/player.png)
+![παίκτης](images/player.png)
 
 ```blocks3
 go to x: (-200) y: (0)
@@ -72,7 +72,7 @@ switch backdrop to (room1 v)
 
 \--- /hint \--- \--- hint \--- Να πώς θα πρέπει να είναι η τελική μορφή του κώδικα:
 
-![player](images/player.png)
+![παίκτης](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -113,4 +113,4 @@ end
 
 \--- task \--- Κάνε κλικ στη σημαία και κατόπιν μετακίνησε τον ` παίκτη` μέχρι να αγγίξει την πορτοκαλί πόρτα. Μετακινήθηκε ο παίκτης στην επόμενη αίθουσα; Άλλαξε η τιμή της μεταβλητής `αίθουσα`{:class="block3variables"} σε `2`;
 
-![screenshot](images/world-room-test.png) \--- /task \---
+![στιγμιότυπο οθόνης](images/world-room-test.png) \--- /task \---
