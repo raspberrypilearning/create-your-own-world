@@ -43,7 +43,7 @@ forever
 +   if < touching color [#F2A24A] > then
     switch backdrop to (next backdrop v)
     go to x: (-200) y: (0)
-    change [room v] by (1)
+    change [αίθουσα v] by (1)
     end
 end
 ```
@@ -65,9 +65,9 @@ end
 ```blocks3
 go to x: (-200) y: (0)
 
-set [room v] to (1)
+set [αίθουσα v] to (1)
 
-switch backdrop to (room1 v)
+switch backdrop to (αίθουσα1 v)
 ```
 
 \--- /hint \--- \--- hint \--- Να πώς θα πρέπει να είναι η τελική μορφή του κώδικα:
@@ -76,9 +76,9 @@ switch backdrop to (room1 v)
 
 ```blocks3
 when flag clicked
-+set [room v] to (1)
++set [αίθουσα v] to (1)
 +go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
++switch backdrop to (αίθουσα1 v)
 forever
     if <key (up arrow v) pressed? > then
         point in direction (0)
@@ -102,7 +102,7 @@ forever
     if < touching color [#F2A24A] > then
     switch backdrop to (next backdrop v)
     go to x: (-200) y: (0)
-    change [room v] by (1)
+    change [αίθουσα v] by (1)
 end
 end
 ```
