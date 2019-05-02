@@ -8,25 +8,25 @@
 
 \--- task \--- Το ` σημάδι καλωσορίσματος` θα πρέπει να είναι ορατό μονάχα στην αίθουσα 1, έτσι θα πρέπει να προσθέσεις κώδικα στο αντικείμενο αυτό, προκειμένου να βεβαιωθείς πως αυτό επιτυγχάνεται:
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- hints \--- \--- hint \--- `Όταν η σημαία πατηθεί`{:class="block3events"}, μέσα σε ένα `για πάντα`{:class="block3control"} βρόγχο επανάληψης, έλεγξε `εάν`{:class="block3control"} η `αίθουσα έχει τιμή 1`{:class="block3variables"} και τότε `εμφάνισε` το {:class="block3looks"} `σημάδι καλωσορίσματος`, `διαφορετικά`{:class="block3control"} `εξαφάνισε`{:class="block3looks"} το αντικείμενο. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ εντολών που θα χρειαστείς:
 
 ![sign](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
-else
+<br />εάν &lt; &gt; τότε
+αλλιώς
 end
 
-&lt; (room :: variables) = [1] &gt;
+&lt; (αίθουσα :: variables) = [1] &gt;
 
-hide
+εξαφάνισε
 
-show
+εμφάνισε
 
-forever
+για πάντα
 end
 
-when flag clicked
+Όταν γίνει κλικ σε σημαία
 
 ```
 
