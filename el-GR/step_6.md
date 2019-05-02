@@ -1,6 +1,6 @@
-## Signs
+## Σημάδια
 
-Now add signs to your world to guide players on their journey.
+Ας προσθέσουμε σημάδια στον κόσμο μας που θα καθοδηγούν τους παίκτες στο ταξίδι τους.
 
 Your project includes a `welcome sign` sprite:
 
