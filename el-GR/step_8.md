@@ -1,23 +1,23 @@
-## People
+## Άτομα
 
-Add other people to your world who your `player` sprite can interact with.
+Βάλε και άλλα άτομα στον κόσμο σου με τα οποία ο `παίκτης` θα μπορεί να αλληλεπιδρά.
 
-\--- task \--- Switch to the `person` sprite.
+\--- task \--- Πήγαινε στο αντικείμενο `Άτομο`.
 
 ![Person sprite](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\--- task \--- Πρόσθεσε κώδικα στο αντικείμενο `Άτομο` προκειμένου αυτό να μιλά στο αντικείμενο `παίκτης`. Αυτός ο κώδικας είναι παρόμοιος με τον κώδικα που πρόσθεσες στο αντικείμενο `σημάδι`:
 
 ![person](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
+όταν στην πράσινη σημαία γίνει κλικ
+πήγαινε σε θέση x: (0) y: (-150)
+για πάντα
+    εάν < αγγίζει (παίκτης v)? > τότε
+        πες [Γνωρίζεις πως μπορείς να περάσεις μέσα από τις πορτοκαλί ή τις κίτρινες πόρτες;]
+    αλλιώς
+        πες []
     end
 end
 ```
