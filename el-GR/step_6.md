@@ -26,21 +26,21 @@ end
 για πάντα
 end
 
-Όταν γίνει κλικ σε σημαία
+Όταν στην πράσινη σημαία γίνει κλικ
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- /hint \--- \--- hint \--- Εδώ είναι ο κώδικας ολοκληρωμένος:
 
 ![sign](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
+όταν στην πράσινη σημαία γίνει κλικ
+για πάντα
+   εάν < (αίθουσα :: variables) = [1] > τότε
+        εμφάνισε
+    αλλιώς
+        εξαφάνισε
     end
 end
 ```
@@ -49,11 +49,11 @@ end
 
 \--- /task \---
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- task \--- Κάνε έλεγχο στον κώδικά σου μετακινώντας το αντικείμενο `σημάδι καλωσορίσματος` μεταξύ των αιθουσών. Το σημάδι θα πρέπει να είναι ορατό μονάχα στην αίθουσα 1.
 
 ![screenshot](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+\--- task \--- Ένα σημάδι δεν είναι πολύ καλό αν δεν λέει τίποτα! Πρόσθεσε επιπλέον κώδικα για να εμφανίζεται ένα μήνυμα όταν το `σημάδι καλωσορίσματος` αγγίξει το αντικείμενο `παίκτης`:
 
 ![sign](images/sign.png)
 
