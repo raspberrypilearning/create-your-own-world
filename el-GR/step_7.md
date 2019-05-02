@@ -1,4 +1,4 @@
-## Challenge: treasure!
+## Πρόκληση: Θησαυρός!
 
 Can you add some treasure for the player to find?
 
