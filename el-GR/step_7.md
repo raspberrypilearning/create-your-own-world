@@ -1,7 +1,7 @@
 ## Πρόκληση: Θησαυρός!
 
-Can you add some treasure for the player to find?
+Μπορείς να προσθέσεις κάποιο θησαυρό για να βρει ο παίκτης;
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+Κάνε το `σεντούκι του θησαυρού` να εμφανίζεται μονάχα στην αίθουσα 3 και να εμφανίζεται το μήνυμα 'Συγχαρητήρια!' όταν ο `παίκτης` το αγγίξει.
 
-![screenshot](images/world-treasure.png)
+![στιγμιότυπο οθόνης](images/world-treasure.png)
