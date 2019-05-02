@@ -24,20 +24,20 @@ end
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- task \--- Κάντε το `Άτομο` να μετακινείται προσθέτοντας αυτά τα δύο μπλοκ εντολών μέσα στο τμήμα `αλλιώς`{:class="block3control"} του κώδικα:
 
 ![person](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
+όταν πράσινη σημαία γίνει κλικ
+πήγαινε σε θέση x: (0) y: (-150)
+για πάντα
+   εάν< αγγίζει (παίκτης v)? > τότε
+        πες [Γνωρίζεις πως μπορείς να περάσεις μέσα από τις πορτοκαλί ή τις κίτρινες πόρτες;]
+    αλλιώς
+        πες []
++       κινήσου(1) βήματα
++       εάν σε όριο, αναπήδησε
     end
 end
 
@@ -45,10 +45,10 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Τώρα το `Άτομο` θα μετακινηθεί αλλά θα σταματήσει να μιλά με τον `παίκτη`.
 
 ![screenshot](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- task \--- Πρόσθεσε κώδικα στο αντικείμενο `Άτομο` ώστε αυτό να εμφανίζεται μόνο στην αίθουσα 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
 
 Make sure you test out your new code. \--- /task \---
