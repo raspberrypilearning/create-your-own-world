@@ -1,26 +1,26 @@
-## Move the player sprite
+## Symud dy chwareuwr
 
-Start by creating a `player` sprite that can move around your world.
+Fe awn ati i greu `chwareuwr` sydd yn symud o gwmpas dy fydysawd.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Agora'r prosiect cychwynnol 'Creu dy fyd dy hunan'.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar ** Remix **.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+** All-lein: ** lawrlwytha'r prosiect cychwynnol o [ rpf.io/p/en/create-your-own-world-go ](http://rpf.io/p/en/create-your-own-world-go) {: target = "_ blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein. Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![sgrinlun](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Dylai gwasgu'r bysellau saeth symud y `chwaraewr` o gwmpas. Pan fydd y saeth i fyny yn cael ei gwasgu, fe ddylai y `chwaraewr` symud i fyny ar y Llwyfan mewn ymateb.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Ychwanega’r côd canlynol i’r corlun `chwareuwr`:
 
 ![player](images/player.png)
 
@@ -38,17 +38,17 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Clicia'r faner a dal y saeth i fyny. Ydy'r `chwareuwr` yn symud fyny?
 
-![screenshot](images/world-up.png)
+![sgrinlun](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+I symud y `chwareuwr` i'r chwith, bydd angen i ti ychwanegu bloc arall `os`{:class="block3control"} gyda chôd tebyg:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -68,23 +68,23 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Ychwanega mwy o gôd i'r `chwareuwr` fel ei fod yn symud lawr ac i'r dde hefyd. Defnyddia'r côd sydd gen ti yn barod i dy helpu.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+I symud fyny, pwyntia'r `chwareuwr` yng nghyfeiriad `0` gradd. Beth sydd angen i ti wneud i symud y corlun lawr?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+I symud i'r chwith, pwyntia'r corlun yng nghyfeiriad `90` gradd. Beth sydd angen i ti ei wneud i symud y corlun i'r dde?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Mae angen i ti newid y ddau floc yma:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -92,11 +92,11 @@ You need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Dyblyga'r côd sy'n gwneud i'r `chwareuwr` symud fyny, ac yna newidia'r ddau floc i wneud i'r corlun symud lawr. Dyblyga'r côd eto a'i newid fel fod y corlun yn symud i'r dde.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 when flag clicked
