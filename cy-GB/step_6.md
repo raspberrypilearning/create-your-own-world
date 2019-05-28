@@ -1,16 +1,16 @@
-## Signs
+## Arwyddion
 
-Now add signs to your world to guide players on their journey.
+Fe awn ati i ychwanegu arwyddion i dy fyd i fod o gymorth i’r chwaraewr ar y daith.
 
-Your project includes a `welcome sign` sprite:
+Mae dy brosiect yn cynnwys corlun `arwydd croeso`:
 
-![screenshot](images/world-sign.png)
+![sgrinlun](images/world-sign.png)
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+\--- task \--- Fe ddylai'r `arwydd croeso` ond fod yn weledol yn ystafell 1, felly fe wnawn ni ychwanegu côd i’r arwydd i sicrhau fod hyn yn digwydd:
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- hints \--- \--- hint \--- `Pan mae'r faner yn cael ei glicio`{:class="block3events"}, mewn dolen `am byth`{:class="block3control"} gwirio `os`{:class="block3control"} mai `ystafell 1`{:class="block3variables"} ac os felly `dangos `{:class="block3looks"} corlun `arwydd croeso` `fel arall`{:class="block3control"} `cuddio`{:class="block3looks"} y corlun. \--- /hint \--- \--- hint \--- Dyma'r blociau rwyt ti eu hangen:
 
-![sign](images/sign.png)
+![arwydd](images/sign.png)
 
 ```blocks3
 <br />if &lt; &gt; then
@@ -30,9 +30,9 @@ when flag clicked
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- / hint \--- - hint \--- Dyma'r côd cyflawn:
 
-![sign](images/sign.png)
+![arwydd](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -49,13 +49,13 @@ end
 
 \--- /task \---
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- task \--- Profa'r côd i weld dy `arwydd croeso` yn symud rhwng ystafelloedd. Fe ddylai'r arwydd ond fod yn weledol yn ystafell 1.
 
-![screenshot](images/world-sign-test.png) \--- /task \---
+![sgrinlun](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+\--- task \--- Nid yw arwydd yn dda iawn os nad yw'n dweud unrhyw beth! Ychwanega mwy o gôd i ddangos neges os yw yr `arwydd croeso` yn cyffwrdd y `chwaraewr`:
 
-![sign](images/sign.png)
+![arwydd](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -75,6 +75,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- task \--- Profa dy `arwydd croeso` eto. Fe ddylet ti nawr weld neges pan mae'r `chwaraewr` yn cyffwrdd yr `arwydd croeso`.
 
-![screenshot](images/world-sign-test2.png) \--- /task \---
+![sgrinlun](images/world-sign-test2.png) \--- /task \---
