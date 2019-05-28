@@ -1,22 +1,22 @@
-## Move around your world
+## Symud o gwmpas dy fyd
 
-The `player` sprite should be able to walk through doors into other rooms.
+Fe ddylai'r `chwaraewr` allu gerdded trwy ddrysau i ystafelloedd eraill.
 
-Your project contains backdrops for additional rooms:
+Mae dy brosiect yn cynnwys cefndir ar gyfer ystafelloedd ychwanegol:
 
-![screenshot](images/world-backdrops.png)
+![sgrinlun](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Byddi di angen newidyn newydd ‘ar gyfer pob ciplun’ o’r enw `ystafell`{:class="block3variables"} i wybod pa ystafell mae’r `chwaraewr` ynddo.
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png) \--- /task \---
+![sgrinlun](images/world-room.png) \--- /task \---
 
-\--- task \--- When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Pan mae’r `chwaraewr` yn cyffwrdd y drws oren yn yr ystafell gyntaf, fe ddylai’r cefndir nesaf ymddangos ac fe ddylai’r `chwaraewr` symud yn ôl i ochr chwith y llwyfan. Dyma’r côd fydd ei angen arno ti - fe ddylai gael ei osod tu fewn dolen `am byth`{:class="block3control"} y `chwaraewr`:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -50,17 +50,17 @@ end
 
 \--- /task \---
 
-\--- task \--- Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Bob tro mae'r gêm yn cychwyn, bydd angen ailosod yr ystafell, lleoliad y cymeriad a'r cefndir.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Ychwaneda'r côd i **ddechrau** côd dy `chwaraewr` uwchben y ddolen `am byth`{:class="block3control"} i ailosod popeth pan mae'r faner yn cael ei glicio:
 
-\--- hints \--- \--- hint \--- When the game starts:
+\--- hints \--- \--- hint \--- Pan mae'r gêm yn cychwyn:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Here are the extra blocks you need:
++ Fe ddylai gwerth `ystafell`{:class="block3variables"} gael ei osod i `1`{:class="block3variables"}
++ Fe ddylai y `cefndir`{:class="block3looks"} gael ei osod i `room1`{:class="block3looks"}
++ Fe ddylai lleoliad y `chwaraewr` gael ei osod i `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Dyma'r blociau ychwanegol sydd eu hangen:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 go to x: (-200) y: (0)
@@ -70,9 +70,9 @@ set [room v] to (1)
 switch backdrop to (room1 v)
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your finished script should look like:
+\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -111,6 +111,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Clicia'r faner ac yna symud y `chwaraewr` tan ei fod yn cyffwrdd y drws oren. Ydy'r corlun yn symud i'r sgrin nesaf? Ydy'r `ystafell`{:class="block3variables"} yn newid i `2`?
 
-![screenshot](images/world-room-test.png) \--- /task \---
+![sgrinlun](images/world-room-test.png) \--- /task \---
