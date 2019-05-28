@@ -1,27 +1,39 @@
---- challenge ---
-
 ## Uitdaging: voeg een vijand toe
 
-Je zou ook rondlopende vijanden kunnen toevoegen. Als de speler een vijand aanraakt stopt het spel.
+Als je wilt, kun je ook patrouillerende vijanden aan je spel toevoegen. Als de `speler` sprite een vijand raakt, eindigt het spel.
 
-+ Voeg code toe aan de sprite `vijand` zodat die alleen in kamer 2 verschijnt.
++ Je spel bevat al een `vijand` sprite. Voeg code toe aan de `vijand` sprite zodat deze alleen in kamer 2 verschijnt.
 
-+ Voeg code toe om de sprite `vijand` te laten bewegen en om het spel te stoppen als sprite `vijand` de sprite `speler` aanraakt. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou sprite `vijand` eruit kunnen zien:
++ Voeg code toe om de `vijand` sprite te laten bewegen en om het spel te stoppen als de `vijand` sprite de `speler` sprite raakt. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou de code van de `vijand` sprite eruit kunnen zien:
 
-![screenshot](images/world-enemy-code.png)
+```blocks3
+wanneer groene vlag wordt aangeklikt
+herhaal
+als <(kamer :: variables)=[2]> dan
+verschijn
+anders
+verdwijn
 
-+ + die alleen in kamer 2 te zien is
-    + die rondloopt in de kamer
-    + het spel eindigt als de sprite `speler` hem aanraakt
+wanneer groene vlag wordt aangeklikt
+herhaal
+als <touching (player v)?> dan
+stop [alle v]
 
---- /challenge ---
+wanneer groene vlag wordt aangeklikt
+ga naar x : (170) y: (0)
+herhaal
+herhaal (130)
+verander x met (-1)
+end
+herhaal (130)
+verander x met (1)
+```
 
---- challenge ---
++ Test je nieuwe code om ervoor te zorgen dat: 
+    + De `vijand` sprite alleen zichtbaar is in kamer 2
+    + De `vijand` sprite door de kamer patrouilleert
+    + Het spel eindigt als de `speler` sprite de `vijand` sprite raakt
 
-## Uitdaging: meer vijanden
-
-Kun je nog een sprite `vijand` maken in kamer 3 die op en neer beweegt door het gat in de muur?
+Kun je nog een `vijand` sprite in kamer 3 maken die op en neer door het gat in de muur beweegt?
 
 ![screenshot](images/world-enemy2.png)
-
---- /challenge ---
