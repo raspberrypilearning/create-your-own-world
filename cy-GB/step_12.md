@@ -1,22 +1,22 @@
-## Challenge: extend your world
+## Her: ymestyn dy fyd
 
-You can now continue creating your own world! Here are some ideas:
+Alli di nawr barhau i greu dy fyd dy hunan! Dyma rai syniadau:
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
-+ Add sound and music to your game
-+ Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Ychwanegu mwy o arian mewn gwahanol ystafelloedd. Alli di adael i'r arian gael ei warchod gan elynion?
++ Newid cefndir y gêm
++ Ychwanegu sain a cherddoriaeth i'r gêm
++ Ychwanegu mwy o bobl, gelynion ac arwyddion
++ Ychwanegu drysau coch a melyn, ac allweddi i'w agor nhw
++ Ychwanegu mwy o ystafelloedd
++ Ychwanegu mwy o eitemau defnyddiol i'r gêm
     
-    + Use coins to get information from other people:
+    + Defnyddio arian i gael gwybodaeth gan bobl arall:
 
-![screenshot](images/world-bribe.png)
+![sgrinlun](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ Fe alli di hyd yn oed ychwanegu drysau gogledd a de, fel bod y chwaraewr yn symud rhwng ystafelloedd mewn pedwar cyfeiriad. Er enghraifft, os oes gen ti 9 ystafell, fe alli di feddwl amdanynt mewn grid 3x3. Fe alli di wedyn ychwanegu `3` i rif yr ystafell i symud lawr un lefel.
 
-![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
+![sgrinlun](images/north-south-rooms.png) ![sgrinlun](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
