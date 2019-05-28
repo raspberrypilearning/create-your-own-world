@@ -1,10 +1,10 @@
-## Challenge: add an enemy
+## Her: ychwanegu gelyn
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Os hoffet ti, mae modd ychwanegu gelynion i dy gêm. Pan mae'r `chwaraewr` yn cyffwrdd gelyn, daw'r gêm i ben.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Mae dy gêm yn cynnwys `gelyn` yn barod. Ychwanega gôd i'r `gelyn` fel ei fod ond yn ymddangos yn ystafell 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ Ychwanega gôd i symud y `gelyn` i ddiwedd y gêm os yw'r `gelyn` yn cyffwrdd y `chwaraewr`. Mae'n haws gwneud hyn mewn blociau côd ar wahân. Dyma sut bydd côd y `gelyn` yn edrych o bosib:
 
 ```blocks3
 when flag clicked
@@ -29,11 +29,11 @@ repeat (130)
 change x by (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Profa dy gôd i sicrhau fod: 
+    + Y `gelyn` ond yn ymddangos yn ystafell 2
+    + Bod y `gelyn` yn symud o gwmpas yr ystafell
+    + Bod y gêm yn dod i ben pan mae'r `chwaraewr` yn cyffwrdd y `gelyn`
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Wyt ti'n gallu creu `gelyn` yn ystafell 3 sy'n symud lan a lawr trwy'r gap yn y wal?
 
-![screenshot](images/world-enemy2.png)
+![sgrinlun](images/world-enemy2.png)
