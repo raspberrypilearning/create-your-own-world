@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+Dyma'r fersiwn ** Scratch 3 ** y prosiect. Mae yna hefyd fersiwn [ Scratch 2 y prosiect ](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Cyflwyniad
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+Yn y prosiect hwn, byddi di'n dysgu sut i greu byd gêm antur dy hunan gyda sawl lefel i'w archwilio.
 
-### What you will make
+### Yr hyn byddi di'n ei greu
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Clicia'r faner werdd i ddechrau. Defnyddia'r bysellau saeth i symud dy gymeriad o gwmpas y byd.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,45 +23,45 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Byddi di'n defnyddio'r bysellau saeth i symud dy gymeriad o gwmpas y byd. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: What you will need
+## title: Beth fydd ei angen arno ti
 
-### Hardware
+### Caledwedd
 
-- A computer capable of running Scratch 3
+- Cyfrifiadur sy'n gallu rhedeg Scratch 3
 
-### Software
+### Meddalwedd
 
-- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (unai [arlein](http://rpf.io/scratchon){:target="_blank"} neu [all-lein](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Lawrlwythiadau
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+Gallwch ddod o hyd i bopeth sydd ei angen arnoch i gwblhau'r prosiect hwn yn [ rpf.io/p/en/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: Additional information for educators
+## title: Yr hyn byddi di'n ei ddysgu
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+- Defnyddio detholiad amodol i ymateb i wasgu botymau
+- Defnyddio newidynnau i storio cyflwr y gêm
+- Defnyddio detholiad amodol yn seiliedig ar werth newidyn
+- Defnyddio rhestrau i storio data
 
-You can find the solutions to this project at [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
+\--- /collapse \---
+
+## \---collapse\---
+
+## title: Gwybodaeth ychwanegol i addysgwyr
+
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+
+Gallwch ddod o hyd i bopeth sydd ei angen arnoch i gwblhau'r prosiect hwn yn [ rpf.io/p/en/create-your-own-world-get ](https://rpf.io/p/en/create-your-own-world-get).
 
 \--- /collapse \---
