@@ -1,8 +1,8 @@
-## What next?
+## Beth nesaf?
 
-Have a go at creating another game by working through the [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Rho gynnig ar greu gêm trwy weithio trwy'r prosiect [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-\--- no-print \--- Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+\--- no-print \--- Clicia a llusga'r llygoden i dynnu llun gyda phensil. Dy fwriad yw stopio'r cathod rhag cwympo mewn i dyllau gan greu llwybrau saff iddynt ddianc.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -12,4 +12,4 @@ Have a go at creating another game by working through the [CATS!](https://projec
 
 \--- print-only \--- ![Cats finished](images/cats-finished.png) \--- /print-only \---
 
-If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Os hoffet ti greu gêm yn defnyddio Python yn lle Scratch, rho gynnig ar y prosiect [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
