@@ -41,7 +41,7 @@ Je gebruikt de pijltjestoetsen om je karakter in de wereld te verplaatsen. ![sho
 
 ### Downloads
 
-Je kunt alles vinden wat je nodig hebt om dit project te voltooien op [ rpf.io/p/en/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
+Je kunt alles wat je nodig hebt om dit project te voltooien vinden op [rpf.io/p/en/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ Je kunt alles vinden wat je nodig hebt om dit project te voltooien op [ rpf.io/p
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {:target="_ blank"}.
 
-Je kunt alles vinden wat je nodig hebt om dit project te voltooien op [ rpf.io/p/en/create-your-own-world-get ](https://rpf.io/p/en/create-your-own-world-get).
+Je kunt alles wat je nodig hebt om dit project te voltooien vinden op [rpf.io/p/en/create-your-own-world-get ](https://rpf.io/p/en/create-your-own-world-get).
 
 \--- /collapse \---
