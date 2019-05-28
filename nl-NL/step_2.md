@@ -1,90 +1,90 @@
 ## De sprite van de speler verplaatsen
 
-Laten we beginnen met het maken van een sprite voor de` speler `die zich in jouw wereld kan bewegen.
+Laten we beginnen met het maken van een sprite voor de`speler` die zich in jouw wereld kan bewegen.
 
 \--- task \---
 
-Open de 'Maak je eigen wereld' Scratch-starterproject.
+Open de 'Maak je eigen wereld' Scratch startersproject.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online**: open het online startersproject op [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download het startersproject [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_ blank"} en open het vervolgens met behulp van de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![schermafdruk](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Door op de pijltjestoetsen te drukken zou de `speler` sprite moeten bewegen. Wanneer de pijl-omhoog toets wordt ingedrukt, zou de `speler` sprite omhoog moeten bewegen.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Voeg deze code toe aan de `speler` sprite:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
+wanneer op groene vlag wordt geklikt
 herhaal 
   als <toets (pijltje omhoog v) ingedrukt? > dan 
     richt naar (0) graden
     neem (4) stappen
-  end
-end
+  einde
+einde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Klik op de vlag en houd vervolgens de pijl-omhoog ingedrukt. Beweegt de `speler` sprite omhoog?
 
-![screenshot](images/world-up.png)
+![schermafdruk](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Om de `speler` sprite naar links te verplaatsen moet je er nog een `als`{:class="block3control"} -blok met vergelijkbare code aan toevoegen:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
+wanneer op groene vlag wordt geklikt
 herhaal 
   als <toets (pijltje omhoog v) ingedrukt? > dan
             richt naar (0) graden
             neem (4) stappen
-        end
-        als <toets (pijltje links v) ingedrukt? > dan 
-    richt naar (90) graden
+        einde
+       + als <toets (pijltje links v) ingedrukt? > dan 
+    richt naar (-90) graden
     neem (4) stappen
-  end
-end
+  einde
+einde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Voeg meer code toe aan de `speler` sprite zodat die ook nog naar beneden en naar rechts kan bewegen. Gebruik de code die je al hebt om je te helpen.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Om omhoog te gaan, richt je de `speler` sprite in de richting `0` graden. Wat zou je moeten doen om de sprite naar beneden te verplaatsen?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Om naar links te gaan, richt je de speler sprite in de richting `-90` graden. Wat zou je moeten doen om de sprite naar rechts te verplaatsen?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Je moet deze twee blokken veranderen:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -92,11 +92,11 @@ You need to change these two blocks:
 richt naar () graden
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Dupliceer de code die de `speler` sprite naar boven beweegt en verander deze twee blokken om de sprite omlaag te laten bewegen. Dupliceer de code opnieuw en wijzig deze om de sprite naar rechts te verplaatsen.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Zo zou de code eruit moeten zien:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -109,15 +109,16 @@ herhaal
             richt naar (-90) graden
             neem (4) stappen
         end
-        als <toets (pijltje omlaag v) ingedrukt? > dan
+        
++ als <toets (pijltje omlaag v) ingedrukt? > dan
             richt naar (180) graden
             neem (4) stappen
-        end
-        als <toets (pijltje rechts v) ingedrukt? > dan 
-    richt naar (90) graden
-    neem (4) stappen
-  end
-end
+        einde
++        als <toets (pijltje rechts v) ingedrukt? > dan
+            richt naar (180) graden
+            neem (4) stappen
+        einde
+einde
 ```
 
 \--- /hint \--- \--- /hints \---
