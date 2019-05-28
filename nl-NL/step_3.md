@@ -4,9 +4,9 @@
 
 ![screenshot](images/world-walls.png) \--- /task \---
 
-\--- task \--- Om dit te verhelpen, moet je de ` speler` Sprite zo maken dat deze terug beweegt als het een lichtgrijze muur raakt. Dit is de code die je moet toevoegen in je `herhaal`{:class = "block3control"} -blok onder de blokken voor de richting:
+\--- task \--- Om dit te verhelpen, moet je de `speler` sprite zo maken dat deze terug beweegt als het een lichtgrijze muur raakt. Dit is de code die je moet toevoegen in je `herhaal`{:class="block3control"}-blok onder de blokken voor de richting:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -27,7 +27,7 @@ herhaal
             richt naar (90) graden
             neem (4) stappen
         end
-        als < raak ik kleur[#BARBARA]? > dan 
+        + als < raak ik kleur [#BABABA]? > dan 
   neem (-4) stappen
   end
 end
@@ -37,6 +37,6 @@ end
 
 \--- task \---
 
-Probeer de `speler` sprite door een muur te verplaatsen. Als je nieuwe code werkt, zou dit niet mogelijk zijn.
+Probeer de `speler` sprite door een muur te verplaatsen. Als je nieuwe code werkt, zou dit niet mogelijk moeten zijn.
 
 ![screenshot](images/world-walls-test.png) \--- /task \---
