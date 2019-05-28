@@ -1,26 +1,26 @@
-## Doors and keys
+## Drysau ac allweddi
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Rwyt ti nawr am ychwanegu côd i rai o dy ddrysau fel bod rhai o'r drysau yn y gêm wedi eu cloi, ac mae'n rhaid i'r chwaraewr ddod o hyd i allwedd i'w datgloi nhw a symud i'r ystafell nesaf.
 
-\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
+\--- task \--- Newida i'r corlun `allwedd`. Clicia ar `dangor`{:class="blocklooks"} yn y dewislen fel bod y corlun yn ymddangos ar y Llwyfan. \--- /task \---
 
-\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
+\--- task \--- Golyga'r `allwedd` fel ei fod yn las. \--- /task \---
 
-\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+\--- task \--- Newida cefndir dy Lwyfan i ystafell 3 a gosod yr `allwedd` mewn man anodd i'w gyrraedd!
 
-![screenshot](images/world-key.png)
+![sgrinlun](images/world-key.png)
 
 \--- /task \---
 
-\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
+Ychwanega gôd i dy `allwedd` i'w wneud yn weledol yn ystafell 3 yn unig. \--- /task \---
 
-\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+\--- task \--- Cer ati i greu rhestr newydd o'r enw `rhestr`{:class="block3variables"} i storio'r eitemau mae dy `chwaraewr` yn eu casglu.
 
 [[[generic-scratch3-make-list]]] \--- /task \---
 
-\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+\--- task \--- Mae'r côd sydd angen i ti ei ychwanegu ar gyfer casglu allweddi yn debyg i'r côd ar gyfer casglu arian. Y gwahaniaeth yw fod angen ychwanegu allwedd i'r `rhestr`{:class="block3variables"}.
 
-![key](images/key.png)
+![allwedd](images/key.png)
 
 ```blocks3
 when flag clicked
@@ -32,7 +32,7 @@ stop [other scripts in sprite v]
 
 \--- /task \---
 
-\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+-- task \--- Ychwanega gôd i'r Llwyfan i wagio dy restr ar gychwyn gêm.
 
 ```blocks3
 delete (all v) of [inventory v]
@@ -40,17 +40,17 @@ delete (all v) of [inventory v]
 
 \--- /task \---
 
-\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
+\--- task \--- Profa dy gêm i weld os wyt ti'n gallu casglu'r `allwedd` a'i ychwanegu at y rhestr. \--- /task \---
 
-\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+\--- task \--- Nawr ychwanega'r drws wedi ei gloi. Dewisa'r corlun `drws-glas` a chlicio `dangos`{:class="blocklooks} yn y ddewislen, yna gosod y corlun ar draws y bwlch rhwng y ddwy wal.
 
-![screenshot](images/world-door.png) \--- /task \---
+![sgrinlun](images/world-door.png) \--- /task \---
 
-\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+\--- task \--- Ychwanega gôd i'r `drws glas` fel ei fod ond yn weledol yn ystafell 3. \--- /task \---
 
-\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+\--- task \--- Ychwanega gôd i'r `drws glas` fel fod, pan mae'r allwedd yn y `rhestr`{:class="block3variables"}, mae'r corlun yn `cuddio`{:class="block3looks"} i adael i dy `chwaraewr` fynd heibio.
 
-![door](images/door.png)
+![drws](images/door.png)
 
 ```blocks3
 when flag clicked
@@ -61,4 +61,4 @@ hide
 
 \--- /task \---
 
-\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
+\--- task \--- Profa dy gêm i weld os wyt ti'n gallu casglu'r allwedd glas i agor y drws! \--- /task \---
