@@ -1,7 +1,7 @@
-## Challenge: treasure!
+## Her: trysor!
 
-Can you add some treasure for the player to find?
+Alli di ychwanegu trysor sydd angen i'r chwaraewr ddarganfod?
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+Gwna i'r `gist trysor` ymddangos yn ystafell 3 yn unig a dweud ‘Da iawn!’ pan mae’r `chwaraewr` yn ei gyffwrdd.
 
-![screenshot](images/world-treasure.png)
+![sgrinlun](images/world-treasure.png)
