@@ -1,16 +1,16 @@
 ## Uitdaging: voeg een vijand toe
 
-Als je wilt, kun je ook patrouillerende vijanden aan je spel toevoegen. Als de `speler` Sprite een vijand raakt, eindigt het spel.
+Als je wilt, kun je ook patrouillerende vijanden aan je spel toevoegen. Als de `speler` sprite een vijand raakt, eindigt het spel.
 
 + Je spel bevat al een `vijand` sprite. Voeg code toe aan de `vijand` sprite zodat deze alleen in kamer 2 verschijnt.
 
-+ Voeg code toe om de `vijand` sprite te laten bewegen en om het spel te stoppen als `vijand` sprite de `speler` sprite raakt. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou de code van de `vijand` sprite eruit kunnen zien:
++ Voeg code toe om de `vijand` sprite te laten bewegen en om het spel te stoppen als de `vijand` sprite de `speler` sprite raakt. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou de code van de `vijand` sprite eruit kunnen zien:
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
 herhaal
 als <(kamer :: variables)=[2]> dan
-vershijn
+verschijn
 anders
 verdwijn
 
@@ -30,7 +30,7 @@ verander x met (1)
 ```
 
 + Test je nieuwe code om ervoor te zorgen dat: 
-    + De `vijand` Sprite alleen zichtbaar is in kamer 2
+    + De `vijand` sprite alleen zichtbaar is in kamer 2
     + De `vijand` sprite door de kamer patrouilleert
     + Het spel eindigt als de `speler` sprite de `vijand` sprite raakt
 
