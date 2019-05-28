@@ -1,31 +1,26 @@
 ---
-hero_image: images/create-your-own-world.png
+hero_image: images/banner.png
 title: Maak je eigen wereld
-description: Leer hoe je je eigen openwereld adventure-spel kunt maken.
-original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
-theme: orange
-duration: 2
+description: Leer hoe je je eigen open-wereld avonturenspel kunt maken
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-23
 steps:
   - title: Inleiding
-  - title: Wat je nodig hebt
   - title: De sprite van de speler verplaatsen
   - title: Stevige muren
-  - title: Programmeer je wereld
+  - title: Verplaats je door je wereld
+  - title: "Uitdaging: naar de vorige kamer gaan"
+    challenge: true
   - title: Borden
-  - title: 'Uitdaging: schat!'
+  - title: "Uitdaging: schat!"
+    challenge: true
   - title: Personen
-  - title: 'Uitdaging: voeg een vijand toe'
+  - title: "Uitdaging: vijanden"
+    challenge: true
   - title: Munten verzamelen
   - title: Deuren en sleutels
-  - title: 'Uitdaging: vergroot je wereld'
+  - title: "Uitdaging: vergroot je wereld"
+    challenge: true
+  - title: "Wat nu?"

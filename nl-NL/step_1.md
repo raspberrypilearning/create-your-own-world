@@ -1,24 +1,70 @@
+--- no-print ---
+
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van dit project](https://projects.raspberrypi.org/nl-NL/projects/create-your-own-world-scratch2).
+
+--- /no-print ---
+
 ## Inleiding
 
-In dit project leer je je eigen adventure-spel te maken waar de speler meerdere kamers gaat ontdekken.
+In dit project leer je hoe je je eigen avonturen-spelwereld kunt maken met meerdere niveaus om te verkennen.
 
-### Wat je gaat maken
+### Wat ga je maken
+
+--- no-print ---
 
 Klik op de groene vlag om te starten. Gebruik de pijltjestoetsen om je spelfiguur in de wereld rond te bewegen.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/235588367/?autostart=false" frameborder="0"></iframe>
-  <img src="images/world-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
 
-### Wat je gaat leren
+--- /no-print ---
 
-Dit project behandelt elementen uit de volgende onderdelen van de[Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum){:target="_blank"}:
+--- print-only ---
 
-+ [Gebruik programmeerconstructies om om een probleem op te lossen.](https://www.raspberrypi.org/curriculum/programming/builder){:target="_blank"}
+Je gebruikt de pijltjestoetsen om je karakter in de wereld te verplaatsen. ![showcase.png](images/showcase.png)
 
-### Aanvullende informatie voor docenten
+--- /print-only ---
+
+--- collapse ---
+---
+title: Wat heb je nodig
+---
+
+### Hardware
+
+- Een computer die Scratch 3 kan uitvoeren
+
+### Software
+
+- Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
+
+### Downloads
+
+Je kunt alles wat je nodig hebt om dit project te voltooien vinden op [rpf.io/p/nl-NL/create-your-own-world-go](https://rpf.io/p/nl-NL/create-your-own-world-go).
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Wat ga je leren
+---
+
+- Gebruik voorwaardelijke selectie om te reageren op toetsaanslagen
+- Gebruik variabelen om de status van een spel op te slaan
+- Gebruik voorwaardelijke selectie op basis van de waarde van een variabele
+- Gebruik lijsten om gegevens op te slaan
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Aanvullende informatie voor docenten
+---
 
 Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/create-your-own-world/print){:target="_blank"}.
 
-Gebruik de link in de voettekst voor toegang tot de GitHub opslagplaats voor dit project, met daarin alle bronnen (inclusief een voorbeeld van een voltooid project) in de map `nl-NL/resources`.
+Je kunt alles wat je nodig hebt om dit project te voltooien vinden op [rpf.io/p/nl-NL/create-your-own-world-get](https://rpf.io/p/nl-NL/create-your-own-world-get).
+
+--- /collapse ---

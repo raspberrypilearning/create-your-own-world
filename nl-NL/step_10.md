@@ -1,35 +1,54 @@
 ## Munten verzamelen
 
-Terwijl de sprite `speler` door de wereld gaat kan die munten verzamelen.
+Je `speler` sprite zou in staat moeten zijn munten te verzamelen terwijl deze door de wereld beweegt.
 
-+ Voeg een nieuwe variabele `munten`{:class="blockdata"} toe aan je project.
+--- task --- Voeg een nieuwe variabele `munten`{:class="block3variables"} toe aan je project. --- /task ---
 
-+ Klik rechts op de sprite `munt` en kies **verschijn**.
+--- task --- Selecteer de `munt` sprite en klik op **toon**.
 
-![screenshot](images/world-coins.png)
+![screenshot](images/coin.png) --- /task ---
 
-+ Voeg code toe aan de sprite `munt` zodat die alleen in kamer 1 verschijnt.
+--- task --- Voeg code toe aan je nieuwe `munt` sprite zodat de sprite alleen in kamer 1 verschijnt. ![screenshot](images/coin.png)
 
-+ Voeg code toe aan de sprite `munt` zodat `1` wordt toegevoegd aan de `munten`{:class="blockdata"} variabele als de sprite `speler` de sprite `munt` aanraakt om die 'op te pakken'.
-    
-    ```blocks
-        wanneer groene vlag wordt aangeklikt
-    wacht tot <raak ik [speler v] ?>
-    verander [munten v] met (1)
-    stop [andere scripts in sprite v]
-    verdwijn
-    ```
-    
-    De code `stop andere scripts in sprite`{:class="blockcontrol"} is nodig, zodat de sprite `munt` niet meer is te zien in kamer 1 nadat het is opgepakt.
+```blocks3
+wanneer op groene vlag wordt geklikt
+herhaal
+als <(kamer :: variables)=[1]> dan
+verschijn
+anders
+verdwijn
+```
 
-+ Er moet aan het begin van je spel ook code worden toegevoegd om de variabele `munten`{:class="blockdata"} in te stellen op `0`.
+--- /task ---
 
-+ Test je project - het verzamelen van een munt zou de score voor `munten` moeten veranderen naar `1`.
+--- task ---
 
---- challenge ---
+Voeg code toe aan de `munt` sprite zodat de spite `verdwijnt`{:class="block3looks"} en `1` wordt opgeteld bij de `munten`{:class="block3variables"} variabele als de `speler` sprite de `munt` sprite aanraakt om die 'op te pakken'.
 
-### Uitdaging: meer munten
+![munt](images/coin.png)
 
-Kun je meer munten aan je spel toevoegen? Ze kunnen in verschillende kamers liggen en sommige munten kunnen zelfs worden bewaakt door rondlopende vijanden!
+```blocks3
+wanneer op groene vlag wordt geklikt
+wacht tot <touching (player v)?>
+verander [munten v] met (1)
+verdwijn
+stop [andere scripts in sprite v]
+```
 
---- /challenge ---
+De code `stop andere scripts in sprite`{:class="block3control"} is nodig, zodat de `munt` sprite niet meer is te zien in kamer 1 nadat het is opgepakt.
+
+--- /task ---
+
+--- task --- Voeg nu code toe aan het speelveld om je `munten`{:class="block3variabeles"} variabele aan het begin van het spel in te stellen op `0`{:class="block3variables"}.
+
+![speelveld](images/stage.png)
+
+```blocks3
+wanneer op groene vlag wordt geklikt
+maak [munten v] [0]
+```
+
+--- /task ---
+
+--- task --- Test je spel. Het verzamelen van een munt moet je `munten` score met `1`{:class="block3variables"} verhogen. 
+--- /task ---
