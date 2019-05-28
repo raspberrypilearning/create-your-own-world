@@ -1,3 +1,3 @@
-## Challenge: move back to the previous room
+## Her: symud yn ôl i'r ystafell flaenorol
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+Wyt ti’n gallu gwneud i dy `chwaraewr` symud i’r ystafell flaenorol pan mae’n cyffwrdd drws melyn? Cofia bydd y côd yma yn debyg iawn i’r côd rwyt ti wedi ychwanegu yn barod i symud i’r ystafell nesaf.
