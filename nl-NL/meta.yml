@@ -11,13 +11,13 @@ steps:
   - title: De sprite van de speler verplaatsen
   - title: Stevige muren
   - title: Verplaats je door je wereld
-  - title: "Uitdaging: naar de vorige kamer gaan"
+  - title: "Uitdaging: ga naar de vorige kamer"
     challenge: true
   - title: Borden
   - title: "Uitdaging: schat!"
     challenge: true
   - title: Personen
-  - title: "Uitdaging: vijanden"
+  - title: "Uitdaging: voeg een vijand toe"
     challenge: true
   - title: Munten verzamelen
   - title: Deuren en sleutels

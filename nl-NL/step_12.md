@@ -10,7 +10,7 @@ Je kunt nu doorgaan met het maken van je eigen wereld! Hier zijn wat ideeën:
 + Voeg meer kamers toe aan je wereld
 + Voeg andere nuttige dingen toe aan je spel
     
-    + Gebruik munten om informatie van andere personen te krijgen:
++ Gebruik munten om informatie van andere personen te krijgen:
 
 ![screenshot](images/world-bribe.png)
 

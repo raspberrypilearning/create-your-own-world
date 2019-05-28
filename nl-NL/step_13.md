@@ -1,4 +1,4 @@
-## Wat kun je verder nog doen?
+## Wat nu?
 
 Probeer een ander spel te maken door het [KATTEN!](https://projects.raspberrypi.org/nl-NL/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project uit te voeren.
 
