@@ -20,8 +20,7 @@ Je kunt nu doorgaan met het maken van je eigen wereld! Hier zijn wat ideeën:
 
 ```blocks3
 als <touching color [ ]?> dan 
- verander achtergrond naar ((uiterlijk [number v]) + (3):: operators):: looks
- ga naar x: (0) y: (200):: motion
- verander [kamer v] met (3):: variables:: control
-end
+ verander achtergrond naar ((uiterlijk [nummer v]) + (3))
+ ga naar x: (0) y: (200)
+ verander [kamer v] met (3)
 ```
