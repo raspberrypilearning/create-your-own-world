@@ -1,6 +1,6 @@
 ## Verplaats je door je wereld
 
-De `speler` Sprite zou door deuren naar andere kamers moeten kunnen lopen.
+De `speler` sprite zou door deuren naar andere kamers moeten kunnen lopen.
 
 Het project bevat achtergronden voor extra kamers:
 
@@ -14,9 +14,9 @@ Maak een nieuwe variabele 'voor alle sprites' met de naam `kamer`{:class="block3
 
 ![screenshot](images/world-room.png) \--- /task \---
 
-\--- task\--- Als de `speler` sprite de oranje deur in de eerste kamer raakt moet de volgende achtergrond worden weergegeven en de `speler`sprite moet teruggaan naar de linkerkant van het speelveld. Voeg deze code toe aan de `speler` sprite ` herhaal `{:class="block3control"} lus:
+\--- task\--- Als de `speler` sprite de oranje deur in de eerste kamer raakt moet de volgende achtergrond worden weergegeven en de `speler` sprite moet teruggaan naar de linkerkant van het speelveld. Voeg deze code toe aan de `speler` sprite's `herhaal`{:class="block3control"} lus:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -30,37 +30,37 @@ herhaal
             neem (4) stappen
       end
         als <toets (pijltje omlaag v) ingedrukt? > dan
-            richt naar (180) graden
+            richt naar (-180) graden
             neem (4) stappen
         end
         als <toets (pijltje rechts v) ingedrukt? > dan
             richt naar (90) graden
             neem (4) stappen
         end
-        als < raak ik kleur[#BARBARA]? > dan
+        als < raak ik kleur [#BABABA]? > dan
     zet (-4) stappen
     end
-+ als < raak ik kleur [# F2A24A] > dan
++ als < raak ik kleur [#F2A24A] > dan
     verander achtergrond naar (volgende achtergrond v)
     ga naar x: (-200) y: (0)
-    verandering [kamer v] met (1)
+    verander [kamer v] met (1)
     end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Elke keer dat het spel start, moeten de kamer, de positie van het personage en de achtergrond worden opnieuw ingesteld worden.
+\--- task \--- Elke keer dat het spel start, moeten de kamer, de positie van het personage en de achtergrond opnieuw ingesteld worden.
 
-Voeg code toe aan de **start** van je `speler` sprite-code boven de `herhaal` {: class = "block3control"} lus, om alles opnieuw in te stellen wanneer op de vlag wordt geklikt:
+Voeg code toe aan de **start** van je `speler` sprite-code boven de `herhaal`{:class="block3control"} lus, om alles opnieuw in te stellen wanneer op de vlag wordt geklikt:
 
 \--- hints \--- \--- hint \--- Wanneer het spel start:
 
-+ De waarde van `kamer`{:class="block3variables"} moet zijn ingesteld op `1` {:Class="block3variables"}
-+ De `achtergrond` {:class="block3looks"} moet zijn ingesteld op `kamer1` {:Class="block3looks"}
-+ De positie van de `speler` sprite moet worden ingesteld op `x:-200 y:0` {:class="block3motion"} \--- / hint \--- \--- hint \--- Dit zijn de extra blokken die je nodig hebt:
++ De waarde van `kamer`{:class="block3variables"} moet zijn ingesteld op `1` {:class="block3variables"}
++ De `achtergrond`{:class="block3looks"} moet zijn ingesteld op `kamer1` {:class="block3looks"}
++ De positie van de `speler` sprite moet worden ingesteld op `x:-200 y: 0` {:class="block3motion"} \--- / hint \--- \--- hint \--- Dit zijn de extra blokken die je nodig hebt:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 ga naar x: (-200) y: (0)
@@ -72,7 +72,7 @@ verander achtergrond naar (kamer1 v)
 
 \--- / hint \--- \--- hint \--- Hier zie je hoe je voltooide script er uit moet zien:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 wanneer op groene vlag wordt geklikt
@@ -96,10 +96,10 @@ herhaal
             richt naar (90) graden
             neem (4) stappen
         end
-        als < raak ik kleur[#BARBARA]? > dan
+        als < raak ik kleur [#BABABA]? > dan
     zet (-4) stappen
     end
-   als < raak ik kleur [# F2A24A] > dan
+   als < raak ik kleur [#F2A24A] > dan
     verander achtergrond naar (volgende achtergrond v)
     ga naar x: (-200) y: (0)
     verander [kamer v] met (1)
