@@ -1,7 +1,7 @@
 ---
 hero_image: images/create-your-own-world.png
 title: أنشئ عالمك الخاص
-description: تعلَّم كيف تصنع لعبة تبتكر فيها عالمك الخاص من المغامرات.
+description: قم بإنشاء لعبة المغامرات المفتوحة للعالم الخاصة بك
 listed: true
 copyedit: false
 version: 4.1.0
@@ -10,13 +10,13 @@ steps:
   - 
     title: المقدمة
   - 
-    title: ما ستحتاج إليه
+    title: تحريك كائن اللاعب
   - 
     title: جدران صلبة
   - 
-    title: حوائط صلبة
+    title: التحرك حول عالمك الخاص
   - 
-    title: "برمجة عالمك"
+    title: "تحدي: التحريك إلى الغرفة السابقة"
     challenge: true
   - 
     title: اللافتات
