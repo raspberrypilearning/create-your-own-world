@@ -32,12 +32,18 @@ end
 wanneer groene vlag wordt aangeklikt
 ga naar x: (0) y: (-150)
 herhaal 
-  als < raak ik (speler v)? > dan 
+  als <raak ik (speler v)?> dan  &gt; dan 
     zeg [Wist je dat je door de oranje en gele deuren kunt gaan?]
   anders
     zeg []
    + neem (1) stappen
    + keer om aan de rand
+  end
+end    zeg [Wist je dat je door de oranje en gele deuren kunt gaan?]
+  anders 
+    zeg []
+    + neem (1) stappen
+    + keer om aan de rand
   end
 end
 
