@@ -13,11 +13,11 @@ Je project bevat een sprite `welkomstbord`:
 ![bord](images/sign.png)
 
 ```blocks3
-<br />als &lt; &gt; dan
+<br />als <> dan
 anders
 end
 
-&lt; (kamer:: variables) = [1] &gt;
+<(kamer:: variables) = [1]>
 
 verdwijn
 
@@ -59,13 +59,13 @@ end
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
-herhaal
-als < (kamer :: variabelen) = [1] > dan
-verschijn
-anders
-verberg
-einde
-+ als < raak ik (speler v)? > dan
+herhaal 
+ als <(kamer :: variables) = [1]> dan 
+ verschijn
+ anders 
+ verdwijn
+ end
+end? &gt; dan
 zeg [Welkom! Kun je bij de schat komen?]
 anders
 zeg []
