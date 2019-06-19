@@ -6,7 +6,7 @@
 
 ## المقدمة
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+في هذا المشروع، ستتعلم كيف تُنشئ عالم ألعاب المغامرة الخاصة بك متعددة المستويات لاستكشافها.
 
 ### ما الذي ستصنعه
 
@@ -23,7 +23,7 @@ In this project, you'll learn how to create your own adventure game world with m
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+سوف تستخدم مفاتيح الأسهم لتحريك شخصيتك في أنحاء العالم. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -39,9 +39,9 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 - برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### للتحميل
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+يمكنك أن تجد كل ما تحتاجه لإكمال هذا المشروع على [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- collapse \---
 
