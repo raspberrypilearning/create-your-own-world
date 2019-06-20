@@ -49,10 +49,10 @@
 
 ## title: ما الذي ستتعلمه
 
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+- استخدم التحديد الشرطي لتفاعل مع ضغط المفاتيح
+- استخدم المتغيرات لتخزين حالة اللعبة
+- استخدم التحديد الشرطي بناءً على قيمة المتغير
+- استخدم القوائم لتخزين البيانات
 
 \--- /collapse \---
 
