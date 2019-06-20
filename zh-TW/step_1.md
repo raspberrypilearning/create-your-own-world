@@ -62,6 +62,6 @@
 
 如果您需要打印此項目，請使用 [打印機友好版本](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){：target =“_ blank”}。
 
-您可以在 [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get)找到該項目的解決方案。
+You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 - - /坍方 - -
