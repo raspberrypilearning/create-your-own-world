@@ -62,6 +62,6 @@
 
 このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_ blank"}を使用してください。
 
-このプロジェクトに対する解決策は、 [rpf.io / p / en / create-your-town-world](https://rpf.io/p/en/create-your-own-world-get)ます。
+You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
