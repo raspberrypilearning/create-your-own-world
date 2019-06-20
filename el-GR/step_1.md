@@ -62,6 +62,6 @@
 
 Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/create-your-own-world/print)"{:target="_blank"}.
 
-Μπορείς να βρεις όλα όσα χρειάζεσαι για να ολοκληρώσεις αυτό το έργο στο [ rpf.io/p/en/create-your-own-world-get ](https://rpf.io/p/en/create-your-own-world-get).
+You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
