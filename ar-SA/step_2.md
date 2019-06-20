@@ -1,6 +1,6 @@
 ## ما ستحتاج إليه
 
-Start by creating a `player` sprite that can move around your world.
+لنبدأ بإنشاء كائن `اللاعب` الذي يمكنه أن يتحرك في جميع أرجاء اللعبة.
 
 \--- task \---
 
