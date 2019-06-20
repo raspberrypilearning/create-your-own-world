@@ -62,6 +62,6 @@
 
 إذا كنت بحاجة إلى طباعة هذا المشروع ، فالرجاء استخدام الإصدار [الملائم للطابعة](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+يمكنك الحصول على [المشروع كاملاً من هنا](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
