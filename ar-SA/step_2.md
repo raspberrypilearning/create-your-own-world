@@ -4,13 +4,13 @@
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+افتح المشروع المبدئي "إنشاء عالمك الخاص".
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**بدون اتصال انترنيت** حمّل المشروع المبدئي من [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"} ثم اقتحه باستخدام محرر البرنامج بدون اتصال انترنيت. اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![screenshot](images/world-starter.png)
 
