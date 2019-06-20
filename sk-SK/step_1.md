@@ -62,6 +62,6 @@ Všetko, čo potrebujete na dokončenie tohto projektu, nájdete na stránke [rp
 
 Ak potrebujete tento projekt vytlačiť, použite [verziu určenú pre tlač](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){: target = "_ blank"}.
 
-Riešenia pre tento projekt nájdete na adrese [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
+You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
