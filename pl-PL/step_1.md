@@ -62,6 +62,6 @@ Możesz znaleźć wszystko, czego potrzebujesz, aby ukończyć ten projekt na [r
 
 Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-Możesz znaleźć rozwiązania tego projektu na [rpf.io/p/en/create-your-own-world-get](https://rpf.io/p/en/create-your-own-world-get).
+You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
