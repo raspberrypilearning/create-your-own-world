@@ -11,7 +11,7 @@ Je `speler` sprite zou in staat moeten zijn munten te verzamelen terwijl deze do
 \--- task \--- Voeg code toe aan je nieuwe `munt` sprite zodat de sprite alleen in kamer 1 verschijnt. ![screenshot](images/coin.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 herhaal
 als <(kamer :: variables)=[1]> dan
 verschijn
@@ -28,8 +28,8 @@ Voeg code toe aan de `munt` sprite zodat de spite `verdwijnt`{:class="block3look
 ![munt](images/coin.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-wacht tot <touching (player v)?>
+wanneer groene vlag wordt aangeklikt
+wacht tot < raak ik (speler v)?>
 verander [munten v] met (1)
 verdwijn
 stop [andere scripts in sprite v]
@@ -44,7 +44,7 @@ De code `stop andere scripts in sprite`{:class="block3control"} is nodig, zodat 
 ![speelveld](images/stage.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 maak [munten v] [0]
 ```
 
