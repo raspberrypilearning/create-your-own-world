@@ -14,23 +14,23 @@ herhaal
   als <toets (pijltje omhoog v) ingedrukt? > dan
             richt naar (0) graden
             neem (4) stappen
-        end
+        einde
         als <toets (pijltje links v) ingedrukt? > dan
             richt naar (-90) graden
             neem (4) stappen
-        end
+        einde
         als <toets (pijltje omlaag v) ingedrukt? > dan
             richt naar (180) graden
             neem (4) stappen
-        end
+        einde
         als <toets (pijltje rechts v) ingedrukt? > dan
             richt naar (90) graden
             neem (4) stappen
-        end
-        + als < raak ik kleur [#BABABA]? > dan 
+        einde
++ als < raak ik kleur [#BABABA]? > dan 
   neem (-4) stappen
-  end
-end
+  einde
+einde
 ```
 
 \--- /task \---
