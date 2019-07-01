@@ -6,27 +6,27 @@ Je project bevat een sprite `welkomstbord`:
 
 ![screenshot](images/world-sign.png)
 
-\---task\--- De `Welkomstbord` sprite moeten alleen zichtbaar zijn in kamer 1, dus voeg code code aan de sprite toe om ervoor te zorgen dat dit gebeurt:
+\---task\--- De `Welkomstbord` sprite moet alleen zichtbaar zijn in kamer 1, dus voeg code aan de sprite toe om ervoor te zorgen dat dit gebeurt:
 
 \--- hints \--- \--- hint \--- `Wanneer op de groene vlag wordt geklikt`{:class="block3events"}, in een `herhaal` {:class="block3control"} lus, controleer `als`{:class="block3control"} de `kamer 1 is`{:class="block3variables"} en activeer in dat geval `verschijn`{:class="block3looks"} van de `welkomstbord` sprite, `anders`{:class="block3control"} `verdwijn` {:class="block3looks"} van de sprite. \--- /hint \--- \--- hint \--- Dit zijn de codeblokken die je nodig hebt:
 
 ![bord](images/sign.png)
 
 ```blocks3
-<br />als <> dan
+<br />als &lt; &gt; dan
 anders
-end
+einde
 
-<(kamer:: variables) = [1]>
+&lt; (kamer:: variables) = [1] &gt;
 
 verdwijn
 
 verschijn
 
 herhaal
-end
+einde
 
-wanneer op groene vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 
 ```
 
@@ -35,14 +35,14 @@ wanneer op groene vlag wordt geklikt
 ![bord](images/sign.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 herhaal
     als< (kamer :: variables) = [1] > dan
         verschijn
     anders
         verdwijn
-    end
-end
+    einde
+einde
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -60,12 +60,12 @@ end
 ```blocks3
 wanneer groene vlag wordt aangeklikt
 herhaal 
- als <(kamer :: variables) = [1]> dan 
+ als < (kamer :: variables) = [1] > dan 
  verschijn
  anders 
  verdwijn
- end
-end? &gt; dan
+ einde
++als < raak ik (speler v)? > dan
 zeg [Welkom! Kun je bij de schat komen?]
 anders
 zeg []
