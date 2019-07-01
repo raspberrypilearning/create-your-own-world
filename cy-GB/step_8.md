@@ -11,14 +11,14 @@ Fe awn ati i ychwanegu pobl arall i dy fyd mae modd i dy `chwaraewr` ryngweithio
 ![person](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
+pan fo'r flag werdd yn cael ei glicio
+mynd i x: (0) y: (-150)
+am byth 
+  os <cyffwrdd (player v) ? > yna 
+    dweud [Oeddet ti'n gwybod dy fod di'n gallu mynd trwy drysau oren a melyn?]
+  fel arall 
+    dweud []
+  end
 end
 ```
 
@@ -29,16 +29,16 @@ end
 ![person](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
+pan fo'r flag werdd yn cael ei glicio
+mynd i x: (0) y: (-150)
+am byth 
+  os <cyffwrdd (player v) ? > yna 
+    dweud [Oeddet ti'n gwybod dy fod di'n gallu mynd trwy drysau oren a melyn?]
+  fel arall 
+    dweud []
+    + symud (1) cam
+    + os ar ymyl, bowndio
+  end
 end
 
 ```
