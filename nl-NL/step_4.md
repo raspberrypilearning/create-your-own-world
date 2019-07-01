@@ -24,28 +24,28 @@ herhaal
   als <toets (pijltje omhoog v) ingedrukt? > dan
             richt naar (0) graden
             neem (4) stappen
-        end
+        einde
         als <toets (pijltje links v) ingedrukt? > dan
             richt naar (-90) graden
             neem (4) stappen
-      end
+      einde
         als <toets (pijltje omlaag v) ingedrukt? > dan
             richt naar (-180) graden
             neem (4) stappen
-        end
+        einde
         als <toets (pijltje rechts v) ingedrukt? > dan
             richt naar (90) graden
             neem (4) stappen
-        end
+        einde
         als < raak ik kleur [#BABABA]? > dan
-    zet (-4) stappen
-    end
+    neem (-4) stappen
+    einde
 + als < raak ik kleur [#F2A24A] > dan
     verander achtergrond naar (volgende achtergrond v)
     ga naar x: (-200) y: (0)
     verander [kamer v] met (1)
-    end
-end
+    einde
+einde
 ```
 
 \--- /task \---
@@ -56,9 +56,9 @@ Voeg code toe aan de **start** van je `speler` sprite-code boven de `herhaal`{:c
 
 \--- hints \--- \--- hint \--- Wanneer het spel start:
 
-+ De waarde van `kamer`{:class="block3variables"} moet zijn ingesteld op `1` {:class="block3variables"}
-+ De `achtergrond`{:class="block3looks"} moet zijn ingesteld op `kamer1` {:class="block3looks"}
-+ De positie van de `speler` sprite moet worden ingesteld op `x:-200 y: 0` {:class="block3motion"} \--- / hint \--- \--- hint \--- Dit zijn de extra blokken die je nodig hebt:
++ De waarde van `kamer`{:class="block3variables"} moet zijn ingesteld op `1`{:class="block3variables"}
++ De `achtergrond`{:class="block3looks"} moet zijn ingesteld op `kamer1`{:class="block3looks"}
++ De positie van de `speler` sprite moet worden ingesteld op `x:-200 y: 0`{:class="block3motion"} \--- / hint \--- \--- hint \--- Dit zijn de extra blokken die je nodig hebt:
 
 ![speler](images/player.png)
 
@@ -75,7 +75,7 @@ verander achtergrond naar (kamer1 v)
 ![speler](images/player.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 + maak [kamer v] (1)
 + ga naar x: (-200) y: (0)
 + verander achtergrond naar (kamer1 v)
@@ -83,28 +83,28 @@ herhaal
     als <toets (pijltje omhoog v) ingedrukt? > dan
             richt naar (0) graden
             neem (4) stappen
-        end
+        einde
         als <toets (pijltje links v) ingedrukt? > dan
             richt naar (-90) graden
             neem (4) stappen
-      end
+      einde
         als <toets (pijltje omlaag v) ingedrukt? > dan
             richt naar (-180) graden
             neem (4) stappen
-        end
+        einde
         als <toets (pijltje rechts v) ingedrukt? > dan
             richt naar (90) graden
             neem (4) stappen
-        end
+        einde
         als < raak ik kleur [#BABABA]? > dan
     zet (-4) stappen
-    end
+    einde
    als < raak ik kleur [#F2A24A] > dan
     verander achtergrond naar (volgende achtergrond v)
     ga naar x: (-200) y: (0)
     verander [kamer v] met (1)
-    end
-end
+    einde
+einde
 ```
 
 \--- /hint \--- \--- /hints \---
