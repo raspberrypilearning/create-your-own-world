@@ -13,20 +13,21 @@ Mae dy brosiect yn cynnwys corlun `arwydd croeso`:
 ![arwydd](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
-else
+<br />os <> yna 
+  
+fel arall
 end
 
-&lt; (room :: variables) = [1] &gt;
+<(ystafell :: variables) = [1]>
 
-hide
+cuddio
 
-show
+dangos
 
-forever
+am byth
 end
 
-when flag clicked
+pan fo'r flag werdd yn cael ei glicio
 
 ```
 
@@ -35,13 +36,13 @@ when flag clicked
 ![arwydd](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <(ystafell :: variables) = [1]> yna 
+    dangos
+  fel arall 
+    cuddio
+  end
 end
 ```
 
@@ -58,18 +59,18 @@ end
 ![arwydd](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <(ystafell :: variables) = [1]> yna 
+    dangos
+  fel arall 
+    cuddio
+  end
+  + os <cyffwrdd (player v) ? > yna 
+  +   dweud [Croeso! Wyt t'in gallu cyrraedd y trysor?]
+  + fel arall 
+  +   dweud []
+  + end
 end
 ```
 
