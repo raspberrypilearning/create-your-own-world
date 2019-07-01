@@ -16,7 +16,7 @@ verdwijn
 
 wanneer groene vlag wordt aangeklikt
 herhaal
-als <touching (player v)?> dan
+als < raak ik (speler v)?> dan
 stop [alle v]
 
 wanneer groene vlag wordt aangeklikt
@@ -24,7 +24,7 @@ ga naar x : (170) y: (0)
 herhaal
 herhaal (130)
 verander x met (-1)
-end
+einde
 herhaal (130)
 verander x met (1)
 ```
