@@ -18,8 +18,8 @@ herhaal
     zeg [Wist je dat je door de oranje en gele deuren kunt gaan?]
   anders
     zeg []
-  end
-end
+  einde
+einde
 ```
 
 \--- /task \---
@@ -36,16 +36,10 @@ herhaal
     zeg [Wist je dat je door de oranje en gele deuren kunt gaan?]
   anders
     zeg []
-   + neem (1) stappen
-   + keer om aan de rand
-  end
-end    zeg [Wist je dat je door de oranje en gele deuren kunt gaan?]
-  anders 
-    zeg []
-    + neem (1) stappen
-    + keer om aan de rand
-  end
-end
++   neem (1) stappen
++   keer om aan de rand
+  einde
+einde
 
 ```
 
