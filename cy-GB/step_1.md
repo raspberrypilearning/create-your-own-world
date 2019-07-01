@@ -62,6 +62,6 @@ Gallwch ddod o hyd i bopeth sydd ei angen arnoch i gwblhau'r prosiect hwn yn [ r
 
 Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Gallwch chi ddod o hyd i'r ateb ar gyfer y prosiect hwn [yma](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
