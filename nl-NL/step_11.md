@@ -24,7 +24,7 @@ Nu ga je code toevoegen zodat sommige van de deuren in je spelwereld op slot zij
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
-wacht tot <touching (player v)?>
+wacht tot <raak ik (speler v)?>
 voeg [blauwe sleutel] toe aan [inventaris v]
 verdwijn
 stop [andere scripts in sprite v]
