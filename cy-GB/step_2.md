@@ -22,15 +22,15 @@ Dylai gwasgu'r bysellau saeth symud y `chwaraewr` o gwmpas. Pan fydd y saeth i f
 
 Ychwanega’r côd canlynol i’r corlun `chwareuwr`:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
 end
 ```
 
@@ -51,16 +51,16 @@ I symud y `chwareuwr` i'r chwith, bydd angen i ti ychwanegu bloc arall `os`{:cla
 ![chwaraewr](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  + os <bysell (left arrow v) wedi ei phwyso? > yna 
+     pwyntio i gyfeiriad (-90)
+     symud (4) cam
+   end
 end
 ```
 
@@ -87,9 +87,9 @@ Mae angen i ti newid y ddau floc yma:
 ![chwaraewr](images/player.png)
 
 ```blocks3
-<key ( v) pressed>
+<bysell ( v) wedi ei phwyso?>
 
-point in direction ()
+pwyntio i gyfeiriad ()
 ```
 
 Dyblyga'r côd sy'n gwneud i'r `chwareuwr` symud fyny, ac yna newidia'r ddau floc i wneud i'r corlun symud lawr. Dyblyga'r côd eto a'i newid fel fod y corlun yn symud i'r dde.
@@ -99,25 +99,25 @@ Dyblyga'r côd sy'n gwneud i'r `chwareuwr` symud fyny, ac yna newidia'r ddau flo
 ![chwaraewr](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  os <bysell (left arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-90)
+    symud (4) cam
+  end
 
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
+  + os <bysell (down arrow v) wedi ei phwyso? > yna 
+     pwyntio i gyfeiriad (180)
+     symud (4) cam
+   end
+   os <bysell [right arrow v] wedi ei phwyso? > yna 
+     pwyntio i gyfeiriad (90)
+     symud (4) cam
+   end
 end
 ```
 
