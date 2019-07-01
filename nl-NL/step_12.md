@@ -19,7 +19,7 @@ Je kunt nu doorgaan met het maken van je eigen wereld! Hier zijn wat ideeën:
 ![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
 
 ```blocks3
-als <touching color [ ]?> dan 
+als <raak ik kleur []?> dan 
  verander achtergrond naar ((uiterlijk [nummer v]) + (3))
  ga naar x: (0) y: (200)
  verander [kamer v] met (3)
