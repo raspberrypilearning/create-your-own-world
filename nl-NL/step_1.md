@@ -62,6 +62,6 @@ Je kunt alles wat je nodig hebt om dit project te voltooien vinden op [rpf.io/p/
 
 Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {:target="_ blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Je kunt het [voltooide project hier](https://rpf.io/p/en/create-your-own-world-get)"{:target="_blank"} vinden.
 
 \--- /collapse \---
