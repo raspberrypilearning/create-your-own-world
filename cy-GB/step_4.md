@@ -19,32 +19,32 @@ Byddi di angen newidyn newydd ‘ar gyfer pob ciplun’ o’r enw `ystafell`{:cl
 ![chwaraewr](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-    end
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  os <bysell (left arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-90)
+    symud (4) cam
+  end
+  os <bysell (down arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-180)
+    symud (4) cam
+  end
+  os <bysell [right arrow v] wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (90)
+    symud (4) cam
+  end
+  os <cyffwrdd lliw [#BABABA] ? > yna 
+    symud (-4) cam
+  end
+  + os <cyffwrdd lliw [#F2A24A] ?> yna 
+     newid cefndir i (next backdrop v)
+     mynd i x: (-200) y: (0)
+     newid [room v] gan (1)
+     end
 end
 ```
 
@@ -63,11 +63,11 @@ Ychwaneda'r côd i **ddechrau** côd dy `chwaraewr` uwchben y ddolen `am byth`{:
 ![chwaraewr](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+mynd i x: (-200) y: (0)
 
-set [room v] to (1)
+gosod [ystafell v] i (1)
 
-switch backdrop to (room1 v)
+newid cefndir i (room1 v)
 ```
 
 \--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
@@ -75,35 +75,35 @@ switch backdrop to (room1 v)
 ![chwaraewr](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
+pan fo'r flag werdd yn cael ei glicio
++gosod [ystafell v] i (1)
++mynd i x: (-200) y: (0)
++newid cefndir i (room1 v)
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  os <bysell (left arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-90)
+    symud (4) cam
+  end
+  os <bysell (down arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-180)
+    symud (4) cam
+  end
+  os <bysell [right arrow v] wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (90)
+    symud (4) cam
+  end
+  os <cyffwrdd lliw [#BABABA] ? > yna 
+    symud (-4) cam
+  end
+  os <cyffwrdd lliw [#F2A24A] ?> yna 
+    newid cefndir i (next backdrop v)
+    mynd i x: (-200) y: (0)
+    newid [ystafell v] gan (1)
+  end
 end
 ```
 
