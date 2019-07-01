@@ -25,7 +25,7 @@ Voeg deze code toe aan de `speler` sprite:
 ![speler](images/player.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 herhaal 
   als <toets (pijltje omhoog v) ingedrukt? > dan 
     richt naar (0) graden
@@ -51,13 +51,13 @@ Om de `speler` sprite naar links te verplaatsen moet je er nog een `als`{:class=
 ![speler](images/player.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
+wanneer groene vlag wordt aangeklikt
 herhaal 
   als <toets (pijltje omhoog v) ingedrukt? > dan
             richt naar (0) graden
             neem (4) stappen
         einde
-       + als <toets (pijltje links v) ingedrukt? > dan 
++ als <toets (pijltje links v) ingedrukt? > dan 
     richt naar (-90) graden
     neem (4) stappen
   einde
@@ -87,7 +87,7 @@ Je moet deze twee blokken veranderen:
 ![speler](images/player.png)
 
 ```blocks3
-<key ( v) pressed>
+< toets ( v) ingedrukt?>
 
 richt naar () graden
 ```
@@ -104,12 +104,12 @@ herhaal
   als <toets (pijltje omhoog v) ingedrukt? > dan
             richt naar (0) graden
             neem (4) stappen
-        end
+        einde
         als <toets (pijltje links v) ingedrukt? > dan
             richt naar (-90) graden
             neem (4) stappen
-        end
-        
+        einde
+
 + als <toets (pijltje omlaag v) ingedrukt? > dan
             richt naar (180) graden
             neem (4) stappen
