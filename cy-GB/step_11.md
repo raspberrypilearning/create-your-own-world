@@ -23,11 +23,11 @@ Ychwanega gôd i dy `allwedd` i'w wneud yn weledol yn ystafell 3 yn unig. \--- /
 ![allwedd](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+pan fo'r flag werdd yn cael ei glicio
+aros hyd at <cyffwrdd (player v) ?>
+ychwanegu [blue key] i [wedi casglu v]
+cuddio
+aros [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -35,7 +35,7 @@ stop [other scripts in sprite v]
 -- task \--- Ychwanega gôd i'r Llwyfan i wagio dy restr ar gychwyn gêm.
 
 ```blocks3
-delete (all v) of [inventory v]
+dileu (all v) o [wedi casglu v]
 ```
 
 \--- /task \---
@@ -53,10 +53,10 @@ delete (all v) of [inventory v]
 ![drws](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+pan fo'r flag werdd yn cael ei glicio
+aros hyd at <[wedi casglu v] yn cynnwys [blue key] ?>
+aros [other scripts in sprite v]
+cuddio
 ```
 
 \--- /task \---
