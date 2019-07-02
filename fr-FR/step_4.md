@@ -1,10 +1,10 @@
-## Signalisations
+## Déplace-toi dans ton monde
 
 The `player` sprite should be able to walk through doors into other rooms.
 
 Ton projet contient des arrières-plans pour des salles supplémentaires :
 
-![screenshot](images/world-backdrops.png)
+![capture d'écran](images/world-backdrops.png)
 
 \--- task \---
 
