@@ -1,8 +1,8 @@
-## Signes
+## Panneaux
 
 Now add signs to your world to guide players on their journey.
 
-Ton project inclut un lutin `panneau de Bienvenue` :
+Ton project inclut un `panneau de bienvenue` sprite :
 
 ![capture d'écran](images/world-sign.png)
 
@@ -53,7 +53,7 @@ end
 
 ![capture d'écran](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Ajoute du code supplémentaire pour afficher un message si le lutin `panneau de bienvenue` touche le lutin `joueur`:
+\--- task \--- A sign isn't much good if it doesn't say anything! Ajoute du code supplémentaire pour afficher un message si le sprite `panneau de bienvenue` touche le sprite `du joueur`:
 
 ![sign](images/sign.png)
 
