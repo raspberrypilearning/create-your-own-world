@@ -1,7 +1,7 @@
-## Challenge: trésor !
+## Défi : trésor !
 
-Peux-tu ajouter un trésor pour le joueur à trouver?
+Peux-tu ajouter des trésors que le joueur doit trouver?
 
 Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
-![screenshot](images/world-treasure.png)
+![capture d’écran](images/world-treasure.png)
