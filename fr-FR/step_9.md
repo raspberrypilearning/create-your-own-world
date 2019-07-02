@@ -1,10 +1,10 @@
-## Challenge: ajoute un ennemi
+## Défi : ajoute un ennemi
 
 If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Your game already contains an `enemy` sprite. Ajouter du code au lutin `ennemi` pour qu'il n'apparaisse que dans la salle 2.
++ Your game already contains an `enemy` sprite. Ajoute du code au sprite `ennemi` pour qu'il n'apparaisse que dans la salle 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. C'est plus facile de faire cela dans des blocs de code séparés. Voici à quoi ton code du lutin `ennemi` pourrait ressembler:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. C'est plus facile de faire cela dans des blocs de code séparés. Voici à quoi ton code du sprite `ennemi` pourrait ressembler :
 
 ```blocks3
 when flag clicked
@@ -34,6 +34,6 @@ change x by (1)
     + The `enemy` sprite patrols the room
     + The game ends if the `player` sprite touches the `enemy` sprite
 
-Peux-tu créer un autre lutin `ennemi` dans la salle 3 qui patrouille de haut en bas à travers la fente du mur ?
+Peux-tu créer un autre sprite `ennemi` dans la salle 3 qui patrouille de haut en bas à travers la fente dans le mur ?
 
-![screenshot](images/world-enemy2.png)
+![capture d’écran](images/world-enemy2.png)
