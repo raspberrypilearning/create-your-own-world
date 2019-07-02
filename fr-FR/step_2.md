@@ -1,4 +1,4 @@
-## Coder votre joueur
+## Déplace le sprite du joueur
 
 Start by creating a `player` sprite that can move around your world.
 
