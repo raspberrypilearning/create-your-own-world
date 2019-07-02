@@ -30,7 +30,7 @@ verdwijn
 stop [andere scripts in sprite v]
 ```
 
--- /task \---
+\--- /task \---
 
 \--- task \--- Voeg code aan je werkgebied toe om je inventaris aan het begin van het spel te legen.
 
