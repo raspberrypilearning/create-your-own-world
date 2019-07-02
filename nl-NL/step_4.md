@@ -14,7 +14,7 @@ Maak een nieuwe variabele 'voor alle sprites' met de naam `kamer`{:class="block3
 
 ![screenshot](images/world-room.png) \--- /task \---
 
-\--- task\--- Als de `speler` sprite de oranje deur in de eerste kamer raakt moet de volgende achtergrond worden weergegeven en de `speler` sprite moet teruggaan naar de linkerkant van het speelveld. Voeg deze code toe aan de `speler` sprite's `herhaal`{:class="block3control"} lus:
+\--- task \--- Als de `speler` sprite de oranje deur in de eerste kamer raakt moet de volgende achtergrond worden weergegeven en de `speler` sprite moet teruggaan naar de linkerkant van het speelveld. Voeg deze code toe aan de `speler` sprite's `herhaal`{:class="block3control"} lus:
 
 ![speler](images/player.png)
 
@@ -111,6 +111,6 @@ einde
 
 \--- /task \---
 
-\--- taak \--- Klik op de vlag en verplaats vervolgens je `speler` sprite totdat het de oranje deur raakt. Gaat de sprite naar het volgende scherm? Verandert de variabele `kamer`{:class="block3variables"} naar `2`?
+\--- task \--- Klik op de vlag en verplaats vervolgens je `speler` sprite totdat het de oranje deur raakt. Gaat de sprite naar het volgende scherm? Verandert de variabele `kamer`{:class="block3variables"} naar `2`?
 
 ![screenshot](images/world-room-test.png) \--- /task \---
