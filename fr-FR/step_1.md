@@ -8,11 +8,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### Ce que tu feras
+### Ta création
 
 \--- no-print \---
 
-Clique sur le drapeau vert pour démarrer. Utilise les touches fléchées pour déplacer ton personnage autour le monde.
+Clique sur le drapeau vert pour démarrer. Utilise les flèches pour déplacer ton personnage dans son monde.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -29,7 +29,7 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: Ce qu'il faut avoir
+## title: Ce qu'il te faut
 
 ### Matériel informatique
 
@@ -60,7 +60,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Additional information for educators
 
-Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {: target = "_ blank"}.
+Si tu as besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {: target = "_ blank"}.
 
 You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
