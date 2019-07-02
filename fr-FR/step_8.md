@@ -1,12 +1,12 @@
-## Personnes
+## Les personnes
 
 Add other people to your world who your `player` sprite can interact with.
 
 \--- task \--- Switch to the `person` sprite.
 
-![Person sprite](images/person.png) \--- /task \---
+![Personne sprite](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. Ce code est très similaire a celui que tu as ajouté à ton lutin `panneau`:
+\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. Ce code est très similaire à celui que tu as ajouté à ton sprite `panneau`:
 
 ![person](images/person.png)
 
@@ -45,7 +45,7 @@ end
 
 \--- /task \---
 
-Ton lutin `personne` va maintenant bouger, mais il va arrêter pour parler au lutin `joueur`.
+Ton sprite `personne` va maintenant bouger, et va s'arrêter pour parler au sprite `joueur`.
 
 ![capture d'écran](images/world-person-test.png)
 
