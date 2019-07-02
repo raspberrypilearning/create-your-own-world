@@ -6,7 +6,7 @@ Je project bevat een sprite `welkomstbord`:
 
 ![screenshot](images/world-sign.png)
 
-\---task\--- De `Welkomstbord` sprite moet alleen zichtbaar zijn in kamer 1, dus voeg code aan de sprite toe om ervoor te zorgen dat dit gebeurt:
+\--- task \--- De `Welkomstbord` sprite moet alleen zichtbaar zijn in kamer 1, dus voeg code aan de sprite toe om ervoor te zorgen dat dit gebeurt:
 
 \--- hints \--- \--- hint \--- `Wanneer op de groene vlag wordt geklikt`{:class="block3events"}, in een `herhaal` {:class="block3control"} lus, controleer `als`{:class="block3control"} de `kamer 1 is`{:class="block3variables"} en activeer in dat geval `verschijn`{:class="block3looks"} van de `welkomstbord` sprite, `anders`{:class="block3control"} `verdwijn` {:class="block3looks"} van de sprite. \--- /hint \--- \--- hint \--- Dit zijn de codeblokken die je nodig hebt:
 
@@ -30,7 +30,7 @@ wanneer groene vlag wordt aangeklikt
 
 ```
 
-\--- / hint \--- \--- hint \--- Dit is de complete code die je moet toevoegen:
+\--- /hint \--- \--- hint \--- Dit is de complete code die je moet toevoegen:
 
 ![bord](images/sign.png)
 
@@ -49,11 +49,11 @@ einde
 
 \--- /task \---
 
-\--- taak \--- Test de code voor je `welkomstbord` sprite door tussen kamers te bewegen. Het bord mag alleen zichtbaar zijn in kamer 1.
+\--- task \--- Test de code voor je `welkomstbord` sprite door tussen kamers te bewegen. Het bord mag alleen zichtbaar zijn in kamer 1.
 
-![screenshot](images/world-sign-test.png) -- /task \---
+![screenshot](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- Een bord is niet veel waard als het niets zegt! Voeg code toe om een bericht weer te geven als de sprite `welkomstbord` wordt aangeraakt door de sprite `speler`:
+\--- task \--- Een bord is niet veel waard als het niets zegt! Voeg code toe om een bericht weer te geven als de `welkomstbord` sprite wordt aangeraakt door de `speler` sprite:
 
 ![bord](images/sign.png)
 
