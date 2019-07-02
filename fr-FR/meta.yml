@@ -1,39 +1,39 @@
 ---
 hero_image: images/create-your-own-world.png
 title: Crée ton propre monde
-description: Apprends à programmer ton propre monde pour un jeu d'aventure.
+description: Crée ton propre monde pour un jeu d'aventure
 listed: true
 copyedit: false
-version: 4
+version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
     title: Introduction
   - 
-    title: Coder votre joueur
+    title: Déplacer le sprite du joueur
   - 
     title: Murs solides
   - 
-    title: Signalisations
+    title: Déplace-toi dans ton monde
   - 
-    title: "Les gens"
+    title: "Défi : revenir à la salle précédente"
     challenge: true
   - 
     title: Panneaux
   - 
-    title: "Challenge: trésor !"
+    title: "Défi : trésor !"
     challenge: true
   - 
-    title: Personnes
+    title: Les personnes
   - 
-    title: "Challenge: ennemis"
+    title: "Défi : ennemis"
     challenge: true
   - 
     title: Collect coins
   - 
     title: Les portes et les clés
   - 
-    title: "Challenge: Élargir ton monde"
+    title: "Défi : étends ton monde"
     challenge: true
   - 
-    title: "Défi : plus de crayons"
+    title: "Quelle est la prochaine étape ?"
