@@ -4,9 +4,9 @@ Laten we andere personen aan je wereld toevoegen waarmee de `speler` sprite kan 
 
 \--- task \--- Schakel over naar de `persoon` sprite.
 
-![Person sprite](images/person.png) \---/task\---
+![Person sprite](images/person.png) \--- /task \---
 
-\--- taak \--- Voeg wat code toe aan de `persoon` sprite zodat deze spreekt met de `speler` sprite. Deze code zal erg lijken op de code die je aan je `welkomstbord` sprite hebt gegeven:
+\--- task \--- Voeg wat code toe aan de `persoon` sprite zodat deze spreekt met de `speler` sprite. Deze code zal erg lijken op de code die je aan je `welkomstbord` sprite hebt gegeven:
 
 ![persoon](images/person.png)
 
