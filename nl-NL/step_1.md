@@ -37,7 +37,7 @@ Je gebruikt de pijltjestoetsen om je karakter in de wereld te verplaatsen. ![sho
 
 ### Software
 
-- Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:Target="_blank"})
+- Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -60,7 +60,7 @@ Je kunt alles wat je nodig hebt om dit project te voltooien vinden op [rpf.io/p/
 
 ## title: Aanvullende informatie voor docenten
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {:target="_ blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {:target="_ blank"}.
 
 Je kunt het [voltooide project hier](https://rpf.io/p/en/create-your-own-world-get)"{:target="_blank"} vinden.
 
