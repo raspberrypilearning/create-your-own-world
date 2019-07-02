@@ -1,6 +1,6 @@
-## Challenge: add an enemy
+## Desafio: adicione um inimigo
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Se você quiser, você também pode adicionar ao seu jogo inimigos de patrulha. If the `player` sprite touches an enemy, the game ends.
 
 + Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
