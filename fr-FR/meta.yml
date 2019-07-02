@@ -10,7 +10,7 @@ steps:
   - 
     title: Introduction
   - 
-    title: Déplacer le sprite du joueur
+    title: Déplace le sprite du joueur
   - 
     title: Murs solides
   - 
