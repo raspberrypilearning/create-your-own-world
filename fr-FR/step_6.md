@@ -1,80 +1,80 @@
 ## Panneaux
 
-Now add signs to your world to guide players on their journey.
+Ajoutez maintenant des signes à votre monde pour guider les joueurs dans leur voyage.
 
 Ton project inclut un `panneau de bienvenue` sprite :
 
 ![capture d'écran](images/world-sign.png)
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+\--- \--- tâche Le `signe de bienvenue` sprite ne devrait être visible dans la chambre 1, il faut donc ajouter un code à l'image - objet pour vous assurer que cela se produit:
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- astuces \--- \--- astuces \--- `Lorsque le drapeau est cliqué`{: class = "block3events"}, dans une boucle `toujours`{: class = "block3control"}, cochez `si`{: class = "block3control"} la `chambre est 1`{: class = "block3variables"} et dans ce cas, `affiche`{: class = "block3looks"} `signe de bienvenue` sprite, `sinon`{: class = "block3control"} `masquer`{: class = "block3looks"} le sprite. \--- / allusion \--- \--- allusion \--- Voici les blocs dont vous avez besoin:
 
-![sign](images/sign.png)
+![signe](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
-else
-end
+<br />si &lt; &gt; alors
+sinon
+fin
 
-&lt; (room :: variables) = [1] &gt;
+&lt; (salle :: variables) = [1] &gt;
 
-hide
+masquer
 
-show
+montrer
 
-forever
-end
+pour toujours
+fin
 
-when flag clicked
+lorsque le drapeau est cliqué
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- / hint \--- \--- hint \--- Voici le code complet:
 
-![sign](images/sign.png)
+![signe](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
+lorsque le drapeau est cliqué sur
+pour toujours
+    si < (room :: variables) = [1] > puis
+        affichent
+    sinon
+        masquer
+    fin
+fin
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / allusion \--- \--- / allusions \---
 
 \--- /task \---
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- tâche \--- Testez le code de votre `panneau de bienvenue` en passant d'une pièce à une autre. Le panneau ne devrait être visible que dans la salle 1.
 
 ![capture d'écran](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Ajoute du code supplémentaire pour afficher un message si le sprite `panneau de bienvenue` touche le sprite `du joueur`:
+\--- tâche \--- Un signe n'est pas très bon s'il ne dit rien! Ajoute du code supplémentaire pour afficher un message si le sprite `panneau de bienvenue` touche le sprite `du joueur`:
 
-![sign](images/sign.png)
+![signe](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
+lorsque le drapeau est cliqué sur
+pour toujours
+si < (salle :: variables) = [1] > puis
+indiquent
+sinon
+masquer
+fin
++ si < contacts (joueur v)? > puis
+dire [Bienvenue! Pouvez-vous aller au trésor?]
+sinon
+dire []
+fin
+fin
 ```
 
 \--- /task \---
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- tâche \--- Testez à nouveau votre `signe de bienvenue` sprite. Vous devriez maintenant voir un message lorsque le sprite `joueur` touche le signe `bienvenue` sprite.
 
 ![capture d'écran](images/world-sign-test2.png) \--- /task \---
