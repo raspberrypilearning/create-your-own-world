@@ -1,42 +1,42 @@
 ## Murs solides
 
-\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
+\--- tâche \--- Testez à nouveau votre sprite `joueur`. Voyez-vous qu'il peut traverser les murs gris clair?
 
 ![capture d'écran](images/world-walls.png) \--- /task \---
 
-\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+\--- tâche \--- Pour résoudre ce problème, vous devez faire reculer le sprite `joueur` s'il touche un mur gris clair. Voici le code que vous devez ajouter dans votre bloc `forever`{: class = "block3control"} sous les blocs de direction:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-+   if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-end
+lorsque le drapeau a cliqué sur
+pour toujours
+    si la touche <(flèche haut v) est enfoncée > puis
+        point dans la direction (0)
+        déplacer (4) les étapes
+
+    si <touche (flèche gauche v) est enfoncée? > puis
+        point dans le sens (-90)
+        déplacer (4) les étapes
+
+        si <touche (flèche vers le bas v) est enfoncée? > puis
+        point dans la direction (-180)
+        déplacer (4) les étapes
+
+        si <touches [flèche droite v] sont enfoncées? > puis
+        point dans la direction (90)
+        déplacer (4) les étapes
+
++ si < couleurs touchantes > puis
+    mouvement (-4) pas
+    fin
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+Essayez de faire en sorte que le `joueur` sprite passe à travers un mur. Si votre nouveau code fonctionne, cela ne devrait pas être possible.
 
 ![capture d'écran](images/world-walls-test.png) \--- /task \---
