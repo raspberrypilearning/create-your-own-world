@@ -1,23 +1,23 @@
-## Signs
+## 标志
 
-Now add signs to your world to guide players on their journey.
+现在为您的世界添加标志，以指导玩家的旅程。
 
-Your project includes a `welcome sign` sprite:
+您的项目包含 `欢迎标志` 精灵：
 
 ![screenshot](images/world-sign.png)
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+\--- task \--- `欢迎标志` 精灵应该只在房间1中可见，所以在sprite中添加一些代码以确保发生这种情况：
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\---提示\--- \---提示\--- `当点击标志`{：class =“block3events”}时，在 `永远的`{：class =“block3control”}循环中，检查 `是否为`{：class =“block3control”} `房间是1`{：class =“block3variables”}，在这种情况下 `显示`{：class =“block3looks”} `欢迎标志` 精灵， `其他`{：class = “block3control”} `隐藏`{：class =“block3looks”}精灵。 \--- /提示\--- \---提示\--- 以下是您需要的块：
 
-![sign](images/sign.png)
+![标志](images/sign.png)
 
 ```blocks3
 <br />if &lt; &gt; then
 else
 end
 
-&lt; (room :: variables) = [1] &gt;
+&lt; （room :: variables）= [1] &gt;
 
 hide
 
@@ -30,51 +30,51 @@ when flag clicked
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- /提示\--- \---提示\--- 这是完整的代码：
 
-![sign](images/sign.png)
+![标志](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
+当标志点击
+永远
+    如果 < （房间::变量）= [1] > 然后
+        显示
+    其他
+        隐藏
+    结束
+结束
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /提示\--- \--- /暗示\---
 
 \--- /task \---
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- task \--- 通过在房间之间移动来测试 `欢迎标志` 精灵的代码。 标志应仅在房间1中可见。
 
-![screenshot](images/world-sign-test.png) \--- /task \---
+![截屏](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+\---任务\--- 如果没有说什么，那么标志就不是很好！ 如果 `欢迎标志` 精灵正在触及 `玩家` 精灵，请添加一些代码来显示消息：
 
-![sign](images/sign.png)
+![标志](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
+当标志点击
+永远
+如果 < （房间::变量）= [1] > 然后
+显示
+否则
+隐藏
+结束
++如果 < 触摸（玩家v）？ > 然后
+说[欢迎！ 你能得到宝藏吗？]
+其他
+说[]
+结束
+结束
 ```
 
 \--- /task \---
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\---任务\--- 再次测试你的 `欢迎标志` 精灵。 现在，当 `玩家` 精灵触及 `欢迎标志` 精灵时，您应该会看到一条消息。
 
-![screenshot](images/world-sign-test2.png) \--- /task \---
+![截屏](images/world-sign-test2.png) \--- /task \---
