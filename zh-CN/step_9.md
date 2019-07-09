@@ -1,39 +1,39 @@
-## Challenge: add an enemy
+## 挑战：加入一个敌人
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+如果你愿意，你也可以在你的游戏中加入巡逻敌人。 如果 `玩家` 精灵触及敌人，则游戏结束。
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ 你的游戏已包含 `敌人` 精灵。 将代码添加到 `敌人` 精灵中，使其仅出现在房间2中。
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ 添加代码移动 `敌人` 精灵并结束游戏如果 `敌人` 精灵接触 `玩家` 精灵。 在单独的代码块中执行此操作更容易。 以下是你的 `敌人` 精灵代码的外观：
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
+当标志点击
+永远
+如果 <（房间::变量）=[2]> 然后
+显示
+否则
+隐藏
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+当标记点击
+永远
+如果 <touching (player v)?> 然后
+停止[全v]
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
-end
-repeat (130)
-change x by (1)
+当标记点击
+转到x :( 170）y：（0）
+永远
+重复（130）
+改变x乘（-1）
+结束
+重复（130）
+改变x乘以（1）
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ 测试您的新代码，以确保： 
+    + `敌人` 精灵只能在2号房间看到
+    + `敌人` 精灵巡逻房间
+    + 如果 `玩家` 精灵接触 `敌人` 精灵，游戏结束
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+你能在房间3中创造另一个 `敌人` 精灵，在墙上的间隙上下巡逻吗？
 
 ![screenshot](images/world-enemy2.png)
