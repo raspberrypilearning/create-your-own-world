@@ -1,38 +1,38 @@
 ## Les portes et les clés
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Vous allez maintenant ajouter du code pour que certaines des portes de votre monde de jeu soient verrouillées, et le joueur doit trouver la clé pour les ouvrir et accéder à la pièce suivante.
 
-\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
+\--- task \--- Basculez sur le sprite `touche`. Cliquez sur `show`{: class = "blocklooks"} dans le menu Scripts pour que le sprite apparaisse sur la scène. \--- /task \---
 
-\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
+\--- tâche \--- Modifier le `clé` costume de lutin de sorte qu'il est bleu. \--- /task \---
 
-\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+\--- tâche \--- Basculez votre décor de scène sur la salle 3 et placez le sprite `clé` endroit difficile à atteindre!
 
 ![capture d'écran](images/world-key.png)
 
 \--- /task \---
 
-\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
+\--- tâche \--- Ajoutez du code à l'image-clé `clé` pour le rendre visible uniquement dans la salle 3. \--- /task \---
 
-\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+\--- tâche \--- Créez une nouvelle liste appelée `inventaire`{: class = "block3variables"} pour stocker les objets que votre sprite `joueurs` collectionne.
 
-[[[generic-scratch3-make-list]]] \--- /task \---
+[[[generic-scratch3-make-list]]] \--- / tâche \---
 
-\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+\--- task \--- Le code que vous devez ajouter pour collecter la clé est très similaire au code pour collecter des pièces. La différence est que vous ajoutez la clé à l'inventaire ``{: class = "block3variables"}.
 
-![key](images/key.png)
+![clé](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+lorsque l'indicateur a cliqué sur
+attendez jusqu'à ce que <touching (player v)?>
+ajoute la [touche bleue] à [inventaire v]
+masque
+arrêtez [autres scripts dans l'image-objet v]
 ```
 
 \--- /task \---
 
-\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+\--- tâche \--- Ajoutez du code sur votre scène pour vider votre inventaire au début de la partie.
 
 ```blocks3
 supprimer l'élément (tout v) de la liste [inventaire v]
@@ -40,25 +40,25 @@ supprimer l'élément (tout v) de la liste [inventaire v]
 
 \--- /task \---
 
-\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
+\--- task \--- Testez votre jeu pour vérifier si vous pouvez collecter le sprite `clé` et l'ajouter à votre inventaire. \--- /task \---
 
-\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+\--- tâche \--- Ajoutez maintenant la porte verrouillée. Sélectionnez le sprite `door-blue` et cliquez sur `show`{: class = "blocklooks} dans le menu Scripts, puis positionnez le sprite sur l'interstice entre les deux murs.
 
 ![capture d'écran](images/world-door.png) \--- /task \---
 
-\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+\--- task \--- Ajoutez du code dans le sprite `door-blue` afin qu'il ne soit visible que dans la salle 3. \--- /task \---
 
-\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+\--- tâche \--- Ajoute du code au sprite `door-blue` sorte que, lorsque la clé est dans l'inventaire ``: (class = "block3variables"}), le lutin `cache`{: class = "block3looks "} pour permettre à votre sprite de `joueurs` de passer.
 
-![door](images/door.png)
+![porte](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+lorsque le drapeau est cliqué sur
+attendez que <[inventaire v] contienne [clé bleue]>
+stop [autres scripts dans sprite v]
+masquer
 ```
 
 \--- /task \---
 
-\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
+\--- tâche \--- Testez votre jeu et voyez si vous pouvez récupérer la clé bleue pour ouvrir la porte! \--- /task \---
