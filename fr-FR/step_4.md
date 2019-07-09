@@ -1,6 +1,6 @@
 ## Déplace-toi dans ton monde
 
-The `player` sprite should be able to walk through doors into other rooms.
+Le `joueur` sprite doit être capable de marcher à travers les portes dans d' autres chambres.
 
 Ton projet contient des arrières-plans pour des salles supplémentaires :
 
@@ -8,109 +8,109 @@ Ton projet contient des arrières-plans pour des salles supplémentaires :
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Créez une nouvelle variable 'for all sprites' appelée `room`{: class = "block3variables"} pour savoir dans quelle pièce se trouve le sprite `joueurs`.
 
 [[[generic-scratch3-add-variable]]]
 
 ![capture d'écran](images/world-room.png) \--- /task \---
 
-\--- task \--- When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Lorsque le sprite `joueur` touche la porte orange dans la première salle, le jeu devrait afficher la toile de fond suivante et le sprite `joueurs` devrait revenir à gauche de la scène. Ajouter ce code à l' intérieur du `joueur` Sprite `pour toujours`: boucle {class = "de block3control"}:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-    end
-end
+lorsque le drapeau a cliqué sur
+pour toujours
+    si la touche <(flèche haut v) est enfoncée > puis
+        point dans la direction (0)
+        déplacer (4) les étapes
+
+    si <touche (flèche gauche v) est enfoncée? > puis
+        point dans le sens (-90)
+        déplacer (4) les étapes
+
+        si <touche (flèche vers le bas v) est enfoncée? > puis
+        point dans la direction (-180)
+        déplacer (4) les étapes
+
+        si <touches [flèche droite v] sont enfoncées? > puis
+        point dans la direction (90)
+        déplacer (4) les étapes
+
+    si < couleurs touchées [#BABABA]? > puis
+    déplacement (-4) les étapes
+
++ si < couleurs touchées [# F2A24A] > puis
+    commutent la toile de fond sur (la toile de fond suivante v)
+    aller sur x: (-200) y: (0)
+    changement [salle v] par (1)
+    fin
+fin
 ```
 
 \--- /task \---
 
-\--- task \--- Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- chaque démarrage du jeu, la pièce, la position du personnage et le fond doivent être réinitialisés.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Ajoutez du code au **début** de votre code sprite `joueur` au-dessus de la boucle `pour toujours`{: class = "block3control"}, pour tout réinitialiser lorsque vous cliquez sur le drapeau:
 
-\--- hints \--- \--- hint \--- When the game starts:
+\--- astuces \--- \--- astuce \--- Quand le jeu commence:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Here are the extra blocks you need:
++ La valeur de `room`{: class = "block3variables"} doit être définie sur `1`{: class = "block3variables"}
++ La toile de fond ``{: class = "block3looks"} doit être définie sur `room1`{: class = "block3looks"}
++ La position du `joueur` sprite doit être réglé sur `x: -200 y: 0`{: class = "block3motion"} \--- / indice \--- \--- \--- indice Voici extra les blocs dont vous avez besoin:
 
-![player](images/player.png)
-
-```blocks3
-go to x: (-200) y: (0)
-
-set [room v] to (1)
-
-switch backdrop to (room1 v)
-```
-
-\--- /hint \--- \--- hint \--- Here's what your finished script should look like:
-
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
-end
+aller à x: (-200) y: (0)
+
+régler [pièce v] à (1)
+
+passer en fond d'écran (pièce1 v)
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / hint \--- \--- hint \--- Voici à quoi devrait ressembler votre script terminé:
+
+![joueur](images/player.png)
+
+```blocks3
+lorsque l' indicateur cliqué
++ set [chambre v] pour (1)
++ x aller à: (-200) y: (0)
++ commutateur toile de fond (room1 v)
+jamais
+    si <touche (flèche v) pressé ? > puis
+        point dans la direction (0)
+        déplacer (4) les étapes
+
+    si <touche (flèche gauche v) est enfoncée? > puis
+        point dans le sens (-90)
+        déplacer (4) les étapes
+
+        si <touche (flèche vers le bas v) est enfoncée? > puis
+        point dans la direction (-180)
+        déplacer (4) les étapes
+
+        si <touches [flèche droite v] sont enfoncées? > puis
+        point dans la direction (90)
+        déplacer (4) les étapes
+
+    si < couleurs touchées [#BABABA]? > puis
+    mouvement (-4) les étapes
+
+    si < touchent la couleur [# F2A24A] > puis
+    commutent la toile de fond sur (la toile de fond suivante v)
+    aller à x: (-200) y: (0)
+    changement [salle v ] par (1)
+fin
+fin
+```
+
+\--- / allusion \--- \--- / allusions \---
 
 \--- /task \---
 
-\--- task \--- Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Cliquez sur le drapeau, puis déplacez votre sprite `joueur` jusqu'à ce qu'il touche la porte orange. Le sprite passe-t-il à l'écran suivant? La variable `room`{: class = "block3variables"} passe-t-elle à `2`?
 
 ![capture d'écran](images/world-room-test.png) \--- /task \---
