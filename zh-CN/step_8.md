@@ -1,54 +1,54 @@
-## People
+## 人物
 
-Add other people to your world who your `player` sprite can interact with.
+将您的 `玩家` 精灵可以与之互动的其他人添加到您的世界。
 
-\--- task \--- Switch to the `person` sprite.
+\---任务\--- 切换到 `人` 精灵。
 
-![Person sprite](images/person.png) \--- /task \---
+![人精灵](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\---任务\--- 为 `人` 精灵添加一些代码，以便该人与 `人` 精灵对话。 此代码与您添加到 `符号` 精灵的代码非常相似：
 
-![person](images/person.png)
+![人](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
-end
+当标志点击
+转到x：（0）y：（ -  150）
+永远
+    如果 < 触及（玩家v）？ > 然后
+        说[你知道你可以通过橙色和黄色的门吗？]
+    其他
+        说[]
+    结束
+结束
 ```
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- task \--- 通过在代码的 `else`{：class =“block3control”}部分添加这两个块，允许你的 `个人` 精灵移动：
 
-![person](images/person.png)
+![人](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
-end
+当标志点击
+转到x：（0）y：（ -  150）
+永远
+    如果 < 触及（玩家v）？ > 然后
+        说[你知道你可以通过橙色和黄色的门吗？]
+    其他
+        说[]
++移动（1）步骤
++如果在边缘，反弹
+    结束
+结束
 
 ```
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+你的 `人` 精灵现在会移动，但会停止与 `玩家` 精灵交谈。
 
-![screenshot](images/world-person-test.png)
+![截屏](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- task \--- 将代码添加到新的 `人` 精灵中，以便精灵只出现在房间1中。 您需要的代码与使 `符号` 精灵仅在房间1中可见的代码完全相同。
 
-Make sure you test out your new code. \--- /task \---
+确保测试新代码。 \--- /task \---
