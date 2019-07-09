@@ -1,45 +1,45 @@
 ## Les personnes
 
-Add other people to your world who your `player` sprite can interact with.
+Ajoutez d'autres personnes à votre monde avec lesquelles votre `joueur avec` sprite peut interagir.
 
-\--- task \--- Switch to the `person` sprite.
+\--- tâche \--- Basculez vers le sprite `personne`.
 
 ![Personne sprite](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. Ce code est très similaire à celui que tu as ajouté à ton sprite `panneau`:
+\--- tâche \--- Ajoutez du code au sprite `personne` pour qu'il parle au sprite `joueurs` Ce code est très similaire à celui que tu as ajouté à ton sprite `panneau`:
 
-![person](images/person.png)
+![la personne](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
-end
+lorsque le drapeau a cliqué sur
+aller à x: (0) y: (-150)
+pour toujours
+    si < contacts (joueur v)? > puis
+        dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
+    sinon
+        dites []
+    fin
+fin
 ```
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- task \--- Permettez à votre sprite `personne` de se déplacer en ajoutant ces deux blocs à la section `{`class = "block3control"} de votre code:
 
-![person](images/person.png)
+![la personne](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
-end
+lorsque le drapeau a cliqué sur
+aller à x: (0) y: (-150)
+pour toujours
+    si < contacts (joueur v)? > puis
+        dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
+    sinon
+        dites []
++ déplacez (1) étapes
++ si sur le bord, rebondissez
+    bout
+
 
 ```
 
@@ -49,6 +49,6 @@ Ton sprite `personne` va maintenant bouger, et va s'arrêter pour parler au spri
 
 ![capture d'écran](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- tâche \--- Ajoutez le code à votre nouveau sprite `personne` afin que ce dernier n'apparaisse que dans la salle 1. Le code dont vous avez besoin est exactement le même que le code qui rend le `signe` sprite visibles dans la chambre 1.
 
 Assure-toi de tester ton nouveau code. \--- /task \---
