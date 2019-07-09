@@ -1,3 +1,3 @@
-## Challenge: move back to the previous room
+## 挑战：回到上一个房间
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+当你接触黄色的门时，你可以让你的 `玩家` 精灵移回到前一个房间吗？ 您需要的代码与您已添加的代码非常相似，以使精灵移动到下一个房间。
