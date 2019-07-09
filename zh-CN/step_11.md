@@ -1,64 +1,64 @@
-## Doors and keys
+## 门和钥匙
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+现在，您将添加代码，以便游戏世界中的某些门被锁定，并且玩家必须找到钥匙才能打开它们并进入下一个房间。
 
-\--- task \--- Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage. \--- /task \---
+\--- task \--- 切换到 `键` 精灵。 在Scripts菜单中单击 `show`{：class =“blocklooks”}，以便精灵出现在舞台上。 \--- /task \---
 
-\--- task \--- Edit the `key` sprite's costume so that it is blue. \--- /task \---
+\---任务\--- 编辑 `键` 精灵的服装，使其为蓝色。 \--- /task \---
 
-\--- task \--- Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+\---任务\--- 将舞台背景切换到3号房间，并将 `键` 精灵放置在难以触及的地方！
 
-![screenshot](images/world-key.png)
+![截图](images/world-key.png)
 
 \--- /task \---
 
-\--- task \--- Add code to the `key` sprite to make it only visible in room 3. \--- /task \---
+\--- task \--- 将代码添加到 `键` 精灵中，使其仅在3号房间可见。 \--- /task \---
 
-\--- task \--- Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+\--- task \--- 创建一个名为 `inventory`{：class =“block3variables”}的新列表来存储你的 `玩家` 精灵收集的物品。
 
-[[[generic-scratch3-make-list]]] \--- /task \---
+[[[generic-scratch3-make-list]]] \--- /任务\---
 
-\--- task \--- The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+\--- task \--- 你需要添加的用于收集密钥的代码与收集硬币的代码非常相似。 不同之处在于您将密钥添加到 `清单`{：class =“block3variables”}。
 
-![key](images/key.png)
+![键](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+当标记点击
+等待 <touching (player v)?>
+添加[蓝色键]到[库存v]
+隐藏
+停止[其他脚本在精灵v]
 ```
 
 \--- /task \---
 
-\--- task \--- Add code to your Stage to empty your inventory at the start of the game.
+\--- task \--- 在游戏开始时向舞台添加代码以清空库存。
 
 ```blocks3
-delete (all v) of [inventory v]
+删除[所有v]的[库存v]
 ```
 
 \--- /task \---
 
-\--- task \--- Test out your game to check whether you can collect the `key` sprite and add it to your inventory. \--- /task \---
+\---任务\--- 测试你的游戏，检查你是否可以收集 `键` 精灵并将其添加到你的库存。 \--- /task \---
 
-\--- task \--- Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+\---任务\--- 现在添加锁着的门。 选择 `door-blue` sprite并在Scripts菜单中单击 `show`{：class =“blocklooks}，然后将精灵定位在两个墙之间的间隙上。
 
-![screenshot](images/world-door.png) \--- /task \---
+![截屏](images/world-door.png) \--- /task \---
 
-\--- task \--- Add code to the `door-blue` sprite so that it is only visible in room 3. \--- /task \---
+\--- task \--- 将代码添加到 `门 - 蓝` 精灵中，使其仅在3号房间可见。 \--- /task \---
 
-\--- task \--- Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+\--- task \--- 将代码添加到 `门蓝` 精灵中，这样，当密钥在 `库存`{：class =“block3variables”}中时，精灵 `隐藏`{：class =“block3looks “}允许你的 `玩家` 精灵通过。
 
-![door](images/door.png)
+![门](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+当标志点击
+等待 <[库存v]包含[蓝键]？>
+停止[精灵v中的其他脚本]
+隐藏
 ```
 
 \--- /task \---
 
-\--- task \--- Test out your game and see if you can collect the blue key to open the door! \--- /task \---
+\---任务\--- 测试你的游戏，看看你是否可以收集蓝键来开门！ \--- /task \---
