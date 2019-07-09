@@ -1,42 +1,42 @@
-## Solid walls
+## 坚固的墙壁
 
-\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
+\---任务\--- 再次测试你的 `玩家` 精灵。 你看到它可以穿过浅灰色的墙壁。
 
-![screenshot](images/world-walls.png) \--- /task \---
+![截屏](images/world-walls.png) \--- /task \---
 
-\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+\---任务\--- 要解决这个问题，你需要让 `玩家` 精灵移动，如果它接触到浅灰色的墙壁。 这里是您需要在方向块下面的 `永远`{：class =“block3control”}块中添加的代码：
 
-![player](images/player.png)
+![播放机](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-+   if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-end
+当标志点击
+永久
+    如果按下 <键（向上箭头v）？ > 然后
+        点方向（0）
+        移动（4）步骤
+    结束
+    如果按下 <键（左箭头v）？ > 然后
+        点方向（-90）
+        移动（4）步骤
+    结束
+        如果按下 <键（向下箭头v）？ > 然后
+        点方向（-180）
+        移动（4）步骤
+    结束
+        如果按下 <键[右箭头v]？ > 然后
+        点方向（90）
+        移动（4）步骤
+    结束
++如果 < 接触颜色[#BABABA]？ > 然后
+    移动（-4）步骤
+    结束
+结束
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+尝试让 `玩家` 精灵穿过墙壁。 如果您的新代码有效，则无法实现。
 
-![screenshot](images/world-walls-test.png) \--- /task \---
+![截屏](images/world-walls-test.png) \--- /task \---
