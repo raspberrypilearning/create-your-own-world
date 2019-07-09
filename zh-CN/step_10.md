@@ -1,53 +1,53 @@
-## Collect coins
+## 收集硬币
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+你的 `玩家` 精灵应该能够收集硬币在世界各地移动。
 
-\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
+\--- task \--- 为你的项目添加一个新的变量valled `coins`{：class =“block3variables”}。 \--- /task \---
 
-\--- task \--- Select the `coin` sprite and click **show**.
+\---任务\--- 选择 `硬币` 精灵，然后单击 **显示**。
 
-![screenshot](images/coin.png) \--- /task \---
+![截屏](images/coin.png) \--- /task \---
 
-\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![screenshot](images/coin.png)
+\---任务\--- 将代码添加到 `硬币` 精灵中，使其仅出现在房间1中。 ![截屏](images/coin.png)
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[1]> then
-show
-else
-hide
+当标志点击
+永远
+如果 <（房间::变量）=[1]> 然后
+显示
+其他
+隐藏
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+将代码添加到 `硬币` 精灵中，以便精灵 `隐藏`{：class =“block3looks”}并将 `1`{：class =“block3variables”}添加到 `硬币`{：class =“block3variables”}变量一旦 `玩家` 精灵触及 `硬币` 精灵来“捡起来”。
 
-![coin](images/coin.png)
+![硬币](images/coin.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
-hide
-stop [other scripts in sprite v]
+当标志点击
+等待直到 <touching (player v)?>
+更改[硬币v]由（1）
+隐藏
+停止[其他脚本在精灵v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+代码 `停止精灵`{：class =“block3control”}中的其他脚本是必要的，以便 `硬币` 精灵在收集后停止在房间1中显示。
 
 \--- /task \---
 
-\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+\--- task \--- 现在在舞台上添加代码，在游戏开始时将 `硬币`{：class =“block3variables”}变量设置为 `0`{：class =“block3variables”}。
 
-![stage](images/stage.png)
+![阶段](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [coins v] to [0]
+当标记点击
+将[硬币v]设置为 [0]
 ```
 
 \--- /task \---
 
-\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
+\---任务\--- 测试你的游戏。 收集硬币应该将你的 `硬币` 分改为 `1`{：class =“block3variables”}。 \--- /task \---
