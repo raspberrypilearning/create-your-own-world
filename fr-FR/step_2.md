@@ -1,126 +1,126 @@
 ## Déplace le sprite du joueur
 
-Start by creating a `player` sprite that can move around your world.
+Commencez par créer un `joueur` sprite qui peut se déplacer dans votre monde.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Ouvrez le projet de démarrage Scratch «Créez votre propre monde».
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**En ligne**: ouvrez le projet de démarrage en ligne à [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: téléchargez le projet de démarrage [rpf.io/p/fr/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){: target = "_ blank"}, puis ouvrez-le à l'aide de l'éditeur hors connexion. Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![capture d'écran](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+En appuyant sur les touches fléchées, le sprite</code> doit être déplacé à `joueur. Lorsque vous appuyez sur la flèche vers le haut, le sprite <code>joueur` doit remonter sur la scène en réponse.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Ajoute ce code au lutin `jouer` :
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-end
+lorsque le drapeau a cliqué sur
+pour toujours
+    si la touche <(flèche haut v) est enfoncée > puis
+        point en direction (0)
+        mouvement (4) pas
+    fin
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Cliquez sur le drapeau, puis maintenez la flèche vers le haut. Est-ce que le `joueur` sprite monte?
 
-![screenshot](images/world-up.png)
+![capture d'écran](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Pour déplacer le sprite `joueur` vers la gauche, vous devez ajouter un autre bloc `si`{: class = "block3control"} avec le code similaire:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-end
+lorsque le drapeau a cliqué sur
+pour toujours
+    si la touche <(flèche haut v) est enfoncée > puis
+        point en direction (0)
+        déplacer (4) pas
+    fin
++ si <touche (flèche gauche v) appuyée? > puis
+        point en direction (-90)
+        mouvement (4) pas
+    fin
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Ajouter plus de code à votre `joueur` sprite il peut se déplacer vers le bas et à droite aussi. Utilise le code que tu as déjà pour t'aider.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Pour vous déplacer vers le haut, vous pointez le sprite `joueur` dans la direction `0` degrés. Que devez-vous faire pour déplacer le sprite vers le bas?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Pour vous déplacer à gauche, pointez l’image-objet dans la direction `90` degrés. Que devez-vous faire pour déplacer le sprite correctement?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Vous devez changer ces deux blocs:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
 
-point in direction ()
+point dans la direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Dupliquez le code qui fait que le sprite `joueur` progresse vers le haut et modifiez ces deux blocs pour faire descendre le sprite Dupliquez à nouveau le code et modifiez-le pour que le sprite se déplace vers la droite.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\---/hint\--- \---hint\--- Voici a quoi devrait ressembler ton code :
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+lorsque le drapeau a cliqué sur
+pour toujours
+    si la touche <(flèche haut v) est enfoncée > puis
+        point dans la direction (0)
+        déplacer (4) les étapes
 
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-end
+    si <touche (flèche gauche v) est enfoncée? > puis
+        point en direction (-90)
+        déplacer (4) étapes
+
+
++ si <touche (flèche vers le bas v) appuyée? > puis
+        point en direction (180)
+        déplacer (4) pas
+    fin
++ si <touche [flèche droite v] enfoncée? > puis
+        point en direction (90)
+        déplacer (4) pas
+    fin
+fin
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / indice \--- \--- / conseils \---
 
 \--- /task \---
