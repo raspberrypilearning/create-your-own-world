@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
 ## Introduction
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+Dans ce projet, vous apprendrez à créer votre propre monde de jeu d’aventure avec plusieurs niveaux à explorer.
 
 ### Ta création
 
@@ -23,7 +23,7 @@ Clique sur le drapeau vert pour démarrer. Utilise les flèches pour déplacer t
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Vous utiliserez les touches fléchées pour déplacer votre personnage dans le monde. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -39,9 +39,9 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 - Scratch 3 ( [en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff)")
 
-### Downloads
+### Téléchargements
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Vous pouvez trouver tout ce dont vous avez besoin pour mener à bien ce projet à l'adresse [rpf.io/p/fr/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
@@ -49,19 +49,19 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Ce que tu vas apprendre
 
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+- Utiliser la sélection conditionnelle pour réagir aux pressions sur les touches
+- Utiliser des variables pour stocker l'état d'un jeu
+- Utiliser la sélection conditionnelle basée sur la valeur d'une variable
+- Utiliser des listes pour stocker des données
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Informations supplémentaires pour les éducateurs
 
 Si tu as besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {: target = "_ blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Vous pouvez trouver le [projet terminé ici](https://rpf.io/p/en/create-your-own-world-get){: target = "_ blank"}.
 
 \--- /collapse \---
