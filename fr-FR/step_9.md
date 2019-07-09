@@ -1,38 +1,38 @@
 ## Défi : ajoute un ennemi
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Si vous le souhaitez, vous pouvez également ajouter des ennemis en patrouille à votre partie. Si le sprite `joueur` touche un ennemi, la partie se termine.
 
-+ Your game already contains an `enemy` sprite. Ajoute du code au sprite `ennemi` pour qu'il n'apparaisse que dans la salle 2.
++ Votre jeu contient déjà un sprite `ennemi`. Ajoute du code au sprite `ennemi` pour qu'il n'apparaisse que dans la salle 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. C'est plus facile de faire cela dans des blocs de code séparés. Voici à quoi ton code du sprite `ennemi` pourrait ressembler :
++ Ajoutez du code pour déplacer le sprite `ennemi` et pour terminer le jeu si le sprite `ennemi` touche le sprite `joueur`. C'est plus facile de faire cela dans des blocs de code séparés. Voici à quoi ton code du sprite `ennemi` pourrait ressembler :
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
+lorsque l' indicateur cliqué
+pour toujours
+si <(chambre :: variables) =[2]> puis
+montrent
+autre
 hide
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+lorsque l' indicateur cliqué
+pour toujours
+si <touching (player v)?> puis
+arrêt [all v]
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
-end
-repeat (130)
-change x by (1)
+lorsque l' indicateur cliqués
+aller à x: ( 170) y: (0)
+pour toujours
+répéter (130)
+changer x par (-1)
+fin
+répéter (130)
+changer x par (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Testez votre nouveau code pour vous assurer que: 
+    + Le `ennemi` sprite visible uniquement dans la salle 2
+    + Le `ennemi` sprite patrouille la salle
+    + Le jeu se termine si le sprite `joueur` touche le sprite `ennemi`
 
 Peux-tu créer un autre sprite `ennemi` dans la salle 3 qui patrouille de haut en bas à travers la fente dans le mur ?
 
