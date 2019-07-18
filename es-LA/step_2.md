@@ -10,15 +10,15 @@ Open the 'Create your own world' Scratch starter project.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![captura de pantalla](images/world-starter.png)
 
-\--- /task \---
+\--- / tarea \---
 
 Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
 
-\--- task \---
+\--- tarea \---
 
 Add this code to the `player` sprite:
 
@@ -34,17 +34,17 @@ forever
 end
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![screenshot](images/world-up.png)
+![captura de pantalla](images/world-up.png)
 
 \--- /task \---
 
-\--- task \---
+\--- tarea \---
 
 To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
 
@@ -64,9 +64,9 @@ forever
 end
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
@@ -123,4 +123,4 @@ end
 
 \--- /hint \--- \--- /hints \---
 
-\--- /task \---
+\--- / tarea \---
