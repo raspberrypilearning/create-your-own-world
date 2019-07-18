@@ -10,6 +10,6 @@ Have a go at creating another game by working through the [CATS!](https://projec
 
 \--- /no-print \---
 
-\--- print-only \--- ![Cats finished](images/cats-finished.png) \--- /print-only \---
+\--- solo imprimir \--- ![Cats finished](images/cats-finished.png) \--- solo imprimir \---
 
 If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
