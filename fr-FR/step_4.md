@@ -1,6 +1,6 @@
 ## Déplace-toi dans ton monde
 
-Le `joueur` sprite doit être capable de marcher à travers les portes dans d' autres chambres.
+Le sprite `joueur` doit être capable de marcher à travers les portes dans d'autres salles.
 
 Ton projet contient des arrières-plans pour des salles supplémentaires :
 
@@ -8,7 +8,7 @@ Ton projet contient des arrières-plans pour des salles supplémentaires :
 
 \--- task \---
 
-Créez une nouvelle variable 'for all sprites' appelée `room`{: class = "block3variables"} pour savoir dans quelle pièce se trouve le sprite `joueurs`.
+Crée une nouvelle variable 'pour toute les sprites' appelées `salle`{: class = "block3variables"} pour savoir dans quelle pièce se trouve le sprite `joueur`.
 
 [[[generic-scratch3-add-variable]]]
 
