@@ -1,14 +1,14 @@
 ## Panneaux
 
-Ajoutez maintenant des signes à votre monde pour guider les joueurs dans leur voyage.
+Ajoute maintenant des signes à ton monde pour guider les joueurs dans leur voyage.
 
 Ton project inclut un `panneau de bienvenue` sprite :
 
 ![capture d'écran](images/world-sign.png)
 
-\--- \--- tâche Le `signe de bienvenue` sprite ne devrait être visible dans la chambre 1, il faut donc ajouter un code à l'image - objet pour vous assurer que cela se produit:
+\--- task \--- Le sprite `panneau de bienvenue` ne devrait être visible que dans la salle 1, alors ajoute un code au sprite pour s'assurer que cela se passe :
 
-\--- astuces \--- \--- astuces \--- `Lorsque le drapeau est cliqué`{: class = "block3events"}, dans une boucle `toujours`{: class = "block3control"}, cochez `si`{: class = "block3control"} la `chambre est 1`{: class = "block3variables"} et dans ce cas, `affiche`{: class = "block3looks"} `signe de bienvenue` sprite, `sinon`{: class = "block3control"} `masquer`{: class = "block3looks"} le sprite. \--- / allusion \--- \--- allusion \--- Voici les blocs dont vous avez besoin:
+\--- hints \--- \--- hint \--- `Lorsque le drapeau est cliqué`{: class = "block3events"}, dans une boucle `répéter indéfiniment`{: class = "block3control"}, vérifie `si`{: class = "block3control"} la `salle est 1`{: class = "block3variables"} et dans ce cas, `affiche`{: class = "block3looks"} le sprite`panneau de bienvenue`, `sinon`{: class = "block3control"} `masquer`{: class = "block3looks"} le sprite. \--- /hint \--- \--- hint \--- Voici les blocs que tu as besoin :
 
 ![signe](images/sign.png)
 
@@ -23,7 +23,7 @@ masquer
 
 montrer
 
-pour toujours
+répéter indéfiniment
 fin
 
 lorsque le drapeau est cliqué
@@ -35,38 +35,38 @@ lorsque le drapeau est cliqué
 ![signe](images/sign.png)
 
 ```blocks3
-lorsque le drapeau est cliqué sur
-pour toujours
-    si < (room :: variables) = [1] > puis
-        affichent
+lorsque le drapeau est cliqué 
+répéter indéfiniment
+    si < (salle :: variables) = [1] > alors
+        afficher
     sinon
         masquer
     fin
 fin
 ```
 
-\--- / allusion \--- \--- / allusions \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
-\--- tâche \--- Testez le code de votre `panneau de bienvenue` en passant d'une pièce à une autre. Le panneau ne devrait être visible que dans la salle 1.
+\--- task \--- Teste le code de ton sprite `panneau de bienvenue` en passant d'une salle à une autre. Le panneau ne devrait être visible que dans la salle 1.
 
 ![capture d'écran](images/world-sign-test.png) \--- /task \---
 
-\--- tâche \--- Un signe n'est pas très bon s'il ne dit rien! Ajoute du code supplémentaire pour afficher un message si le sprite `panneau de bienvenue` touche le sprite `du joueur`:
+\--- task \--- Un panneau n'est pas très bon s'il ne dit rien! Ajoute du code supplémentaire pour afficher un message si le sprite `panneau de bienvenue` touche le sprite `du joueur`:
 
 ![signe](images/sign.png)
 
 ```blocks3
-lorsque le drapeau est cliqué sur
-pour toujours
-si < (salle :: variables) = [1] > puis
-indiquent
+lorsque le drapeau est cliqué 
+répéter indéfiniment
+si < (salle :: variables) = [1] > alors
+montrer
 sinon
 masquer
 fin
-+ si < contacts (joueur v)? > puis
-dire [Bienvenue! Pouvez-vous aller au trésor?]
++ si < touchant (joueur v)? > alors
+dire [Bienvenue!] Pouvez-vous aller au trésor?]
 sinon
 dire []
 fin
