@@ -6,7 +6,7 @@ Ceci est la version **Scratch 3** du projet. Il existe également une version [S
 
 ## Introduction
 
-Dans ce projet, vous apprendrez à créer votre propre monde de jeu d’aventure avec plusieurs niveaux à explorer.
+Dans ce projet, tu apprendras à créer ton propre monde de jeu d’aventure avec plusieurs niveaux à explorer.
 
 ### Ta création
 
@@ -23,7 +23,7 @@ Clique sur le drapeau vert pour démarrer. Utilise les flèches pour déplacer t
 
 \--- print-only \---
 
-Vous utiliserez les touches fléchées pour déplacer votre personnage dans le monde. ![showcase.png](images/showcase.png)
+Tu utiliseras les touches fléchées pour déplacer tone personnage dans le monde. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ Vous utiliserez les touches fléchées pour déplacer votre personnage dans le m
 
 ### Téléchargements
 
-Vous pouvez trouver tout ce dont vous avez besoin pour mener à bien ce projet à l'adresse [rpf.io/p/fr/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Tu peux trouver tout ce dont tu as besoin pour mener à bien ce projet à l'adresse [rpf.io/p/fr/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ Vous pouvez trouver tout ce dont vous avez besoin pour mener à bien ce projet �
 
 Si tu as besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {: target = "_ blank"}.
 
-Vous pouvez trouver le [projet terminé ici](https://rpf.io/p/en/create-your-own-world-get){: target = "_ blank"}.
+Tu peux trouver le [projet terminé ici](https://rpf.io/p/en/create-your-own-world-get){: target = "_ blank"}.
 
 \--- /collapse \---
