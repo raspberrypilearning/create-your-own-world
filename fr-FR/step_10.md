@@ -2,19 +2,19 @@
 
 Ton sprite `joueur` devrait pouvoir collecter des pièces lorsqu'il se déplace dans le monde.
 
-\--- task \--- Ajouter une nouvelle variable alimentée `pièces de monnaie`{: class = "block3variables"} à votre projet. \--- /task \---
+\--- task \--- Ajouter une nouvelle variable alimentée `pièces`{: class = "block3variables"} à votre projet. \--- /task \---
 
-\--- task \--- Sélectionne le sprite `pièce de monnaie` et cliquez sur **afficher**.
+\--- task \--- Sélectionne le sprite `pièce` et clique sur **afficher**.
 
 ![capture d'écran](images/coin.png) \--- /task \---
 
 \--- tâche \--- Ajoutez le code à votre `pièce` sprite afin qu'il n'apparaisse que dans la salle 1. ![capture d'écran](images/coin.png)
 
 ```blocks3
-lorsque le drapeau est cliqué sur
-pour toujours
-si <(room :: variables) =[1]> puis
-affichent
+lorsque le drapeau est cliqué
+répéter indéfiniment
+si <(salle :: variables) =[1]> alors
+afficher
 sinon
 masquer
 ```
@@ -23,31 +23,31 @@ masquer
 
 \--- task \---
 
-Ajoutez du code à votre image-objet `pièce` façon à ce que l'image-objet `masque`{: class = "block3looks"} et `1`{: class = "block3variables"} est ajouté aux `pièces`{: class = "block3variables"} variable une fois que le sprite `joueurs` touche le sprite `pièces` pour le «ramasser».
+Ajoute du code à ton sprite `pièce` de façon à ce que le sprite `masque`{: class = "block3looks"} et `1`{: class = "block3variables"} est ajouté à la variable `pièces`{: class = "block3variables"} une fois que le sprite `joueur` touche le sprite `pièce` pour le «ramasser».
 
 ![pièce de monnaie](images/coin.png)
 
 ```blocks3
-quand flag a cliqué sur
-attendez <touching (player v)?>
+quand le drapeau est cliqué 
+attendre jusque <touching (player v)?>
 changez [pièces v] par (1)
 masquer
 arrêtez [autres scripts dans le sprite v]
 ```
 
-Le code `stop autres scripts de l’image-objet`{: class = "block3control"} est nécessaire pour que l’image-objet `coin` ne soit plus affichée dans la salle 1 une fois qu’elle a été collectée.
+Le code `stop d'autres scripts du sprite`{: class = "block3control"} est nécessaire pour que le sprite `pièce` ne soit plus affiché dans la salle 1 une fois qu’elle a été collectée.
 
 \--- /task \---
 
-\--- tâche \--- Ajoutez maintenant du code sur la scène pour définir votre variable `pièces`{: class = "block3variables"} à `0`{: class = "block3variables"} au début du jeu.
+\--- task \--- Ajoute maintenant du code sur la scène pour définir ta variable `pièces`{: class = "block3variables"} à `0`{: class = "block3variables"} au début du jeu.
 
-![étape](images/stage.png)
+![scène](images/stage.png)
 
 ```blocks3
-quand le drapeau a cliqué
-set [pièces v] à [0]
+quand le drapeau est cliqué
+définir [pièces v] à [0]
 ```
 
 \--- /task \---
 
-\--- tâche \--- Testez votre jeu. La collecte d'une pièce de monnaie devrait changer vos `pièces` score en `1`{: class = "block3variables"}. \--- /task \---
+\--- task \--- Teste ton jeu. La collecte d'une pièce devrait changer ton `pièces` score en `1`{: class = "block3variables"}. \--- /task \---
