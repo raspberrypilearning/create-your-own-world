@@ -1,34 +1,34 @@
 ## Murs solides
 
-\--- tâche \--- Testez à nouveau votre sprite `joueur`. Voyez-vous qu'il peut traverser les murs gris clair?
+\--- task \--- Teste à nouveau ton sprite `joueur`. Vois-tu qu'il peut traverser les murs gris clair.
 
 ![capture d'écran](images/world-walls.png) \--- /task \---
 
-\--- tâche \--- Pour résoudre ce problème, vous devez faire reculer le sprite `joueur` s'il touche un mur gris clair. Voici le code que vous devez ajouter dans votre bloc `forever`{: class = "block3control"} sous les blocs de direction:
+\--- task \--- Pour résoudre ce problème, vous devez faire reculer le sprite `joueur` s'il touche un mur gris clair. Voici le code que tu dois ajouter dans ton bloc `répéter indéfiniment`{: class = "block3control"} sous les blocs de direction:
 
 ![joueur](images/player.png)
 
 ```blocks3
-lorsque le drapeau a cliqué sur
-pour toujours
-    si la touche <(flèche haut v) est enfoncée > puis
-        point dans la direction (0)
-        déplacer (4) les étapes
-
-    si <touche (flèche gauche v) est enfoncée? > puis
-        point dans le sens (-90)
-        déplacer (4) les étapes
-
-        si <touche (flèche vers le bas v) est enfoncée? > puis
-        point dans la direction (-180)
-        déplacer (4) les étapes
-
-        si <touches [flèche droite v] sont enfoncées? > puis
-        point dans la direction (90)
-        déplacer (4) les étapes
-
-+ si < couleurs touchantes > puis
-    mouvement (-4) pas
+lorsque le drapeau est cliqué
+répéter pour toujours
+    si la touche <(flèche haut v) est enfoncée? > alors
+        s'orienter dans la direction (0)
+        déplacer de (4) pas
+    fin
+    si <la touche (flèche de gauche v) est appuyée? > alors
+        s'orienter dans la direction (-90)
+        déplacer de (4) pas
+    fin
+        si <la touche (flèche du bas v) est appuyée? > alors
+        s'orienter dans la direction (-180)
+        déplacer de (4) pas
+    fin
+        si <la touche [flèche de droite v] est appuyée? > alors
+        s'orienter dans la direction (90)
+        déplacer de (4) pas
+    fin
++   si < la couleur touchée [#BABABA]? > alors
+    déplacer de (-4) pas
     fin
 fin
 ```
@@ -37,6 +37,6 @@ fin
 
 \--- task \---
 
-Essayez de faire en sorte que le `joueur` sprite passe à travers un mur. Si votre nouveau code fonctionne, cela ne devrait pas être possible.
+Essaye de faire en sorte que le sprite `joueur` passe à travers un mur. Si ton nouveau code fonctionne, cela ne devrait pas être possible.
 
 ![capture d'écran](images/world-walls-test.png) \--- /task \---
