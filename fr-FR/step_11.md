@@ -1,22 +1,22 @@
 ## Les portes et les clés
 
-Vous allez maintenant ajouter du code pour que certaines des portes de votre monde de jeu soient verrouillées, et le joueur doit trouver la clé pour les ouvrir et accéder à la pièce suivante.
+Tu vas maintenant ajouter du code pour que certaines des portes de ton monde de jeu soient verrouillées, et le joueur doit trouver la clé pour les ouvrir et accéder à la pièce suivante.
 
-\--- task \--- Basculez sur le sprite `touche`. Cliquez sur `show`{: class = "blocklooks"} dans le menu Scripts pour que le sprite apparaisse sur la scène. \--- /task \---
+\--- task \--- Bascule sur le sprite `clé`. Clique sur `montrer`{: class = "blocklooks"} dans le menu Scripts pour que le sprite apparaisse sur la scène. \--- /task \---
 
-\--- tâche \--- Modifier le `clé` costume de lutin de sorte qu'il est bleu. \--- /task \---
+\--- task \--- Modifie le costume du sprite `clé` de sorte qu'il soit bleu. \--- /task \---
 
-\--- tâche \--- Basculez votre décor de scène sur la salle 3 et placez le sprite `clé` endroit difficile à atteindre!
+\--- task \--- Bascule ton décor de scène sur la salle 3 et placez le sprite `clé` à un endroit difficile à atteindre!
 
 ![capture d'écran](images/world-key.png)
 
 \--- /task \---
 
-\--- tâche \--- Ajoutez du code à l'image-clé `clé` pour le rendre visible uniquement dans la salle 3. \--- /task \---
+\--- task \--- Ajoute du code au sprite `clé` pour le rendre visible uniquement dans la salle 3. \--- /task \---
 
-\--- tâche \--- Créez une nouvelle liste appelée `inventaire`{: class = "block3variables"} pour stocker les objets que votre sprite `joueurs` collectionne.
+\--- task \--- Crée une nouvelle liste appelée `inventaire`{: class = "block3variables"} pour stocker les objets que ton sprite `joueur` récolte.
 
-[[[generic-scratch3-make-list]]] \--- / tâche \---
+[[[generic-scratch3-make-list]]] \--- /task \---
 
 \--- task \--- Le code que vous devez ajouter pour collecter la clé est très similaire au code pour collecter des pièces. La différence est que vous ajoutez la clé à l'inventaire ``{: class = "block3variables"}.
 
