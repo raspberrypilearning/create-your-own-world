@@ -1,10 +1,10 @@
 ## Collecter des pièces
 
-Votre `joueur` sprite devrait pouvoir collecter des pièces lorsqu'il se déplace dans le monde.
+Ton sprite `joueur` devrait pouvoir collecter des pièces lorsqu'il se déplace dans le monde.
 
-\--- tâche \--- Ajouter une nouvelle variable alimentée `pièces de monnaie`{: class = "block3variables"} à votre projet. \--- /task \---
+\--- task \--- Ajouter une nouvelle variable alimentée `pièces de monnaie`{: class = "block3variables"} à votre projet. \--- /task \---
 
-\--- tâche \--- Sélectionnez le sprite `coin` et cliquez sur **afficher**.
+\--- task \--- Sélectionne le sprite `pièce de monnaie` et cliquez sur **afficher**.
 
 ![capture d'écran](images/coin.png) \--- /task \---
 
