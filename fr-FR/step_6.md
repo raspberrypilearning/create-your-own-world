@@ -10,7 +10,7 @@ Ton project inclut un `panneau de bienvenue` sprite :
 
 \--- hints \--- \--- hint \--- `Lorsque le drapeau est cliqué`{: class = "block3events"}, dans une boucle `répéter indéfiniment`{: class = "block3control"}, vérifie `si`{: class = "block3control"} la `salle est 1`{: class = "block3variables"} et dans ce cas, `affiche`{: class = "block3looks"} le sprite`panneau de bienvenue`, `sinon`{: class = "block3control"} `masquer`{: class = "block3looks"} le sprite. \--- /hint \--- \--- hint \--- Voici les blocs que tu as besoin :
 
-![signe](images/sign.png)
+![panneau](images/sign.png)
 
 ```blocks3
 <br />si &lt; &gt; alors
@@ -32,7 +32,7 @@ lorsque le drapeau est cliqué
 
 \--- / hint \--- \--- hint \--- Voici le code complet:
 
-![signe](images/sign.png)
+![panneau](images/sign.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
@@ -55,7 +55,7 @@ fin
 
 \--- task \--- Un panneau n'est pas très bon s'il ne dit rien! Ajoute du code supplémentaire pour afficher un message si le sprite `panneau de bienvenue` touche le sprite `du joueur`:
 
-![signe](images/sign.png)
+![panneau](images/sign.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
@@ -75,6 +75,6 @@ fin
 
 \--- /task \---
 
-\--- tâche \--- Testez à nouveau votre `signe de bienvenue` sprite. Vous devriez maintenant voir un message lorsque le sprite `joueur` touche le signe `bienvenue` sprite.
+\--- task \--- Teste à nouveau ton sprite `panneau de bienvenue`. Tu dois maintenant voir un message lorsque le sprite `joueur` touche le sprite `panneau de bienvenue`.
 
 ![capture d'écran](images/world-sign-test2.png) \--- /task \---
