@@ -1,6 +1,6 @@
 ## Quelle est l'étape suivante ?
 
-Essayez de créer un autre jeu en travaillant sur [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) projet.
+Essaye de créer un autre jeu en travaillant sur le projet [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
 \--- no-print \--- Cliquez et faites glisser avec la souris pour tracer une ligne avec le crayon. Votre but est d'empêcher les chats de tomber dans des trous en créant un chemin sécurisé vers la sortie.
 
