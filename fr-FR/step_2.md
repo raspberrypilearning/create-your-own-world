@@ -101,26 +101,26 @@ Dupliquez le code qui fait que le sprite `joueur` progresse vers le haut et modi
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
-    si la touche <(flèche haut v) est enfoncée? > puis
-        point dans la direction (0)
-        déplacer (4) les étapes
+    si la touche <(flèche haut v) est enfoncée? > alors
+        s'orienter dans la direction (0)
+        déplacer de (4) pas
 
-    si <touche (flèche gauche v) est enfoncée? > puis
-        point en direction (-90)
-        déplacer (4) étapes
+    si <touche (flèche gauche v) est enfoncée? > alors
+        s'orienter en direction de (-90)
+        déplacer de (4) pas
 
 
-+ si <touche (flèche vers le bas v) appuyée? > puis
-        point en direction (180)
-        déplacer (4) pas
++ si <touche (flèche vers le bas v) est appuyée? > alors
+        s'orienter en direction de (180)
+        déplacer de (4) pas
     fin
-+ si <touche [flèche droite v] enfoncée? > puis
-        point en direction (90)
-        déplacer (4) pas
++ si <touche [flèche droite v] enfoncée? > alors
+        s'orienter en direction de (90)
+        déplacer de (4) pas
     fin
 fin
 ```
 
-\--- / indice \--- \--- / conseils \---
+\--- /hint \--- \--- /hints \---
 
 \--- /task \---
