@@ -1,45 +1,45 @@
 ## Les personnes
 
-Ajoutez d'autres personnes à votre monde avec lesquelles votre `joueur avec` sprite peut interagir.
+Ajoute d'autres personnes à ton monde avec lesquelles ton sprite `joueur` peut interagir.
 
-\--- tâche \--- Basculez vers le sprite `personne`.
+\--- task \--- Basculez vers le sprite `personne`.
 
 ![Personne sprite](images/person.png) \--- /task \---
 
-\--- tâche \--- Ajoutez du code au sprite `personne` pour qu'il parle au sprite `joueurs` Ce code est très similaire à celui que tu as ajouté à ton sprite `panneau`:
+\--- task \--- Ajoute du code au sprite `personne` pour que la personne parle au sprite `joueur`. Ce code est très similaire à celui que tu as ajouté à ton sprite `panneau`:
 
 ![la personne](images/person.png)
 
 ```blocks3
-lorsque le drapeau a cliqué sur
+lorsque le drapeau est cliqué
 aller à x: (0) y: (-150)
-pour toujours
-    si < contacts (joueur v)? > puis
+répéter indéfiniment
+    si < touché (joueur v)? > alors
         dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
     sinon
-        dites []
+        dire []
     fin
 fin
 ```
 
 \--- /task \---
 
-\--- task \--- Permettez à votre sprite `personne` de se déplacer en ajoutant ces deux blocs à la section `{`class = "block3control"} de votre code:
+\--- task \--- Permet à ton sprite `personne` de se déplacer en ajoutant ces deux blocs à la section `sinon`{:class="block3control"} de ton code:
 
 ![la personne](images/person.png)
 
 ```blocks3
-lorsque le drapeau a cliqué sur
+lorsque le drapeau est cliqué 
 aller à x: (0) y: (-150)
-pour toujours
-    si < contacts (joueur v)? > puis
+répéter indéfiniment
+    si < touché (joueur v)? > alors
         dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
     sinon
-        dites []
-+ déplacez (1) étapes
-+ si sur le bord, rebondissez
-    bout
-
+        dire []
++ déplacez de (1) pas
++ si sur le bord, rebondir
+    fin
+fin
 
 ```
 
@@ -49,6 +49,6 @@ Ton sprite `personne` va maintenant bouger, et va s'arrêter pour parler au spri
 
 ![capture d'écran](images/world-person-test.png)
 
-\--- tâche \--- Ajoutez le code à votre nouveau sprite `personne` afin que ce dernier n'apparaisse que dans la salle 1. Le code dont vous avez besoin est exactement le même que le code qui rend le `signe` sprite visibles dans la chambre 1.
+\--- task \--- Ajoute le code à ton nouveau sprite `personne` afin que ce dernier n'apparaisse que dans la salle 1. Le code dont tu as besoin est exactement le même que le code qui rend le sprite `panneau` visible seulement dans la chambre 1.
 
 Assure-toi de tester ton nouveau code. \--- /task \---
