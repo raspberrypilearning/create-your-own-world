@@ -66,7 +66,7 @@ sinon
 masquer
 fin
 + si < touchant (joueur v)? > alors
-dire [Bienvenue!] Pouvez-vous aller au trésor?]
+dire [Bienvenue!] Peut-tu aller au trésor?]
 sinon
 dire []
 fin
