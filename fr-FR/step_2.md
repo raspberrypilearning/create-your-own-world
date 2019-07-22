@@ -16,7 +16,7 @@ Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix*
 
 \--- /task \---
 
-En appuyant sur les touches fléchées, le sprite</code> doit être déplacé à `joueur. Lorsque vous appuyez sur la flèche vers le haut, le sprite <code>joueur` doit remonter sur la scène en réponse.
+En appuyant sur les touches fléchées, le sprite</code> doit être déplacé à `joueur. Lorsque tu appuies sur la flèche vers le haut, le sprite <code>joueur` doit remonter sur la scène en réponse.
 
 \--- task \---
 
@@ -38,7 +38,7 @@ fin
 
 \--- task \---
 
-Clique sur le drapeau, puis maintenez la flèche vers le haut. Est-ce que le sprite `joueur` monte vers le haut?
+Clique sur le drapeau, puis maintiens la flèche vers le haut. Est-ce que le sprite `joueur` monte vers le haut?
 
 ![capture d'écran](images/world-up.png)
 
@@ -92,7 +92,7 @@ Tu dois changer ces deux blocs:
 s'orienter dans la direction ()
 ```
 
-Dupliquez le code qui fait que le sprite `joueur` progresse vers le haut et modifie ces deux blocs pour faire descendre le sprite. Duplique à nouveau le code et modifie-le pour que le sprite se déplace vers la droite.
+Duplique le code qui fait que le sprite `joueur` progresse vers le haut et modifie ces deux blocs pour faire descendre le sprite. Duplique à nouveau le code et modifie-le pour que le sprite se déplace vers la droite.
 
 \---/hint\--- \---hint\--- Voici a quoi devrait ressembler ton code :
 
