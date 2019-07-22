@@ -4,7 +4,7 @@
 
 ![capture d'écran](images/world-walls.png) \--- /task \---
 
-\--- task \--- Pour résoudre ce problème, vous devez faire reculer le sprite `joueur` s'il touche un mur gris clair. Voici le code que tu dois ajouter dans ton bloc `répéter indéfiniment`{: class = "block3control"} sous les blocs de direction:
+\--- task \--- Pour résoudre ce problème, tu dois faire reculer le sprite `joueur` s'il touche un mur gris clair. Voici le code que tu dois ajouter dans ton bloc `répéter indéfiniment`{: class = "block3control"} sous les blocs de direction:
 
 ![joueur](images/player.png)
 
