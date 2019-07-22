@@ -33,7 +33,7 @@ lorsque le drapeau est cliqué
 aller à x: (0) y: (-150)
 répéter indéfiniment
     si < touché (joueur v)? > alors
-        dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
+        dire [Sais-tu que tu peux passer par les portes orange et jaune?]
     sinon
         dire []
 + déplacez de (1) pas
