@@ -117,8 +117,8 @@ répéter indéfiniment
 + si <touche [flèche droite v] pressée ? > alors
         s'orienter en direction de (90)
         avancer de (4) pas
-    fin
-fin
+    end
+end
 ```
 
 \--- /hint \--- \--- /hints \---
