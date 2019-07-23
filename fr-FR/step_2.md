@@ -46,21 +46,21 @@ Clique sur le drapeau, puis maintiens la flèche vers le haut. Est-ce que le spr
 
 \--- task \---
 
-Pour déplacer le sprite `joueur` vers la gauche, tu dois ajouter un autre bloc `si`{: class = "block3control"} avec le code similaire:
+Pour déplacer le sprite `joueur` vers la gauche, tu dois ajouter un autre bloc `si`{:class="block3control"} avec le code similaire:
 
 ![joueur](images/player.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
 répéter indéfiniment
-    si la touche <(flèche haut v) est enfoncée? > alors
-        s'orienter en direction de (0)
-        déplacer de (4) pas
-    fin
-+ si <touche (flèche gauche v) est appuyée? > alors
-        s'orienter en direction de (-90)
-        déplacer de (4) pas
-    fin
+si la touche <(flèche haut v) pressée ? > alors
+s'orienter en direction de (0)
+avancer de (4) pas
+fin
++ si <touche (flèche gauche v) pressée ? > alors
+s'orienter en direction de (-90)
+avancer de (4) pas
+fin
 fin
 ```
 
@@ -101,22 +101,22 @@ Duplique le code qui fait que le sprite `joueur` progresse vers le haut et modif
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
-    si la touche <(flèche haut v) est enfoncée? > alors
+    si touche <(flèche haut v) pressée ? > alors
         s'orienter dans la direction (0)
         déplacer de (4) pas
 
-    si <touche (flèche gauche v) est enfoncée? > alors
+    si <touche (flèche gauche v) pressée ? > alors
         s'orienter en direction de (-90)
         déplacer de (4) pas
 
 
-+ si <touche (flèche vers le bas v) est appuyée? > alors
++ si <touche (flèche vers le bas v) pressée ? > alors
         s'orienter en direction de (180)
         déplacer de (4) pas
     fin
-+ si <touche [flèche droite v] enfoncée? > alors
++ si <touche [flèche droite v] pressée ? > alors
         s'orienter en direction de (90)
-        déplacer de (4) pas
+        avancer de (4) pas
     fin
 fin
 ```
