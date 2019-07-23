@@ -27,11 +27,11 @@ Ajoute ce code au sprite `joueur` :
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
-    si la touche <(flèche haut v) est enfoncée? > alors
-s'orienter en direction de (0)
-avancer de (4) pas
-fin
-fin
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
+end
 ```
 
 \--- /task \---
@@ -53,15 +53,15 @@ Pour déplacer le sprite `joueur` vers la gauche, tu dois ajouter un autre bloc 
 ```blocks3
 lorsque le drapeau est cliqué 
 répéter indéfiniment
-si la touche <(flèche haut v) pressée ? > alors
-s'orienter en direction de (0)
-avancer de (4) pas
-fin
-+ si <touche (flèche gauche v) pressée ? > alors
-s'orienter en direction de (-90)
-avancer de (4) pas
-fin
-fin
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
++  si <touche (flèche gauche v) pressée ? > alors
+        s'orienter en direction de (-90)
+        avancer de (4) pas
+    end
+end
 ```
 
 \--- /task \---
@@ -87,7 +87,7 @@ Tu dois changer ces deux blocs:
 ![joueur](images/player.png)
 
 ```blocks3
-<key ( v) pressed>
+< touche ( v) pressée ?>
 
 s'orienter dans la direction ()
 ```
@@ -101,19 +101,19 @@ Duplique le code qui fait que le sprite `joueur` progresse vers le haut et modif
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
-    si touche <(flèche haut v) pressée ? > alors
-        s'orienter dans la direction (0)
-        déplacer de (4) pas
-
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
     si <touche (flèche gauche v) pressée ? > alors
         s'orienter en direction de (-90)
-        déplacer de (4) pas
+        avancer de (4) pas
 
 
 + si <touche (flèche vers le bas v) pressée ? > alors
         s'orienter en direction de (180)
-        déplacer de (4) pas
-    fin
+        avancer de (4) pas
+    end
 + si <touche [flèche droite v] pressée ? > alors
         s'orienter en direction de (90)
         avancer de (4) pas
