@@ -27,7 +27,7 @@ Ychwanega’r côd canlynol i’r corlun `chwareuwr`:
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <bysell (up arrow v) wedi ei phwyso? > yna 
+  os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
     pwyntio i gyfeiriad (0)
     symud (4) cam
   end
@@ -53,11 +53,11 @@ I symud y `chwareuwr` i'r chwith, bydd angen i ti ychwanegu bloc arall `os`{:cla
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <bysell (up arrow v) wedi ei phwyso? > yna 
+  os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
     pwyntio i gyfeiriad (0)
     symud (4) cam
   end
-  + os <bysell (left arrow v) wedi ei phwyso? > yna 
++ os <bysell (saeth chwith v) wedi ei phwyso? > yna 
      pwyntio i gyfeiriad (-90)
      symud (4) cam
    end
@@ -102,20 +102,20 @@ Dyblyga'r côd sy'n gwneud i'r `chwareuwr` symud fyny, ac yna newidia'r ddau flo
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <bysell (up arrow v) wedi ei phwyso? > yna 
+  os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
     pwyntio i gyfeiriad (0)
     symud (4) cam
   end
-  os <bysell (left arrow v) wedi ei phwyso? > yna 
+  os <bysell (saeth chwith v) wedi ei phwyso? > yna 
     pwyntio i gyfeiriad (-90)
     symud (4) cam
   end
 
-  + os <bysell (down arrow v) wedi ei phwyso? > yna 
+  + os <bysell (saeth i lawr v) wedi ei phwyso? > yna 
      pwyntio i gyfeiriad (180)
      symud (4) cam
    end
-   os <bysell [right arrow v] wedi ei phwyso? > yna 
+   os <bysell [saeth de v] wedi ei phwyso? > yna 
      pwyntio i gyfeiriad (90)
      symud (4) cam
    end
