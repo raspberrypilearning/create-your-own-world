@@ -3,9 +3,9 @@
 Tu peux maintenant continuer à créer ton propre monde ! Voici quelques idées :
 
 + Ajoute plus de pièces à ton jeu dans différentes salles. Peux-tu laisser des pièces en gardant les ennemis en patrouille?
-+ Changer les décors de ton jeu
++ Change les décors de ton jeu
 + Ajoute du son et de la musique à ton jeu
-+ Ajoute plus de personnes, d'ennemis et de signes
++ Ajoute plus de personnes, d'ennemis et de panneaux
 + Ajoute des portes rouges et jaunes, et des clés spéciales pour les ouvrir
 + Ajoute plus de salles à ton monde
 + Ajoute d'autres objets utiles à ton jeu
