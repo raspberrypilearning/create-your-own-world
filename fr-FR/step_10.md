@@ -8,7 +8,7 @@ Ton sprite `joueur` devrait pouvoir collecter des pièces lorsqu'il se déplace 
 
 ![capture d'écran](images/coin.png) \--- /task \---
 
-\--- tâche \--- Ajoute le code à ta `pièce` sprite afin qu'elle n'apparaisse que dans la salle 1. ![capture d'écran](images/coin.png)
+\--- task \--- Ajoute le code à ta `pièce` sprite afin qu'elle n'apparaisse que dans la salle 1. ![capture d'écran](images/coin.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -29,7 +29,7 @@ Ajoute du code à ton sprite `pièce` de façon à ce que le sprite `se cache`{:
 
 ```blocks3
 quand le drapeau est cliqué 
-attendre jusqu'à ce que <touching (player v)?>
+attendre jusqu'à ce que <touche le (joueur v)? >
 changez [pièces v] par (1)
 cacher
 stop [autres scripts dans sprite v]
