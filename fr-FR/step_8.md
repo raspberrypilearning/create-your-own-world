@@ -8,38 +8,38 @@ Ajoute d'autres personnes à ton monde avec lesquelles ton sprite `joueur` peut 
 
 \--- task \--- Ajoute du code au sprite `personne` pour que la personne parle au sprite `joueur`. Ce code est très similaire à celui que tu as ajouté à ton sprite `panneau`:
 
-![la personne](images/person.png)
+![personne](images/person.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
 aller à x: (0) y: (-150)
 répéter indéfiniment
-    si < touché (joueur v)? > alors
-        dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
-    sinon
-        dire []
-    fin
-fin
+si < touche le (joueur v)? > alors
+dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
+sinon
+dire []
+end
+end
 ```
 
 \--- /task \---
 
 \--- task \--- Permet à ton sprite `personne` de se déplacer en ajoutant ces deux blocs à la section `sinon`{:class="block3control"} de ton code:
 
-![la personne](images/person.png)
+![personne](images/person.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
 aller à x: (0) y: (-150)
 répéter indéfiniment
-    si < touché (joueur v)? > alors
-        dire [Sais-tu que tu peux passer par les portes orange et jaune?]
-    sinon
-        dire []
-+ déplacez de (1) pas
-+ si sur le bord, rebondir
-    fin
-fin
+si < touche le (joueur v)? > alors
+dire [Sais-tu que tu peux passer par les portes orange et jaune?]
+sinon
+dire []
++ avancer de (1) pas
++ rebondir si le bord est atteint
+end
+end
 
 ```
 
