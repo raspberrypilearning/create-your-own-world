@@ -20,7 +20,7 @@ Tu peux maintenant continuer à créer ton propre monde ! Voici quelques idées 
 
 ```blocks3
 si <touching color [ ]?> alors
-change de décor pour ((costume [numéro v]) + (3))
+basculer sur l'arrière-plan ((costume [numéro v]) + (3))
 aller à x: (0) y: (200)
-changer [salle v] par (3)
+ajouter (3) à [salle v]
 ```
