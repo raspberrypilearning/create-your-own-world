@@ -15,7 +15,7 @@ Ton project inclut un `panneau de bienvenue` sprite :
 ```blocks3
 <br />si &lt; &gt; alors
 sinon
-fin
+end
 
 &lt; (salle :: variables) = [1] &gt;
 
@@ -24,7 +24,7 @@ cacher
 montrer
 
 répéter indéfiniment
-fin
+end
 
 lorsque le drapeau est cliqué
 
@@ -37,12 +37,12 @@ lorsque le drapeau est cliqué
 ```blocks3
 lorsque le drapeau est cliqué 
 répéter indéfiniment
-si < (salle :: variables) = [1] > alors
-montrer
-sinon
-cacher
-fin
-fin
+    si < (salle :: variables) = [1] > alors
+        montrer
+    sinon
+        cacher
+end
+end
 ```
 
 \--- /hint \--- \--- /hints \---
@@ -61,10 +61,10 @@ fin
 lorsque le drapeau est cliqué 
 répéter indéfiniment
 si < (salle :: variables) = [1] > alors
-montrer
+    montrer
 sinon
-cacher
-fin
+    cacher
+end
 + si < touche le (joueur v)? > alors
 dire [Bienvenue! Peux-tu aller au trésor?]
 sinon
