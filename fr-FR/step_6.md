@@ -8,7 +8,7 @@ Ton project inclut un `panneau de bienvenue` sprite :
 
 \--- task \--- Le sprite `panneau de bienvenue` ne devrait être visible que dans la salle 1, alors ajoute un code au sprite pour s'assurer que cela se passe :
 
-\--- hints \--- \--- hint \--- `Lorsque le drapeau est cliqué`{: class = "block3events"}, dans une boucle `répéter indéfiniment`{: class = "block3control"}, vérifie `si`{: class = "block3control"} la `salle est 1`{: class = "block3variables"} et dans ce cas, `affiche`{: class = "block3looks"} le sprite`panneau de bienvenue`, `sinon`{: class = "block3control"} `masquer`{: class = "block3looks"} le sprite. \--- /hint \--- \--- hint \--- Voici les blocs que tu as besoin :
+\--- hints \--- \--- hint \--- `Lorsque le drapeau est cliqué`{:class="block3events"}, dans une boucle `répéter indéfiniment`{:class="block3control"}, vérifie `si`{:class="block3control"} la `salle est la première`{:class="block3variables"} et dans ce cas, `affiche`{:class="block3looks"} le sprite`panneau de bienvenue`, `sinon`{:class="block3control"} `cache`{:class="block3looks"} le sprite. \--- /hint \--- \--- hint \--- Voici les blocs que tu as besoin :
 
 ![panneau](images/sign.png)
 
@@ -19,7 +19,7 @@ fin
 
 &lt; (salle :: variables) = [1] &gt;
 
-masquer
+cacher
 
 montrer
 
@@ -37,11 +37,11 @@ lorsque le drapeau est cliqué
 ```blocks3
 lorsque le drapeau est cliqué 
 répéter indéfiniment
-    si < (salle :: variables) = [1] > alors
-        afficher
-    sinon
-        masquer
-    fin
+si < (salle :: variables) = [1] > alors
+montrer
+sinon
+cacher
+fin
 fin
 ```
 
@@ -63,14 +63,14 @@ répéter indéfiniment
 si < (salle :: variables) = [1] > alors
 montrer
 sinon
-masquer
+cacher
 fin
-+ si < touchant (joueur v)? > alors
-dire [Bienvenue!] Peut-tu aller au trésor?]
++ si < touche le (joueur v)? > alors
+dire [Bienvenue! Peux-tu aller au trésor?]
 sinon
 dire []
-fin
-fin
+end
+end
 ```
 
 \--- /task \---
