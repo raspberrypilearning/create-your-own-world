@@ -23,7 +23,7 @@ Clique sur le drapeau vert pour démarrer. Utilise les flèches pour déplacer t
 
 \--- print-only \---
 
-Tu utiliseras les touches fléchées pour déplacer tone personnage dans le monde. ![showcase.png](images/showcase.png)
+Tu utiliseras les touches fléchées pour déplacer ton personnage dans le monde. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -62,6 +62,6 @@ Tu peux trouver tout ce dont tu as besoin pour mener à bien ce projet à l'adre
 
 Si tu as besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {: target = "_ blank"}.
 
-Tu peux trouver le [projet terminé ici](https://rpf.io/p/en/create-your-own-world-get){: target = "_ blank"}.
+Vous pouvez trouver le [projet terminé ici](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
