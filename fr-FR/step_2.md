@@ -27,7 +27,7 @@ Ajoute ce code au sprite `joueur` :
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
-si la touche <(flèche haut v) pressée ? > alors
+    si la touche <(flèche haut v) est enfoncée? > alors
 s'orienter en direction de (0)
 avancer de (4) pas
 fin
