@@ -16,7 +16,7 @@ cacher
 
 lorsque le drapeau est cliqué
 répéter indéfiniment
-si <touching (player v)?> alors
+si < touche le (joueur v) ?> alors
 stop [tout v]
 
 lorsque le drapeau est cliqué
