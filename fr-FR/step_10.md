@@ -29,25 +29,25 @@ Ajoute du code à ton sprite `pièce` de façon à ce que le sprite `se cache`{:
 
 ```blocks3
 quand le drapeau est cliqué 
-attendre jusque <touching (player v)?>
+attendre jusqu'à ce que <touching (player v)?>
 changez [pièces v] par (1)
-masquer
-arrêtez [autres scripts dans le sprite v]
+cacher
+stop [autres scripts dans sprite v]
 ```
 
-Le code `stop d'autres scripts du sprite`{: class = "block3control"} est nécessaire pour que le sprite `pièce` ne soit plus affiché dans la salle 1 une fois qu’elle a été collectée.
+Le code `stop autres scripts dans sprite`{:class="block3control"} est nécessaire pour que le sprite `pièce` ne soit plus affiché dans la salle 1 une fois qu’elle a été collectée.
 
 \--- /task \---
 
-\--- task \--- Ajoute maintenant du code sur la scène pour définir ta variable `pièces`{: class = "block3variables"} à `0`{: class = "block3variables"} au début du jeu.
+\--- task \--- Ajoute maintenant du code sur la scène pour définir ta variable `pièces`{:class="block3variables"} à `0`{:class="block3variables"} au début du jeu.
 
 ![scène](images/stage.png)
 
 ```blocks3
 quand le drapeau est cliqué
-définir [pièces v] à [0]
+mettre [pièces v] à [0]
 ```
 
 \--- /task \---
 
-\--- task \--- Teste ton jeu. La collecte d'une pièce devrait changer ton `pièces` score en `1`{: class = "block3variables"}. \--- /task \---
+\--- task \--- Teste ton jeu. La collecte d'une pièce devrait changer ton score `pièces` en `1`{:class="block3variables"}. \--- /task \---
