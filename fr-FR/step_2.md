@@ -6,17 +6,17 @@ Commence par créer un sprite `joueur` qui peut se déplacer dans ton monde.
 
 Ouvre le projet de démarrage Scratch «Créez ton propre monde».
 
-**En ligne**: ouvre le projet de démarrage en ligne à [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){: target = "_ blank"}.
+**En ligne**: ouvre le projet de démarrage en ligne à [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors ligne**: télécharge le projet de démarrage [rpf.io/p/fr/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){: target = "_ blank"}, puis ouvre-le à l'aide de l'éditeur hors connexion. Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Hors ligne**: télécharge le projet de démarrage [rpf.io/p/fr/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, puis ouvre-le à l'aide de l'éditeur hors connexion. Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![capture d'écran](images/world-starter.png)
 
 \--- /task \---
 
-En appuyant sur les touches fléchées, le sprite</code> doit être déplacé à `joueur. Lorsque tu appuies sur la flèche vers le haut, le sprite <code>joueur` doit remonter sur la scène en réponse.
+Appuyer sur les touches de flèches doit déplacer le sprite `joueur`. Lorsque tu appuies sur la flèche vers le haut, le sprite `joueur` doit remonter sur la scène en réponse.
 
 \--- task \---
 
