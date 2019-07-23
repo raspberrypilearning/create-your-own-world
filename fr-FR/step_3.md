@@ -10,27 +10,27 @@
 
 ```blocks3
 lorsque le drapeau est cliqué
-répéter pour toujours
-    si touche <(flèche haut v) pressée ? > alors
-s'orienter dans la direction (0)
-avancer de (4) pas
-fin
-si <la touche (flèche de gauche v) est appuyée? > alors
-s'orienter dans la direction (-90)
-avancer de (4) pas
-fin
- si < touche (flèche du bas v) pressée ? > alors
-s'orienter dans la direction (-180)
-avancer de (4) pas
-fin
-si < touche [flèche de droite v] pressée? > alors
-s'orienter dans la direction (90)
-avancer de (4) pas
-fin
+répéter indéfiniment 
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
+si <touche (flèche de gauche v) pressée ? > alors
+        s'orienter en direction de (-90)
+        avancer de (4) pas
+    end
+        si < touche (flèche du bas v) pressée ? > alors
+        s'orienter en direction de (-180)
+        avancer de (4) pas
+    end
+        si <touche [flèche de droite v] pressée? > alors
+        s'orienter en direction de (90)
+        avancer de (4) pas
+    end
 + si < couleur [#BABABA] touchée ? > alors
-avancer de (-4) pas
-fin
-fin
+    avancer de (-4) pas
+    end
+end
 ```
 
 \--- /task \---
