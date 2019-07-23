@@ -8,24 +8,24 @@ Ton projet contient des arrières-plans pour des salles supplémentaires :
 
 \--- task \---
 
-Crée une nouvelle variable 'pour toute les sprites' appelées `salle`{: class = "block3variables"} pour savoir dans quelle pièce se trouve le sprite `joueur`.
+Crée une nouvelle variable 'pour toute les sprites' appelées `salle`{:class="block3variables"} pour savoir dans quelle pièce se trouve le sprite `joueur`.
 
 [[[generic-scratch3-add-variable]]]
 
 ![capture d'écran](images/world-room.png) \--- /task \---
 
-\--- task \--- Lorsque le sprite `joueur` touche la porte orange dans la première salle, le jeu devrait afficher l'arrière-plan suivant et le sprite `joueur` devrait revenir à gauche de la scène. Ajoute ce code à l'intérieur du sprite `joueur` la boucle `répéter indéfiniment` {class = "de block3control"}:
+\--- task \--- Lorsque le sprite `joueur` touche la porte orange dans la première salle, le jeu devrait afficher l'arrière-plan suivant et le sprite `joueur` devrait revenir à gauche de la scène. Ajoute ce code à l'intérieur du sprite `joueur` la boucle `répéter indéfiniment` {class="block3control"}:
 
 ![joueur](images/player.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
-    si la touche <(flèche de haut v) est enfoncée? > alors
-        s'orienter dans la direction (0)
-        déplacer de (4) pas
-    fin
-    si <la touche (flèche de gauche v) est appuyée? > alors
+si <touche (flèche de haut v) pressée ? > alors
+s'orienter dans la direction (0)
+avancer de (4) pas
+fin
+si <touche (flèche de gauche v) pressée ? > alors
         s'orienter dans la direction (-90)
         déplacer de (4) pas
     fin
