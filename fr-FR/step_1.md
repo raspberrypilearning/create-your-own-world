@@ -8,7 +8,7 @@ Ceci est la version **Scratch 3** du projet. Il existe également une version [S
 
 Dans ce projet, tu apprendras à créer ton propre monde de jeu d’aventure avec plusieurs niveaux à explorer.
 
-### Ta création
+### Ce que tu feras
 
 \--- no-print \---
 
@@ -60,7 +60,7 @@ Tu peux trouver tout ce dont tu as besoin pour mener à bien ce projet à l'adre
 
 ## title: Informations supplémentaires pour les éducateurs
 
-Si tu as besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {: target = "_ blank"}.
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) {:target="_blank"}.
 
 Vous pouvez trouver le [projet terminé ici](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
