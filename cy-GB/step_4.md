@@ -1,52 +1,119 @@
-## Arwyddion
+## Symud o gwmpas dy fyd
 
-Fe awn ati i ychwanegu arwyddion i dy fydysawd, i fod o gymorth i'r chwareuwr ar y daith.
+Fe ddylai'r `chwaraewr` allu gerdded trwy ddrysau i ystafelloedd eraill.
 
-+ Mae dy brosiect yn cynnwys ciplun arwydd croeso:
+Mae dy brosiect yn cynnwys cefndir ar gyfer ystafelloedd ychwanegol:
 
-	![screenshot](images/world-sign.png)
+![sgrinlun](images/world-backdrops.png)
 
-+ Bydd yr arwydd yma ond yn weledol yn ystafell 1, felly fe wnawn ni ychwanegu côd i'r arwydd i sicrhau fod hyn yn digwydd:
+--- task ---
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			am byth
-   			os <(ystafell) = [1]> wedyn
-      	dangos
-   			fel arall
-      	cuddio
-   		end
-		end
-	```
+Byddi di angen newidyn newydd ‘ar gyfer pob ciplun’ o’r enw `ystafell`{:class="block3variables"} i wybod pa ystafell mae’r `chwaraewr` ynddo.
 
-+ Profa dy arwydd trwy symud rhwng yr ystafelloedd. Fe ddylai dy arwydd ond fod yn weledol yn ystafell 1.
+[[[generic-scratch3-add-variable]]]
 
-	![screenshot](images/world-sign-test.png)
+![sgrinlun](images/world-room.png) --- /task ---
 
-+ Dyw'r arwydd ddim yn llawer o gymorth os nad yw e'n dweud unrhywbeth! Fe awn ati i ychwanegu mwy o gôd (mewn bloc arwahân) i arddangos neges os yw'r arwydd yn cyffwrdd y chwareuwr:
+--- task --- Pan mae’r `chwaraewr` yn cyffwrdd y drws oren yn yr ystafell gyntaf, fe ddylai’r cefndir nesaf ymddangos ac fe ddylai’r `chwaraewr` symud yn ôl i ochr chwith y llwyfan. Dyma’r côd fydd ei angen arno ti - fe ddylai gael ei osod tu fewn dolen `am byth`{:class="block3control"} y `chwaraewr`:
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			am byth
-   				os <cyffwrdd [player v]?> wedyn
-      		dweud [Welcome! Can you get to the treasure?]
-   			fel arall
-      		dweud []
-   			end
-		end
-	```
+![chwaraewr](images/player.png)
 
-+ Profa dy arwydd ac fe ddylai neges ymddangos pan mae'r chwareuwr yn ei gyffwrdd.
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  os <bysell (left arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-90)
+    symud (4) cam
+  end
+  os <bysell (down arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-180)
+    symud (4) cam
+  end
+  os <bysell [right arrow v] wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (90)
+    symud (4) cam
+  end
+  os <cyffwrdd lliw [#BABABA] ? > yna 
+    symud (-4) cam
+  end
+  + os <cyffwrdd lliw [#F2A24A] ?> yna 
+     newid cefndir i (next backdrop v)
+     mynd i x: (-200) y: (0)
+     newid [room v] gan (1)
+     end
+end
+```
 
-	![screenshot](images/world-sign-test2.png)
+--- /task ---
 
---- challenge ---
+--- task --- Bob tro mae'r gêm yn cychwyn, bydd angen ailosod yr ystafell, lleoliad y cymeriad a'r cefndir.
 
-## Her: Trysor! 
-Gwna clic-dde ar giplun y gist drysor a dewis 'dangos'.
+Ychwaneda'r côd i **ddechrau** côd dy `chwaraewr` uwchben y ddolen `am byth`{:class="block3control"} i ailosod popeth pan mae'r faner yn cael ei glicio:
 
-Wyt ti'n gallu gwneud i dy gist drysor ymddangos ond yn ystafell 3 a dweud 'Da iawn!' pan mae'r chwareuwr yn ei gyffwrdd?
+--- hints ---
+ --- hint --- Pan mae'r gêm yn cychwyn:
 
-![screenshot](images/world-treasure.png)
++ Fe ddylai gwerth `ystafell`{:class="block3variables"} gael ei osod i `1`{:class="block3variables"}
++ Fe ddylai y `cefndir`{:class="block3looks"} gael ei osod i `room1`{:class="block3looks"}
++ Fe ddylai lleoliad y `chwaraewr` gael ei osod i `x: -200 y: 0`{:class="block3motion"}
+--- /hint ---
+ --- hint --- Dyma'r blociau ychwanegol sydd eu hangen:
 
---- /challenge ---
+![chwaraewr](images/player.png)
+
+```blocks3
+mynd i x: (-200) y: (0)
+
+gosod [ystafell v] i (1)
+
+newid cefndir i (room1 v)
+```
+
+--- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych:
+
+![chwaraewr](images/player.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
++gosod [ystafell v] i (1)
++mynd i x: (-200) y: (0)
++newid cefndir i (room1 v)
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  os <bysell (left arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-90)
+    symud (4) cam
+  end
+  os <bysell (down arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-180)
+    symud (4) cam
+  end
+  os <bysell [right arrow v] wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (90)
+    symud (4) cam
+  end
+  os <cyffwrdd lliw [#BABABA] ? > yna 
+    symud (-4) cam
+  end
+  os <cyffwrdd lliw [#F2A24A] ?> yna 
+    newid cefndir i (next backdrop v)
+    mynd i x: (-200) y: (0)
+    newid [ystafell v] gan (1)
+  end
+end
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
+
+--- task --- Clicia'r faner ac yna symud y `chwaraewr` tan ei fod yn cyffwrdd y drws oren. Ydy'r corlun yn symud i'r sgrin nesaf? Ydy'r `ystafell`{:class="block3variables"} yn newid i `2`?
+
+![sgrinlun](images/world-room-test.png) --- /task ---

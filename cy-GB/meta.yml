@@ -1,25 +1,26 @@
+---
 hero_image: images/create-your-own-world.png
-title: Creu dy Fydysawd
-description: Dysga sut i greu gêm antur.
-original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
-theme: orange
-duration: 2
+title: Creu dy fyd dy hunan
+description: Dysga sut i greu gêm antur
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: Cyflwyniad
-- title: Codio dy chwareuwr
-- title: Codio dy fydysawd
-- title: Arwyddion
-- title: Pobl
-- title: Casglu darnau arian
-- title: Drysau ac allweddi
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - title: Cyflwyniad
+  - title: Codio dy chwareuwr
+  - title: Waliau cadarn
+  - title: Symud o gwmpas dy fyd
+  - title: "Her: symud yn ôl i'r ystafell flaenorol"
+    challenge: true
+  - title: Arwyddion
+  - title: "Her: trysor!"
+    challenge: true
+  - title: Pobl
+  - title: "Her: gelynion"
+    challenge: true
+  - title: Casglu darnau arian
+  - title: Drysau ac allweddi
+  - title: "Her: ymestyn dy fyd"
+    challenge: true
+  - title: "Beth nesaf?"

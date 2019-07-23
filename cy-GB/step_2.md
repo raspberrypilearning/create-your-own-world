@@ -1,79 +1,127 @@
-## Codio dy chwareuwr
+## Symud dy chwareuwr
 
-Fe awn ati i greu chwareuwr sydd yn symud o gwmpas dy fydysawd.
+Fe awn ati i greu `chwareuwr` sydd yn symud o gwmpas dy fydysawd.
 
-+ Agora prosiect Scratch 'Creu dy Fydysawd' arlein yma <a href="http://jumpto.cc/world-go" target="_blank">jumpto.cc/world-go</a> neu lawrlwytha yma <a href="http://jumpto.cc/world-get" target="_blank">jumpto.cc/world-get</a> yna ei agor i'w ddefnyddio ar dy gyfrifiadur.
+--- task ---
 
-	![screenshot](images/world-starter.png)
+Agora'r prosiect cychwynnol 'Creu dy fyd dy hunan'.
 
-+ Fe ddefnyddiwn ni y bysellau saeth i symud y chwareuwr o gwmpas. Pan mae'r chwareuwr yn gwasgu'r saeth i fyny, rwyt ti eisiau i'r chwareuwr symud fyny trwy newid cyfeirnod 'y'. Ychwanega'r côd yma i giplun y chwareuwr ('player'):
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			am byth
-   			os <bysell [saeth i fyny v] wedi ei wasgu?> wedyn
-      	newid y gan (2)
-   			end
-		end
+Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-	```
+**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/create-your-own-world-go](http://rpf.io/p/cy-GB/create-your-own-world-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein. Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-+ Profa dy chwareuwr trwy glicio ar y faner ac yna dal y saeth fyny. Ydy dy chwareuwr yn symud fyny?
+![sgrinlun](images/world-starter.png)
 
-	![screenshot](images/world-up.png)
+--- /task ---
 
-+ I symud dy chwareuwr i'r chwith, rwyt ti angen ychwaneg bloc `os`{:class="blockcontrol"} arall i dy chwareuwr sydd yn newid cyfeirnod x:
+Dylai gwasgu'r bysellau saeth symud y `chwaraewr` o gwmpas. Pan fydd y saeth i fyny yn cael ei gwasgu, fe ddylai y `chwaraewr` symud i fyny ar y Llwyfan mewn ymateb.
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-			am byth
-   				os <bysell [saeth i fyny v] wedi ei wasgu?> wedyn
-      		newid y gan (2)
-   		end
-   				os <bysell [saeth chwith v] wedi ei wasgu?> wedyn
-      		newid x gan (-2)
-   			end
-		end
-	```
+--- task ---
 
---- challenge ---
+Ychwanega’r côd canlynol i’r corlun `chwareuwr`:
 
-## Her: Symud i bedwar cyfeiriad
-Alli di ychwanegu mwy o gôd i dy chwareuwr fel ei fod yn symud fyny, lawr, chwith a dde. Defnyddia'r côd sydd gen ti yn barod i dy helpu!
+![chwaraewr](images/player.png)
 
-+ Profa dy chwareuwr eto, ac fe weli di fod ganddo'r gallu i gerdded trwy'r wal llwyd.
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+end
+```
 
-	![screenshot](images/world-walls.png)
+--- /task ---
 
-+ I ddatrys hyn, bydd angen i ti symud y chwareuwr ond yna ei symud yn ôl os yw'n cyffwrdd y wal llwyd. Dyma'r côd sydd angen arno ti:
+--- task ---
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-		am byth
-   			os <bysell [saeth i fyny v] wedi ei wasgu?> wedyn
-      			newid y gan (2)
-      		os <cyffwrdd lliw [#BABABA]?> wedyn
-         		newid y gan (-2)
-      			end
-   			end
-		end
-	```
+Clicia'r faner a dal y saeth i fyny. Ydy'r `chwareuwr` yn symud fyny?
 
-	Sylwa fod y bloc newydd `os`{:class="blockcontrol"}`cyffwrdd lliw`{:class="blocksensing"} _tu fewn_ y bloc `os`{:class="blockcontrol"}`bysell [saeth i fyny]`{:class="blocksensing"}.
+![sgrinlun](images/world-up.png)
 
-+ Profa'r côd newydd yma trwy symud o dan y wal - ni ddyle ti allu symud drosto.
+--- /task ---
 
-	![screenshot](images/world-walls-test.png)
+--- task ---
 
-+ Fe wnawn ni'r un peth i'r saeth chwith, gan symud yn ôl os yw'r chwareuwr yn cyffwrdd y wal. Dyma sut ddylai côd dy chwareuwr edrych:
+I symud y `chwareuwr` i'r chwith, bydd angen i ti ychwanegu bloc arall `os`{:class="block3control"} gyda chôd tebyg:
 
-	![screenshot](images/world-wall-code.png)
-	
---- /challenge ---
+![chwaraewr](images/player.png)
 
---- challenge ---
-	
-## Her: Datrys symudiad dy chwareuwr 
-Ychwanega gôd i dy chwareuwr fel nad wyt ti'n gallu cerdded trwy waliau mewn unrhyw gyfeiriad. Defnyddia'r côd sydd gen ti yn barod i dy helpu!
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  + os <bysell (left arrow v) wedi ei phwyso? > yna 
+     pwyntio i gyfeiriad (-90)
+     symud (4) cam
+   end
+end
+```
 
---- /challenge ---
+--- /task ---
+
+--- task ---
+
+Ychwanega mwy o gôd i'r `chwareuwr` fel ei fod yn symud lawr ac i'r dde hefyd. Defnyddia'r côd sydd gen ti yn barod i dy helpu.
+
+--- hints ---
+
+
+--- hint ---
+
+I symud fyny, pwyntia'r `chwareuwr` yng nghyfeiriad `0` gradd. Beth sydd angen i ti wneud i symud y corlun lawr?
+
+I symud i'r chwith, pwyntia'r corlun yng nghyfeiriad `90` gradd. Beth sydd angen i ti ei wneud i symud y corlun i'r dde?
+
+--- /hint ---
+
+--- hint ---
+
+Mae angen i ti newid y ddau floc yma:
+
+![chwaraewr](images/player.png)
+
+```blocks3
+<bysell ( v) wedi ei phwyso?>
+
+pwyntio i gyfeiriad ()
+```
+
+Dyblyga'r côd sy'n gwneud i'r `chwareuwr` symud fyny, ac yna newidia'r ddau floc i wneud i'r corlun symud lawr. Dyblyga'r côd eto a'i newid fel fod y corlun yn symud i'r dde.
+
+--- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych:
+
+![chwaraewr](images/player.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (up arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  os <bysell (left arrow v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-90)
+    symud (4) cam
+  end
+
+  + os <bysell (down arrow v) wedi ei phwyso? > yna 
+     pwyntio i gyfeiriad (180)
+     symud (4) cam
+   end
+   os <bysell [right arrow v] wedi ei phwyso? > yna 
+     pwyntio i gyfeiriad (90)
+     symud (4) cam
+   end
+end
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
