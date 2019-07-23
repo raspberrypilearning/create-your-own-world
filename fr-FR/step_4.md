@@ -21,31 +21,31 @@ Crée une nouvelle variable 'pour toute les sprites' appelées `salle`{:class="b
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
-si <touche (flèche de haut v) pressée ? > alors
-s'orienter dans la direction (0)
-avancer de (4) pas
-fin
-si <touche (flèche de gauche v) pressée ? > alors
-s'orienter dans la direction (-90)
-avancer de (4) pas
-fin
-si <touche (flèche vers le bas v) pressée ? > alors
-s'orienter dans la direction (-180)
-avancer de (4) pas
-fin
-si <touche [flèche de droite v] pressée ? > alors
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
+    si <touche (flèche gauche v) pressée ? > alors
+        s'orienter en direction de (-90)
+        avancer de (4) pas
+    end
+        si <touche (flèche bas v) pressée ? > alors
+        s'orienter dans la direction (-180)
+        avancer de (4) pas
+    end
+        si <touche [flèche droite v] pressée ? > alors
 s'orienter dans la direction (90)
 avancer de (4) pas
 fin
 si < couleur [#BABABA] touchée ? > alors
-avancer de (-4) pas
-fin
+    avancer de (-4) pas
+    end
 + si < couleur [#F2A24A] touchée ? > alors
-basculer sur l'arrière plan (arrière-plan suivant v)
-aller à x: (-200) y: (0)
-ajouter (1) à [salle v]
-fin
-fin
+    basculer sur l'arrière plan (arrière-plan suivant v)
+    aller à x: (-200) y: (0)
+    ajouter (1) à [salle v]
+    end
+end
 ```
 
 \--- /task \---
@@ -80,7 +80,7 @@ lorsque le drapeau est cliqué
 + aller à x: (-200) y: (0)
 + basculer sur l'arrière-plan (salle1 v)
 répéter indéfiniment
-    si <touche (flèche du haut v) pressée ? > alors
+    si <touche (flèche haut v) pressée ? > alors
 s'orienter dans la direction (0)
 avancer de (4) pas
 fin
