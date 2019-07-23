@@ -2,28 +2,28 @@
 
 Ton sprite `joueur` devrait pouvoir collecter des pièces lorsqu'il se déplace dans le monde.
 
-\--- task \--- Ajouter une nouvelle variable alimentée `pièces`{: class = "block3variables"} à votre projet. \--- /task \---
+\--- task \--- Ajouter une nouvelle variable appelée `pièces`{:class="block3variables"} à ton projet. \--- /task \---
 
 \--- task \--- Sélectionne le sprite `pièce` et clique sur **afficher**.
 
 ![capture d'écran](images/coin.png) \--- /task \---
 
-\--- tâche \--- Ajoutez le code à votre `pièce` sprite afin qu'il n'apparaisse que dans la salle 1. ![capture d'écran](images/coin.png)
+\--- tâche \--- Ajoute le code à ta `pièce` sprite afin qu'elle n'apparaisse que dans la salle 1. ![capture d'écran](images/coin.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
 répéter indéfiniment
 si <(salle :: variables) =[1]> alors
-afficher
+montrer 
 sinon
-masquer
+cacher
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Ajoute du code à ton sprite `pièce` de façon à ce que le sprite `masque`{: class = "block3looks"} et `1`{: class = "block3variables"} est ajouté à la variable `pièces`{: class = "block3variables"} une fois que le sprite `joueur` touche le sprite `pièce` pour le «ramasser».
+Ajoute du code à ton sprite `pièce` de façon à ce que le sprite `se cache`{:class="block3looks"} et `1`{:class="block3variables"} soit ajouté à la variable `pièces`{:class="block3variables"} une fois que le sprite `joueur` touche le sprite `pièce` pour le «ramasser».
 
 ![pièce de monnaie](images/coin.png)
 
