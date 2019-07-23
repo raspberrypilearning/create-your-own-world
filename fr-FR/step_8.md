@@ -14,11 +14,11 @@ Ajoute d'autres personnes à ton monde avec lesquelles ton sprite `joueur` peut 
 lorsque le drapeau est cliqué
 aller à x: (0) y: (-150)
 répéter indéfiniment
-si < touche le (joueur v)? > alors
-dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
-sinon
-dire []
-end
+    si < touche le (joueur v)? > alors
+        dire [Saviez-vous que vous pouvez passer par les portes orange et jaune?]
+    sinon
+        dire []
+    end
 end
 ```
 
@@ -32,13 +32,13 @@ end
 lorsque le drapeau est cliqué 
 aller à x: (0) y: (-150)
 répéter indéfiniment
-si < touche le (joueur v)? > alors
-dire [Sais-tu que tu peux passer par les portes orange et jaune?]
-sinon
-dire []
-+ avancer de (1) pas
-+ rebondir si le bord est atteint
-end
+    si < touche le (joueur v)? > alors
+        dire [Sais-tu que tu peux passer par les portes orange et jaune?]
+    sinon
+        dire []
++        avancer de (1) pas
++        rebondir si le bord est atteint
+    end
 end
 
 ```
