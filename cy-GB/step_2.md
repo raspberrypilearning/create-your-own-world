@@ -111,7 +111,7 @@ am byth
     symud (4) cam
   end
 
-  + os <bysell (saeth i lawr v) wedi ei phwyso? > yna 
++  os <bysell (saeth i lawr v) wedi ei phwyso? > yna 
      pwyntio i gyfeiriad (180)
      symud (4) cam
    end
