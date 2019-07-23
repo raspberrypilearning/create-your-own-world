@@ -8,7 +8,7 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - title: Cyflwyniad
-  - title: Codio dy chwareuwr
+  - title: Symud dy chwareuwr
   - title: Waliau cadarn
   - title: Symud o gwmpas dy fyd
   - title: "Her: symud yn ôl i'r ystafell flaenorol"
