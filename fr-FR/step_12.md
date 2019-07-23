@@ -19,7 +19,7 @@ Tu peux maintenant continuer à créer ton propre monde ! Voici quelques idées 
 ![capture d'écran](images/north-south-rooms.png) ![capture d'écran](images/number-grid.png)
 
 ```blocks3
-si <touching color [ ]?> alors
+si < couleur [] touchée > alors
 basculer sur l'arrière-plan ((costume [numéro v]) + (3))
 aller à x: (0) y: (200)
 ajouter (3) à [salle v]
