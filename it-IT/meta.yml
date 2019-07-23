@@ -1,7 +1,7 @@
 ---
 hero_image: images/create-your-own-world.png
 title: Crea il Tuo Mondo
-description: Impara a creare il tuo gioco di avventura open world.
+description: Scopri come creare il tuo gioco di avventura open-world
 listed: true
 copyedit: false
 version: 4.1.0
@@ -10,13 +10,13 @@ steps:
   - 
     title: Introduzione
   - 
-    title: Codifica il tuo giocatore
+    title: Spostare lo sprite del giocatore
   - 
     title: Muri solidi
   - 
-    title: Segnali
+    title: Muoviti nel tuo mondo
   - 
-    title: "Persone"
+    title: "Sfida: trasferirsi nella stanza precedente"
     challenge: true
   - 
     title: Cartelli
@@ -29,7 +29,7 @@ steps:
     title: "Sfida: nemici"
     challenge: true
   - 
-    title: Collect coins
+    title: Raccogliere monete
   - 
     title: Porte e chiavi
   - 
