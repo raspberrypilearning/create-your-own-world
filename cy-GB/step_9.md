@@ -18,8 +18,8 @@ end
 
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <cyffwrdd (player v) ?> yna 
-    aros [all v]
+  os <cyffwrdd (chwaraewr v) ?> yna 
+    aros [y cyfan v]
   end
 end
 

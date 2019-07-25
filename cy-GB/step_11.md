@@ -25,17 +25,17 @@ Ychwanega gôd i dy `allwedd` i'w wneud yn weledol yn ystafell 3 yn unig. --- /t
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 aros hyd at <cyffwrdd (player v) ?>
-ychwanegu [blue key] i [wedi casglu v]
+ychwanegu [allwedd glas] i [wedi casglu v]
 cuddio
-aros [other scripts in sprite v]
+aros [sgriptiau eraill yn y ciplun v]
 ```
 
 --- /task ---
 
--- task --- Ychwanega gôd i'r Llwyfan i wagio dy restr ar gychwyn gêm.
+--- task --- Ychwanega gôd i'r Llwyfan i wagio dy restr ar gychwyn gêm.
 
 ```blocks3
-dileu (all v) o [wedi casglu v]
+dileu (y cyfan v) o [wedi casglu v]
 ```
 
 --- /task ---
@@ -54,8 +54,8 @@ dileu (all v) o [wedi casglu v]
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
-aros hyd at <[wedi casglu v] yn cynnwys [blue key] ?>
-aros [other scripts in sprite v]
+aros hyd at <[wedi casglu v] yn cynnwys [alwedd glas] ?>
+aros [sgriptiau eraill yn y ciplun v]
 cuddio
 ```
 

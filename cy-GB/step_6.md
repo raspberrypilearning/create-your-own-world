@@ -34,7 +34,7 @@ pan fo'r flag werdd yn cael ei glicio
 
 ```
 
---- / hint --- - hint --- Dyma'r côd cyflawn:
+--- / hint --- --- hint --- Dyma'r côd cyflawn:
 
 ![arwydd](images/sign.png)
 
@@ -49,7 +49,7 @@ am byth
 end
 ```
 
---- /hint ------ /hints ---
+--- /hint --- --- /hints ---
 
 --- /task ---
 
@@ -69,7 +69,7 @@ am byth
   fel arall 
     cuddio
   end
-  + os <cyffwrdd (player v) ? > yna 
+  + os <cyffwrdd (chwaraewr v) ? > yna 
   +   dweud [Croeso! Wyt t'in gallu cyrraedd y trysor?]
   + fel arall 
   +   dweud []

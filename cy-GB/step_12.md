@@ -20,7 +20,7 @@ Alli di nawr barhau i greu dy fyd dy hunan! Dyma rai syniadau:
 
 ```blocks3
 os <cyffwrdd lliw [ ] ?> yna 
-  newid cefndir i ((gwisg [number v]) + (3))
+  newid cefndir i ((gwisg [rhif v]) + (3))
   mynd i x: (0) y: (200)
   newid [ystafell v] gan (3)
 end

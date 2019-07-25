@@ -31,10 +31,10 @@ Ychwanega gôd i dy `arian` fel fod y corlun yn `cuddio`{:class="block3looks"} a
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
-aros hyd at <cyffwrdd (player v) ?>
+aros hyd at <cyffwrdd (chwaraewr v) ?>
 newid [arian v] gan (1)
 cuddio
-aros [other scripts in sprite v]
+aros [sgriptiau eraill yn y ciplun v]
 ```
 
 Mae angen y côd `stopiwch sgriptiau eraill yn y ciplun`{:class="block3control"} fel bod y darn `arian` yn stopio ymddangos yn ystafell 1 unwaith mae’n cael ei gasglu.

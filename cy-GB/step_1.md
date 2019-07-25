@@ -27,7 +27,7 @@ Byddi di'n defnyddio'r bysellau saeth i symud dy gymeriad o gwmpas y byd. ![show
 
 --- /print-only ---
 
----collapse---
+--- collapse ---
 ---
 title: Beth fydd ei angen arno ti
 ---
@@ -41,11 +41,11 @@ title: Beth fydd ei angen arno ti
 
 ### Lawrlwythiadau
 
-Gallwch ddod o hyd i bopeth sydd ei angen arnoch i gwblhau'r prosiect hwn yn [ rpf.io/p/cy-GB/create-your-own-world-go ](https://rpf.io/p/cy-GB/create-your-own-world-go).
+Gallwch ddod o hyd i bopeth sydd ei angen arnoch i gwblhau'r prosiect hwn yn [rpf.io/p/cy-GB/create-your-own-world-go](https://rpf.io/p/cy-GB/create-your-own-world-go).
 
 --- /collapse ---
 
----collapse---
+--- collapse ---
 ---
 title: Yr hyn byddi di'n ei ddysgu
 ---
@@ -56,7 +56,7 @@ title: Yr hyn byddi di'n ei ddysgu
 
 --- /collapse ---
 
----collapse---
+--- collapse ---
 ---
 title: Gwybodaeth ychwanegol i addysgwyr
 ---

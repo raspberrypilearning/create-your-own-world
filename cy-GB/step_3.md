@@ -11,19 +11,19 @@
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <bysell (up arrow v) wedi ei phwyso? > yna 
+  os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
     pwyntio i gyfeiriad (0)
     symud (4) cam
   end
-  os <bysell (left arrow v) wedi ei phwyso? > yna 
+  os <bysell (saeth chwith v) wedi ei phwyso? > yna 
     pwyntio i gyfeiriad (-90)
     symud (4) cam
   end
-  os <bysell (down arrow v) wedi ei phwyso? > yna 
+  os <bysell (saeth i lawr v) wedi ei phwyso? > yna 
     pwyntio i gyfeiriad (-180)
     symud (4) cam
   end
-  os <bysell [right arrow v] wedi ei phwyso? > yna 
+  os <bysell [saeth de v] wedi ei phwyso? > yna 
     pwyntio i gyfeiriad (90)
     symud (4) cam
   end

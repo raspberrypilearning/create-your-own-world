@@ -6,7 +6,7 @@ Fe awn ati i ychwanegu pobl arall i dy fyd mae modd i dy `chwaraewr` ryngweithio
 
 ![Corlun person](images/person.png) --- /task ---
 
---- task --- Ychwanega gôd i dy `berson` fel fod y person yn siarad â'r `chwaraewr`. Mae'r côd yn derbyg iawn i'r un wnes di ei ychwanegu i'r `arwydd`:
+--- task --- Ychwanega gôd i dy `person` fel fod y person yn siarad â'r `chwaraewr`. Mae'r côd yn derbyg iawn i'r un wnes di ei ychwanegu i'r `arwydd`:
 
 ![person](images/person.png)
 
@@ -14,7 +14,7 @@ Fe awn ati i ychwanegu pobl arall i dy fyd mae modd i dy `chwaraewr` ryngweithio
 pan fo'r flag werdd yn cael ei glicio
 mynd i x: (0) y: (-150)
 am byth 
-  os <cyffwrdd (player v) ? > yna 
+  os <cyffwrdd (chwaraewr v) ? > yna 
     dweud [Oeddet ti'n gwybod dy fod di'n gallu mynd trwy drysau oren a melyn?]
   fel arall 
     dweud []
@@ -32,7 +32,7 @@ end
 pan fo'r flag werdd yn cael ei glicio
 mynd i x: (0) y: (-150)
 am byth 
-  os <cyffwrdd (player v) ? > yna 
+  os <cyffwrdd (chwaraewr v) ? > yna 
     dweud [Oeddet ti'n gwybod dy fod di'n gallu mynd trwy drysau oren a melyn?]
   fel arall 
     dweud []
