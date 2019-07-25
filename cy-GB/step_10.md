@@ -41,6 +41,7 @@ Mae angen y côd `stopiwch sgriptiau eraill yn y ciplun`{:class="block3control"}
 
 --- /task ---
 
+--- task ---
 Ychwanega gôd i dy Lwyfan i osod y newidyn `arian`{:class="block3variables"} i `0`{:class="block3variables"} ar ddechrau dy gêm.
 
 ![llwyfan](images/stage.png)

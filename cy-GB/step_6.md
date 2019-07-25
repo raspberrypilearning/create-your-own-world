@@ -34,7 +34,7 @@ pan fo'r flag werdd yn cael ei glicio
 
 ```
 
---- / hint --- --- hint --- Dyma'r côd cyflawn:
+--- /hint --- --- hint --- Dyma'r côd cyflawn:
 
 ![arwydd](images/sign.png)
 

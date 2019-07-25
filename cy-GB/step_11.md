@@ -12,7 +12,7 @@ Rwyt ti nawr am ychwanegu côd i rai o dy ddrysau fel bod rhai o'r drysau yn y g
 
 --- /task ---
 
-Ychwanega gôd i dy `allwedd` i'w wneud yn weledol yn ystafell 3 yn unig. --- /task ---
+--- task --- Ychwanega gôd i dy `allwedd` i'w wneud yn weledol yn ystafell 3 yn unig. --- /task ---
 
 --- task --- Cer ati i greu rhestr newydd o'r enw `rhestr`{:class="block3variables"} i storio'r eitemau mae dy `chwaraewr` yn eu casglu.
 
