@@ -1,40 +1,42 @@
-## Codio dy fydysawd
+## Waliau cadarn
 
-Fe wnawn ni adael i'r chwareuwr gerdded trwy ddrysau i ystafelloedd eraill!
+--- task --- Profa dy `chwaraewr` eto. A weli di ei fod yn gallu cerdded trwy'r waliau llwyd golau.
 
-+ Mae dy brosiect yn cynnwys cefndiroedd ar gyfer ystafelloedd ychwanegol:
+![sgrinlun](images/world-walls.png) --- /task ---
 
-	![screenshot](images/world-backdrops.png)
+--- task --- I ddatrys hyn, bydd angen i ti wneud i'r `chwaraewr` symud yn ôl os yw'n cyffwrdd wal llwyd. Dyma'r côd sydd angen ei osod o fewn y bloc `am byth`{:class="block3control"} o dan y blociau cyfeiriad:
 
-+ Byddi di angen newidyn newydd 'ar gyfer pob ciplun' o'r enw `ystafell`{:class="blockdata"}, i wybod pa ystafell mae'r chwareuwr ynddo.
+![chwaraewr](images/player.png)
 
-	![screenshot](images/world-room.png)
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (0)
+    symud (4) cam
+  end
+  os <bysell (saeth chwith v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-90)
+    symud (4) cam
+  end
+  os <bysell (saeth i lawr v) wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (-180)
+    symud (4) cam
+  end
+  os <bysell [saeth de v] wedi ei phwyso? > yna 
+    pwyntio i gyfeiriad (90)
+    symud (4) cam
+  end
+  + os <cyffwrdd lliw [#BABABA] ? > yna 
+  +   symud (-4) cam
+  + end
+end
+```
 
-+ Pan mae'r chwareuwr yn cyffwrdd y drws oren yn yr ystafell gyntaf, fe ddylai'r cefndir nesaf ymddangos ac fe ddylai'r chwareuwr symud yn ôl i ochr chwith y llwyfan. Dyma'r côd fydd ei angen arno ti - fe ddylai gael ei osod tu fewn dolen `am byth`{:class="blockcontrol"} y chwareuwr.
+--- /task ---
 
-	```blocks
-		os <cyffwrdd lliw [#F2A24A]?> wedyn
-   			newid cefndir i [cefndir nesaf v]
-   			mynd i x:(-200) y:(0)
-   			newid [room v] gan (1)
-		end
-	```
+--- task ---
 
-+ Ychwanega'r côd yma i _ddechrau_ côd dy chwareuwr (cyn y ddolen `am byth`{:class="blockcontrol"}) i sicrhau bod popeth yn ailgychwyn wrth glicio'r faner:
+Ceisia wneud i'r `chwaraewr` symud trwy wal. Os yw'r côd newydd yn gweithio, ni ddylai hyn fod yn bosib.
 
-	```blocks
-		gosod [room v] i (1)
-		mynd i x:(-200) y:(0)
-		newid cefndir i [r oom1v]
-	```
-
-+ Clicia'r faner a symud dy chwareuwr dros y drws oren. Ydy dy chwareuwr yn symud i'r sgrin nesaf? Ydy'r newidyn `ystafell`{:class="blockdata"} yn newid i 2?
-
-	![screenshot](images/world-room-test.png)
-
---- challenge ---
-	
-## Her: Symud i'r ystafell flaenorol 
-Wyt ti'n gallu gwneud i dy chwareuwr symud i'r ystafell flaenorol pan mae'n cyffwrdd drws melyn?  Cofia bydd y côd yma yn debyg _iawn_ i'r côd rwyt ti wedi ychwanegu yn barod i symud i'r ystafell nesaf.
-
---- /challenge ---
+![sgrinlun](images/world-walls-test.png) --- /task ---

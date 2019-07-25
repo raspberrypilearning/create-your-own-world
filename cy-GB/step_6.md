@@ -1,32 +1,84 @@
-## Casglu darnau arian
+## Arwyddion
 
-+ Ychwanega newidyn newydd o'r enw `arian`{:class="blockdata"} i dy brosiect.
+Fe awn ati i ychwanegu arwyddion i dy fyd i fod o gymorth i’r chwaraewr ar y daith.
 
-+ Gwna clic-dde ar giplun 'darn arian' ('coin') a dewis 'dangos'.
+Mae dy brosiect yn cynnwys corlun `arwydd croeso`:
 
-![screenshot](images/world-coins.png)
+![sgrinlun](images/world-sign.png)
 
-+ Ychwanega côd i dy ddarn arian, fel ei fod ond yn ymddangos yn ystafell 1.
+--- task --- Fe ddylai'r `arwydd croeso` ond fod yn weledol yn ystafell 1, felly fe wnawn ni ychwanegu côd i’r arwydd i sicrhau fod hyn yn digwydd:
 
-+ Ychwanega gôd i giplun dy ddarn arian, i ychwanegu 1 i dy `arian`{:class="blockdata"} unwaith maent yn cael eu casglu:
+--- hints ---
+ --- hint --- `Pan mae'r faner yn cael ei glicio`{:class="block3events"}, mewn dolen `am byth`{:class="block3control"} gwirio `os`{:class="block3control"} mai `ystafell 1`{:class="block3variables"} ac os felly `dangos`{:class="block3looks"} corlun `arwydd croeso` `fel arall`{:class="block3control"} `cuddio`{:class="block3looks"} y corlun.
+--- /hint ---
+ --- hint --- Dyma'r blociau rwyt ti eu hangen:
 
-	```blocks
-		pan fo ⚑ wedi ei glicio
-		aros hyd at <cyffwrdd [player v]?>
-		newid [coins v] gan (1)
-		stopiwch [sgriptiau eraill yn y ciplun v]
-		cuddio
-	```
+![arwydd](images/sign.png)
 
-	Mae angen y côd `stopiwch sgriptiau eraill yn y ciplun`{:class="blockcontrol"} fel bod y darn arian yn stopio ymddangos yn ystafell 1 unwaith mae'n cael ei gasglu.
+```blocks3
+<br />os <> yna 
+  
+fel arall
+end
 
-+ Bydd hefyd angen i ti ychwanegu côd fel bod newidyn dy `arian`{:class="blockdata"} yn cael ei osod i 0 ar ddechrau dy gêm.
+<(ystafell :: variables) = [1]>
 
-+ Profa dy brosiect - fe ddylai casglu dy ddarn arian newid dy sgôr i 1.
+cuddio
 
---- challenge ---
+dangos
 
-## Her: Mwy o ddarnau o arian
-Wyt ti'n gallu ychwanegu mwy o ddarnau arian i dy gêm? Mae modd iddynt fod mewn ystafelloedd gwahanol, ac fe all rhai dadrnau arian gael eu gwarchod gan elynion.
+am byth
+end
 
---- /challenge ---
+pan fo'r flag werdd yn cael ei glicio
+
+```
+
+--- /hint --- --- hint --- Dyma'r côd cyflawn:
+
+![arwydd](images/sign.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <(ystafell :: variables) = [1]> yna 
+    dangos
+  fel arall 
+    cuddio
+  end
+end
+```
+
+--- /hint --- --- /hints ---
+
+--- /task ---
+
+--- task --- Profa'r côd i weld dy `arwydd croeso` yn symud rhwng ystafelloedd. Fe ddylai'r arwydd ond fod yn weledol yn ystafell 1.
+
+![sgrinlun](images/world-sign-test.png) --- /task ---
+
+--- task --- Nid yw arwydd yn dda iawn os nad yw'n dweud unrhyw beth! Ychwanega mwy o gôd i ddangos neges os yw yr `arwydd croeso` yn cyffwrdd y `chwaraewr`:
+
+![arwydd](images/sign.png)
+
+```blocks3
+pan fo'r flag werdd yn cael ei glicio
+am byth 
+  os <(ystafell :: variables) = [1]> yna 
+    dangos
+  fel arall 
+    cuddio
+  end
+  + os <cyffwrdd (chwaraewr v) ? > yna 
+  +   dweud [Croeso! Wyt t'in gallu cyrraedd y trysor?]
+  + fel arall 
+  +   dweud []
+  + end
+end
+```
+
+--- /task ---
+
+--- task --- Profa dy `arwydd croeso` eto. Fe ddylet ti nawr weld neges pan mae'r `chwaraewr` yn cyffwrdd yr `arwydd croeso`.
+
+![sgrinlun](images/world-sign-test2.png) --- /task ---
