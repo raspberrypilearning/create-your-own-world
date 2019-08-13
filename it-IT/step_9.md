@@ -1,10 +1,10 @@
 ## Sfida: aggiungi un nemico
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Se vuoi, puoi anche aggiungere dei nemici pattugliatori al tuo gioco. Se lo sprite `player` tocca un nemico, il gioco termina.
 
-+ Your game already contains an `enemy` sprite. Aggiungi del codice allo sprite `nemico` per far sì che appaia solo nella stanza 2.
++ Il tuo gioco contiene già uno sprite `nemico`. Aggiungi del codice allo sprite `nemico` per far sì che appaia solo nella stanza 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. È più facile farlo in blocchi di codice separati. Ecco come il codice del tuo sprite `nemico` potrebbe apparire:
++ Aggiungi del codice per far muovere lo sprite `nemico` e per far terminare il gioco se lo sprite `nemico` tocca lo sprite `giocatore`. È più facile farlo in blocchi di codice separati. Ecco come il codice del tuo sprite `nemico` potrebbe apparire:
 
 ```blocks3
 when flag clicked
@@ -29,10 +29,10 @@ repeat (130)
 change x by (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Prova il tuo nuovo codice per assicurarti che: 
+    + Lo sprite `nemico` sia visibile solo nella stanza 2
+    + Il ` nemico ` pattugli la stanza
+    + Il gioco finisca se lo sprite `giocatore` tocca lo sprite `nemico`
 
 Sapresti creare un altro sprite `nemico` nella stanza 3 che pattugli su e giù attraverso lo spazio nel muro?
 
