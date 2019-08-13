@@ -1,6 +1,6 @@
 ## Cartelli
 
-Now add signs to your world to guide players on their journey.
+Aggiungiamo cartelli al tuo mondo per guidare il giocatore nel suo viaggio.
 
 Il tuo progetto contiene uno sprite `cartello di benvenuto`:
 
@@ -8,9 +8,9 @@ Il tuo progetto contiene uno sprite `cartello di benvenuto`:
 
 \--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+`Quando la bandiera verde viene cliccata`{:class="block3events"}, continua a guardare `per sempre`{:class="block3control"} `se`{:class="block3control"} la `stanza è 1`{:class="block3sensing"}, ed in quel caso mostra `cartello di benvenuto`{:class="block3control"}, `altrimenti`{:class="block3control"} `nascondi`{:class="block3looks"} lo sprite. \--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno:
 
-![sign](images/sign.png)
+![cartello](images/sign.png)
 
 ```blocks3
 <br />if &lt; &gt; then
@@ -30,9 +30,9 @@ when flag clicked
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- /hint \--- \--- hint \--- Ecco il codice completo:
 
-![sign](images/sign.png)
+![cartello](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -49,13 +49,13 @@ end
 
 \--- /task \---
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- task \--- Metti alla prova il tuo sprite `cartello di benvenuto` muovendoti tra le stanze. Il tuo cartello dovrebbe essere visibile solo nella stanza 1.
 
 ![schermata](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Aggiungi del codice per far visualizzare un messaggio se lo sprite `cartello di benvenuto` sta toccando lo sprite `giocatore`:
+\--- task \--- Un cartello non è molto utile se non dice nulla! Aggiungi del codice per far visualizzare un messaggio se lo sprite `cartello di benvenuto` sta toccando lo sprite `giocatore`:
 
-![sign](images/sign.png)
+![cartello](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -66,7 +66,7 @@ else
 hide
 end
 +if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
+say [Benvenuto! Riesci a raccogliere il tesoro?]
 else
 say []
 end
@@ -75,6 +75,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- task \--- Prova di nuovo il tuo sprite `cartello di benvenuto`. Ora dovresti vedere un messaggio quando lo sprite ` player ` tocca il ` cartello di benvenuto`.
 
 ![schermata](images/world-sign-test2.png) \--- /task \---
