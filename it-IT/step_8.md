@@ -2,20 +2,20 @@
 
 Add other people to your world who your `player` sprite can interact with.
 
-\--- task \--- Switch to the `person` sprite.
+\--- task \--- Seleziona lo sprite `persona`.
 
 ![Sprite persona](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. Questo codice è molto simile al codice che hai aggiunto al tuo sprite `cartello di benvenuto`:
+\--- task \--- Aggiungi del codice allo sprite `persona`, per far sì che la persona parli con lo sprite `giocatore`. Questo codice è molto simile al codice che hai aggiunto al tuo sprite `cartello di benvenuto`:
 
-![person](images/person.png)
+![persona](images/person.png)
 
 ```blocks3
 when flag clicked
 go to x: (0) y: (-150)
 forever
     if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
+        say [Lo sapevi che puoi attraversare le porte arancioni e gialle?]
     else
         say []
     end
@@ -24,16 +24,16 @@ end
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+Puoi anche consentire allo sprite `persona` di spostarsi aggiungendo questi due blocchi nella sezione `else`{:class="blockcontrol"} del tuo codice:
 
-![person](images/person.png)
+![persona](images/person.png)
 
 ```blocks3
 when flag clicked
 go to x: (0) y: (-150)
 forever
     if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
+        say [Lo sapevi che puoi attraversare le porte arancioni e gialle?]
     else
         say []
 +       move (1) steps
@@ -49,6 +49,6 @@ Il tuo sprite `persona` ora si muoverà, ma si fermerà per parlare con lo sprit
 
 ![schermata](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- task \--- Aggiungi il codice alla tua nuova ` persona ` in modo che lo sprite appaia solo nella stanza 1. Il codice che hai bisogno è esattamente lo stesso che rende visibile lo sprite `cartello` solo nella stanza 1.
 
 Assicurati di testare il tuo nuovo codice. \--- /task \---
