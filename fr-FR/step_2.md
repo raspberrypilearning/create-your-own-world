@@ -1,76 +1,127 @@
-## Coder votre joueur 
+## Déplace le sprite du joueur
 
-Commençons par créer un personnage qui pourra se déplacer dans votre monde. 
+Commence par créer un sprite `joueur` qui peut se déplacer dans ton monde.
 
-+ Commencez un nouveau project de Scratch et supprimez le lutin de chat pour que votre projet soit vide. Vous pouvez trouver l'éditeur scratch en ligne à  <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
+--- task ---
 
-+ Pour ce projet, vous devriez trouver un dossier "ressources projet" contenant toutes les images dont vous aurez besoin. Assurez-vous de bien l'avoir et contactez le leader de votre club si vous ne le trouvez pas.
+Ouvre le projet de démarrage Scratch «Créez ton propre monde».
 
-	![screenshot](images/world-resources.png)
+**En ligne**: ouvre le projet de démarrage en ligne à [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-+ Ajoutez l'image "Salle1.png" comme arrière-plan et utilisez l'image "Joueur1.png" comme photo. Si vous ne trouvez pas ces images, dessinez-les vous même! Votre projet devrait maintenant ressembler à ceci:
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-	![screenshot](images/world-player.png)
+**Hors ligne**: télécharge le projet de démarrage [rpf.io/p/fr/create-your-own-world-go](http://rpf.io/p/fr-FR/create-your-own-world-go){:target="_blank"}, puis ouvre-le à l'aide de l'éditeur hors connexion. Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-+ Utilisons les touches directionnelles pour faire bouger le joueur. Lorsque le joueur appuie sur le flèche du haut, le personnage doit monter. Cela se fait en changeant les coordonnées Y. Ajoutez ce code au joueur:
+![capture d'écran](images/world-starter.png)
 
-	```blocks
-		quand le drapeau vert pressé
-		répéter indéfiniment
- 			si <touche [flèche haut v] pressée?> alors
-      			ajouter (2) à y
-  			fin
-		fin
-	```
+--- /task ---
 
-+ Testez votre joueur en cliquant le drapeau et en maintenant la flèche du haut. Votre joueur monte-t-il?
+Appuyer sur les touches de flèches doit déplacer le sprite `joueur`. Lorsque tu appuies sur la flèche vers le haut, le sprite `joueur` doit remonter sur la scène en réponse.
 
-	![screenshot](images/world-up.png)
+--- task ---
 
-+ Pour que votre joueur puisse bouger vers la gauche, vous devez ajouter un nouveau code `if`{:class="blockcontrol"}, ce qui modifiera la coordonnée X:
+Ajoute ce code au sprite `joueur`:
 
-	```blocks
-		quand le drapeau vert pressé
-		répéter indéfiniment
- 	  		si <touche [flèche haut v] pressée?> alors
-      			ajouter (2) à y
-   			fin
-   			si <touche [flèche gauche v] pressée?> alors
-      			ajouter (-2) à x
-   			fin
-		fin
-	```
+![joueur](images/player.png)
 
-## Défi : Bouger dans toutes les directions
-Pouvez-vous ajouter du codage supplémentaire à votre joueur pour qu'il puisse se déplacer vers le haut, le bas, la gauche et la droite? Utilisez le code que l'on vous a donné pour faciliter la tâche!
+```blocks3
+lorsque le drapeau est cliqué
+répéter indéfiniment
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Clique sur le drapeau, puis maintiens la flèche vers le haut. Est-ce que le sprite `joueur` monte vers le haut?
+
+![capture d'écran](images/world-up.png)
+
+--- /task ---
+
+--- task ---
+
+Pour déplacer le sprite `joueur` vers la gauche, tu dois ajouter un autre bloc `si`{:class="block3control"} avec le code similaire:
+
+![joueur](images/player.png)
+
+```blocks3
+lorsque le drapeau est cliqué 
+répéter indéfiniment
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
++  si <touche (flèche gauche v) pressée ? > alors
+        s'orienter en direction de (-90)
+        avancer de (4) pas
+    end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Ajoute plus de code à ton sprite `joueur` pour qu'il puisse se déplacer vers le bas et à droite également. Utilise le code que tu as déjà pour t'aider.
+
+--- hints ---
 
 
-+ Testez votre joueur de nouveau et vous verrez qu'il aura la capacité de marcher à travers les murs gris clairs.
-	![screenshot](images/world-walls.png)
+--- hint ---
 
-+ Pour remédier à ce problème, vous devez bouger le joueur et le faire revenir sur ses pas s'il touche un mur gris clair. Voici le code qui vous permettra d'y parvenir :
+Pour te déplacer vers le haut, tu pointes le sprite `joueur` dans la direction `0` degrés. Que dois-tu faire pour déplacer le sprite vers le bas?
 
-	```blocks
-		quand le drapeau vert pressé
-		répéter indéfiniment
-   			si <touche [flèche haut v] pressée?> alors
-     			ajouter (2) à y
-      			si <couleur [#BABABA] touchée?> alors
-         			ajouter (-2) à y
-      			fin
-   			fin
-		fin
-	```
+Pour te déplacer à gauche, pointe le sprite dans la direction `90` degrés. Que dois-tu faire pour déplacer le sprite correctement?
 
-	Remarquez que le nouveau code `if`{:class="blockcontrol"}`touching color`{:class="blocksensing"} est situé dans le code `if`{:class="blockcontrol"}`key [up arrow]`{:class="blocksensing"}
+--- /hint ---
 
-+ Testez ce nouveau code en deplaçant votre joueur vers le mur - vous ne devriez plus pouvoir le traverser.
+--- hint ---
 
-	![screenshot](images/world-walls-test.png)
+Tu dois changer ces deux blocs:
 
-+ Faisons la même chose pour la commande de flèche gauche en reculant si le joueur touche un mur. Le code de votre joueur devrait ressembler à ceci :
+![joueur](images/player.png)
 
-	![screenshot](images/world-wall-code.png)
+```blocks3
+< touche ( v) pressée ?>
 
-## Défi : Régler les mouvements de votre joueur 
-Ajoutez du codage à votre joueur pour qu'il ne puisse plus marcher à travers les murs dans chaque direction. Utilisez le code que vous avez déjà pour faciliter la tâche!
+s'orienter dans la direction ()
+```
+
+Duplique le code qui fait que le sprite `joueur` progresse vers le haut et modifie ces deux blocs pour faire descendre le sprite. Duplique à nouveau le code et modifie-le pour que le sprite se déplace vers la droite.
+
+--- /hint --- --- hint --- Voici a quoi devrait ressembler ton code:
+
+![joueur](images/player.png)
+
+```blocks3
+lorsque le drapeau est cliqué
+répéter indéfiniment
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
+    si <touche (flèche gauche v) pressée ? > alors
+        s'orienter en direction de (-90)
+        avancer de (4) pas
+
+
++ si <touche (flèche vers le bas v) pressée ? > alors
+        s'orienter en direction de (180)
+        avancer de (4) pas
+    end
++ si <touche [flèche droite v] pressée ? > alors
+        s'orienter en direction de (90)
+        avancer de (4) pas
+    end
+end
+```
+
+--- /hint --- --- /hints ---
+
+--- /task ---

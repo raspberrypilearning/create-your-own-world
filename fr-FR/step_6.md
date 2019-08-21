@@ -1,28 +1,83 @@
-## Collecter des pièces
+## Panneaux
 
-+ Ajoutez une nouvelle variable appelée `pièce`{:class="blockdata"} à votre projet.
+Ajoute maintenant des signes à ton monde pour guider les joueurs dans leur voyage.
 
-+ Faites un clic droit sur le lutin de piece et sélectionnez 'show'
+Ton project inclut un `panneau de bienvenue` sprite:
 
-![screenshot](images/world-coins.png)
+![capture d'écran](images/world-sign.png)
 
-+ Ajoutez du codage à votre pièce pour qu'elle n'apparaisse que dans la première salle.
+--- task --- Le sprite `panneau de bienvenue` ne devrait être visible que dans la salle 1, alors ajoute un code au sprite pour s'assurer que cela se passe:
 
-+ Ajoutez du codage à votre 'lutin' de pièce pour ajouter '1' a votre nombre de pièces dès que la pièce a été collectée :
+--- hints ---
+ --- hint --- `Lorsque le drapeau est cliqué`{:class="block3events"}, dans une boucle `répéter indéfiniment`{:class="block3control"}, vérifie `si`{:class="block3control"} la `salle est la première`{:class="block3variables"} et dans ce cas, `affiche`{:class="block3looks"} le sprite`panneau de bienvenue`, `sinon`{:class="block3control"} `cache`{:class="block3looks"} le sprite.
+--- /hint ---
+ --- hint --- Voici les blocs que tu as besoin:
 
-	```blocks
-		quand le drapeau vert pressé
-		attendre jusqu’à <[player v] touché?>
-		ajouter à [coins v] (1)
-		stop [autres scripts du lutin v]
-		cacher
-	```
+![panneau](images/sign.png)
 
-	Le code `stop other scripts in sprite`{:class="blockcontrol"} est nécessaire pour que la pièce n'apparaisse plus dans la première salle lorsqu'elle a été collectée.
+```blocks3
+<br />si &lt; &gt; alors
+sinon
+end
 
-+ Il vous faut maintenant quelques lignes de code pour que le nombre de `pièces`{:class="blockdata"} soit à 0 au début du jeu.
+&lt; (salle :: variables) = [1] &gt;
 
-+ Testez votre projet - Ammasser des pièces devrait changer votre score à 1.
+cacher
 
-## Défi : Plus de pièces
-Pouvez-vous ajouter plus de pièces dans votre jeu ? Elles peuvent se trouver dans des salles différentes et certaines pièces peuvent même être gardées par des des ennemis qui font la patrouille !
+montrer
+
+répéter indéfiniment
+end
+
+lorsque le drapeau est cliqué
+
+```
+
+--- /hint --- --- hint --- Voici le code complet:
+
+![panneau](images/sign.png)
+
+```blocks3
+lorsque le drapeau est cliqué 
+répéter indéfiniment
+    si < (salle :: variables) = [1] > alors
+        montrer
+    sinon
+        cacher
+end
+end
+```
+
+--- /hint --- --- /hints ---
+
+--- /task ---
+
+--- task --- Teste le code de ton sprite `panneau de bienvenue` en passant d'une salle à une autre. Le panneau ne devrait être visible que dans la salle 1.
+
+![capture d'écran](images/world-sign-test.png) --- /task ---
+
+--- task --- Un panneau n'est pas très bon s'il ne dit rien! Ajoute du code supplémentaire pour afficher un message si le sprite `panneau de bienvenue` touche le sprite `du joueur`:
+
+![panneau](images/sign.png)
+
+```blocks3
+lorsque le drapeau est cliqué 
+répéter indéfiniment
+si < (salle :: variables) = [1] > alors
+    montrer
+sinon
+    cacher
+end
++ si < touche le (joueur v)? > alors
+dire [Bienvenue! Peux-tu aller au trésor?]
+sinon
+dire []
+end
+end
+```
+
+--- /task ---
+
+--- task --- Teste à nouveau ton sprite `panneau de bienvenue`. Tu dois maintenant voir un message lorsque le sprite `joueur` touche le sprite `panneau de bienvenue`.
+
+![capture d'écran](images/world-sign-test2.png) --- /task ---

@@ -1,36 +1,42 @@
-## Coder votre monde
+## Murs solides
 
-Faisons en sorte que votre joueur puisse passer à travers les portes et dans d'autres salles!
+--- task --- Teste à nouveau ton sprite `joueur`. Vois-tu qu'il peut traverser les murs gris clair.
 
-+ Ajoutez 2 arrière-plans à votre monde ('room2.png' et 'room3.png'), vous devriez avoir 3 arrière-plans au total. Assurez-vous qu'ils sont dans le bon ordre - sinon, cela compliquera les choses par la suite.
+![capture d'écran](images/world-walls.png) --- /task ---
 
-	![screenshot](images/world-backdrops.png)
+--- task --- Pour résoudre ce problème, tu dois faire reculer le sprite `joueur` s'il touche un mur gris clair. Voici le code que tu dois ajouter dans ton bloc `répéter indéfiniment`{:class="block3control"} sous les blocs de direction:
 
-+ Il vous faut une nouvelle variable appellée `salle`{:class="blockdata"} afin de savoir dans quelle pièce votre joueur se trouvera.
+![joueur](images/player.png)
 
-	![screenshot](images/world-room.png)
+```blocks3
+lorsque le drapeau est cliqué
+répéter indéfiniment 
+    si <touche (flèche haut v) pressée ? > alors
+        s'orienter en direction de (0)
+        avancer de (4) pas
+    end
+si <touche (flèche de gauche v) pressée ? > alors
+        s'orienter en direction de (-90)
+        avancer de (4) pas
+    end
+        si < touche (flèche du bas v) pressée ? > alors
+        s'orienter en direction de (-180)
+        avancer de (4) pas
+    end
+        si <touche [flèche de droite v] pressée? > alors
+        s'orienter en direction de (90)
+        avancer de (4) pas
+    end
++ si < couleur [#BABABA] touchée ? > alors
+    avancer de (-4) pas
+    end
+end
+```
 
-+ Lorsque le joueur touche la porte orange dans la première pièce, le prochain arrière-plan devrait apparaître et le personnage devrait se retrouver sur le côté gauche de l'écran. Voici le code dont vous aurez besoin - celui-ci devrait se retrouver au sein de la boucle `forever`{:class="blockcontrol"} de ton joueur :
+--- /task ---
 
-	```blocks
-	si <couleur [#F2A24A] touchée?> alors
-   	basculer sur l'arrière-plan [arrière-plan suivant v]
-   	aller à x:(-200) y:(0)
-   	ajouter à [room v] (1)
-	fin
-	```
+--- task ---
 
-+ Ajoutez ce code au début du code de votre joueur (avant la boucle `forever`{:class="blockcontrol"}) pour vous assurer que tout soit remis a zéro lorsque le drapeau est cliqué.
+Essaye de faire en sorte que le sprite `joueur` passe à travers un mur. Si ton nouveau code fonctionne, cela ne devrait pas être possible.
 
-	```blocks
-	mettre [room v] à (1)
-	aller à x:(-200) y:(0)
-	basculer sur l'arrière-plan [room1 v]
-	```
-
-+ Cliquez sur le drapeau et positionnez votre joueur sur la porte orange. Votre personnage se déplace-t-il sur l'autre écran? La variable `room`{:class="blockdata"} change-t-elle à 2?
-
-	![screenshot](images/world-room-test.png)
-
-## Défi : Vous déplacer dans la pièce précédente
-Pouvez-vous déplacer votre joueur dans la pièce précédente lorsqu'il touche la porte jaune? Rappellez-vous que ce code sera _très_ similaire à celui que vous avez déjà ajouté pour le faire déplacer dans la pièce suivante.
+![capture d'écran](images/world-walls-test.png) --- /task ---

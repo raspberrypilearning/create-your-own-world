@@ -1,0 +1,26 @@
+---
+hero_image: images/banner.png
+title: Δημιούργησε τον δικό σου κόσμο
+description: Δημιούργησε το δικό σου παιχνίδι περιπέτειας ανοιχτού κόσμου
+listed: true
+copyedit: false
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - title: Εισαγωγή
+  - title: Μετακίνησε τον παίκτη
+  - title: Συμπαγείς τοίχοι
+  - title: Περιηγήσου στον κόσμο σου
+  - title: "Πρόκληση: Επίστρεψε στην προηγούμενη αίθουσα"
+    challenge: true
+  - title: Σημάδια
+  - title: "Πρόκληση: Θησαυρός!"
+    challenge: true
+  - title: Άνθρωποι
+  - title: "Πρόκληση: Εχθροί"
+    challenge: true
+  - title: Μάζεψε νομίσματα
+  - title: Πόρτες και κλειδιά
+  - title: "Πρόκληση: Επέκτεινε τον κόσμο σου"
+    challenge: true
+  - title: "Τι υπάρχει στη συνέχεια;"
