@@ -16,8 +16,8 @@ steps:
   - title: Σημάδια
   - title: "Πρόκληση: Θησαυρός!"
     challenge: true
-  - title: Άνθρωποι
-  - title: "Πρόκληση: Εχθροί"
+  - title: Άτομα
+  - title: "Πρόκληση: Πρόσθεσε έναν εχθρό"
     challenge: true
   - title: Μάζεψε νομίσματα
   - title: Πόρτες και κλειδιά
