@@ -1,52 +1,70 @@
+--- no-print ---
+
+Ceci est la version **Scratch 3** du projet. Il existe également une version [Scratch 2 du projet](https://projects.raspberrypi.org/fr-FR/projects/create-your-own-world-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
-Ce projet vous permettra d'apprendre comment créer votre propre monde pour un jeu d'aventure.
+Dans ce projet, tu apprendras à créer ton propre monde de jeu d’aventure avec plusieurs niveaux à explorer.
+
+### Ce que tu feras
+
+--- no-print ---
+
+Clique sur le drapeau vert pour démarrer. Utilise les flèches pour déplacer ton personnage dans son monde.
 
 <div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
- <img src="images/world-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
+
+--- /no-print ---
+
+--- print-only ---
+
+Tu utiliseras les touches fléchées pour déplacer ton personnage dans le monde. ![showcase.png](images/showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notes pour le leader du club
+title: Ce qu'il te faut
 ---
 
-## Introduction:
-Dans ce projet, les enfants apprendront à faire leur propre jeu ouvert, se servant de tous les concepts de scratch et les compétences qui ont été apprises dans des projets précédents.
+### Matériel informatique
 
-## Ressources
-Vous pouvez trouver une version complétée de ce projet <a href="http://scratch.mit.edu/projects/44942820/#editor">online</a>, Ou il peut être téléchargé en cliquant sur le lien ' Télécharger les Matériels du Projet' pour ce projet, qui contient :
+- Un ordinateur capable d'exécuter Scratch 3
 
-+ CreateYourOwnWorld.sb2
+### Logiciels
 
-Il y a aussi une version de ce projet avec les ressources externes préchargées. Ceci est disponible en ligne à [jumpto.cc/dots-resources](http://jumpto.cc/dots-resources), Ou dans les matériels téléchargeables du projet, qui contiennent :
+- Scratch 3 ([en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff))
 
-+ CreateYourOwnWorldResources.sb2
+### Téléchargements
 
-Ce lien inclut aussi un dossier de ' les Ressources du Projet ', qui contient des images que les enfants devront compléter pour ce projet. Assurez-vous que chaque enfant a l'accès à une copie de ces ressources.
+Tu peux trouver tout ce dont tu as besoin pour mener à bien ce projet à l'adresse [rpf.io/p/fr/create-your-own-world-go](https://rpf.io/p/fr-FR/create-your-own-world-go).
 
-Ressources de projet :
-+ player.png;
-+ room1/2/3.png;
-+ sign.png;
-+ chest.png;
-+ person.png;
-+ enemy.png;
-+ coins.png;
-+ door-blue/key-blue.png.
+--- /collapse ---
 
+--- collapse ---
+---
+title: Ce que tu vas apprendre
+---
 
-## Objectifs d'apprentissage
-+ Ce projet consolide l'apprentissage de toutes les compétences de programmation apprises.
+- Utiliser la sélection conditionnelle pour réagir aux pressions sur les touches
+- Utiliser des variables pour stocker l'état d'un jeu
+- Utiliser la sélection conditionnelle basée sur la valeur d'une variable
+- Utiliser des listes pour stocker des données
 
-## Défis
-+ "Déplaçant dans toutes les directions" - en haut, en bas, contrôles de joueur gauches et droits;
-+ "La réparation du mouvement de votre joueur" - la non permission du joueur de se déplacer dans des murs;
-+ "Déplacement vers la chambre précédente" - reculent de une chambre en touchant une porte jaune;
-+ "Trésor!" - consolidation d'ajout d'objets au monde;
-+ "Amélioration de votre personne" - consolidation d'ajout d'objets au monde;
-+ "Plus d'ennemis" - ajoutez des objets qui ce déplacent et mortels;
-+ "Créez votre propre monde" - la tâche de consolidation ouverte.
+--- /collapse ---
+
+--- collapse ---
+---
+title: Informations supplémentaires pour les éducateurs
+---
+
+Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [version imprimable](https://projects.raspberrypi.org/fr-FR/projects/create-your-own-world/print){:target="_blank"}.
+
+Vous pouvez trouver le [projet terminé ici](https://rpf.io/p/fr-FR/create-your-own-world-get){:target="_blank"}.
 
 --- /collapse ---

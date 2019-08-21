@@ -1,25 +1,26 @@
+---
 hero_image: images/create-your-own-world.png
-title: Crées ton propre monde
-description: Apprends à programmer ton propre monde pour un jeu d'aventure.
-original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
-theme: orange
-duration: 2
+title: Crée ton propre monde
+description: Crée ton propre monde pour un jeu d'aventure
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
-steps: 
-- title: Introduction
-- title: Coder votre joueur
-- title: Coder votre monde
-- title: Signalisations
-- title: Les gens
-- title: Collecter des pièces
-- title: Portes et clés
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - title: Introduction
+  - title: Déplace le sprite du joueur
+  - title: Murs solides
+  - title: Déplace-toi dans ton monde
+  - title: "Défi: revenir à la salle précédente"
+    challenge: true
+  - title: Panneaux
+  - title: "Défi: trésor!"
+    challenge: true
+  - title: Les personnes
+  - title: "Défi: ajoute un ennemi"
+    challenge: true
+  - title: Collecter des pièces
+  - title: Les portes et les clés
+  - title: "Défi: étends ton monde"
+    challenge: true
+  - title: "Quelle est l'étape suivante?"
