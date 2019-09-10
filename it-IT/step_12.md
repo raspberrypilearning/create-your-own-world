@@ -2,7 +2,7 @@
 
 Ora puoi continuare a creare il tuo mondo! Ecco alcune idee:
 
-+ Aggiungi più monete al tuo gioco in stanze diverse. Puoi lasciare che alcune monete siano sorvegliate dai nemici di pattuglia?
++ Aggiungi più monete al tuo gioco in stanze diverse. Puoi lasciare che alcune monete siano sorvegliate da pattuglie avversarie?
 + Cambia gli sfondi del tuo gioco
 + Aggiungi suoni e musica al tuo gioco
 + Aggiungi più persone, nemici, messaggi e monete
