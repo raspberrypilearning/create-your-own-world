@@ -8,9 +8,9 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Życzenia urodzinowe
+    title: Wprowadzenie
   - 
-    title: Przenieś sprite gracza
+    title: Przesuń duszka gracza
   - 
     title: Solidne ściany
   - 
@@ -24,16 +24,16 @@ steps:
     title: "Wyzwanie: skarb!"
     challenge: true
   - 
-    title: Postacie
+    title: Osoby
   - 
     title: "Wyzwanie: wrogowie"
     challenge: true
   - 
-    title: Zbierać monety
+    title: Zbieraj monety
   - 
     title: Drzwi i klucze
   - 
     title: "Wyzwanie: rozwiń swój świat"
     challenge: true
   - 
-    title: "Co następne?"
+    title: "Co dalej?"
