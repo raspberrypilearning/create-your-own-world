@@ -1,6 +1,6 @@
 ## Poruszaj się po swoim świecie
 
-Gospoda `graczy` powinna móc przejść przez drzwi do innych pomieszczeń.
+Duszek `gracza` powinien móc przejść przez drzwi do innych pomieszczeń.
 
 Twój projekt zawiera tła dla dodatkowych pokoi:
 
@@ -8,102 +8,102 @@ Twój projekt zawiera tła dla dodatkowych pokoi:
 
 \--- task \---
 
-Utwórz nowy „dla wszystkich ikonek” zmiennej o nazwie `pokój`{: class = „block3variables”}, aby śledzić, które pokojach `gracz` Sprite jest w.
+Utwórz nową zmienną 'dla wszystkich duszków' o nazwie `pokój`{:class="block3variables"}, aby śledzić w którym pomieszczeniu znajduje się duszek `gracza`.
 
 [[[generic-scratch3-add-variable]]]
 
 ![zrzut ekranu](images/world-room.png) \--- /task \---
 
-\--- task \--- Kiedy `gracz` sprite dotknie pomarańczowych drzwi w pierwszym pokoju, gra powinna wyświetlić następne tło, a sprite `gracza` powrócić na lewą stronę stołu montażowego. Dodaj ten kod wewnątrz pętli `gracza` sprite'a ``{: class = "block3control"}:
+\--- task \--- Kiedy duszek `gracz` dotknie pomarańczowych drzwi w pierwszym pomieszczeniu, kolejne tło powinno być wyświetlone, a duszek `gracz` powinien wrócić na lewą stronę sceny. Dodaj ten kod dla duszka `gracza` wewnątrz pętli `zawsze`{:class="block3control"}:
 
 ![gracz](images/player.png)
 
 ```blocks3
-kiedy flaga kliknęła
-zawsze
-    jeśli naciśnięty został <przycisk (strzałka w górę v)? > to
-        punkt w kierunku (0)
-        ruch (4) kroki
+kiedy kliknięto zieloną flagę
+zawsze 
+    jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
+        ustaw kierunek na (0)
+        przesuń o (4) kroki
     koniec
-    jeśli naciśnięto <przycisk (lewa strzałka v)? > następnie
-        punkt w kierunku (-90)
-        ruch (4) kroki
+    jeżeli <klawisz (strzałka w lewo v) naciśnięty? > to
+        ustaw kierunek na (-90)
+        przesuń o (4) kroki
     koniec
-        jeśli naciśnięto <przycisk (strzałka w dół v)? > następnie
-        punkt w kierunku (-180)
-        ruch (4) kroki
+        jeżeli <klawisz (strzałka w dół v) naciśnięty? > to
+        ustaw kierunek na (-180)
+        przesuń o (4) kroki
     koniec
-        jeśli naciśnięty został <przycisk [prawa strzałka v]? > to
-        punkt w kierunku (90)
-        ruch (4) kroki
+        jeżeli <klawisz [strzałka w prawo v] naciśnięty? > to
+        ustaw kierunek na (90)
+        przesuń o (4) kroki
     koniec
-    jeśli < dotyka koloru [#BABABA]? > następnie
-    ruch (-4) kroki
+    jeżeli < dotyka koloru [#BABABA]? > to
+    przesuń o (-4) kroki
     koniec
-+ jeśli < dotyka kolor [# F2A24A] > następnie
++   jeżeli < dotyka koloru [#F2A24A] > to
     przełącz tło na (następne tło v)
-    przejdź do x: (-200) Y: (0)
-    zmień [pokój v] przez koniec (1)
-    końca
-
+    idź do x: (-200) y: (0)
+    zmień [pokój v] o (1)
+    koniec
+koniec
 ```
 
 \--- /task \---
 
-\--- task \--- Za każdym razem, gdy gra się rozpocznie, należy zresetować pomieszczenie, pozycję postaci i tło.
+\--- task \--- Za każdym razem, gdy gra się rozpoczyna, pokój, pozycja postaci i tło muszą być resetowane.
 
-Dodaj kod do **rozpocznij** od `kodu` duszków powyżej `pętli`{: class = "block3control"}, aby zresetować wszystko po kliknięciu flagi:
+Dodaj ten kod na **początku** kodu twojego duszka `gracza` powyżej pętli `zawsze`{:class="block3control"}, aby zresetować wszystko po kliknięciu flagi:
 
-\--- wskazówki \--- \--- wskazówka \--- Kiedy gra się rozpoczyna:
+\--- hints \--- \--- hint \--- Kiedy gra się rozpoczyna:
 
-+ Wartość `room`{: class = "block3variables"} powinna być ustawiona na `1`{: class = "block3variables"}
-+ `backdrop`{: class = "block3looks"} powinno być ustawione na `room1`{: class = "block3looks"}
-+ Pozycja ikonki `gracza` powinna być ustawiona na `x: -200 y: 0`{: class = "block3motion"} \--- / wskazówka \--- \--- podpowiedź \--- Tutaj są dodatkowe bloki, których potrzebujesz:
++ Wartość zmiennej `pokój`{:class="block3variables"} powinna być ustawiona na `1`{:class="block3variables"}
++ `Tło`{:class="block3looks"} powinno być ustawione na `pokój1`{:class="block3looks"}
++ Pozycja duszka `gracz` powinna być ustawiona na `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Tutaj są dodatkowe bloki, których potrzebujesz:
 
 ![gracz](images/player.png)
 
 ```blocks3
-przejdź do x: (-200) y: (0)
+idź do x: (-200) y: (0)
 
 ustaw [pokój v] na (1)
 
 przełącz tło na (pokój1 v)
 ```
 
-\--- / hint \--- \--- hint \--- Oto, jak powinien wyglądać ukończony skrypt:
+\--- /hint \--- \--- hint \--- Oto, jak powinien wyglądać ukończony skrypt:
 
 ![gracz](images/player.png)
 
 ```blocks3
-kiedy flaga kliknęła
-+ ustaw [pokój v] na (1)
-+ przejdź do x: (-200) y: (0)
-+ przełącz tło na (pokój1 v)
-zawsze
-    jeśli <klawisz (strzałka w górę v) naciśnięty ? > to
-        punkt w kierunku (0)
-        ruch (4) kroki
+kiedy kliknięto zieloną flagę
++ustaw [pokój v] na (1)
++Idź do x: (-200) y: (0)
++zmień tło na (pokój1 v)
+zawsze 
+    jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
+        ustaw kierunek na (0)
+        przesuń o (4) kroki
     koniec
-    jeśli naciśnięto <przycisk (lewa strzałka v)? > następnie
-        punkt w kierunku (-90)
-        ruch (4) kroki
+    jeżeli <klawisz (lewa strzałka v) naciśnięty? > to
+        ustaw kierunek na (-90)
+        przesuń o (4) kroki
     koniec
-        jeśli naciśnięto <przycisk (strzałka w dół v)? > następnie
-        punkt w kierunku (-180)
-        ruch (4) kroki
+        jeżeli <klawisz (strzałka w dół v) naciśnięty? > to
+        ustaw kierunek na (-180)
+        przesuń o (4) kroki
     koniec
-        jeśli naciśnięty został <przycisk [prawa strzałka v]? > to
-        punkt w kierunku (90)
-        ruch (4) kroki
+        jeżeli <klawisz [strzałka w prawo v] naciśnięty? > to
+        ustaw kierunek na (90)
+        przesuń o (4) kroki
     koniec
-    jeśli < dotyka koloru [#BABABA]? > następnie
-    ruch (-4) kroki
+    jeżeli < dotyka koloru [#BABABA]? > to
+    przesuń o (-4) kroki
     koniec
-    jeśli < dotyka kolor [# F2A24A] > następnie
+    jeżeli < dotyka koloru [#F2A24A] > to
     przełącz tło na (następne tło v)
-    przejdź do x: (-200) Y: (0)
-    zmiana [pokój v ] przez (1)
-koniec
+    idź do x: (-200) y: (0)
+    zmień [pokój v] o (1)
+    koniec
 koniec
 ```
 
@@ -111,6 +111,6 @@ koniec
 
 \--- /task \---
 
-\--- task \--- Kliknij flagę, a następnie przesuń swój `duszek` gracza, aż dotknie pomarańczowych drzwi. Czy sprite przesuwa się do następnego ekranu? Czy zmienna `room`{: class = "block3variables"} zmienia się na `2`?
+\--- task \--- Kliknij flagę, a następnie przesuń swój duszek `gracza`, aż dotknie pomarańczowych drzwi. Czy duszek przechodzi do następnego ekranu? Czy zmienna `pokój`{:class="block3variables"} zmienia się na `2`?
 
 ![zrzut ekranu](images/world-room-test.png) \--- /task \---
