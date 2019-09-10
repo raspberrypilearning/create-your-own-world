@@ -1,6 +1,6 @@
 ## Segnali
 
-Lo sprite `player` dovrebbe essere in grado di camminare attraverso le porte in altre stanze.
+Lo sprite `player` dovrebbe essere in grado di raggiungere altre stanze attraversando le porte.
 
 Il tuo progetto contiene sfondi per ulteriori stanze:
 
@@ -8,36 +8,36 @@ Il tuo progetto contiene sfondi per ulteriori stanze:
 
 \--- task \---
 
-Crea una nuova variabile valida 'per tutti gli sprite' chiamata `stanza`{: class="blockdata"}, per definire in quale stanza si trova lo sprite `player`.
+Crea una nuova variabile valida 'per tutti gli sprite' chiamata `stanza`{:class="blockdata"}, per definire in quale stanza si trova lo sprite `player`.
 
 [[[generic-scratch3-add-variable]]]
 
 ![schermata](images/world-room.png) \--- /task \---
 
-\--- task \--- Quando lo sprite `player` tocca la porta arancione nella prima stanza, bisogna rendere visibile lo sfondo successivo, e lo sprite `player` dove tornare sul lato sinistro della scena. Aggiungi questo codice all'interno del ciclo `forever`{:class="blockcontrol"} dello sprite `player`:
+\--- task \--- Quando lo sprite `player` tocca la porta arancione nella prima stanza, bisogna rendere visibile lo sfondo successivo, e lo sprite `player` deve tornare sul lato sinistro dello stage. Aggiungi questo codice all'interno del ciclo `per sempre`{:class="blockcontrol"} dello sprite `player`:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
+quando si clicca sulla bandiera verde
+per sempre 
+  se <tasto (freccia su v) premuto? > allora 
+    punta in direzione (0)
+    fai (4) passi
+  end
+  se <tasto (freccia sinistra v) premuto? >allora 
+    punta in direzione (-90)
+    fai (4) passi
+  end
+  se <tasto (freccia giu v) premuto? >allora 
+    punta in direzione (-180)
+    fai (4) passi
+  end
+  se <tasto [freccia destra v] premuto? > allora 
+    punta in direzione (90)
+    fai (4) passi
+  end
+  se < sta toccando il colore [#BABABA]? > then
     move (-4) steps
     end
 +   if < touching color [#F2A24A] > then
@@ -52,22 +52,22 @@ end
 
 \--- task \--- Ogni volta che inizia il gioco, la stanza, la posizione del personaggio e lo sfondo devono essere ripristinati.
 
-Aggiungi questo codice **all'inizio** del codice del tuo sprite `player` prima del ciclo `forever`{:class="blockcontrol"}, per assicurarti che tutto venga ripristinato quando viene cliccata la bandierina verde:
+Aggiungi questo codice **all'inizio** del codice del tuo sprite `player` prima del ciclo `per sempre`{:class="blockcontrol"}, per assicurarti che tutto venga ripristinato quando viene cliccata la bandierina verde:
 
 \--- hints \--- \--- hint \--- All'inizio del gioco:
 
 + Il valore di `stanza`{:class="block3variabili"} dovrebbe essere impostato a `1`{:class="block3variabili"}
-+ Lo `sfondo` {: class = "block3looks"} dovrebbe essere impostato su ` room1 ` {: class = "block3looks"}
-+ La posizione del ` giocatore ` dovrebbe essere impostato su ` x: -200 y: 0 ` {: class = "block3motion"} \--- /hint \--- \--- hint \--- Ecco i blocchi extra di cui hai bisogno:
++ Lo `sfondo` {:class="block3looks"} dovrebbe essere impostato su ` stanza1 ` {:class="block3looks"}
++ La posizione del `player` dovrebbe essere impostato su ` x: -200 y: 0 ` {:class="block3motion"} \--- /hint \--- \--- hint \--- Ecco i blocchi extra di cui hai bisogno:
 
 ![player](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+vai a x: (-200) y: (0)
 
-set [room v] to (1)
+porta [stanza v] a (1)
 
-switch backdrop to (room1 v)
+passa allo sfondo (stanza1 v)
 ```
 
 \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice:
@@ -75,35 +75,35 @@ switch backdrop to (room1 v)
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
+quando si clicca sulla bandiera verde
++porta [stanza v] a (1)
++vai a x: (-200) y: (0)
++passa allo sfondo (stanza1 v)
+per sempre 
+  se <tasto (freccia su v) premuto? > allora 
+    punta in direzione (0)
+    fai (4) passi
+  end
+  se <tasto (freccia sinistra v) premuto? >allora 
+    punta in direzione (-90)
+    fai (4) passi
+  end
+  se <tasto (freccia giu v) premuto? >allora 
+    punta in direzione (-180)
+    fai (4) passi
+  end
+  se <tasto [freccia destra v] premuto? > allora 
+    punta in direzione (90)
+    fai (4) passi
+  end
+  se < sta toccando il colore [#BABABA]? > allora 
+    fai (-4) passi
+  end
+  se < sta toccando il colore [#F2A24A]> allora 
+    passa allo sfondo (next backdrop v)
+    vai a x: (-200) y: (0)
+    cambia [stanza v] di (1)
+  end
 end
 ```
 
