@@ -1,6 +1,6 @@
 ## Persone
 
-Add other people to your world who your `player` sprite can interact with.
+Aggiunge persone al tuo mondo con le quali il tuo sprite `player` possa interagire.
 
 \--- task \--- Seleziona lo sprite `persona`.
 
@@ -14,7 +14,7 @@ Add other people to your world who your `player` sprite can interact with.
 when flag clicked
 go to x: (0) y: (-150)
 forever
-    if < touching (player v)? > then
+    if < touching (giocatore v)? > then
         say [Lo sapevi che puoi attraversare le porte arancioni e gialle?]
     else
         say []
@@ -24,21 +24,21 @@ end
 
 \--- /task \---
 
-Puoi anche consentire allo sprite `persona` di spostarsi aggiungendo questi due blocchi nella sezione `else`{:class="blockcontrol"} del tuo codice:
+Puoi anche consentire allo sprite `persona` di spostarsi aggiungendo questi due blocchi nella sezione `altrimenti`{:class="blockcontrol"} del tuo codice:
 
 ![persona](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Lo sapevi che puoi attraversare le porte arancioni e gialle?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
+quando si clicca sulla bandiera verde
+vai a x: (0) y: (-150)
+per sempre 
+  se < sta toccando (giocatore v)? > allora 
+    dire [Lo sapevi che puoi attraversare le porte arancioni e gialle?]
+  altrimenti 
+    dire []
+    + fai (1) passi
+    + rimbalza quando tocchi il bordo
+  end
 end
 
 ```
@@ -49,6 +49,6 @@ Il tuo sprite `persona` ora si muoverà, ma si fermerà per parlare con lo sprit
 
 ![schermata](images/world-person-test.png)
 
-\--- task \--- Aggiungi il codice alla tua nuova ` persona ` in modo che lo sprite appaia solo nella stanza 1. Il codice che hai bisogno è esattamente lo stesso che rende visibile lo sprite `cartello` solo nella stanza 1.
+\--- task \--- Aggiungi il codice alla tua nuova `persona` in modo che lo sprite appaia solo nella stanza 1. Il codice di cui hai bisogno è esattamente lo stesso che rende visibile lo sprite `cartello di benvenuto` solo nella stanza 1.
 
 Assicurati di testare il tuo nuovo codice. \--- /task \---
