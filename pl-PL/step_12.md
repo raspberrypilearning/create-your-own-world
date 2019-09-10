@@ -2,8 +2,8 @@
 
 Możesz teraz kontynuować tworzenie własnego świata! Oto kilka pomysłów:
 
-+ Dodaj więcej monet do gry w różnych pokojach. Czy możesz pozwolić, aby niektóre monety były strzeżone przez patrolowanie wrogów?
-+ Zmień tło swojej gry
++ Dodaj więcej monet do gry w różnych pokojach. Czy możesz pozwolić, aby niektóre monety były strzeżone przez patrolujących wrogów?
++ Zmień tła swojej gry
 + Dodaj dźwięk i muzykę do swojej gry
 + Dodaj więcej osób, wrogów i znaków
 + Dodaj czerwone i żółte drzwi i specjalne klucze, aby je otworzyć
@@ -19,8 +19,8 @@ Możesz teraz kontynuować tworzenie własnego świata! Oto kilka pomysłów:
 ![zrzut ekranu](images/north-south-rooms.png) ![zrzut ekranu](images/number-grid.png)
 
 ```blocks3
-jeśli <touching color [ ]?> to
-zmienisz tło na ((kostium [numer v]) + (3))
-przejdź do x: (0) y: (200)
+jeśli < dotyka koloru []?> to
+zmień tło na ((kostium [liczba v]) + (3))
+idź do x: (0) y: (200)
 zmień [pokój v] o (3)
 ```
