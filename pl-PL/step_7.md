@@ -2,6 +2,6 @@
 
 Czy możesz dodać jakiś skarb do odnalezienia przez gracza?
 
-Dokonać `skarb` sprite pojawiają się tylko w pokoju 3 i mają ten sprite powiedzieć „Dobra robota!” gdy dotknie go `sprite` sprite.
+Spraw, aby duszek `skrzynia` pojawił się tylko w pokoju 3 i żeby ten duszek powiedział „Dobra robota!” kiedy dotknie go duszek `gracza`.
 
 ![zrzut ekranu](images/world-treasure.png)
