@@ -24,7 +24,7 @@ Rwyt ti nawr am ychwanegu côd i rai o dy ddrysau fel bod rhai o'r drysau yn y g
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
-aros hyd at <cyffwrdd (player v) ?>
+aros hyd at <cyffwrdd (chwaraewr v) ?>
 ychwanegu [allwedd glas] i [wedi casglu v]
 cuddio
 aros [sgriptiau eraill yn y ciplun v]
