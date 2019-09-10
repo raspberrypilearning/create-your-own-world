@@ -6,15 +6,15 @@ Twój projekt zawiera duszka `znak-powitanie`:
 
 ![zrzut ekranu](images/world-sign.png)
 
-\--- zadanie \--- `zadowoleniem powitać` ikonki powinny być widoczne tylko w pokoju 1, więc dodać trochę kodu do ikonki, aby upewnić się, że tak się dzieje:
+\--- task \--- Duszek `Znak-powitanie` powinien być widoczny tylko w pokoju 1, więc dodaj trochę kodu do duszka, aby upewnić się, że tak się stanie:
 
-\--- wskazówki \--- \--- wskazówka \--- `Kiedy flaga zostanie kliknięta`{: class = "block3events"}, w pętli `zawsze`{: class = "block3control"}, sprawdź `jeśli`{: class = "block3control"} `pokój to 1`{: class = "block3variables"} iw takim przypadku `show`{: class = "block3looks"} `znak powitalny` ikonki, `innych`{: class = "block3control"} `hide`{: class = "block3looks"} duszek. \--- / wskazówka \--- \--- wskazówka \--- Oto bloki, których potrzebujesz:
+\--- hints \--- \--- hint \--- `kiedy kliknięto zieloną flagę`{:class="block3events"}, w pętli `zawsze`{:class="block3control"}, sprawdź `jeżeli`{:class="block3control"} `pokój to 1`{:class="block3variables"} to wtedy `pokaż`{:class="block3looks"} duszka `znak-powitanie`, `w przeciwnym razie`{:class="block3control"} `ukryj`{:class="block3looks"} tego duszka. \--- /hint \--- \--- hint \--- Oto bloki, których potrzebujesz:
 
 ![znak](images/sign.png)
 
 ```blocks3
-<br />jeśli &lt; &gt; to
-
+<br />jeżelili &lt; &gt; to
+w przeciwnym razie
 koniec
 
 &lt; (pokój :: zmienne) = [1] &gt;
@@ -26,55 +26,55 @@ pokaż
 zawsze
 koniec
 
-po kliknięciu flagi
+kiedy kliknięto zieloną flagę
 
 ```
 
-\--- / wskazówka \--- \--- podpowiedź \--- Oto pełny kod:
+\--- /hint \--- \--- hint \--- Oto pełny kod:
 
 ![znak](images/sign.png)
 
 ```blocks3
-kiedy flaga kliknęła
+kiedy kliknięto zieloną flagę
 zawsze
-    jeśli < (pokój :: zmienne) = [1] > a następnie
-        pokazuje
-    inne
+    jeżeli < (pokój :: zmienne) = [1] > to
+        pokaż
+    w przeciwnym razie
         ukryj
     koniec
-końca
+koniec
 ```
 
 -- /hint \--- \--- hints \---
 
 \--- /task \---
 
-\--- task \--- Przetestuj kod dla swojego `duszka` znaku powitalnego, przechodząc między pokojami. Znak powinien być widoczny tylko w pokoju 1.
+\--- task \--- Przetestuj kod dla swojego duszka `znaku-powitania`, przechodząc między pokojami. Znak powinien być widoczny tylko w pokoju 1.
 
 ![zrzut ekranu](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- Znak nie jest zbyt dobry, jeśli nic nie mówi! Dodaj więcej kodu, aby wyświetlić wiadomość, jeśli duszek `znak-powitanie` dotknie duszka `gracz`:
+\--- task \--- Znak nie jest zbytnio przydatny, jeśli nic nie mówi! Dodaj więcej kodu, aby wyświetlić wiadomość, jeśli duszek `znak-powitanie` dotyka duszka `gracz`:
 
 ![znak](images/sign.png)
 
 ```blocks3
-kiedy flaga kliknęła
+kiedy kliknięto zieloną flagę
 zawsze
-jeśli < (pokój :: zmienne) = [1] > a następnie
-pokazuje
-jeszcze
-ukryć
+jeżli < (pokój :: zmienne) = [1] > to
+pokaż
+w przeciwnym razie
+ukryj
 koniec
-+ czy < dotyka (gracz v)? > a następnie
-powiedz [Witamy! Czy możesz dostać się do skarbu?]
-else
-say []
-end
-end
++ jeżeli < dotyka (gracz v)? > to
+powiedz [Witamy! Czy uda Ci się dotrzeć do skarbu?]
+w przeciwnym razie
+powiedz []
+koniec
+koniec
 ```
 
 \--- /task \---
 
-\--- task \--- Ponownie sprawdź swoją `duszpasterkę` znaku powitalnego. Teraz powinieneś zobaczyć komunikat, gdy `gracz` sprite dotyka `powitalny znak` ikonki.
+\--- task \--- Ponownie przetestuj swojego duszka `znak-powitania`. Teraz powinieneś zobaczyć komunikat, gdy duszek `gracza` dotyka duszka `znak-powitalny`.
 
 ![zrzut ekranu](images/world-sign-test2.png) \--- /task \---
