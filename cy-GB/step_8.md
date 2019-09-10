@@ -32,13 +32,13 @@ end
 pan fo'r flag werdd yn cael ei glicio
 mynd i x: (0) y: (-150)
 am byth 
-  os <cyffwrdd (chwaraewr v) ? > yna 
-    dweud [Oeddet ti'n gwybod dy fod di'n gallu mynd trwy drysau oren a melyn?]
-  fel arall 
-    dweud []
-    + symud (1) cam
-    + os ar ymyl, bowndio
-  end
+    os < cyffwrdd (chwaraewr v)? > yna 
+        dweud [Oeddet ti'n gwybod dy fod di'n gallu mynd trwy drysau oren a melyn?]
+    fel arall 
+        dweud []
++       symud (1) cam
++       os ar ymyl, bowndio
+    end
 end
 
 ```

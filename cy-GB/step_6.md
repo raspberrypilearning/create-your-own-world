@@ -16,8 +16,7 @@ Mae dy brosiect yn cynnwys corlun `arwydd croeso`:
 ![arwydd](images/sign.png)
 
 ```blocks3
-<br />os <> yna 
-  
+os <> yna 
 fel arall
 end
 
@@ -64,16 +63,16 @@ end
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <(ystafell :: variables) = [1]> yna 
-    dangos
-  fel arall 
-    cuddio
-  end
-  + os <cyffwrdd (chwaraewr v) ? > yna 
-  +   dweud [Croeso! Wyt t'in gallu cyrraedd y trysor?]
-  + fel arall 
-  +   dweud []
-  + end
+os <(ystafell :: variables) = [1]> yna 
+dangos
+fel arall 
+cuddio
+end
++os <cyffwrdd (chwaraewr v) ? > yna 
+dweud [Croeso! Wyt t'in gallu cyrraedd y trysor?]
+fel arall 
+dweud []
+end
 end
 ```
 

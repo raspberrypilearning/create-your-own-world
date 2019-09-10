@@ -21,30 +21,30 @@ Byddi di angen newidyn newydd ‘ar gyfer pob ciplun’ o’r enw `ystafell`{:cl
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
 am byth 
-  os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
-    pwyntio i gyfeiriad (0)
-    symud (4) cam
-  end
-  os <bysell (saeth chwith v) wedi ei phwyso? > yna 
-    pwyntio i gyfeiriad (-90)
-    symud (4) cam
-  end
-  os <bysell (saeth i lawr v) wedi ei phwyso? > yna 
-    pwyntio i gyfeiriad (-180)
-    symud (4) cam
-  end
-  os <bysell [saeth de v] wedi ei phwyso? > yna 
-    pwyntio i gyfeiriad (90)
-    symud (4) cam
-  end
-  os <cyffwrdd lliw [#BABABA] ? > yna 
+    os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
+      pwyntio i gyfeiriad (0)
+      symud (4) cam
+    end
+    os <bysell (saeth chwith v) wedi ei phwyso? > yna 
+      pwyntio i gyfeiriad (-90)
+      symud (4) cam
+    end
+      os <bysell (saeth i lawr v) wedi ei phwyso? > yna 
+      pwyntio i gyfeiriad (-180)
+      symud (4) cam
+    end
+      os <bysell [saeth de v] wedi ei phwyso? > yna 
+      pwyntio i gyfeiriad (90)
+      symud (4) cam
+    end
+    os <cyffwrdd lliw [#BABABA] ? > yna 
     symud (-4) cam
-  end
-  + os <cyffwrdd lliw [#F2A24A] ?> yna 
-     newid cefndir i (cefnlen nesaf v)
-     mynd i x: (-200) y: (0)
-     newid [ystafell v] gan (1)
-     end
+    end
++   os <cyffwrdd lliw [#F2A24A] ?> yna 
+    newid cefndir i (cefnlen nesaf v)
+    mynd i x: (-200) y: (0)
+    newid [ystafell v] gan (1)
+    end
 end
 ```
 
