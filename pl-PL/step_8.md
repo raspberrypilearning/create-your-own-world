@@ -1,22 +1,22 @@
 ## Postacie
 
-Dodaj inne osoby do swojego świata, którzy swoją `gracz` sprite może wchodzić w interakcje z.
+Dodaj do swojego świata inne osoby, z którymi twój duszek `gracza` może wchodzić w interakcje.
 
-\--- task \--- Przejdź do `duszka` osoby.
+\--- task \--- Przejdź do duszka `osoby`.
 
-![duszek postać](images/person.png) \--- /task \---
+![Duszek osoby](images/person.png) \--- /task \---
 
-\--- task \--- Dodaj trochę kodu do `osoby` duszka, aby ta osoba rozmawiała z `ikonką` graczy. Ten kod jest bardzo podobny do kodu dodanego do duszka `znak`:
+\--- task \--- Dodaj trochę kodu do duszka `osoby`, aby ta osoba rozmawiała z duszkiem `gracza`. Ten kod jest bardzo podobny do kodu dodanego do duszka `znak`:
 
 ![osoba](images/person.png)
 
 ```blocks3
-kiedy flaga kliknęła
-przejdź do x: (0) y: (-150)
-zawsze
-    jeśli < dotyka (gracz v)? > wtedy
-        powiedz [Czy wiesz, że możesz przejść przez pomarańczowe i żółte drzwi?]
-    inne
+kiedy kliknięto zieloną flagę
+    idź do x: (0) y: (-150)
+    zawsze 
+        jeżeli < dotyka [gracz v)? > to
+        powiedz [Czy wiesz, że możesz przechodzić przez pomarańczowe i żółte drzwi?]
+    w przeciwnym razie
         powiedz []
     koniec
 koniec
@@ -24,20 +24,20 @@ koniec
 
 \--- /task \---
 
-\--- zadanie \--- Pozwól `osoba` ikonki, aby przejść przez dodanie tych dwóch bloków w `indziej`{class = „block3control”} sekcji kodu:
+\--- task \--- Pozwól swojemu duszkowi `osoby` poruszać się, przez dodanie tych dwóch bloków w sekcji kodu `w przeciwnym razie`{class = „block3control”}:
 
 ![osoba](images/person.png)
 
 ```blocks3
-kiedy flaga kliknęła
-przejdź do x: (0) y: (-150)
-zawsze
-    jeśli < dotyka (gracz v)? > wtedy
-        powiedz [Czy wiesz, że możesz przejść przez pomarańczowe i żółte drzwi?]
-    inne
+kiedy kliknięto zieloną flagę
+    idź do x: (0) y: (-150)
+    zawsze 
+        jeżeli < dotyka [gracz v)? > to
+        powiedz [Czy wiesz, że możesz przechodzić przez pomarańczowe i żółte drzwi?]
+    w przeciwnym razie
         powiedz []
-+ ruch (1) kroki
-+ jeśli na krawędzi, odbicie
++       przesuń o (1) kroki
++       jeżeli na krawędzi, odbij się
     koniec
 koniec
 
@@ -45,10 +45,10 @@ koniec
 
 \--- /task \---
 
-Twój duszek `postać` będzie się teraz poruszać, ale zatrzyma się aby porozmawiać z duszkiem `gracz`.
+Twój duszek `osoby` będzie się teraz poruszać, ale zatrzyma się aby porozmawiać z duszkiem `gracz`.
 
 ![zrzut ekranu](images/world-person-test.png)
 
-\--- task \--- Dodaj kod do nowego `osobowego` duszka, tak aby duszek pojawił się tylko w pokoju 1. Kod, którego potrzebujesz, jest dokładnie taki sam jak kod, który sprawia, że ikonka `znak` widoczna tylko w pokoju 1.
+\--- task \--- Dodaj kod do nowego duszka `osoby` tak, aby ten duszek pojawił się tylko w pokoju 1. Kod, którego potrzebujesz, jest dokładnie taki sam jak kod, który sprawia, że duszek `znak` widoczny tylko w pokoju 1.
 
 Pamiętaj o przetestowaniu swojego nowego kodu. \--- /task \---
