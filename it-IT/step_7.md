@@ -2,6 +2,6 @@
 
 Sapresti aggiungere un tesoro da far trovare al giocatore?
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+Fai apparire la `cassaforte` solo nella stanza 3 e falle dire "Ben fatto!" quando lo sprite `giocatore` la tocca.
 
 ![screenshot](images/world-treasure.png)
