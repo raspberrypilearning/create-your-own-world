@@ -1,3 +1,3 @@
 ## Wyzwanie: wróć do poprzedniego pokoju
 
-Można dokonać `gracz` sprite wrócić do poprzedniego pokoju, kiedy dotyka żółtą drzwi? Kod potrzebny do tego jest bardzo podobny do kodu, który już dodałeś, aby sprite przenieść się do następnego pokoju.
+Czy potrafisz sprawić, żeby twój duszek `gracz` wrócił do poprzedniego pokoju, kiedy dotyka żółtych drzwi? Kod potrzebny do tego jest bardzo podobny do kodu, który już dodałaś, aby przejść do następnego pokoju.
