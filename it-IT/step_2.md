@@ -1,6 +1,6 @@
 ## Codifica il tuo giocatore
 
-Inizia creando uno sprite `giocatore` che può muoversi nel mondo.
+Inizia creando uno sprite `giocatore` che possa muoversi nel mondo.
 
 \--- task \---
 
@@ -16,7 +16,7 @@ Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
 \--- /task \---
 
-Premendo i tasti freccia si dovrà spostare lo sprite `giocatore` intorno. Quando si preme la freccia su, lo sprite `player` in risposta dovrebbe spostarsi verso l'alto sullo stage.
+Premendo i tasti freccia si dovrà spostare lo sprite `giocatore` intorno. Quando si preme la freccia su, lo sprite `player` in risposta dovrebbe spostarsi verso l'alto dello stage.
 
 \--- task \---
 
@@ -25,12 +25,12 @@ Aggiungi questo codice allo sprite `player`:
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
+quando si clicca sulla bandiera verde
+per sempre 
+  se <tasto (freccia su v) premuto>? allora 
+    punta in direzione (0)
+    fai (4) passi
+  end
 end
 ```
 
@@ -51,16 +51,16 @@ Per spostare lo sprite `player` a sinistra, è necessario aggiungere un altro bl
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+quando si clicca sulla bandiera verde
+per sempre 
+  se <tasto (up arrow v) premuto>? allora 
+    punta in direzione (0)
+    fai (4) passi
+  end
+  + se <tasto (freccia sinistra v) premuto>? allora 
+  +   punta in direzione (-90)
+  +   fai (4) passi
+  + end
 end
 ```
 
@@ -74,7 +74,7 @@ Aggiungi altro codice al tuo sprite `player` in modo che possa muoversi anche ve
 
 \--- hint \---
 
-Per spostarti verso l'alto, punti il `giocatore` nella direzione `0` gradi. Cosa dovresti fare per spostare lo sprite verso il basso?
+Per spostarti verso l'alto, punta `player` in direzione `0` gradi. Cosa dovresti fare per spostare lo sprite verso il basso?
 
 Per spostarti a sinistra, hai puntato lo sprite in direzione `-90` gradi. Cosa dovresti fare per spostare lo sprite verso destra?
 
@@ -92,32 +92,31 @@ Devi modificare questi due blocchi:
 point in direction ()
 ```
 
-Duplica il codice che fa sì che lo sprite `player` si sposta verso l'alto e cambia questi due blocchi per far spostare lo sprite in basso. Duplica nuovamente il codice e modificalo per spostare lo sprite verso destra.
+Duplica il codice che muove lo sprite `player` verso l'alto e cambia questi due blocchi per far spostare lo sprite verso il basso. Duplica nuovamente il codice e modificalo per spostare lo sprite verso destra.
 
 \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
+quando si clicca sulla bandiera verde
+per sempre 
+  se <tasto (freccia su v) premuto? > allora 
+    punta in direzione (0)
+    fai (4) passi
+  end
+  se <tasto (freccia sinistra v) premuto? > allora 
+    punta in direzione (-90)
+    fai (4) passi
+  end
+  + se <tasto (down arrow v) premuto? > allora 
+  +   punta in direzione (180)
+  +   fai (4) passi
+  + end
+  + se <tasto [freccia destra v] premuto? > allora 
+  +   punta in direzione (90)
+  +   fai (4) passi
+  + end
 end
 ```
 
