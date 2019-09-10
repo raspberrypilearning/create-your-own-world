@@ -6,27 +6,28 @@ Il tuo progetto contiene uno sprite `cartello di benvenuto`:
 
 ![screenshot](images/world-sign.png)
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+\--- task \--- Il 0>cartello di benvenuto</code> dovrebbe vedersi solo nella stanza 1, quindi aggiungi del codice allo sprite per fare in modo che succeda ciò:
 
-`Quando la bandiera verde viene cliccata`{:class="block3events"}, continua a guardare `per sempre`{:class="block3control"} `se`{:class="block3control"} la `stanza è 1`{:class="block3sensing"}, ed in quel caso mostra `cartello di benvenuto`{:class="block3control"}, `altrimenti`{:class="block3control"} `nascondi`{:class="block3looks"} lo sprite. \--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno:
+\--- hints \--- \--- hint \--- `Quando si clicca sulla bandiera verde`{:class="block3events"}, controlla `per sempre`{:class="block3control"} `se`{:class="block3control"} la `stanza è 1`{:class="block3sensing"}, ed in quel caso mostra `cartello di benvenuto`{:class="block3control"}, `altrimenti`{:class="block3control"} `nascondi`{:class="block3looks"} lo sprite. \--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno:
 
 ![cartello](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
-else
+<br />se &lt;&gt; allora 
+ 
+altrimenti
 end
 
-&lt; (room :: variables) = [1] &gt;
+&lt;(stanza :: variables) = [1]&gt;
 
-hide
+nascondi
 
-show
+mostra
 
-forever
+per sempre
 end
 
-when flag clicked
+quando si clicca sulla bandiera verde
 
 ```
 
@@ -35,13 +36,13 @@ when flag clicked
 ![cartello](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
+quando si clicca sulla bandiera verde
+per sempre 
+  se <(stanza :: variables) = [1]> allora 
+    mostra
+  altrimenti 
+    nascondi
+  end
 end
 ```
 
@@ -60,12 +61,12 @@ end
 ```blocks3
 when flag clicked
 forever
-if < (room :: variables) = [1] > then
+if < (stanza :: variables) = [1] > then
 show
 else
 hide
 end
-+if < touching (player v)? > then
++if < touching (giocatore v)? > then
 say [Benvenuto! Riesci a raccogliere il tesoro?]
 else
 say []
