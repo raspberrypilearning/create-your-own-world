@@ -23,7 +23,7 @@ Kliknij na zieloną flagę, aby rozpocząć. Użyj klawiszy strzałek, aby porus
 
 \--- print-only \---
 
-Użyjesz klawiszy strzałek, aby przenieść swoją postać na całym świecie. ![showcase.png](images/showcase.png)
+Użyjesz klawiszy strzałek, aby poruszać swoją postać w świecie gry. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -39,9 +39,9 @@ Użyjesz klawiszy strzałek, aby przenieść swoją postać na całym świecie. 
 
 - Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} lub [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Pobrane
+### Pliki do pobrania
 
-Możesz znaleźć wszystko, czego potrzebujesz, aby ukończyć ten projekt na [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Wszystko, czego potrzebujesz, aby ukończyć ten projekt, znajdziesz na [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
@@ -49,10 +49,10 @@ Możesz znaleźć wszystko, czego potrzebujesz, aby ukończyć ten projekt na [r
 
 ## title: Czego się nauczysz
 
-- Użyj wyboru warunkowego, aby zareagować na naciśnięcia przycisków
-- Użyj zmiennych do przechowywania stanu gry
-- Użyj wyboru warunkowego na podstawie wartości zmiennej
-- Używaj list do przechowywania danych
+- Używania wyboru warunkowego, aby zareagować na naciśnięcia przycisków
+- Używania zmiennych do przechowywania stanu gry
+- Używania wyboru warunkowego na podstawie wartości zmiennej
+- Używania list do przechowywania danych
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ Możesz znaleźć wszystko, czego potrzebujesz, aby ukończyć ten projekt na [r
 
 Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Tutaj znajdziesz [ukończony projekt](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
