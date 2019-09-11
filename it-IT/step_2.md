@@ -27,7 +27,7 @@ Aggiungi questo codice allo sprite `player`:
 ```blocks3
 quando si clicca sulla bandiera verde
 per sempre 
-  se <tasto (freccia su v) premuto>? allora 
+  se <tasto (freccia su v) premuto? > allora 
     punta in direzione (0)
     fai (4) passi
   end
@@ -53,11 +53,11 @@ Per spostare lo sprite `player` a sinistra, è necessario aggiungere un altro bl
 ```blocks3
 quando si clicca sulla bandiera verde
 per sempre 
-  se <tasto (up arrow v) premuto>? allora 
+  se <tasto (up arrow v) premuto? >allora 
     punta in direzione (0)
     fai (4) passi
   end
-  + se <tasto (freccia sinistra v) premuto>? allora 
+  + se <tasto (freccia sinistra v) premuto? > allora 
   +   punta in direzione (-90)
   +   fai (4) passi
   + end
@@ -109,14 +109,15 @@ per sempre
     punta in direzione (-90)
     fai (4) passi
   end
+
   + se <tasto (down arrow v) premuto? > allora 
-  +   punta in direzione (180)
-  +   fai (4) passi
-  + end
-  + se <tasto [freccia destra v] premuto? > allora 
-  +   punta in direzione (90)
-  +   fai (4) passi
-  + end
+punta in direzione (180)
+fai (4) passi
+end
++ se <tasto [freccia destra v] premuto? > allora 
+punta in direzione (90)
+fai (4) passi
+end
 end
 ```
 
