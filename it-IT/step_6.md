@@ -14,7 +14,6 @@ Il tuo progetto contiene uno sprite `cartello di benvenuto`:
 
 ```blocks3
 <br />se &lt;&gt; allora 
- 
 altrimenti
 end
 
