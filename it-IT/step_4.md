@@ -80,7 +80,7 @@ quando si clicca sulla bandiera verde
 +vai a x: (-200) y: (0)
 +passa allo sfondo (stanza1 v)
 per sempre 
-  se <tasto (freccia su v) premuto? > allora 
+se <tasto (freccia su v) premuto? > allora 
     punta in direzione (0)
     fai (4) passi
   end
