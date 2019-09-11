@@ -56,7 +56,6 @@ cancella (tutto v) da [inventario v]
 quando si clicca sulla bandiera verde
 attendi fino a quando <[inventario v] contiene [chiave blu]?>
 ferma [altri script in sprite v]
-
 nascondi
 ```
 
