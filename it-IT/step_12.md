@@ -19,8 +19,9 @@ Ora puoi continuare a creare il tuo mondo! Ecco alcune idee:
 ![screenshot](images/north-south-rooms.png) ![schermata](images/number-grid.png)
 
 ```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
+se <touching color [ ]?> allora 
+ passa allo sfondo ((costume [number v]) + (3))
+ vai a x: (0) y: (200)
+ cambia [stanza v] di (3)
+end
 ```
