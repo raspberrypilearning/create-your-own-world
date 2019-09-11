@@ -11,7 +11,7 @@
 ```blocks3
 quando si clicca sulla bandiera verde
 per sempre 
-  se <tasto (freccia su v) premuto? > allora 
+se <tasto (freccia su v) premuto? > allora 
     punta in direzione (0)
     fai (4) passi
   end
