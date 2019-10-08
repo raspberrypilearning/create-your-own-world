@@ -15,7 +15,7 @@ In dit project leer je hoe je je eigen avonturen-spelwereld kunt maken met meerd
 Klik op de groene vlag om te starten. Gebruik de pijltjestoetsen om je spelfiguur in de wereld rond te bewegen.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334767899/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
