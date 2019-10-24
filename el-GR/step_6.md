@@ -13,11 +13,11 @@
 ![σημάδι](images/sign.png)
 
 ```blocks3
-<br />εάν &lt; &gt; τότε
+<br />εάν < > τότε
 αλλιώς
 end
 
-&lt; (αίθουσα :: variables) = [1] &gt;
+< (αίθουσα :: variables) = [1] >
 
 εξαφάνισε
 
