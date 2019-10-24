@@ -16,10 +16,9 @@ Dein Projekt enthält die Figur von einem `Willkommen-Schild`:
 ![sign](images/sign.png)
 
 ```blocks3
-<br />falls <> , dann 
+falls <> , dann 
   
 sonst
-end
 
 <(Raum :: variables) = [1]>
 
@@ -28,7 +27,6 @@ verstecke dich
 zeige dich
 
 wiederhole fortlaufend
-end
 
 Wenn die grüne Flagge angeklickt
 
@@ -45,8 +43,6 @@ wiederhole fortlaufend
     zeige dich
   sonst 
     verstecke dich
-  end
-end
 ```
 
 --- /hint ------ /hints ---
@@ -64,15 +60,14 @@ end
 ```blocks3
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls <(Raum :: variables) = [1]> , dann 
-    zeige dich
-  sonst 
-    verstecke dich
-  end
-  + falls <wird (Spieler v) berührt?> , dann    +   sage [Willkommen! Kannst du zum Schatz kommen?]   + sonst 
-  +   sage []
-  + end
-end
+falls <(Raum :: variables) = [1]> , dann 
+zeige dich
+sonst 
+verstecke dich
++ falls <wird (Spieler v) berührt?> , dann 
+sage [Willkommen! Kannst du zum Schatz kommen?]
+sonst 
+sage []
 ```
 
 --- /task ---

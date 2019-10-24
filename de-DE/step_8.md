@@ -14,11 +14,10 @@ Lass uns ein paar Personen in deine Welt setzen, mit denen dein `Spieler` in int
 Wenn die grüne Flagge angeklickt
 gehe zu x: (0) y: (-150)
 wiederhole fortlaufend 
-  falls <wird (Spieler v) berührt?> , dann      sage [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
+  falls <wird (Spieler v) berührt?> , dann 
+    sage [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
   sonst 
     sage []
-  end
-end
 ```
 
 --- /task ---
@@ -31,14 +30,12 @@ end
 Wenn die grüne Flagge angeklickt
 gehe zu x: (0) y: (-150)
 wiederhole fortlaufend 
-  falls <wird (Spieler v) berührt?> , dann      sage [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
-  sonst 
-    sage []
-    + gehe (1) er Schritt
-    + pralle vom Rand ab
-  end
-end
-
+    falls <wird (player v) berührt?> , dann 
+      sage [Did you know that you can go through orange and yellow doors?]
+    sonst 
+      sage []
++     gehe (1) er Schritt
++     pralle vom Rand ab
 ```
 
 --- /task ---

@@ -11,21 +11,20 @@
 ```blocks3
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
-    gehe (4) er Schritt
-  end
-  falls <Taste (Pfeil nach links v) gedrückt?> , dann     setze Richtung auf (-90) Grad
-    gehe (4) er Schritt
-  end
-  falls <Taste (Pfeil nach unten v) gedrückt?> , dann      setze Richtung auf (-180) Grad
-    gehe (4) er Schritt
-  end
-  falls <Taste [Pfeil nach rechts v] gedrückt?> , dann      setze Richtung auf (90) Grad
-    gehe (4) er Schritt
-  end
-  + falls <wird Farbe [#BABABA] berührt?> , dann    +   gehe (-4) er Schritt
-  + end
-end
+    falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
+      setze Richtung auf (0) Grad
+      gehe (4) er Schritt
+    falls <Taste (Pfeil nach links v) gedrückt?> , dann 
+      setze Richtung auf (-90) Grad
+      gehe (4) er Schritt
+    falls <Taste (Pfeil nach unten v) gedrückt?> , dann 
+      setze Richtung auf (-180) Grad
+      gehe (4) er Schritt
+    falls <Taste [Pfeil nach rechts v] gedrückt?> , dann 
+      setze Richtung auf (90) Grad
+      gehe (4) er Schritt
++   falls <wird Farbe [#BABABA] berührt?> , dann 
+    gehe (-4) er Schritt
 ```
 
 --- /task ---

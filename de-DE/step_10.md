@@ -35,7 +35,7 @@ verstecke dich
 stoppe [andere Skripte der Figur v]
 ```
 
-Der Code `stoppe andere Skripte der Figur`{:class="block3control"}) wird benötigt, damit das `Münze`-Objekt nicht mehr in Raum 1 angezeigt wird, sobald das Objekt eingesammelt wurde.
+Der Code `stoppe andere Skripte der Figur`{:class="block3control"} wird benötigt, damit das `Münze`-Objekt nicht mehr in Raum 1 angezeigt wird, sobald das Objekt eingesammelt wurde.
 
 --- /task ---
 

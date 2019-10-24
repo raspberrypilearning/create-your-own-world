@@ -6,7 +6,7 @@ Beginne mit der Erstellung einer `Spieler`-Figur, die sich in deiner Welt umher 
 
 Öffne das "Erstelle deine eigene Welt" Scratch Starter Projekt.
 
-**Online:** öffne das Basisprojekt auf [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online:** öffne das Basisprojekt auf [scratch.mit.edu/projects/339073366](https://scratch.mit.edu/projects/339073366){:target="_blank"}.
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
@@ -54,7 +54,6 @@ wiederhole fortlaufend
     falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
         setze Richtung auf (0) Grad
         gehe (4) er Schritt
-    end
 +   falls <Taste (Pfeil nach links v) gedrückt?> , dann 
         setze Richtung auf (-90) Grad
         gehe (4) er Schritt
@@ -101,20 +100,15 @@ wiederhole fortlaufend
     falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
       setze Richtung auf (0) Grad
       gehe (4) er Schritt
-    end
     falls <Taste (Pfeil nach links v) gedrückt?> , dann 
       setze Richtung auf (-90) Grad
       gehe (4) er Schritt
-    end
 +    falls <Taste (Pfeil nach unten v) gedrückt?> , dann 
       setze Richtung auf (180) Grad
       gehe (4) er Schritt
-    end
 +    falls <Taste [Pfeil nach rechts v] gedrückt?> , dann 
       setze Richtung auf (90) Grad
       gehe (4) er Schritt
-    end
-end
 ```
 
 --- /hint ------ /hints ---
