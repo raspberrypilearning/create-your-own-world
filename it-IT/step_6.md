@@ -13,11 +13,11 @@ Il tuo progetto contiene uno sprite `cartello di benvenuto`:
 ![cartello](images/sign.png)
 
 ```blocks3
-<br />se &lt;&gt; allora 
+<br />se <> allora 
 altrimenti
 end
 
-&lt;(stanza :: variables) = [1]&gt;
+<(stanza :: variables) = [1]>
 
 nascondi
 
