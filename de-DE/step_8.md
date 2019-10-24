@@ -1,44 +1,42 @@
 ## Personen
 
-Add other people to your world who your `player` sprite can interact with.
+Lass uns ein paar Personen in deine Welt setzen, mit denen dein `Spieler` in interagieren kann.
 
-\--- task \--- Switch to the `person` sprite.
+\--- task \--- Wechsle zur Figur `Person`.
 
 ![Figur Person](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. Dieser Code ist dem Code, den du bereits zum `Schild` hinzugefügt hast, sehr ähnlich:
+\--- task \--- Füge Code zur Figur `Person` hinzu, sodass die Person mit dem `Spieler` spricht. Dieser Code ist dem Code, den du bereits zum `Schild` hinzugefügt hast, sehr ähnlich:
 
 ![person](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
+Wenn die grüne Flagge angeklickt
+gehe zu x: (0) y: (-150)
+wiederhole fortlaufend 
+  falls <wird (Spieler v) berührt?> , dann      sage [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
+  sonst 
+    sage []
+  end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- task \--- Erlaube deiner `Person`-Figur sich zu bewegen, indem du diese beiden Blöcke in den `sonst`{:class="block3control"} Abschnitt deines Codes einfügst:
 
 ![person](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
+Wenn die grüne Flagge angeklickt
+gehe zu x: (0) y: (-150)
+wiederhole fortlaufend 
+  falls <wird (Spieler v) berührt?> , dann      sage [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
+  sonst 
+    sage []
+    + gehe (1) er Schritt
+    + pralle vom Rand ab
+  end
 end
 
 ```
@@ -49,6 +47,6 @@ Die `Person` bewegt sich jetzt hin und her, bleibt aber stehen, um mit dem `Spie
 
 ![Screenshot](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\---task \--- Füge Code zu deiner neuen `Person`-Figur hinzu, so dass diese nur in Raum 1 erscheint. Der Code, den du benötigst, ist genau der gleiche wie der Code, der die `Schild`-Figur nur in Raum 1 sichtbar macht.
 
 Vergiss nicht, den neuen Code zu testen. \--- /task \---
