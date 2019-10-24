@@ -17,8 +17,6 @@ wiederhole fortlaufend
     zeige dich
   sonst 
     verstecke dich
-  end
-end
 ```
 
 --- /task ---

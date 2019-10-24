@@ -14,7 +14,7 @@ Erstelle eine neue Variable "für alle Figuren" mit dem Namen `Raum`{:class="blo
 
 ![Screenshot](images/world-room.png) --- /task ---
 
---- task --- Wenn die `Spieler`-Figur die orangefarbene Tür im ersten Raum berührt, soll das nächste Bühnenbild angezeigt werden und die `Spieler`-Figur soll zurück zur linken Seite der Bühne bewegt werden. Füge diesen Code innerhalb der `fortlaufend wiederholen`{:class="block3control"}-Schleife deiner `Spieler`-Figur ein:
+--- task --- Wenn die `Spieler`-Figur die orangefarbene Tür im ersten Raum berührt, soll das nächste Bühnenbild angezeigt werden und die `Spieler`-Figur soll zurück zur linken Seite der Bühne bewegt werden. Füge diesen Code innerhalb der `wiederholen fortlaufend`{:class="block3control"}-Schleife deiner `Spieler`-Figur ein:
 
 ![player](images/player.png)
 
@@ -47,13 +47,13 @@ end
 
 --- task --- Bei jedem Spielstart müssen Raum, Charakterposition und Hintergrund zurückgesetzt werden.
 
-Füge Code am **Anfang** des Skripts deiner `Spieler`-Figur über der `wiederhole fortlaufend`{:class="block3control"}-Schleife hinzu, um alles wieder auf Anfang zu setzten, wenn die grüne Flagge angeklickt wird:
+Füge Code am **Anfang** des Skripts deiner `Spieler`-Figur über der `fortlaufend wiederhole`{:class="block3control"}-Schleife hinzu, um alles wieder auf Anfang zu setzten, wenn die grüne Flagge angeklickt wird:
 
 --- hints ---
  --- hint --- Wenn das Spiel beginnt:
 
 + Der Wert von `Raum`{:class="block3variables"} sollte auf `1`{:class="block3variables"} gesetzt werden
-+ Das `Bühnenbild`{:class="block3look"} sollte auf `Raum1`{:class="block3look"} gesetzt werden
++ Das `Bühnenbild`{:class="block3looks"} sollte auf `Raum1`{:class="block3looks"} gesetzt werden
 + Die Position der `Spieler`-Figur sollte auf `x: -200 y: 0`{:class="block3motion"} gesetzt werden
 --- /hint ---
  --- hint --- Hier sind die zusätzlichen Blöcke, die du benötigst:

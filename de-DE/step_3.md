@@ -4,7 +4,7 @@
 
 ![Screenshot](images/world-walls.png) --- /task ---
 
---- task --- Um dies zu beheben, musst du die `Spieler`-Figur zurück gehen lassen, wenn es eine hellgraue Wand berührt. Hier ist der Code, den du innerhalb des `fortlaufend wiederholen`{:class="block3control"} -Blocks unter den Richtungs-Blöcken hinzufügen musst:
+--- task --- Um dies zu beheben, musst du die `Spieler`-Figur zurück gehen lassen, wenn es eine hellgraue Wand berührt. Hier ist der Code, den du innerhalb des `wiederholen fortlaufend`{:class="block3control"} -Blocks unter den Richtungs-Blöcken hinzufügen musst:
 
 ![player](images/player.png)
 

@@ -29,9 +29,7 @@ Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
   falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
      setze Richtung auf (0) Grad
-    gehe (4) er Schritt
-  end
-end
+     gehe (4) er Schritt
 ```
 
 --- /task ---
@@ -53,13 +51,13 @@ Um die `Spieler`-Figur nach links zu bewegen, musst du einen weiteren `falls`{:c
 ```blocks3
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
-    gehe (4) er Schritt
-  end
-  + falls <Taste (Pfeil nach links v) gedrückt?> , dann    +   setze Richtung auf (-90) Grad
-  +   gehe (4) er Schritt
-  + end
-end
+    falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
+        setze Richtung auf (0) Grad
+        gehe (4) er Schritt
+    end
++   falls <Taste (Pfeil nach links v) gedrückt?> , dann 
+        setze Richtung auf (-90) Grad
+        gehe (4) er Schritt
 ```
 
 --- /task ---
@@ -100,18 +98,22 @@ Dupliziere den Code, der die `Spieler`-Figur nach oben bewegt und ändere diese 
 ```blocks3
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
-    gehe (4) er Schritt
-  end
-  falls <Taste (Pfeil nach links v) gedrückt?> , dann      setze Richtung auf (-90) Grad
-    gehe (4) er Schritt
-  end
-  + falls <Taste (Pfeil nach unten v) gedrückt?> , dann    +   setze Richtung auf (180) Grad
-  +   gehe (4) er Schritt
-  + end
-  + falls <Taste [Pfeil nach Rechts v] gedrückt?> , dann   +   setze Richtung auf (90) Grad
-  +   gehe (4) er Schritt
-  + end
+    falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
+      setze Richtung auf (0) Grad
+      gehe (4) er Schritt
+    end
+    falls <Taste (Pfeil nach links v) gedrückt?> , dann 
+      setze Richtung auf (-90) Grad
+      gehe (4) er Schritt
+    end
++    falls <Taste (Pfeil nach unten v) gedrückt?> , dann 
+      setze Richtung auf (180) Grad
+      gehe (4) er Schritt
+    end
++    falls <Taste [Pfeil nach rechts v] gedrückt?> , dann 
+      setze Richtung auf (90) Grad
+      gehe (4) er Schritt
+    end
 end
 ```
 

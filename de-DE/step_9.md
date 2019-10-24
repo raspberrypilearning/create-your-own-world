@@ -13,26 +13,19 @@ wiederhole fortlaufend
     zeige dich
   sonst 
     verstecke dich
-  end
-end
 
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
   falls <wird (Spieler v) berührt?> , dann 
     stoppe [alles v]
-  end
-end
 
 Wenn die grüne Flagge angeklickt
 gehe zu x: (170) y: (0)
 wiederhole fortlaufend 
   wiederhole (130) mal 
     ändere x um (-1)
-  end
   wiederhole (130) mal 
     ändere x um (1)
-  end
-end
 ```
 
 + Teste deinen neuen Coed und kontrolliere ob: 

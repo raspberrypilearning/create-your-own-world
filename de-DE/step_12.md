@@ -23,5 +23,4 @@ falls <wird Farbe [ ] berührt?> , dann
   wechsle zu Bühnenbild ((Kostüm [Nummer v]) + (3))
   gehe zu x: (0) y: (200)
   ändere [Raum v] um (3)
-end
 ```
