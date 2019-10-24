@@ -13,11 +13,11 @@ Ton project inclut un `panneau de bienvenue` sprite :
 ![panneau](images/sign.png)
 
 ```blocks3
-<br />si &lt; &gt; alors
+<br />si < > alors
 sinon
 end
 
-&lt; (salle :: variables) = [1] &gt;
+< (salle :: variables) = [1] >
 
 cacher
 
