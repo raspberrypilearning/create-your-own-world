@@ -1,52 +1,109 @@
-## Schilder
+## Bewege dich in deiner Welt
 
-Lass uns Schilder zu deiner Welt hinzufügen, um eine Wegweisung für deinen Spieler auf seiner Reise zu bereiten.
+Die `Spieler`-Figur sollte in der Lage sein, durch Türen in andere Räume zu gehen.
 
-+ Dein Projekt beinhaltet ein Willkommens- Schild Sprite:
+Dein Projekt enthält Bühnenbilder von weiteren Zimmern:
 
-	![screenshot](images/world-sign.png)
+![screenshot](images/world-backdrops.png)
 
-+ Dieses Schild ist nur in Zimmer 1 sichtbar, lass uns jetzt noch weiteren Code zum Schild hinzufügen, um zu gewährleisten, dass dies passiert:
+--- task ---
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		wiederhole fortlaufend
-   			falls <(room) = [1]> dann
-      			zeige dich
-   			sonst
-      			verstecke dich
-   			Ende
-		Ende
-	```
+Erstelle eine neue Variable "für alle Figuren" mit dem Namen `Raum`{:class="block3variables"}, um festzuhalten, in welchem Raum die `Spieler`-Figur ist.
 
-+ Teste dein Schild, indem du zwischen den Zimmern hin- und hergehst. Dein Schild sollte nur in Zimmer 1 sichtbar sein.
+[[[generic-scratch3-add-variable]]]
 
-	![screenshot](images/world-sign-test.png)
+![Screenshot](images/world-room.png) --- /task ---
 
-+ Ein Schild nützt aber nicht viel, wenn nichts darauf steht! Lass uns weiteren Code (in einem separaten Block) hinzufügen, um eine Meldung anzuzeigen, wenn das Schild den Spieler berührt:
+--- task --- Wenn die `Spieler`-Figur die orangefarbene Tür im ersten Raum berührt, soll das nächste Bühnenbild angezeigt werden und die `Spieler`-Figur soll zurück zur linken Seite der Bühne bewegt werden. Füge diesen Code innerhalb der `fortlaufend wiederholen`{:class="block3control"}-Schleife deiner `Spieler`-Figur ein:
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		wiederhole fortlaufend
-   			falls <wird [player v] berührt?> dann
-      			sage [Willkommen! Kannst du den Schatz finden?]
-   			sonst
-      			sage []
-   			Ende
-		Ende
-	```
-+ Teste dein Schild und du solltest eine Meldung sehen können, wenn der Spieler es berührt.
+![player](images/player.png)
 
-	![screenshot](images/world-sign-test2.png)
+```blocks3
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach links v) gedrückt?> , dann      setze Richtung auf (-90) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach unten v) gedrückt?> , dann      setze Richtung auf (-180) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste [Pfeil nach rechts v] gedrückt?> , dann      setze Richtung auf (90) Grad
+    gehe (4) er Schritt
+  end
+  + falls <wird Farbe [#BABABA] berührt?> , dann    +   gehe (-4) er Schritt
+  + end
+  + falls <wird Farbe [#F2A24A] berührt?> , dann 
+  +   wechsle zu Bühnenbild (nächstes Bühnenbild v)
+  +   gehe zu x: (-200) y: (0)
+  +   ändere [Raum v] um (1)
+  + end
+end
+```
 
---- challenge ---
+--- /task ---
 
-## Aufgabe: Schatz gefunden!
-Klicke mit der rechten Maustaste auf das Schatzkisten-Sprite und wähle 'show' (zeigen). 
+--- task --- Bei jedem Spielstart müssen Raum, Charakterposition und Hintergrund zurückgesetzt werden.
 
-Kannst du es veranlassen, dass das Schatzkisten-Sprite nur in Zimmer 3 erscheint und dann 'Well done!' (Gut gemacht!) sagen, wenn der Spieler die Kiste berührt?
+Füge Code am **Anfang** des Skripts deiner `Spieler`-Figur über der `wiederhole fortlaufend`{:class="block3control"}-Schleife hinzu, um alles wieder auf Anfang zu setzten, wenn die grüne Flagge angeklickt wird:
 
+--- hints ---
+ --- hint --- Wenn das Spiel beginnt:
 
-![screenshot](images/world-treasure.png)
++ Der Wert von `Raum`{:class="block3variables"} sollte auf `1`{:class="block3variables"} gesetzt werden
++ Das `Bühnenbild`{:class="block3look"} sollte auf `Raum1`{:class="block3look"} gesetzt werden
++ Die Position der `Spieler`-Figur sollte auf `x: -200 y: 0`{:class="block3motion"} gesetzt werden
+--- /hint ---
+ --- hint --- Hier sind die zusätzlichen Blöcke, die du benötigst:
 
---- /challenge ---
+![player](images/player.png)
+
+```blocks3
+gehe zu x: (-200) y: (0)
+
+setze [Raum v] auf (1)
+
+wechsle zu Bühnenbild (Raum1 v)
+```
+
+--- /hint --- --- hint --- So sollte dein fertiges Skript aussehen:
+
+![player](images/player.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
++setze [Raum v] auf (1)
++gehe zu x: (-200) y: (0)
++wechsle zu Bühnenbild (Raum1 v)
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach Links v) gedrückt?> , dann      setze Richtung auf (-90) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach unten v) gedrückt?> , dann      setze Richtung auf (-180) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste [Pfeil nach rechts v] gedrückt?> , dann     setze Richtung auf (90) Grad
+    gehe (4) er Schritt
+  end
+  falls <wird Farbe [#BABABA] berührt?> , dann      gehe (-4) er Schritt
+  end
+  falls <wird Farbe [#F2A24A] berührt?> , dann 
+    wechsle zu Bühnenbild (nächstes Bühnenbild v)
+    gehe zu x: (-200) y: (0)
+    ändere [Raum v] um (1)
+  end
+end
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
+
+--- task --- Klicke auf die Flagge und bewege dann deine `Spieler`-Figur bis sie die orange Tür berührt. Bewegt sich deine Figur zum nächsten Zimmer? Ändert sich die Variable `Raum`{:class="block3variables"} zu `2`?
+
+![Screenshot](images/world-room-test.png) --- /task ---

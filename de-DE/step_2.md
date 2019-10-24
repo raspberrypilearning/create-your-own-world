@@ -1,78 +1,120 @@
 ## Programmiere deinen Spieler
 
-Lass uns damit beginnen, einen Spieler zu erstellen, der sich rund um deine Welt bewegen kann.
+Beginne mit der Erstellung einer `Spieler`-Figur, die sich in deiner Welt umher bewegen kann.
 
-+ Öffne das 'Create Your Own World' (Erstelle deine eigene Welt) Scratch Projekt online unter <a href="http://jumpto.cc/world-go" target="_blank">jumpto.cc/world-go</a> oder lade es von <a href="http://jumpto.cc/world-get" target="_blank">jumpto.cc/world-get</a> herunter und öffne es dann, wenn du den offline Editor benutzt.
+--- task ---
 
-	![screenshot](images/world-starter.png)
+Öffne das "Erstelle deine eigene Welt" Scratch Starter Projekt.
 
-+ Lass uns die Pfeiltasten benutzen, um den Spieler rund ums Spielfeld zu bewegen. Wenn der Spieler die Pfeil-hoch-Taste drückt, dann willst du, dass der Spieler nach oben geht, indem wir dessen y-Koordinaten ändern. Füge diesen Code zum `player` (Spieler) Sprite hinzu:
+**Online:** öffne das Basisprojekt auf [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		wiederhole fortlaufend
-   			falls <Taste [Pfeil nach oben v] gedrückt?> dann
-      			ändere y um (2)
-   			Ende
-		Ende
-	```
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-+ Teste deinen Spieler, indem du auf die Flagge klickst und dann die Pfeil-hoch-Taste gedrückt hältst. Bewegt sich dein Spieler nach oben?
+**Offline:** Wenn du offline arbeiten möchtest, kannst du dir die benötigte Datei unter [rpf.io/p/de-DE/create-your-own-world-go](http://rpf.io/p/de-DE/create-your-own-world-go){:target="_blank"} herunterladen und diese dann mit dem Offline-Editor bearbeiten. Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-	![screenshot](images/world-up.png)
+![screenshot](images/world-starter.png)
 
-+ Um den Spieler nach links zu bewegen, musst du einen weiteren `if`{:class="blockcontrol"} (wenn) Block zu deinem Spieler hinzufügen, welcher dann die x-Koordinaten ändert:
+--- /task ---
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		wiederhole fortlaufend
-  			falls <Taste [Pfeil nach oben v] gedrückt?> dann
-      			ändere y um (2)
-   			Ende
-   			falls <Taste [Pfeil nach links v] gedrückt?> dann
-      			ändere x um (-2)
-   			Ende
-		Ende
-	```
+Durch Drücken der Pfeiltasten sollte sich die `Spieler`-Figur herum bewegen. Wenn der Aufwärtspfeil gedrückt wird, sollte sich die `Spieler`-Figur als Reaktion auf der Bühne nach oben bewegen.
 
---- challenge ---
-	
-## Aufgabe: Sich in alle vier Richtungen bewegen
-Kannst du noch mehr Code zu deinem Spieler hinzufügen, damit er sich nach oben, nach unten, nach links oder nach rechts bewegen kann. Benutze den Code, den du bereits hast, um dir hierbei zu helfen!
+--- task ---
 
-+ Teste deinen Spieler erneut und du wirst sehen, dass er die Fähigkeit hat, durch die hellgrauen Wände durchzugehen.
+Füge diesen Code zur `Spieler`-Figur hinzu:
 
-	![screenshot](images/world-walls.png)
+![Spieler](images/player.png)
 
-+ Um dieses Problem zu beheben, musst du den Spieler bewegen, aber ihn dann zurück bewegen, wenn er eine hellgraue Wand berührt. Hier ist der Code den du brauchst:
+```blocks3
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
+     setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+end
+```
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		wiederhole fortlaufend
-   			falls <Taste [Pfeil nach oben v] gedrückt?> dann
-      			ändere y um (2)
-      			falls <wird Farbe [#BABABA] berührt?> dann
-         			ändere y um (-2)
-      			Ende
-   			Ende
-		Ende
-	```
+--- /task ---
 
-	Hast du gemerkt, dass der neue `if`{:class="blockcontrol"} (wenn) `touching color`{:class="blocksensing"} (Farbe berührt) Block sich _innerhalb_ des `if`{:class="blockcontrol"} (wenn) `key [up arrow]`{:class="blocksensing"} (Schlüssel [Pfeil hoch]) Blocks befindet?
+--- task ---
 
-+ Teste diesen neuen Code, indem du unter die Wand gehst (du solltest nicht in der Lage sein, in die Wand hoch zu gehen).
+Klicke auf die Flagge und halte den Aufwärtspfeil gedrückt. Bewegt sich dein `Spieler` nach oben?
 
-	![screenshot](images/world-walls-test.png)
+![screenshot](images/world-up.png)
 
-+ Lass uns das Gleiche für die linke Pfeiltaste tun, gehe zurück, wenn der Spieler eine Wand berührt. Hier ist, wie der Code für deinen Spieler bislang aussehen sollte:
+--- /task ---
 
-	![screenshot](images/world-wall-code.png)
+--- task ---
 
---- /challenge ---
+Um die `Spieler`-Figur nach links zu bewegen, musst du einen weiteren `falls`{:class="block3control"}-Block mit ähnlichem Code hinzufügen:
 
---- challenge ---
-	
-## Aufgabe: Repariere die Bewegung deines Spielers 
-Füge Code zu deinem Spieler hinzu, damit er nicht in jede Richtung durch die Wand laufen kann. Benutze den Code, den du bereits hast, um dir hierbei zu helfen!
+![player](images/player.png)
 
---- /challenge ---
+```blocks3
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+  + falls <Taste (Pfeil nach links v) gedrückt?> , dann    +   setze Richtung auf (-90) Grad
+  +   gehe (4) er Schritt
+  + end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Füge deinem `Spieler` weiteren Code hinzu, damit er sich auch nach unten und nach rechts bewegen kann. Verwende den bereits geschriebenen Code als Hilfe.
+
+--- hints ---
+
+
+--- hint ---
+
+Um nach oben zu gehen, musst du den `Spieler` in Richtung `0` Grad zeigen lassen. Was musst du machen, um die Figur nach unten zu bewegen?
+
+Um nach links zu gehen, muss die Figur in Richtung ` -90` Grad zeigen lassen. Was musst du machen, um die Figur nach rechts zu bewegen?
+
+--- /hint ---
+
+--- hint ---
+
+Du musst diese beiden Blöcke ändern:
+
+![player](images/player.png)
+
+```blocks3
+<Taste ( v) gedrückt?>
+
+setze Richtung auf () Grad
+```
+
+Dupliziere den Code, der die `Spieler`-Figur nach oben bewegt und ändere diese beiden Blöcke, damit sich die Figur nach unten bewegt. Dupliziere den Code erneut und ändere ihn, damit sich die Figur nach rechts bewegt.
+
+--- /hint --- --- hint --- Dein Code sollte so aussehen:
+
+![player](images/player.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach links v) gedrückt?> , dann      setze Richtung auf (-90) Grad
+    gehe (4) er Schritt
+  end
+  + falls <Taste (Pfeil nach unten v) gedrückt?> , dann    +   setze Richtung auf (180) Grad
+  +   gehe (4) er Schritt
+  + end
+  + falls <Taste [Pfeil nach Rechts v] gedrückt?> , dann   +   setze Richtung auf (90) Grad
+  +   gehe (4) er Schritt
+  + end
+end
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
