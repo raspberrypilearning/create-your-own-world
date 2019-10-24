@@ -1,4 +1,4 @@
-## Zusatzaufgabe: mehr Stifte
+## Wie geht es weiter?
 
 Versuche ein anderes Spiel zu Erstellen, indem du das [Katzen!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)-Projekt durcharbeitest.
 
