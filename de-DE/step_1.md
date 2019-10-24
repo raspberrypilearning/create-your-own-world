@@ -1,12 +1,12 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Version des Projekts](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
 ## Einleitung
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+In diesem Projekt lernst du, wie du dein eigenes Abenteuerspiel programmieren kannst - mit mehreren Leveln, die der Spieler erkunden kann.
 
 ### Was du machen wirst
 
@@ -23,7 +23,7 @@ Klicke zum Starten auf die grüne Flagge. Benutze die Pfeiltasten, um deinen Cha
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Benutze die Pfeiltasten, um deinen Charakter in der Welt zu bewegen. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ### Downloads
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Alles, was du zum Abschließen dieses Projekts benötigst, findest du unter [ rpf.io/p/en/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
@@ -49,19 +49,19 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Was du lernen wirst
 
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+- Verwende die bedingte Auswahl um auf Tastendrücke zu reagieren
+- Verwende Variablen, um den Status eines Spiels zu speichern
+- Verwende bedingte Auswahl basierend auf dem Wert einer Variable
+- Verwende Listen zum Speichern von Daten
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Zusätzliche Informationen für Pädagogen
 
 Wenn Sie dieses Projekt ausdrucken möchten, dann verwenden Sie bitte die [druckfreundliche Version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){: target = "_ blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Du findest das [abgeschlossene Projekt hier](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
