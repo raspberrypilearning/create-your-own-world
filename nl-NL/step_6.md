@@ -13,11 +13,11 @@ Je project bevat een sprite `welkomstbord`:
 ![bord](images/sign.png)
 
 ```blocks3
-<br />als &lt; &gt; dan
+<br />als < > dan
 anders
 einde
 
-&lt; (kamer:: variables) = [1] &gt;
+< (kamer:: variables) = [1] >
 
 verdwijn
 
