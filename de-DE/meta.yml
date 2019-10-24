@@ -1,7 +1,7 @@
 ---
-hero_image: images/create-your-own-world.png
+hero_image: images/banner.png
 title: Erschaffe deine eigene Welt
-description: Lerne, wie du dein eigenes Open-World Abenteuerspiel erstellen kannst.
+description: Lerne, wie du dein eigenes Open-World Abenteuerspiel erstellen kannst
 listed: true
 copyedit: false
 version: 4.1.0
@@ -10,13 +10,13 @@ steps:
   - 
     title: Einleitung
   - 
-    title: Programmiere deinen Spieler
+    title: Bewege die Spieler-Figur
   - 
     title: Massive Wände
   - 
-    title: Schilder
+    title: Bewege dich in deiner Welt
   - 
-    title: "Leute"
+    title: "Herausforderung: Zurück zum vorherigen Raum"
     challenge: true
   - 
     title: Schilder
@@ -29,7 +29,7 @@ steps:
     title: "Herausforderung: Feinde"
     challenge: true
   - 
-    title: Collect coins
+    title: Münzen sammeln
   - 
     title: Türen und Schlüssel
   - 
