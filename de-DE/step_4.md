@@ -1,6 +1,6 @@
 ## Schilder
 
-The `player` sprite should be able to walk through doors into other rooms.
+Die `Spieler`-Figur sollte in der Lage sein, durch Türen in andere Räume zu gehen.
 
 Dein Projekt enthält Bühnenbilder von weiteren Zimmern:
 
@@ -8,102 +8,92 @@ Dein Projekt enthält Bühnenbilder von weiteren Zimmern:
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Erstelle eine neue Variable "für alle Figuren" mit dem Namen `Raum`{:class="block3variables"}, um festzuhalten, in welchem Raum die `Spieler`-Figur ist.
 
 [[[generic-scratch3-add-variable]]]
 
 ![Screenshot](images/world-room.png) \--- /task \---
 
-\--- task \--- When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Wenn die `Spieler`-Figur die orangefarbene Tür im ersten Raum berührt, soll das nächste Bühnenbild angezeigt werden und die `Spieler`-Figur soll zurück zur linken Seite der Bühne bewegt werden. Füge diesen Code innerhalb der `fortlaufend wiederholen`{:class="block3control"}-Schleife deiner `Spieler`-Figur ein:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-    end
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach links v) gedrückt?> , dann      setze Richtung auf (-90) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach unten v) gedrückt?> , dann      setze Richtung auf (-180) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste [Pfeil nach rechts v] gedrückt?> , dann      setze Richtung auf (90) Grad
+    gehe (4) er Schritt
+  end
+  + falls <wird Farbe [#BABABA] berührt?> , dann    +   gehe (-4) er Schritt
+  + end
+  + falls <wird Farbe [#F2A24A] berührt?> , dann 
+  +   wechsle zu Bühnenbild (nächstes Bühnenbild v)
+  +   gehe zu x: (-200) y: (0)
+  +   ändere [Raum v] um (1)
+  + end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Bei jedem Spielstart müssen Raum, Charakterposition und Hintergrund zurückgesetzt werden.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Füge Code am **Anfang** des Skripts deiner `Spieler`-Figur über der `wiederhole fortlaufend`{:class="block3control"}-Schleife hinzu, um alles wieder auf Anfang zu setzten, wenn die grüne Flagge angeklickt wird:
 
-\--- hints \--- \--- hint \--- When the game starts:
+\--- hints \--- \--- hint \--- Wenn das Spiel beginnt:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Here are the extra blocks you need:
++ Der Wert von `Raum` {:class="block3variables"} sollte auf `1`{:class="block3variables"} gesetzt werden
++ Das `Bühnenbild`{:class="block3look"} sollte auf `Raum1`{:class="block3look"} gesetzt werden
++ Die Position der `Spieler`-Figur sollte auf `x: -200 y: 0`{:class="block3motion"} gesetzt werden \--- /hint \--- \--- hint \--- Hier sind die zusätzlichen Blöcke, die du benötigst:
 
 ![player](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+gehe zu x: (-200) y: (0)
 
-set [room v] to (1)
+setze [Raum v] auf (1)
 
-switch backdrop to (room1 v)
+wechsle zu Bühnenbild (Raum1 v)
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your finished script should look like:
+\--- /hint \--- \--- hint \--- So sollte dein fertiges Skript aussehen:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
+Wenn die grüne Flagge angeklickt
++setze [Raum v] auf (1)
++gehe zu x: (-200) y: (0)
++wechsle zu Bühnenbild (Raum1 v)
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach Links v) gedrückt?> , dann      setze Richtung auf (-90) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach unten v) gedrückt?> , dann      setze Richtung auf (-180) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste [Pfeil nach rechts v] gedrückt?> , dann     setze Richtung auf (90) Grad
+    gehe (4) er Schritt
+  end
+  falls <wird Farbe [#BABABA] berührt?> , dann      gehe (-4) er Schritt
+  end
+  falls <wird Farbe [#F2A24A] berührt?> , dann 
+    wechsle zu Bühnenbild (nächstes Bühnenbild v)
+    gehe zu x: (-200) y: (0)
+    ändere [Raum v] um (1)
+  end
 end
 ```
 
@@ -111,6 +101,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Klicke auf die Flagge und bewege dann deine `Spieler`-Figur bis sie die orange Tür berührt. Bewegt sich deine Figur zum nächsten Zimmer? Ändert sich die Variable `Raum`{:class="block3variables"} zu `2`?
 
 ![Screenshot](images/world-room-test.png) \--- /task \---
