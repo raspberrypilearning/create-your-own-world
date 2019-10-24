@@ -1,38 +1,44 @@
 ## Herausforderung: Einen Gegner hinzufügen
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Wenn Du möchtest, kannst Du deinem Spiel auch patrouillierende Feinde hinzufügen. Wenn der `Spieler` einen Feind berührt, endet das Spiel.
 
-+ Your game already contains an `enemy` sprite. Füge der Figur von deinem `Gegner` Code hinzu, so dass er nur in Zimmer 2 erscheint.
++ Dein Spiel enthält bereits eine `Feind`-Figur. Füge der Figur von deinem `Gegner` Code hinzu, so dass er nur in Zimmer 2 erscheint.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Das geht einfacher mit zwei getrennten Code-Blöcken. So könnte der Code für deinen `Gegner` aussehen:
++ Füge Code hinzu, um den `Feind` zu bewegen und das Spiel zu beenden, wenn der `Feind` die `Spieler`-Figur berührt. Das geht einfacher mit zwei getrennten Code-Blöcken. So könnte der Code für deinen `Gegner` aussehen:
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
-
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
-
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <(Raum :: variables) = [2]> , dann 
+    zeige dich
+  sonst 
+    verstecke dich
+  end
 end
-repeat (130)
-change x by (1)
+
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <wird (Spieler v) berührt?> , dann 
+    stoppe [alles v]
+  end
+end
+
+Wenn die grüne Flagge angeklickt
+gehe zu x: (170) y: (0)
+wiederhole fortlaufend 
+  wiederhole (130) mal 
+    ändere x um (-1)
+  end
+  wiederhole (130) mal 
+    ändere x um (1)
+  end
+end
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Teste deinen neuen Coed und kontrolliere ob: 
+    + Die `Feind`-Figur nur in Raum 2 sichtbar ist
+    + Die `Feind`-Figur durch den Raum patrouilliert
+    + Das Spiel endet, wenn die `Spieler`-Figur die `Feind`-Figur berührt
 
 Kannst du einen anderen `Gegner` in das Zimmer 3 setzen, der durch den Spalt in der Mauer auf und ab patrouilliert?
 
