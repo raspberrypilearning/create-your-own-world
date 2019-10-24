@@ -1,0 +1,39 @@
+---
+hero_image: images/banner.png
+title: Ustvari svoj lastni svet
+description: Ustvari svojo lastno avanturo z odprtim svetom
+listed: true
+copyedit: false
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - 
+    title: Uvod
+  - 
+    title: Premikanje igralčeve figure
+  - 
+    title: Trdne stene
+  - 
+    title: Premikanje po tvojem svetu
+  - 
+    title: "Izziv: pojdi nazaj v prejšnjo sobo"
+    challenge: true
+  - 
+    title: Znaki
+  - 
+    title: "Izziv: zaklad!"
+    challenge: true
+  - 
+    title: Ljudje
+  - 
+    title: "Izziv: sovražniki"
+    challenge: true
+  - 
+    title: Zbiraj kovance
+  - 
+    title: Vrata in ključi
+  - 
+    title: "Izziv: razširi tvoj svet"
+    challenge: true
+  - 
+    title: "Kaj sledi?"
