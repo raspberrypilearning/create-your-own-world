@@ -1,14 +1,14 @@
-## Collect coins
+## 코인 모으기
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+`플레이어` 스프라이트는 세계를 통과하면서 동전을 수집 할 수 있어야합니다.
 
-\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
+\--- task \--- 새로운 변수 `코인`{: class = "block3variables"} 을 프로젝트에 추가하세요. \--- /task \---
 
-\--- task \--- Select the `coin` sprite and click **show**.
+\--- task \--- `코인` 스프라이트를 클릭하고 **보여주기**를 클릭하세요.
 
 ![스크린샷](images/coin.png) \--- /task \---
 
-\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![스크린샷](images/coin.png)
+\--- task \--- 당신의 코드를 `코인` 스프라이트에 방1 에서만 나타나도록 추가하세요. ![스크린샷](images/coin.png)
 
 ```blocks3
 when flag clicked
