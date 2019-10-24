@@ -13,11 +13,11 @@ Váš projekt obsahuje `vítaný znak` sprite:
 ![znamenie](images/sign.png)
 
 ```blocks3
-<br />ak &lt; &gt; potom
+<br />ak < > potom
 iný
 koniec
 
-&lt; (miestnosť :: premenné) = [1] &gt;
+< (miestnosť :: premenné) = [1] >
 
 skryť
 
