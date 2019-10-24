@@ -1,36 +1,36 @@
 ## Programmiere deinen Spieler
 
-Start by creating a `player` sprite that can move around your world.
+Beginne mit der Erstellung einer `Spieler`-Figur, die sich in deiner Welt umher bewegen kann.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Öffne das "Erstelle deine eigene Welt" Scratch Starter Projekt.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online:** öffne das Basisprojekt auf [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** Wenn du offline arbeiten möchtest, kannst du dir die benötigte Datei unter [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"} herunterladen und diese dann mit dem Offline-Editor bearbeiten. Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![screenshot](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Durch Drücken der Pfeiltasten sollte sich die `Spieler`-Figur herum bewegen. Wenn der Aufwärtspfeil gedrückt wird, sollte sich die `Spieler`-Figur als Reaktion auf der Bühne nach oben bewegen.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Füge diesen Code zur `Spieler`-Figur hinzu:
 
-![player](images/player.png)
+![Spieler](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
+     setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
 end
 ```
 
@@ -38,7 +38,7 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Klicke auf die Flagge und halte den Aufwärtspfeil gedrückt. Bewegt sich dein `Spieler` nach oben?
 
 ![screenshot](images/world-up.png)
 
@@ -46,21 +46,19 @@ Click the flag and then hold down the up arrow. Does the `player` sprite move up
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Um die `Spieler`-Figur nach links zu bewegen, musst du einen weiteren `falls`{:class="block3control"}-Block mit ähnlichem Code hinzufügen:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+  + falls <Taste (Pfeil nach links v) gedrückt?> , dann    +   setze Richtung auf (-90) Grad
+  +   gehe (4) er Schritt
+  + end
 end
 ```
 
@@ -68,56 +66,51 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Füge deinem `Spieler` weiteren Code hinzu, damit er sich auch nach unten und nach rechts bewegen kann. Verwende den bereits geschriebenen Code als Hilfe.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Um nach oben zu gehen, musst du den `Spieler` in Richtung `0` Grad zeigen lassen. Was musst du machen, um die Figur nach unten zu bewegen?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Um nach links zu gehen, muss die Figur in Richtung ` -90` Grad zeigen lassen. Was musst du machen, um die Figur nach rechts zu bewegen?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Du musst diese beiden Blöcke ändern:
 
 ![player](images/player.png)
 
 ```blocks3
-<key ( v) pressed>
+<Taste ( v) gedrückt?>
 
-point in direction ()
+setze Richtung auf () Grad
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Dupliziere den Code, der die `Spieler`-Figur nach oben bewegt und ändere diese beiden Blöcke, damit sich die Figur nach unten bewegt. Dupliziere den Code erneut und ändere ihn, damit sich die Figur nach rechts bewegt.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Dein Code sollte so aussehen:
 
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <Taste (Pfeil nach oben v) gedrückt?> , dann      setze Richtung auf (0) Grad
+    gehe (4) er Schritt
+  end
+  falls <Taste (Pfeil nach links v) gedrückt?> , dann      setze Richtung auf (-90) Grad
+    gehe (4) er Schritt
+  end
+  + falls <Taste (Pfeil nach unten v) gedrückt?> , dann    +   setze Richtung auf (180) Grad
+  +   gehe (4) er Schritt
+  + end
+  + falls <Taste [Pfeil nach Rechts v] gedrückt?> , dann   +   setze Richtung auf (90) Grad
+  +   gehe (4) er Schritt
+  + end
 end
 ```
 
