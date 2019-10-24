@@ -13,11 +13,11 @@ Now add signs to your world to guide players on their journey.
 ![sign](images/sign.png)
 
 ```blocks3
-<br />if &lt; &gt; then
+<br />if < > then
 else
 end
 
-&lt; (room :: variables) = [1] &gt;
+< (room :: variables) = [1] >
 
 hide
 
