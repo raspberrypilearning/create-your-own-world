@@ -1,3 +1,3 @@
 ## Leute
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+Kannst du deinen `Spieler` in den vorherigen Raum bringen, wenn er eine gelbe Tür berührt? Der Code, den du dafür benötigst, ist dem Code sehr ähnlich, den du bereits hinzugefügt hast, um die Figur in den nächsten Raum zu bewegen.
