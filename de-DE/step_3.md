@@ -25,6 +25,7 @@ wiederhole fortlaufend
       gehe (4) er Schritt
 +   falls <wird Farbe [#BABABA] berührt?> , dann 
     gehe (-4) er Schritt
+end
 ```
 
 --- /task ---

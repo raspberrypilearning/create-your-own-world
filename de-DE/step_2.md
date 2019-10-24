@@ -98,17 +98,18 @@ Dupliziere den Code, der die `Spieler`-Figur nach oben bewegt und ändere diese 
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
     falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
-      setze Richtung auf (0) Grad
-      gehe (4) er Schritt
+            setze Richtung auf (0) Grad
+            gehe (4) er Schritt
     falls <Taste (Pfeil nach links v) gedrückt?> , dann 
-      setze Richtung auf (-90) Grad
-      gehe (4) er Schritt
+            setze Richtung auf (-90) Grad
+            gehe (4) er Schritt
 +    falls <Taste (Pfeil nach unten v) gedrückt?> , dann 
-      setze Richtung auf (180) Grad
-      gehe (4) er Schritt
+            setze Richtung auf (180) Grad
+            gehe (4) er Schritt
+     end 
 +    falls <Taste [Pfeil nach rechts v] gedrückt?> , dann 
-      setze Richtung auf (90) Grad
-      gehe (4) er Schritt
+            setze Richtung auf (90) Grad
+            gehe (4) er Schritt
 ```
 
 --- /hint ------ /hints ---
