@@ -13,11 +13,11 @@ Twój projekt zawiera duszka `znak-powitanie`:
 ![znak](images/sign.png)
 
 ```blocks3
-<br />jeżelili &lt; &gt; to
+<br />jeżelili < > to
 w przeciwnym razie
 koniec
 
-&lt; (pokój :: zmienne) = [1] &gt;
+< (pokój :: zmienne) = [1] >
 
 ukryj
 
