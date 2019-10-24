@@ -12,28 +12,28 @@ steps:
   - 
     title: Move the player sprite
   - 
-    title: Solid walls
+    title: Paredes sólidas
   - 
     title: Move around your world
   - 
-    title: "Challenge: move back to the previous room"
+    title: "Desafio: voltar à sala anterior"
     challenge: true
   - 
-    title: Signs
+    title: Sinais
   - 
-    title: "Challenge: treasure!"
+    title: "Desafio: tesouro!"
     challenge: true
   - 
     title: People
   - 
-    title: "Challenge: enemies"
+    title: "Desafio: inimigos"
     challenge: true
   - 
-    title: Collect coins
+    title: Recolha moedas
   - 
-    title: Doors and keys
+    title: Portas e chaves
   - 
-    title: "Challenge: extend your world"
+    title: "Desafio: estenda seu mundo"
     challenge: true
   - 
     title: "E agora?"
