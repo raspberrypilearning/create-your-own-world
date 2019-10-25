@@ -64,10 +64,13 @@ falls <(Raum :: variables) = [1]> , dann
 zeige dich
 sonst 
 verstecke dich
+Ende
 + falls <wird (Spieler v) berührt?> , dann 
 sage [Willkommen! Kannst du zum Schatz kommen?]
 sonst 
 sage []
+Ende
+Ende
 ```
 
 --- /task ---

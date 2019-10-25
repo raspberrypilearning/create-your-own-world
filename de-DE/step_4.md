@@ -24,21 +24,28 @@ wiederhole fortlaufend
   falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
     setze Richtung auf (0) Grad
     gehe (4) er Schritt
+  Ende
   falls <Taste (Pfeil nach links v) gedrückt?> , dann 
     setze Richtung auf (-90) Grad
     gehe (4) er Schritt
-  falls <Taste (Pfeil nach unten v) gedrückt?> , dann 
+  Ende
+    falls <Taste (Pfeil nach unten v) gedrückt?> , dann 
     setze Richtung auf (-180) Grad
     gehe (4) er Schritt
-  falls <Taste [Pfeil nach rechts v] gedrückt?> , dann 
+  Ende
+    falls <Taste [Pfeil nach rechts v] gedrückt?> , dann 
     setze Richtung auf (90) Grad
     gehe (4) er Schritt
+  Ende
   falls <wird Farbe [#BABABA] berührt?> , dann 
-    gehe (-4) er Schritt
+  gehe (-4) er Schritt
+  Ende
 + falls <wird Farbe [#F2A24A] berührt?> , dann 
   wechsle zu Bühnenbild (nächstes Bühnenbild v)
   gehe zu x: (-200) y: (0)
   ändere [Raum v] um (1)
+  Ende
+Ende
 ```
 
 --- /task ---
@@ -79,21 +86,27 @@ wiederhole fortlaufend
   falls <Taste (Pfeil nach oben v) gedrückt?> , dann 
     setze Richtung auf (0) Grad
     gehe (4) er Schritt
+  Ende
   falls <Taste (Pfeil nach links v) gedrückt?> , dann 
     setze Richtung auf (-90) Grad
     gehe (4) er Schritt
-  falls <Taste (Pfeil nach unten v) gedrückt?> , dann 
+  Ende
+    falls <Taste (Pfeil nach unten v) gedrückt?> , dann 
     setze Richtung auf (-180) Grad
     gehe (4) er Schritt
-  falls <Taste [Pfeil nach rechts v] gedrückt?> , dann 
+  Ende
+    falls <Taste [Pfeil nach rechts v] gedrückt?> , dann 
     setze Richtung auf (90) Grad
     gehe (4) er Schritt
+  Ende
   falls <wird Farbe [#BABABA] berührt?> , dann 
-    gehe (-4) er Schritt
+  gehe (-4) er Schritt
   falls <wird Farbe [#F2A24A] berührt?> , dann 
-    wechsle zu Bühnenbild (nächstes Bühnenbild v)
-    gehe zu x: (-200) y: (0)
-    ändere [Raum v] um (1)
+  wechsle zu Bühnenbild (nächstes Bühnenbild v)
+  gehe zu x: (-200) y: (0)
+  ändere [Raum v] um (1)
+  Ende
+Ende
 ```
 
 --- /hint ------ /hints ---

@@ -36,6 +36,8 @@ wiederhole fortlaufend
       sage []
 +     gehe (1) er Schritt
 +     pralle vom Rand ab
+    Ende
+Ende
 ```
 
 --- /task ---

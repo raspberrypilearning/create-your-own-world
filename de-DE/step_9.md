@@ -9,23 +9,24 @@ Wenn Du möchtest, kannst Du deinem Spiel auch patrouillierende Feinde hinzufüg
 ```blocks3
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls <(Raum :: variables) = [2]> , dann 
-    zeige dich
-  sonst 
-    verstecke dich
+falls <(Raum :: variables) = [2]> , dann 
+zeige dich
+sonst 
+verstecke dich
 
 Wenn die grüne Flagge angeklickt
 wiederhole fortlaufend 
-  falls <wird (Spieler v) berührt?> , dann 
-    stoppe [alles v]
+falls <wird (Spieler v) berührt?> , dann 
+stoppe [alles v]
 
 Wenn die grüne Flagge angeklickt
 gehe zu x: (170) y: (0)
 wiederhole fortlaufend 
-  wiederhole (130) mal 
-    ändere x um (-1)
-  wiederhole (130) mal 
-    ändere x um (1)
+wiederhole (130) mal 
+ändere x um (-1)
+Ende
+wiederhole (130) mal 
+ändere x um (1)
 ```
 
 + Teste deinen neuen Coed und kontrolliere ob: 
