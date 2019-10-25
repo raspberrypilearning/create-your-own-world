@@ -1,32 +1,80 @@
-## Münzen sammeln
+## Schilder
 
-+ Füge eine neue Variable namens `coins`{:class="blockdata"} (Münzen) zu deinem Projekt hinzu.
+Stelle jetzt Schilder in deiner Welt auf, um den Spieler auf seiner Reise zu leiten.
 
-+ Klicke mit der rechten Maustaste auf das 'coin' (Münzen) Sprite und wähle 'show' (zeigen). 
+Dein Projekt enthält die Figur von einem `Willkommen-Schild`:
 
-![screenshot](images/world-coins.png)
+![screenshot](images/world-sign.png)
 
-+ Füge den Code zu deiner Münze hinzu, sodass sie nur in Zimmer 1 erscheint.
+--- task --- Das `Willkommen-Schild` sollte nur im Raum 1 sichtbar sein. Füge Code zur Figur hinzu, um sicherzustellen, dass dies geschieht:
 
-+ Füge Code zu deinem Münzen-Sprite hinzu, um 1 zu deinen `coins`{:class="blockdata"} (Münzen) hinzuzufügen, nachdem eine Münze eingesammelt wurde:
+--- hints ---
+ --- hint --- `Wenn die grüne Flagge angeklickt wird`{:class="block3events"}, prüfe in einer `wiederhole fortlaufend`{:class="block3control"}-Schleife, und `falls`{:class="block3control"} der `Raum = 1`{:class="block3variables"} ist `zeige`{:class="block3looks"} die `Willkomen-Schild`-Figur, `sonst`{:class="block3control"} `verstecke`{:class="block3looks"} die Figur.
+--- /hint ---
+ --- hint --- Hier sind die Code Blöcke die du brauchst:
 
-	```blocks
-		Wenn die grüne Flagge angeklickt
-		warte bis <wird [player v] berührt?>
-		ändere [coins v] um (1)
-		stoppe [andere Skripte der Figur v]
-		verstecke dich
-	```
+![sign](images/sign.png)
 
-	Der Code `stop other scripts in Sprite`{:class="blockcontrol"} (andere Scripts in Sprite stoppen) wird benötigt, damit die Münze nicht länger in Zimmer 1 angezeigt wird, nachdem sie eingesammelt worden ist.
+```blocks3
+falls <> , dann 
+  
+sonst
 
-+ Du musst auch Code hinzufügen, um deine `coins`{:class="blockdata"} (Münzen) Variable bei Spielbeginn auf 0 einzustellen.
+<(Raum :: variables) = [1]>
 
-+ Teste dein Projekt: Das Sammeln deiner Münzen sollte deine Punktzahl zu 1 ändern.
+verstecke dich
 
---- challenge ---
+zeige dich
 
-## Aufgabe: Weitere Münzen
-Kannst du noch mehr Münzen zu deinem Spiel hinzufügen? Sie können in einem anderen Zimmer platziert werden und manche Münzen könnten sogar von den patroullierenden Feinden bewacht werden.
+wiederhole fortlaufend
 
---- /challenge ---
+Wenn die grüne Flagge angeklickt
+
+```
+
+--- /hint --- --- hint --- Hier ist der vollständige Code:
+
+![sign](images/sign.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+  falls <(Raum :: variables) = [1]> , dann 
+    zeige dich
+  sonst 
+    verstecke dich
+```
+
+--- /hint ------ /hints ---
+
+--- /task ---
+
+--- task --- Prüfe den Code deiner `Willkommen-Schild`-Figur indem du dich zwischen den Räumen bewegst. Das Schild sollte nur in Raum 1 sichtbar sein.
+
+![Screenshot](images/world-sign-test.png) --- /task ---
+
+--- task --- Ein Schild nützt nicht viel, wenn nichts darauf steht! Füge weiteren Code hinzu um eine Nachricht anzuzeigen, wenn das `Willkommen-Schild` vom `Spieler` berührt wird:
+
+![sign](images/sign.png)
+
+```blocks3
+Wenn die grüne Flagge angeklickt
+wiederhole fortlaufend 
+falls <(Raum :: variables) = [1]> , dann 
+zeige dich
+sonst 
+verstecke dich
+Ende
++ falls <wird (Spieler v) berührt?> , dann 
+sage [Willkommen! Kannst du zum Schatz kommen?]
+sonst 
+sage []
+Ende
+Ende
+```
+
+--- /task ---
+
+--- task --- Teste deine `Willkommen-Schild`-Figur erneut. Du solltest nun eine Nachricht sehen, wenn deine `Spieler`-Figur die `Willkommen-Schild`-Figur berührt.
+
+![Screenshot](images/world-sign-test2.png) --- /task ---

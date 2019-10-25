@@ -1,68 +1,70 @@
-## Einführung
+--- no-print ---
 
-In diesem Projekt lernst du, wie du dein eigenes Open-World Abenteuerspiel anfertigen kannst.
+Dies ist die **Scratch 3** Version des Projekts. Es gibt auch eine [Scratch 2 Version des Projekts](https://projects.raspberrypi.org/de-DE/projects/create-your-own-world-scratch2).
+
+--- /no-print ---
+
+## Einleitung
+
+In diesem Projekt lernst du, wie du dein eigenes Abenteuerspiel programmieren kannst - mit mehreren Leveln, die der Spieler erkunden kann.
+
+### Was du machen wirst
+
+--- no-print ---
+
+Klicke zum Starten auf die grüne Flagge. Benutze die Pfeiltasten, um deinen Charakter in der Welt zu bewegen.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
-  <img src="images/world-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/339041937/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
 
+--- /no-print ---
+
+--- print-only ---
+
+Benutze die Pfeiltasten, um deinen Charakter in der Welt zu bewegen. ![showcase.png](images/showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notizen für den Club-Leiter
+title: Was du brauchen wirst
 ---
 
-## Einführung:
-In diesem Projekt lernen die Kinder, wie man ein Open-World-Spiel erstellt und sie machen hierbei Gebrauch von allen Scratch Konzepten und Fähigkeiten, die bislang in den vorherigen Projekten erlernt worden sind.
+### Hardware
 
-## Ressourcen
-Für diese Projekt sollte Scratch 2 benutzt werden. Scratch 2 kann entweder online unter [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) benutzt werden oder es kann von [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline benutzt werden.
+- Ein Computer, auf dem Scratch 3 ausgeführt werden kann
 
-Der 'Project Materials' (Projektmaterialien) Link für dieses Projekt enthält die folgenden Ressourcen:
+### Software
 
-## Helfer-Ressourcen
+- Scratch 3 (entweder [online](http://rpf.io/scratchon){:target="_blank"} oder [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-Sie finden eine fertig gestellt Version dieses Projkts unter <a href="http://scratch.mit.edu/projects/34248822/#editor">online</a> oder es kann heruntergeladen werden, indem Sie auf den 'Project Materials' (Projektmaterialien) Link für dieses Projekt klicken, der u.a. Folgendes enthält:
+### Downloads
 
-+ CreateYourOwnWorld.sb2
+Alles, was du zum Abschließen dieses Projekts benötigst, findest du unter [rpf.io/p/de-DE/create-your-own-world-go](https://rpf.io/p/de-DE/create-your-own-world-go).
 
-## Projekt-Ressourcen
+--- /collapse ---
 
-Für dieses Projekt können die Club Mitglieder von den externenen Ressourcen Gebrauch machen, die nicht mittels der Scratch Bibliothek zur Verfügung stehen:
+--- collapse ---
+---
+title: Was du lernen wirst
+---
 
-+ player.png;
-+ room1/2/3.png;
-+ sign.svg;
-+ chest.svg;
-+ person.png;
-+ enemy.png;
-+ coin.svg;
-+ door-blue.png;
-+ key-blue.png.
+- Verwende die bedingte Auswahl um auf Tastendrücke zu reagieren
+- Verwende Variablen, um den Status eines Spiels zu speichern
+- Verwende bedingte Auswahl basierend auf dem Wert einer Variable
+- Verwende Listen zum Speichern von Daten
 
-Achten Sie darauf, dass jedes Kind Zugang zu einer Kopie dieser Ressourcen hat.
+--- /collapse ---
 
-(Die Projekt-Ressourcen enthalten ebenfalls eine .zip Datei, die alle der o.g. Ressourcen enthält.)
+--- collapse ---
+---
+title: Zusätzliche Informationen für Pädagogen
+---
 
-Für Club Mitglieder, die nicht in der Lage sind, Zugang zu diesen Projekt Ressourcen zu erhalten, gibt es ein Scratch Projekt für welches die externen Ressourcen bereits hochgeladen worden sind. Dies ist online verfügbar unter [jumpto.cc/world-resources](http://jumpto.cc/world-resources), bzw. in den herunterladbaren Projektmaterialen, welche u.a. Folgendes enthalten:
+Wenn Sie dieses Projekt ausdrucken möchten, dann verwenden Sie bitte die [druckfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/create-your-own-world/print){:target="_blank"}.
 
-+ CreateYourOwnWorldResources.sb2
-
-## Lernziele
-+ Dieses Projekt konsolidiert das Lernen aller bisher erlernten Programmierfertigkeiten.
-
-Dieses Projekt deckt Elemente aus den folgenden Bereichen des [Raspberry Pi Lehrplans zur digitalen Produktion](http://rpf.io/curriculum):
-
-+ [Kombiniere die Programmierkonstrukte, um ein Problem zu lösen.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Aufgaben
-+ „Bewegung in alle vier Richtungen“: Hinzufügen der hoch,runter, links und rechts Spieler-Steuerung;
-+ „Die Bewegung des Spielers ausbessern“: Dem Spieler nicht erlauben, durch Wände hindurch zu gehen;
-+ „Zum vorherigen Zimmer zurückkehren“: 1 Zimmer zurück gehen, wenn eine gelbe Tür berührt wurde;
-+ „Schatz gefunden! “ - Konsolidierung des Hinzufügens von Objekten in die Welt;
-+ „Verbessere deine Person“: Konsolidierung des Hinzufügens von Objekten in die Welt;
-+ „Noch mehr Feinde“: Hinzufügen von tödlichen, bewegbaren Objekten;
-+ „Erstelle deine eigene Welt“: Offene Konsolidierungsaufgabe.
+Du findest das [abgeschlossene Projekt hier](https://rpf.io/p/de-DE/create-your-own-world-get){:target="_blank"}.
 
 --- /collapse ---
