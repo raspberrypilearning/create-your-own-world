@@ -17,8 +17,8 @@ Add some code to the `person` sprite so that the person talks to the `player` sp
 when flag clicked
 go to x: (0) y: (-150)
 forever
-	if < touching (Spieler v)? > then
-		say [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
+	if < touching (player v)? > then
+		say [Did you know that you can go through orange and yellow doors?]
 	else
 		say []
 	end
@@ -35,8 +35,8 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 when flag clicked
 go to x: (0) y: (-150)
 forever
-	if < touching (Spieler v)? > then
-		say [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
+	if < touching (player v)? > then
+		say [Did you know that you can go through orange and yellow doors?]
 	else
 		say []
 +		move (1) steps

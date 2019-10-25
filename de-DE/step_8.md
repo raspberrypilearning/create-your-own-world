@@ -30,8 +30,8 @@ wiederhole fortlaufend
 Wenn die grüne Flagge angeklickt
 gehe zu x: (0) y: (-150)
 wiederhole fortlaufend 
-    falls <wird (player v) berührt?> , dann 
-      sage [Did you know that you can go through orange and yellow doors?]
+    falls <wird (Spieler v) berührt?> , dann 
+      sage [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
     sonst 
       sage []
 +     gehe (1) er Schritt
