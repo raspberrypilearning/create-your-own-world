@@ -17,8 +17,8 @@ Add some code to the `person` sprite so that the person talks to the `player` sp
 when flag clicked
 go to x: (0) y: (-150)
 forever
-	if < touching (player v)? > then
-		say [Did you know that you can go through orange and yellow doors?]
+	if < touching (Spieler v)? > then
+		say [Wusstest du schon, dass du durch orangene und gelbe Türen gehen kannst?]
 	else
 		say []
 	end

@@ -101,6 +101,7 @@ wiederhole fortlaufend
   Ende
   falls <wird Farbe [#BABABA] berührt?> , dann 
   gehe (-4) er Schritt
+  Ende
   falls <wird Farbe [#F2A24A] berührt?> , dann 
   wechsle zu Bühnenbild (nächstes Bühnenbild v)
   gehe zu x: (-200) y: (0)
