@@ -20,7 +20,7 @@ jeżeli < dotyka (gracz v)?> to
 zatrzymaj [wszystko v]
 
 kiedy kliknięto zieloną flagę
-idź do x: ( 170) y: (0)
+Idź do x: ( 170) y: (0)
 zawsze
 powtarzaj (130)
 zmień x o (-1)

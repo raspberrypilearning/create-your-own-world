@@ -42,7 +42,7 @@ zawsze
     koniec
 +   jeżeli < dotyka koloru [#F2A24A] > to
     zmień tło na (następne tło v)
-    idź do x: (-200) y: (0)
+    Idź do x: (-200) y: (0)
     zmień [pokój v] o (1)
     koniec
 koniec
@@ -66,7 +66,7 @@ Tutaj są dodatkowe bloki, których potrzebujesz:
 ![gracz](images/player.png)
 
 ```blocks3
-idź do x: (-200) y: (0)
+Idź do x: (-200) y: (0)
 
 ustaw [pokój v] na (1)
 
@@ -105,7 +105,7 @@ zawsze
     koniec
     jeżeli < dotyka koloru [#F2A24A] > to
     zmień tło na (następne tło v)
-    idź do x: (-200) y: (0)
+    Idź do x: (-200) y: (0)
     zmień [pokój v] o (1)
     koniec
 koniec

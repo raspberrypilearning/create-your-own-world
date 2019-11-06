@@ -24,7 +24,7 @@ Teraz dodasz kod, aby niektóre drzwi w twoim świecie gry były zamknięte, a g
 
 ```blocks3
 kiedy kliknięto zieloną flagę
-czekaj aż < dotyka [gracz v]?>
+czekaj aż <dotyka (gracz v)?>
 dodaj [niebieski klucz] do [inwentarz v]
 ukryj
 zatrzymaj [inne skrypty duszka v]

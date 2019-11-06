@@ -12,7 +12,7 @@ Dodaj do swojego świata inne osoby, z którymi twój duszek `gracz` może wchod
 
 ```blocks3
 kiedy kliknięto zieloną flagę
-    idź do x: (0) y: (-150)
+    Idź do x: (0) y: (-150)
     zawsze 
         jeżeli < dotyka (gracz v)? > to
         powiedz [Czy wiesz, że możesz przechodzić przez pomarańczowe i żółte drzwi?]
