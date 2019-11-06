@@ -1,7 +1,7 @@
-## Challenge: treasure!
+## Izziv: zaklad!
 
-Can you add some treasure for the player to find?
+Ali lahko dodaš zaklad, ki ga mora igralec poiskati?
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+Poskrbi, da sebo figura `skrinjica` pojavila le v tretji sobi in naredi, da bo ta figura rekla "Dobro opravljeno!", ko se je bo dotaknila figura `igralec`.
 
 ![posnetek zaslona](images/world-treasure.png)
