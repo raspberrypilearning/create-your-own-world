@@ -12,7 +12,7 @@ V tem projektu se boš naučil-a, kako ustvariti svojo lastno pustolovsko igro, 
 
 \--- no-print \---
 
-Klikni zeleno zastavo, da začneš. Svoj lik premikaš po svetu s pomočjo smernih tipk.
+Klikni zeleno zastavo, da začneš. Svoj lik po svetu premikaš s pritiskanjem na smerne tipke.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@ Klikni zeleno zastavo, da začneš. Svoj lik premikaš po svetu s pomočjo smern
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Za premikanje po svetu, boš uporablja-a smerne tipke. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -39,9 +39,9 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 - Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target = "_blank"})
 
-### Downloads
+### Prenosi
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Vse, kar potrebuješ za dokončanje tega projekta, najdeš na [ rpf.io/p/sl/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
