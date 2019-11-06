@@ -6,7 +6,7 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## Introducción
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+En este proyecto, aprenderás cómo crear tu propio juego de aventuras con múltiples niveles para que el jugador los explore.
 
 ### Lo que harás
 
@@ -23,7 +23,7 @@ Haz clic en la bandera verde para empezar. Utiliza las teclas de flecha para mov
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Utiliza los cursores, teclas de flechas, para mover a tu personaje por el mundo. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ### Descargas
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Puede encontrar todo lo necesario para completar este proyecto en [ rpf.io/p/en/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
