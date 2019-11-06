@@ -10,11 +10,11 @@ steps:
   - 
     title: Introdução
   - 
-    title: Move the player sprite
+    title: Mover o sprite do jogador
   - 
     title: Paredes sólidas
   - 
-    title: Move around your world
+    title: Mova-se ao redor do seu mundo
   - 
     title: "Desafio: voltar à sala anterior"
     challenge: true
@@ -24,7 +24,7 @@ steps:
     title: "Desafio: tesouro!"
     challenge: true
   - 
-    title: People
+    title: Pessoas
   - 
     title: "Desafio: inimigos"
     challenge: true
