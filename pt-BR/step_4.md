@@ -1,14 +1,14 @@
-## Move around your world
+## Mova-se pelo seu mundo
 
-The `player` sprite should be able to walk through doors into other rooms.
+O `player` sprite deve ser capaz de andar pelas portas até outras salas.
 
-Your project contains backdrops for additional rooms:
+Seu projeto contém cenários para salas adicionais:
 
 ![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Crie uma nova variável 'para todos os sprites' chamada `room` {:class="block3variables"} para acompanhar qual sala o jogador ` ` sprite está dentro.
 
 [[[generic-scratch3-add-variable]]]
 
