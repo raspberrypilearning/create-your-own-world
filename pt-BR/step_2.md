@@ -1,26 +1,26 @@
-## Move the player sprite
+## Mova o sprite do jogador
 
-Start by creating a `player` sprite that can move around your world.
+Comece criando um sprite `player` que pode se mover ao redor do seu mundo.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Abra o projeto inicial do Scratch 'Crie seu próprio mundo'.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+** Online: ** abra o projeto inicial em [ rpf.io/create-your-own-world-on ](http://rpf.io/create-your-own-world-on) {: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se você tiver uma conta Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Se você precisar baixar e instalar o editor offline do Scratch, poderá encontrá-lo em [ rpf.io/scratchoff ](https://rpf.io/scratchoff) {: target = "_ blank"}.
 
 ![screenshot](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Ao pressionar as setas mover o sprite `player`. Quando a seta para cima é pressionada, o `player` sprite move para cima em resposta.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Adicione este código para imprimir sua variável `jogadores`:
 
 ![player](images/player.png)
 
@@ -38,7 +38,7 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Clique no sinalizador e depois segure a seta para cima. O `player` sprite se move para cima?
 
 ![screenshot](images/world-up.png)
 
@@ -46,7 +46,7 @@ Click the flag and then hold down the up arrow. Does the `player` sprite move up
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Para mover o `player` sprite à esquerda, você precisa adicionar outro `se`{:class="block3control"} com um código similar:
 
 ![player](images/player.png)
 
@@ -68,21 +68,21 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Adicione mais código ao seu ` player ` sprite para que ele também possa se mover para baixo e para a direita. Use o código que você já tem para ajudá-lo.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Para mover para cima, aponte o `player` para a direção `0` graus. O que você precisa fazer para mover o sprite para baixo?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Para mover para a esquerda, você aponta o sprite na direção `-90` graus. O que você tem que fazer para mover o sprite para a direita?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Você precisa alterar estes dois blocos:
 
 ![player](images/player.png)
 
@@ -92,7 +92,7 @@ You need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Duplique o código que faz o `player` sprite mover para cima e alterar esses dois blocos para fazer o sprite descer. Duplique o código novamente e altere-o para fazer o sprite se mover para a direita.
 
 \--- /hint \--- \--- hint \--- Here is how your code should look:
 
