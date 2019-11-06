@@ -1,39 +1,41 @@
-## Challenge: add an enemy
+## Challenge: sovražniki
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Če želiš, lahko dodaš sovražnike, ki oprezajo po igri. Če se figura `igralec` dotakne sovražnika, je igre konec.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Tvoja igra že vsebuje figuro `sovražnik`. Figuri `sovražnik` dodaj kodo, da se bo pojavila le v drugi sobi.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ Dodaj kodo, ki bo premikala figuro `sovražnik` in končala igro, če se figura `sovražnik` dotakne figure `igralec`. To je lažje narediti v ločenih blokih kode. Tako bi lahko tvoja koda figure `sovražnik` izgledala:
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
+ko kliknemo na zastavo
+ponavljaj
+če <(soba :: Spremenljivka)=[2]> potem
+pokaži
+sicer
+skrij
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+ko kliknemo na zastavo
+ponavljaj
+če <se dotika (igralec v)?> potem
+ustavi (vse v)
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
-end
-repeat (130)
-change x by (1)
+ko kliknemo na zastavo
+pojdi na x: (170) y:(0)
+ponavljaj
+ponovi (130) krat
+spremeni x za (-1)
+konec
+ponovi (130) krat
+spremeni x za (1)
+konec
+konec
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Preizkusi svojo igro in se prepričaj, da: 
+    + Je figura `sovražnik` vidna le v sobi 2
+    + Figura `sovražnik` patruljira po sobi
+    + Se igra konča, ko se figura `igralec` dotakne figure `sovražnik`
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Ali lahko ustvariš še eno figuro `sovražnik` v sobi 3, ki se bo premikala goro in dol po zarezi v steni?
 
 ![posnetek zaslona](images/world-enemy2.png)
