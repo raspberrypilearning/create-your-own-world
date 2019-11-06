@@ -55,13 +55,15 @@ koniec
 Dodaj ten kod na **początku** kodu twojego duszka `gracz` powyżej pętli `zawsze`{:class="block3control"}, aby zresetować wszystko po kliknięciu flagi:
 
 --- hints ---
- --- hint --- Kiedy gra się rozpoczyna:
+--- hint --- 
+Kiedy gra się rozpoczyna:
 
 + Wartość zmiennej `pokój`{:class="block3variables"} powinna być ustawiona na `1`{:class="block3variables"}
 + `Tło`{:class="block3looks"} powinno być ustawione na `pokój1`{:class="block3looks"}
 + Pozycja duszka `gracz` powinna być ustawiona na `x: -200 y: 0`{:class="block3motion"}
 --- /hint ---
- --- hint --- Tutaj są dodatkowe bloki, których potrzebujesz:
+--- hint --- 
+Tutaj są dodatkowe bloki, których potrzebujesz:
 
 ![gracz](images/player.png)
 
@@ -110,7 +112,7 @@ zawsze
 koniec
 ```
 
--- /hint --- --- hints ---
+-- /hint --- --- /hints ---
 
 
 --- /task ---
