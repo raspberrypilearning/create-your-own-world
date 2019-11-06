@@ -1,6 +1,6 @@
 ## Poruszaj się po swoim świecie
 
-Duszek `gracza` powinien móc przejść przez drzwi do innych pomieszczeń.
+Duszek `gracz` powinien móc przejść przez drzwi do innych pomieszczeń.
 
 Twój projekt zawiera tła dla dodatkowych pokoi:
 
@@ -8,13 +8,13 @@ Twój projekt zawiera tła dla dodatkowych pokoi:
 
 \--- task \---
 
-Utwórz nową zmienną 'dla wszystkich duszków' o nazwie `pokój`{:class="block3variables"}, aby śledzić w którym pomieszczeniu znajduje się duszek `gracza`.
+Utwórz nową zmienną 'dla wszystkich duszków' o nazwie `pokój`{:class="block3variables"}, aby śledzić w którym pomieszczeniu znajduje się duszek `gracz`.
 
 [[[generic-scratch3-add-variable]]]
 
 ![zrzut ekranu](images/world-room.png) \--- /task \---
 
-\--- task \--- Kiedy duszek `gracz` dotknie pomarańczowych drzwi w pierwszym pomieszczeniu, kolejne tło powinno być wyświetlone, a duszek `gracz` powinien wrócić na lewą stronę sceny. Dodaj ten kod dla duszka `gracza` wewnątrz pętli `zawsze`{:class="block3control"}:
+\--- task \--- Kiedy duszek `gracz` dotknie pomarańczowych drzwi w pierwszym pomieszczeniu, kolejne tło powinno być wyświetlone, a duszek `gracz` powinien wrócić na lewą stronę sceny. Dodaj ten kod dla duszka `gracz` wewnątrz pętli `zawsze`{:class="block3control"}:
 
 ![gracz](images/player.png)
 
@@ -50,9 +50,9 @@ koniec
 
 \--- /task \---
 
-\--- task \--- Za każdym razem, gdy gra się rozpoczyna, pokój, pozycja postaci i tło muszą być resetowane.
+\--- task \--- Za każdym razem, gdy gra się rozpoczyna pokój, pozycja postaci i tło muszą być resetowane.
 
-Dodaj ten kod na **początku** kodu twojego duszka `gracza` powyżej pętli `zawsze`{:class="block3control"}, aby zresetować wszystko po kliknięciu flagi:
+Dodaj ten kod na **początku** kodu twojego duszka `gracz` powyżej pętli `zawsze`{:class="block3control"}, aby zresetować wszystko po kliknięciu flagi:
 
 \--- hints \--- \--- hint \--- Kiedy gra się rozpoczyna:
 
@@ -84,7 +84,7 @@ zawsze
         ustaw kierunek na (0)
         przesuń o (4) kroki
     koniec
-    jeżeli <klawisz (lewa strzałka v) naciśnięty? > to
+    jeżeli <klawisz (strzałka w lewo v) naciśnięty? > to
         ustaw kierunek na (-90)
         przesuń o (4) kroki
     koniec
@@ -111,6 +111,6 @@ koniec
 
 \--- /task \---
 
-\--- task \--- Kliknij flagę, a następnie przesuń swój duszek `gracza`, aż dotknie pomarańczowych drzwi. Czy duszek przechodzi do następnego ekranu? Czy zmienna `pokój`{:class="block3variables"} zmienia się na `2`?
+\--- task \--- Kliknij flagę, a następnie idź swoim duszkiem `gracz`, aż dotknie pomarańczowych drzwi. Czy duszek przechodzi do następnego ekranu? Czy zmienna `pokój`{:class="block3variables"} zmienia się na `2`?
 
 ![zrzut ekranu](images/world-room-test.png) \--- /task \---
