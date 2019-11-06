@@ -13,7 +13,7 @@ Twój duszek `gracz` powinien móc zbierać monety, gdy porusza się po świecie
 ```blocks3
 kiedy kliknięto zieloną flagę
 zawsze
-jeżeli <(pokój :: zmienne) =[1]> to
+jeżeli <(pokój :: variables) =[1]> to
 pokaż
 w przeciwnym razie
 ukryj

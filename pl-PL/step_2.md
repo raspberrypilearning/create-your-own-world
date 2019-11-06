@@ -29,7 +29,7 @@ kiedy kliknięto zieloną flagę
 zawsze 
  jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
         ustaw kierunek na (0)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
 koniec
 ```
@@ -55,11 +55,11 @@ kiedy kliknięto zieloną flagę
 zawsze
     jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
         ustaw kierunek na (0)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
 + jeżeli <klawisz (strzałka w lewo v) naciśnięty? > to
         ustaw kierunek na (-90)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
 koniec
 ```
@@ -77,7 +77,7 @@ Dodaj więcej kodu do swojego duszka `gracz` tak, aby mógł poruszać się rów
 
 Aby poruszać się w górę, ustaw kierunek duszka `gracz` na `0` stopni. Co należałoby zrobić, aby ruszyć duszkiem w dół?
 
-Aby poruszać się w lewo, ustaw kierunek duszka na `90` stopni. Co należałoby zrobić, aby ruszyć duszkiem w prawo?
+Aby poruszać się w lewo, ustaw kierunek duszka na `-90` stopni. Co należałoby zrobić, aby ruszyć duszkiem w prawo?
 
 --- /hint ---
 
@@ -104,20 +104,20 @@ kiedy kliknięto zieloną flagę
 zawsze
     jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
         ustaw kierunek na (0)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
     jeżeli <klawisz (strzałka w lewo v) naciśnięty? > to
         ustaw kierunek na (-90)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
 
 + jeżeli <klawisz (strzałka w dół v) naciśnięty? > to
         ustaw kierunek na (180)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
 + jeżeli <klawisz [strzałka w prawo v] naciśnięty? > to
         ustaw kierunek na (90)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
 koniec
 ```

@@ -16,18 +16,19 @@ Twój projekt zawiera duszka `znak powitalny`:
 ![znak](images/sign.png)
 
 ```blocks3
-<br />jeżelili < > to
+jeżeli <> to 
+  
 w przeciwnym razie
-koniec
+end
 
-< (pokój :: zmienne) = [1] >
+<(pokój :: variables) = [1]>
 
 ukryj
 
 pokaż
 
 zawsze
-koniec
+end
 
 kiedy kliknięto zieloną flagę
 
@@ -40,7 +41,7 @@ kiedy kliknięto zieloną flagę
 ```blocks3
 kiedy kliknięto zieloną flagę
 zawsze
-    jeżeli < (pokój :: zmienne) = [1] > to
+    jeżeli < (pokój :: variables) = [1] > to
         pokaż
     w przeciwnym razie
         ukryj
@@ -48,7 +49,7 @@ zawsze
 koniec
 ```
 
--- /hint --- --- /hints ---
+--- /hint --- --- /hints ---
 
 
 --- /task ---
@@ -63,15 +64,15 @@ koniec
 
 ```blocks3
 kiedy kliknięto zieloną flagę
-zawsze
-jeżli < (pokój :: zmienne) = [1] > to
+zawsze 
+jeżeli < (pokój :: variables) = [1]> to 
 pokaż
-w przeciwnym razie
+w przeciwnym razie 
 ukryj
 koniec
-+ jeżeli < dotyka (gracz v)? > to
++jeżeli < dotyka (gracz v)? > to 
 powiedz [Witamy! Czy uda Ci się dotrzeć do skarbu?]
-w przeciwnym razie
+w przeciwnym razie 
 powiedz []
 koniec
 koniec

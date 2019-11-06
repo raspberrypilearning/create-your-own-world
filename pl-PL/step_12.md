@@ -19,8 +19,9 @@ Możesz teraz kontynuować tworzenie własnego świata! Oto kilka pomysłów:
 ![zrzut ekranu](images/north-south-rooms.png) ![zrzut ekranu](images/number-grid.png)
 
 ```blocks3
-jeśli < dotyka koloru []?> to
+jeżeli <dotyka koloru [ ]?> to 
 zmień tło na ((kostium [liczba v]) + (3))
-idź do x: (0) y: (200)
+Idź do x: (0) y: (200)
 zmień [pokój v] o (3)
+koniec
 ```

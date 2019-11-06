@@ -13,19 +13,19 @@ kiedy kliknięto zieloną flagę
 zawsze
     jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
         ustaw kierunek na (0)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
     jeżeli <klawisz (strzałka w lewo v) naciśnięty? > to
         ustaw kierunek na (-90)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
         jeżeli <klawisz (strzałka w dół v) naciśnięty? > to
         ustaw kierunek na (-180)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
         jeżeli <klawisz [strzałka w prawo v] naciśnięty? > to
         ustaw kierunek na (90)
-        przesuń o (4) kroki
+        przesuń o (4) kroków
     koniec
 +   jeżeli < dotyka koloru [#BABABA]? > to
     przesuń o (-4) kroków

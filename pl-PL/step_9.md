@@ -9,7 +9,7 @@ Jeśli chcesz, możesz również dodać patrolujących wrogów do swojej gry. Je
 ```blocks3
 kiedy kliknięto zieloną flagę
 zawsze
-jeżeli <(pokój :: zmienne) =[2]> to
+jeżeli <(pokój :: variables) =[2]> to
 pokaż
 w przeciwnym razie
 ukryj
