@@ -1,14 +1,14 @@
 ## Zbieranie monet
 
-Twój duszek `gracza` powinien móc zbierać monety, gdy porusza się po świecie.
+Twój duszek `gracz` powinien móc zbierać monety, gdy porusza się po świecie.
 
 \--- task \--- Dodaj nową zmienną `monety`{:class="block3variables"} do swojego projektu. \--- /task \---
 
-\--- task \--- Wybierz duszka `monety` i kliknij **pokaż**.
+\--- task \--- Wybierz duszka `moneta` i kliknij **pokaż**.
 
 ![zrzut ekranu](images/coin.png) \--- /task \---
 
-\--- task \--- Dodaj kod do swojego duszka`monety`, aby pojawił się tylko w pokoju 1. ![zrzut ekranu](images/coin.png)
+\--- task \--- Dodaj kod do swojego duszka`moneta`, aby pojawiał się tylko w pokoju 1. ![zrzut ekranu](images/coin.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -23,7 +23,7 @@ ukryj
 
 \--- task \---
 
-Dodaj kod do Twojego duszka `monety`, aby ten duszek `ukrywał się`{:class="block3looks"} i do zmiennej `moneta`{:class="block3variables"} dodane zostało `1`{:class="block3variables"}, gdy duszek `gracz` dotknie duszka `moneta`, aby ją "podnieść".
+Dodaj kod do Twojego duszka `moneta`, aby ten duszek wykoywał polecenie`ukryj`{:class="block3looks"} i do zmiennej `monety`{:class="block3variables"} dodane zostało `1`{:class="block3variables"}, gdy duszek `gracz` dotknie duszka `moneta`, aby ją "podnieść".
 
 ![moneta](images/coin.png)
 
@@ -39,7 +39,7 @@ Kod `zatrzymaj inne skrypty duszka`{:class="block3control"} jest potrzebny, aby 
 
 \--- /task \---
 
-\--- task \--- Teraz dodaj kod do sceny, aby ustawić Twoją zmienną `monety`{:class="block3variables"} na `0`{:class="block3variables"} na początku gry.
+\--- task \--- Teraz dodaj kod do sceny, aby Twoja zmienna `monety`{:class="block3variables"} została ustawiona na `0`{:class="block3variables"} na początku gry.
 
 ![scena](images/stage.png)
 
@@ -50,4 +50,4 @@ ustaw [monety v] na [0]
 
 \--- /task \---
 
-\--- task \--- Przetestuj swoją grę. Zebranie monety powinno zmienić ilość `monet` na `1`{:class="block3variables"}. \--- /task \---
+\--- task \--- Przetestuj swoją grę. Zebranie monety powinno zmienić wartość zmiennej`monety` na `1`{:class="block3variables"}. \--- /task \---
