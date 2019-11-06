@@ -6,9 +6,9 @@ To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersj
 
 ## Wprowadzenie
 
-W tym projekcie nauczysz się tworzyć własny świat gier przygodowych z wieloma poziomami do odkrycia.
+Ten projekt nauczy Cię tworzenia swojego świata do gry przygodowej z wieloma poziomami do zbadania.
 
-### Co będziesz robił
+### Co zrobisz
 
 \--- no-print \---
 
@@ -23,7 +23,7 @@ Kliknij na zieloną flagę, aby rozpocząć. Użyj klawiszy strzałek, aby porus
 
 \--- print-only \---
 
-Użyjesz klawiszy strzałek, aby poruszać swoją postać w świecie gry. ![showcase.png](images/showcase.png)
+Klawisze strzałek umożliwią Ci poruszanie się bohaterem po świecie gry. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -49,9 +49,9 @@ Wszystko, czego potrzebujesz, aby ukończyć ten projekt, znajdziesz na [rpf.io/
 
 ## title: Czego się nauczysz
 
-- Używania wyboru warunkowego, aby zareagować na naciśnięcia przycisków
+- Używania instrukcji warunkowych, aby reagować na naciśnięcia przycisków
 - Używania zmiennych do przechowywania stanu gry
-- Używania wyboru warunkowego na podstawie wartości zmiennej
+- Używania instrukcji warunkowych w oparciu o wartości zmiennej
 - Używania list do przechowywania danych
 
 \--- /collapse \---
