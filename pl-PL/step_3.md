@@ -1,10 +1,10 @@
 ## Solidne ściany
 
-\--- task \--- Ponownie sprawdź swój duszek `gracza`. Czy widzisz, że może przejść przez jasnoszare ściany?
+\--- task \--- Ponownie sprawdź swojego duszka `gracz`. Czy widzisz, że może przejść przez jasnoszare ściany?
 
 ![zrzut ekranu](images/world-walls.png) \--- /task \---
 
-\--- task \--- Aby to naprawić, musisz sprawić, aby duszek `gracza` cofnął się, jeśli dotknie jasnoszarej ściany. Oto kod, który musisz dodać wewnątrz swojego bloku `zawsze`{:class="block3control"} poniżej bloków kierunku:
+\--- task \--- Aby to naprawić, musisz sprawić, aby duszek `gracz` cofnął się, jeśli dotknie jasnoszarej ściany. Oto kod, który musisz dodać wewnątrz swojego bloku `zawsze`{:class="block3control"} poniżej bloków kierunku:
 
 ![gracz](images/player.png)
 
@@ -37,6 +37,6 @@ koniec
 
 \--- task \---
 
-Spróbuj przejść duszkiem `gracza` przez ścianę. Jeśli Twój nowy kod działa, nie powinno to być możliwe.
+Spróbuj przejść duszkiem `gracz` przez ścianę. Jeśli Twój nowy kod działa, nie powinno to być możliwe.
 
 ![zrzut ekranu](images/world-walls-test.png) \--- /task \---
