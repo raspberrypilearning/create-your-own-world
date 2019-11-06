@@ -1,80 +1,80 @@
-## Signs
+## Znaki
 
-Now add signs to your world to guide players on their journey.
+Zdaj v svoj svet dodaj še znake, ki bodo igralca vodili na njegovem potovanju.
 
-Your project includes a `welcome sign` sprite:
+V tvojem projektu se nahaja `znak dobrodošli`:
 
 ![posnetek zaslona](images/world-sign.png)
 
-\--- task \--- The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+\--- task \--- Figura `znak dobrodošli` naj bo viden le v prvi sobi, zato dodaj nekaj kode, ki bo poskrbela, da bo temu tako:
 
-\--- hints \--- \--- hint \--- `When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Here are the blocks you need:
+\--- hints \--- \--- hint \--- `Ko kliknemo na`{:class="block3events"}, v zanki `ponavljaj`{:class="block3control"}, preveri `če`{:class="block3control"} je `soba enako 1`{:class="block3variables"} in v tem primeru `pokaži`{:class="block3looks"} `znak dobrodošli` figuro, `sicer`{:class="block3control"} `skrij`{:class="block3looks"} figuro. \--- /hint \--- \--- hint \--- To so bloki kode, ki jih potrebuješ:
 
-![sign](images/sign.png)
+![znak](images/sign.png)
 
 ```blocks3
-<br />if < > then
-else
-end
+<br />če < > potem
+sicer
+konec
 
-< (room :: variables) = [1] >
+< (soba: spremenljivke) = [1] >
 
-hide
+skrij
 
-show
+pokaži
 
-forever
-end
+ponavljaj
+konec
 
-when flag clicked
+ko kliknemo na zastavo
 
 ```
 
-\--- /hint \--- \--- hint \--- Here is the complete code:
+\--- /hint \--- \--- hint \--- Tako je videti dokončana koda:
 
-![sign](images/sign.png)
+![znak](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
+ko kliknemo na zastavo
+ponavljaj
+    če je < (soba: spremenljivke) = [1] > potem
+        pokaži
+    sicer
+        skrij
+    konec
+konec
 ```
 
 \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
-\--- task \--- Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+\--- task \--- Preizkusi kodo svoje figure `znak dobrodošli`, tako da se premikaš med sobama. Znak bi moral biti viden le v prvi sobi.
 
 ![posnetek zaslona](images/world-sign-test.png) \--- /task \---
 
-\--- task \--- A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+\--- task \--- Od znaka ni kaj dosti koristi, če ničesar ne pove! Dodaj še nekaj kode, ki prikaže sporočilo, če se figura `znak dobrodošli` dotika figure `igralec`:
 
-![sign](images/sign.png)
+![znak](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
+ko kliknemo na zastavo
+ponavljaj
+ če je < (soba: spremenljivke) = [1] > potem
+ pokaži
+ sicer
+ skrij
+ konec
++če < se dotika (igralec v)? > potem
+reci [Dobrodošli! Ali lahko pridete do zaklada?]
+sicer
+reci[]
+konec
+konec
 ```
 
 \--- /task \---
 
-\--- task \--- Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- task \--- Ponovno preizkusi svojo figuro `znak dobrodošli`. Sedaj bi moral videti sporočilo, ko se figura `igralec` dotakne figure `znak dobrodošli`.
 
 ![posnetek zaslona](images/world-sign-test2.png) \--- /task \---
