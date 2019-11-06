@@ -1,20 +1,20 @@
-## Challenge: extend your world
+## Desafio: amplie seu mundo
 
-You can now continue creating your own world! Aqui estão algumas idéias:
+Agora você pode continuar criando seu próprio mundo! Aqui estão algumas idéias:
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
-+ Add sound and music to your game
-+ Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Adicione mais moedas ao seu jogo em diferentes salas. Você pode deixar algumas moedas serem protegidas por patrulhamento de inimigos?
++ Mude os antecedentes do seu jogo
++ Adicione som e música ao seu jogo
++ Adicione mais pessoas, inimigos e sinais
++ Adicione portas vermelhas e amarelas e chaves especiais para abri-las
++ Adicione mais salas ao seu mundo
++ Adicione outros itens úteis ao seu jogo
     
-    + Use coins to get information from other people:
+    + Use moedas para obter informações de outras pessoas:
 
 ![screenshot](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ Você poderia até adicionar portas no norte e no sul da sala 1, para que o jogador possa se mover entre quartos em todas as quatro direções. Por exemplo, seu jogo pode ter nove salas em uma grade 3×3. Você pode adicionar `3` ao número da sala para mover para baixo de um nível.
 
 ![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
 
