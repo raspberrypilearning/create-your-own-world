@@ -4,15 +4,15 @@ Teraz dodasz kod, aby niektóre drzwi w twoim świecie gry były zamknięte, a g
 
 \--- task \--- Przełącz się na duszka `klucz`. Kliknij na `pokaż`{:class="block3looks"} w menu Skrypty, aby duszek pojawił się na scenie. \--- /task \---
 
-\--- task \--- Edytuj kostium duszka `klucz` tak, żeby był niebieski. \--- /task \---
+\--- task \--- Zmień kostium duszka `klucz` tak, żeby był niebieski. \--- /task \---
 
-\--- task \--- Przełącz tło sceny na pokój3 i umieść duszka `klucz`, gdzieś gdzie trudno dotrzeć!
+\--- task \--- Przełącz tło sceny na pokój3 i umieść duszka `klucz`, gdzieś gdzie trudno będzie do niego dotrzeć!
 
 ![zrzut ekranu](images/world-key.png)
 
 \--- /task \---
 
-\--- task \--- Dodaj kod do duszka`klucz`, aby pojawił się tylko w pokoju 3. \--- /task \---
+\--- task \--- Dodaj kod do duszka`klucz`, aby pojawiał się tylko w pokoju 3. \--- /task \---
 
 \--- task \--- Utwórz nową listę o nazwie `inwentarz`{:class="block3variables"} do przechowywania przedmiotów, które Twój duszek `gracz` zbiera.
 
@@ -40,7 +40,7 @@ usuń (wszystko v) z [inwentarz v]
 
 \--- /task \---
 
-\--- task \--- Przetestuj swoją grę, aby sprawdzić, czy możesz zebrać duszek `klucz` i dodać go do swojego inwentarza. \--- /task \---
+\--- task \--- Przetestuj swoją grę, aby sprawdzić, czy możesz zebrać duszka `klucz` i dodać go do swojego inwentarza. \--- /task \---
 
 \--- task \--- Teraz dodaj zamknięte drzwi. Wybierz duszka " `niebieskie drzwi` i kliknij `pokaż`{:class="block3looks} w menu Skrypty, a następnie umieść duszka w szczelinie między dwiema ścianami.
 
@@ -48,7 +48,7 @@ usuń (wszystko v) z [inwentarz v]
 
 \--- task \--- Dodaj kod do duszka `niebieskie drzwi`, aby był widoczny tylko w pokoju 3. \--- /task \---
 
-\--- task \--- Dodaj kod do duszka `niebieskie drzwi` tak, że gdy klucz znajduje się w `inwentarzu`{:class="block3variables"}, duszek się `ukrywa`{:class="block3looks "}, aby pozwolić Twojemu duszkowi `gracz` przejść.
+\--- task \--- Dodaj kod do duszka `niebieskie drzwi` tak, że gdy klucz znajduje się w `inwentarzu`{:class="block3variables"}, duszek wykonuje polecenie `ukryj`{:class="block3looks "}, aby pozwolić Twojemu duszkowi `gracz` przejść.
 
 ![drzwi](images/door.png)
 
