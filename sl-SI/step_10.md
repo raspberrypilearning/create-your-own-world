@@ -1,53 +1,53 @@
-## Collect coins
+## Zbiraj kovance
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+Tvoja figura `igralec` bi moral imeti možnost, da zbira kovance, ko se sprehaja po svetu.
 
-\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
+\--- task \--- Dodaj novo spremenljivko z imenom `kovanci`{:class="block3variables"} v tvoj projekt. \--- /task \---
 
-\--- task \--- Select the `coin` sprite and click **show**.
+\--- task \--- Izberi figuro `kovanec` in klikni na oko zraven napisa **Pokaži**.
 
 ![posnetek zaslona](images/coin.png) \--- /task \---
 
-\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![posnetek zaslona](images/coin.png)
+\--- task \--- Figuri `kovanec` dodaj kodo, zaradi katere se bo pojavil zgolj v prvi sobi. ![posnetek zaslona](images/coin.png)
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[1]> then
-show
-else
-hide
+ko kliknemo na zastavo
+ponavljaj
+če <(soba :: Spremenljivka)=[1]> potem
+pokaži
+sicer
+skrij
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Figuri `kovanec` dodaj kodo, da se bo figura `skrila`{:class="block3looks"} in dodala `1`{:class="block3variables"} spremenljivki `kovanci`{:class="block3variables"}, ko se figura `igralec` dotakne figure `kovanec`, da jo 'pobere'.
 
-![coin](images/coin.png)
+![kovanec](images/coin.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
-hide
-stop [other scripts in sprite v]
+ko kliknemo na zastavo
+počakaj dokler ni < se dotika (igralec v)?>
+spremeni [kovanci v] za (1)
+skrij
+ustavi [ostale ukaze za to figuro v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+Koda `ustavi ostale ukaze za to figuro`{:class="block3control"} je potrebna, da se figura `kovanec` preneha prikazovati v sobi 1, potem ko je pobrana.
 
 \--- /task \---
 
-\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+\--- task \--- Zdaj dodaj kodo v oder, da nastavi spremenljivko `kovanci`{:class="block3variables"} na `0`{:class="block3variables"}, ko se igra začne.
 
-![stage](images/stage.png)
+![oder](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [coins v] to [0]
+ko kliknemo na zastavo
+nastavi [kovanci v] na (0)
 ```
 
 \--- /task \---
 
-\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
+\--- task \--- Preizkusi svojo igro. Ko pobereš kovanec, bi se moralo število `kovanci` povečati na `1`{:class="block3variables"}. \--- /task \---
