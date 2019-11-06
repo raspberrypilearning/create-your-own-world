@@ -10,13 +10,13 @@ Otwórz projekt startowy "Utwórz swój własny świat".
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline:** pobierz projekt startowy z [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go), i otwórz w programie Scratch Desktop. Jeśli musisz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** pobierz projekt startowy z [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go), i otwórz w programie Scratch Desktop. Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![zrzut ekranu](images/world-starter.png)
 
 \--- /task \---
 
-Naciskanie klawiszy strzałek powinno przesuwać duszka `gracza` wokół sceny. Po naciśnięciu strzałki w górę duszek `gracza` powinien w odpowiedzi przesunąć się w górę sceny.
+Naciskanie klawiszy strzałek powinno przesuwać duszka `gracz` wokół sceny. Po naciśnięciu strzałki w górę duszek `gracz` powinien przesunąć się w górę sceny.
 
 \--- task \---
 
@@ -27,7 +27,7 @@ Dodaj poniższy kod do duszka `gracz`:
 ```blocks3
 kiedy kliknięto zieloną flagę
 zawsze 
-  jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
+ jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
         ustaw kierunek na (0)
         przesuń o (4) kroki
     koniec
@@ -38,7 +38,7 @@ koniec
 
 \--- task \---
 
-Kliknij flagę, a następnie przytrzymaj strzałkę w górę. Czy duszek `gracza` przesuwa się w górę?
+Kliknij flagę, a następnie przytrzymaj strzałkę w górę. Czy duszek `gracz` przesuwa się w górę?
 
 ![zrzut ekranu](images/world-up.png)
 
@@ -46,7 +46,7 @@ Kliknij flagę, a następnie przytrzymaj strzałkę w górę. Czy duszek `gracza
 
 \--- task \---
 
-Aby poruszyć duszka `gracz` w lewo, musisz dodać do niego kolejny blok `jeżeli`{:class="block3control"} z kodem podobnym do:
+Aby poruszyć duszka `gracz` w lewo, musisz dodać do niego kolejny blok `jeżeli`{:class="block3control"} z kodem podobnym do tego:
 
 ![gracz](images/player.png)
 
@@ -74,9 +74,9 @@ Dodaj więcej kodu do swojego duszka `gracz` tak, aby mógł poruszać się rów
 
 \--- hint \---
 
-Aby poruszać się w górę, ustaw kierunek duszka `gracz` na `0` stopni. Co musiałbyś zrobić, aby ruszyć duszkiem w dół?
+Aby poruszać się w górę, ustaw kierunek duszka `gracz` na `0` stopni. Co należałoby zrobić, aby ruszyć duszkiem w dół?
 
-Aby poruszać się w lewo, ustaw kierunek duszka na `90` stopni. Co musiałabyś zrobić, aby ruszyć duszkiem w prawo?
+Aby poruszać się w lewo, ustaw kierunek duszka na `90` stopni. Co należałoby zrobić, aby ruszyć duszkiem w prawo?
 
 \--- /hint \---
 
@@ -92,7 +92,7 @@ Musisz zmienić te dwa bloki:
 ustaw kierunek na ()
 ```
 
-Zduplikuj kod, który sprawia, że duszek `gracz` przesuwa się w górę i zmień te dwa bloki, aby sprawić, żeby duszek poruszał się w dół. Ponownie zduplikuj kod i zmień go, aby duszek przesunął się w prawo.
+Zduplikuj kod, który sprawia, że duszek `gracz` przesuwa się w górę i zmień te dwa bloki, aby duszek poruszał się w dół. Ponownie zduplikuj kod i zmień go, aby duszek przesunął się w prawo.
 
 \--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
 
@@ -105,7 +105,7 @@ zawsze
         ustaw kierunek na (0)
         przesuń o (4) kroki
     koniec
-    jeżeli <klawisz (lewa strzałka v) naciśnięty? > to
+    jeżeli <klawisz (strzałka w lewo v) naciśnięty? > to
         ustaw kierunek na (-90)
         przesuń o (4) kroki
     koniec
