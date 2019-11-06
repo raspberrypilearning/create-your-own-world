@@ -48,7 +48,7 @@ zawsze
 koniec
 ```
 
--- /hint --- --- hints ---
+-- /hint --- --- /hints ---
 
 
 --- /task ---
