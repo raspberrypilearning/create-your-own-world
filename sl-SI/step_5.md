@@ -1,3 +1,3 @@
-## Challenge: move back to the previous room
+## Izziv: premakni se nazaj v prejšnjo sobo
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+Ali znaš narediti, da se tvoja figura `igralec` premakne nazaj na prejšnjo sobo, ko se dotakne rumenih vrat? Koda, ki jo za to potrebuješ, je zelo podobna kodi, ki si jo že dodal-a za premik figure v naslednjo sobo.
