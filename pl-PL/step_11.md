@@ -28,6 +28,7 @@ czekaj aż <dotyka (gracz v)?>
 dodaj [niebieski klucz] do [inwentarz v]
 ukryj
 zatrzymaj [inne skrypty duszka v]
+koniec
 ```
 
 --- /task ---
