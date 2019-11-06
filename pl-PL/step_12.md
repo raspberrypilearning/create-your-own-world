@@ -2,11 +2,11 @@
 
 Możesz teraz kontynuować tworzenie własnego świata! Oto kilka pomysłów:
 
-+ Dodaj więcej monet do gry w różnych pokojach. Czy możesz pozwolić, aby niektóre monety były strzeżone przez patrolujących wrogów?
++ Dodaj więcej monet do gry w różnych pokojach. Może część z nich będzie strzeżona przez patrol wrogów?
 + Zmień tła swojej gry
 + Dodaj dźwięk i muzykę do swojej gry
 + Dodaj więcej osób, wrogów i znaków
-+ Dodaj czerwone i żółte drzwi i specjalne klucze, aby je otworzyć
++ Dodaj czerwone i żółte drzwi oraz specjalne klucze, aby je otworzyć
 + Dodaj więcej pokoi do swojego projektu
 + Dodaj inne przydatne przedmioty do swojej gry
     
