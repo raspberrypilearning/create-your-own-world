@@ -1,22 +1,22 @@
-## Collect coins
+## Recoger monedas
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+Tu ` jugador ` Sprite debería haber podido recoger monedas a medida que se mueve por el mundo.
 
-\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
+Añade una nueva variable a tu proyecto y llámala `Monedas`{:class="block3variables"}. \--- /task \---
 
-\--- task \--- Select the `coin` sprite and click **show**.
+\--- Haz clic derecho en el objeto `moneda` y elige **mostrar**.
 
 ![captura de pantalla](images/coin.png) \--- /task \---
 
-\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![captura de pantalla](images/coin.png)
+\--- Añade código al objeto `moneda` de manera que solamente aparezca en la habitación 1. ![captura de pantalla](images/coin.png)
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[1]> then
-show
-else
-hide
+cuando se hace click sobre la bandera
+para siempre
+si <(habitación :: variables)=[1]> entonces
+mostrar
+más
+ocultar
 ```
 
 \--- /task \---
