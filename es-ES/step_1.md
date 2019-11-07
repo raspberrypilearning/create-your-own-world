@@ -49,10 +49,10 @@ Puede encontrar todo lo necesario para completar este proyecto en [ rpf.io/p/en/
 
 ## title: Lo que vas a aprender
 
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+- Usa la selección condicional para reaccionar a pulsaciones de teclas
+- Usar variables para almacenar el estado del juego
+- Usar selección condicional basada en el valor de una variable
+- Usar listas para almacenar datos
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ Puede encontrar todo lo necesario para completar este proyecto en [ rpf.io/p/en/
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Puedes [encontrar el proyecto completo aquí](https://rpf.io/p/en/create-your-own-world-get){:target ="_blank"}.
 
 \--- /collapse \---
