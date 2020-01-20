@@ -1,12 +1,12 @@
-## Solid walls
+## Pereți solizi
 
-\--- task \--- Test your `player` sprite again. Do you see that it can walk through the light grey walls.
+\--- task \--- Testează-ți din nou `personajul`. Vezi că poate trece prin pereții de culoare gri deschis.
 
-![screenshot](images/world-walls.png) \--- /task \---
+![captură de ecran](images/world-walls.png) \--- /task \---
 
-\--- task \--- To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+\--- task \--- Pentru a remedia acestă situație, va trebui să faci `personajul` să se dea în spate dacă atinge vreun perete gri deschis. Acesta este codul pe care trebuie să îl adăugi în căsuța `forever`{:class="block3control"}, sub căsuțele cu instrucțiuni:
 
-![player](images/player.png)
+![personaj](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -37,6 +37,6 @@ end
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+Încearcă să faci ca `personajul` să treacă printr-un perete. Dacă noul cod funcționează, acest lucru n-ar trebui să fie posibil.
 
-![screenshot](images/world-walls-test.png) \--- /task \---
+![captură de ecran](images/world-walls-test.png) \--- /task \---
