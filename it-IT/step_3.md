@@ -1,10 +1,16 @@
 ## Muri solidi
 
-\--- attività \--- Prova di nuovo il tuo sprite `player`. Vedi che può camminare attraverso le pareti grigio chiaro.
+\--- task \---
 
-![schermata](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- Per risolvere questo problema, devi far sì che lo sprite `giocatore` si sposti indietro se tocca una parete grigia leggera. Ecco il codice che devi aggiungere all'interno del tuo blocco `per sempre`{:class="block3control"} sotto i blocchi di direzione:
+![screenshot](images/world-walls.png)
+
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
 
 ![player](images/player.png)
 
@@ -37,6 +43,8 @@ end
 
 \--- task \---
 
-Prova a far correre lo sprite `player` attraverso una parete. Se il nuovo codice funziona, non dovrebbe essere possibile.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![screenshot](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
