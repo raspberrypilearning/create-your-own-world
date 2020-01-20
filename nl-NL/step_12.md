@@ -16,7 +16,9 @@ Je kunt nu doorgaan met het maken van je eigen wereld! Hier zijn wat ideeën:
 
 + Je zou zelfs deuren kunnen toevoegen aan de noord- en zuidwanden van kamer 1, zodat de speler in alle vier de richtingen door kamers kan lopen. Je game kan bijvoorbeeld negen kamers hebben in een raster van 3 × 3. Je kunt dan `3` optellen bij het kamernummer om naar een ​​niveau lager te gaan.
 
-![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
+![screenshot](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 als <raak ik kleur []?> dan 
