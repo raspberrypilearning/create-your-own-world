@@ -16,7 +16,9 @@ Sada možeš da nastaviš da kreiraš sopstveni svijet! Evo nekoliko ideja:
 
 + Možeš čak da dodaš vrata na sjeverni i južni zid sobe 1, kako bi igrač mogao da se kreće između soba u sva četiri pravca. For example, your game can have nine rooms in a 3×3 grid. Zatim, za spuštanje na niži nivo, možeš broj sobe uvećati za `3`.
 
-![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
+![screenshot](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
