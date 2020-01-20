@@ -1,14 +1,14 @@
 ## جمع العملات الذهبية
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+` لاعبك` يجب أن يكون قادراً على جمع العملات المعدنية أثناء تحركه عبر العالم.
 
-\--- task \--- Add a new variable valled `coins`{:class="block3variables"} to your project. \--- /task \---
+\--- أضف متغير جديد يُسمى العملات الذهبية `coins`{:class="blockdata"} إلى مشروعك. \--- /task \---
 
-\--- task \--- Select the `coin` sprite and click **show**.
+\--- انقر بزر الفأره الأيمن فوق كائن `coin` واختر إظهار **show**.
 
 ![لقطة الشاشة](images/coin.png) \---/task--
 
-\--- task \--- Add code to your `coin` sprite so that it only appears in room 1. ![لقطة الشاشة](images/coin.png)
+\--- task \--- أضف تعليمة برمجية إلى كائن `coin` بحيث لا يظهر إلا في الغرفة 1. ![لقطة الشاشة](images/coin.png)
 
 ```blocks3
 when flag clicked
