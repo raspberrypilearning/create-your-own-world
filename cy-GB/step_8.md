@@ -2,11 +2,17 @@
 
 Fe awn ati i ychwanegu pobl arall i dy fyd mae modd i dy `chwaraewr` ryngweithio â nhw.
 
-\--- task \--- Newida i'r corlun `person`.
+\--- task \---
 
-![Corlun person](images/person.png) \--- /task \---
+Switch to the `person` sprite.
 
-\--- task \--- Ychwanega gôd i dy `berson` fel fod y person yn siarad â'r `chwaraewr`. Mae'r côd yn derbyg iawn i'r un wnes di ei ychwanegu i'r `arwydd`:
+![Person sprite](images/person.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
 ![person](images/person.png)
 
@@ -24,7 +30,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Rho ganiatâd i'r `person` i symud trwy ychwanegu dau floc yn adran `fel arall`{:class="block3control"} dy gôd:
+\--- task \---
+
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
 
 ![person](images/person.png)
 
@@ -40,15 +48,18 @@ am byth
     + os ar ymyl, bowndio
   end
 end
-
 ```
 
 \--- /task \---
 
-Bydd dy `berson` nawr yn symud, ond yn stopio i siarad gyda'r `chwaraewr`.
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![sgrinlun](images/world-person-test.png)
+![screenshot](images/world-person-test.png)
 
-\--- task \--- Ychwanega gôd i dy `berson` newydd fel ei fod ond yn ymddangos yn ystafell 1. Fe ddylai'r côd fod union yr un peth â'r côd sydd yn gwneud i'r `arwydd` ymddangos yn ystafell 1.
+\--- task \---
 
-Gwna'n siwr dy fod di'n profi dy gôd. \--- /task \---
+Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code.
+
+\--- /task \---
