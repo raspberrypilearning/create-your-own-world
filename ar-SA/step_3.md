@@ -1,12 +1,18 @@
 ## جدران صلبة
 
-\--- task \--- أختبر `لاعبك`. هل ترى أنه يمكنه المشي من خلال الجدران الرمادية الفاتحة.
+\--- task \---
 
-![لقطة الشاشة](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- لإصلاح ذلك ، تحتاج إلى جعل ` اللاعب ` يتحرك للخلف إذا لمس جدار رمادي فاتح. هنا التعليمات البرمجية التي ستحتاج إضافتها داخل قالب التكرار المستمر `forever` {:class="blockcontrol"} أسفل القوالب البرمجية الخاصة بالإتجاهات:
+![screenshot](images/world-walls.png)
 
-![اللاعب](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -33,10 +39,12 @@ forever
 end
 ```
 
-\---/task--
+\--- /task \---
 
 \--- task \---
 
-حاول أن تجعل ` اللاعب` يتحرك من خلال الجدار. إذا كانت التعليمات البرمجية الجديدة تعمل، فلن يكون ذلك ممكنا.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![لقطة الشاشة](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
