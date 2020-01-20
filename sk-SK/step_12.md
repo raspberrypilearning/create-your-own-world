@@ -16,7 +16,9 @@ Teraz môžete pokračovať vo vytváraní vlastného sveta! Tu je niekoľko ná
 
 + Môžete dokonca pridať dvere do severnej a južnej steny miestnosti 1, aby sa hráč mohol pohybovať medzi miestnosťami vo všetkých štyroch smeroch. Napríklad vaša hra môže mať deväť miestností v 3 × 3 mriežke. Potom môžete pridať `3` do čísla miestnosti, aby ste sa posunuli o jednu úroveň nadol.
 
-![snímka obrazovky](images/north-south-rooms.png) ![snímka obrazovky](images/number-grid.png)
+![snímka obrazovky](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 ak <touching color [ ]?> potom
