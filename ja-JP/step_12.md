@@ -16,7 +16,9 @@
 
 + 部屋1の北と南の壁にドアを追加することもでき、プレイヤーは4方向すべての部屋を移動できます。 たとえば、3×3のグリッドに9つの部屋があるとします。 部屋番号に `3` を追加して1つ下の階層に移動できます。
 
-![スクリーンショット](images/north-south-rooms.png) ![スクリーンショット](images/number-grid.png)
+![スクリーンショット](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 もし <touching color [ ]?> 次に
