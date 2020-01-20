@@ -1,12 +1,18 @@
 ## Solidne ściany
 
-\--- task \--- Ponownie sprawdź swojego duszka `gracz`. Czy widzisz, że może przejść przez jasnoszare ściany?
+\--- task \---
 
-![zrzut ekranu](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- Aby to naprawić, musisz sprawić, aby duszek `gracz` cofnął się, jeśli dotknie jasnoszarej ściany. Oto kod, który musisz dodać wewnątrz swojego bloku `zawsze`{:class="block3control"} poniżej bloków kierunku:
+![screenshot](images/world-walls.png)
 
-![gracz](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -37,6 +43,8 @@ koniec
 
 \--- task \---
 
-Spróbuj przejść duszkiem `gracz` przez ścianę. Jeśli Twój nowy kod działa, nie powinno to być możliwe.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![zrzut ekranu](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
