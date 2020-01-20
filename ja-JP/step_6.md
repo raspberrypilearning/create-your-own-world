@@ -6,12 +6,23 @@
 
 <p><img src="images/world-sign.png" alt="スクリーンショット" /></p>
 
-<p>--- task ---
- <code>ウェルカムサイン` スプライトはルーム1にのみ表示されるはずです そのため、スプライトにコードを追加してこれを確実に実行します。
+<p>--- task ---</p>
 
-\---ヒント\--- \---ヒント\--- `フラグがクリックされたとき`{：class = "block3events"}、永遠に ``{：class = "block3control"}ループ、 `なら`{：class = "block3control"} `部屋は1`{：class = "block3variables"}で、その場合は `show`{：class = "block3looks"} `ウェルカムサイン` スプライト、 `その他`{：class = "block3control"} `hide`{：class = "block3looks"}スプライト。 \--- / hint \--- \--- hint \--- 必要なブロックは次のとおりです。
+<p>The <code>welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-![符号](images/sign.png)
+\--- hints \---
+
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![sign](images/sign.png)
 
 ```blocks3
 <br />場合 < > 、次いで
@@ -31,9 +42,13 @@
 
 ```
 
-\--- / hint \--- \--- hint \--- が完全なコードです。
+\--- /hint \---
 
-![符号](images/sign.png)
+\--- hint \---
+
+Here is the complete code:
+
+![sign](images/sign.png)
 
 ```blocks3
 flagが永遠に
@@ -46,17 +61,25 @@ flagが永遠に
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- 部屋間を移動して、 `ウェルカムサイン` スプライトのコードをテストします。 看板は部屋1にだけ見えるはずです。
+\--- task \---
 
-![スクリーンショット](images/world-sign-test.png) \--- /task \---
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-\--- task \--- 何も言わなければサインはあまり良くありません！ `ウェルカムサイン` スプライトが `プレーヤー` スプライトに触れている場合にメッセージを表示するためのコードをさらに追加します。
+![screenshot](images/world-sign-test.png)
 
-![符号](images/sign.png)
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+
+![sign](images/sign.png)
 
 ```blocks3
 flagが永遠に
@@ -76,6 +99,10 @@ end
 
 \--- /task \---
 
-\--- task \--- `ウェルカムサイン` スプライトをもう一度テストします。 `プレイヤー` スプライトが `ウェルカムサイン` スプライトに触れるとメッセージが表示されます。
+\--- task \---
 
-![スクリーンショット](images/world-sign-test2.png) \--- /task \---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
