@@ -16,7 +16,9 @@ Acum poți continua să-ți creezi propria lume! Iată câteva idei:
 
 + Ai putea să adaugi uși în pereții nordici și sudici ai camerei 1, astfel încât jucătorul să se poată deplasa între camere în toate cele patru direcții. De exemplu, jocul tău poate avea nouă camere într-o grilă 3×3. Poți apoi să adaugi `3` la numărul camerei pentru a te deplasa cu un nivel în jos.
 
-![captură de ecran](images/north-south-rooms.png) ![captură de ecran](images/number-grid.png)
+![captură de ecran](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
