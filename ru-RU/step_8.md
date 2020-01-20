@@ -1,54 +1,54 @@
-## People
+## Люди
 
-Add other people to your world who your `player` sprite can interact with.
+Добавьте в свой мир других людей, с которыми твой спрайт `игрок` мог бы общаться.
 
-\--- task \--- Switch to the `person` sprite.
+\--- task \--- Перейди на спрайт `человек`.
 
 ![Person sprite](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\--- task \--- Добавь код спрайту `человек` так, чтобы этот человек мог разговаривать с спрайтом `игрок`. Этот код очень похож на код, который ты добавил для спрайта `табличка`:
 
 ![person](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
+когда щёлкнут по зелёному флагу
+перейти в x: (0) y: (-150)
+повторять всегда 
+  если < касается (игрок v)? >, то 
+    сказать [Ты знал, что ты можешь проходить сквозь желтые и оранжевые двери?]
+  иначе 
+    сказать []
+  end
 end
 ```
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- task \--- Добавь спрайту `человек` возможность двигаться путем добавления этих двух блоков в `иначе`{:class="block3control"} ветку твоего кода:
 
 ![person](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
+когда щёлкнут по зелёному флагу
+перейти в x: (0) y: (-150)
+повторять всегда 
+  если < касается (игрок v)? >, то 
+    сказать [Ты знал, что ты можешь проходить сквозь желтые и оранжевые двери?]
+  иначе 
+    сказать []
+    + идти (1) шагов
+    + если касается края, оттолкнуться
+  end
 end
 
 ```
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Твой спрайт `человек` будет теперь двигаться, но перестанет общаться с спрайтом `игрок`.
 
 ![screenshot](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- task \--- Добавь код к своему новому спрайту `человек` так, чтобы спрайт появляется только в комнате 1. Код, который тебе нужен, точно такой же, как код, который делает спрайт `табличка` только видимой в комнате 1.
 
-Make sure you test out your new code. \--- /task \---
+Убедитесь, что ты проверили свой новый код. \--- /task \---
