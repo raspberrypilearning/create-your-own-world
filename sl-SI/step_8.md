@@ -2,11 +2,17 @@
 
 Svojemu svetu dodaj še druge ljudi, s katerimi se lahko tvoja figura `igralec` sporazumeva.
 
-\--- task \--- Izberi figuro `oseba`.
+\--- task \---
 
-![Figura osebe](images/person.png) \--- /task \---
+Switch to the `person` sprite.
 
-Figuri `oseba` dodaj nekaj kode, tako da bo ta oseba govorila s figuro `igralec`. Ta koda je zelo podobna kodi, ki si jo dodal-a figuri `znak`:
+![Person sprite](images/person.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
 ![oseba](images/person.png)
 
@@ -24,9 +30,11 @@ konec
 
 \--- /task \---
 
-\--- task \--- Omogoči figuri `oseba`, da se premika. Dodaj ji ta dva bloka v razdelek `sicer`{:class="block3control"} v tvoji kodi:
+\--- task \---
 
-![oseba](images/person.png)
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -40,15 +48,18 @@ ponavljaj
 +       odbij se, če si na robu
     konec
 konec
-
 ```
 
 \--- /task \---
 
-Vaša figura `oseba` se bo sedaj premaknila, a se bo nehala pogovarjati s figuro `igralec`.
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![posnetek zaslona](images/world-person-test.png)
+![screenshot](images/world-person-test.png)
 
-\--- task \--- Figuri `oseba` dodaj kodo, da se bo pojavila le v prvi sobi. Koda, ki jo potrebuješ, je popolnoma enaka kodi, ki poskrbi, da je figura `znak` vidna le v prvi sobi.
+\--- task \---
 
-Poskrbi, da boš preizkusil-a svojo novo kodo. \--- /task \---
+Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code.
+
+\--- /task \---
