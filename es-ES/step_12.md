@@ -16,7 +16,9 @@
 
 + Incluso podrías añadir puertas en las paredes norte y sur de la habitación 1, de modo que el jugador pueda moverse entre habitaciones en las cuatro direcciones. Por ejemplo, tu juego puede tener nueve salas en una cuadrícula de 3×3. Entonces podrías sumar `3` al número de habitación para moverte al nivel inferior.
 
-![captura de pantalla](images/north-south-rooms.png) ![captura de pantalla](images/number-grid.png)
+![captura de pantalla](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 si <touching color [ ]?> entonces
