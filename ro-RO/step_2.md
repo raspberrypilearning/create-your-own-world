@@ -1,28 +1,28 @@
-## Move the player sprite
+## Mișcarea personajului
 
-Start by creating a `player` sprite that can move around your world.
+Începe prin a crea un `personaj` care se poate mișca în lumea creată de tine.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Deschide proiectul Scratch de început „Crează-ți propria lume”.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online:** deschide proiectul de început la [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Dacă ai un cont Scratch poți face o copie dând click pe **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** descărcă proiectul de început de la [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, apoi deschide-l folosind editorul offline. Dacă ai nevoie să descarci și să instalezi editorul Scratch offline, îl poți găsi la [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![captură de ecran](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Apăsarea tastelor săgeată ar trebui să mute `personajul`. Când este apăsată săgeata sus, `personajul` ar trebui să se deplaseze în sus ca răspuns.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Adaugă acest cod `personajului`:
 
-![player](images/player.png)
+![personaj](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -38,17 +38,17 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Dă click pe steag și apoi ține apăsată săgeata sus. `Personajul` se mișcă în sus?
 
-![screenshot](images/world-up.png)
+![captură de ecran](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Pentru a muta `personajul` la stânga, trebuie să adaugi o altă căsuță cu `variabilă`{:class="block3control"} cu cod similar:
 
-![player](images/player.png)
+![personaj](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -68,23 +68,23 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Adăugă mai mult cod `personajului` pentru ca acesta să se poată mișca în jos și spre dreapta. Folosește codul pe care îl ai deja pentru a vă ajuta.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Pentru a se deplasa în sus, indică `personajul` în direcția `0` grade. Ce trebuie să faci pentru a muta personajul în jos?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Pentru a se deplasa spre stânga, indică personajul în direcția `-90` grade. Ce trebuie să faci pentru a mișca personajul spre dreapta?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Trebuie să schimbi aceste două căsuțe:
 
-![player](images/player.png)
+![personaj](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -92,11 +92,11 @@ You need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Copiază codul care face `personajul` să se deplasează în sus și schimbă aceste două căsuțe pentru a-l face să se miște în jos. Copiază din nou codul și modifică-l pentru a face personajul să se deplaseze spre dreapta.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul:
 
-![player](images/player.png)
+![personaj](images/player.png)
 
 ```blocks3
 when flag clicked
