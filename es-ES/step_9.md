@@ -1,37 +1,37 @@
 ## Desafío: añadir un enemigo
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Si quieres, también puedes añadir enemigos patrullando en tu juego. Si el objeto `jugador` toca un enemigo, el juego termina.
 
-+ Your game already contains an `enemy` sprite. Añade código al objeto `enemigo` de manera que solamente aparezca en la habitación 2.
++ Tu juego ya contiene un objeto `enemigo`. Añade código al objeto `enemigo` de manera que solamente aparezca en la habitación 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Es más fácil hacer esto en bloques de código separados. El código de tu objeto `enemigo` debería quedar así:
++ Añade código para mover el objeto `enemigo` y para terminar el juego si el objeto `enemigo` toca al objeto `jugador`. Es más fácil hacer esto en bloques de código separados. El código de tu objeto `enemigo` debería quedar así:
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
+al presionar la bandera verde
+para siempre
+si <(habitación :: variables) =[2]> luego
+muestra
+si no
+ocultar
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+al presionar la bandera verde
+para siempre
+si <touching (player v)?> luego
+detiene [todos v]
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
-end
-repeat (130)
-change x by (1)
+al presionar la bandera verde
+ir a x : (170) y: (0)
+para siempre
+repetir (130)
+cambiar x por (-1)
+fin
+repetir (130)
+cambiar x por (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
++ Prueba tu nuevo código para asegurarte de que funciona: 
+    + El objeto `enemigo` sólo debe ser visible en la sala 2
+    + El objeto` enemigo ` patrulla la habitación
     + The game ends if the `player` sprite touches the `enemy` sprite
 
 ¿Puedes crear otro objeto `enemigo` en la habitación 3 que patrulle arriba y abajo a través del hueco en la pared?
