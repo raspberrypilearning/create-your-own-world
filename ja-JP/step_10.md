@@ -2,13 +2,25 @@
 
 あなたの `プレイヤー` スプライトは、世界中を移動するにつれてコインを集めることができるはずです。
 
-\--- task \--- `コイン`コイン付きの新しい変数</code> {：class = "block3variables"}をあなたのプロジェクトに追加します。 \--- /task \---
+\--- task \---
 
-\--- task \--- Select the `coin` sprite and click **show**.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![スクリーンショット](images/coin.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- `コイン` スプライトにコードを追加し、それが部屋1にのみ現れるようにする。 ![スクリーンショット](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 flagが永遠に
@@ -23,9 +35,9 @@ flagが永遠に
 
 \--- task \---
 
-`コイン` スプライトにコードを追加して、スプライト `が`{：class = "block3looks"}を隠し、 `1`{：class = "block3variables"}が `コインに追加されるようにします`{：class = "block3variables"} `プレイヤー` スプライトが `コイン` スプライトに触れて「それを拾う」場合に可変です。
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-![コイン](images/coin.png)
+![coin](images/coin.png)
 
 ```blocks3
 フラグがクリックされたときに
@@ -35,13 +47,15 @@ flagが永遠に
 STOP [スプライトVの他のスクリプト]
 ```
 
-スプライト</code>{：class = "block3control"}の他のスクリプトを停止するコード `は、 <code>コイン` スプライトが収集後に部屋1に表示されないようにするために必要です。
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
 \--- /task \---
 
-\--- task \--- ゲームの開始時に `コイン`{：class = "block3variables"}変数を `0`{：class = "block3variables"}に設定するコードをステージに追加します。
+\--- task \---
 
-![ステージ](images/stage.png)
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
 
 ```blocks3
 flagが
@@ -50,4 +64,8 @@ flagが
 
 \--- /task \---
 
-\--- task \--- ゲームをテストしてください。 コインを集めると `コイン` 得点が `1`{：class = "block3variables"}に変わります \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
