@@ -16,7 +16,9 @@ Tu peux maintenant continuer à créer ton propre monde ! Voici quelques idées 
 
 + Tu pourrais même ajouter des portes dans les murs nord et sud de la salle 1, pour que le joueur puisse se déplacer d'une salle à l'autre dans les quatre directions. Par exemple, ton jeu peut avoir neuf salles dans une grille 3 × 3. Ensuite, tu peux ajouter `3` au numéro de la salle pour descendre d’un niveau.
 
-![capture d'écran](images/north-south-rooms.png) ![capture d'écran](images/number-grid.png)
+![capture d'écran](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 si < couleur [] touchée > alors
