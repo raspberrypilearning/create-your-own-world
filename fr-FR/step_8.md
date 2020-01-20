@@ -2,11 +2,17 @@
 
 Ajoute d'autres personnes à ton monde avec lesquelles ton sprite `joueur` peut interagir.
 
-\--- task \--- Basculez vers le sprite `personne`.
+\--- task \---
 
-![Personne sprite](images/person.png) \--- /task \---
+Switch to the `person` sprite.
 
-\--- task \--- Ajoute du code au sprite `personne` pour que la personne parle au sprite `joueur`. Ce code est très similaire à celui que tu as ajouté à ton sprite `panneau`:
+![Person sprite](images/person.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
 ![personne](images/person.png)
 
@@ -24,9 +30,11 @@ end
 
 \--- /task \---
 
-\--- task \--- Permet à ton sprite `personne` de se déplacer en ajoutant ces deux blocs à la section `sinon`{:class="block3control"} de ton code:
+\--- task \---
 
-![personne](images/person.png)
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
@@ -40,15 +48,18 @@ répéter indéfiniment
 +        rebondir si le bord est atteint
     end
 end
-
 ```
 
 \--- /task \---
 
-Ton sprite `personne` va maintenant bouger, et va s'arrêter pour parler au sprite `joueur`.
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![capture d'écran](images/world-person-test.png)
+![screenshot](images/world-person-test.png)
 
-\--- task \--- Ajoute le code à ton nouveau sprite `personne` afin que ce dernier n'apparaisse que dans la salle 1. Le code dont tu as besoin est exactement le même que le code qui rend le sprite `panneau` visible seulement dans la chambre 1.
+\--- task \---
 
-Assure-toi de tester ton nouveau code. \--- /task \---
+Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code.
+
+\--- /task \---
