@@ -12,11 +12,15 @@
 
 [[[generic-scratch3-add-variable]]]
 
-![スクリーンショット](images/world-room.png) \--- /task \---
+![screenshot](images/world-room.png)
 
-\--- task \--- `プレイヤー` スプライトが最初の部屋のオレンジ色のドアに触れると、ゲームは次の背景を表示し、 `プレイヤー` スプライトはステージの左側に戻ります。 このコードを `プレーヤー` スプライトの `永久<code>`{：class = "block3control"}ループ内に追加します。
+\--- /task \---
 
-![プレーヤー](images/player.png)
+\--- task \---
+
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+
+![player](images/player.png)
 
 ```blocks3
 <キー（上向き矢印v）が押されたらフラグが永久に
@@ -52,17 +56,29 @@
 
 \--- /task \---
 
-\--- task \--- ゲームを開始するたびに、部屋、キャラクターの位置、背景をリセットする必要があります。
+\--- task \---
 
-フラグがクリックされたときにすべてをリセットするために、 `永遠の`{：class = "block3control"}ループの上の `プレーヤー` スプライトコードの **開始** コードを追加します：
+Every time the game starts, the room, character position, and backdrop need to be reset.
 
-\---ヒント\--- \---ヒント\--- ゲームが始まるとき：
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+\--- hints \---
+
+\--- hint \---
+
+When the game starts:
 
 + `room`{：class = "block3variables"}の値は、 `1`{：class = "block3variables"}に設定する必要があります。
 + `背景`{：class = "block3looks"}を `room1`{：class = "block3looks"}に設定します。
-+ 位置 `プレーヤ` スプライトは、に設定されるべき `X：-200 Y：0`{= "block3motion"クラス} \--- /ヒント\--- \--- \---ヒント ここでは、追加されています必要なブロック
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
-![プレーヤー](images/player.png)
+\--- /hint \---
+
+\--- hint \---
+
+Here are the extra blocks you need:
+
+![player](images/player.png)
 
 ```blocks3
 x：（-200）y：（0）
@@ -72,9 +88,13 @@ x：（-200）y：（0）
 背景を（room1 v）に切り替える
 ```
 
-\--- / hint \--- \--- hint \--- 完成したスクリプトは次のようになります。
+\--- /hint \---
 
-![プレーヤー](images/player.png)
+\--- hint \---
+
+Here's what your finished script should look like:
+
+![player](images/player.png)
 
 ```blocks3
 フラグがクリックされたときに
@@ -110,10 +130,16 @@ x：（-200）y：（0）
 終了
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- 旗をクリックし、オレンジ色のドアに触れるまで `プレーヤー` スプライトを移動させます。 スプライトは次の画面に移動しますか？ `room`{：class = "block3variables"}変数は `2`変わりますか？
+\--- task \---
 
-![スクリーンショット](images/world-room-test.png) \--- /task \---
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+
+\--- /task \---
