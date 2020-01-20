@@ -16,7 +16,9 @@ Alli di nawr barhau i greu dy fyd dy hunan! Dyma rai syniadau:
 
 + Fe alli di hyd yn oed ychwanegu drysau gogledd a de, fel bod y chwaraewr yn symud rhwng ystafelloedd mewn pedwar cyfeiriad. Er enghraifft, os oes gen ti 9 ystafell, fe alli di feddwl amdanynt mewn grid 3x3. Fe alli di wedyn ychwanegu `3` i rif yr ystafell i symud lawr un lefel.
 
-![sgrinlun](images/north-south-rooms.png) ![sgrinlun](images/number-grid.png)
+![sgrinlun](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 os <cyffwrdd lliw [ ] ?> yna 
