@@ -2,11 +2,17 @@
 
 Adăugă în lume alte personaje cu care `personajul principal` poate interacționa.
 
-\--- sarcină \--- Schimbă la personajul `persoană`.
+\--- task \---
 
-![Personaj persoană](images/person.png) \--- /task \---
+Switch to the `person` sprite.
 
-\--- task \--- Adăugă un cod la personajul `persoană` astfel încât persoana să vorbească cu ` personajul principal`. Acest cod este similar cu liniile de cod pe care l-ai folosit pentru `semne`:
+![Person sprite](images/person.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
 ![persoană](images/person.png)
 
@@ -24,9 +30,11 @@ end
 
 \--- /task \---
 
-\--- task \--- Permite-i personajului `persoană` să se deplaseze adăugând aceste două căsuțe în secțiunea `else`{:class="block3control"} codului tău:
+\--- task \---
 
-![persoană](images/person.png)
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -40,15 +48,18 @@ forever
 +       if on edge, bounce
     end
 end
-
 ```
 
 \--- /task \---
 
-Personajul `persoană` se va mișca acum, dar se va opri pentru a vorbi cu `personajul principal`.
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![captură de ecran](images/world-person-test.png)
+![screenshot](images/world-person-test.png)
 
-\--- task \--- Adăugă cod la nouul tău personaj, `persoană`, astfel încât să apară doar în camera 1. Codul de care ai nevoie este exact același cu cel care face ca `urarea de bun venit` să fie vizibilă doar în camera 1.
+\--- task \---
 
-Asigură-te că îți testezi noul cod. \--- /task \---
+Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code.
+
+\--- /task \---
