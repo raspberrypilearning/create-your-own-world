@@ -2,13 +2,25 @@
 
 Ο `παίκτης` σου θα πρέπει να μπορεί να μαζέψει νομίσματα καθώς θα κινείται μέσα στον κόσμο σου.
 
-\--- task \--- Πρόσθεσε μια νέα μεταβλητή `νομίσματα`{:class="block3variables"} στο έργο σου. \--- /task \---
+\--- task \---
 
-\--- task \--- Επίλεξε το αντικείμενο `νόμισμα` και κάνε κλικ στην **προβολή**.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![screenshot](images/coin.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- Πρόσθεσε κώδικα στο αντικείμενο `νόμισμα` ώστε να εμφανίζεται μονάχα στην αίθουσα 1. ![screenshot](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 όταν στην πράσινη σημαία γίνει κλικ
@@ -23,9 +35,9 @@
 
 \--- task \---
 
-Πρόσθεσε κώδικα στο αντικείμενο `νόμισμα` ώστε να `εξαφανίζεται`{:class="block3looks"} και η τιμή `1`{:class="block3variables"} να προστίθεται στη μεταβλητή `νομίσματα`{:class="block3variables"} μόλις ο `παίκτης` αγγίξει το `νόμισμα`για να το μαζέψει.
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-![νόμισμα](images/coin.png)
+![coin](images/coin.png)
 
 ```blocks3
 όταν στην πράσινη σημαία γίνει κλικ
@@ -35,13 +47,15 @@
 σταμάτησε [άλλα σενάρια σε αυτό το αντικείμενο v]
 ```
 
-Ο κώδικας `σταμάτησε άλλα σενάρια σε αυτό το αντικείμενο`{:class="block3control"} χρειάζεται έτσι ώστε το αντικείμενο `νόμισμα` να σταματήσει να είναι ορατό στην αίθουσα 1 μόλις συλλεχθεί.
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
 \--- /task \---
 
-\--- task \--- Τώρα πρόσθεσε κώδικα στο Σκηνικό προκειμένου να ορίσεις την τιμή της μεταβλητής `νομίσματα`{:class="block3variables"} ίση με `0`{:class="block3variables"} στην έναρξη του παιχνιδιού.
+\--- task \---
 
-![σκηνικό](images/stage.png)
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
 
 ```blocks3
 όταν πράσινη σημαία γίνει κλικ
@@ -50,4 +64,8 @@
 
 \--- /task \---
 
-\--- task \--- Δοκίμασε τον παιχνίδι σου. Η συλλογή ενός νομίσματος θα πρέπει να αλλάζει την τιμή της μεταβλητής `νομίσματα` σε `1`{:class="block3variables"}. \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
