@@ -1,26 +1,26 @@
-## Challenge: extend your world
+## Repte: ampliar el teu món
 
-You can now continue creating your own world! Here are some ideas:
+Ara pots continuar creant el teu propi món! Aquí tens algunes idees:
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
-+ Add sound and music to your game
-+ Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Afegeix més monedes al teu joc a diferents habitacions. Pots deixar que patrulles d'enemics guardin algunes monedes?
++ Canvia l'escenari del joc
++ Afegeix so i música al teu joc
++ Afegeix més persones, enemics i senyals
++ Afegeix portes vermelles i grogues i claus especials per obrir-les
++ Afegeix més habitacions al teu món
++ Afegeix altres elements útils al teu joc
     
-    + Use coins to get information from other people:
+    + Utilitza monedes per obtenir informació d'altres persones:
 
-![screenshot](images/world-bribe.png)
+![captura de pantalla](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ Fins i tot podries afegir portes a les parets nord i sud de l'habitació 1, de manera que el jugador es pugui moure entre habitacions en les quatre direccions. Per exemple, el joc pot tenir nou habitacions en una graella 3 × 3. Pots afegir ` 3 ` al número de l’habitació per baixar un nivell.
 
-![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
+![captura de pantalla](images/north-south-rooms.png) ![captura de pantalla](images/number-grid.png)
 
 ```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
+si <touching color [ ]?> aleshores
+canvia el teló de fons a ((vestuari [número v]) + (3))
+ves a x: (0) y: (200)
+canvia [habitació v] per (3)
 ```
