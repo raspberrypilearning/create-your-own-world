@@ -94,9 +94,13 @@ pwyntio i gyfeiriad ()
 
 Dyblyga'r côd sy'n gwneud i'r `chwareuwr` symud fyny, ac yna newidia'r ddau floc i wneud i'r corlun symud lawr. Dyblyga'r côd eto a'i newid fel fod y corlun yn symud i'r dde.
 
-\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
+\--- /hint \---
 
-![chwaraewr](images/player.png)
+\--- hint \---
+
+Here is how your code should look:
+
+![player](images/player.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -121,6 +125,8 @@ am byth
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
