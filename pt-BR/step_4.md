@@ -12,9 +12,13 @@ Crie uma nova variável 'para todos os sprites' chamada `room` {:class="block3va
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png) \--- /task \---
+![screenshot](images/world-room.png)
 
-\--- tarefa \--- Quando o sprite `player` toca a porta laranja na primeira sala, o jogo deve exibir o próximo pano de fundo, e o `player` sprite deve voltar para o lado esquerdo da etapa. Adicione este código dentro do `player` sprite `forever`{:class="block3control"} loop:
+\--- /task \---
+
+\--- task \---
+
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
 
 ![player](images/player.png)
 
@@ -50,15 +54,27 @@ end
 
 \--- /task \---
 
-\--- task \--- Toda vez que o jogo começa, a sala, a posição do personagem e o cenário precisam ser redefinidos.
+\--- task \---
 
-Adicione código ao **start** do seu `player` o código sprite acima do `forever{:class="block3control"}`, para redefinir tudo quando o sinalizador é clicado:
+Every time the game starts, the room, character position, and backdrop need to be reset.
 
-\--- dicas \--- \--- dica \--- Quando o jogo começa:
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+\--- hints \---
+
+\--- hint \---
+
+When the game starts:
 
 + O valor de `room`{:class="block3variables"} deve ser definido como `1`{:class="block3variables"}
 + O `backdrop`{:class="block3looks"} deve ser definido para `room1`{:class="block3looks"}
-+ A posição do jogador `player` o sprite deve ser definido como `x: -200 y: 0 ` {:class="block3motion"} \--- / dica \--- \--- dica \--- Aqui estão os blocos extras que você precisa:
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the extra blocks you need:
 
 ![player](images/player.png)
 
@@ -70,7 +86,11 @@ set [room v] to (1)
 switch backdrop to (room1 v)
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your finished script should look like:
+\--- /hint \---
+
+\--- hint \---
+
+Here's what your finished script should look like:
 
 ![player](images/player.png)
 
@@ -107,10 +127,16 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- tarefa \--- Clique na bandeira, e então mova seu `player` sprite até que ela toque na porta laranja. O sprite se move para a próxima tela? A `room`{:class="block3variables"} variável muda para `2`?
+\--- task \---
 
-![screenshot](images/world-room-test.png) \--- / tarefa \---
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+
+\--- /task \---
