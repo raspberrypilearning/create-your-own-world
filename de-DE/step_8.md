@@ -2,11 +2,17 @@
 
 Lass uns ein paar Personen in deine Welt setzen, mit denen dein `Spieler` in interagieren kann.
 
-\--- task \--- Wechsle zur Figur `Person`.
+\--- task \---
 
-![Figur Person](images/person.png) \--- /task \---
+Switch to the `person` sprite.
 
-\--- task \--- Füge Code zur Figur `Person` hinzu, sodass die Person mit dem `Spieler` spricht. Dieser Code ist dem Code, den du bereits zum `Schild` hinzugefügt hast, sehr ähnlich:
+![Person sprite](images/person.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
 ![person](images/person.png)
 
@@ -23,7 +29,9 @@ end
 
 \--- /task \---
 
-\--- task \--- Erlaube deiner `Person`-Figur sich zu bewegen, indem du diese beiden Blöcke in den `sonst`{:class="block3control"} Abschnitt deines Codes einfügst:
+\--- task \---
+
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
 
 ![person](images/person.png)
 
@@ -38,15 +46,18 @@ wiederhole fortlaufend
     + pralle vom Rand ab
   end
 end
-
 ```
 
 \--- /task \---
 
-Die `Person` bewegt sich jetzt hin und her, bleibt aber stehen, um mit dem `Spieler` zu sprechen.
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![Screenshot](images/world-person-test.png)
+![screenshot](images/world-person-test.png)
 
-\---task \--- Füge Code zu deiner neuen `Person`-Figur hinzu, so dass diese nur in Raum 1 erscheint. Der Code, den du benötigst, ist genau der gleiche wie der Code, der die `Schild`-Figur nur in Raum 1 sichtbar macht.
+\--- task \---
 
-Vergiss nicht, den neuen Code zu testen. \--- /task \---
+Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code.
+
+\--- /task \---
