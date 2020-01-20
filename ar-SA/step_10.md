@@ -2,13 +2,25 @@
 
 ` لاعبك` يجب أن يكون قادراً على جمع العملات المعدنية أثناء تحركه عبر العالم.
 
-\--- أضف متغير جديد يُسمى العملات الذهبية `coins`{:class="blockdata"} إلى مشروعك. \--- /task \---
+\--- task \---
 
-\--- انقر بزر الفأره الأيمن فوق كائن `coin` واختر إظهار **show**.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![لقطة الشاشة](images/coin.png) \---/task--
+\---/task--
 
-\--- task \--- أضف تعليمة برمجية إلى كائن `coin` بحيث لا يظهر إلا في الغرفة 1. ![لقطة الشاشة](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -39,7 +51,9 @@ The code `stop other scripts in sprite`{:class="block3control"} is needed so tha
 
 \--- /task \---
 
-\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+\--- task \---
+
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
 
 ![stage](images/stage.png)
 
@@ -50,4 +64,8 @@ set [coins v] to [0]
 
 \--- /task \---
 
-\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
