@@ -1,54 +1,54 @@
-## People
+## Gent
 
-Add other people to your world who your `player` sprite can interact with.
+Afegeix altres persones al teu món amb les que el teu ` jugador ` pugui interactuar.
 
-\--- task \--- Switch to the `person` sprite.
+\--- tasca \--- Canvia a la icona de `persona `.
 
-![Person sprite](images/person.png) \--- /task \---
+![Icona de persona](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\--- tasca \--- Afegeix algun codi a la icona de `persona ` de manera que parli amb el `jugador `. Aquest codi és molt similar al que has afegit a la teva icona de ` senyal`:
 
-![person](images/person.png)
+![persona](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
-end
+quan has fet clic a la bandera
+ves a x: (0) y: (-150)
+per sempre
+    si tocant < (jugador v)? > llavors
+        digues [Sabies que pots passar per les portes taronjes i grogues?]
+    si no
+        dir []
+    final
+final
 ```
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- task \--- Permet a la teva icona de `persona ` moure's afegint aquests dos blocs a la secció ` si no ` {: class = "block3control"} del teu codi:
 
-![person](images/person.png)
+![persona](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
-end
+quan has fet clic a la bandera
+ves a x: (0) y: (-150)
+per sempre
+    si tocant < (jugador v)? > llavors
+        digues [Sabies que pots passar per les portes taronjes i grogues?]
+    si no
+        dir []
++       mou (1) passes
++       si estàs al límit, salta
+    final
+final
 
 ```
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+La teva icona de ` persona` ara es mourà, però s’aturarà per parlar amb la icona del `jugador `.
 
-![screenshot](images/world-person-test.png)
+![captura de pantalla](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- tasca \--- Afegeix codi a la teva nova icona de `persona ` de manera que només aparegui a la sala 1. El codi que necessites és exactament el mateix que el que fa la icona del `senyal ` només visible a la sala 1.
 
-Make sure you test out your new code. \--- /task \---
+Assegura't de provar el nou codi. \--- /task \---
