@@ -4,7 +4,7 @@
 
 \---任務\---
 
-打開“創建您自己的世界”Scratch啟動項目。
+打開“創建您自己的世界” Scratch 啟動項目。
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
