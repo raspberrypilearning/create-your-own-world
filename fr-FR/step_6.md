@@ -6,11 +6,23 @@ Ton project inclut un `panneau de bienvenue` sprite :
 
 ![capture d'écran](images/world-sign.png)
 
-\--- task \--- Le sprite `panneau de bienvenue` ne devrait être visible que dans la salle 1, alors ajoute un code au sprite pour s'assurer que cela se passe :
+\--- task \---
 
-\--- hints \--- \--- hint \--- `Lorsque le drapeau est cliqué`{:class="block3events"}, dans une boucle `répéter indéfiniment`{:class="block3control"}, vérifie `si`{:class="block3control"} la `salle est la première`{:class="block3variables"} et dans ce cas, `affiche`{:class="block3looks"} le sprite`panneau de bienvenue`, `sinon`{:class="block3control"} `cache`{:class="block3looks"} le sprite. \--- /hint \--- \--- hint \--- Voici les blocs que tu as besoin :
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-![panneau](images/sign.png)
+\--- hints \---
+
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![sign](images/sign.png)
 
 ```blocks3
 <br />si < > alors
@@ -30,9 +42,13 @@ lorsque le drapeau est cliqué
 
 ```
 
-\--- / hint \--- \--- hint \--- Voici le code complet:
+\--- /hint \---
 
-![panneau](images/sign.png)
+\--- hint \---
+
+Here is the complete code:
+
+![sign](images/sign.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
@@ -45,17 +61,25 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- Teste le code de ton sprite `panneau de bienvenue` en passant d'une salle à une autre. Le panneau ne devrait être visible que dans la salle 1.
+\--- task \---
 
-![capture d'écran](images/world-sign-test.png) \--- /task \---
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-\--- task \--- Un panneau n'est pas très bon s'il ne dit rien! Ajoute du code supplémentaire pour afficher un message si le sprite `panneau de bienvenue` touche le sprite `du joueur`:
+![screenshot](images/world-sign-test.png)
 
-![panneau](images/sign.png)
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+
+![sign](images/sign.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
@@ -75,6 +99,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Teste à nouveau ton sprite `panneau de bienvenue`. Tu dois maintenant voir un message lorsque le sprite `joueur` touche le sprite `panneau de bienvenue`.
+\--- task \---
 
-![capture d'écran](images/world-sign-test2.png) \--- /task \---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
