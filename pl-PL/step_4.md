@@ -12,11 +12,15 @@ Utwórz nową zmienną 'dla wszystkich duszków' o nazwie `pokój`{:class="block
 
 [[[generic-scratch3-add-variable]]]
 
-![zrzut ekranu](images/world-room.png) \--- /task \---
+![screenshot](images/world-room.png)
 
-\--- task \--- Kiedy duszek `gracz` dotknie pomarańczowych drzwi w pierwszym pomieszczeniu, kolejne tło powinno być wyświetlone, a duszek `gracz` powinien wrócić na lewą stronę sceny. Dodaj ten kod dla duszka `gracz` wewnątrz pętli `zawsze`{:class="block3control"}:
+\--- /task \---
 
-![gracz](images/player.png)
+\--- task \---
+
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+
+![player](images/player.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -50,17 +54,29 @@ koniec
 
 \--- /task \---
 
-\--- task \--- Za każdym razem, gdy gra się rozpoczyna pokój, pozycja postaci i tło muszą być resetowane.
+\--- task \---
 
-Dodaj ten kod na **początku** kodu twojego duszka `gracz` powyżej pętli `zawsze`{:class="block3control"}, aby zresetować wszystko po kliknięciu flagi:
+Every time the game starts, the room, character position, and backdrop need to be reset.
 
-\--- hints \--- \--- hint \--- Kiedy gra się rozpoczyna:
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+\--- hints \---
+
+\--- hint \---
+
+When the game starts:
 
 + Wartość zmiennej `pokój`{:class="block3variables"} powinna być ustawiona na `1`{:class="block3variables"}
 + `Tło`{:class="block3looks"} powinno być ustawione na `pokój1`{:class="block3looks"}
-+ Pozycja duszka `gracz` powinna być ustawiona na `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Tutaj są dodatkowe bloki, których potrzebujesz:
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
-![gracz](images/player.png)
+\--- /hint \---
+
+\--- hint \---
+
+Here are the extra blocks you need:
+
+![player](images/player.png)
 
 ```blocks3
 idź do x: (-200) y: (0)
@@ -70,9 +86,13 @@ ustaw [pokój v] na (1)
 przełącz tło na (pokój1 v)
 ```
 
-\--- /hint \--- \--- hint \--- Oto, jak powinien wyglądać ukończony skrypt:
+\--- /hint \---
 
-![gracz](images/player.png)
+\--- hint \---
+
+Here's what your finished script should look like:
+
+![player](images/player.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -107,10 +127,16 @@ zawsze
 koniec
 ```
 
--- /hint \--- \--- hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- Kliknij flagę, a następnie idź swoim duszkiem `gracz`, aż dotknie pomarańczowych drzwi. Czy duszek przechodzi do następnego ekranu? Czy zmienna `pokój`{:class="block3variables"} zmienia się na `2`?
+\--- task \---
 
-![zrzut ekranu](images/world-room-test.png) \--- /task \---
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+
+\--- /task \---
