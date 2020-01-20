@@ -1,12 +1,18 @@
 ## 堅い壁
 
-\--- task \--- `プレイヤー` スプライトをもう一度テストします。 あなたはそれが薄灰色の壁を通って歩くことができるのを見ますか。
+\--- task \---
 
-![スクリーンショット](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- これを直すには、 `プレイヤー` スプライトが薄い灰色の壁に触れたらそれを後ろに移動させる必要があります。 ここでは、あなたの内側に追加する必要があるコードです `永遠に`{：クラス=「block3control」}方向ブロック下のブロックは：
+![screenshot](images/world-walls.png)
 
-![プレーヤー](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 <キー（上向き矢印v）が押されたらフラグが永久に
@@ -38,6 +44,8 @@
 
 \--- task \---
 
-`プレイヤー` スプライトが壁を通過するようにしてください。 新しいコードが機能すれば、これは不可能なはずです。
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![スクリーンショット](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
