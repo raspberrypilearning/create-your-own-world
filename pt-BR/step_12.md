@@ -16,7 +16,9 @@ Agora você pode continuar criando seu próprio mundo! Aqui estão algumas idéi
 
 + Você poderia até adicionar portas no norte e no sul da sala 1, para que o jogador possa se mover entre quartos em todas as quatro direções. Por exemplo, seu jogo pode ter nove salas em uma grade 3×3. Você pode adicionar `3` ao número da sala para mover para baixo de um nível.
 
-![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
+![screenshot](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
