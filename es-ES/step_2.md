@@ -94,9 +94,13 @@ apunta en la dirección ()
 
 Duplicar el código que hace que el objeto` jugador ` se mueva hacia arriba y cambia estos dos bloques para que el objeto se mueva hacia abajo. Duplique el código nuevamente y cámbialo para que el objeto se mueva hacia la derecha.
 
-\--- /hint \--- \--- hint \--- Tu código debería quedar así:
+\--- /hint \---
 
-![jugador](images/player.png)
+\--- hint \---
+
+Here is how your code should look:
+
+![player](images/player.png)
 
 ```blocks3
 al hacer clic en la bandera verde
@@ -121,6 +125,8 @@ por siempre
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
