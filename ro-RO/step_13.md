@@ -1,8 +1,8 @@
-## What next?
+## Ce urmează?
 
-Have a go at creating another game by working through the [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Încearcă să creezi alt joc parcurgând proiectul [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
-\--- no-print \--- Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+\--- no-print \--- Dă click și trage cu mouse-ul pentru a trasa o linie cu creionul. Scopul tău este să oprești pisicile să cadă în gropi prin crearea unei căi sigure către ieșire.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -12,4 +12,4 @@ Have a go at creating another game by working through the [CATS!](https://projec
 
 \--- print-only \--- ![Cats finished](images/cats-finished.png) \--- /print-only \---
 
-If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Dacă vrei să creezi un joc folosind Python în loc de Scratch, încearcă proiectul [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
