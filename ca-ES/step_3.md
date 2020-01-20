@@ -1,12 +1,18 @@
 ## Murs massissos
 
-\--- task \--- Prova la teva icona `jugador ` de nou. Veus que pot caminar per les parets de color gris clar.
+\--- task \---
 
-![captura de pantalla](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- Per solucionar-ho, has de fer que la icona `jugador ` es desplaçi enrere si toca una paret de color gris clar. Aquí tens el codi que cal afegir dins del teu ` per sempre ` {: class = "block3control"} bloc sota els blocs de direcció:
+![screenshot](images/world-walls.png)
 
-![jugador](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 quan has fet clic a la bandera
@@ -37,6 +43,8 @@ final
 
 \--- task \---
 
-Prova de fer moure la icona ` jugador ` per una paret. Si el teu codi nou funciona, això no hauria de ser possible.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![captura de pantalla](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
