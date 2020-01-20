@@ -16,7 +16,9 @@ Sedaj lahko nadaljuješ z ustvarjanjem tvojega sveta! Tu je nekaj idej:
 
 + Lahko celo dodaš vrata na severno in južno steno prve sove, tako da se lahko igralec med sobami premika v vseh štirih smereh. Igra lahko ima denimo 9 sob v 3×3 veliki mreži. Številki sobe lahko v tem primeru dodajaš `3`, da se premakneš eno sobo navzdol.
 
-![posnetek zaslona](images/north-south-rooms.png) ![posnetek zaslona](images/number-grid.png)
+![posnetek zaslona](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 če < se dotika barve []?> potem
