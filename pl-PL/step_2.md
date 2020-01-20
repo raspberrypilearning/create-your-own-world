@@ -94,9 +94,13 @@ ustaw kierunek na ()
 
 Zduplikuj kod, który sprawia, że duszek `gracz` przesuwa się w górę i zmień te dwa bloki, aby duszek poruszał się w dół. Ponownie zduplikuj kod i zmień go, aby duszek przesunął się w prawo.
 
-\--- /hint \--- \--- hint \--- Tak powinien wyglądać twój kod:
+\--- /hint \---
 
-![gracz](images/player.png)
+\--- hint \---
+
+Here is how your code should look:
+
+![player](images/player.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -121,6 +125,8 @@ zawsze
 koniec
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
