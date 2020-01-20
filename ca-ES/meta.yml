@@ -1,39 +1,39 @@
 ---
 hero_image: images/banner.png
-title: Create your own world
-description: Create your own open-world adventure game
+title: Crea el teu propi món
+description: Crea el teu propi joc d’aventura obert al món
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Introduction
+    title: Introducció
   - 
-    title: Move the player sprite
+    title: Mou la icona del jugador
   - 
-    title: Solid walls
+    title: Murs massissos
   - 
-    title: Move around your world
+    title: Mou-te pel teu món
   - 
-    title: "Challenge: move back to the previous room"
+    title: "Repte: tornar a l'habitació anterior"
     challenge: true
   - 
-    title: Signs
+    title: Senyals
   - 
-    title: "Challenge: treasure!"
+    title: "Repte: tresor!"
     challenge: true
   - 
-    title: People
+    title: Gent
   - 
-    title: "Challenge: enemies"
+    title: "Repte: enemics"
     challenge: true
   - 
-    title: Collect coins
+    title: Recullida de monedes
   - 
-    title: Doors and keys
+    title: Portes i claus
   - 
-    title: "Challenge: extend your world"
+    title: "Repte: amplia el teu món"
     challenge: true
   - 
-    title: "What next?"
+    title: "I ara què ve?"
