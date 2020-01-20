@@ -2,13 +2,25 @@
 
 `플레이어` 스프라이트는 세계를 통과하면서 동전을 수집 할 수 있어야합니다.
 
-\--- task \--- 새로운 변수 `코인`{: class = "block3variables"} 을 프로젝트에 추가하세요. \--- /task \---
+\--- task \---
 
-\--- task \--- `코인` 스프라이트를 클릭하고 **보여주기**를 클릭하세요.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![스크린샷](images/coin.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- 당신의 코드를 `코인` 스프라이트에 방1 에서만 나타나도록 추가하세요. ![스크린샷](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 flag를 클릭했을때
@@ -23,9 +35,9 @@ else
 
 \--- task \---
 
-당신의 코드를 `coin`스프라이트에 추가해서 스프라이트 `hides`{:class="block3looks"} 와 `1`{:class="block3variables"} 가 `coins`{:class="block3variables"} 변수에 `player`스프라이트가 `coin`스프라이트를 '줍기'위해 닿았을 때 추가되도록 하십시오.
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-![코인](images/coin.png)
+![coin](images/coin.png)
 
 ```blocks3
 flag클릭 시
@@ -35,13 +47,15 @@ flag클릭 시
 [스프라이트v의 다른 스크립트들] 멈추기
 ```
 
-`스프라이트에서 다른 스크립트를 중지시키기`{:class="block3control"}라는 코드는 `coin`스프라이트가 수집된 후 방1에서 표시되는 것을 멈추게 하기 위해 필요합니다. 
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
 \--- /task \---
 
-\--- task \--- 이제 스테이지에 코드를 추가하여 `coins`{:class="block3variables"} 변수를 게임 시작시 `0`{:class="block3variables"}으로 설정하세요.
+\--- task \---
 
-![스테이지](images/stage.png)
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
 
 ```blocks3
 flag 클릭했을 때
@@ -50,4 +64,8 @@ flag 클릭했을 때
 
 \--- /task \---
 
-\--- task \--- 게임을 테스트 해 보세요. 동전을 모으면 `coins`점수가 `1`{:class="block3variables"}로 바뀔 것 입니다. \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
