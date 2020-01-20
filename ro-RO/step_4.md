@@ -1,22 +1,22 @@
-## Move around your world
+## Mișcă-te în jurul lumii tale
 
-The `player` sprite should be able to walk through doors into other rooms.
+`Personajul` ar trebui să poată să treacă prin uși în alte camere.
 
-Your project contains backdrops for additional rooms:
+Proiectul tău conține fundaluri pentru noi camere:
 
-![screenshot](images/world-backdrops.png)
+![captură de ecran](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Crează o nouă variabilă „pentru toate personajele” numită `room`{:class="block3variables"} pentru a monitoriza în care dintre camere se află `personajul`.
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png) \--- /task \---
+![captură de ecran](images/world-room.png) \--- /task \---
 
-\--- task \--- When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Când `personajul` atinge ușa portocalie în prima cameră, jocul ar trebui să afișeze următorul fundal și `personajul` ar trebui să se deplaseze înapoi în partea stângă a ferestrei. Adaugă acest cod în bucla `forever`{:class="block3control"} a `personajului`:
 
-![player](images/player.png)
+![personaj](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -50,17 +50,17 @@ end
 
 \--- /task \---
 
-\--- task \--- Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- De fiecare dată când va începe jocul, camera, poziția personajului și fundalul trebuie resetate.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Adaugă codul la **începutul** codului `personajului` care se află deasupra buclei `forever`{:class="block3control"}, pentru a reseta totul atunci când se dă click pe steag:
 
-\--- hints \--- \--- hint \--- When the game starts:
+\--- hints \--- \--- hint \--- Când începe jocul:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Here are the extra blocks you need:
++ Valoarea `room`{:class="block3variables"} ar trebui setată ca `1`{:class="block3variables"}
++ Fundalul `backdrop`{:class="block3looks"} ar trebui setat ca `room1`{:class="block3looks"}
++ Poziția `personajului` er trebui setată ca `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Aici sunt căsuțele suplimentare de care ai nevoie:
 
-![player](images/player.png)
+![personaj](images/player.png)
 
 ```blocks3
 go to x: (-200) y: (0)
@@ -70,9 +70,9 @@ set [room v] to (1)
 switch backdrop to (room1 v)
 ```
 
-\--- /hint \--- \--- hint \--- Here's what your finished script should look like:
+\--- /hint \--- \--- hint \--- Uite cum ar trebui să arate codul:
 
-![player](images/player.png)
+![personaj](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -111,6 +111,6 @@ end
 
 \--- /task \---
 
-\--- task \--- Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Dă click pe steag și apoi mișcă `personajul` până când atinge ușa portocalie. Personajul s-a mutat în următoarea cameră? Valoarea variabilei `room`{:class="block3variables"} s-a modificat în `2`?
 
-![screenshot](images/world-room-test.png) \--- /task \---
+![captură de ecran](images/world-room-test.png) \--- /task \---
