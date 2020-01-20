@@ -16,7 +16,9 @@
 
 + 您甚至可以在房間1的北牆和南牆上添加門，這樣玩家就可以在四個方向的房間之間移動。 例如，您的遊戲可以在3×3網格中擁有9個房間。 然後，您可以將 `3` 添加到房間號碼以向下移動一個級別。
 
-![截圖](images/north-south-rooms.png) ![截圖](images/number-grid.png)
+![截圖](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 如果 <touching color [ ]?> 然後
