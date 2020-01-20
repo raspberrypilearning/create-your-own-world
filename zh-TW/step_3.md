@@ -1,12 +1,18 @@
 ## 堅固的牆壁
 
-\---任務\--- 再次測試你的 `人` 精靈。 你看到它可以穿過淺灰色的牆壁。
+\--- task \---
 
-![截圖](images/world-walls.png) \--- /任務\---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\---任務\--- 要解決這個問題，你需要讓 `玩家` 精靈移動，如果它接觸到淺灰色的牆壁。 這裡是您需要在方向塊下面的 `永遠`{：class =“block3control”}塊中添加的代碼：
+![screenshot](images/world-walls.png)
 
-![播放機](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 當標誌點擊
@@ -35,8 +41,10 @@
 
 \--- /任務\---
 
-\---任務\---
+\--- task \---
 
-嘗試讓 `玩家` 精靈穿過牆壁。 如果您的新代碼有效，則無法實現。
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![截圖](images/world-walls-test.png) \--- /任務\---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
