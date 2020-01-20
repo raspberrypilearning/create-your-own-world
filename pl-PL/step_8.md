@@ -2,11 +2,17 @@
 
 Dodaj do swojego świata inne osoby, z którymi twój duszek `gracz` może wchodzić w interakcje.
 
-\--- task \--- Przejdź do duszka `osoba`.
+\--- task \---
 
-![Duszek osoby](images/person.png) \--- /task \---
+Switch to the `person` sprite.
 
-\--- task \--- Dodaj trochę kodu do duszka `osoba`, aby ta osoba rozmawiała z duszkiem `gracz`. Ten kod jest bardzo podobny do kodu dodanego do duszka `znak powitalny`:
+![Person sprite](images/person.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
 ![osoba](images/person.png)
 
@@ -24,9 +30,11 @@ koniec
 
 \--- /task \---
 
-\--- task \--- Pozwól swojemu duszkowi `osoby` poruszać się, przez dodanie tych dwóch bloków w sekcji kodu `w przeciwnym razie`{:class = „block3control”}:
+\--- task \---
 
-![osoba](images/person.png)
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -40,15 +48,18 @@ kiedy kliknięto zieloną flagę
 +       jeżeli na krawędzi, odbij się
     koniec
 koniec
-
 ```
 
 \--- /task \---
 
-Twój duszek `osoba` będzie się teraz poruszać, ale zatrzyma się aby porozmawiać z duszkiem `gracz`.
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![zrzut ekranu](images/world-person-test.png)
+![screenshot](images/world-person-test.png)
 
-\--- task \--- Dodaj kod do nowego duszka `osoba` tak, aby ten duszek pojawił się tylko w pokoju 1. Kod, którego potrzebujesz, jest dokładnie taki sam jak kod, który sprawia, że duszek `znak powitalny` widoczny tylko w pokoju 1.
+\--- task \---
 
-Pamiętaj o przetestowaniu swojego nowego kodu. \--- /task \---
+Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code.
+
+\--- /task \---
