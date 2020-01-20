@@ -2,7 +2,9 @@
 
 通过 [CATS开始创建另一个游戏！](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) 项目。
 
-\--- no-print \--- 用鼠标单击并拖动，用铅笔画一条线。 您的目标是通过创建出口的安全路径来阻止猫掉入洞中。
+\--- no-print \---
+
+Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -10,6 +12,10 @@
 
 \--- /no-print \---
 
-\--- print-only \--- ![Cats finished](images/cats-finished.png) \--- /print-only \---
+\--- print-only \---
 
-如果您想使用Python而不是Scratch制作游戏，请尝试 [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) 项目。
+![Cats finished](images/cats-finished.png)
+
+\--- /print-only \---
+
+If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
