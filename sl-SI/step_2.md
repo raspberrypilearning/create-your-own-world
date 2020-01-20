@@ -94,9 +94,13 @@ obrni se v smer ()
 
 Podvoji kodo, ki omogoča premikanje figure `igralec` navzgor in spremeni ta dva bloka, da se figura premika navzdol. Ponovno podovji to kodo in jo spremeni tako, da se bo figura premikala v desno.
 
-\--- /hint \--- \--- hint \--- Tvoja koda bi morala izgledati tako:
+\--- /hint \---
 
-![igralec](images/player.png)
+\--- hint \---
+
+Here is how your code should look:
+
+![player](images/player.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -120,6 +124,8 @@ ponavljaj
 konec
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
