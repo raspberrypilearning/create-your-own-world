@@ -9,6 +9,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
 ### What you will make
+
 --- no-print ---
 
 Click the green flag to start. Use the arrow keys to move your character around in the world.
@@ -31,6 +32,7 @@ You'll use the arrow keys to move your character around in the world.
 ---
 title: What you will need
 ---
+
 ### Hardware
 
 + A computer capable of running Scratch 3
@@ -49,6 +51,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 ---
 title: What you will learn
 ---
+
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
 - Use conditional selection based on the value of a variable
@@ -60,6 +63,7 @@ title: What you will learn
 ---
 title: Additional information for educators
 ---
+
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
 You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
