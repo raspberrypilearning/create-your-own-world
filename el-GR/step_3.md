@@ -1,12 +1,18 @@
 ## Συμπαγείς τοίχοι
 
-\--- task \--- Κάνε έλεγχο στον `παίκτη` σου ξανά. Βλέπεις πως μπορεί να περάσει μέσα από τους ανοιχτόχρωμους γκρι τοίχους.
+\--- task \---
 
-![screenshot](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- Για να το διορθώσεις αυτό κάνε τον `παίκτη` να οπισθοχωρεί αν αγγίξει έναν τοίχο. Εδώ είναι ο κώδικας που πρέπει να προσθέσεις στο εσωτερικό του μπλοκ `για πάντα`{:class="block3control"} κάτω από το μπλοκ κατεύθυνσης:
+![screenshot](images/world-walls.png)
 
-![παίκτης](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
@@ -37,6 +43,8 @@ end
 
 \--- task \---
 
-Προσπάθησε να κάνεις τον `παίκτη`να περάσει μέσα από έναν τοίχο. Αν ο νέος σου κώδικας λειτουργεί, αυτό θα πρέπει να είναι αδύνατον.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![screenshot](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
