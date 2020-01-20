@@ -16,7 +16,9 @@ Du kannst jetzt mit dem Bau deiner eigenen Welt weitermachen! Hier sind ein paar
 
 + Du kannst sogar Türen in den nördlichen und südlichen Wänden von Zimmer 1 hinzufügen, so dass sich der Spieler in allen vier Richtungen zwischen den Zimmern bewegen kann. Zum Beispiel kann dein Spiel neun Räume in einem 3 × 3-Raster haben. Du kannst dann `3` zu der Zimmernummer addieren, um eine Ebene tiefer zu kommen.
 
-![screenshot](images/north-south-rooms.png) ![Screenshot](images/number-grid.png)
+![screenshot](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 falls <wird Farbe [ ] berührt?> , dann 
