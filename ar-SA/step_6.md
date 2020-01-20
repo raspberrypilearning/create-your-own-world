@@ -6,11 +6,23 @@
 
 ![لقطة شاشة](images/world-sign.png)
 
-\--- task \--- يجب أن يظهر كائن `لافتة الترحيب` في الغرفة الأولي فقط، لذا أضف بعض التعليمات البرمجية إلى كائن لافتة الترحيب لتضمن حدوث ذلك:
+\--- task \---
 
-\--- hints \--- \--- hint \--- `عند الضغط علي العلم`{:class="block3events"}, في حلقة `forever`{:class="block3control"} يجب فحص `اذا كان`{:class="block3control"} the `room الغرف 1`{:class="block3variables"} وفي تلك الحالة `اعرض`{:class="block3looks"} `لافتة الترحيب `, `غير ذلك`{:class="block3control"} `اخفي`{:class="block3looks"} لافتة الترحيب. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها:
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-![لافتة](images/sign.png)
+\--- hints \---
+
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![sign](images/sign.png)
 
 ```blocks3
 <br />if < > then
@@ -30,9 +42,13 @@ when flag clicked
 
 ```
 
-\--- /hint \--- \--- hint \--- هذه هي التعليمات البرمجية النهائية:
+\--- /hint \---
 
-![لافتة](images/sign.png)
+\--- hint \---
+
+Here is the complete code:
+
+![sign](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -45,17 +61,25 @@ forever
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
 
-\---/task\---
+\--- /hints \---
 
-\--- task \--- اختبر الكود الخاص ` بلافتة الترحيب ` عن طريق الانتقال بين الغرف. يجب أن تظهر اللافتة في الغرفة 1 فقط.
+\--- /task \---
 
-![لقطة الشاشة](images/world-sign-test.png) \--- /task \---
+\--- task \---
 
-\--- task \--- اللافتة لاتكون مفيدة اذا لم تحتوي علي شئ! أضف بعض الرموز لعرض رسالة إذا كان كائن `لافتة الترحيب` يلامس كائن `اللاعب`:
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-![لافتة](images/sign.png)
+![screenshot](images/world-sign-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+
+![sign](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -75,6 +99,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Test your `welcome sign` sprite again. يجب أن تشاهد الآن رسالة عندما يتلامس `اللاعب ` و `علامة الترحيب`.
+\--- task \---
 
-![لقطة الشاشة](images/world-sign-test2.png) \--- /task \---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
