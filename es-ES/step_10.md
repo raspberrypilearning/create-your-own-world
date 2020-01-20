@@ -23,31 +23,31 @@ ocultar
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Agregue código al objeto `moneda ` para que el sprite ` se esconda ` {: class = "block3looks"} y se sume` 1 ` {: class = "block3variables"} a la variable` monedas ` {: class = "block3variables"} cada vez que el objeto` jugador ` toque el objeto ` moneda` para 'recogerlo'.
 
-![coin](images/coin.png)
+![moneda](images/coin.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
-hide
-stop [other scripts in sprite v]
+al presionar bandera verde
+esperar hasta que <touching (player v)?>
+cambiar [Monedas v] por (1)
+esconder
+detener [otros programas en el objeto v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+El código `detener otros programas en el objeto`{:class="block3control"} es necesario para que el objeto `moneda` deje de mostrarse en la habitación 1 una vez que haya sido recogido.
 
 \--- /task \---
 
-\--- task \--- Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+\--- tarea \--- Ahora agregue código al escenario para establecer su variable ` monedas ` {: class = "block3variables"} a ` 0 ` {: class = "block3variables"} al comienzo del juego.
 
-![stage](images/stage.png)
+![escenario](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [coins v] to [0]
+al hacer clic en la bandera
+dar a [monedas v] el valor [0]
 ```
 
 \--- /task \---
 
-\--- task \--- Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}. \--- /task \---
+\--- task \--- Prueba tu código. Recolectar una moneda debe cambiar tu puntuación de `monedas` a `1`{:class="block3variables"}. \--- /task \---
