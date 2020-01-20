@@ -12,11 +12,15 @@
 
 [[[generic-scratch3-add-variable]]]
 
-![截屏](images/world-room.png) \--- /task \---
+![screenshot](images/world-room.png)
 
-\--- task \--- 当 `玩家` 精灵触及第一个房间的橙色门时，游戏应该显示下一个背景， `玩家` 精灵应该移回舞台的左侧。 将此代码添加到 `player` 精灵 `永远`{：class =“block3control”}循环中：
+\--- /task \---
 
-![播放机](images/player.png)
+\--- task \---
+
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+
+![player](images/player.png)
 
 ```blocks3
 当标志点击
@@ -50,17 +54,29 @@ end
 
 \--- /task \---
 
-\---任务\--- 每次游戏开始时，需要重置房间，角色位置和背景。
+\--- task \---
 
-将代码添加到 `永远`{{class =“block3control”}循环上方的 `玩家` 精灵代码的 **开始** ，以便在单击该标志时重置所有内容：
+Every time the game starts, the room, character position, and backdrop need to be reset.
 
-\---提示\--- \---提示\--- 游戏开始时：
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+\--- hints \---
+
+\--- hint \---
+
+When the game starts:
 
 + `room`{：class =“block3variables”}的值应设置为 `1`{：class =“block3variables”}
 + `背景`{：class =“block3looks”}应该设置为 `room1`{：class =“block3looks”}
-+ `玩家` 精灵的位置应该设置为 `x：-200 y：0`{：class =“block3motion”} \--- /提示\--- \---提示\--- 这是额外的您需要的块：
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
-![播放机](images/player.png)
+\--- /hint \---
+
+\--- hint \---
+
+Here are the extra blocks you need:
+
+![player](images/player.png)
 
 ```blocks3
 转到x：（ -  200）y：（0）
@@ -70,9 +86,13 @@ end
 切换背景到（房间1 v）
 ```
 
-\--- /提示\--- \---提示\--- 这是你完成的脚本应该是这样的：
+\--- /hint \---
 
-![播放机](images/player.png)
+\--- hint \---
+
+Here's what your finished script should look like:
+
+![player](images/player.png)
 
 ```blocks3
 当标志点击
@@ -107,10 +127,16 @@ end
 结束
 ```
 
-\--- /提示\--- \--- /暗示\---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\---任务\--- 单击标志，然后移动你的 `玩家` 精灵，直到它触及橙色门。 精灵会移动到下一个屏幕吗？ `室`{：class =“block3variables”}变量是否变为 `2`？
+\--- task \---
 
-![截屏](images/world-room-test.png) \--- /task \---
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+
+\--- /task \---
