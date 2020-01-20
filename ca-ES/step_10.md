@@ -2,13 +2,25 @@
 
 La teva icona de ` jugador ` hauria de ser capaç de recollir monedes a mesura que es mou pel món.
 
-\--- task \--- Afegeix una nova variable anomenada ` monedes ` {: class = "block3variables"} pel teu projecte. \--- /task \---
+\--- task \---
 
-\--- task \--- Selecciona la icona `moneda ` i fes clic a ** mostra **.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![captura de pantalla](images/coin.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- Afegeix codi a la teva icona de `moneda ` de manera que només aparegui a la sala 1. ![captura de pantalla](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 quan has fet clic a la bandera
@@ -23,9 +35,9 @@ amaga
 
 \--- task \---
 
-Afegeix codi a la teva icona ` moneda ` de manera que la icona ` s’amaga ` {: class = "block3looks"} i ` 1 ` {: class = "block3variables"} s'afegeix a les ` monedes ` {: class = "block3variables"} variable un cop la icona del `jugador ` toca la icona `moneda ` per "recollir-lo".
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-![moneda](images/coin.png)
+![coin](images/coin.png)
 
 ```blocks3
 quan has fet clic a la bandera
@@ -35,13 +47,15 @@ amaga
 atura [altres scripts a la icona v]
 ```
 
-El codi ` deté altres scripts a la icona ` {: class = "block3control"} és necessari perquè la icona `moneda ` deixi de mostrar-se a la sala 1 un cop ha estat recollida.
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
 \--- /task \---
 
-\--- task \--- Afegeix ara codi a l'escenari per configurar les teves ` monedes ` {: class = "block3variables"} variable a ` 0 ` {: class = "block3variables"} al començament del joc.
+\--- task \---
 
-![escenari](images/stage.png)
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
 
 ```blocks3
 quan fas clic a la bandera
@@ -50,4 +64,8 @@ posa [monedes v] a [0]
 
 \--- /task \---
 
-\--- task \--- Prova el teu joc. La recollida d'una moneda hauria de canviar la teva puntuació de ` monedes ` a ` 1 ` {: class = "block3variables"}. \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
