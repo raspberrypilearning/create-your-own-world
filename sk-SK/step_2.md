@@ -94,7 +94,11 @@ bod v smere ()
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \---
+
+\--- hint \---
+
+Here is how your code should look:
 
 ![player](images/player.png)
 
@@ -121,6 +125,8 @@ navždy
 koniec
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
