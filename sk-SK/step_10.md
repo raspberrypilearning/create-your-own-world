@@ -2,13 +2,25 @@
 
 Váš `hráč` by mal byť schopný zbierať mince pri pohybe po celom svete.
 
-\--- task \--- Pridajte novú premennú valled `mince`{: class = "block3variables"} do vášho projektu. \--- / úloha \---
+\--- task \---
 
-\--- task \--- Select the `coin` sprite and click **show**.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![snímka obrazovky](images/coin.png) \--- / úloha \---
+\--- / úloha \---
 
-\--- úloha \--- Pridajte kód do vašej `mince` sprite tak, aby sa objavil iba v miestnosti 1. ![snímka obrazovky](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 keď vlajka klikne
@@ -19,13 +31,13 @@ iný
 skryť
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \---
+\--- task \---
 
-Pridajte kód do `mince` pohyblivý symbol tak, aby sa vodník `skrýva`{: class = "block3looks"} a `1`{: class = "block3variables"} sa pridá k `mincí`{: class = "block3variables"} premenlivá, akonáhle sa spriete `hráčov` dotýka `mincov` sprite, aby ich "vyzdvihol".
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-![mince](images/coin.png)
+![coin](images/coin.png)
 
 ```blocks3
 keď vlajka klikne
@@ -35,19 +47,25 @@ skryť
 stop [iné skripty v sprite v]
 ```
 
-Kód `zastaviť ďalšie skripty v sprite`{: class = "block3control"} je potrebný tak, aby sa `mince` sprite prestane zobrazovať v miestnosti 1 po jeho zhromaždení.
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
-\--- / úloha \---
+\--- /task \---
 
-\--- task \--- Teraz pridajte kód do scény, aby ste nastavili `mincu`{: class = "block3variables"} premennú na `0`{: class = "block3variables"} na začiatku hry.
+\--- task \---
 
-![štádium](images/stage.png)
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
 
 ```blocks3
 keď príznakom kliknete na
 nastavíte [mince v] na hodnotu [0]
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- task \--- Vyskúšajte hru. Zbieranie mince by malo zmeniť `mincí` skóre na `1`{: class = "block3variables"}. \--- / úloha \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
