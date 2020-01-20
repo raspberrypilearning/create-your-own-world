@@ -1,12 +1,18 @@
 ## Pevné steny
 
-\--- úloha \--- Vyskúšajte znovu vášho `hráča`. Vidíte, že môže prechádzať cez svetlo sivé steny.
+\--- task \---
 
-![snímka obrazovky](images/world-walls.png) \--- / úloha \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- \--- úloha Ak chcete tento problém odstrániť, je potrebné, aby sa `hráč` sprite presunúť späť, ak sa dotkne svetlo šedej múru. Tu je kód, ktorý musíte pridať do bloku `navždy`{: class = "block3control"} pod blokmi smerov:
+![screenshot](images/world-walls.png)
 
-![prehrávač](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 keď sa vlajka preklikne
@@ -35,8 +41,10 @@ koniec
 
 \--- / úloha \---
 
-\--- úloha \---
+\--- task \---
 
-Snažte sa, aby sa prehrávač `prehrávača` presunul cez stenu. Ak váš nový kód funguje, nemalo by to byť možné.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![snímka obrazovky](images/world-walls-test.png) \--- / úloha \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
