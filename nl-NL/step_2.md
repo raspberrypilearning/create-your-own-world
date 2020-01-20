@@ -94,9 +94,13 @@ richt naar () graden
 
 Dupliceer de code die de `speler` sprite naar boven beweegt en verander deze twee blokken om de sprite omlaag te laten bewegen. Dupliceer de code opnieuw en wijzig deze om de sprite naar rechts te verplaatsen.
 
-\--- /hint \--- \--- hint \--- Zo zou de code eruit moeten zien:
+\--- /hint \---
 
-![speler](images/player.png)
+\--- hint \---
+
+Here is how your code should look:
+
+![player](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -121,6 +125,8 @@ herhaal
 einde
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
