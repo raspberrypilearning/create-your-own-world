@@ -6,9 +6,21 @@ Dein Projekt enthält die Figur von einem `Willkommen-Schild`:
 
 ![screenshot](images/world-sign.png)
 
-\--- task \--- Das `Willkommen-Schild` sollte nur im Raum 1 sichtbar sein. Füge Code zur Figur hinzu, um sicherzustellen, dass dies geschieht:
+\--- task \---
 
-\--- hints \--- \--- hint \--- `Wenn die grüne Flagge angeklickt wird`{:class="block3events"}, prüfe in einer `wiederhole fortlaufend`{:class="block3control"}-Schleife, und `falls`{:class="block3control"} der `Raum = 1`{:class="block3variables"} ist `zeige`{:class="block3looks"} die `Willkomen-Schild`-Figur, `sonst`{:class="block3control"} `verstecke`{:class="block3looks"} die Figur. \--- /hint \--- \--- hint \--- Hier sind die Code Blöcke die du brauchst:
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+
+\--- hints \---
+
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ![sign](images/sign.png)
 
@@ -31,7 +43,11 @@ Wenn die grüne Flagge angeklickt
 
 ```
 
-\--- / hint \--- \--- hint \--- Hier ist der vollständige Code:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the complete code:
 
 ![sign](images/sign.png)
 
@@ -46,15 +62,23 @@ wiederhole fortlaufend
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- Prüfe den Code deiner `Willkommen-Schild`-Figur indem du dich zwischen den Räumen bewegst. Das Schild sollte nur in Raum 1 sichtbar sein.
+\--- task \---
 
-![Screenshot](images/world-sign-test.png) \--- /task \---
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-\--- task \--- Ein Schild nützt nicht viel, wenn nichts darauf steht! Füge weiteren Code hinzu um eine Nachricht anzuzeigen, wenn das `Willkommen-Schild` vom `Spieler` berührt wird:
+![screenshot](images/world-sign-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
 
 ![sign](images/sign.png)
 
@@ -74,6 +98,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Teste deine ` Willkommen-Schild `-Figur erneut. Du solltest nun eine Nachricht sehen, wenn deine `Spieler`-Figur die `Willkommen-Schild`-Figur berührt.
+\--- task \---
 
-![Screenshot](images/world-sign-test2.png) \--- /task \---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
