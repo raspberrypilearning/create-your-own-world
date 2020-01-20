@@ -1,10 +1,16 @@
 ## Massive Wände
 
-\--- task \--- Teste deine `Spieler`-Figur nochmal. Siehst du, dass sie durch die hellgrauen Wände gehen kann.
+\--- task \---
 
-![Screenshot](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- Um dies zu beheben, musst du die `Spieler`-Figur zurück gehen lassen, wenn es eine hellgraue Wand berührt. Hier ist der Code, den du innerhalb des `fortlaufend wiederholen`{:class="block3control"} -Blocks unter den Richtungs-Blöcken hinzufügen musst:
+![screenshot](images/world-walls.png)
+
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
 
 ![player](images/player.png)
 
@@ -32,6 +38,8 @@ end
 
 \--- task \---
 
-Versuche, die `Spieler`-Figur durch eine Wand zu bewegen. Wenn dein neuer Code richtig funktioniert, sollte das nicht möglich sein.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![Screenshot](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
