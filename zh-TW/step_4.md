@@ -12,11 +12,15 @@
 
 [[[generic-scratch3-add-variable]]]
 
-![截圖](images/world-room.png) \--- /任務\---
+![screenshot](images/world-room.png)
 
-\--- task \--- 當 `玩家` 精靈觸及第一個房間的橙色門時，遊戲應該顯示下一個背景， `玩家` 精靈應該移回舞台的左側。 將此代碼添加到 `player` 精靈 `永遠`{：class =“block3control”}循環中：
+\--- /task \---
 
-![播放機](images/player.png)
+\--- task \---
+
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+
+![player](images/player.png)
 
 ```blocks3
 當標誌點擊
@@ -48,19 +52,31 @@
 end
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\--- 每次遊戲開始時，需要重置房間，角色位置和背景。
+\--- task \---
 
-將代碼添加到 `永遠`{{class =“block3control”}循環上方的 `玩家` 精靈代碼的 **開始** ，以便在單擊該標誌時重置所有內容：
+Every time the game starts, the room, character position, and backdrop need to be reset.
 
-\---提示\--- \---提示\--- 遊戲開始時：
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+\--- hints \---
+
+\--- hint \---
+
+When the game starts:
 
 + `room`{：class =“block3variables”}的值應設置為 `1`{：class =“block3variables”}
 + `背景`{：class =“block3looks”}應該設置為 `room1`{：class =“block3looks”}
-+ `玩家` 精靈的位置應該設置為 `x：-200 y：0`{：class =“block3motion”} \--- /提示\--- \---提示\--- 這是額外的您需要的塊：
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
-![播放機](images/player.png)
+\--- /hint \---
+
+\--- hint \---
+
+Here are the extra blocks you need:
+
+![player](images/player.png)
 
 ```blocks3
 轉到x：（ -  200）y：（0）
@@ -70,9 +86,13 @@ end
 切換背景到（房間1 v）
 ```
 
-\--- /提示\--- \---提示\--- 這是你完成的腳本應該是這樣的：
+\--- /hint \---
 
-![播放機](images/player.png)
+\--- hint \---
+
+Here's what your finished script should look like:
+
+![player](images/player.png)
 
 ```blocks3
 當標誌點擊
@@ -107,10 +127,16 @@ end
 結束
 ```
 
-\--- /提示\--- \--- /暗示\---
+\--- /hint \---
 
-\--- /任務\---
+\--- /hints \---
 
-\---任務\--- 單擊標誌，然後移動你的 `玩家` 精靈，直到它觸及橙色門。 精靈會移動到下一個屏幕嗎？ `室`{：class =“block3variables”}變量是否變為 `2`？
+\--- /task \---
 
-![截圖](images/world-room-test.png) \--- /任務\---
+\--- task \---
+
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+
+\--- /task \---
