@@ -6,9 +6,21 @@ Seu projeto inclui um sinal de boas-vindas `welcome sign` sprite:
 
 ![screenshot](images/world-sign.png)
 
-\--- tarefa \--- O `welcome sign` sprite só deve estar visível na sala 1, então adicione algum código ao sprite para garantir que isso aconteça:
+\--- task \---
 
-`When the flag is clicked`{:class="block3events"}, em `forever`{:class="block3control"} verifique `if`{:class="block3control"} a `room is 1`{:class="block3variables"} e, nesse caso, `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite. \--- /hint \--- \--- hint \--- Aqui estão os blocos que você vai precisar:
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+
+\--- hints \---
+
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
 
 ![sign](images/sign.png)
 
@@ -30,7 +42,11 @@ when flag clicked
 
 ```
 
-\--- /hint \--- \--- dica \--- Aqui está o código completo:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the complete code:
 
 ![sign](images/sign.png)
 
@@ -45,15 +61,23 @@ forever
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- tarefa \--- Teste o código para o seu `welcome sign` sprite movendo-se entre salas. O sinal só deve estar visível na sala 1.
+\--- task \---
 
-![screenshot](images/world-sign-test.png) \--- /task \---
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-\--- task \--- Um sinal não é muito bom se não diz nada! Adicione um pouco mais de código para exibir uma mensagem se o sinal de boas-vindas ` ` sprite está tocando no ` player ` sprite:
+![screenshot](images/world-sign-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
 
 ![sign](images/sign.png)
 
@@ -75,6 +99,10 @@ end
 
 \--- /task \---
 
-\--- tarefa \--- Teste seu `player` sprite novamente. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+\--- task \---
 
-![screenshot](images/world-sign-test2.png) \--- /task \---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
