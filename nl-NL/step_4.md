@@ -12,11 +12,15 @@ Maak een nieuwe variabele 'voor alle sprites' met de naam `kamer`{:class="block3
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png) \--- /task \---
+![screenshot](images/world-room.png)
 
-\--- task \--- Als de `speler` sprite de oranje deur in de eerste kamer raakt moet de volgende achtergrond worden weergegeven en de `speler` sprite moet teruggaan naar de linkerkant van het speelveld. Voeg deze code toe aan de `speler` sprite's `herhaal`{:class="block3control"} lus:
+\--- /task \---
 
-![speler](images/player.png)
+\--- task \---
+
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+
+![player](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -50,17 +54,29 @@ einde
 
 \--- /task \---
 
-\--- task \--- Elke keer dat het spel start, moeten de kamer, de positie van het personage en de achtergrond opnieuw ingesteld worden.
+\--- task \---
 
-Voeg code toe aan de **start** van je `speler` sprite-code boven de `herhaal`{:class="block3control"} lus, om alles opnieuw in te stellen wanneer op de vlag wordt geklikt:
+Every time the game starts, the room, character position, and backdrop need to be reset.
 
-\--- hints \--- \--- hint \--- Wanneer het spel start:
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+\--- hints \---
+
+\--- hint \---
+
+When the game starts:
 
 + De waarde van `kamer`{:class="block3variables"} moet zijn ingesteld op `1`{:class="block3variables"}
 + De `achtergrond`{:class="block3looks"} moet zijn ingesteld op `kamer1`{:class="block3looks"}
-+ De positie van de `speler` sprite moet worden ingesteld op `x:-200 y: 0`{:class="block3motion"} \--- / hint \--- \--- hint \--- Dit zijn de extra blokken die je nodig hebt:
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
-![speler](images/player.png)
+\--- /hint \---
+
+\--- hint \---
+
+Here are the extra blocks you need:
+
+![player](images/player.png)
 
 ```blocks3
 ga naar x: (-200) y: (0)
@@ -70,9 +86,13 @@ maak [kamer v] (1)
 verander achtergrond naar (kamer1 v)
 ```
 
-\--- / hint \--- \--- hint \--- Hier zie je hoe je voltooide script er uit moet zien:
+\--- /hint \---
 
-![speler](images/player.png)
+\--- hint \---
+
+Here's what your finished script should look like:
+
+![player](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -107,10 +127,16 @@ herhaal
 einde
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- Klik op de vlag en verplaats vervolgens je `speler` sprite totdat het de oranje deur raakt. Gaat de sprite naar het volgende scherm? Verandert de variabele `kamer`{:class="block3variables"} naar `2`?
+\--- task \---
 
-![screenshot](images/world-room-test.png) \--- /task \---
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+
+\--- /task \---
