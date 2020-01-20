@@ -94,9 +94,13 @@ apunta en direcció ()
 
 Duplica el codi que fa que la icona ` jugador ` es desplaçi cap amunt i canvia aquests dos blocs per fer què la icona es mogui cap avall. Duplica el codi de nou i canvia'l per tal què la icona es desplaci cap a la dreta.
 
-\--- /hint \--- \--- hint \--- Això és el que hauria de tenir el teu codi:
+\--- /hint \---
 
-![jugador](images/player.png)
+\--- hint \---
+
+Here is how your code should look:
+
+![player](images/player.png)
 
 ```blocks3
 quan has fet clic a la bandera
@@ -120,6 +124,8 @@ per sempre
 final
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
