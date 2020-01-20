@@ -16,7 +16,9 @@
 
 + يمكنك أيضًا إضافة أبواب في الحائطَين العلوي والسفلي للغرفة 1، بحيث يتمكن اللاعب من التحرك بين الغرف في كل الاتجاهات الأربعة. For example, your game can have nine rooms in a 3×3 grid. ثم يمكنك إضافة `3` إلى رقم الغرفة للنزول مستوى واحدًا.
 
-![لقطة شاشة](images/north-south-rooms.png) ![لقطة الشاشة](images/number-grid.png)
+![لقطة شاشة](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
