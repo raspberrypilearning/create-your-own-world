@@ -2,25 +2,45 @@
 
 Rwyt ti nawr am ychwanegu côd i rai o dy ddrysau fel bod rhai o'r drysau yn y gêm wedi eu cloi, ac mae'n rhaid i'r chwaraewr ddod o hyd i allwedd i'w datgloi nhw a symud i'r ystafell nesaf.
 
-\--- task \--- Newida i'r corlun `allwedd`. Clicia ar `dangor`{:class="blocklooks"} yn y dewislen fel bod y corlun yn ymddangos ar y Llwyfan. \--- /task \---
+\--- task \---
 
-\--- task \--- Golyga'r `allwedd` fel ei fod yn las. \--- /task \---
-
-\--- task \--- Newida cefndir dy Lwyfan i ystafell 3 a gosod yr `allwedd` mewn man anodd i'w gyrraedd!
-
-![sgrinlun](images/world-key.png)
+Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
 
 \--- /task \---
 
-Ychwanega gôd i dy `allwedd` i'w wneud yn weledol yn ystafell 3 yn unig. \--- /task \---
+\--- task \---
 
-\--- task \--- Cer ati i greu rhestr newydd o'r enw `rhestr`{:class="block3variables"} i storio'r eitemau mae dy `chwaraewr` yn eu casglu.
+Edit the `key` sprite's costume so that it is blue.
 
-[[[generic-scratch3-make-list]]] \--- /task \---
+\--- /task \---
 
-\--- task \--- Mae'r côd sydd angen i ti ei ychwanegu ar gyfer casglu allweddi yn debyg i'r côd ar gyfer casglu arian. Y gwahaniaeth yw fod angen ychwanegu allwedd i'r `rhestr`{:class="block3variables"}.
+\--- task \---
 
-![allwedd](images/key.png)
+Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+
+![screenshot](images/world-key.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `key` sprite to make it only visible in room 3.
+
+\--- /task \---
+
+\--- task \---
+
+Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+
+[[[generic-scratch3-make-list]]]
+
+\--- /task \---
+
+\--- task \---
+
+The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+
+![key](images/key.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -32,7 +52,9 @@ aros [other scripts in sprite v]
 
 \--- /task \---
 
--- task \--- Ychwanega gôd i'r Llwyfan i wagio dy restr ar gychwyn gêm.
+\--- task \---
+
+Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
 dileu (all v) o [wedi casglu v]
@@ -40,17 +62,31 @@ dileu (all v) o [wedi casglu v]
 
 \--- /task \---
 
-\--- task \--- Profa dy gêm i weld os wyt ti'n gallu casglu'r `allwedd` a'i ychwanegu at y rhestr. \--- /task \---
+\--- task \---
 
-\--- task \--- Nawr ychwanega'r drws wedi ei gloi. Dewisa'r corlun `drws-glas` a chlicio `dangos`{:class="blocklooks} yn y ddewislen, yna gosod y corlun ar draws y bwlch rhwng y ddwy wal.
+Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
 
-![sgrinlun](images/world-door.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- Ychwanega gôd i'r `drws glas` fel ei fod ond yn weledol yn ystafell 3. \--- /task \---
+\--- task \---
 
-\--- task \--- Ychwanega gôd i'r `drws glas` fel fod, pan mae'r allwedd yn y `rhestr`{:class="block3variables"}, mae'r corlun yn `cuddio`{:class="block3looks"} i adael i dy `chwaraewr` fynd heibio.
+Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![drws](images/door.png)
+![screenshot](images/world-door.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `door-blue` sprite so that it is only visible in room 3.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+
+![door](images/door.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -61,4 +97,8 @@ cuddio
 
 \--- /task \---
 
-\--- task \--- Profa dy gêm i weld os wyt ti'n gallu casglu'r allwedd glas i agor y drws! \--- /task \---
+\--- task \---
+
+Test out your game and see if you can collect the blue key to open the door!
+
+\--- /task \---
