@@ -1,12 +1,18 @@
 ## Murs solides
 
-\--- task \--- Teste à nouveau ton sprite `joueur`. Vois-tu qu'il peut traverser les murs gris clair.
+\--- task \---
 
-![capture d'écran](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- Pour résoudre ce problème, tu dois faire reculer le sprite `joueur` s'il touche un mur gris clair. Voici le code que tu dois ajouter dans ton bloc `répéter indéfiniment`{:class="block3control"} sous les blocs de direction:
+![screenshot](images/world-walls.png)
 
-![joueur](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -37,6 +43,8 @@ end
 
 \--- task \---
 
-Essaye de faire en sorte que le sprite `joueur` passe à travers un mur. Si ton nouveau code fonctionne, cela ne devrait pas être possible.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![capture d'écran](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
