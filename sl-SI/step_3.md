@@ -1,12 +1,18 @@
 ## Trdne stene
 
-\--- task \--- Ponovno preizkusi svojo figuro `igralec`. Kot lahko opaziš, se lahko premika svkozi svetlo-sive zidove.
+\--- task \---
 
-![posnetek zaslona](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- Da to popraviš, moraš poskrbeti, da segirua `igralec` pomakne nazaj, kadar se dotakne svetlo-sive stene. Takšna je koda, ki jo moraš dodati znotraj bloka `ponavljaj`{:class="block3control"}, pod bloke, ki skrbijo za premikanje:
+![screenshot](images/world-walls.png)
 
-![igralec](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -37,6 +43,8 @@ konec
 
 \--- task \---
 
-Poskusi premakniti figuro `igralec` skozi zid. Če tvoja koda deluje, to ne bi smelo biti mogoče.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![posnetek zaslona](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
