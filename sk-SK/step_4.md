@@ -12,11 +12,15 @@ Vytvorenie nového, pre všetky škriatkov 'premenné nazvané `izba`{: class = 
 
 [[[generic-scratch3-add-variable]]]
 
-![snímka obrazovky](images/world-room.png) \--- / úloha \---
+![screenshot](images/world-room.png)
 
-\--- \--- úloha Keď `hráč` sprite dotkne oranžovej dvere v prvej miestnosti, hra by mala zobraziť ďalšie pozadia a `hráč` sprite by sa mal pohybovať späť na ľavej strane plochy. Pridajte tento kód vo vnútri prehrávača `prehrávača` navždy `sprite <code>`= {block3control}}:
+\--- /task \---
 
-![prehrávač](images/player.png)
+\--- task \---
+
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+
+![player](images/player.png)
 
 ```blocks3
 keď sa vlajka preklikne
@@ -48,19 +52,31 @@ navždy
 konca
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \--- každom spustení hry je potrebné resetovať miestnosť, pozíciu znakov a pozadie.
+\--- task \---
 
-Pridajte kód **štartu** vašej `hráči` sprite kódu nad `navždy`{: class = "block3control"} slučky, resetovať všetko, keď je príznak spúšťanie:
+Every time the game starts, the room, character position, and backdrop need to be reset.
 
-\--- tipy \--- \--- tip \--- Keď začne hra:
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+\--- hints \---
+
+\--- hint \---
+
+When the game starts:
 
 + Hodnota `miestnosti`{: class = "block3variables"} by mala byť nastavená na `1`{: class = "block3variables"}
 + `pozadie`{: class = "block3looks"} by malo byť nastavené na `miestnosti1`{: class = "block3looks"}
-+ Poloha `hráča` by mala byť nastavená na `x: -200 y: 0`{: class = "block3motion") \--- / hint \--- \--- tip \--- Tu sú extra bloky, ktoré potrebujete:
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
-![prehrávač](images/player.png)
+\--- /hint \---
+
+\--- hint \---
+
+Here are the extra blocks you need:
+
+![player](images/player.png)
 
 ```blocks3
 prejdite na x: (-200) y: (0)
@@ -70,9 +86,13 @@ nastavte [miestnosť v] na (1)
 spínaciu plochu do (miestnosť v)
 ```
 
-\--- / hint \--- \--- hint \--- Tu je to, ako by mal vyzerať váš hotový skript:
+\--- /hint \---
 
-![prehrávač](images/player.png)
+\--- hint \---
+
+Here's what your finished script should look like:
+
+![player](images/player.png)
 
 ```blocks3
 keď príznak kliknutí
@@ -107,10 +127,16 @@ konca
 konca
 ```
 
-\--- / tip \--- \--- / tipy \---
+\--- /hint \---
 
-\--- / úloha \---
+\--- /hints \---
 
-\--- task \--- Kliknite na vlajku a potom presuňte vášho `hráča` až kým sa nedotkne oranžových dverí. Sprievod sa presunie na ďalšiu obrazovku? Zmenila sa premenná `miestnosti`{: class = "block3variables"} na `2`?
+\--- /task \---
 
-![snímka obrazovky](images/world-room-test.png) \--- / úloha \---
+\--- task \---
+
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+
+\--- /task \---
