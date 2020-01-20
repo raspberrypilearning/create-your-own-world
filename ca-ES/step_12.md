@@ -16,7 +16,9 @@ Ara pots continuar creant el teu propi món! Aquí tens algunes idees:
 
 + Fins i tot podries afegir portes a les parets nord i sud de l'habitació 1, de manera que el jugador es pugui moure entre habitacions en les quatre direccions. Per exemple, el joc pot tenir nou habitacions en una graella 3 × 3. Pots afegir ` 3 ` al número de l’habitació per baixar un nivell.
 
-![captura de pantalla](images/north-south-rooms.png) ![captura de pantalla](images/number-grid.png)
+![captura de pantalla](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 si <touching color [ ]?> aleshores
