@@ -94,7 +94,11 @@ point in direction ()
 
 Duplica il codice che muove lo sprite `player` verso l'alto e cambia questi due blocchi per far spostare lo sprite verso il basso. Duplica nuovamente il codice e modificalo per spostare lo sprite verso destra.
 
-\--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice:
+\--- /hint \---
+
+\--- hint \---
+
+Here is how your code should look:
 
 ![player](images/player.png)
 
@@ -121,6 +125,8 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
