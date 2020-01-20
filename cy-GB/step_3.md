@@ -1,12 +1,18 @@
 ## Waliau cadarn
 
-\--- task \--- Profa dy `chwaraewr` eto. A weli di ei fod yn gallu cerdded trwy'r waliau llwyd golau.
+\--- task \---
 
-![sgrinlun](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\--- task \--- I ddatrys hyn, bydd angen i ti wneud i'r `chwaraewr` symud yn ôl os yw'n cyffwrdd wal llwyd. Dyma'r côd sydd angen ei osod o fewn y bloc `am byth` {:class="block3control"} o dan y blociau cyfeiriad:
+![screenshot](images/world-walls.png)
 
-![chwaraewr](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -37,6 +43,8 @@ end
 
 \--- task \---
 
-Ceisia wneud i'r `chwaraewr` symud trwy wal. Os yw'r côd newydd yn gweithio, ni ddylai hyn fod yn bosib.
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![sgrinlun](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
