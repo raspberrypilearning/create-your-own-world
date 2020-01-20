@@ -2,13 +2,25 @@
 
 Fe ddylai dy `chwaraewr` allu casglu darnau arian wrth iddo symud trwy'r byd.
 
-\--- task \--- Ychwanega newidyn newydd o’r enw `arian`{:class="block3variables"} i dy brosiect. \--- /task \---
+\--- task \---
 
-\--- task \--- Dewisa'r `arian` a chlicio **dangos**.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![sgrinlun](images/coin.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- Ychwanega gôd i dy `arian` fel ei fod ond yn ymddangos yn ystafell 1. ![sgrinlun](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -25,9 +37,9 @@ end
 
 \--- task \---
 
-Ychwanega gôd i dy `arian` fel fod y corlun yn `cuddio`{:class="block3looks"} a bod `1`{:class="block3variables"} yn cael ei ychwanegu i'r newidyn `arian`{:class="block3variables"} unwaith mae'r `chwaraewr` yn cyffwrdd y darn `arian` i'w 'bigo fyny'.
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-![darn arian](images/coin.png)
+![coin](images/coin.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -37,13 +49,15 @@ cuddio
 aros [other scripts in sprite v]
 ```
 
-Mae angen y côd `stopiwch sgriptiau eraill yn y ciplun`{:class="block3control"} fel bod y darn `arian` yn stopio ymddangos yn ystafell 1 unwaith mae’n cael ei gasglu.
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
 \--- /task \---
 
-Ychwanega gôd i dy Lwyfan i osod y newidyn `arian`{:class="block3variables"} i `0`{:class="block3variables"} ar ddechrau dy gêm.
+\--- task \---
 
-![llwyfan](images/stage.png)
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -52,4 +66,8 @@ gosod [arian v] i [0]
 
 \--- /task \---
 
-\--- task \--- Profa dy gêm. Dylai casglu darn arian newid sgôr dy `arian` i `1`{:class="block3variables"}. \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
