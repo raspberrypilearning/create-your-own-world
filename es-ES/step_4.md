@@ -84,33 +84,33 @@ forever
         point in direction (0)
         move (4) steps
     end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
-end
+    if <key (left arrow v) pressed? > entonces 
+    apuntar en dirección (-90)
+    mover (4) pasos
+  end
+  si <¿tecla (flecha abajo v) presionada? > entonces 
+    apuntar en dirección (-180)
+    mover (4) pasos
+  end
+  si <¿tecla [flecha derecha v] presionada? > entonces 
+        apuntar en dirección (90)
+        mover (4) pasos
+    fin
+    si < toca el color [#BABABA]? > entonces
+    mover (-4) pasos
+    fin
+    si < toca el color [# F2A24A] > entonces
+    cambia el fondo a (siguiente fondo v)
+    ve a x: (-200) y: (0)
+    cambia [habitación v] por (1)
+fin
+fin
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- / pista \--- \--- / pistas \---
 
 \--- /task \---
 
-\--- task \--- Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- Tarea \--- Haga clic en la bandera y luego mueve tu objeto `jugador` hasta que toque la puerta naranja. ¿Tu objeto se mueve a la pantalla siguiente? ¿La variable `Habitación`{:class="block3variables"} cambia a `2`?
 
 ![captura de pantalla](images/world-room-test.png) \--- /task \---
