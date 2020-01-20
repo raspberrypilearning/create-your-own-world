@@ -6,15 +6,26 @@
 
 ![screenshot](images/world-sign.png)
 
-\--- task \--- Спрайт `табличка Добро пожаловать` должен быть виден только в комнате 1, поэтому добавьте код к спрайту, чтобы убедиться, что это происходит:
+\--- task \---
 
-\--- hints \--- \--- hint \--- `Когда зеленый флаг нажат`{:class="block3events"}, в цикле `повторять всегда`{:class="block3control"}` проверь, `если</code>{:class="block3control"} `комната номер 1`{:class="block3variables"}, и в этом случае `покажи`{:class="block3looks"} спрайт `табличка Добро пожаловать`, `иначе`{:class="block3control"} `спрячь</0>{:class="block3looks"} спрайт.
---- /hint --- --- hint ---
-Вот блоки кода, которые тебе нужны:</p>
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-<p><img src="images/sign.png" alt="sign" /></p>
+\--- hints \---
 
-<pre><code class="blocks3"><br />если <>, то 
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![sign](images/sign.png)
+
+```blocks3
+<br />если <>, то 
  
 иначе
 end
@@ -30,9 +41,13 @@ end
 
 когда щёлкнут по зелёному флагу
 
-`</pre> 
+```
 
-\--- /hint \--- \--- hint \--- Вот полный код:
+\--- /hint \---
+
+\--- hint \---
+
+Here is the complete code:
 
 ![sign](images/sign.png)
 
@@ -47,15 +62,23 @@ end
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- Протестируй код спрайта `табличка Добро пожаловать`, перемещаясь между комнатами. Табличка должна быть видна только в комнате 1.
+\--- task \---
 
-![screenshot](images/world-sign-test.png) \--- /task \---
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-\--- task \--- Табличка не очень хороша, если на ней ничего не написано! Добавь код, который бы показывал сообщение, если спрайт `табличка Добро пожаловать` касается спрайта `игрок`:
+![screenshot](images/world-sign-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
 
 ![sign](images/sign.png)
 
@@ -77,6 +100,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Cнова проверь свой спрайт `табличка Добро пожаловать`. Теперь ты должен видеть сообщение, когда спрайт `игрок` коснется спрайта `табличка Добро пожаловать`.
+\--- task \---
 
-![screenshot](images/world-sign-test2.png) \--- /task \---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
