@@ -2,13 +2,25 @@
 
 Tvoja figura `igralec` bi moral imeti možnost, da zbira kovance, ko se sprehaja po svetu.
 
-\--- task \--- Dodaj novo spremenljivko z imenom `kovanci`{:class="block3variables"} v tvoj projekt. \--- /task \---
+\--- task \---
 
-\--- task \--- Izberi figuro `kovanec` in klikni na oko zraven napisa **Pokaži**.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![posnetek zaslona](images/coin.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- Figuri `kovanec` dodaj kodo, zaradi katere se bo pojavil zgolj v prvi sobi. ![posnetek zaslona](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -23,9 +35,9 @@ skrij
 
 \--- task \---
 
-Figuri `kovanec` dodaj kodo, da se bo figura `skrila`{:class="block3looks"} in dodala `1`{:class="block3variables"} spremenljivki `kovanci`{:class="block3variables"}, ko se figura `igralec` dotakne figure `kovanec`, da jo 'pobere'.
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-![kovanec](images/coin.png)
+![coin](images/coin.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -35,13 +47,15 @@ skrij
 ustavi [ostale ukaze za to figuro v]
 ```
 
-Koda `ustavi ostale ukaze za to figuro`{:class="block3control"} je potrebna, da se figura `kovanec` preneha prikazovati v sobi 1, potem ko je pobrana.
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
 \--- /task \---
 
-\--- task \--- Zdaj dodaj kodo v oder, da nastavi spremenljivko `kovanci`{:class="block3variables"} na `0`{:class="block3variables"}, ko se igra začne.
+\--- task \---
 
-![oder](images/stage.png)
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -50,4 +64,8 @@ nastavi [kovanci v] na (0)
 
 \--- /task \---
 
-\--- task \--- Preizkusi svojo igro. Ko pobereš kovanec, bi se moralo število `kovanci` povečati na `1`{:class="block3variables"}. \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
