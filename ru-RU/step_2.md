@@ -1,36 +1,36 @@
-## Move the player sprite
+## Перемещение спрайта игрока
 
-Start by creating a `player` sprite that can move around your world.
+Начни с создания спрайта `игрока`, способного двигаться по всему миру.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Открой начальный проект Scratch под названием "Создай свой собственный мир".
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Онлайн**: открой стартовый проект по адресу [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Если у тебя есть учетная запись в Scratch, то ты можешь сделать копию проекта, нажав **Ремикс**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Оффлайн**: скачай стартовый проект с [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"} и затем открой его с помощью оффлайн редактора. Если тебе нужно скачать и установить оффлайн редактор Скретч, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![снимок экрана](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Нажатие клавиш со стрелками должно перемещать спрайт `игрока` в пределах мира. При нажатии стрелки вверх спрайт `игрок` должен двигаться вверх на Сцене.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Добавь этот код в спрайт `игрока`:
 
-![player](images/player.png)
+![игрок](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
+когда щёлкнут по зелёному флагу
+повторять всегда 
+  если <клавиша (стрелка вверх v) нажата? >, то 
+    повернуться в направлении (0)
+    идти (4) шагов
+  end
 end
 ```
 
@@ -38,29 +38,29 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Нажми на флажок и удерживай клавишу вверх. Двигается ли спрайт `игрока` вверх?
 
-![screenshot](images/world-up.png)
+![снимок экрана](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Чтобы переместить спрайт `игрока` влево, тебе нужно добавить другой блок `если`{:class="block3control"} с похожим кодом:
 
-![player](images/player.png)
+![игрок](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+когда щёлкнут по зелёному флагу
+повторять всегда 
+  если <клавиша (стрелка вверх v) нажата? >, то 
+    повернуться в направлении (0)
+    идти (4) шагов
+  end
+  + если <клавиша (стрелка влево v) нажата? >, то 
+  +   повернуться в направлении (-90)
+  +   идти (4) шагов
+  + end
 end
 ```
 
@@ -68,56 +68,55 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Добавьте ещё код к спрайту `игрока`, чтобы он мог двигаться вниз и вправо. Код, который у тебя уже есть, должен тебе помочь в этом.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Для того, чтобы двигаться вверх, ты двигаешь спрайт `игрока` в направлении `0` градусов. Что нужно сделать, чтобы переместить спрайт вниз?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Чтобы двигаться влево, ты двигаешь спрайт в направлении `-90` градусов. Что нужно сделать, чтобы переместить спрайт вправо?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Тебе нужно изменить эти два блока:
 
-![player](images/player.png)
+![игрок](images/player.png)
 
 ```blocks3
-<key ( v) pressed>
+<клавиша ( v) нажата?>
 
-point in direction ()
+повернуться в направлении ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Скопируй код, который заставляет спрайт `игрока` двигаться вверх и измени эти два блока, чтобы заставить спрайт двигаться вниз. Снова скопируй код и измени его так, чтобы спрайт переместился вправо.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Вот как должен выглядеть твой код:
 
-![player](images/player.png)
+![игрок](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
+когда щёлкнут по зелёному флагу
+повторять всегда 
+  если <клавиша (стрелка вверх v) нажата? >, то 
+    повернуться в направлении (0)
+    идти (4) шагов
+  end
+  если <клавиша (стрелка влево v) нажата? >, то 
+    повернуться в направлении (-90)
+    идти (4) шагов
+  end
+  + если <клавиша (стрелка вниз v) нажата? >, то 
+  +   повернуться в направлении (180)
+  +   идти (4) шагов
+  + end
+  + если <клавиша [стрелка вправо v] нажата? >, то 
+  +   повернуться в направлении (90)
+  +   идти (4) шагов
+  + end
 end
 ```
 
