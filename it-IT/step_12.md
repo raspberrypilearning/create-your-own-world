@@ -16,7 +16,9 @@ Ora puoi continuare a creare il tuo mondo! Ecco alcune idee:
 
 + Potresti persino aggiungere porte nelle pareti nord e sud della stanza 1, in modo che il giocatore possa spostarsi tra le stanze in tutte e quattro le direzioni. Ad esempio, il tuo gioco può avere nove stanze in una griglia 3 × 3. Potresti quindi aggiungere `3` al numero delle stanze per scendere di un livello.
 
-![screenshot](images/north-south-rooms.png) ![schermata](images/number-grid.png)
+![screenshot](images/north-south-rooms.png)
+
+![screenshot](images/number-grid.png)
 
 ```blocks3
 se <touching color [ ]?> allora 
