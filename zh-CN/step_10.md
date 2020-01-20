@@ -2,13 +2,25 @@
 
 你的 `玩家` 精灵应该能够收集硬币在世界各地移动。
 
-\--- task \--- 为你的项目添加一个新的变量valled `coins`{：class =“block3variables”}。 \--- /task \---
+\--- task \---
 
-\---任务\--- 选择 `硬币` 精灵，然后单击 **显示**。
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![截屏](images/coin.png) \--- /task \---
+\--- /task \---
 
-\---任务\--- 将代码添加到 `硬币` 精灵中，使其仅出现在房间1中。 ![截屏](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 当标志点击
@@ -23,9 +35,9 @@
 
 \--- task \---
 
-将代码添加到 `硬币` 精灵中，以便精灵 `隐藏`{：class =“block3looks”}并将 `1`{：class =“block3variables”}添加到 `硬币`{：class =“block3variables”}变量一旦 `玩家` 精灵触及 `硬币` 精灵来“捡起来”。
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
-![硬币](images/coin.png)
+![coin](images/coin.png)
 
 ```blocks3
 当标志点击
@@ -35,13 +47,15 @@
 停止[其他脚本在精灵v]
 ```
 
-代码 `停止精灵`{：class =“block3control”}中的其他脚本是必要的，以便 `硬币` 精灵在收集后停止在房间1中显示。
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
 \--- /task \---
 
-\--- task \--- 现在在舞台上添加代码，在游戏开始时将 `硬币`{：class =“block3variables”}变量设置为 `0`{：class =“block3variables”}。
+\--- task \---
 
-![阶段](images/stage.png)
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+
+![stage](images/stage.png)
 
 ```blocks3
 当标记点击
@@ -50,4 +64,8 @@
 
 \--- /task \---
 
-\---任务\--- 测试你的游戏。 收集硬币应该将你的 `硬币` 分改为 `1`{：class =“block3variables”}。 \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
