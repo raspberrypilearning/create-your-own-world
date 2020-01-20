@@ -12,11 +12,15 @@ Crea una nova variable "per a totes les icones" anomenada ` habitació ` {: clas
 
 [[[generic-scratch3-add-variable]]]
 
-![captura de pantalla](images/world-room.png) \--- /task \---
+![screenshot](images/world-room.png)
 
-\--- task \--- Quan la icona `jugador ` toca la porta taronja a la primera habitació, el joc hauria de mostrar el següent decorat i la icona del `jugador ` hauria de tornar al costat esquerre de l'escenari. Afegeix aquest codi dins del bucle ` per sempre `{: class = "block3control"} de la icona `jugador `:
+\--- /task \---
 
-![jugador](images/player.png)
+\--- task \---
+
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+
+![player](images/player.png)
 
 ```blocks3
 quan has fet clic a la bandera
@@ -50,17 +54,29 @@ final
 
 \--- /task \---
 
-\--- task \--- Cada cop que comença el joc, cal restablir l'habitació, la posició del personatge i el teló de fons.
+\--- task \---
 
-Afegeix codi al **inici ** del codi de la teva icona de `jugador ` per sobre del bucle ` per sempre `{: class = "block3control"}, per restablir-ho tot quan es faci clic a la bandera:
+Every time the game starts, the room, character position, and backdrop need to be reset.
 
-\--- hints \--- \--- hint \--- Quan comença el joc:
+Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+
+\--- hints \---
+
+\--- hint \---
+
+When the game starts:
 
 + El valor de ` habitació ` {: class = "block3variables"} s'ha de definir a ` 1 ` {: class = "block3variables"}
 + El ` telo de fons ` {: class = "block3variables"} s'ha de definir a ` habitació 1 ` {: class = "block3variables"}
-+ La posició dela icona del ` personatge ` s'ha de definir a ` x: -200 y: 0 ` {: class = "block3motion"} \--- / hint \--- \--- hint \--- Aquests són els blocs addicionals que necessites:
++ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
-![jugador](images/player.png)
+\--- /hint \---
+
+\--- hint \---
+
+Here are the extra blocks you need:
+
+![player](images/player.png)
 
 ```blocks3
 ves a x: (-200) y: (0)
@@ -70,9 +86,13 @@ estableix [habitació v] a (1)
 canvia el teló de fons a (habitació1 v)
 ```
 
-\--- /hint \--- \--- hint \--- Això és el que hauria de tenir el teu codi:
+\--- /hint \---
 
-![jugador](images/player.png)
+\--- hint \---
+
+Here's what your finished script should look like:
+
+![player](images/player.png)
 
 ```blocks3
 quan has fet clic a la bandera
@@ -107,10 +127,16 @@ per sempre
 final
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- Fes clic a la bandera i, a continuació, mou la icona del teu `jugador ` fins que toqui la porta taronja. La icona passa a la pantalla següent? La `habitació ` {: class = "block3variables"} variable canvia a ` 2 `?
+\--- task \---
 
-![captura de pantalla](images/world-room-test.png) \--- /task \---
+Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+
+![screenshot](images/world-room-test.png)
+
+\--- /task \---
