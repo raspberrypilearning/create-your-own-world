@@ -6,11 +6,23 @@ Il tuo progetto contiene uno sprite `cartello di benvenuto`:
 
 ![screenshot](images/world-sign.png)
 
-\--- task \--- Il 0>cartello di benvenuto</code> dovrebbe vedersi solo nella stanza 1, quindi aggiungi del codice allo sprite per fare in modo che succeda ciò:
+\--- task \---
 
-\--- hints \--- \--- hint \--- `Quando si clicca sulla bandiera verde`{:class="block3events"}, controlla `per sempre`{:class="block3control"} `se`{:class="block3control"} la `stanza è 1`{:class="block3sensing"}, ed in quel caso mostra `cartello di benvenuto`{:class="block3control"}, `altrimenti`{:class="block3control"} `nascondi`{:class="block3looks"} lo sprite. \--- /hint \--- \--- hint \--- Qui ci sono i blocchi di codice che ti serviranno:
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-![cartello](images/sign.png)
+\--- hints \---
+
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![sign](images/sign.png)
 
 ```blocks3
 <br />se <> allora 
@@ -30,9 +42,13 @@ quando si clicca sulla bandiera verde
 
 ```
 
-\--- /hint \--- \--- hint \--- Ecco il codice completo:
+\--- /hint \---
 
-![cartello](images/sign.png)
+\--- hint \---
+
+Here is the complete code:
+
+![sign](images/sign.png)
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -45,17 +61,25 @@ per sempre
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
-\--- task \--- Metti alla prova il tuo sprite `cartello di benvenuto` muovendoti tra le stanze. Il tuo cartello dovrebbe essere visibile solo nella stanza 1.
+\--- task \---
 
-![schermata](images/world-sign-test.png) \--- /task \---
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-\--- task \--- Un cartello non è molto utile se non dice nulla! Aggiungi del codice per far visualizzare un messaggio se lo sprite `cartello di benvenuto` sta toccando lo sprite `giocatore`:
+![screenshot](images/world-sign-test.png)
 
-![cartello](images/sign.png)
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+
+![sign](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -75,6 +99,10 @@ end
 
 \--- /task \---
 
-\--- task \--- Prova di nuovo il tuo sprite `cartello di benvenuto`. Ora dovresti vedere un messaggio quando lo sprite ` player ` tocca il ` cartello di benvenuto`.
+\--- task \---
 
-![schermata](images/world-sign-test2.png) \--- /task \---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
