@@ -1,12 +1,18 @@
 ## 坚固的墙壁
 
-\---任务\--- 再次测试你的 `玩家` 精灵。 你看到它可以穿过浅灰色的墙壁。
+\--- task \---
 
-![截屏](images/world-walls.png) \--- /task \---
+Test your `player` sprite again. Do you see that it can walk through the light grey walls.
 
-\---任务\--- 要解决这个问题，你需要让 `玩家` 精灵移动，如果它接触到浅灰色的墙壁。 这里是您需要在方向块下面的 `永远`{：class =“block3control”}块中添加的代码：
+![screenshot](images/world-walls.png)
 
-![播放机](images/player.png)
+\--- /task \---
+
+\--- task \---
+
+To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+
+![player](images/player.png)
 
 ```blocks3
 当标志点击
@@ -37,6 +43,8 @@
 
 \--- task \---
 
-尝试让 `玩家` 精灵穿过墙壁。 如果您的新代码有效，则无法实现。
+Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
 
-![截屏](images/world-walls-test.png) \--- /task \---
+![screenshot](images/world-walls-test.png)
+
+\--- /task \---
