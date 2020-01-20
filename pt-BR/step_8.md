@@ -1,12 +1,12 @@
 ## People
 
-Add other people to your world who your `player` sprite can interact with.
+Adicione outras pessoas ao seu mundo com quem seu `player` sprite pode interagir.
 
-\--- task \--- Switch to the `person` sprite.
+\--- tarefa \--- Alterne para a `person` sprite.
 
 ![Person sprite](images/person.png) \--- /task \---
 
-\--- task \--- Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\--- tarefa \--- Adicione algum código ao sprite `person` para que a pessoa fale com o sprite `player`. Este código é muito parecido com o código que você adicionou ao seu `sign` sprite:
 
 ![person](images/person.png)
 
@@ -24,7 +24,7 @@ end
 
 \--- /task \---
 
-\--- task \--- Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- tarefa \--- Permita que seu `person` sprite se mova adicionando estes dois blocos no `else`{:class="block3control"} seção do seu código:
 
 ![person](images/person.png)
 
@@ -45,10 +45,10 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Seu `person` sprite agora vai se mover, mas vai parar para falar com o sprite `player`.
 
 ![screenshot](images/world-person-test.png)
 
-\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- task \--- Add code to your new `person` sprite so that the sprite only appears in room 1. O código que você precisa é exatamente o mesmo que o código que torna o `sign` sprite visível apenas na sala 1.
 
-Make sure you test out your new code. \--- /task \---
+Certifique-se de testar seu novo código. \--- /task \---
