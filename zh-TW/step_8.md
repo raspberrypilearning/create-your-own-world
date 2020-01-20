@@ -2,11 +2,17 @@
 
 將您的 `玩家` 精靈可以與之互動的其他人添加到您的世界。
 
-\---任務\--- 切換到 `人` 精靈。
+\--- task \---
 
-![人精靈](images/person.png) \--- /任務\---
+Switch to the `person` sprite.
 
-\---任務\--- 為 `人` 精靈添加一些代碼，以便該人與 `人` 精靈對話。 此代碼與您添加到 `符號` 精靈的代碼非常相似：
+![Person sprite](images/person.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
 ![人](images/person.png)
 
@@ -24,9 +30,11 @@
 
 \--- /任務\---
 
-\--- task \--- 通過在代碼的 `else`{：class =“block3control”}部分添加這兩個塊，允許你的 `個人` 精靈移動：
+\--- task \---
 
-![人](images/person.png)
+Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+
+![person](images/person.png)
 
 ```blocks3
 當標誌點擊
@@ -40,15 +48,18 @@
 +如果在邊緣，反彈
     結束
 結束
-
 ```
 
-\--- /任務\---
+\--- /task \---
 
-你的 `人` 精靈現在會移動，但會停止與 `玩家` 精靈交談。
+Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![截圖](images/world-person-test.png)
+![screenshot](images/world-person-test.png)
 
-\--- task \--- 將代碼添加到新的 `人` 精靈中，以便精靈只出現在房間1中。 您需要的代碼與使 `符號` 精靈僅在房間1中可見的代碼完全相同。
+\--- task \---
 
-確保測試新代碼。 \--- /任務\---
+Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+
+Make sure you test out your new code.
+
+\--- /task \---
