@@ -94,9 +94,13 @@ point in direction ()
 
 Copiază codul care face `personajul` să se deplasează în sus și schimbă aceste două căsuțe pentru a-l face să se miște în jos. Copiază din nou codul și modifică-l pentru a face personajul să se deplaseze spre dreapta.
 
-\--- /hint \--- \--- hint \--- Așa ar trebui să arate codul:
+\--- /hint \---
 
-![personaj](images/player.png)
+\--- hint \---
+
+Here is how your code should look:
+
+![player](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -121,6 +125,8 @@ forever
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
