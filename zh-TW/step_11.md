@@ -2,25 +2,45 @@
 
 Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
-\--- task \--- 切換到 `鍵` 精靈。 在Scripts菜單中單擊 `show`{：class =“blocklooks”}，以便精靈出現在舞台上。 \--- /任務\---
+\--- task \---
 
-\---任務\--- 編輯 `鍵` 精靈的服裝，使其為藍色。 \--- /任務\---
+Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
 
-\---任務\--- 將舞台背景切換到3號房間，並將 `鍵` 精靈放置在難以觸及的地方！
+\--- /task \---
 
-![截圖](images/world-key.png)
+\--- task \---
+
+Edit the `key` sprite's costume so that it is blue.
+
+\--- /task \---
+
+\--- task \---
+
+Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+
+![screenshot](images/world-key.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `key` sprite to make it only visible in room 3.
 
 \--- /任務\---
 
-\--- task \--- 將代碼添加到 `鍵` 精靈中，使其僅在3號房間可見。 \--- /任務\---
+\--- task \---
 
-\--- task \--- 創建一個名為 `inventory`{：class =“block3variables”}的新列表來存儲你的 `玩家` 精靈收集的物品。
+Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
 
-[[[generic-scratch3-make-list]]] \--- /任務\---
+[[[generic-scratch3-make-list]]]
 
-\--- task \--- 你需要添加的用於收集密鑰的代碼與收集硬幣的代碼非常相似。 不同之處在於您將密鑰添加到 `清單`{：class =“block3variables”}。
+\--- /task \---
 
-![鍵](images/key.png)
+\--- task \---
+
+The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+
+![key](images/key.png)
 
 ```blocks3
 當標記點擊
@@ -30,27 +50,43 @@ Now you are going to add code so that some of the doors in your game world are l
 停止[其他腳本在精靈v]
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\--- task \--- 在遊戲開始時向舞台添加代碼以清空庫存。
+\--- task \---
+
+Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
 刪除[所有v]的[庫存v]
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\--- 測試你的遊戲，檢查你是否可以收集 `鍵` 精靈並將其添加到你的庫存。 \--- /任務\---
+\--- task \---
 
-\---任務\--- 現在添加鎖著的門。 選擇 `door-blue` sprite並在Scripts菜單中單擊 `show`{：class =“blocklooks}，然後將精靈定位在兩個牆之間的間隙上。
+Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
 
-![截圖](images/world-door.png) \--- /任務\---
+\--- /task \---
 
-\--- task \--- 將代碼添加到 `門 - 藍` 精靈中，使其僅在3號房間可見。 \--- /任務\---
+\--- task \---
 
-\--- task \--- 將代碼添加到 `門藍` 精靈中，這樣，當密鑰在 `庫存`{：class =“block3variables”}中時，精靈 `隱藏`{：class =“block3looks “}允許你的 `玩家` 精靈通過。
+Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![門](images/door.png)
+![screenshot](images/world-door.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `door-blue` sprite so that it is only visible in room 3.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+
+![door](images/door.png)
 
 ```blocks3
 當標誌點擊
@@ -59,6 +95,10 @@ Now you are going to add code so that some of the doors in your game world are l
 隱藏
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\--- 測試你的遊戲，看看你是否可以收集藍鍵來打開門！ \--- /任務\---
+\--- task \---
+
+Test out your game and see if you can collect the blue key to open the door!
+
+\--- /task \---
