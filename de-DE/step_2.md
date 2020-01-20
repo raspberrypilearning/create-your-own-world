@@ -92,7 +92,11 @@ setze Richtung auf () Grad
 
 Dupliziere den Code, der die `Spieler`-Figur nach oben bewegt und ändere diese beiden Blöcke, damit sich die Figur nach unten bewegt. Dupliziere den Code erneut und ändere ihn, damit sich die Figur nach rechts bewegt.
 
-\--- /hint \--- \--- hint \--- Dein Code sollte so aussehen:
+\--- /hint \---
+
+\--- hint \---
+
+Here is how your code should look:
 
 ![player](images/player.png)
 
@@ -114,6 +118,8 @@ wiederhole fortlaufend
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
