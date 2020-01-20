@@ -1,7 +1,7 @@
-## Challenge: treasure!
+## Repte: tresor!
 
-Can you add some treasure for the player to find?
+Pots afegir algun tresor per a què el jugador el trobi?
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+Fes que la icona del ` cofre del tresor ` aparegui només a l'habitació 3 i digues que aquesta icona digui "Ben fet!" quan la del `jugador ` la toqui.
 
-![screenshot](images/world-treasure.png)
+![captura de pantalla](images/world-treasure.png)
