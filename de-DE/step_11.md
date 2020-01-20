@@ -2,23 +2,43 @@
 
 Jetzt wirst du Code hinzufügen, damit einige Türen in deiner Spielwelt gesperrt sind, und der Spieler den Schlüssel findenmuss, um sie zu öffnen und zum nächsten Raum zu gelangen.
 
-\--- task \--- Wechsel zur `Schlüssel`-Figur. Klicke auf `zeige dich`{:class="block3looks"}, damit das Objekt auf der Bühne erscheint. \--- /task \---
+\--- task \---
 
-\--- task \--- Bearbeite das Kostüm des `Schlüssels` so, dass es blau ist. \--- /task \---
-
-\--- task \--- Wechsle nun zum Bühnenbil in Raum 3 und platziere die `Schlüssel`-Figur an einer schwer erreichbaren Stelle!
-
-![Screenshot](images/world-key.png)
+Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
 
 \--- /task \---
 
-\--- task \--- Füge Code zu deiner `Schlüssel`-Figur hinzu, sodass sie nur in Raum 3 erscheint. \--- /task \---
+\--- task \---
 
-\--- task \--- Erstelle eine neue Liste namens `Inventar`{:class="block3variables"}, um die Gegenstände zu speichern, die deine `Spieler`-Figur sammelt.
+Edit the `key` sprite's costume so that it is blue.
 
-[[[generic-scratch3-make-list]]] \--- /task \---
+\--- /task \---
 
-\--- task \--- Der Code zum Einsammeln des Schlüssels ist dem Code zum Einsammeln von Münzen sehr ähnlich. Der Unterschied ist, dass du den Schlüssel zum `Inventar`{:class="block3variables"}} hinzufügst.
+\--- task \---
+
+Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+
+![screenshot](images/world-key.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `key` sprite to make it only visible in room 3.
+
+\--- /task \---
+
+\--- task \---
+
+Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+
+[[[generic-scratch3-make-list]]]
+
+\--- /task \---
+
+\--- task \---
+
+The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
 
 ![key](images/key.png)
 
@@ -32,7 +52,9 @@ stoppe [andere Skripte der Figur v]
 
 \--- /task \---
 
-\--- task \--- Füge Code zu deiner Bühne hinzu, um das Inventar bei Spielbeginn zu leeren.
+\--- task \---
+
+Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
 lösche (alles v) aus [Inventar v]
@@ -40,17 +62,31 @@ lösche (alles v) aus [Inventar v]
 
 \--- /task \---
 
-\--- task \--- Teste dein Spiel, um zu überprüfen, ob du den `Schlüssel` sammeln und in dein Inventar einfügen kannst. \--- /task \---
+\--- task \---
 
-\--- task \--- Nun füge die verschlossene Tür hinzu. Wähle die `Tür-blau`-Figur aus und klicke auf `zeige dich` {:class="block3looks}. Und platziere die Figur dann über die Lücke zwischen den beiden Wänden.
+Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
 
-![Screenshot](images/world-door.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- Füge Code zur `Tür-blau`-Figur hinzu, sodass sie nur in Raum 3 erscheint. \--- /task \---
+\--- task \---
 
-\--- task \--- Füge Code zur `Tür-blau`-Figur hinzu damit sich die Figur `versteckt`{:class="block3looks"}, wenn der Schlüssel im `Inventar`{:class = "block3variables"} ist, sodass deine `Spieler`-Figur durchgehen kann.
+Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![Tür](images/door.png)
+![screenshot](images/world-door.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `door-blue` sprite so that it is only visible in room 3.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+
+![door](images/door.png)
 
 ```blocks3
 Wenn die grüne Flagge angeklickt
@@ -61,4 +97,8 @@ verstecke dich
 
 \--- /task \---
 
-\--- task \--- Teste dein Spiel und überprüfe, ob du den blauen Schlüssel einsammeln kannst um die Tür zu öffnen! \--- /task \---
+\--- task \---
+
+Test out your game and see if you can collect the blue key to open the door!
+
+\--- /task \---
