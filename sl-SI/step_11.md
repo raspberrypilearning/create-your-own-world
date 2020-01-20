@@ -2,25 +2,45 @@
 
 Zdaj boš dodal-a kodo, ki bo poskrbela, da bodo nekatera vrata tvojega sveta zaklenjena, igralec pa mora najti ključ, da jih odpre, da bi lahko prišel v naslednjo sobo.
 
-\--- task \--- Preklopi na figuro `ključ`. Klikni na oko zraven napisa `Pokaži` {:class="blocklooks"} v meniju figur, tako da se figura prikaže na odru. \--- /task \---
+\--- task \---
 
-\--- task \--- Uredi figuro `ključ`, da bo modre barve. \--- /task \---
-
-\--- task \--- Zamenjaj ozadje na sobo 3, in postavi figuro `ključ` nekam, kjer jo je težko doseči!
-
-![posnetek zaslona](images/world-key.png)
+Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
 
 \--- /task \---
 
-\--- task \--- Figuri `ključ` dodaj kodo, da bo vidna le v sobi 3. \--- /task \---
+\--- task \---
 
-\--- task \--- Ustvari nov seznam imenovan `imetje`{:class="block3variables"}, v katerega se bodo shranili predmeti, ki jih figura `igralec` pobere.
+Edit the `key` sprite's costume so that it is blue.
 
-[[[generic-scratch3-make-list]]] \--- /task \---
+\--- /task \---
 
-\--- task \--- Za to potrebna koda je zelo podobna kodi, ki skrbi za pobiranje kovancev. Razlika je v tem, da ključe dodajaš v `imetje`{:class="block3variables"}.
+\--- task \---
 
-![ključ](images/key.png)
+Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+
+![screenshot](images/world-key.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `key` sprite to make it only visible in room 3.
+
+\--- /task \---
+
+\--- task \---
+
+Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+
+[[[generic-scratch3-make-list]]]
+
+\--- /task \---
+
+\--- task \---
+
+The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+
+![key](images/key.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -32,7 +52,9 @@ ustavi [ostale ukaze za to figuro v]
 
 \--- /task \---
 
-\--- task \--- Odru dodaj kodo, ki bo izpraznila imetje na začetku igre.
+\--- task \---
+
+Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
 zbriši (all v) [imetje v]
@@ -40,17 +62,31 @@ zbriši (all v) [imetje v]
 
 \--- /task \---
 
-\--- task \--- Preizkusi svoj program, da preveriš ali lahko pobereš figuro `ključ` in jo dodaš v svoje imetje. \--- /task \---
+\--- task \---
 
-\--- task \--- Zdaj dodaj zaklenjena vrata. Izberi figuro `vrata-modra` in klikni na oko zraven napisa`Pokaži`{:class="blocklooks} v menuju figure, potem pa postavi figuro v prehod med dvema stenama.
+Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
 
-![posnetek zaslona](images/world-door.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- Dodaj kodo v figuro `vrata-modra`, tako da bo vidna le v tretji sobi. \--- /task \---
+\--- task \---
 
-\--- task \--- Dodaj kodo v `vrata-modra`, da sebo, ko se ključ nahaja v `imetju`{:class="block3variables"}, figura `skrila`{:class="block3looks"} in oogočila figuri `igralec` prehod.
+Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![vrata](images/door.png)
+![screenshot](images/world-door.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `door-blue` sprite so that it is only visible in room 3.
+
+\--- /task \---
+
+\--- task \---
+
+Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+
+![door](images/door.png)
 
 ```blocks3
 ko kliknemo na zastavo
@@ -61,4 +97,8 @@ skrij
 
 \--- /task \---
 
-\--- task \--- Preizkusi svojo igro, da vidiš, ali lahko pobereš modri ključ in odpreš vrata! \--- /task \---
+\--- task \---
+
+Test out your game and see if you can collect the blue key to open the door!
+
+\--- /task \---
