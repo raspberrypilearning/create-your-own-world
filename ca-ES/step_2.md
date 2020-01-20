@@ -1,124 +1,123 @@
-## Move the player sprite
+## Mou la icona del jugador
 
-Start by creating a `player` sprite that can move around your world.
+Comença per crear una icona ` jugador ` que pot moure's pel teu món.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Obre el projecte d'arrencada de Scratch "Crea el teu propi món".
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+** en línia: ** obre el projecte d'inici a [ rpf.io/create-your-own-world-on ](http://rpf.io/create-your-own-world-on) {: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+** Fora de línia: ** descarrega el projecte d'inici de [ rpf.io/p/en/create-your-own-world-go ](http://rpf.io/p/en/create-your-own-world-go) {: target = "_ blank"} i, a continuació, obre'l utilitzant l'editor fora de línia. Si necessites descarregar i instal·lar l'editor fora de línia d'Scratch, el pots trobar a [ rpf.io/scratchoff ](https://rpf.io/scratchoff).\--- /task"}.
 
-![screenshot](images/world-starter.png)
+![captura de pantalla](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Prement les tecles de fletxa mouràs la icona ` jugador `tot al voltant. En prémer la fletxa cap amunt, la icona ` jugador ` respondrà movent-se cap amunt a l'escenari.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Afegeix aquest codi a la icona `jugador `:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-end
+quan has fet clic a la bandera
+per sempre
+    si has apretat <tecles (fletxa amunt v)? > llavors
+        punt de direcció (0)
+        moure (4) passes
+    fi
+final
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Fes clic a la bandera i, a continuació, manté premuda la fletxa amunt. La icona `jugador ` es mou cap amunt?
 
-![screenshot](images/world-up.png)
+![captura de pantalla](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Per moure la icona `jugador ` a l'esquerra, has d'afegir un altre ` si ` {: class = "block3control"} bloc amb un codi similar:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-end
+quan has fet clic a la bandera
+per sempre
+    si has apretat <tecles (fletxa amunt v)? > llavors
+        punt de direcció (0)
+        moure (4) passes
+    final
++ si has apretat <tecles (fletxa esquerra v)? > llavors
+        punt de direcció (-90)
+        moure (4) passes
+    fi
+final
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Afegeix més codi a la teva icona `jugador ` perquè també es pugui moure cap a baix i cap a la dreta. Utilitza el codi que ja tens per ajudar-te.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Per pujar cap amunt, apunta la icona ` jugador ` en la direcció ` 0 ` graus. Què ha de fer per fer baixar la icona?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Per moure'l cap a l'esquerra, apunta la icona jugador en la direcció ` -90 ` graus. Què has de fer per moure la icona cap a la dreta?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Has de canviar aquests dos blocs:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
 
-point in direction ()
+apunta en direcció ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Duplica el codi que fa que la icona ` jugador ` es desplaçi cap amunt i canvia aquests dos blocs per fer què la icona es mogui cap avall. Duplica el codi de nou i canvia'l per tal què la icona es desplaci cap a la dreta.
 
-\--- /hint \--- \--- hint \--- Here is how your code should look:
+\--- /hint \--- \--- hint \--- Això és el que hauria de tenir el teu codi:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-end
+quan has fet clic a la bandera
+per sempre
+    si has apretat <tecles (fletxa amunt v)? > llavors
+        punt de direcció (0)
+        moure (4) passes
+    final
+  si has apretat <tecles (fletxa esquerra v)? > llavors
+        punt de direcció (-90)
+        moure (4) passes
+    final
+  si has apretat <tecles (fletxa avall v)? > llavors
+        punt de direcció (180)
+        moure (4) passes
+    final
+  si has apretat <tecles [fletxa dreta v]? > llavors
+        punt de direcció (90)
+        moure (4) passes
+    fi
+final
 ```
 
 \--- /hint \--- \--- /hints \---
