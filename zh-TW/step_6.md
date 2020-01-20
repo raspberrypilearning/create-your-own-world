@@ -6,11 +6,23 @@
 
 ![截圖](images/world-sign.png)
 
-\--- task \--- `歡迎標誌` 精靈應該只在房間1中可見，所以在sprite中添加一些代碼以確保發生這種情況：
+\--- task \---
 
-\---提示\--- \---提示\--- `當點擊標誌`{：class =“block3events”}時，在 `永遠的`{：class =“block3control”}循環中，檢查 `是否為`{：class =“block3control”} `房間是1`{：class =“block3variables”}，在這種情況下 `顯示`{：class =“block3looks”} `歡迎標誌` 精靈， `其他`{：class = “block3control”} `隱藏`{：class =“block3looks”}精靈。 \--- /提示\--- \---提示\--- 以下是您需要的塊：
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-![標誌](images/sign.png)
+\--- hints \---
+
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![sign](images/sign.png)
 
 ```blocks3
 <br />if < > then
@@ -30,9 +42,13 @@ when flag clicked
 
 ```
 
-\--- /提示\--- \---提示\--- 這是完整的代碼：
+\--- /hint \---
 
-![標誌](images/sign.png)
+\--- hint \---
+
+Here is the complete code:
+
+![sign](images/sign.png)
 
 ```blocks3
 當標誌點擊
@@ -45,17 +61,25 @@ when flag clicked
 結束
 ```
 
-\--- /提示\--- \--- /暗示\---
+\--- /hint \---
 
-\--- /任務\---
+\--- /hints \---
 
-\--- task \--- 通過在房間之間移動來測試 `歡迎標誌` 精靈的代碼。 標誌應僅在房間1中可見。
+\--- /task \---
 
-![截圖](images/world-sign-test.png) \--- /任務\---
+\--- task \---
 
-\---任務\--- 如果沒有說什麼，那麼標誌就不是很好！ 如果 `歡迎標誌` 精靈正在觸及 `玩家` 精靈，請添加一些代碼來顯示消息：
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-![標誌](images/sign.png)
+![screenshot](images/world-sign-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+
+![sign](images/sign.png)
 
 ```blocks3
 當標誌點擊
@@ -73,8 +97,12 @@ when flag clicked
 結束
 ```
 
-\--- /任務\---
+\--- /task \---
 
-\---任務\--- 再次測試你的 `歡迎標誌` 精靈。 現在，當 `玩家` 精靈觸及 `歡迎標誌` 精靈時，您應該會看到一條消息。
+\--- task \---
 
-![截圖](images/world-sign-test2.png) \--- /任務\---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
