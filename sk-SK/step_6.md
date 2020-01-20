@@ -6,11 +6,23 @@ Váš projekt obsahuje `vítaný znak` sprite:
 
 ![snímka obrazovky](images/world-sign.png)
 
-\--- úloha \--- `vítaný znak` sprite by mal byť viditeľný len v miestnosti 1, takže pridajte nejaký kód do sprite, aby ste sa uistili, že k tomu dôjde:
+\--- task \---
 
-\--- pokyny \--- \--- tip \--- `Keď sa na vlajku klikne`{: class = "block3events"}, v smere `navždy`{: class = "block3control"}, začiarknite `ak`{: class = "block3control"} na `izbe je 1`{: class = "block3variables"} a v tomto prípade `ukazujú,`{: class = "block3looks"} `uvítací tabule` vodník, `ešte`{: class = "block3control"} `skryť`{: class = "block3looks"} Sprite. \--- / hint \--- \--- hint \--- Tu sú bloky, ktoré potrebujete:
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
-![znamenie](images/sign.png)
+\--- hints \---
+
+\--- hint \---
+
+`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the blocks you need:
+
+![sign](images/sign.png)
 
 ```blocks3
 <br />ak < > potom
@@ -30,9 +42,13 @@ keď klepol vlajku
 
 ```
 
-\--- / hint \--- \--- hint \--- Tu je kompletný kód:
+\--- /hint \---
 
-![znamenie](images/sign.png)
+\--- hint \---
+
+Here is the complete code:
+
+![sign](images/sign.png)
 
 ```blocks3
 keď vlajka klikne
@@ -45,17 +61,25 @@ navždy
 koniec
 ```
 
-\--- / tip \--- \--- / tipy \---
+\--- /hint \---
 
-\--- / úloha \---
+\--- /hints \---
 
-\--- task \--- Vyskúšajte kód pre svoj `vítaný znak` sprite pohybom medzi miestnosťami. Značka by mala byť viditeľná iba v miestnosti 1.
+\--- /task \---
 
-![snímka obrazovky](images/world-sign-test.png) \--- / úloha \---
+\--- task \---
 
-\--- task \--- Znak nie je moc dobrý, ak nehovorí nič! Pridajte trochu viac kódu pre zobrazenie správy v prípade, že `vítanou známkou` sprite sa dotýka `hráča` sprite:
+Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-![znamenie](images/sign.png)
+![screenshot](images/world-sign-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+
+![sign](images/sign.png)
 
 ```blocks3
 keď sa klavírka na
@@ -73,8 +97,12 @@ koniec
 koniec
 ```
 
-\--- / úloha \---
+\--- /task \---
 
-\--- úloha \--- Vyskúšajte svoje `vítané znamenie` Sprite znovu. Teraz by ste mali vidieť správu, keď sa prehrávač `prehrávača` dotýka `vítaných znamienok` sprite.
+\--- task \---
 
-![snímka obrazovky](images/world-sign-test2.png) \--- / úloha \---
+Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+
+![screenshot](images/world-sign-test2.png)
+
+\--- /task \---
