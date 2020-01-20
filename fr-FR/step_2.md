@@ -94,9 +94,13 @@ s'orienter dans la direction ()
 
 Duplique le code qui fait que le sprite `joueur` progresse vers le haut et modifie ces deux blocs pour faire descendre le sprite. Duplique à nouveau le code et modifie-le pour que le sprite se déplace vers la droite.
 
-\---/hint\--- \---hint\--- Voici a quoi devrait ressembler ton code :
+\--- /hint \---
 
-![joueur](images/player.png)
+\--- hint \---
+
+Here is how your code should look:
+
+![player](images/player.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -121,6 +125,8 @@ répéter indéfiniment
 end
 ```
 
-\--- /hint \--- \--- /hints \---
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
