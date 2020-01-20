@@ -2,13 +2,25 @@
 
 Твой спрайт `игрок` должен иметь возможность собирать монеты, когда он путешествует по миру.
 
-\--- task \--- Добавь новую переменную `монеты`{:class="block3variables"} в свой проект. \--- /task \---
+\--- task \---
 
-\--- task \--- Выбери спрайт `монета` и нажми **показать**.
+Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-![screenshot](images/coin.png) \--- /task \---
+\--- /task \---
 
-\--- task \--- Добавь код к своему новому спрайту `монета` так, чтобы спрайт появлялся только в комнате 1. ![screenshot](images/coin.png)
+\--- task \---
+
+Select the `coin` sprite and click **show**.
+
+![screenshot](images/coin.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add code to your `coin` sprite so that it only appears in room 1.
+
+![screenshot](images/coin.png)
 
 ```blocks3
 когда щёлкнут по зелёному флагу
@@ -25,7 +37,7 @@ end
 
 \--- task \---
 
-Добавь код к спрайту `монета` так, чтобы спрайт `прятался`{:class="block3looks"} и переменная `монеты`{:class="block3variables"}увеличивалась на `1`{:class="block3variables"} как только спрайт `игрок` коснётся спрайта `монета`, чтобы «собрать её».
+Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
 
 ![coin](images/coin.png)
 
@@ -37,11 +49,13 @@ end
 стоп [другие скрипты спрайта v]
 ```
 
-Код `останавливает другие скрипты в спрайте`{:class="block3control"}необходим для того, чтобы спрайт `монета` перестала отображаться в комнате 1 после её сбора.
+The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
 
 \--- /task \---
 
-\--- task \--- Теперь добавь код в Сцену, чтобы установить значение переменной `монеты`{:class="block3variables"} равное `0`{:class="block3variables"} в начале игры.
+\--- task \---
+
+Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
 
 ![stage](images/stage.png)
 
@@ -52,4 +66,8 @@ end
 
 \--- /task \---
 
-\--- task \--- Проверь свою игру. Сбор монеты должен изменить значение `монеты` на `1`{:class="block3variables"}. \--- /task \---
+\--- task \---
+
+Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+
+\--- /task \---
