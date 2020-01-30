@@ -14,9 +14,16 @@ Essaye de créer un autre jeu en travaillant sur le projet [CATS!](https://proje
 
 Si tu veux créer un jeu en utilisant Python au lieu de Scratch, essaye le projet [RPG](https://projects.raspberrypi.org/fr-FR/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
+***
 
-**Traduction de la communauté**
+Ce projet a été traduit par des bénévoles:
 
-Ce projet a été traduit par **Sarah Jane Hubbard**/**Jonathan Vannieuwkerke** et vérifié par **Lynn Bousleiman**/**Simon Gleises**.
+Sarah Jane Hubbard
 
-Nos incroyables bénévoles de traduction nous aident à donner aux enfants du monde entier la chance d'apprendre à coder. Vous pouvez nous aider à atteindre plus d'enfants en traduisant nos projets - en savoir plus sur [rpf.io/translators](https://rpf.io/translators).
+Jonathan Vannieuwkerke
+
+Lynn Bousleiman
+
+Simon Gleises
+
+Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).
