@@ -2,7 +2,7 @@
 
 Now add signs to your world to guide players on their journey.
 
-Ваш проект включає `welcome sign`:
+Your project includes a `welcome sign` sprite:
 
 ![знімок екрану](images/world-sign.png)
 
