@@ -1,39 +1,39 @@
 ---
-hero_image: images/create-your-own-world.png
-title: Crie seu próprio mundo
-description: Neste projeto, você aprenderá como criar o seu próprio jogo de aventura em mundo aberto.
+hero_image: images/banner.png
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Introdução
+    title: Introduction
   - 
-    title: Mover o sprite do jogador
+    title: Move the player sprite
   - 
-    title: Paredes sólidas
+    title: Solid walls
   - 
-    title: Mova-se ao redor do seu mundo
+    title: Move around your world
   - 
-    title: "Desafio: voltar à sala anterior"
+    title: "Challenge: move back to the previous room"
     challenge: true
   - 
-    title: Sinais
+    title: Signs
   - 
-    title: "Desafio: tesouro!"
+    title: "Challenge: treasure!"
     challenge: true
   - 
-    title: Pessoas
+    title: People
   - 
-    title: "Desafio: inimigos"
+    title: "Challenge: enemies"
     challenge: true
   - 
-    title: Recolha moedas
+    title: Collect coins
   - 
-    title: Portas e chaves
+    title: Doors and keys
   - 
-    title: "Desafio: estenda seu mundo"
+    title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "E agora?"
+    title: "What next?"
