@@ -1,29 +1,28 @@
-## Задача: расширь свой мир
+## Challenge: extend your world
 
-Теперь ты можете продолжать создавать свой собственный мир! Вот несколько идей:
+You can now continue creating your own world! Here are some ideas:
 
-+ Добавьте больше монет к своей игре разместив их в разных комнатах. Сможешь ли ты добавить врагов, которые бы патрулировали вокруг монет?
-+ Измени фоны своей игры
-+ Добавь звук и музыку в свою игру
-+ Добавь больше людей, врагов и табличек
-+ Добавь красные и желтые двери и специальные ключи, чтобы их открыть
-+ Добавь дополнительные комнаты в свой мир
-+ Добавь в игру другие полезные предметы
++ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
++ Change your game's backdrops
++ Add sound and music to your game
++ Add more people, enemies, and signs
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
     
-    + Используй монеты для получения информации от других людей:
+    + Use coins to get information from other people:
 
 ![screenshot](images/world-bribe.png)
 
-+ Ты мог бы добавить двери в северной и южной стенах комнаты 1, чтобы игрок мог перемещаться между комнатами во всех четырех направлениях. Например, твоя игра может иметь девять комнат в виде сетки 3×3. После этого ты можешь добавить `3` к номеру комнаты, чтобы перейти вниз на один уровень.
++ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
 ![screenshot](images/north-south-rooms.png)
 
 ![screenshot](images/number-grid.png)
 
 ```blocks3
-если <касается цвета [ ] ?> , то 
-  переключить фон на ((костюм [номер v]) + (3))
-  перейти в x: (0) y: (200)
-  изменить [комната v] на (3)
-end
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [room v] by (3)
 ```
