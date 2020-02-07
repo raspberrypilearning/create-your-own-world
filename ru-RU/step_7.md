@@ -1,7 +1,7 @@
-## Задача: сокровище!
+## Challenge: treasure!
 
-Можешь ли ты добавить сокровища, чтобы игрок мог их собирать?
+Can you add some treasure for the player to find?
 
-Сделай спрайт `сундук с сокровищами`, который должен только появляться в комнате 3. Пусть этот спрайт говорит: «Молодец!» когда спрайт `игрок` его коснётся.
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
 ![screenshot](images/world-treasure.png)
