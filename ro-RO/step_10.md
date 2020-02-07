@@ -1,6 +1,6 @@
-## Adună monede
+## Collect coins
 
-`Personajul` tău ar fi trebui să poată aduna monezi pe măsură ce se deplasează prin lume.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
