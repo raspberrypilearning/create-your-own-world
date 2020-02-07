@@ -1,39 +1,39 @@
-## Výzva: pridajte nepriateľa
+## Challenge: add an enemy
 
-Ak chcete, môžete do svojej hry pridať hliadkovanie nepriateľov. Ak sa hráč `hráča` dotkne nepriateľa, hra končí.
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Vaša hra už obsahuje `nepriateľa` sprite. Pridajte kód na `nepriateľa` sprite tak, aby sa objavil iba v miestnosti 2.
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ Pridajte kód pre presunutie `nepriateľa` sprite a pre ukončenie hry, ak sa `nepriateľské` sprite dotýka `hráčov` sprite. Je to jednoduchšie v samostatných kódových blokoch. Tu je návod, ako môže vyzerať váš `nepriateľský kód`:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
 
 ```blocks3
-keď vlajka klikne
-navždy
-ak <(miestnosť :: premenné) =[2]> potom
-ukáže
-iný
-skryť
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-keď vlajka klikne
-navždy
-ak <touching (player v)?> potom
-zastaví [všetko v]
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-keď príznakom klikni
-prejdite na x: ( 170) y: (0)
-navždy
-opakovanie (130)
-zmena x od (-1)
-koniec
-opakovanie (130)
-zmena x podľa (1)
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
 ```
 
-+ Vyskúšajte nový kód, aby ste sa uistili, že: 
-    + `nepriateľ` sprite viditeľné len v izbe 2
-    + `nepriateľ` sprite hliadky v miestnosti
-    + Hra končí, ak je `hráč` sprite dotkne `nepriateľ` sprite
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-Môžete vytvoriť ďalšie `nepriateľa` sprite v miestnosti 3, ktorá hliadku hore a dole cez medzeru v stene?
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
-![snímka obrazovky](images/world-enemy2.png)
+![screenshot](images/world-enemy2.png)
