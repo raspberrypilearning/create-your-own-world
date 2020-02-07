@@ -1,6 +1,6 @@
-## 接下来还有什么？
+## What next?
 
-通过 [CATS开始创建另一个游戏！](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) 项目。
+Have a go at creating another game by working through the [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
 \--- no-print \---
 
