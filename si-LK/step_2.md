@@ -8,11 +8,11 @@ Open the 'Create your own world' Scratch starter project.
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-ඔබට Scratch ගිණුමක්(account එකක්) තිබේ නම් **රීමික්ස්(Remix)** ක්ලික් කිරීමෙන් පිටපතක් සාදාගත හැකිය.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. ඔබට Scratch නොබැඳි සංස්කාරකය(offline editor එක) බාගත(download) කර ස්ථාපනය(install) කිරීමට අවශ්‍ය නම්, ඔබට එය [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} වෙතින් ලබාගත හැකිය.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![තිර රුව(screenshot)](images/world-starter.png)
+![screenshot](images/world-starter.png)
 
 \--- /task \---
 
@@ -40,7 +40,7 @@ end
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![තිර රුව(screenshot)](images/world-up.png)
+![screenshot](images/world-up.png)
 
 \--- /task \---
 
@@ -72,7 +72,7 @@ Add more code to your `player` sprite so it can move down and to the right as we
 
 \--- hints \---
 
-\--- hints \---
+\--- hint \---
 
 To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
 
@@ -80,7 +80,7 @@ To move left, you point the sprite in the direction `-90` degrees. What do you h
 
 \--- /hint \---
 
-\--- hints \---
+\--- hint \---
 
 You need to change these two blocks:
 
@@ -118,7 +118,7 @@ forever
         point in direction (180)
         move (4) steps
     end
-+    if <key [right arrow v] pressed? > then
++    if <key (right arrow v) pressed? > then
         point in direction (90)
         move (4) steps
     end
