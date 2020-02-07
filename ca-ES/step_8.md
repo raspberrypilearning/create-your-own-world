@@ -1,6 +1,6 @@
-## Gent
+## People
 
-Afegeix altres persones al teu món amb les que el teu ` jugador ` pugui interactuar.
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
@@ -14,18 +14,18 @@ Switch to the `person` sprite.
 
 Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-![persona](images/person.png)
+![person](images/person.png)
 
 ```blocks3
-quan has fet clic a la bandera
-ves a x: (0) y: (-150)
-per sempre
-    si tocant < (jugador v)? > llavors
-        digues [Sabies que pots passar per les portes taronjes i grogues?]
-    si no
-        dir []
-    final
-final
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
+end
 ```
 
 \--- /task \---
@@ -37,17 +37,17 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 ![person](images/person.png)
 
 ```blocks3
-quan has fet clic a la bandera
-ves a x: (0) y: (-150)
-per sempre
-    si tocant < (jugador v)? > llavors
-        digues [Sabies que pots passar per les portes taronjes i grogues?]
-    si no
-        dir []
-+       mou (1) passes
-+       si estàs al límit, salta
-    final
-final
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
 ```
 
 \--- /task \---
