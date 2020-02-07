@@ -1,28 +1,28 @@
-## 挑戰：拓展你的世界
+## Challenge: extend your world
 
-您現在可以繼續創建自己的世界！ 以下是一些想法：
+You can now continue creating your own world! Here are some ideas:
 
-+ 在不同的房間為您的遊戲添加更多硬幣。 你可以讓一些硬幣被巡邏的敵人守衛嗎？
-+ 改變遊戲的背景
-+ 為您的遊戲添加聲音和音樂
-+ 添加更多人，敵人和標誌
-+ 添加紅色和黃色門，以及打開它們的特殊鍵
-+ 為您的世界添加更多房間
-+ 在遊戲中添加其他有用的項目
++ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
++ Change your game's backdrops
++ Add sound and music to your game
++ Add more people, enemies, and signs
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
     
-    + 使用硬幣從其他人那裡獲取信息：
+    + Use coins to get information from other people:
 
-![截圖](images/world-bribe.png)
+![screenshot](images/world-bribe.png)
 
-+ 您甚至可以在房間1的北牆和南牆上添加門，這樣玩家就可以在四個方向的房間之間移動。 例如，您的遊戲可以在3×3網格中擁有9個房間。 然後，您可以將 `3` 添加到房間號碼以向下移動一個級別。
++ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
-![截圖](images/north-south-rooms.png)
+![screenshot](images/north-south-rooms.png)
 
 ![screenshot](images/number-grid.png)
 
 ```blocks3
-如果 <touching color [ ]?> 然後
-切換背景為（（服裝[編號v]）+（3））
-轉到x：（0）y：（200）
-改變[房間v]乘以（3）
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [room v] by (3)
 ```
