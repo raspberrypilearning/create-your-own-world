@@ -2,7 +2,7 @@
 
 Start by creating a `player` sprite that can move around your world.
 
-\--- función \---
+\--- task \---
 
 Open the 'Create your own world' Scratch starter project.
 
@@ -10,15 +10,15 @@ Open the 'Create your own world' Scratch starter project.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![captura de pantalla](images/world-starter.png)
+![screenshot](images/world-starter.png)
 
-\--- / tarea \---
+\--- /task \---
 
 Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
 
-\--- tarea \---
+\--- task \---
 
 Add this code to the `player` sprite:
 
@@ -34,17 +34,17 @@ forever
 end
 ```
 
-\--- / tarea \---
+\--- /task \---
 
-\--- tarea \---
+\--- task \---
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![captura de pantalla](images/world-up.png)
+![screenshot](images/world-up.png)
 
 \--- /task \---
 
-\--- tarea \---
+\--- task \---
 
 To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
 
@@ -64,9 +64,9 @@ forever
 end
 ```
 
-\--- / tarea \---
+\--- /task \---
 
-\--- tarea \---
+\--- task \---
 
 Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
@@ -118,7 +118,7 @@ forever
         point in direction (180)
         move (4) steps
     end
-+    if <key [right arrow v] pressed? > then
++    if <key (right arrow v) pressed? > then
         point in direction (90)
         move (4) steps
     end
