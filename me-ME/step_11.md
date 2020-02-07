@@ -1,4 +1,4 @@
-## Vrata i ključevi
+## Doors and keys
 
 Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-delete (all v) of [inventar v]
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
