@@ -25,11 +25,11 @@ zawsze
         ustaw kierunek na (-90)
         przesuń o (4) kroki
     koniec
-        jeżeli <klawisz (strzałka w dół v) naciśnięty? > to
-        ustaw kierunek na (-180)
-        przesuń o (4) kroki
-    koniec
-        jeżeli <klawisz [strzałka w prawo v] naciśnięty? > to
+        jeżeli <klawisz (strzałka w dół v) naciśnięty? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key (right arrow v) pressed? > to
         ustaw kierunek na (90)
         przesuń o (4) kroki
     koniec
