@@ -1,6 +1,6 @@
 ## اللافتات
 
-دعنا نُضِف لافتات إلى لعبتك لتوجيه اللاعب على مدار اللعبة.
+Now add signs to your world to guide players on their journey.
 
 يحتوي مشروعك على كائن `لافتة الترحيب`:
 
