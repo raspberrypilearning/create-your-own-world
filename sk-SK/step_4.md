@@ -1,14 +1,14 @@
-## Presuňte sa okolo sveta
+## Move around your world
 
-Hráč `hráč` by mal byť schopný prejsť dverami do iných miestností.
+The `player` sprite should be able to walk through doors into other rooms.
 
-Váš projekt obsahuje pozadie ďalších izieb:
+Your project contains backdrops for additional rooms:
 
-![snímka obrazovky](images/world-backdrops.png)
+![screenshot](images/world-backdrops.png)
 
-\--- úloha \---
+\--- task \---
 
-Vytvorenie nového, pre všetky škriatkov 'premenné nazvané `izba`{: class = "block3variables"}, aby mohli sledovať, ktorá izbe `hráč` sprite nachádza.
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -23,33 +23,33 @@ When the `player` sprite touches the orange door in the first room, the game sho
 ![player](images/player.png)
 
 ```blocks3
-keď sa vlajka preklikne
-navždy
-    ak <stlačíte tlačidlo (šípka nahor v)? > potom
-        bod v smere (0)
-        posunúť (4) kroky
-    koniec
-    ak je stlačené tlačidlo <(šípka doľava v)? > potom
-        bod v smere (-90)
-        posunúť (4) kroky
-    koniec
-        ak stlačíte klávesu <(šípka dole v)? > potom
-        bod v smere (-180)
-        posunúť (4) kroky
-    koniec
-        ak je stlačené tlačidlo <[šípka vpravo v]? > potom
-        bod v smere (90)
-        posunúť (4) kroky
-    koniec
-    ak < dotýkať farbu [#BABABA]? > potom
-    ťah (-4), kroky
-    koniec
-+ v prípade < dotýkať farieb [# F2A24A] > potom
-    prepínač pozadia k (ďalší v pozadí)
-    prejdite na X: (-200) y: (0)
-    zmena [izbu v] od (1)
-    koniec
-konca
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
++   if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+    end
+end
 ```
 
 \--- /task \---
@@ -66,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ Hodnota `miestnosti`{: class = "block3variables"} by mala byť nastavená na `1`{: class = "block3variables"}
-+ `pozadie`{: class = "block3looks"} by malo byť nastavené na `miestnosti1`{: class = "block3looks"}
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
@@ -79,11 +79,11 @@ Here are the extra blocks you need:
 ![player](images/player.png)
 
 ```blocks3
-prejdite na x: (-200) y: (0)
+go to x: (-200) y: (0)
 
-nastavte [miestnosť v] na (1)
+set [room v] to (1)
 
-spínaciu plochu do (miestnosť v)
+switch backdrop to (room1 v)
 ```
 
 \--- /hint \---
@@ -95,36 +95,36 @@ Here's what your finished script should look like:
 ![player](images/player.png)
 
 ```blocks3
-keď príznak kliknutí
-+ sada [miestnosti] pre (1)
-+ prejsť na x: (-200) y: (0)
-+ prepnúť kulisu (pokoj1 v)
-navždy
-    , pokiaľ <tlačidlo (šípka hore V) stlačené ? > potom
-        bod v smere (0)
-        posunúť (4) kroky
-    koniec
-    ak je stlačené tlačidlo <(šípka doľava v)? > potom
-        bod v smere (-90)
-        posunúť (4) kroky
-    koniec
-        ak stlačíte klávesu <(šípka dole v)? > potom
-        bod v smere (-180)
-        posunúť (4) kroky
-    koniec
-        ak je stlačené tlačidlo <[šípka vpravo v]? > potom
-        bod v smere (90)
-        posunúť (4) kroky
-    koniec
-    ak < dotýkať farbu [#BABABA]? > potom
-    ťah (-4), kroky
-    koniec
-    v prípade, < dotýkať farba [# F2A24A] > potom
-    prepínač pozadia k (ďalší v pozadí)
-    prejdite na X: (-200) y: (0),
-    zmena [miestnosti V ] do (1)
-konca
-konca
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (room1 v)
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+    if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+end
+end
 ```
 
 \--- /hint \---
