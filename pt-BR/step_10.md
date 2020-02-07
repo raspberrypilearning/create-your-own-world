@@ -1,6 +1,6 @@
-## Coletar moedas
+## Collect coins
 
-Seu `jogador` sprite deve coletar moedas à medida que se move pelo mundo.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
@@ -58,8 +58,8 @@ Now add code to the Stage to set your `coins`{:class="block3variables"} variable
 ![stage](images/stage.png)
 
 ```blocks3
-quando a bandeira for clicada
-definir [coins v] para [0]
+when flag clicked
+set [coins v] to [0]
 ```
 
 \--- /task \---
