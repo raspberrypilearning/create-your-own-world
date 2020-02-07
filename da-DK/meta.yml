@@ -1,14 +1,14 @@
 ---
-hero_image: images/create-your-own-world.png
-title: Skab Din Egen Verden
-description: I dette projekt skal du lære, hvordan du laver dit eget ‘åben verden’ eventyrsspil.
+hero_image: images/banner.png
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-23
 steps:
   - 
-    title: Skab Din Egen Verden
+    title: Introduction
   - 
     title: Move the player sprite
   - 
