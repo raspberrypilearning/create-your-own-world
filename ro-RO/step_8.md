@@ -1,6 +1,6 @@
-## Personaje
+## People
 
-Adăugă în lume alte personaje cu care `personajul principal` poate interacționa.
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
@@ -14,7 +14,7 @@ Switch to the `person` sprite.
 
 Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-![persoană](images/person.png)
+![person](images/person.png)
 
 ```blocks3
 when flag clicked
