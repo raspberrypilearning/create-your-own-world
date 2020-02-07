@@ -1,3 +1,3 @@
-## Provocare: întoarce-te în camera precedentă
+## Challenge: move back to the previous room
 
-Poți să-ți faci `personajul` să se întoarcă în camera precedentă când atinge o ușă galbenă? Codul de care ai nevoie pentru acest lucru e similar cu cel pe care l-ai adăugat deja pentru a face personajul să intre în următoarea cameră.
+Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
