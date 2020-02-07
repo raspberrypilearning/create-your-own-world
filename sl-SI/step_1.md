@@ -1,18 +1,18 @@
 \--- no-print \---
 
-To je ** Scratch 3 ** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2) različica projekta.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
-V tem projektu se boš naučil-a, kako ustvariti svojo lastno pustolovsko igro, z več nivoji, ki jih je potrebno raziskati.
+In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### Kaj boš ustvaril-a?
+### What you will make
 
 \--- no-print \---
 
-Klikni zeleno zastavo, da začneš. Svoj lik po svetu premikaš s pritiskanjem na smerne tipke.
+Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,45 +23,45 @@ Klikni zeleno zastavo, da začneš. Svoj lik po svetu premikaš s pritiskanjem n
 
 \--- print-only \---
 
-Za premikanje po svetu, boš uporablja-a smerne tipke. ![showcase.png](images/showcase.png)
+You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: Kaj boš potreboval-a?
+## title: What you will need
 
-### Strojna oprema
+### Hardware
 
-- Računalnik, ki lahko poganja Scratch 3
+- A computer capable of running Scratch 3
 
-### Programska oprema
+### Software
 
-- Scratch 3 (bodisi [na spletu](http://rpf.io/scratchon) {:target = "_blank"} ali [brez povezave](http://rpf.io/scratchoff){:target = "_blank"})
+- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Prenosi
+### Downloads
 
-Vse, kar potrebuješ za dokončanje tega projekta, najdeš na [ rpf.io/p/sl/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: Kaj se boš naučil-a?
-
-- Uporabljati pogojno izbiro za odzivanje pritiskanje tipk
-- Uporabljati spremenljivke za shranjevanje stanja igre
-- Uporabljati pogojno izbiro, ki temelji na vrednosti spremenljivke
-- Uporabljati sezname za shranjevanje podatkov
+You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Dodatne informacije za izobraževalce
+## title: What you will learn
 
-Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+- Use conditional selection to react to key presses
+- Use variables to store a game's state
+- Use conditional selection based on the value of a variable
+- Use lists to store data
 
-Zaključen projekt lahko najdete [tukaj](https://rpf.io/p/en/create-your-own-world-get)"}.
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional information for educators
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+
+You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
