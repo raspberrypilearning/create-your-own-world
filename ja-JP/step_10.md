@@ -1,6 +1,6 @@
-## コインを集める
+## Collect coins
 
-あなたの `プレイヤー` スプライトは、世界中を移動するにつれてコインを集めることができるはずです。
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
@@ -23,12 +23,12 @@ Add code to your `coin` sprite so that it only appears in room 1.
 ![screenshot](images/coin.png)
 
 ```blocks3
-flagが永遠に
-クリックしたとき
- <（room :: variables）=[1]>
->
-それ以外のとき
-隠す
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
 ```
 
 \--- /task \---
@@ -40,11 +40,11 @@ Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} 
 ![coin](images/coin.png)
 
 ```blocks3
-フラグがクリックされたときに
-になるまで待ち <touching (player v)?>
-変化[コインV]（1）によって
-隠す
-STOP [スプライトVの他のスクリプト]
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
 ```
 
 The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
@@ -58,8 +58,8 @@ Now add code to the Stage to set your `coins`{:class="block3variables"} variable
 ![stage](images/stage.png)
 
 ```blocks3
-flagが
-クリックしたとき[coins v]を [0]
+when flag clicked
+set [coins v] to [0]
 ```
 
 \--- /task \---
