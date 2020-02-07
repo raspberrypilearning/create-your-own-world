@@ -1,6 +1,6 @@
-## Что дальше?
+## What next?
 
-Попробуйте создать еще одну игру, используя проект [Коты!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
+Have a go at creating another game by working through the [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
 
 \--- no-print \---
 
