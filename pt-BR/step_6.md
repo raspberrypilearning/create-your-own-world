@@ -1,8 +1,8 @@
 ## Signs
 
-Agora adicione sinais ao seu mundo para guiar jogadores em sua jornada.
+Now add signs to your world to guide players on their journey.
 
-Seu projeto inclui um sinal de boas-vindas `welcome sign` sprite:
+Your project includes a `welcome sign` sprite:
 
 ![screenshot](images/world-sign.png)
 
