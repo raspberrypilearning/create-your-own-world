@@ -1,16 +1,16 @@
-\--- no imprimir \---
+\--- no-print \---
 
-Esta es la versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
-\--- /no imprimir \---
+\--- /no-print \---
 
-## Introducción
+## Introduction
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### Lo que hará
+### What you will make
 
-\--- no imprimir \---
+\--- no-print \---
 
 Click the green flag to start. Use the arrow keys to move your character around in the world.
 
@@ -19,27 +19,27 @@ Click the green flag to start. Use the arrow keys to move your character around 
   <img src="images/showcase.png">
 </div>
 
-\--- no imprimir \---
+\--- /no-print \---
 
-\--- solo impresión \---
+\--- print-only \---
 
 You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
 
-\--- /solo impresión \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
-## título: Lo que necesitará
+## title: What you will need
 
 ### Hardware
 
-- Una computadora capáz de hacer funcionar el Scratch 3
+- A computer capable of running Scratch 3
 
 ### Software
 
-- Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff) {:target="_blank"})
+- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### Descargas
+### Downloads
 
 You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## título: Lo que aprenderá
+## title: What you will learn
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -58,10 +58,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## título: Información adicional para los formadores
+## title: Additional information for educators
 
-Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-Puedes encontrar el [ proyecto completo aquí ](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
