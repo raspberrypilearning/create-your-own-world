@@ -1,39 +1,39 @@
 ---
-hero_image: images/create-your-own-world.png
-title: 建你自己的世界
-description: 建自己的冒险游戏
+hero_image: images/banner.png
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: 介绍
+    title: Introduction
   - 
-    title: 移动玩家
+    title: Move the player sprite
   - 
-    title: 坚固的墙壁
+    title: Solid walls
   - 
-    title: 走动你的世界
+    title: Move around your world
   - 
-    title: "挑战：回到上一个房间"
+    title: "Challenge: move back to the previous room"
     challenge: true
   - 
-    title: 标志
+    title: Signs
   - 
-    title: "挑战：宝藏！"
+    title: "Challenge: treasure!"
     challenge: true
   - 
-    title: 人物
+    title: People
   - 
-    title: "挑战：敌人"
+    title: "Challenge: enemies"
     challenge: true
   - 
-    title: 收集硬币
+    title: Collect coins
   - 
-    title: 门和钥匙
+    title: Doors and keys
   - 
-    title: "挑战：扩展你的世界"
+    title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "接下来还有什么？"
+    title: "What next?"
