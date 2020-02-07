@@ -1,4 +1,4 @@
-## 坚固的墙壁
+## Solid walls
 
 \--- task \---
 
@@ -15,28 +15,28 @@ To fix this, you need to make the `player` sprite move back if it touches a ligh
 ![player](images/player.png)
 
 ```blocks3
-当标志点击
-永久
-    如果按下 <键（向上箭头v）？ > 然后
-        点方向（0）
-        移动（4）步骤
-    结束
-    如果按下 <键（左箭头v）？ > 然后
-        点方向（-90）
-        移动（4）步骤
-    结束
-        如果按下 <键（向下箭头v）？ > 然后
-        点方向（-180）
-        移动（4）步骤
-    结束
-        如果按下 <键[右箭头v]？ > 然后
-        点方向（90）
-        移动（4）步骤
-    结束
-+如果 < 接触颜色[#BABABA]？ > 然后
-    移动（-4）步骤
-    结束
-结束
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+end
 ```
 
 \--- /task \---
