@@ -1,6 +1,6 @@
-## Vrata in ključi
+## Doors and keys
 
-Zdaj boš dodal-a kodo, ki bo poskrbela, da bodo nekatera vrata tvojega sveta zaklenjena, igralec pa mora najti ključ, da jih odpre, da bi lahko prišel v naslednjo sobo.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \---
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-ko kliknemo na zastavo
-počakaj dokler ni < se dotika (igralec v)?>
-dodaj [modri ključ] k [imetje v]
-skrij
-ustavi [ostale ukaze za to figuro v]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ ustavi [ostale ukaze za to figuro v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-zbriši (all v) [imetje v]
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-ko kliknemo na zastavo
-počakaj dokler ni < Ali [imetje v] vsebuje (modri ključ)?
-ustavi [ostale ukaze za to figuro v]
-skrij
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 \--- /task \---
