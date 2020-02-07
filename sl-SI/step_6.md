@@ -1,10 +1,10 @@
-## Znaki
+## Signs
 
-Zdaj v svoj svet dodaj še znake, ki bodo igralca vodili na njegovem potovanju.
+Now add signs to your world to guide players on their journey.
 
-V tvojem projektu se nahaja `znak dobrodošli`:
+Your project includes a `welcome sign` sprite:
 
-![posnetek zaslona](images/world-sign.png)
+![screenshot](images/world-sign.png)
 
 \--- task \---
 
@@ -25,20 +25,20 @@ Here are the blocks you need:
 ![sign](images/sign.png)
 
 ```blocks3
-<br />če < > potem
-sicer
-konec
+<br />if < > then
+else
+end
 
-< (soba: spremenljivke) = [1] >
+< (room :: variables) = [1] >
 
-skrij
+hide
 
-pokaži
+show
 
-ponavljaj
-konec
+forever
+end
 
-ko kliknemo na zastavo
+when flag clicked
 
 ```
 
@@ -51,14 +51,14 @@ Here is the complete code:
 ![sign](images/sign.png)
 
 ```blocks3
-ko kliknemo na zastavo
-ponavljaj
-    če je < (soba: spremenljivke) = [1] > potem
-        pokaži
-    sicer
-        skrij
-    konec
-konec
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
+    end
+end
 ```
 
 \--- /hint \---
@@ -82,19 +82,19 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ![sign](images/sign.png)
 
 ```blocks3
-ko kliknemo na zastavo
-ponavljaj
- če je < (soba: spremenljivke) = [1] > potem
- pokaži
- sicer
- skrij
- konec
-+če < se dotika (igralec v)? > potem
-reci [Dobrodošli! Ali lahko pridete do zaklada?]
-sicer
-reci[]
-konec
-konec
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
+end
 ```
 
 \--- /task \---
