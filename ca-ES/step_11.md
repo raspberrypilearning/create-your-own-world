@@ -1,6 +1,6 @@
-## Portes i claus
+## Doors and keys
 
-Ara afegiràs codi perquè algunes de les portes del món del joc estiguin bloquejades i el jugador hagi de trobar la clau per obrir-les i arribar a la sala següent.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \---
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-quan has fet clic a la bandera
-espera fins que <touching (player v)?>
-afegeix [clau blava] a [inventari v]
-amaga
-atura [altres scripts a la icona v]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ atura [altres scripts a la icona v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-eliminar (tota v) de [inventari v]
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-quan has fet clic a la bandera
-esperar fins que <[inventari v] contingui [clau blava]?>
-aturar [altres scripts a icona v]
-amagar
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 \--- /task \---
