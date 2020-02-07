@@ -1,6 +1,6 @@
 ## Puertas y llaves
 
-Ahora vas a añadir código para que algunas de las puertas del mundo de tu juego estén bloqueadas, y el jugador debe encontrar la llave para abrirlos y llegar a la habitación siguiente.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \---
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-al presionar la bandera verde
-esperar hasta que <touching (player v)?>
-añade la [llave azul] al [Inventario v]
-esconder
-detener [otros programas en el objeto v]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-al presionar la bandera verde
-esperar hasta que <[Inventario v] contenga [llave azul]>
-detener [otros programas en el objeto v]
-esconder
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 \--- /task \---
