@@ -1,6 +1,6 @@
 ## Señales
 
-Añadamos señales a tu mundo para guiar al jugador en su viaje.
+Now add signs to your world to guide players on their journey.
 
 Tu proyecto incluye un objeto `saludo`:
 
@@ -25,20 +25,20 @@ Here are the blocks you need:
 ![sign](images/sign.png)
 
 ```blocks3
-<br />si < > entonces
-en otro caso
-fin
+<br />if < > then
+else
+end
 
 < (room :: variables) = [1] >
 
-ocultar
+hide
 
-mostrar
+show
 
-para siempre
-fin
+forever
+end
 
-cuando se hace clic en la bandera
+when flag clicked
 
 ```
 
@@ -51,14 +51,14 @@ Here is the complete code:
 ![sign](images/sign.png)
 
 ```blocks3
-al hacer click en la bandera
-para siempre
-    si < (room :: variables) = [1] > entonces
-        mostrar
-    en otro caso
-        ocultar
-    fin
-fin
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
+    end
+end
 ```
 
 \--- /hint \---
@@ -82,19 +82,19 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ![sign](images/sign.png)
 
 ```blocks3
-al hacer click en la bandera
-para siempre
- si < (room :: variables) = [1] > entonces
- mostrar
- en otro caso
- ocultar
- fin
-+ si < tocando al (jugador v)? > entonces
-decir [Bienvenido! ¿Puedes llegar al tesoro?]
-más
-decir []
-fin
-fin
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
+end
 ```
 
 \--- /task \---
