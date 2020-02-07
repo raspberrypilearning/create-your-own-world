@@ -8,7 +8,7 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Robot parlanchín
+    title: Introduction
   - 
     title: Move the player sprite
   - 
@@ -36,4 +36,4 @@ steps:
     title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "¿Qué sigue?"
+    title: "What next?"
