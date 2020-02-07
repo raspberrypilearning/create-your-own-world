@@ -1,12 +1,12 @@
 \--- no-print \---
 
-هذا هو الإصدار المتوافق مع ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
 ## المقدمة
 
-في هذا المشروع، ستتعلم كيف تُنشئ عالم ألعاب المغامرات الخاص بك وبه مستويات متعددة ليستكشفها اللاعب.
+In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
 ### ما الذي ستصنعه
 
@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-سوف تستخدم مفاتيح الأسهم لتحريك شخصيتك في أنحاء العالم. ![showcase.png](images/showcase.png)
+You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -39,9 +39,9 @@
 
 - برنامج Scratch 3 (سواء أكان [عبر الإنترنت](http://rpf.io/scratchon){:target="_blank"} أو [دون اتصال بالإنترنت](http://rpf.io/scratchoff){:target="_blank"})
 
-### التنزيلات
+### Downloads
 
-يمكنك أن تجد كل ما تحتاجه لإكمال هذا المشروع على [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- collapse \---
 
@@ -49,19 +49,19 @@
 
 ## title: ما الذي ستتعلمه
 
-- استخدم التحديد الشرطي للتفاعل مع ضغط المفاتيح
-- استخدم المتغيرات لتخزين حالة اللعبة
-- استخدم التحديد الشرطي بناءً على قيمة المتغير
-- استخدم القوائم لتخزين البيانات
+- Use conditional selection to react to key presses
+- Use variables to store a game's state
+- Use conditional selection based on the value of a variable
+- Use lists to store data
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: معلومات إضافية للمعلمين
+## title: Additional information for educators
 
 إذا كنت بحاجة إلى طباعة هذا المشروع ، فالرجاء استخدام الإصدار [الملائم للطابعة](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-يمكنك الحصول على [المشروع كاملاً من هنا](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
