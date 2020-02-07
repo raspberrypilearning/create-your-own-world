@@ -1,6 +1,6 @@
-## Portas e chaves
+## Doors and keys
 
-Agora você vai adicionar o código para que algumas das portas do seu mundo de jogo estejam bloqueadas, e o jogador deve encontrar a chave para abri-las e chegar para a próxima sala.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \---
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-quando o sinalizador clicou
-espere até <touching (player v)?>
-adicione [chave azul] ao [inventário v]
-oculte
-pare [outros scripts no sprite v]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ pare [outros scripts no sprite v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-deletar (todos v) de [inventário v]
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
