@@ -1,4 +1,4 @@
-## 堅い壁
+## Solid walls
 
 \--- task \---
 
@@ -15,29 +15,28 @@ To fix this, you need to make the `player` sprite move back if it touches a ligh
 ![player](images/player.png)
 
 ```blocks3
-<キー（上向き矢印v）が押されたらフラグが永久に
-クリックしたとき
- > 次に方向
-        指す（0）
-        移動する（4）ステップ
-    終了
- <キー（左矢印v）を押すと？ > から
-        方向に
-ポイント（-90）
-        移動（4）ステップ
-    終了
- <キー（下矢印v）が押されたら > そして
-        方向を向く（-180）
-        移動する（4）ステップ
-    終了
- <キー[右矢印v]を押すと？ > その後
-        方向を指す（90）
-        移動する（4）ステップ
-    終了
-+ < [ < ]色に触れた場合、 > から
-    移動（-4）ステップ
-    終了
-終了
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key (right arrow v) pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+end
 ```
 
 \--- /task \---
