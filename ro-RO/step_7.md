@@ -1,7 +1,7 @@
-## Provocare: comoara!
+## Challenge: treasure!
 
-Poți adăuga unele comori pentru ca personajul să o găsească?
+Can you add some treasure for the player to find?
 
-Fă `cufărul` să apară doar în camera 3 și să spună „Felicitări!” când `personajul` îl atinge.
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
-![captură de ecran](images/world-treasure.png)
+![screenshot](images/world-treasure.png)
