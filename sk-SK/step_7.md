@@ -1,7 +1,7 @@
-## Výzva: poklad!
+## Challenge: treasure!
 
-Môžete pridať nejaký poklad, ktorý hráč nájde?
+Can you add some treasure for the player to find?
 
-Vytvorte `truhlica s pokladom` Sprite sa objaví iba v miestnosti 3 a nechajte tento spriťať povedať "Dobre!" keď sa `hráčov` to sprite dotkne.
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
-![snímka obrazovky](images/world-treasure.png)
+![screenshot](images/world-treasure.png)
