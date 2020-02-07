@@ -1,4 +1,4 @@
-## ドアとキー
+## Doors and keys
 
 Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-フラグがクリックされたとき
- <touching (player v)?>まで待つ
-[インベントリv]に[青い鍵]を追加
-非表示
-停止[スプライトvの他のスクリプト]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ The code you need to add for collecting the key is very similar to the code for 
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-[inventory v]の削除（すべてv）
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-フラグがクリックされたとき
- <[在庫v]に[ブルーキー]が含まれるまで待つ？>
-停止[スプライトvの他のスクリプト]
-隠す
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 \--- /task \---
