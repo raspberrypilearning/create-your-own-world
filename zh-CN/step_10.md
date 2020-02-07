@@ -1,6 +1,6 @@
-## 收集硬币
+## Collect coins
 
-你的 `玩家` 精灵应该能够收集硬币在世界各地移动。
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
@@ -23,12 +23,12 @@ Add code to your `coin` sprite so that it only appears in room 1.
 ![screenshot](images/coin.png)
 
 ```blocks3
-当标志点击
-永远
-如果 <（房间::变量）=[1]> 然后
-显示
-其他
-隐藏
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
 ```
 
 \--- /task \---
@@ -40,11 +40,11 @@ Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} 
 ![coin](images/coin.png)
 
 ```blocks3
-当标志点击
-等待直到 <touching (player v)?>
-更改[硬币v]由（1）
-隐藏
-停止[其他脚本在精灵v]
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
 ```
 
 The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
@@ -58,8 +58,8 @@ Now add code to the Stage to set your `coins`{:class="block3variables"} variable
 ![stage](images/stage.png)
 
 ```blocks3
-当标记点击
-将[硬币v]设置为 [0]
+when flag clicked
+set [coins v] to [0]
 ```
 
 \--- /task \---
