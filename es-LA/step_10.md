@@ -6,7 +6,7 @@ Your `player` sprite should have be able to collect coins as it moves through th
 
 Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
