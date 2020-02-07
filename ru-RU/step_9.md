@@ -1,45 +1,39 @@
-## Задание: добавь врага
+## Challenge: add an enemy
 
-Если хочешь, ты можешь добавить патрулирующих врагов в свою игру. Если спрайт `игрок` коснётся врага, игра закончится.
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Твоя игра уже содержит спрайт `враг`. Добавь код для спрайта `враг`, чтобы он появился только в комнате 2.
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ Добавь код для перемещения спрайта `враг` и для завершения игры, если спрайт `враг` коснется спрайт `игрок`. Это проще сделать в отдельных блоках кода. Вот как мог бы выглядеть твой код для спрайта `враг`:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-повторять всегда 
- если <(комната :: переменные) = [2]>, то 
- показаться
- иначе 
- спрятаться
- end
-end
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-когда щёлкнут по зелёному флагу
-повторять всегда 
- если < касается (игрок v) ?>, то 
- стоп [все v]
- end
-end
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-когда щёлкнут по зелёному флагу
-перейти в x: (170) y: (0)
-повторять всегда 
- повторить (130) раз 
- изменить x на (-1)
- end
- повторить (130) раз 
- изменить x на (1)
- end
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
 end
+repeat (130)
+change x by (1)
 ```
 
-+ Проверь свой новый код, чтобы убедиться, что: 
-    + Спрайт `враг` присутствует только в комнате 2
-    + Спрайт `враг` патрулирует комнату
-    + Игра заканчивается, если спрайт `игрок` коснется спрайта `враг`
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-Можете ли ты создать еще один спрайт `враг` в комнате 3, который патрулирует вверх и вниз через дырку в стене?
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
 ![screenshot](images/world-enemy2.png)
