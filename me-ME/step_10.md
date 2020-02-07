@@ -1,4 +1,4 @@
-## Sakupljanje novčića
+## Collect coins
 
 Your `player` sprite should have be able to collect coins as it moves through the world.
 
