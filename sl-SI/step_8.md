@@ -1,6 +1,6 @@
-## Ljudje
+## People
 
-Svojemu svetu dodaj še druge ljudi, s katerimi se lahko tvoja figura `igralec` sporazumeva.
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
@@ -14,18 +14,18 @@ Switch to the `person` sprite.
 
 Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-![oseba](images/person.png)
+![person](images/person.png)
 
 ```blocks3
-ko kliknemo na zastavo
-pojdi na x: (0) y: (-150)
-ponavljaj
-  če < se dotika (igralec v)? >; potem
-        reci [Ali ste vedeli, da lahko greste skozi oranžna in rumena vrata?]
-    sicer
-        reci []
-    konec
-konec
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
+end
 ```
 
 \--- /task \---
@@ -37,17 +37,17 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 ![person](images/person.png)
 
 ```blocks3
-ko kliknemo na zastavo
-pojdi na x: (0) y: (-150)
-ponavljaj
-  če < se dotika (igralec v)? >; potem
-        reci [Ali ste vedeli, da lahko greste skozi oranžna in rumena vrata?]
-    sicer
-        reci []
-+       pojdi (1) korakov
-+       odbij se, če si na robu
-    konec
-konec
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
 ```
 
 \--- /task \---
