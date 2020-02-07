@@ -1,28 +1,28 @@
-## Izziv: razširi tvoj svet
+## Challenge: extend your world
 
-Sedaj lahko nadaljuješ z ustvarjanjem tvojega sveta! Tu je nekaj idej:
+You can now continue creating your own world! Here are some ideas:
 
-+ Dodaj več kovancev v več sob. Ali lahko poskrbiš, da nekatere kovance pazijo sovražniki, ki se premikajo?
-+ Spremeni ozadja svoje igre
-+ Igri dodaj glasbo in zvok
-+ Dodaj več ljudi, sovražnikov in znakov
-+ Dodaj rdeča in rumena vrata in posebne ključe, ki jih odprejo
-+ Svetu dodaj še več sob
-+ Dodaj še druge koristne predmete
++ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
++ Change your game's backdrops
++ Add sound and music to your game
++ Add more people, enemies, and signs
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
     
-    + Uporabi kovance, da pridobiš informacije od drugih ljudi:
+    + Use coins to get information from other people:
 
 ![screenshot](images/world-bribe.png)
 
-+ Lahko celo dodaš vrata na severno in južno steno prve sove, tako da se lahko igralec med sobami premika v vseh štirih smereh. Igra lahko ima denimo 9 sob v 3×3 veliki mreži. Številki sobe lahko v tem primeru dodajaš `3`, da se premakneš eno sobo navzdol.
++ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
-![posnetek zaslona](images/north-south-rooms.png)
+![screenshot](images/north-south-rooms.png)
 
 ![screenshot](images/number-grid.png)
 
 ```blocks3
-če < se dotika barve []?> potem
-zamenjaj ozadje na ((videz [število v]) + (3))
-pojdi na x:(0) y:(200)
-spremeni [soba v] za (3)
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [room v] by (3)
 ```
