@@ -1,14 +1,14 @@
-## 走动你的世界
+## Move around your world
 
-`玩家` 精灵应该能够通过门进入其他房间。
+The `player` sprite should be able to walk through doors into other rooms.
 
-您的项目包含其他房间的背景：
+Your project contains backdrops for additional rooms:
 
 ![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
-创建一个名为 `room`{：class =“block3variables”}的新“for all sprite”变量，以跟踪 `玩家` 精灵所在的房间。
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -23,31 +23,31 @@ When the `player` sprite touches the orange door in the first room, the game sho
 ![player](images/player.png)
 
 ```blocks3
-当标志点击
-永久
-    如果按下 <键（向上箭头v）？ > 然后
-        点方向（0）
-        移动（4）步骤
-    结束
-    如果按下 <键（左箭头v）？ > 然后
-        点方向（-90）
-        移动（4）步骤
-    结束
-        如果按下 <键（向下箭头v）？ > 然后
-        点方向（-180）
-        移动（4）步骤
-    结束
-        如果按下 <键[右箭头v]？ > 然后
-        点方向（90）
-        移动（4）步骤
-    结束
-    如果 < 接触颜色[#BABABA]？ > 然后
-    移动（-4）步骤
-    结束
-+如果 < 触摸颜色[＃F2A24A] > 然后
-    切换背景到（下一个背景v）
-    转到x：（ -  200）y：（0）
-    改变[房间] v] by（1）
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
++   if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
     end
 end
 ```
@@ -66,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ `room`{：class =“block3variables”}的值应设置为 `1`{：class =“block3variables”}
-+ `背景`{：class =“block3looks”}应该设置为 `room1`{：class =“block3looks”}
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
@@ -79,11 +79,11 @@ Here are the extra blocks you need:
 ![player](images/player.png)
 
 ```blocks3
-转到x：（ -  200）y：（0）
+go to x: (-200) y: (0)
 
-设置[房间v]到（1）
+set [room v] to (1)
 
-切换背景到（房间1 v）
+switch backdrop to (room1 v)
 ```
 
 \--- /hint \---
@@ -95,36 +95,36 @@ Here's what your finished script should look like:
 ![player](images/player.png)
 
 ```blocks3
-当标志点击
-+设置[房间v]到（1）
-+转到x：（ -  200）y：（0）
-+切换背景到（room1 v）
-永远
-    如果按下 <键（向上箭头v） ？ > 然后
-        点方向（0）
-        移动（4）步骤
-    结束
-    如果按下 <键（左箭头v）？ > 然后
-        点方向（-90）
-        移动（4）步骤
-    结束
-        如果按下 <键（向下箭头v）？ > 然后
-        点方向（-180）
-        移动（4）步骤
-    结束
-        如果按下 <键[右箭头v]？ > 然后
-        点方向（90）
-        移动（4）步骤
-    结束
-    如果 < 接触颜色[#BABABA]？ > 然后
-    移动（-4）步骤
-    结束
-    如果 < 触摸颜色[＃F2A24A] > 然后
-    切换背景到（下一个背景v）
-    转到x：（ -  200）y：（0）
-    改变[房间v ]由（1）
-结束
-结束
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (room1 v)
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+    if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+end
+end
 ```
 
 \--- /hint \---
