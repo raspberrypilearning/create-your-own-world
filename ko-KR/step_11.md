@@ -1,4 +1,4 @@
-## 문과 열쇠
+## Doors and keys
 
 Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
