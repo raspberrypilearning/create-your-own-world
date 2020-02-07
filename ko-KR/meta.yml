@@ -1,39 +1,39 @@
 ---
 hero_image: images/banner.png
-title: 나만의 세상을 만드세요
-description: 나만의 오픈 월드 어드벤처 게임 만들기
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: 소개
+    title: Introduction
   - 
-    title: 플레이어 스프라이트 움직이기
+    title: Move the player sprite
   - 
-    title: 단단한 벽
+    title: Solid walls
   - 
-    title: 방 이동하기
+    title: Move around your world
   - 
-    title: "도전 과제: 이전 방으로 이동하기"
+    title: "Challenge: move back to the previous room"
     challenge: true
   - 
-    title: 표지판 만들기
+    title: Signs
   - 
-    title: "도전 과제: 보물!"
+    title: "Challenge: treasure!"
     challenge: true
   - 
-    title: NPC 만들기
+    title: People
   - 
-    title: "도전 과제: 적"
+    title: "Challenge: enemies"
     challenge: true
   - 
-    title: 코인 모으기
+    title: Collect coins
   - 
-    title: 문과 열쇠
+    title: Doors and keys
   - 
-    title: "도전 과제: 나만의 방 만들기"
+    title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "다음은?"
+    title: "What next?"
