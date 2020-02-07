@@ -1,6 +1,6 @@
-## Recullida de monedes
+## Collect coins
 
-La teva icona de ` jugador ` hauria de ser capaç de recollir monedes a mesura que es mou pel món.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
@@ -23,12 +23,12 @@ Add code to your `coin` sprite so that it only appears in room 1.
 ![screenshot](images/coin.png)
 
 ```blocks3
-quan has fet clic a la bandera
-per sempre
-si <(habitació :: variables) =[1]> llavors
-mostra
-si no
-amaga
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
 ```
 
 \--- /task \---
@@ -40,11 +40,11 @@ Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} 
 ![coin](images/coin.png)
 
 ```blocks3
-quan has fet clic a la bandera
-espera fins que <touching (player v)?>
-canvi [monedes v] per (1)
-amaga
-atura [altres scripts a la icona v]
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
 ```
 
 The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
@@ -58,8 +58,8 @@ Now add code to the Stage to set your `coins`{:class="block3variables"} variable
 ![stage](images/stage.png)
 
 ```blocks3
-quan fas clic a la bandera
-posa [monedes v] a [0]
+when flag clicked
+set [coins v] to [0]
 ```
 
 \--- /task \---
