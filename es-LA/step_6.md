@@ -4,7 +4,7 @@ Now add signs to your world to guide players on their journey.
 
 Your project includes a `welcome sign` sprite:
 
-![captura de pantalla](images/world-sign.png)
+![screenshot](images/world-sign.png)
 
 \--- task \---
 
