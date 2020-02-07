@@ -1,8 +1,8 @@
-## Таблички
+## Signs
 
-Теперь добавь таблички в свой мир, которые бы помогали игрокам во время их путешествий.
+Now add signs to your world to guide players on their journey.
 
-Твой проект включает в себя спрайт `табличка Добро пожаловать`:
+Your project includes a `welcome sign` sprite:
 
 ![screenshot](images/world-sign.png)
 
@@ -25,21 +25,20 @@ Here are the blocks you need:
 ![sign](images/sign.png)
 
 ```blocks3
-<br />если <>, то 
- 
-иначе
+<br />if < > then
+else
 end
 
-<(комната :: переменные) = [1]>
+< (room :: variables) = [1] >
 
-спрятаться
+hide
 
-показаться
+show
 
-повторять всегда
+forever
 end
 
-когда щёлкнут по зелёному флагу
+when flag clicked
 
 ```
 
@@ -52,13 +51,13 @@ Here is the complete code:
 ![sign](images/sign.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-повторять всегда 
-  если <(комната :: переменные) = [1]>, то 
-    показаться
-  иначе 
-    спрятаться
-  end
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
+    end
 end
 ```
 
@@ -83,18 +82,18 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ![sign](images/sign.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-повторять всегда 
- если <(комната :: переменные) = [1]>, то 
- показаться
- иначе 
- спрятаться
- end
- + если < касается (игрок v) ? >, то 
- + сказать [Привет! Можешь ли ты найти сокровище?]
- + иначе 
- + сказать []
- + end
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
 end
 ```
 
