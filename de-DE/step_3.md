@@ -23,10 +23,11 @@ wiederhole fortlaufend
   falls <Taste (Pfeil nach links v) gedrückt?> , dann     setze Richtung auf (-90) Grad
     gehe (4) er Schritt
   end
-  falls <Taste (Pfeil nach unten v) gedrückt?> , dann      setze Richtung auf (-180) Grad
-    gehe (4) er Schritt
-  end
-  falls <Taste [Pfeil nach rechts v] gedrückt?> , dann      setze Richtung auf (90) Grad
+  falls <Taste (Pfeil nach unten v) gedrückt?> , dann  > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key (right arrow v) pressed?     setze Richtung auf (90) Grad
     gehe (4) er Schritt
   end
   + falls <wird Farbe [#BABABA] berührt?> , dann    +   gehe (-4) er Schritt
