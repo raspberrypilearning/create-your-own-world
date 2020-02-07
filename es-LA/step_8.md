@@ -28,7 +28,7 @@ forever
 end
 ```
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
