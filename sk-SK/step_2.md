@@ -1,10 +1,10 @@
-## Presuňte prehrávač scény
+## Move the player sprite
 
-Začnite tým, že vytvoríte `hráčov` sprite, ktorý sa môže pohybovať po celom svete.
+Start by creating a `player` sprite that can move around your world.
 
-\--- úloha \---
+\--- task \---
 
-Otvorte projekt "Vytvorte si vlastný svet" Scratch starter.
+Open the 'Create your own world' Scratch starter project.
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
@@ -25,13 +25,13 @@ Add this code to the `player` sprite:
 ![player](images/player.png)
 
 ```blocks3
-keď sa vlajka preklikne
-navždy
-    ak <stlačíte tlačidlo (šípka nahor v)? > potom
-        bod v smere (0)
-        posunúť (4) kroky
-    koniec
-koniec
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+end
 ```
 
 \--- /task \---
@@ -51,17 +51,17 @@ To move the `player` sprite to the left, you need to add another `if`{:class="bl
 ![player](images/player.png)
 
 ```blocks3
-keď sa vlajka preklikne
-navždy
-    ak <stlačíte tlačidlo (šípka nahor v)? > potom
-        bod v smere (0)
-        posunúť (4) kroky
-    koniec
-+ ak je stlačené tlačidlo <(ľavá šípka v)? > potom
-        bod v smere (-90)
-        posunúť (4) kroky
-    koniec
-koniec
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
++   if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+end
 ```
 
 \--- /task \---
@@ -89,7 +89,7 @@ You need to change these two blocks:
 ```blocks3
 <key ( v) pressed>
 
-bod v smere ()
+point in direction ()
 ```
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
@@ -103,26 +103,26 @@ Here is how your code should look:
 ![player](images/player.png)
 
 ```blocks3
-keď sa vlajka preklikne
-navždy
-    ak <stlačíte tlačidlo (šípka nahor v)? > potom
-        bod v smere (0)
-        posunúť (4) kroky
-    koniec
-    ak je stlačené tlačidlo <(šípka doľava v)? > potom
-        bod v smere (-90)
-        posunúť (4) kroky
-    koniec
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
 
-+ ak je stlačené tlačidlo <(šípka dole v)? > potom
-        bod v smere (180)
-        posunúť (4) kroky
-    koniec
-+ ak <kláves [šípka vpravo v] stlačené? > potom
-        bod v smere (90)
-        posunúť (4) kroky
-    koniec
-koniec
++    if <key (down arrow v) pressed? > then
+        point in direction (180)
+        move (4) steps
+    end
++    if <key (right arrow v) pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+end
 ```
 
 \--- /hint \---
