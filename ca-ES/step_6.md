@@ -1,10 +1,10 @@
-## Senyals
+## Signs
 
-Ara afegeix senyals al teu món per guiar els jugadors en el seu viatge.
+Now add signs to your world to guide players on their journey.
 
-El teu projecte inclou una icona de ` senyal de benvinguda `:
+Your project includes a `welcome sign` sprite:
 
-![captura de pantalla](images/world-sign.png)
+![screenshot](images/world-sign.png)
 
 \--- task \---
 
@@ -25,20 +25,20 @@ Here are the blocks you need:
 ![sign](images/sign.png)
 
 ```blocks3
-<br />si < > llavors
-si no
-final
+<br />if < > then
+else
+end
 
-< (habitació :: variables) = [1] >
+< (room :: variables) = [1] >
 
-amagar
+hide
 
-mostrar
+show
 
-per sempre
-final
+forever
+end
 
-quan has fet clic a la bandera
+when flag clicked
 
 ```
 
@@ -51,14 +51,14 @@ Here is the complete code:
 ![sign](images/sign.png)
 
 ```blocks3
-quan has fet clic a la bandera
-per sempre
-    si < (habitació :: variables) = [1] > llavors,
-        mostren
-    si no
-        amaguen
-    final
-final
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
+    end
+end
 ```
 
 \--- /hint \---
@@ -82,19 +82,19 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ![sign](images/sign.png)
 
 ```blocks3
-quan has fet clic a la bandera
-per sempre
-si < (habitació :: variables) = [1] > llavors,
-mostra
-si no
-amaga
-final
-+ si < tocant (jugador v)? > llavors
-digues [Benvingut! Pots arribar al tresor?]
-si no
-dir []
-final
-final
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
+end
 ```
 
 \--- /task \---
