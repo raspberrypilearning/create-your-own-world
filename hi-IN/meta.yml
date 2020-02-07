@@ -1,39 +1,39 @@
 ---
-hero_image: images/create-your-own-world.png
-title: अपनी स्वयं की दुनिया बनाएँ
-description: अपना स्वयं का ओपन-वर्ल्ड एडवेंचर गेम बनाना सीखें।
+hero_image: images/banner.png
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: भूमिका
+    title: Introduction
   - 
-    title: आपको किसकी ज़रूरत होगी
+    title: Move the player sprite
   - 
-    title: खिलाड़ी की स्प्राइट को स्थानांतरित करना
+    title: Solid walls
   - 
-    title: ठोस दीवारें
+    title: Move around your world
   - 
-    title: "अपनी दुनिया को कोड करना"
+    title: "Challenge: move back to the previous room"
     challenge: true
   - 
-    title: संकेत
+    title: Signs
   - 
-    title: "चुनौती: खज़ाना!"
+    title: "Challenge: treasure!"
     challenge: true
   - 
-    title: लोग
+    title: People
   - 
-    title: "चुनौती: दुश्मन"
+    title: "Challenge: enemies"
     challenge: true
   - 
-    title: कॉइन एकत्र करना
+    title: Collect coins
   - 
-    title: दरवाज़े और कुंजियाँ
+    title: Doors and keys
   - 
-    title: "चुनौती: अपनी दुनिया को बढ़ाएं"
+    title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "आगे क्या?"
+    title: "What next?"
