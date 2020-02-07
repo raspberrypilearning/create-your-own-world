@@ -1,22 +1,22 @@
-## Provocare: extinde-ți lumea
+## Challenge: extend your world
 
-Acum poți continua să-ți creezi propria lume! Iată câteva idei:
+You can now continue creating your own world! Here are some ideas:
 
-+ Adăugă mai multe monede la jocului în camere diferite. Poți lăsa unele monede să fie păzite prin patrularea inamicilor?
-+ Schimbă fundalurile jocului
-+ Adăugă sunete și muzică jocului tău
-+ Adăugați mai multe persoane, inamici și semne
-+ Adăugă uși roșii și galbene și chei speciale pentru a le deschide
-+ Adăugă mai multe camere în lumea ta
-+ Adăugă alte elemente utile jocului tău
++ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
++ Change your game's backdrops
++ Add sound and music to your game
++ Add more people, enemies, and signs
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
     
-    + Folosește monedele pentru a obține informații de la alte persoane:
+    + Use coins to get information from other people:
 
-![captură de ecran](images/world-bribe.png)
+![screenshot](images/world-bribe.png)
 
-+ Ai putea să adaugi uși în pereții nordici și sudici ai camerei 1, astfel încât jucătorul să se poată deplasa între camere în toate cele patru direcții. De exemplu, jocul tău poate avea nouă camere într-o grilă 3×3. Poți apoi să adaugi `3` la numărul camerei pentru a te deplasa cu un nivel în jos.
++ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
-![captură de ecran](images/north-south-rooms.png)
+![screenshot](images/north-south-rooms.png)
 
 ![screenshot](images/number-grid.png)
 
