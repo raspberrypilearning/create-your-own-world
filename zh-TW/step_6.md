@@ -1,10 +1,10 @@
-## 跡象
+## Signs
 
-現在為您的世界添加標誌，以指導玩家的旅程。
+Now add signs to your world to guide players on their journey.
 
-您的項目包含 `歡迎標誌` 精靈：
+Your project includes a `welcome sign` sprite:
 
-![截圖](images/world-sign.png)
+![screenshot](images/world-sign.png)
 
 \--- task \---
 
@@ -29,7 +29,7 @@ Here are the blocks you need:
 else
 end
 
-< （room :: variables）= [1] >
+< (room :: variables) = [1] >
 
 hide
 
@@ -51,14 +51,14 @@ Here is the complete code:
 ![sign](images/sign.png)
 
 ```blocks3
-當標誌點擊
-永遠
-    如果 < （房間::變量）= [1] > 然後
-        顯示
-    其他
-        隱藏
-    結束
-結束
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
+    end
+end
 ```
 
 \--- /hint \---
@@ -82,19 +82,19 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ![sign](images/sign.png)
 
 ```blocks3
-當標誌點擊
-永遠
-如果 < （房間::變量）= [1] > 然後
-顯示
-否則
-隱藏
-結束
-+如果 < 觸摸（玩家v）？ > 然後
-說[歡迎！ 你能得到寶藏嗎？]
-其他
-說[]
-結束
-結束
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
+end
 ```
 
 \--- /task \---
