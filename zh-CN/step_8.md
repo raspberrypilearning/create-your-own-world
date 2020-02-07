@@ -1,6 +1,6 @@
-## 人物
+## People
 
-将您的 `玩家` 精灵可以与之互动的其他人添加到您的世界。
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
@@ -14,18 +14,18 @@ Switch to the `person` sprite.
 
 Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-![人](images/person.png)
+![person](images/person.png)
 
 ```blocks3
-当标志点击
-转到x：（0）y：（ -  150）
-永远
-    如果 < 触及（玩家v）？ > 然后
-        说[你知道你可以通过橙色和黄色的门吗？]
-    其他
-        说[]
-    结束
-结束
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
+end
 ```
 
 \--- /task \---
@@ -37,17 +37,17 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 ![person](images/person.png)
 
 ```blocks3
-当标志点击
-转到x：（0）y：（ -  150）
-永远
-    如果 < 触及（玩家v）？ > 然后
-        说[你知道你可以通过橙色和黄色的门吗？]
-    其他
-        说[]
-+移动（1）步骤
-+如果在边缘，反弹
-    结束
-结束
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
 ```
 
 \--- /task \---
