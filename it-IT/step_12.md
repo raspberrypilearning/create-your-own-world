@@ -18,7 +18,7 @@ Ora puoi continuare a creare il tuo mondo! Ecco alcune idee:
 
 ![screenshot](images/north-south-rooms.png)
 
-![screenshot](images/number-grid.png)
+![schermata](images/number-grid.png)
 
 ```blocks3
 se <touching color [ ]?> allora 
