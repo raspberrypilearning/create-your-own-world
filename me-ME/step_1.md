@@ -4,15 +4,15 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### Šta ćeš napraviti
+### What you will make
 
 \--- no-print \---
 
-Klikni na zelenu zastavicu da započneš projekat. Koristi tastere sa strelicama za kretanje tvog karaktera po svijetu.
+Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -29,15 +29,15 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: Šta će ti biti potrebno
+## title: What you will need
 
-### Hardver
+### Hardware
 
-- Računar koji može da pokrene Scratch 3
+- A computer capable of running Scratch 3
 
-### Softver
+### Software
 
-- Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} ili [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: Šta ćeš naučiti
+## title: What you will learn
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -60,7 +60,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Additional information for educators
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [verziju za štampu](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
 You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
