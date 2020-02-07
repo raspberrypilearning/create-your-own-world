@@ -1,10 +1,10 @@
-## Semne
+## Signs
 
-Acum adaugă semne în lumea ta pentru a ghida jucătorii în călătoria lor.
+Now add signs to your world to guide players on their journey.
 
-Proiectul dvs. include o `urare de bun venit` personajului:
+Your project includes a `welcome sign` sprite:
 
-![captură de ecran](images/world-sign.png)
+![screenshot](images/world-sign.png)
 
 \--- task \---
 
