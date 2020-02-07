@@ -1,7 +1,7 @@
-## 挑战：宝藏！
+## Challenge: treasure!
 
-你能为玩家添加一些宝藏吗？
+Can you add some treasure for the player to find?
 
-让 `宝箱` 精灵只出现在3号房间，让这个精灵说'干得好！'当 `玩家` 精灵接触它时。
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
 ![screenshot](images/world-treasure.png)
