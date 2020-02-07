@@ -1,14 +1,14 @@
-## Premikanje po tvojem svetu
+## Move around your world
 
-Figura `igralca` bi morala biti spodobna hoditi skozi vrata v druge sobe.
+The `player` sprite should be able to walk through doors into other rooms.
 
-Tvoj projekt vsebuje ozadja za dodatne sobe:
+Your project contains backdrops for additional rooms:
 
-![posnetek zaslona](images/world-backdrops.png)
+![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
-Ustvari novo spremenljivko, ki je namenjena vsem figuram, in jo poimenuj `soba`{:class="block3variables"}. Z njo bomo opazovali, v kateri sobi se figura `igralec` nahaja.
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -23,33 +23,33 @@ When the `player` sprite touches the orange door in the first room, the game sho
 ![player](images/player.png)
 
 ```blocks3
-ko kliknemo na zastavo
-ponavljaj
-  če <je pritisnjena tipka (puščica gor v)? > potem
-    obrni se v smer (0)
-    pojdi (4) korakov
-  konec
-  če <je pritisnjena tipka (puščica levo v)? > potem
-    obrni se v smer (-90)
-    pojdi (4) korakov
-  konec
-  če <je pritisnjena tipka (puščica dol v)? > potem
-    obrni se v smer (180)
-    pojdi (4) korakov
-  konec 
-  če <je pritisnjena tipka (puščica desno v)? > potem
-    obrni se v smer (90)
-    pojdi (4) korakov
-  konec 
-  če < se dotika barve [#BABABA]? > potem
-    pojdi (-4) korakov
-  konec
-+  če < se dotika barve [#F2A24A] > potem
-    zamenjaj ozadje na (naslednje ozadje v)
-    pojdi na x: (-200) y: (0)
-    spremeni [soba v] za (1)
-    konec
-konec
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
++   if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+    end
+end
 ```
 
 \--- /task \---
@@ -66,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ Vrednost spremenljivke `soba`{:class="block3variables"} mora biti nastavljena na `1`{:class="block3variables"}
-+ `ozadje`{:class="block3looks"} se naj zamenja na `soba1`{:class="block3looks"}
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
@@ -79,11 +79,11 @@ Here are the extra blocks you need:
 ![player](images/player.png)
 
 ```blocks3
-pojdi na x:(-200) y: (0)
+go to x: (-200) y: (0)
 
-nastavi[soba v] na (1)
+set [room v] to (1)
 
-zamenjaj ozadje na (soba1 v)
+switch backdrop to (room1 v)
 ```
 
 \--- /hint \---
@@ -95,36 +95,36 @@ Here's what your finished script should look like:
 ![player](images/player.png)
 
 ```blocks3
-ko kliknemo na zastavo
-+nastavi [soba v] na (1)
-+pojdi na x:(-200) y: (0)
-+zamenjaj ozadje na (soba1 v)
-ponavljaj
-  če <je pritisnjena tipka (puščica gor v)? > potem
-    obrni se v smer (0)
-    pojdi (4) korakov
-  konec
-  če <je pritisnjena tipka (puščica levo v)? > potem
-    obrni se v smer (-90)
-    pojdi (4) korakov
-  konec
-  če <je pritisnjena tipka (puščica dol v)? > potem
-    obrni se v smer (180)
-    pojdi (4) korakov
-  konec 
-  če <je pritisnjena tipka (puščica desno v)? > potem
-    obrni se v smer (90)
-    pojdi (4) korakov
-  konec 
-  če < se dotika barve [#BABABA]? > potem
-    pojdi (-4) korakov
-  konec
-+  če < se dotika barve [#F2A24A] > potem
-    zamenjaj ozadje na (naslednje ozadje v)
-    pojdi na x: (-200) y: (0)
-    spremeni [soba v] za (1)
-    konec
-konec
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (room1 v)
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+    if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+end
+end
 ```
 
 \--- /hint \---
