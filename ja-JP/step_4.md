@@ -1,14 +1,14 @@
-## あなたの世界を動き回る
+## Move around your world
 
-`プレイヤー` スプライトはドアを通って他の部屋に入ることができるはずです。
+The `player` sprite should be able to walk through doors into other rooms.
 
-プロジェクトに追加の部屋の背景が含まれています。
+Your project contains backdrops for additional rooms:
 
-![スクリーンショット](images/world-backdrops.png)
+![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
-`room`{：class = "block3variables"}という新しい 'for all sprites'変数を作成して、 `プレーヤー` スプライトがどのルームにあるかを追跡します。
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -23,35 +23,33 @@ When the `player` sprite touches the orange door in the first room, the game sho
 ![player](images/player.png)
 
 ```blocks3
-<キー（上向き矢印v）が押されたらフラグが永久に
-クリックしたとき
- > 次に方向
-        指す（0）
-        移動する（4）ステップ
-    終了
- <キー（左矢印v）を押すと？ > から
-        方向に
-ポイント（-90）
-        移動（4）ステップ
-    終了
- <キー（下矢印v）が押されたら > そして
-        方向を向く（-180）
-        移動する（4）ステップ
-    終了
- <キー[右矢印v]を押すと？ > その後
-        方向（90）に点
-        の動きは（4）ステップ
-    の端部
-    であれば < [#BABABA】タッチ色？ > 次に
-    移動（-4）ステップ
-    終了
-+ < タッチ色[＃F2A24A] > 次に
-    背景に（次の背景v）
-    に切り替える
- xに移動：（-200）y：（0）
-    change [room] v]×（1）
-    端
-端
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
++   if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+    end
+end
 ```
 
 \--- /task \---
@@ -68,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ `room`{：class = "block3variables"}の値は、 `1`{：class = "block3variables"}に設定する必要があります。
-+ `背景`{：class = "block3looks"}を `room1`{：class = "block3looks"}に設定します。
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
@@ -81,11 +79,11 @@ Here are the extra blocks you need:
 ![player](images/player.png)
 
 ```blocks3
-x：（-200）y：（0）
+go to x: (-200) y: (0)
 
-[room v]を（1）
+set [room v] to (1)
 
-背景を（room1 v）に切り替える
+switch backdrop to (room1 v)
 ```
 
 \--- /hint \---
@@ -97,37 +95,36 @@ Here's what your finished script should look like:
 ![player](images/player.png)
 
 ```blocks3
-フラグがクリックされたときに
-設定+ [ルームV]（1）〜
-+は、Xに移動します（-200）、Y（0）
-+（ROOM1 V）に背景を切り替え
-永久
-    であれば <（矢印Vアップ）キーが押され？ > 次に方向
-        指す（0）
-        移動する（4）ステップ
-    終了
- <キー（左矢印v）を押すと？ > から
-        方向に
-ポイント（-90）
-        移動（4）ステップ
-    終了
- <キー（下矢印v）が押されたら > そして
-        方向を向く（-180）
-        移動する（4）ステップ
-    終了
- <キー[右矢印v]を押すと？ > その後
-        方向（90）に点
-        の動きは（4）ステップ
-    の端部
-    であれば < [#BABABA】タッチ色？ > 次に
-    の動きは（-4）ステップ
-    端
-    であれば < タッチ色[＃1 F2A24A] > 次いで
-    （次背景V）にスイッチ背景を
-    （-200）Y：（0）Xに移動
-    変化[部屋vを]（1）
-終了
-終了
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (room1 v)
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+    if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+end
+end
 ```
 
 \--- /hint \---
