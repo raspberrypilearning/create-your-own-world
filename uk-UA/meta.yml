@@ -1,7 +1,7 @@
 ---
-hero_image: images/create-your-own-world.png
+hero_image: images/banner.png
 title: Create your own world
-description: В цьому проекті Ви дізнаєтесь, як створити свою власну пригодницьку гру жанру “відкритий світ”.
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
@@ -36,4 +36,4 @@ steps:
     title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "Що далі?"
+    title: "What next?"
