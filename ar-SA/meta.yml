@@ -1,7 +1,7 @@
 ---
 hero_image: images/banner.png
 title: أنشئ عالمك الخاص
-description: تعلَّم كيف تصنع لعبة تبتكر فيها عالمك الخاص من المغامرات.
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
@@ -10,13 +10,13 @@ steps:
   - 
     title: المقدمة
   - 
-    title: تحريك كائن اللاعب
+    title: Move the player sprite
   - 
     title: جدران صلبة
   - 
-    title: التحرك حول عالمك الخاص
+    title: Move around your world
   - 
-    title: "تحدي: التحرك إلى الغرفة السابقة"
+    title: "Challenge: move back to the previous room"
     challenge: true
   - 
     title: اللافتات
@@ -29,7 +29,7 @@ steps:
     title: "تحدي: الأعداء"
     challenge: true
   - 
-    title: جمع العملات الذهبية
+    title: Collect coins
   - 
     title: الأبواب والمفاتيح
   - 
