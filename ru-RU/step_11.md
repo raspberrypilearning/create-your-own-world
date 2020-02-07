@@ -1,6 +1,6 @@
-## Двери и ключи
+## Doors and keys
 
-Теперь ты добавишь код, который заблокирует некоторые двери в твоей игре. Игрок будет должен найти ключ, чтобы открыть их и добраться до следующей комнаты.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \---
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-ждать до < касается (игрок v)?>
-добавить [синий ключ] к [инвентарь v]
-спрятаться
-стоп [другие скрипты спрайта v]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ The code you need to add for collecting the key is very similar to the code for 
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-удалить (all v) из [инвентарь v]
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-ждать до <[инвентарь v] содержит [синий ключ]?>
-стоп [другие скрипты спрайта v]
-спрятаться
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 \--- /task \---
