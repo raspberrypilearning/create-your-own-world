@@ -1,12 +1,12 @@
-## 收集硬幣
+## Collect coins
 
-你的 `玩家` 精靈應該能夠收集硬幣在世界各地移動。
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
 Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-\--- /任務\---
+\--- /task \---
 
 \--- task \---
 
@@ -23,12 +23,12 @@ Add code to your `coin` sprite so that it only appears in room 1.
 ![screenshot](images/coin.png)
 
 ```blocks3
-當標誌點擊
-永遠
-如果 <（房間::變量）=[1]> 然後
-顯示
-其他
-隱藏
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
 ```
 
 \--- /task \---
@@ -40,11 +40,11 @@ Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} 
 ![coin](images/coin.png)
 
 ```blocks3
-當標誌點擊
-等待直到 <touching (player v)?>
-更改[硬幣v]由（1）
-隱藏
-停止[其他腳本在精靈v]
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
 ```
 
 The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
@@ -58,8 +58,8 @@ Now add code to the Stage to set your `coins`{:class="block3variables"} variable
 ![stage](images/stage.png)
 
 ```blocks3
-當標記點擊
-將[硬幣v]設置為 [0]
+when flag clicked
+set [coins v] to [0]
 ```
 
 \--- /task \---
