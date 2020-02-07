@@ -26,7 +26,7 @@ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere diffi
 
 Add code to the `key` sprite to make it only visible in room 3.
 
-\--- función \---
+\--- /task \---
 
 \--- task \---
 
