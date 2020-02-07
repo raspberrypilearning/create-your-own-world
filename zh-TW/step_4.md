@@ -1,14 +1,14 @@
-## 走動你的世界
+## Move around your world
 
-`玩家` 精靈應該能夠通過門進入其他房間。
+The `player` sprite should be able to walk through doors into other rooms.
 
-您的項目包含其他房間的背景：
+Your project contains backdrops for additional rooms:
 
-![截圖](images/world-backdrops.png)
+![screenshot](images/world-backdrops.png)
 
-\---任務\---
+\--- task \---
 
-創建一個名為 `room`{：class =“block3variables”}的新“for all sprite”變量，以跟踪 `玩家` 精靈所在的房間。
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -23,31 +23,31 @@ When the `player` sprite touches the orange door in the first room, the game sho
 ![player](images/player.png)
 
 ```blocks3
-當標誌點擊
-永久
-    如果按下 <鍵（向上箭頭v）？ > 然後
-        點方向（0）
-        移動（4）步驟
-    結束
-    如果按下 <鍵（左箭頭v）？ > 然後
-        點方向（-90）
-        移動（4）步驟
-    結束
-        如果按下 <鍵（向下箭頭v）？ > 然後
-        點方向（-180）
-        移動（4）步驟
-    結束
-        如果按下 <鍵[右箭頭v]？ > 然後
-        點方向（90）
-        移動（4）步驟
-    結束
-    如果 < 接觸顏色[#BABABA]？ > 然後
-    移動（-4）步驟
-    結束
-+如果 < 觸摸顏色[＃F2A24A] > 然後
-    切換背景到（下一個背景v）
-    轉到x：（ -  200）y：（0）
-    改變[房間] v] by（1）
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
++   if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
     end
 end
 ```
@@ -66,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ `room`{：class =“block3variables”}的值應設置為 `1`{：class =“block3variables”}
-+ `背景`{：class =“block3looks”}應該設置為 `room1`{：class =“block3looks”}
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
@@ -79,11 +79,11 @@ Here are the extra blocks you need:
 ![player](images/player.png)
 
 ```blocks3
-轉到x：（ -  200）y：（0）
+go to x: (-200) y: (0)
 
-設置[房間v]到（1）
+set [room v] to (1)
 
-切換背景到（房間1 v）
+switch backdrop to (room1 v)
 ```
 
 \--- /hint \---
@@ -95,36 +95,36 @@ Here's what your finished script should look like:
 ![player](images/player.png)
 
 ```blocks3
-當標誌點擊
-+設置[房間v]到（1）
-+轉到x：（ -  200）y：（0）
-+切換背景到（room1 v）
-永遠
-    如果按下 <鍵（向上箭頭v） ？ > 然後
-        點方向（0）
-        移動（4）步驟
-    結束
-    如果按下 <鍵（左箭頭v）？ > 然後
-        點方向（-90）
-        移動（4）步驟
-    結束
-        如果按下 <鍵（向下箭頭v）？ > 然後
-        點方向（-180）
-        移動（4）步驟
-    結束
-        如果按下 <鍵[右箭頭v]？ > 然後
-        點方向（90）
-        移動（4）步驟
-    結束
-    如果 < 接觸顏色[#BABABA]？ > 然後
-    移動（-4）步驟
-    結束
-    如果 < 觸摸顏色[＃F2A24A] > 然後
-    切換背景到（下一個背景v）
-    轉到x：（ -  200）y：（0）
-    改變[房間v ]由（1）
-結束
-結束
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (room1 v)
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+    if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+end
+end
 ```
 
 \--- /hint \---
