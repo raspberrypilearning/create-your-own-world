@@ -4,13 +4,13 @@ Il tuo sprite `player` dovrebbe essere in grado di raccogliere monete quando si 
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+Aggiungi una nuova variabile denominata `monete` {:class="block3variables"} al tuo progetto.
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+Seleziona lo sprite `monete` e clicca **mostra**.
 
 ![screenshot](images/coin.png)
 
@@ -18,9 +18,9 @@ Select the `coin` sprite and click **show**.
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+Aggiungi del codice allo sprite `moneta` per far sì che appaia solo nella stanza 1.
 
-![screenshot](images/coin.png)
+![schermata](images/coin.png)
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -37,9 +37,9 @@ end
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Aggiungi del codice allo sprite `moneta` per fare in modo che `scompaia<code>{:class="block3looks"} ed il valore <code>1` venga aggiunto alle variabile `monete`{:class="block3variables"} quando lo sprite `player` tocca lo sprite <0>moneta</code> per "raccoglierla".
 
-![coin](images/coin.png)
+![moneta](images/coin.png)
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -49,13 +49,13 @@ nascondi
 ferma [altri script in sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+Il codice `ferma tutti gli altri script dello sprite`{:class="block3control"} è necessario affinchè lo sprite `moneta` smetta di essere visualizzato nella stanza 1 una volta che è stato raccolto.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+Ora aggiungi il codice per impostare le tue `monete`{:class="block3variables"} a `0`{:class="block3variables"} all'inizio del gioco.
 
 ![stage](images/stage.png)
 
@@ -68,6 +68,6 @@ porta [monete v] a [0]
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+Prova di nuovo il tuo codice. La raccolta di una moneta deve cambiare il valore delle `monete` a `1` {:class="block3variables"}.
 
 \--- /task \---
