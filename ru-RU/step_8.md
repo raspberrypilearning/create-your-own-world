@@ -1,6 +1,6 @@
-## Люди
+## People
 
-Добавьте в свой мир других людей, с которыми твой спрайт `игрок` мог бы общаться.
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
@@ -17,14 +17,14 @@ Add some code to the `person` sprite so that the person talks to the `player` sp
 ![person](images/person.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-перейти в x: (0) y: (-150)
-повторять всегда 
-  если < касается (игрок v)? >, то 
-    сказать [Ты знал, что ты можешь проходить сквозь желтые и оранжевые двери?]
-  иначе 
-    сказать []
-  end
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
 end
 ```
 
@@ -37,16 +37,16 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 ![person](images/person.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-перейти в x: (0) y: (-150)
-повторять всегда 
-  если < касается (игрок v)? >, то 
-    сказать [Ты знал, что ты можешь проходить сквозь желтые и оранжевые двери?]
-  иначе 
-    сказать []
-    + идти (1) шагов
-    + если касается края, оттолкнуться
-  end
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
 end
 ```
 
