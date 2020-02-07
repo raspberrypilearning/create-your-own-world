@@ -1,39 +1,39 @@
-## Repte: afegeix un enemic
+## Challenge: add an enemy
 
-Si vols, també pots afegir patrulles d'enemics al vostre joc. Si la icona del `jugador ` toca un enemic, el joc s’acaba.
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ El teu joc ja conté una icona d' `enemic `. Afegeix codi a la teva icona d' `enemic` de manera que només aparegui a l'habitació 2.
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ Afegeix codi per moure la icona `enemic ` i per acabar el joc si l'` enemic ` toca el ` jugador`. És més fàcil fer-ho en blocs de codi separats. Aquí tenses podria veure el teu codi de la icona ` enemic `:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
 
 ```blocks3
-quan has fet clic a la bandera
-per sempre
-si <(habitació :: variables) =[2]> llavors
-mostrar
-si no
-amagar
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-quan has fet clic a la bandera
-per sempre
-si <touching (player v)?> llavors
-aturar [tot v]
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-quan has fet clic a la bandera
-anar a x : (170) y: (0)
-per sempre
-repetir (130)
-canviar x per (-1)
-final
-repetir (130)
-canviar x per (1)
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
 ```
 
-+ Prova el teu nou codi per assegurar-te que: 
-    + La icona ` enemic ` només és visible a l'habitació 2
-    + La icona ` enemic ` es mou per tota l'habitació
-    + El joc s’acaba si la icona `jugador ` toca la icona ` enemic `
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-Pots crear una altra icona `enemic ` a l'habitació 3 que fa ronda amunt i avall per l'escletxa de la paret?
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
-![captura de pantalla](images/world-enemy2.png)
+![screenshot](images/world-enemy2.png)
