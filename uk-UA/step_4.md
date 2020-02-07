@@ -2,9 +2,9 @@
 
 The `player` sprite should be able to walk through doors into other rooms.
 
-Ваш проект містить резерви для додаткових кімнат:
+Your project contains backdrops for additional rooms:
 
-![знімок екрану](images/world-backdrops.png)
+![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
