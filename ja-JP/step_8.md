@@ -1,6 +1,6 @@
-## 人
+## People
 
-あなたの `プレイヤー` スプライトが相互作用できる他の人々をあなたの世界に追加しましょう。
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
@@ -14,19 +14,18 @@ Switch to the `person` sprite.
 
 Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-![人](images/person.png)
+![person](images/person.png)
 
 ```blocks3
-旗がクリックされたとき
-はxに行きます：（0）y：（-150）
-永遠に
- < 触れたら
- （プレイヤーv） > その後、
-        [あなたはオレンジと黄色のドアを通って行くことができることを知っていますか？]と言う
-    他
-        []と言う
-    終了
-終了
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
+end
 ```
 
 \--- /task \---
@@ -38,18 +37,17 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 ![person](images/person.png)
 
 ```blocks3
-旗がクリックされたとき
-はxに行きます：（0）y：（-150）
-永遠に
- < 触れたら
- （プレイヤーv） > その後、
-        [あなたはオレンジと黄色のドアを通って行くことができることを知っていますか？]と言う
-    他
-        []と言う
-+移動が（1）の手順
-端に、バウンス場合は+
-    終了
-終了を
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
 ```
 
 \--- /task \---
