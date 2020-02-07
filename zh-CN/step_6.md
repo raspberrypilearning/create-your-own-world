@@ -1,8 +1,8 @@
-## 标志
+## Signs
 
-现在为您的世界添加标志，以指导玩家的旅程。
+Now add signs to your world to guide players on their journey.
 
-您的项目包含 `欢迎标志` 精灵：
+Your project includes a `welcome sign` sprite:
 
 ![screenshot](images/world-sign.png)
 
@@ -29,7 +29,7 @@ Here are the blocks you need:
 else
 end
 
-< （room :: variables）= [1] >
+< (room :: variables) = [1] >
 
 hide
 
@@ -51,14 +51,14 @@ Here is the complete code:
 ![sign](images/sign.png)
 
 ```blocks3
-当标志点击
-永远
-    如果 < （房间::变量）= [1] > 然后
-        显示
-    其他
-        隐藏
-    结束
-结束
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
+    end
+end
 ```
 
 \--- /hint \---
@@ -82,19 +82,19 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ![sign](images/sign.png)
 
 ```blocks3
-当标志点击
-永远
-如果 < （房间::变量）= [1] > 然后
-显示
-否则
-隐藏
-结束
-+如果 < 触摸（玩家v）？ > 然后
-说[欢迎！ 你能得到宝藏吗？]
-其他
-说[]
-结束
-结束
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
+end
 ```
 
 \--- /task \---
