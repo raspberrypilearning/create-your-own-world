@@ -53,11 +53,11 @@ end
 ```blocks3
 Όταν στην πράσινη σημαία γίνει κλικ
 για πάντα 
-  εάν <πατήθηκε το πλήκτρο (Πάνω βέλος v) :: sensing > τότε 
-    στρίψε προς την κατεύθυνση των (0) μοιρών :: motion
-    κινήσου (4) βήματα :: motion :: control
-  end
-  + εάν <πατήθηκε το πλήκτρο (αριστερό βέλος v) :: sensing > τότε 
+  εάν <πατήθηκε το πλήκτρο (Πάνω βέλος v) :: sensing > then
+        point in direction (0)
+        move (4) steps
+    end
++   if <key (left arrow v) pressed? > τότε 
   +   στρίψε προς την κατεύθυνση των (-90) μοιρών :: motion
   +   κινήσου (4) βήματα :: motion :: control
   + end :: control
@@ -112,11 +112,11 @@ Here is how your code should look:
     στρίψε προς την κατεύθυνση των (-90) μοιρών :: motion
     κινήσου (4) βήματα :: motion :: control
   end
-  + εάν <πατήθηκε το πλήκτρο (κάτω βέλος v) :: sensing > τότε 
-  +   στρίψε προς την κατεύθυνση των (180) μοιρών :: motion
-  +   κινήσου (4) βήματα :: motion :: control
-  + end
-  + εάν <πατήθηκε το πλήκτρο [δεξί βέλος v] :: sensing > τότε 
+  + εάν <πατήθηκε το πλήκτρο (κάτω βέλος v) :: sensing > then
+        point in direction (180)
+        move (4) steps
+    end
++    if <key (right arrow v) pressed? > τότε 
   +   στρίψε προς την κατεύθυνση των (90) μοιρών :: motion
   +   κινήσου (4) βήματα :: motion :: control
   + end :: control
