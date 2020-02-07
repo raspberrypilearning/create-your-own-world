@@ -1,4 +1,4 @@
-## Murs massissos
+## Solid walls
 
 \--- task \---
 
@@ -15,28 +15,28 @@ To fix this, you need to make the `player` sprite move back if it touches a ligh
 ![player](images/player.png)
 
 ```blocks3
-quan has fet clic a la bandera
-per sempre
-    si has apretat <tecles (fletxa amunt v)? > llavors
-        punt de direcció (0)
-        moure (4) passes
-    final
-  si has apretat <tecles (fletxa esquerra v)? > llavors
-        punt de direcció (-90)
-        moure (4) passes
-    final
-  si has apretat <tecles (fletxa avall v)? > llavors
-        punt de direcció (-180)
-        moure (4) passes
-    final
-  si has apretat <tecles [fletxa dreta v]? > llavors
-        punt de direcció (90)
-        moure (4) passes
-    final
-+ si < tocant el color [#BABABA]? > llavors
-    moure (-4) passes
-    final
-final
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+end
 ```
 
 \--- /task \---
