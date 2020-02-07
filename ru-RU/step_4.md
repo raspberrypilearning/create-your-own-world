@@ -1,14 +1,14 @@
-## Перемещение по миру
+## Move around your world
 
-Спрайт `игрок` должен иметь возможность проходить через двери в другие комнаты.
+The `player` sprite should be able to walk through doors into other rooms.
 
-Твой проект содержит фоны для дополнительных комнат:
+Your project contains backdrops for additional rooms:
 
 ![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
-Создайте новую переменную 'для всех спрайтов' под названием `комната`{:class="block3variables"}, чтобы знать, в какой комнате находится спрайт `игрок`.
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -23,32 +23,32 @@ When the `player` sprite touches the orange door in the first room, the game sho
 ![player](images/player.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-повторять всегда 
-  если <клавиша (стрелка вверх v) нажата? >, то 
-    повернуться в направлении (0)
-    идти (4) шагов
-  end
-  если <клавиша (стрелка влево v) нажата? >, то 
-    повернуться в направлении (-90)
-    идти (4) шагов
-  end
-  если <клавиша (стрелка вниз v) нажата? >, то 
-    повернуться в направлении (-180)
-    идти (4) шагов
-  end
-  если <клавиша [стрелка вправо v] нажата? >, то 
-    повернуться в направлении (90)
-    идти (4) шагов
-  end
-  если < касается цвета [#BABABA]? >, то 
-    идти (-4) шагов
-  end
-  + если < касается цвета [#F2A24A]?>, то 
-  +   переключить фон на (следующий фон v)
-  +   перейти в x: (-200) y: (0)
-  +   изменить [комната v] на (1)
-  + end
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
++   if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+    end
 end
 ```
 
@@ -66,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ Значение `комната`{:class = "block3variables"} должен быть установлен в `1`{:class = "block3variables"}
-+ `фон`{:class="block3looks"} должен быть установлен в `комната1`{:class="block3looks"}
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
@@ -79,11 +79,11 @@ Here are the extra blocks you need:
 ![player](images/player.png)
 
 ```blocks3
-перейти в x: (-200) y: (0)
+go to x: (-200) y: (0)
 
-задать [комната v] значение (1)
+set [room v] to (1)
 
-переключить фон на (комната1 v)
+switch backdrop to (room1 v)
 ```
 
 \--- /hint \---
@@ -95,35 +95,35 @@ Here's what your finished script should look like:
 ![player](images/player.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-+задать [комната v] значение (1)
-+перейти в x: (-200) y: (0)
-+переключить фон на (комната1 v)
-повторять всегда 
-  если <клавиша (стрелка вверх v) нажата? >, то 
-    повернуться в направлении (0)
-    идти (4) шагов
-  end
-  если <клавиша (стрелка влево v) нажата? >, то 
-    повернуться в направлении (-90)
-    идти (4) шагов
-  end
-  если <клавиша (стрелка вниз v) нажата? >, то 
-    повернуться в направлении (-180)
-    идти (4) шагов
-  end
-  если <клавиша [стрелка вправо v] нажата? >, то 
-    повернуться в направлении (90)
-    идти (4) шагов
-  end
-  если < касается цвета [#BABABA]? >, то 
-    идти (-4) шагов
-  end
-  если < касается цвета [#F2A24A]?>, то 
-    переключить фон на (следующий фон v)
-    перейти в x: (-200) y: (0)
-    изменить [комната v] на (1)
-  end
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (room1 v)
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+    if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+end
 end
 ```
 
