@@ -1,39 +1,39 @@
-## 挑戰：加入一個敵人
+## Challenge: add an enemy
 
-如果你願意，你也可以在你的遊戲中加入巡邏敵人。 如果 `玩家` 精靈觸及敵人，則遊戲結束。
+If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ 你的遊戲已包含 `敵人` 精靈。 將代碼添加到 `敵人` 精靈中，使其僅出現在房間2中。
++ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
 
-+ 添加代碼移動 `敵人` 精靈並結束遊戲如果 `敵人` 精靈接觸 `玩家` 精靈。 在單獨的代碼塊中執行此操作更容易。 以下是你的 `敵人` 精靈代碼的外觀：
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
 
 ```blocks3
-當標誌點擊
-永遠
-如果 <（房間::變量）=[2]> 然後
-顯示
-否則
-隱藏
+when flag clicked
+forever
+if <(room :: variables)=[2]> then
+show
+else
+hide
 
-當標記點擊
-永遠
-如果 <touching (player v)?> 然後
-停止[全v]
+when flag clicked
+forever
+if <touching (player v)?> then
+stop [all v]
 
-當標記點擊
-轉到x :( 170）y：（0）
-永遠
-重複（130）
-改變x乘（-1）
-結束
-重複（130）
-改變x乘以（1）
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
 ```
 
-+ 測試您的新代碼，以確保： 
-    + `敵人` 精靈只能在2號房間看到
-    + `敵人` 精靈巡邏房間
-    + 如果 `玩家` 精靈接觸 `敵人` 精靈，遊戲結束
++ Test out your new code to make sure that: 
+    + The `enemy` sprite only visible in room 2
+    + The `enemy` sprite patrols the room
+    + The game ends if the `player` sprite touches the `enemy` sprite
 
-你能在房間3中創造另一個 `敵人` 精靈，在牆上的間隙上下巡邏嗎？
+Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
 
-![截圖](images/world-enemy2.png)
+![screenshot](images/world-enemy2.png)
