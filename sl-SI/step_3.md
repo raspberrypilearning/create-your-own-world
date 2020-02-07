@@ -1,4 +1,4 @@
-## Trdne stene
+## Solid walls
 
 \--- task \---
 
@@ -15,28 +15,28 @@ To fix this, you need to make the `player` sprite move back if it touches a ligh
 ![player](images/player.png)
 
 ```blocks3
-ko kliknemo na zastavo
-ponavljaj
-  če <je pritisnjena tipka (puščica gor v)? > potem
-    obrni se v smer (0)
-    pojdi (4) korakov
-  konec
-če <je pritisnjena tipka (puščica levo v)? > potem
-    obrni se v smer (-90)
-    pojdi (4) korakov
-  konec
-+ če <je pritisnjena tipka (puščica dol v)? > potem
-    obrni se v smer (180)
-    pojdi (4) korakov
-  konec
-+ če <je pritisnjena tipka (puščica desno v)? > potem
-    obrni se v smer (90)
-    pojdi (4) korakov
-  konec
-+ če < se dotika barve [#BABABA]? > potem
-    pojdi (-4) korakov
-    konec
-konec
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key (right arrow v) pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
++   if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+end
 ```
 
 \--- /task \---
