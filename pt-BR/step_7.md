@@ -1,7 +1,7 @@
-## Desafio: tesouro!
+## Challenge: treasure!
 
-Você pode adicionar algum tesouro para o jogador encontrar?
+Can you add some treasure for the player to find?
 
-Faça o `treasure chest` aparecer apenas no quarto 3, e peça que este sprite diga 'Muito bem!' quando o `player` sprite tocá-lo.
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
 ![screenshot](images/world-treasure.png)
