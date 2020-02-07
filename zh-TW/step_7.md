@@ -1,7 +1,7 @@
-## 挑戰：珍惜！
+## Challenge: treasure!
 
-你能為玩家添加一些寶藏嗎？
+Can you add some treasure for the player to find?
 
-讓 `寶箱` 精靈只出現在3號房間，讓這個精靈說'幹得好！'當 `玩家` 精靈接觸它時。
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
-![截圖](images/world-treasure.png)
+![screenshot](images/world-treasure.png)
