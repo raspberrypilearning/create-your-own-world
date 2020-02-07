@@ -1,6 +1,6 @@
 ## People
 
-Adicione outras pessoas ao seu mundo com quem seu `player` sprite pode interagir.
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
