@@ -1,14 +1,14 @@
-## Mou-te pel teu món
+## Move around your world
 
-La icona `jugador ` hauria de poder entrar per les portes a altres habitacions.
+The `player` sprite should be able to walk through doors into other rooms.
 
-El teu projecte conté escenaris per a habitacions addicionals:
+Your project contains backdrops for additional rooms:
 
-![captura de pantalla](images/world-backdrops.png)
+![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
-Crea una nova variable "per a totes les icones" anomenada ` habitació ` {: class = "block3variables"} per fer un seguiment de en quina habitació està la icona ` jugador`.
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -23,33 +23,33 @@ When the `player` sprite touches the orange door in the first room, the game sho
 ![player](images/player.png)
 
 ```blocks3
-quan has fet clic a la bandera
-per sempre
-    si has apretat <tecles (fletxa amunt v)? > llavors
-        punt de direcció (0)
-        moure (4) passes
-    final
-  si has apretat <tecles (fletxa esquerra v)? > llavors
-        punt de direcció (-90)
-        moure (4) passes
-    final
-  si has apretat <tecles (fletxa avall v)? > llavors
-        punt de direcció (-180)
-        moure (4) passes
-    final
-  si has apretat <tecles [fletxa dreta v]? > llavors
-        punt de direcció (90)
-        moure (4) passes
-    final
- si < tocant el color [#BABABA]? > llavors
-    moure (-4) passes
-    final
-+ si < tocant color [# F2A24A] > llavors
-    canviar el teló de fons a (següent teló de fons v)
-    anar a x: (-200) y: (0)
-    canviar [habitació v] per (1)
-    final
-final
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
++   if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+    end
+end
 ```
 
 \--- /task \---
@@ -66,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ El valor de ` habitació ` {: class = "block3variables"} s'ha de definir a ` 1 ` {: class = "block3variables"}
-+ El ` telo de fons ` {: class = "block3variables"} s'ha de definir a ` habitació 1 ` {: class = "block3variables"}
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
@@ -79,11 +79,11 @@ Here are the extra blocks you need:
 ![player](images/player.png)
 
 ```blocks3
-ves a x: (-200) y: (0)
+go to x: (-200) y: (0)
 
-estableix [habitació v] a (1)
+set [room v] to (1)
 
-canvia el teló de fons a (habitació1 v)
+switch backdrop to (room1 v)
 ```
 
 \--- /hint \---
@@ -95,36 +95,36 @@ Here's what your finished script should look like:
 ![player](images/player.png)
 
 ```blocks3
-quan has fet clic a la bandera
-+ estableix [habitació v] a (1)
-+ ves a x: (-200) y: (0)
-+ canvia el teló de fons a (sala1 v)
-per sempre
-    si has apretat <tecles (fletxa amunt v)? > llavors
-        punt de direcció (0)
-        moure (4) passes
-    final
-  si has apretat <tecles (fletxa esquerra v)? > llavors
-        punt de direcció (-90)
-        moure (4) passes
-    final
-  si has apretat <tecles (fletxa avall v)? > llavors
-        punt de direcció (-180)
-        moure (4) passes
-    final
-  si has apretat <tecles [fletxa dreta v]? > llavors
-        punt de direcció (90)
-        moure (4) passes
-    final
- si < tocant el color [#BABABA]? > llavors
-    moure (-4) passes
-    final
-+ si < tocant color [# F2A24A] > llavors
-    canviar el teló de fons a (següent teló de fons v)
-    anar a x: (-200) y: (0)
-    canviar [habitació v] per (1)
-    final
-final
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (room1 v)
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+    if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+end
+end
 ```
 
 \--- /hint \---
