@@ -1,12 +1,12 @@
-## Zbierať mince
+## Collect coins
 
-Váš `hráč` by mal byť schopný zbierať mince pri pohybe po celom svete.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
 Add a new variable valled `coins`{:class="block3variables"} to your project.
 
-\--- / úloha \---
+\--- /task \---
 
 \--- task \---
 
@@ -23,12 +23,12 @@ Add code to your `coin` sprite so that it only appears in room 1.
 ![screenshot](images/coin.png)
 
 ```blocks3
-keď vlajka klikne
-navždy
-ak <(miestnosť :: premenné) =[1]> potom
-zobraziť
-iný
-skryť
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
+else
+hide
 ```
 
 \--- /task \---
@@ -40,11 +40,11 @@ Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} 
 ![coin](images/coin.png)
 
 ```blocks3
-keď vlajka klikne
-počká, až <touching (player v)?>
-zmení [mince v] podľa (1)
-skryť
-stop [iné skripty v sprite v]
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
 ```
 
 The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
@@ -58,8 +58,8 @@ Now add code to the Stage to set your `coins`{:class="block3variables"} variable
 ![stage](images/stage.png)
 
 ```blocks3
-keď príznakom kliknete na
-nastavíte [mince v] na hodnotu [0]
+when flag clicked
+set [coins v] to [0]
 ```
 
 \--- /task \---
