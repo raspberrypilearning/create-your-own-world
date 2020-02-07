@@ -1,6 +1,6 @@
 ## حوائط صلبة
 
-`اللاعب ` يجب أن يكون قادرا على التحرك عبر الأبواب للغرف الأخرى.
+The `player` sprite should be able to walk through doors into other rooms.
 
 يحتوي مشروعك على خلفيات لغرف إضافية:
 
@@ -8,7 +8,7 @@
 
 \--- task \---
 
-أنشىء متغير جديد لكل الكائنات يسمى الغرفة `room`{:class="blockdata"} لتتبع الغرفة التي يكون اللاعب `player` موجودا فيها.
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -66,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ قيمة الغرفة `room` {: class = "block3variables"} يجب تعيينه على ` 1 ` {: class = "block3variables"}
-+ قيمة `backdrop`{:class="block3looks"} يجب تعيينة علي `room1`{:class="block3looks"}
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
