@@ -1,3 +1,3 @@
-## 挑戰：回到上一個房間
+## Challenge: move back to the previous room
 
-當你接觸黃色的門時，你可以讓你的 `玩家` 精靈移回到前一個房間嗎？ 您需要的代碼與您已添加的代碼非常相似，以使精靈移動到下一個房間。
+Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
