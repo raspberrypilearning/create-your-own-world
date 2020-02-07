@@ -1,8 +1,8 @@
-## Čvrsti zidovi
+## Move around your world
 
 The `player` sprite should be able to walk through doors into other rooms.
 
-Tvoj projekat sadrži pozadine (backdrops) za dodatne sobe:
+Your project contains backdrops for additional rooms:
 
 ![screenshot](images/world-backdrops.png)
 
