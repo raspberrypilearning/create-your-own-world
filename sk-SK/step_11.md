@@ -1,4 +1,4 @@
-## Dvere a kľúče
+## Doors and keys
 
 Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
@@ -26,7 +26,7 @@ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere diffi
 
 Add code to the `key` sprite to make it only visible in room 3.
 
-\--- / úloha \---
+\--- /task \---
 
 \--- task \---
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-keď vlajka klikne
-čakajte, až <touching (player v)?>
-pridajte [blue key] do [inventory v]
-skryť
-stop [iné skripty v sprite v]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ stop [iné skripty v sprite v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-odstrániť (všetky v) položky [inventár v]
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-keď má príznak
-počkajte, kým <[inventár v] neobsahuje [modrý kľúč]?>
-stop [iné skripty v sprite v]
-skryť
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 \--- /task \---
