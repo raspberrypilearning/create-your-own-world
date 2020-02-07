@@ -1,3 +1,3 @@
 ## برمجة عالمك
 
-هل يمكنك أن تجعل `اللاعب` يتحرك إلى الغرفة السابقة عندما يلمس بابًا أصفر؟ التعليمة البرمجية التي تحتاج إليها مماثلة لتعليمة البرمجية التي اضفتها للتحريك الكائن إلى الغرفة التالية.
+Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
