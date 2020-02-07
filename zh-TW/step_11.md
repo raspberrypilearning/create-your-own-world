@@ -1,4 +1,4 @@
-## 門和鑰匙
+## Doors and keys
 
 Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
@@ -26,7 +26,7 @@ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere diffi
 
 Add code to the `key` sprite to make it only visible in room 3.
 
-\--- /任務\---
+\--- /task \---
 
 \--- task \---
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-當標記點擊
-等待 <touching (player v)?>
-添加[藍色鍵]到[庫存v]
-隱藏
-停止[其他腳本在精靈v]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ The code you need to add for collecting the key is very similar to the code for 
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-刪除[所有v]的[庫存v]
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-當標誌點擊
-等待 <[庫存v]包含[藍鍵]？>
-停止[精靈v中的其他腳本]
-隱藏
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 \--- /task \---
