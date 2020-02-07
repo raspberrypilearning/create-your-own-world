@@ -1,10 +1,10 @@
-## 移動玩家精靈
+## Move the player sprite
 
-首先創建一個可以在你的世界中移動的 `玩家` 精靈。
+Start by creating a `player` sprite that can move around your world.
 
-\---任務\---
+\--- task \---
 
-打開“創建您自己的世界” Scratch 啟動項目。
+Open the 'Create your own world' Scratch starter project.
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
@@ -25,13 +25,13 @@ Add this code to the `player` sprite:
 ![player](images/player.png)
 
 ```blocks3
-當標誌點擊
-永久
-    如果按下 <鍵（向上箭頭v）？ > 然後
-        點方向（0）
-        移動（4）步驟
-    結束
-結束
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+end
 ```
 
 \--- /task \---
@@ -51,17 +51,17 @@ To move the `player` sprite to the left, you need to add another `if`{:class="bl
 ![player](images/player.png)
 
 ```blocks3
-當標誌點擊
-永久
-    如果按下 <鍵（向上箭頭v）？ > 然後
-        點方向（0）
-        移動（4）步驟
-    結束
-+如果按下 <鍵（左箭頭v）？ > 然後
-        點方向（-90）
-        移動（4）步驟
-    結束
-結束
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
++   if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+end
 ```
 
 \--- /task \---
@@ -89,7 +89,7 @@ You need to change these two blocks:
 ```blocks3
 <key ( v) pressed>
 
-點方向（）
+point in direction ()
 ```
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
@@ -103,26 +103,26 @@ Here is how your code should look:
 ![player](images/player.png)
 
 ```blocks3
-當標誌點擊
-永久
-    如果按下 <鍵（向上箭頭v）？ > 然後
-        點方向（0）
-        移動（4）步驟
-    結束
-    如果按下 <鍵（左箭頭v）？ > 然後
-        點方向（-90）
-        移動（4）步驟
-    結束
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
 
-+如果按下 <鍵（向下箭頭v）？ > 然後
-        點方向（180）
-        移動（4）步驟
-    結束
-+如果按下 <鍵[右箭頭v]？ > 然後
-        點方向（90）
-        移動（4）步驟
-    結束
-結束
++    if <key (down arrow v) pressed? > then
+        point in direction (180)
+        move (4) steps
+    end
++    if <key [right arrow v] pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+end
 ```
 
 \--- /hint \---
