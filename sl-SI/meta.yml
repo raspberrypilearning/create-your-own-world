@@ -1,39 +1,39 @@
 ---
 hero_image: images/banner.png
-title: Ustvari svoj lastni svet
-description: Ustvari svojo lastno avanturo z odprtim svetom
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Uvod
+    title: Introduction
   - 
-    title: Premikanje igralčeve figure
+    title: Move the player sprite
   - 
-    title: Trdne stene
+    title: Solid walls
   - 
-    title: Premikanje po tvojem svetu
+    title: Move around your world
   - 
-    title: "Izziv: pojdi nazaj v prejšnjo sobo"
+    title: "Challenge: move back to the previous room"
     challenge: true
   - 
-    title: Znaki
+    title: Signs
   - 
-    title: "Izziv: zaklad!"
+    title: "Challenge: treasure!"
     challenge: true
   - 
-    title: Ljudje
+    title: People
   - 
-    title: "Izziv: sovražniki"
+    title: "Challenge: enemies"
     challenge: true
   - 
-    title: Zbiraj kovance
+    title: Collect coins
   - 
-    title: Vrata in ključi
+    title: Doors and keys
   - 
-    title: "Izziv: razširi tvoj svet"
+    title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "Kaj sledi?"
+    title: "What next?"
