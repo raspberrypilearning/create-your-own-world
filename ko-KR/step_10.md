@@ -1,6 +1,6 @@
-## 코인 모으기
+## Collect coins
 
-`플레이어` 스프라이트는 세계를 통과하면서 동전을 수집 할 수 있어야합니다.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
@@ -23,12 +23,12 @@ Add code to your `coin` sprite so that it only appears in room 1.
 ![screenshot](images/coin.png)
 
 ```blocks3
-flag를 클릭했을때
-영원히
-만약 <(방 :: 변수)=[1]> 그러면
-보여주기
+when flag clicked
+forever
+if <(room :: variables)=[1]> then
+show
 else
-숨기기
+hide
 ```
 
 \--- /task \---
@@ -40,11 +40,11 @@ Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} 
 ![coin](images/coin.png)
 
 ```blocks3
-flag클릭 시
-기다리기 <touching (player v)?>
-[coins v] 를 (1) 로 바꾸기
-숨기기
-[스프라이트v의 다른 스크립트들] 멈추기
+when flag clicked
+wait until <touching (player v)?>
+change [coins v] by (1)
+hide
+stop [other scripts in sprite v]
 ```
 
 The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
@@ -58,8 +58,8 @@ Now add code to the Stage to set your `coins`{:class="block3variables"} variable
 ![stage](images/stage.png)
 
 ```blocks3
-flag 클릭했을 때
-[coins v] 를 [0] 으로 설정하기
+when flag clicked
+set [coins v] to [0]
 ```
 
 \--- /task \---
