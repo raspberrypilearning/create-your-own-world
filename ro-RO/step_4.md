@@ -1,14 +1,14 @@
-## Mișcă-te în jurul lumii tale
+## Move around your world
 
-`Personajul` ar trebui să poată să treacă prin uși în alte camere.
+The `player` sprite should be able to walk through doors into other rooms.
 
-Proiectul tău conține fundaluri pentru noi camere:
+Your project contains backdrops for additional rooms:
 
-![captură de ecran](images/world-backdrops.png)
+![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
-Crează o nouă variabilă „pentru toate personajele” numită `room`{:class="block3variables"} pentru a monitoriza în care dintre camere se află `personajul`.
+Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -66,8 +66,8 @@ Add code to the **start** of your `player` sprite code above the `forever`{:clas
 
 When the game starts:
 
-+ Valoarea `room`{:class="block3variables"} ar trebui setată ca `1`{:class="block3variables"}
-+ Fundalul `backdrop`{:class="block3looks"} ar trebui setat ca `room1`{:class="block3looks"}
++ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
++ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
 + The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
