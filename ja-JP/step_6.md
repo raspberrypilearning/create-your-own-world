@@ -1,14 +1,14 @@
-## サイン
+## Signs
 
-今すぐあなたの世界にサインを追加して、プレイヤーを彼らの旅に導いてください。
+Now add signs to your world to guide players on their journey.
 
-あなたのプロジェクトには、 `ウェルカムサイン` スプライトが含まれてい` 。</p>
+Your project includes a `welcome sign` sprite:
 
-<p><img src="images/world-sign.png" alt="スクリーンショット" /></p>
+![screenshot](images/world-sign.png)
 
-<p>--- task ---</p>
+\--- task \---
 
-<p>The <code>welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
 \--- hints \---
 
@@ -25,20 +25,20 @@ Here are the blocks you need:
 ![sign](images/sign.png)
 
 ```blocks3
-<br />場合 < > 、次いで
-他の
-末端
+<br />if < > then
+else
+end
 
-< （部屋::変数）= [1] >
+< (room :: variables) = [1] >
 
-隠す
+hide
 
-ショー
+show
 
-永久
-の端部
+forever
+end
 
-フラグがクリックしたとき
+when flag clicked
 
 ```
 
@@ -51,12 +51,12 @@ Here is the complete code:
 ![sign](images/sign.png)
 
 ```blocks3
-flagが永遠に
-クリックしたとき
- < （room :: variables）= [1] >
-        >
-    それ以外のとき
-        隠す
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
     end
 end
 ```
@@ -82,19 +82,19 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ![sign](images/sign.png)
 
 ```blocks3
-flagが永遠に
-クリックしたとき
- < （room :: variables）= [1] >
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
 show
 else
 hide
 end
-+ < タッチしている場合（プレーヤーv） > それから
-と言う[ようこそ！ あなたは宝物に得ることができますか？]
-他
-[]と言う
-エンド
-終了
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
+end
 ```
 
 \--- /task \---
