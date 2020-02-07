@@ -98,9 +98,9 @@ Duplica il codice che muove lo sprite `player` verso l'alto e cambia questi due 
 
 \--- hint \---
 
-Here is how your code should look:
+Il tuo codice dovrebbe essere più o meno così:
 
-![player](images/player.png)
+![giocatore](images/player.png)
 
 ```blocks3
 quando si clicca sulla bandiera verde
@@ -114,11 +114,11 @@ per sempre
     fai (4) passi
   end
 
-  + se <tasto (down arrow v) premuto? > allora 
-punta in direzione (180)
-fai (4) passi
-end
-+ se <tasto [freccia destra v] premuto? > allora 
+  + se <tasto (down arrow v) premuto? > then
+        point in direction (180)
+        move (4) steps
+    end
++    if <key (right arrow v) pressed? > allora 
 punta in direzione (90)
 fai (4) passi
 end
