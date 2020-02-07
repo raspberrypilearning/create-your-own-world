@@ -1,8 +1,8 @@
-## Znakovi
+## Signs
 
 Now add signs to your world to guide players on their journey.
 
-Tvoj projekat sadrži lik `znaka dobrodošlice`:
+Your project includes a `welcome sign` sprite:
 
 ![screenshot](images/world-sign.png)
 
