@@ -1,10 +1,10 @@
-## プレーヤーのスプライトを移動する
+## Move the player sprite
 
-あなたの世界を動き回ることができる `プレイヤー` スプライトを作成することから始めます。
+Start by creating a `player` sprite that can move around your world.
 
 \--- task \---
 
-'Create your own world'スクラッチスタータープロジェクトを開きます。
+Open the 'Create your own world' Scratch starter project.
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
@@ -25,14 +25,13 @@ Add this code to the `player` sprite:
 ![player](images/player.png)
 
 ```blocks3
-<キー（上向き矢印v）が押されたらフラグが永久に
-クリックしたとき
- > から
-        方向に
-ポイント（0）
-        移動（4）ステップ
-    終了
-終了
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+end
 ```
 
 \--- /task \---
@@ -52,18 +51,17 @@ To move the `player` sprite to the left, you need to add another `if`{:class="bl
 ![player](images/player.png)
 
 ```blocks3
-<キー（上向き矢印v）が押されたらフラグが永久に
-クリックしたとき
- > 次に方向
-        指す（0）
-        移動する（4）ステップ
-    終了
-+ <キー（左矢印v）を押すと？ > から
-        方向に
-ポイント（-90）
-        移動（4）ステップ
-    終了
-終了
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
++   if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+end
 ```
 
 \--- /task \---
@@ -91,7 +89,7 @@ You need to change these two blocks:
 ```blocks3
 <key ( v) pressed>
 
-方向のポイント（）
+point in direction ()
 ```
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
@@ -105,27 +103,26 @@ Here is how your code should look:
 ![player](images/player.png)
 
 ```blocks3
-<キー（上向き矢印v）が押されたらフラグが永久に
-クリックしたとき
- > 次に方向
-        指す（0）
-        移動する（4）ステップ
-    終了
- <キー（左矢印v）を押すと？ > から
-        方向に
-ポイント（-90）
-        移動（4）ステップ
-    終了
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
 
-+ <キー（下矢印v）が押されたら > そして
-        方向を向く（180）
-        動く（4）ステップ
-    終了
-+ <キー[右矢印v]が押されたら？ > 方向に
-        ポイント（90）
-        移動（4）ステップ
-    終了
-終了
++    if <key (down arrow v) pressed? > then
+        point in direction (180)
+        move (4) steps
+    end
++    if <key (right arrow v) pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+end
 ```
 
 \--- /hint \---
