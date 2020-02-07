@@ -1,4 +1,4 @@
-## Osobe
+## People
 
 Add other people to your world who your `player` sprite can interact with.
 
