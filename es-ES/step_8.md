@@ -1,6 +1,6 @@
 ## Personas
 
-Añade otras personas a tu mundo con las que tu objeto `jugador` puede interactuar.
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
@@ -14,17 +14,17 @@ Switch to the `person` sprite.
 
 Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-![persona](images/person.png)
+![person](images/person.png)
 
 ```blocks3
-al presionar la bandera verde
-ir a x: (0) y: (-150)
-por siempre 
-  si <¿tocando (jugador v)? > entonces 
-    decir [¿Sabías que puedes atravesar las puertas naranjas y amarillas?]
-  en otro caso
-    decir []
-  end
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
 end
 ```
 
@@ -37,17 +37,17 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 ![person](images/person.png)
 
 ```blocks3
-al presionar la bandera verde
-ir a x: (0) y: (-150)
-por siempre 
-  si <¿tocando (jugador v)? > entonces 
-    decir [¿Sabías que puedes atravesar las puertas naranjas y amarillas?]
-  en otro caso
-    decir []
-+       mover  (1) paso
-+       si está en el borde, rebotar
-  fin
-fin
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
 ```
 
 \--- /task \---
