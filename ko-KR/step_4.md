@@ -4,7 +4,7 @@ The `player` sprite should be able to walk through doors into other rooms.
 
 Your project contains backdrops for additional rooms:
 
-![스크린샷](images/world-backdrops.png)
+![screenshot](images/world-backdrops.png)
 
 \--- task \---
 
