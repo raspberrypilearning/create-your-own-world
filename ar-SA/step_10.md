@@ -1,6 +1,6 @@
 ## جمع العملات الذهبية
 
-` لاعبك` يجب أن يكون قادراً على جمع العملات المعدنية أثناء تحركه عبر العالم.
+Your `player` sprite should have be able to collect coins as it moves through the world.
 
 \--- task \---
 
