@@ -1,6 +1,6 @@
-## Uși și chei
+## Doors and keys
 
-Acum vei adăuga cod, astfel încât unele dintre ușile din lumea ta să fie încuiate, iar jucătorul trebuie să găsească cheia pentru a le deschide și a ajunge în camera următoare.
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \---
 
