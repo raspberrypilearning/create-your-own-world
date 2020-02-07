@@ -1,6 +1,6 @@
-## 门和钥匙
+## Doors and keys
 
-现在，您将添加代码，以便游戏世界中的某些门被锁定，并且玩家必须找到钥匙才能打开它们并进入下一个房间。
+Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
 \--- task \---
 
@@ -43,11 +43,11 @@ The code you need to add for collecting the key is very similar to the code for 
 ![key](images/key.png)
 
 ```blocks3
-当标记点击
-等待 <touching (player v)?>
-添加[蓝色键]到[库存v]
-隐藏
-停止[其他脚本在精灵v]
+when flag clicked
+wait until <touching (player v)?>
+add [blue key] to [inventory v]
+hide
+stop [other scripts in sprite v]
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ The code you need to add for collecting the key is very similar to the code for 
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-删除[所有v]的[库存v]
+delete (all v) of [inventory v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-当标志点击
-等待 <[库存v]包含[蓝键]？>
-停止[精灵v中的其他脚本]
-隐藏
+when flag clicked
+wait until <[inventory v] contains [blue key]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 \--- /task \---
