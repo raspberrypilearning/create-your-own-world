@@ -1,67 +1,67 @@
-\---沒有印刷\---
+\--- no-print \---
 
-這是該項目的 **Scratch 3** 版本。 項目</a>還有一個 Scratch 2版本。</p> 
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
-\--- /無印刷\---
+\--- /no-print \---
 
-## 介紹
+## Introduction
 
-在這個項目中，您將學習如何創建自己的冒險遊戲世界，探索多個級別。
+In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### 你要做什麼
+### What you will make
 
-\---不作列印\---
+\--- no-print \---
 
-單擊綠色標誌開始。 使用箭頭鍵在世界中移動角色。
+Click the green flag to start. Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
-\--- /不作列印\---
+\--- /no-print \---
 
-\---僅列印\---
+\--- print-only \---
 
-您將使用箭頭鍵在世界中移動角色。 ![showcase.png](images/showcase.png)
+You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
 
-\--- /僅列印\---
+\--- /print-only \---
 
-## - - 坍方 - -
+## \--- collapse \---
 
-## 標題：你會用到
+## title: What you will need
 
-### 硬體
+### Hardware
 
-- 可運行 Scratch 3 的電腦
+- A computer capable of running Scratch 3
 
-### 軟體
+### Software
 
-- 從頭開始3（ [在線](http://rpf.io/scratchon){：target =“_ blank”}或 [離線](http://rpf.io/scratchoff){：target =“_ blank”}）
+- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-### 下載
+### Downloads
 
-您可以在 [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go)找到完成此項目所需的一切。
+You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
-- - /坍方 - -
+\--- /collapse \---
 
-## - - 坍方 - -
+## \--- collapse \---
 
-## 標題：你會學到
+## title: What you will learn
 
-- 使用條件選擇來對按鍵做出反應
-- 使用變量來存儲遊戲的狀態
-- 根據變量的值使用條件選擇
-- 使用列表存儲數據
+- Use conditional selection to react to key presses
+- Use variables to store a game's state
+- Use conditional selection based on the value of a variable
+- Use lists to store data
 
-- - /坍方 - -
+\--- /collapse \---
 
-## - - 坍方 - -
+## \--- collapse \---
 
-## 標題：教育工作者的附加信息
+## title: Additional information for educators
 
-如果您需要打印此項目，請使用 [打印機友好版本](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){：target =“_ blank”}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
 You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
-- - /坍方 - -
+\--- /collapse \---
