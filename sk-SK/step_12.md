@@ -1,28 +1,28 @@
-## Výzva: rozšírte svoj svet
+## Challenge: extend your world
 
-Teraz môžete pokračovať vo vytváraní vlastného sveta! Tu je niekoľko nápadov:
+You can now continue creating your own world! Here are some ideas:
 
-+ Pridajte do svojej hry viac mincí v rôznych miestnostiach. Môžete nechať niektoré mince byť strážené hliadkami nepriateľov?
-+ Zmeňte zázemie svojej hry
-+ Pridajte zvuk a hudbu do hry
-+ Pridajte ďalších ľudí, nepriateľov a znakov
-+ Pridajte červené a žlté dvere a špeciálne klávesy na ich otvorenie
-+ Pridajte ďalšie priestory do vášho sveta
-+ Pridajte do hry ďalšie užitočné položky
++ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
++ Change your game's backdrops
++ Add sound and music to your game
++ Add more people, enemies, and signs
++ Add red and yellow doors, and special keys to open them
++ Add more rooms to your world
++ Add other useful items to your game
     
-    + Použite mince na získanie informácií od iných ľudí:
+    + Use coins to get information from other people:
 
-![snímka obrazovky](images/world-bribe.png)
+![screenshot](images/world-bribe.png)
 
-+ Môžete dokonca pridať dvere do severnej a južnej steny miestnosti 1, aby sa hráč mohol pohybovať medzi miestnosťami vo všetkých štyroch smeroch. Napríklad vaša hra môže mať deväť miestností v 3 × 3 mriežke. Potom môžete pridať `3` do čísla miestnosti, aby ste sa posunuli o jednu úroveň nadol.
++ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
-![snímka obrazovky](images/north-south-rooms.png)
+![screenshot](images/north-south-rooms.png)
 
 ![screenshot](images/number-grid.png)
 
 ```blocks3
-ak <touching color [ ]?> potom
-spínací kulisu ((kroj [číslo v]) + (3)),
-prejsť na x: (0) y: (200)
-zmena [miestnosti v] o (3)
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [room v] by (3)
 ```
