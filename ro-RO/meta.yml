@@ -1,39 +1,39 @@
 ---
 hero_image: images/banner.png
-title: Crează-ți propria lume
-description: Crează-ți propriul joc de aventură
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Introducere
+    title: Introduction
   - 
-    title: Mută personajul
+    title: Move the player sprite
   - 
-    title: Pereți solizi
+    title: Solid walls
   - 
-    title: Mișcă-te în jurul lumii tale
+    title: Move around your world
   - 
-    title: "Provocare: întoarce-te în camera precedentă"
+    title: "Challenge: move back to the previous room"
     challenge: true
   - 
-    title: Semne
+    title: Signs
   - 
-    title: "Provocare: comoară!"
+    title: "Challenge: treasure!"
     challenge: true
   - 
-    title: Persoane
+    title: People
   - 
-    title: "Provocare: inamici"
+    title: "Challenge: enemies"
     challenge: true
   - 
-    title: Adună monede
+    title: Collect coins
   - 
-    title: Uși și chei
+    title: Doors and keys
   - 
-    title: "Provocare: extinde-ți lumea"
+    title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "Ce urmează?"
+    title: "What next?"
