@@ -1,6 +1,6 @@
 ## Challenge: extend your world
 
-You can now continue creating your own world! මෙන්න අදහස් කිහිපයක්:
+You can now continue creating your own world! Here are some ideas:
 
 + Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
 + Change your game's backdrops
@@ -12,11 +12,11 @@ You can now continue creating your own world! මෙන්න අදහස් �
     
     + Use coins to get information from other people:
 
-![තිර රුව(screenshot)](images/world-bribe.png)
+![screenshot](images/world-bribe.png)
 
 + You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
-![තිර රුව(screenshot)](images/north-south-rooms.png)
+![screenshot](images/north-south-rooms.png)
 
 ![screenshot](images/number-grid.png)
 
