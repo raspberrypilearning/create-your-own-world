@@ -1,39 +1,39 @@
 ---
 hero_image: images/banner.png
-title: 創造屬於自己的世界
-description: 創建自己的開放世界冒險遊戲
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
-last_tested: 2018年10月23日
+last_tested: 2018-10-23
 steps:
   - 
-    title: 介紹
+    title: Introduction
   - 
-    title: 移動玩家精靈
+    title: Move the player sprite
   - 
-    title: 堅固的牆壁
+    title: Solid walls
   - 
-    title: 走動你的世界
+    title: Move around your world
   - 
-    title: "挑戰：回到上一個房間"
+    title: "Challenge: move back to the previous room"
     challenge: true
   - 
-    title: 跡象
+    title: Signs
   - 
-    title: "挑戰：珍惜！"
+    title: "Challenge: treasure!"
     challenge: true
   - 
-    title: 人
+    title: People
   - 
-    title: "挑戰：敵人"
+    title: "Challenge: enemies"
     challenge: true
   - 
-    title: 收集硬幣
+    title: Collect coins
   - 
-    title: 門和鑰匙
+    title: Doors and keys
   - 
-    title: "挑戰：拓展你的世界"
+    title: "Challenge: extend your world"
     challenge: true
   - 
-    title: "接下來是什麼？"
+    title: "What next?"
