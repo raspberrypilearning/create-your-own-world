@@ -1,6 +1,6 @@
-## 人
+## People
 
-將您的 `玩家` 精靈可以與之互動的其他人添加到您的世界。
+Add other people to your world who your `player` sprite can interact with.
 
 \--- task \---
 
@@ -14,21 +14,21 @@ Switch to the `person` sprite.
 
 Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-![人](images/person.png)
+![person](images/person.png)
 
 ```blocks3
-當標誌點擊
-轉到x：（0）y：（ -  150）
-永遠
-    如果 < 觸及（玩家v）？ > 然後
-        說[你知道你可以通過橙色和黃色的門嗎？]
-    其他
-        說[]
-    結束
-結束
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
+    end
+end
 ```
 
-\--- /任務\---
+\--- /task \---
 
 \--- task \---
 
@@ -37,17 +37,17 @@ Allow your `person` sprite to move by adding these two blocks in the `else`{:cla
 ![person](images/person.png)
 
 ```blocks3
-當標誌點擊
-轉到x：（0）y：（ -  150）
-永遠
-    如果 < 觸及（玩家v）？ > 然後
-        說[你知道你可以通過橙色和黃色的門嗎？]
-    其他
-        說[]
-+移動（1）步驟
-+如果在邊緣，反彈
-    結束
-結束
+when flag clicked
+go to x: (0) y: (-150)
+forever
+    if < touching (player v)? > then
+        say [Did you know that you can go through orange and yellow doors?]
+    else
+        say []
++       move (1) steps
++       if on edge, bounce
+    end
+end
 ```
 
 \--- /task \---
