@@ -25,11 +25,11 @@ si <touche (flèche de gauche v) pressée ? > alors
         s'orienter en direction de (-90)
         avancer de (4) pas
     end
-        si < touche (flèche du bas v) pressée ? > alors
-        s'orienter en direction de (-180)
-        avancer de (4) pas
+        si < touche (flèche du bas v) pressée ? > then
+        point in direction (-180)
+        move (4) steps
     end
-        si <touche [flèche de droite v] pressée? > alors
+        if <key (right arrow v) pressed? > alors
         s'orienter en direction de (90)
         avancer de (4) pas
     end
