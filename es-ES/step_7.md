@@ -2,6 +2,6 @@
 
 ¿Puedes añadir un tesoro para que el jugador lo encuentre?
 
-Haz que el objeto `cofre del tesoro` solo aparezca en la habitación 3, y haz que diga '¡Bien hecho!' cuando lo toque el objeto `jugador`.
+Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
 
 ![captura de pantalla](images/world-treasure.png)
