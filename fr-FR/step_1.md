@@ -15,7 +15,7 @@ Dans ce projet, tu apprendras à créer ton propre monde de jeu d’aventure ave
 Clique sur le drapeau vert pour démarrer. Utilise les flèches pour déplacer ton personnage dans son monde.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/369629078/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
