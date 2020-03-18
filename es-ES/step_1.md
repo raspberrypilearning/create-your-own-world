@@ -6,7 +6,7 @@ Esta es una versión de **Scratch 3** del proyecto. También hay una [versión d
 
 ## Introducción
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+En este proyecto, aprenderás cómo crear tu propio juego de aventuras con múltiples niveles para explorar.
 
 ### Lo que harás
 
@@ -23,7 +23,7 @@ Haz clic en la bandera verde para empezar. Utiliza las teclas de flecha para mov
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Utiliza los cursores, teclas de flechas, para mover a tu personaje por el mundo. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ### Descargas
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Puede encontrar todo lo necesario para completar este proyecto en [ rpf.io/p/en/create-your-own-world-go ](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
@@ -49,10 +49,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## title: Lo que vas a aprender
 
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+- Usa la selección condicional para reaccionar a pulsaciones de teclas
+- Usar variables para almacenar el estado del juego
+- Usar selección condicional basada en el valor de una variable
+- Usar listas para almacenar datos
 
 \--- /collapse \---
 
@@ -62,6 +62,6 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Puedes [encontrar el proyecto completo aquí](https://rpf.io/p/en/create-your-own-world-get){:target ="_blank"}.
 
 \--- /collapse \---
