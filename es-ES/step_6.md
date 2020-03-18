@@ -1,44 +1,44 @@
 ## Señales
 
-Now add signs to your world to guide players on their journey.
+Añadamos señales a tu mundo para guiar al jugador en su viaje.
 
-Tu proyecto incluye un objeto `saludo`:
+Tu proyecto incluye un objeto `señal`:
 
 ![captura de pantalla](images/world-sign.png)
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+El objeto `signo de bienvenida` sólo debe ser visible en la sala 1, así que añade un poco de código al objeto para asegurarte de que ocurre:
 
 \--- hints \---
 
 \--- hint \---
 
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+`Cuando se hace clic en la bandera `{:class="block3events"}, en un bucle `para siempre`{:class="block3control"}, marca `si`{:class="block3control"} la `habitación es 1`{:class="block3variables"} y en ese caso `muestra`{:class="block3looks"} el objeto` signo de bienvenida `, `en otro caso`{:class="block3control"} `ocultar`{:class="block3looks"} el objeto.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aquí están los bloques que necesitas:
 
-![sign](images/sign.png)
+![señal](images/sign.png)
 
 ```blocks3
-<br />if < > then
-else
-end
+<br />si < > entonces
+en otro caso
+fin
 
 < (room :: variables) = [1] >
 
-hide
+ocultar
 
-show
+mostrar
 
-forever
-end
+para siempre
+fin
 
-when flag clicked
+cuando se hace clic en la bandera
 
 ```
 
@@ -46,19 +46,19 @@ when flag clicked
 
 \--- hint \---
 
-Here is the complete code:
+Aquí está el programa completo:
 
-![sign](images/sign.png)
+![señal](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
+al hacer click en la bandera
+para siempre
+    si < (room :: variables) = [1] > entonces
+        mostrar
+    en otro caso
+        ocultar
+    fin
+fin
 ```
 
 \--- /hint \---
@@ -69,40 +69,40 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Prueba el código para tu objeto `señal de bienvenida` moviendo entre las habitaciones. Tu señal solo debe ser visible en la habitación 1.
 
-![screenshot](images/world-sign-test.png)
+![captura de pantalla](images/world-sign-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+¡Una señal no es muy útil si no dice nada! Añade un poco más de código para mostrar un mensaje si el objeto `señal` es tocado por el objeto `jugador`:
 
-![sign](images/sign.png)
+![señal](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
+al hacer click en la bandera
+para siempre
+ si < (room :: variables) = [1] > entonces
+ mostrar
+ en otro caso
+ ocultar
+ fin
++ si < tocando al (jugador v)? > entonces
+decir [¡Bienvenido! ¿Puedes llegar al tesoro?]
+más
+decir []
+fin
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Prueba tu objeto `símbolo de bienvenida` de nuevo. Ahora deberías ver un mensaje cuando el objeto `jugador` toca el objeto `señal`.
 
-![screenshot](images/world-sign-test2.png)
+![captura de pantalla](images/world-sign-test2.png)
 
 \--- /task \---
