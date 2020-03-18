@@ -1,7 +1,7 @@
-## Challenge: treasure!
+## 挑戰：寶藏！
 
-Can you add some treasure for the player to find?
+你能增加一些讓玩家尋找的寶藏嗎？
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+讓`藏寶箱`角色只會在空間3出現，當`玩家`角色碰到它時，會說出「好棒棒！」。
 
-![screenshot](images/world-treasure.png)
+![截圖](images/world-treasure.png)
