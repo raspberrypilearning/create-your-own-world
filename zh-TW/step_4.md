@@ -1,53 +1,53 @@
-## Move around your world
+## 在你的世界逛逛
 
-The `player` sprite should be able to walk through doors into other rooms.
+`玩家`角色應該要能通過門進入其它的空間。
 
-Your project contains backdrops for additional rooms:
+你的專案包含了其它空間的背景：
 
-![screenshot](images/world-backdrops.png)
+![截圖](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+創建一個「適用於所有角色」的變數，名稱叫做`空間`{:class="block3variables"}，用這個變數來紀錄`玩家`走到了哪個空間。
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![截圖](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+當`玩家`角色碰到了第一個空間裡的橙色門，遊戲應該要顯示下一個背景，`玩家`應該被定位到舞台的最左邊。 為`玩家`角色添加程式到`重複無限次`{:class="block3control"}迴圈裡：
 
-![player](images/player.png)
+![玩家](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
+當 @greenflag 被點擊
+重複無限次
+    如果 <(向上 v) 鍵被按下？ > 那麼
+        面朝 (0) 度
+        移動 (4) 點
     end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
+    如果 <(向左 v) 鍵被按下？ > 那麼
+        面朝 (-90) 度
+        移動 (4) 點
     end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
+    如果 <(向下 v) 鍵被按下？ > 那麼
+        面朝 (180) 度
+        移動 (4) 點
     end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
++    如果 <(向右 v) 鍵被按下？ > 那麼
+        面朝 (90) 度
+        移動 (4) 點
     end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
+    如果 <碰到顏色 (#BABABA)？ > 那麼
+    移動 (-4) 點
     end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
++    如果 <碰到顏色 (#F2A24A)？> 那麼
+    背景換成 (下一個背景 v)
+    定位到 x:(0) y:(0)
+    變數 [空間 v] 改變 (1)
     end
 end
 ```
@@ -56,73 +56,73 @@ end
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+每次遊戲的一開始，角色所處空間、角色的位置、背景都要重新設置。
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+把**初始**的程式添加到`玩家`角色的`重複無限次`{:class="block3control"}積木上面，這樣一來，當點擊綠旗時，所有東西都會被重置。
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+當遊戲開始運行時：
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ `空間`{:class="block3variables"}的值應該設定為 `1`{:class="block3variables"}
++ `背景`{:class="block3looks"}應該被設定成 `空間1`{:class="block3looks"}
++ `玩家`角色的位置應該設定為 `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the extra blocks you need:
+這裡是你需要的程式積木：
 
-![player](images/player.png)
+![玩家](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+定位到 x:(-200) y:(0)
 
-set [room v] to (1)
+變數 [空間 v] 設為 (1)
 
-switch backdrop to (room1 v)
+背景換成 (空間1 v)
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here's what your finished script should look like:
+你的程式看起來應該像這樣：
 
-![player](images/player.png)
+![玩家](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
+當 @greenflag 被點擊
++變數 [空間 v] 設為 (1)
++定位到 x:(-200) y:(0)
++背景換成 (空間1 v)
+重複無限次
+    如果 <(向上 v) 鍵被按下？ > 那麼
+        面朝 (0) 度
+        移動 (4) 點
     end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
+    如果 <(向左 v) 鍵被按下？ > 那麼
+        面朝 (-90) 度
+        移動 (4) 點
     end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
+    如果 <(向下 v) 鍵被按下？ > 那麼
+        面朝 (180) 度
+        移動 (4) 點
     end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
++    如果 <(向右 v) 鍵被按下？ > 那麼
+        面朝 (90) 度
+        移動 (4) 點
     end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
+    如果 <碰到顏色 (#BABABA)？ > 那麼
+    移動 (-4) 點
     end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
+    如果 <碰到顏色 (#F2A24A)？> 那麼
+    背景換成 (下一個背景 v)
+    定位到 x:(-200) y:(0)
+    變數 [空間 v] 改變 (1)
 end
 end
 ```
@@ -135,8 +135,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+點擊綠旗，移動`玩家`到橙色門那邊，碰一下門。 如何，角色進入下一個畫面了嗎？ 變數`空間`{:class="block3variables"}的值變成 `2` 了嗎？
 
-![screenshot](images/world-room-test.png)
+![截圖](images/world-room-test.png)
 
 \--- /task \---
