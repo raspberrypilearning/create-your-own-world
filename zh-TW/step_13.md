@@ -1,10 +1,10 @@
-## What next?
+## 然後呢？
 
-Have a go at creating another game by working through the [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+試試[搶救貓咪大作戰](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)專案。
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+單擊並拖曳滑鼠游標，用鉛筆畫出線條， 你的任務是繪製安全的路徑，避免貓咪掉入坑洞，最後安全抵達庇護所。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -14,8 +14,8 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- print-only \---
 
-![Cats finished](images/cats-finished.png)
+![搶救貓咪大作戰](images/cats-finished.png)
 
 \--- /print-only \---
 
-If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+想試試其它的程式語言嗎？試試 [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) 這個用 Pyhton 寫成的專案吧！
