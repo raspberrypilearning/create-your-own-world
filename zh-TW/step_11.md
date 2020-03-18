@@ -1,36 +1,36 @@
-## Doors and keys
+## 門和鑰匙
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+現在，你將編寫程式，讓遊戲世界中的某些門被鎖住，玩家必須找到進入下一個空間的房門鑰匙。
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+切換到`鑰匙`角色。 點擊角色面板上的`顯示`{:class="blocklooks"}圖示，讓角色出現在舞台上。
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+修改`鑰匙`角色的造型，讓它變成藍色，然後再把角色名稱改為「鑰匙-藍色」。
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+將你的舞台背景切換成空間3，把`鑰匙`角色放在一個不容易拿取的位置！
 
-![screenshot](images/world-key.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `key` sprite to make it only visible in room 3.
+![截圖](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+為`鑰匙`角色寫個程式，讓它只出現在空間3裡頭。
+
+\--- /task \---
+
+\--- task \---
+
+創建一個新的清單，名為`倉庫`{:class="block3variables"}，這個清單是用來儲存`玩家`角色收集到的物品的。
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,67 +38,67 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+你要添加的程式，和收集金幣時所寫的程式很類似。 不同的地方在於，你要將收集到的鑰匙儲存在`倉庫`{:class="block3variables"}裡。
 
-![key](images/key.png)
+![鑰匙](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+當 @greenflag 被點擊
+等待直到 <碰到 (玩家 v)？>
+添加 (藍錀匙) 到 [倉庫 v]
+隱藏
+停止 [這個物件的其它程式 v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+在舞台上編寫一個程式，讓遊戲在開始時能清空倉庫中的物品。
 
 ```blocks3
-delete (all v) of [inventory v]
+刪除 [倉庫 v] 的所有項目
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+測試你的遊戲，檢查是否可以收集`鑰匙`角色，並把它加入到倉庫裡。
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+現在加入一個上鎖的門。 選取`房門-藍色`角色，點擊角色面板的`顯示`{:class="blocklooks}圖示，你會看到它出現在牆壁中間。
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![截圖](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+為`房門-藍色`角色寫個程式，讓它只出現在空間3裡頭。
 
-![door](images/door.png)
+\--- /task \---
+
+\--- task \---
+
+再添加一些程式到`房門-藍色`角色上，讓在只有在玩家收集到鑰匙時才能打開，也就是說，只有`倉庫`{:class="block3variables"}裡有藍鑰匙時，門才會`隱藏`{:class="block3looks"}以便`玩家`通過。
+
+![房門](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+當 @greenflag 被點擊
+等待直到 <清單 [倉庫 v] 包含 (藍鑰匙) ?>
+停止 [這個物件的其它程式 v]
+隱藏
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+測試你的遊戲，看看是否可以收集藍色鑰匙來打開門！
 
 \--- /task \---
