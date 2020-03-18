@@ -1,39 +1,43 @@
-## Challenge: add an enemy
+## 挑戰：加個敵人
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+如果你有辦法的話，可以在遊戲中加入一個四處巡邏的敵人。 只要`玩家`被敵人抓到，遊戲就以失敗結束。
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ 材料包裡已經有`敵人`角色。 為`敵人`角色寫個程式，讓他只出現在空間2裡頭。
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ 再添加一些程式，讓`敵人`在碰到`玩家`角色時，結束所有的程式。 把這些程式分開編寫會比較容易。 `敵人`角色的程式看起來會像這樣：
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
-
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
-
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
+當 @greenflag 被點擊
+重複無限次
+如果 <(空間 :: variables) = (2)> 那麼
+顯示
+否則
+隱藏
 end
-repeat (130)
-change x by (1)
+
+當 @greenflag 被點擊
+重複無限次
+如果 <碰到 (玩家 v)？> 那麼
+停止 [全部 v]
+end
+
+當 @greenflag 被點擊
+定位到 x:(170) y:(0)
+重複無限次
+重複 (130) 次
+x 改變 (-1)
+end
+重複 (130) 次
+x 改變 (1)
+end
+end
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ 測試你新寫的程式，檢查以下： 
+    + `敵人`只會在空間2顯示
+    + `敵人`在某個定點巡邏
+    + `敵人`碰到`玩家`就結束
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+你能在空間 3 再創造一個在牆另一側巡邏的`敵人`嗎？
 
-![screenshot](images/world-enemy2.png)
+![截圖](images/world-enemy2.png)
