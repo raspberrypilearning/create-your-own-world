@@ -1,3 +1,3 @@
 ## Personas
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+¿Puedes hacer que tu objeto `jugador` se mueva a la habitación anterior cuando toque una puerta amarilla? El código que necesitas para esto es muy similar al código que ya has añadido para pasar a la habitación siguiente.
