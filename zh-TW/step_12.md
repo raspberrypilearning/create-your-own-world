@@ -1,28 +1,28 @@
-## Challenge: extend your world
+## 挑戰：拓展你的世界
 
-You can now continue creating your own world! Here are some ideas:
+你現在可以繼續創建屬於你的世界！ 給你一些靈感：
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
-+ Add sound and music to your game
-+ Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ 在不同的空間加入更多的金幣。 在這些金幣旁佈下重兵守衛！
++ 修改遊戲的背景
++ 為遊戲添加音樂和音效
++ 加入更多的路人、敵人、告示牌
++ 增加紅色、黃色的門，還有能打開它們的鑰匙
++ 添加更多的空間（也就是關卡）
++ 在遊戲中放置些有功能的物品
     
-    + Use coins to get information from other people:
+    + 你必須給路人硬幣才能獲得情報：
 
-![screenshot](images/world-bribe.png)
+![截圖](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ 你還可以打通北牆和南牆，在上面添加門，這樣玩家就可以在四個方向的空間移動。 舉例來說，你的遊戲像是放在 3x3 的格子中，這樣就有 9 個空間。 然後，往下的空間就是把空間數字加 `3`。
 
-![screenshot](images/north-south-rooms.png)
+![截圖](images/north-south-rooms.png)
 
-![screenshot](images/number-grid.png)
+![截圖](images/number-grid.png)
 
 ```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
+如果 <碰到顏色 ()？> 那麼
+背景換成 ((造型 [編號 v]::looks) + (3))
+定位到 x:(0) y:(200)
+變數 [空間 v] 改變 (3)
 ```
