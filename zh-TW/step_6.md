@@ -1,44 +1,44 @@
-## Signs
+## 告示牌
 
-Now add signs to your world to guide players on their journey.
+現在為你的世界添加一些告示牌，引導玩家探索這個世界。
 
-Your project includes a `welcome sign` sprite:
+材料包裡已經有個`告示牌`角色了：
 
-![screenshot](images/world-sign.png)
+![截圖](images/world-sign.png)
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+這個`歡迎告示牌`角色應該只會在空間 1 出現，所以我們要添加一些程式：
 
 \--- hints \---
 
 \--- hint \---
 
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+`在點擊綠旗時`{:class="block3events"}，`重複不斷`{:class="block3control"}的檢查`所在的空間`{:class="block3variables"}`是不是`{:class="block3control"}空間1，如果是就`顯示`{:class="block3looks"}`歡迎告示牌`，`否則`{:class="block3control"}就`隱藏`{:class="block3looks"}。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+這裡是你需要的程式積木：
 
-![sign](images/sign.png)
+![告示牌](images/sign.png)
 
 ```blocks3
-<br />if < > then
-else
+<br />如果 <> 那麼
+否則
 end
 
-< (room :: variables) = [1] >
+<(空間 :: variables) = (1)>
 
-hide
+隱藏
 
-show
+顯示
 
-forever
+重複無限次
 end
 
-when flag clicked
+當 @greenflag 被點擊
 
 ```
 
@@ -46,17 +46,17 @@ when flag clicked
 
 \--- hint \---
 
-Here is the complete code:
+以下是完整的程式：
 
-![sign](images/sign.png)
+![告示牌](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
+當 @greenflag 被點擊
+重複無限次
+    如果 <(空間 :: variables) = (1)> 那麼
+        顯示
+    否則
+        隱藏
     end
 end
 ```
@@ -69,30 +69,30 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+測試在`歡迎告示牌`角色的程式是否正確，你要在兩個空間走動。 告示牌只會出現在空間1這個背景。
 
-![screenshot](images/world-sign-test.png)
+![截圖](images/world-sign-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+告示牌啥事都不告訴你，也太遜了對吧？！ 添加一些程式，如果`歡迎告示牌`被`玩家`碰到了，就顯示一些訊息：
 
-![sign](images/sign.png)
+![告示牌](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
+當 @greenflag 被點擊
+重複無限次
+如果 <(空間 :: variables) = (1)> 那麼
+顯示
+否則
+隱藏
 end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
++ 如果 <碰到 (玩家 v)？ > 然後
+說出 (歡迎！ 你能得到寶藏嗎？)
+否則
+說出 ()
 end
 end
 ```
@@ -101,8 +101,8 @@ end
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+再次測試你的`歡迎告示牌`， 當`玩家`碰觸`歡迎告示牌`角色時，你應該會看到一段訊息。
 
-![screenshot](images/world-sign-test2.png)
+![截圖](images/world-sign-test2.png)
 
 \--- /task \---
