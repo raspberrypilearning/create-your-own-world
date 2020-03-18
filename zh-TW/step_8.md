@@ -1,29 +1,29 @@
-## People
+## 路人
 
-Add other people to your world who your `player` sprite can interact with.
+創造一些可以與`玩家`角色互動的路人。
 
 \--- task \---
 
-Switch to the `person` sprite.
+切換到`路人`角色。
 
-![Person sprite](images/person.png)
+![路人角色](images/person.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+在`路人`角色上寫個程式，讓他能夠和`玩家`角色說話。 這個程式和你在編寫`告示牌`角色的程式很類似：
 
-![person](images/person.png)
+![路人](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
+當 @greenflag 被點擊
+定位到 x:(0) y:(-150)
+重複無限次
+    如果 <碰到 (玩家 v)？ > 那麼
+        說出 (你知道嗎？穿過橙色或其它顏色的門就會到不同的空間。)
+    否則
+        說出 ()
     end
 end
 ```
@@ -32,34 +32,34 @@ end
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+添加以下程式到`否則`{:class="block3control"}區段，讓`路人`角色在某個區域來回走動：
 
-![person](images/person.png)
+![路人](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
+當 @greenflag 被點擊
+定位到 x:(0) y:(-150)
+重複無限次
+    如果 <碰到 (玩家 v)？ > 那麼
+        說出 (你知道嗎？穿過橙色或其它顏色的門就會到不同的空間。)
+    否則
+        說出 ()
++        移動 (1) 點
++        碰到邊緣就反彈
     end
 end
 ```
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+`路人`角色現在應該會走來走去了，而且會在碰到`玩家`角色時停下腳步，然後和玩家說一些話。
 
-![screenshot](images/world-person-test.png)
+![截圖](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+再添加一些程式到`路人`角色，讓他只會出現在空間1。 這個程式和`告示牌`只能在空間1顯示的程式一模一樣。
 
-Make sure you test out your new code.
+記得要測試一下你新寫的程式。
 
 \--- /task \---
