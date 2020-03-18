@@ -1,35 +1,35 @@
-## Move the player sprite
+## 移動玩家角色
 
-Start by creating a `player` sprite that can move around your world.
+先從創建一個能在你的世界中移動的 `玩家` 角色開始。
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+開啟 Create your own world 這個範例專案。
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**線上版**：你可以連結 [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"} 以新建專案。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**離線版**：你可以點擊 [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"} 以下載專案。 如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}。
 
-![screenshot](images/world-starter.png)
+![截圖](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+方向鍵應該要能控制`角色`的移動。 比方說，向上鍵要能讓`玩家`角色往舞台的上方移動。
 
 \--- task \---
 
-Add this code to the `player` sprite:
+在`玩家`角色上添加這個程式：
 
-![player](images/player.png)
+![玩家](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
+當 @greenflag 被點擊
+重複無限次
+    如果 <(向上 v) 鍵被按下？ > 那麼
+        面朝 (0) 度
+        移動 (4) 點
     end
 end
 ```
@@ -38,28 +38,28 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+點擊綠旗，然後按住向上鍵。 `玩家`角色往上移動了嗎？
 
-![screenshot](images/world-up.png)
+![截圖](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+要讓`玩家`角色向左移動的話，你必須添加另一個`如果`{:class="block3control"}積木，然後撰寫類似的程式：
 
-![player](images/player.png)
+![玩家](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
+當 @greenflag 被點擊
+重複無限次
+    如果 <(向上 v) 鍵被按下？ > 那麼
+        面朝 (0) 度
+        移動 (4) 點
     end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
++  如果 <(向左 v) 鍵被按下？ > 那麼
+        面朝 (-90) 度
+        移動 (4) 點
     end
 end
 ```
@@ -68,59 +68,58 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+編寫更多的程式，讓`玩家`角色也能向下、向右移動。 你可以複製現有的程式然後加以修改，幫助你快一點完成。
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+在向上移動時，`玩家`角色要面對的方位角度是 `0` 度。 那麼往下移動呢？
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+在向左移動時，玩家角色要面對的方位角度是 `90` 度。 那麼往右移動呢？
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+你必須要修改這兩種積木：
 
-![player](images/player.png)
+![玩家](images/player.png)
 
 ```blocks3
-<key ( v) pressed>
+<( v) 鍵被按下？>
 
-point in direction ()
+面朝 () 度
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+複製讓`玩家`能往上移動的程式，修改這兩種積木，讓角色能向下移動。 再複製一次，然後把它改成能讓角色向右移動。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is how your code should look:
+你的程式看起來應該像這樣：
 
-![player](images/player.png)
+![玩家](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
+當 @greenflag 被點擊
+重複無限次
+    如果 <(向上 v) 鍵被按下？ > 那麼
+        面朝 (0) 度
+        移動 (4) 點
     end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
+    如果 <(向左 v) 鍵被按下？ > 那麼
+        面朝 (-90) 度
+        移動 (4) 點
     end
-
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
++    如果 <(向下 v) 鍵被按下？ > 那麼
+        面朝 (180) 度
+        移動 (4) 點
     end
-+    if <key (right arrow v) pressed? > then
-        point in direction (90)
-        move (4) steps
++    如果 <(向右 v) 鍵被按下？ > 那麼
+        面朝 (90) 度
+        移動 (4) 點
     end
 end
 ```
