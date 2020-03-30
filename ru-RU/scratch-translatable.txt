@@ -1,13 +1,13 @@
-room
+комната
 
-player
+игрок
 
-Welcome! Can you get to the treasure?
+Добро пожаловать! Можешь ли ты добраться до сокровища?
 
-Did you know that you can go through orange and yellow doors?
+Знаешь ли ты, что ты можешь пройти через оранжевые и желтые двери?
 
-coins
+монеты
 
-blue key
+синий ключ
 
-inventory
+инвентарь
