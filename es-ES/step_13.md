@@ -1,4 +1,4 @@
-## Desafío: más colores
+## ¿Qué hacer a continuación?
 
 ¡Intenta crear otro juego trabajando con el proyecto [GATOS!](https://projects.raspberrypi.org/es-ES/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
 
