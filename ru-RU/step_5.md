@@ -1,3 +1,3 @@
-## Challenge: move back to the previous room
+## Задача: вернуться в предыдущую комнату
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+Можешь ли ты сделать так, чтобы спрайт `игрок` вернулся в предыдущую комнату когда он коснётся желтой двери? Код, который необходим для этого, очень похож на код, который ты уже добавили для того, чтобы спрайт перемещался в следующую комнату.
