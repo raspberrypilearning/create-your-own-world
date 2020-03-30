@@ -20,25 +20,25 @@
 
 \--- hint \---
 
-Here are the blocks you need:
+Вот блоки, которые тебе понадобятся:
 
-![sign](images/sign.png)
+![табличка](images/sign.png)
 
 ```blocks3
-<br />if < > then
-else
+<br />если <>, то 
+иначе
 end
 
-< (room :: variables) = [1] >
+< (комната :: переменные) = [1] >
 
-hide
+спрятаться
 
-show
+показаться
 
-forever
+повторять всегда
 end
 
-when flag clicked
+когда щёлкнут по зелёному флагу
 
 ```
 
@@ -46,18 +46,18 @@ when flag clicked
 
 \--- hint \---
 
-Here is the complete code:
+Вот полный код:
 
-![sign](images/sign.png)
+![табличка](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
+когда щёлкнут по зелёному флагу
+повторять всегда 
+  если < (комната :: переменные) = [1] >, то 
+    показаться
+  иначе 
+    спрятаться
+  end
 end
 ```
 
@@ -69,30 +69,30 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Протестируй код спрайта `табличка Добро пожаловать`, перемещаясь между комнатами. Табличка должна быть видна только в комнате 1.
 
-![screenshot](images/world-sign-test.png)
+![снимок экрана](images/world-sign-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+От таблички нет пользы, если на ней ничего не написано! Добавь код, который бы показывал сообщение, если спрайт `табличка Добро пожаловать` касается спрайта `игрок`:
 
-![sign](images/sign.png)
+![табличка](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
+когда щёлкнут по зелёному флагу
+повторять всегда 
+ если < (комната :: переменные) = [1] >, то 
+ показаться
+ иначе 
+ спрятаться
+ end
+ + если < касается (игрок v) ? >, то 
+ сказать [Привет! Можешь ли ты найти сокровище?]
+иначе 
+ сказать []
 end
 end
 ```
@@ -101,8 +101,8 @@ end
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Cнова протестируй свой спрайт `табличка Добро пожаловать`. Теперь ты должен видеть сообщение, когда спрайт `игрок` коснется спрайта `табличка Добро пожаловать`.
 
-![screenshot](images/world-sign-test2.png)
+![снимок экрана](images/world-sign-test2.png)
 
 \--- /task \---
