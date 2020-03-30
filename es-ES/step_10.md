@@ -23,12 +23,12 @@ Añade código al objeto `moneda` de manera que solamente aparezca en la habitac
 ![screenshot](images/coin.png)
 
 ```blocks3
-cuando se hace click sobre la bandera
-para siempre
-si <(habitación :: variables)=[1]> entonces
-mostrar
-si no
-ocultar
+when flag clicked
+forever
+if <(habitación :: variables)=[1]> then
+show
+else
+hide
 ```
 
 --- /task ---
@@ -40,11 +40,11 @@ Agregue código al objeto `moneda` para que `desaparezca`{:class="block3looks"} 
 ![moneda](images/coin.png)
 
 ```blocks3
-al presionar bandera verde
-esperar hasta que <touching (jugador v)?>
-cambiar [monedas v] por (1)
-esconder
-detener [otros programas en el objeto v]
+when flag clicked
+wait until <touching (jugador v)?>
+change [monedas v] by (1)
+hide
+stop [otros programas en el objeto v]
 ```
 
 El código `detener otros programas en el objeto`{:class="block3control"} es necesario para que el objeto `moneda` deje de mostrarse en la habitación 1 una vez que haya sido recogido.
@@ -58,7 +58,7 @@ Ahora agregue código al escenario para establecer su variable `monedas`{:class=
 ![escenario](images/stage.png)
 
 ```blocks3
-al hacer clic en la bandera
+when flag clicked
 dar a [monedas v] el valor [0]
 ```
 

@@ -25,7 +25,7 @@ Añade este código al objeto `jugador`:
 ![jugador](images/player.png)
 
 ```blocks3
-al hacer clic en la bandera verde
+when flag clicked
 por siempre 
   si <¿tecla (flecha arriba v) presionada? > entonces 
     apuntar en dirección (0)
@@ -51,13 +51,13 @@ Para mover el `jugador` hacia la izquierda tienes que añadir otro bloque `si`{:
 ![jugador](images/player.png)
 
 ```blocks3
-al hacer clic en la bandera verde
+when flag clicked
 por siempre 
   si <¿tecla (flecha arriba v) presionada? > entonces 
     apuntar en dirección (0)
     mover (4) pasos
   end
-  si <¿tecla (flecha izquierda v) presionada? > entonces 
++ si <¿tecla (flecha izquierda v) presionada? > entonces 
     apuntar en dirección (90)
     mover (4) pasos
   end
@@ -77,7 +77,7 @@ Añade más código a tu objeto `jugador` para que pueda moverse también hacia 
 
 Para moverse hacia arriba, apunta el objeto `jugador` en la dirección `0` grados. ¿Qué tienes que hacer para mover el objeto hacia abajo?
 
-Para moverse hacia la izquierda, apunta el objeto jugador en la dirección `90` grados. ¿Qué tienes que hacer para mover el objeto hacia la derecha?
+Para moverse hacia la izquierda, apunta el objeto jugador en la dirección `-90` grados. ¿Qué tienes que hacer para mover el objeto hacia la derecha?
 
 --- /hint ---
 
@@ -104,24 +104,24 @@ Así es como debería verse tu código:
 ![jugador](images/player.png)
 
 ```blocks3
-al hacer clic en la bandera verde
-por siempre 
-  si <¿tecla (flecha arriba v) está presionada? > entonces 
-    apuntar en dirección (0)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha izquierda v) está presionada? > entonces 
-    apuntar en dirección (-90)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha abajo v) presionada? > entonces 
-    apuntar en dirección (180)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha izquierda v) está presionada? > entonces 
-    apuntar en dirección (90)
-    mover (4) pasos
-  end
+when flag clicked
+forever
+	if <key (flecha arriba v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (flecha izquierda v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
++    if <key (flecha abajo v) pressed? > then
+		point in direction (180)
+		move (4) steps
+	end
++    if <key (flecha derecha v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
 end
 ```
 

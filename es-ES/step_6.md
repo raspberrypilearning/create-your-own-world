@@ -26,20 +26,20 @@ Aquí están los bloques que necesitas:
 ![señal](images/sign.png)
 
 ```blocks3
-<br />si < > entonces
-en otro caso
-fin
+if < > then
+else
+end
 
 < (habitación :: variables) = [1] >
 
-ocultar
+hide
 
-mostrar
+show
 
-para siempre
-fin
+forever
+end
 
-cuando se hace clic en la bandera
+when flag clicked
 
 ```
 
@@ -52,14 +52,14 @@ Aquí está el programa completo:
 ![señal](images/sign.png)
 
 ```blocks3
-al hacer click en la bandera
-para siempre
-    si < (habitación :: variables) = [1] > entonces
-        mostrar
-    en otro caso
-        ocultar
-    fin
-fin
+when flag clicked
+forever
+	if < (habitación :: variables) = [1] > then
+		show
+	else
+		hide
+	end
+end
 ```
 
 --- /hint ---
@@ -83,19 +83,19 @@ Prueba el código para tu objeto `señal de bienvenida` moviendo entre las habit
 ![señal](images/sign.png)
 
 ```blocks3
-al hacer click en la bandera
-para siempre
- si < (habitación :: variables) = [1] > entonces
- mostrar
- en otro caso
- ocultar
- fin
-+ si < tocando al (jugador v)? > entonces
-decir [¡Bienvenido! ¿Puedes llegar al tesoro?]
-más
-decir []
-fin
-fin
+when flag clicked
+forever
+if < (habitación :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (jugador v)? > then
+say [¡Bienvenido! ¿Puedes llegar al tesoro?]
+else
+say []
+end
+end
 ```
 
 --- /task ---

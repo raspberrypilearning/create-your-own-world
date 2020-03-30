@@ -17,14 +17,14 @@ Añade un poco de código al objeto `persona` para que la persona hable con el o
 ![persona](images/person.png)
 
 ```blocks3
-al presionar la bandera verde
-ir a x: (0) y: (-150)
-por siempre 
-  si <¿tocando (jugador v)? > entonces 
-    decir [¿Sabías que puedes atravesar las puertas naranjas y amarillas?]
-  en otro caso
-    decir []
-  end
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (jugador v)? > then
+		say [¿Sabías que puedes atravesar las puertas naranjas y amarillas?]
+	else
+		say []
+	end
 end
 ```
 
@@ -37,17 +37,17 @@ Permite que tu objeto `persona` se mueva añadiendo estos dos bloques en la secc
 ![persona](images/person.png)
 
 ```blocks3
-al presionar la bandera verde
-ir a x: (0) y: (-150)
-por siempre 
-  si <¿tocando (jugador v)? > entonces 
-    decir [¿Sabías que puedes atravesar las puertas naranjas y amarillas?]
-  en otro caso
-    decir []
-+       mover  (1) paso
-+       si está en el borde, rebotar
-  fin
-fin
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (jugador v)? > then
+		say [¿Sabías que puedes atravesar las puertas naranjas y amarillas?]
+	else
+		say []
++		move (1) steps
++		if on edge, bounce
+	end
+end
 ```
 
 --- /task ---

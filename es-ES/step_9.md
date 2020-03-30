@@ -7,26 +7,26 @@ Si quieres, también puedes añadir enemigos patrullando a tu juego. Si el objet
 + Añade código para mover el objeto `enemigo` y para terminar el juego si el objeto `enemigo` toca al objeto `jugador`. Es más fácil hacer esto en bloques de código separados. El código de tu objeto `enemigo` debería quedar así:
 
 ```blocks3
-al presionar la bandera verde
-para siempre
-si <(habitación :: variables) =[2]> luego
-muestra
-si no
-ocultar
+when flag clicked
+forever
+if <(habitación :: variables)=[2]> then
+show
+else
+hide
 
-al presionar la bandera verde
-para siempre
-si <touching (jugador v)?> luego
-detiene [todos v]
+when flag clicked
+forever
+if <touching (jugador v)?> then
+stop [all v]
 
-al presionar la bandera verde
-ir a x : (170) y: (0)
-para siempre
-repetir (130)
-cambiar x por (-1)
-fin
-repetir (130)
-cambiar x por (1)
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
+end
+repeat (130)
+change x by (1)
 ```
 
 + Prueba tu nuevo código para asegurarte de que funciona: 

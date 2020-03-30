@@ -15,26 +15,27 @@ Para arreglar esto, tendrás que hacer que tu `jugador` retroceda si toca una pa
 ![jugador](images/player.png)
 
 ```blocks3
-al hacer clic en la bandera verde
-por siempre 
-  si <¿tecla (flecha arriba v) presionada? > entonces 
-    apuntar en dirección (0)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha izquierda v) está presionada? > entonces 
-    apuntar en dirección (-90)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha abajo v) presionada? > entonces 
-    apuntar en dirección (-180)
-    mover (4) pasos
-  end
-  si <¿tecla [flecha derecha v] presionada? > entonces 
-        apuntar en dirección (90)
-        mover (4) pasos
-    fin
-    si < toca el color [#BABABA]? > entonces 
-  mover (-4) pasos
+when flag clicked
+forever
+	if <key (flecha arriba v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (flecha izquierda v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (flecha abajo v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key (flecha derecha v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
++	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
 end
 ```
 

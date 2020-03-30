@@ -23,33 +23,33 @@ Cuando el objeto `jugador` toca la puerta naranja en la primera habitación, se 
 ![jugador](images/player.png)
 
 ```blocks3
-al hacer clic en la bandera verde
-por siempre 
-  si <¿tecla (flecha arriba v) presionada? > entonces 
-    apuntar en dirección (0)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha izquierda v) está presionada? > entonces 
-    apuntar en dirección (-90)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha abajo v) presionada? > entonces 
-    apuntar en dirección (-180)
-    mover (4) pasos
-  end
-  si <¿tecla [flecha derecha v] presionada? > entonces 
-        apuntar en dirección (90)
-        mover (4) pasos
-    fin
-    si < toca el color [#BABABA]? > entonces
-    mover (-4) pasos
-    fin
-    si < toca el color [# F2A24A] > entonces
-    cambia el fondo a (siguiente fondo v)
-    ve a x: (-200) y: (0)
-    cambia [habitación v] por (1)
-fin
-fin
+when flag clicked
+forever
+	if <key (flecha arriba v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (flecha izquierda v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (flecha abajo v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key [flecha derecha v] pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
++	if < touching color [#F2A24A] > then
+	switch backdrop to (siguiente fondo v)
+	go to x: (-200) y: (0)
+	change [habitación v] by (1)
+	end
+end
 ```
 
 --- /task ---
@@ -101,31 +101,31 @@ when flag clicked
 +go to x: (-200) y: (0)
 +switch backdrop to (habitación1 v)
 forever
-    if <key (up arrow v) pressed? > entonces 
-    apuntar en dirección (0)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha izquierda v) está presionada? > entonces 
-    apuntar en dirección (-90)
-    mover (4) pasos
-  end
-  si <¿tecla (flecha abajo v) presionada? > entonces 
-    apuntar en dirección (-180)
-    mover (4) pasos
-  end
-  si <¿tecla [flecha derecha v] presionada? > entonces 
-        apuntar en dirección (90)
-        mover (4) pasos
-    fin
-    si < toca el color [#BABABA]? > entonces
-    mover (-4) pasos
-    fin
-    si < toca el color [# F2A24A] > entonces
-    cambia el fondo a (siguiente fondo v)
-    ve a x: (-200) y: (0)
-    cambia [habitación v] por (1)
-fin
-fin
+	if <key (flecha arriba v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (flecha izquierda v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (flecha abajo v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key [flecha derecha v] pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
+	if < touching color [#F2A24A] > then
+	switch backdrop to (siguiente fondo v)
+	go to x: (-200) y: (0)
+	change [habitación v] by (1)
+end
+end
 ```
 
 --- /hint ---
@@ -136,7 +136,7 @@ fin
 
 --- task ---
 
-Haga clic en la bandera y luego mueve tu objeto `jugador` hasta que toque la puerta naranja. ¿Tu objeto se mueve a la pantalla siguiente? ¿La variable `Habitación`{:class="block3variables"} cambia a `2`?
+Haga clic en la bandera y luego mueve tu objeto `jugador` hasta que toque la puerta naranja. ¿Tu objeto se mueve a la pantalla siguiente? ¿La variable `habitación`{:class="block3variables"} cambia a `2`?
 
 ![captura de pantalla](images/world-room-test.png)
 

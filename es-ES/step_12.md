@@ -21,8 +21,8 @@
 ![captura de pantalla](images/number-grid.png)
 
 ```blocks3
-si <touching color [ ]?> entonces
-cambiar fondo a ((disfraz [número v]) + (3))
-ve a x: (0) y: (200)
-cambiar [habitación v] por (3)
+if <touching color [ ]?> then
+switch backdrop to ((costume [número v]) + (3))
+go to x:(0) y:(200)
+change [habitación v] by (3)
 ```

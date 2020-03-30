@@ -43,11 +43,11 @@ El código que necesitas agregar para recoger la llave es muy similar al código
 ![llave](images/key.png)
 
 ```blocks3
-al presionar la bandera verde
-esperar hasta que <touching (jugador v)?>
-añade la [llave azul] al [Inventario v]
-esconder
-detener [otros programas en el objeto v]
+when flag clicked
+wait until <touching (jugador v)?>
+add [llave azul] to [inventario v]
+hide
+stop [otros programas en el objeto v]
 ```
 
 --- /task ---
@@ -57,7 +57,7 @@ detener [otros programas en el objeto v]
 Agrega código a tu escenario para vaciar tu inventario al comienzo del juego.
 
 ```blocks3
-borrar (todos v) de [Inventario v]
+delete (todos v) of [inventario v]
 ```
 
 --- /task ---
@@ -89,10 +89,10 @@ Añadir código al objeto `puerta-azul` para que, cuando la llave esté en el `i
 ![puerta](images/door.png)
 
 ```blocks3
-al presionar la bandera verde
-esperar hasta que <[Inventario v] contenga [llave azul]>
-detener [otros programas en el objeto v]
-esconder
+when flag clicked
+wait until <[inventario v] contains [llave azul]?>
+stop [otros programas en el objeto v]
+hide
 ```
 
 --- /task ---
