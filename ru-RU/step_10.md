@@ -1,26 +1,26 @@
-## Collect coins
+## Сбор монет
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+Твой спрайт `игрок` должен иметь возможность собирать монеты, когда он путешествует по миру.
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+Добавь новую переменную `монеты`{:class="block3variables"} в свой проект.
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+Выбери спрайт `монета` и нажми **показать**.
 
-![screenshot](images/coin.png)
+![снимок экрана](images/coin.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+Добавь код к своему спрайту `монета` так, чтобы спрайт появлялся только в комнате 1.
 
-![screenshot](images/coin.png)
+![снимок экрана](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -35,9 +35,9 @@ hide
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Добавь код к спрайту `монета` так, чтобы спрайт `прятался`{:class="block3looks"} и переменная `монеты`{:class="block3variables"}увеличивалась на `1`{:class="block3variables"} как только спрайт `игрок` коснётся спрайта `монета`, чтобы «собрать её».
 
-![coin](images/coin.png)
+![монета](images/coin.png)
 
 ```blocks3
 when flag clicked
