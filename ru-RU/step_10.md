@@ -23,12 +23,14 @@
 ![снимок экрана](images/coin.png)
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[1]> then
-show
-else
-hide
+когда щёлкнут по зелёному флагу
+повторять всегда 
+ если <(комната :: переменные) = [1]>, то 
+ показаться
+ иначе 
+ спрятаться
+ end
+end
 ```
 
 \--- /task \---
@@ -40,32 +42,32 @@ hide
 ![монета](images/coin.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
-hide
-stop [other scripts in sprite v]
+когда щёлкнут по зелёному флагу
+ждать до < касается (игрок v)?>
+изменить [монеты v] на (1)
+спрятаться
+стоп [другие скрипты спрайта v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+Код `останавливает другие скрипты в спрайте`{:class="block3control"}необходим для того, чтобы спрайт `монета` перестала отображаться в комнате 1 после её сбора.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+Теперь добавь код в Сцену, чтобы установить значение переменной `монеты`{:class="block3variables"} равное `0`{:class="block3variables"} в начале игры.
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [coins v] to [0]
+когда щёлкнут по зелёному флагу
+задать [монеты v] значение [0]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+Протестируй свою игру. Сбор монеты должен изменить значение `монеты` на `1`{:class="block3variables"}.
 
 \--- /task \---
