@@ -1,4 +1,4 @@
-## Programar a tu jugador
+## Mover el objeto jugador
 
 Empieza creando un objeto `jugador` que se pueda mover por tu mundo.
 
