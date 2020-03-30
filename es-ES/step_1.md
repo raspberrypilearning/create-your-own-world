@@ -1,55 +1,70 @@
+--- no-print ---
+
+Esta es una versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/es-ES/projects/create-your-own-world-scratch2).
+
+--- /no-print ---
+
 ## Introducción
 
-En este proyecto aprenderás a crear tu propio juego de aventuras de mundo abierto.
+En este proyecto, aprenderás cómo crear tu propio juego de aventuras con múltiples niveles para explorar.
+
+### Lo que harás
+
+--- no-print ---
+
+Haz clic en la bandera verde para empezar. Utiliza las teclas de flecha para mover a tu personaje por el mundo.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
-  <img src="world-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/380872919/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
+
+--- /no-print ---
+
+--- print-only ---
+
+Utiliza los cursores, teclas de flechas, para mover a tu personaje por el mundo. ![showcase.png](images/showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notas Para los Líderes del Club
+title: Lo que necesitarás
 ---
 
-## Introducción:
-En este proyecto, la clase aprenderá a crear su propio juego de mundo abierto, utilizando todos los conceptos y habilidades de Scratch que han aprendido en proyectos anteriores.
+### Hardware
 
-## Recursos
-Para este proyecto, se debería usar Scratch 2. Scratch 2 se puede usar online en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o se puede descargar desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) para usarlo offline.
+- Una computadora capaz de hacer correr Scratch 3
 
-La versión completa de este proyecto se puede encontrar <a href="http://scratch.mit.edu/projects/34248822/#editor">online</a>, o se puede descargar haciendo clic en el enlace 'Descargar Materiales del Proyecto', que contiene:
+### Software
 
-+ CreaTuPropioMundo.sb2
+- Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff) {:target="_blank"})
 
-También hay una versión de este proyecto con los recursos externos ya cargados. Esta versión está disponible online en [jumpto.cc/world-resources](http://jumpto.cc/world-resources), o en los materiales descargables del proyecto, que contienen:
+### Descargas
 
-+ CreaTuPropioMundoRecursos.sb2 
-
-Este enlace también incluye una carpeta de 'Recursos del Proyecto', que contiene imágenes que la clase necesitará para completar el proyecto. Toda la clase debería tener acceso a una copia de estos recursos.
-
-Recursos del Proyecto:
-+ jugador.png;
-+ habitación1/2/3.png;
-+ señal.svg;
-+ cofre.svg;
-+ persona.png;
-+ enemigo.png;
-+ moneda.svg;
-+ puerta-azul.png;
-+ llave.png.
-
-
-## Objetivos de aprendizaje
-+ Este proyecto consolida el aprendizaje de todas las habilidades de programación aprendidas.
-
-## Retos
-+ "Moverse en las cuatro direcciones" - añadir al jugador controles hacia arriba, abajo, izquierda y derecha;
-+ "Arreglar el movimiento de tu jugador" - evitar que el jugador atraviese las paredes;
-+ "Volver a la habitación anterior" - retroceder 1 habitación al tocar una puerta amarilla;
-+ "¡Tesoro!" - consolidar cómo añadir objetos al mundo;
-+ "Mejorar el objeto persona" - consolidar cómo añadir objetos al mundo;
-+ "Más enemigos" - añadir objetos en movimiento letales;
-+ "Crea tu propio mundo" - tarea de consolidación abierta.
+Puede encontrar todo lo necesario para completar este proyecto en [rpf.io/p/es-ES/create-your-own-world-go](https://rpf.io/p/es-ES/create-your-own-world-go).
 
 --- /collapse ---
+
+--- collapse ---
+---
+title: Lo que vas a aprender
+---
+
+- Usa la selección condicional para reaccionar a pulsaciones de teclas
+- Usar variables para almacenar el estado del juego
+- Usar selección condicional basada en el valor de una variable
+- Usar listas para almacenar datos
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Información adicional para educadores
+---
+
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/create-your-own-world/print){:target="_blank"}.
+
+Puedes [encontrar el proyecto completo aquí](https://rpf.io/p/es-ES/create-your-own-world-get){:target ="_blank"}.
+
+--- /collapse --- 

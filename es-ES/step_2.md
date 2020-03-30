@@ -1,76 +1,132 @@
-## Programar a tu jugador
+## Mover el objeto jugador
 
-Empezaremos creando un jugador que se pueda mover por tu mundo.
+Empieza creando un objeto `jugador` que se pueda mover por tu mundo.
 
-+ Crea un nuevo proyecto de Scratch, y borra el objeto gato para que el proyecto esté vacío. Puedes encontrar el editor online de Scratch aquí <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
+--- task ---
 
-+ Para este proyecto, deberías de tener una carpeta llamada 'Recursos del Proyecto', que contiene todas las imágenes que necesitas. Asegúrate de tener esta carpeta, y pregunta al líder del Club si no la encuentras.
+Abre el proyecto de inicio de Scratch "Crea tu propio mundo".
 
-	![screenshot](images/world-resources.png)
+**En línea:** abre el proyecto de inicio en [scratch.mit.edu/projects/380874343](https://scratch.mit.edu/projects/380874343){:target="_blank"}.
 
-+ Carga la imagen 'habitación1.png' como fondo nuevo, y la imagen 'jugador.png' como nuevo objeto. Si no tienes estas imágenes, ¡puedes dibujarlas tú! Tu proyecto debería de parecerse a éste:
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-	![screenshot](images/world-player.png)
+**Sin conexión:** descarga el proyecto de inicio desde [rpf.io/p/es-ES/create-your-own-world-go](http://rpf.io/p/es-ES/create-your-own-world-go) y luego ábrelo con el editor de Scratch sin conexión. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-+ Usaremos las teclas de flecha para mover al jugador. Al presionar la flecha hacia arriba, queremos que el jugador se mueva hacia arriba, cambiando la coordenada y. Añade este código al objeto jugador:
+![captura de pantalla](images/world-starter.png)
 
-	```blocks
-		al presionar bandera verde
-		por siempre
-   			si <¿tecla [flecha arriba v] presionada?> entonces
-      			cambiar y por (2)
-   			fin
-		fin
-	```
+--- /task ---
 
-+ Haz una prueba haciendo clic en la bandera verde, y a continuación presionando la flecha hacia arriba. ¿Se mueve tu jugador hacia arriba?
+Al presionar las teclas de flecha se moverá al objeto `jugador`. Cuando se presiona la flecha hacia arriba, el objeto `jugador` debe moverse hacia arriba en el escenario.
 
-	![screenshot](images/world-up.png)
+--- task ---
 
-+ Para mover al jugador hacia la izquierda, necesitarás añadir otro bloque `si`{:class:"blockcontrol"}, que cambie la coordenada x:
+Añade este código al objeto `jugador`:
 
-	```blocks
-		al presionar bandera verde
-		por siempre
-   			si <¿tecla [flecha arriba v] presionada?> entonces
-      			cambiar y por (2)
-   			fin
-   			si <¿tecla [flecha izquierda v] presionada?> entonces
-      			cambiar x por (-2)
-   			fin
-		fin
-	```
+![jugador](images/player.png)
 
-## Reto: Moverse en las cuatro direcciones 
-¿Puedes añadir más código a tu jugador, para que se pueda mover hacia arriba, abajo, derecha e izquierda? ¡Usa el código que ya tienes como ayuda!
+```blocks3
+al hacer clic en la bandera verde
+por siempre 
+  si <¿tecla (flecha arriba v) presionada? > entonces 
+    apuntar en dirección (0)
+    mover (4) pasos
+  end
+end
+```
 
-+ Haz otra prueba con tu jugador, y verás que puede atravesar las paredes de color gris claro.
+--- /task ---
 
-	![screenshot](images/world-walls.png)
+--- task ---
 
-+ Para arreglar esto, tienes que hacer que el jugador se mueva, pero que rebote si toca una pared de color gris claro. Necesitarás este código:
+Haz clic en la bandera y mantén presionada la flecha hacia arriba. ¿El objeto `jugador` se mueve hacia arriba?
 
-	```blocks
-		al presionar bandera verde
-		por siempre
-   			si <¿tecla [flecha arriba v] presionada?> entonces
-      			cambiar y por (2)
-      			si <¿tocando el color [#BABABA]?> entonces
-         			cambiar y por (-2)
-      			fin
-   			fin
-		fin
-	```
+![captura de pantalla](images/world-up.png)
 
-	Fíjate que el nuevo bloque `si`{:class:"blockcontrol"}`tocando el color`{:class:"blocksensing"} está _dentro_ del bloque `si`{:class:"blockcontrol"}`tecla [flecha arriba]`{:class:"blocksensing"}.
+--- /task ---
 
-+ Prueba este nuevo código pasando por debajo de la pared - no deberías de poder atravesarla si te mueves hacia arriba.
+--- task ---
 
-	![screenshot](images/world-walls-test.png)
+Para mover el `jugador` hacia la izquierda tienes que añadir otro bloque `si`{:class="block3control"} con un código similar:
 
-+ Vamos a hacer lo mismo para la flecha izquierda, haremos que rebote si el jugador toca una pared. Con todo lo que hemos añadido, el código de tu jugador se debería de parecer a éste:
+![jugador](images/player.png)
 
-	![screenshot](images/world-wall-code.png)
+```blocks3
+al hacer clic en la bandera verde
+por siempre 
+  si <¿tecla (flecha arriba v) presionada? > entonces 
+    apuntar en dirección (0)
+    mover (4) pasos
+  end
+  si <¿tecla (flecha izquierda v) presionada? > entonces 
+    apuntar en dirección (90)
+    mover (4) pasos
+  end
+end
+```
 
-## Reto: Arreglar el movimiento de tu jugador 
-Añade código a tu jugador para que no pueda atravesar las paredes en ninguna dirección. ¡Usa el código que ya tienes como ayuda!
+--- /task ---
+
+--- task ---
+
+Añade más código a tu objeto `jugador` para que pueda moverse también hacia abajo y hacia la derecha. Usa el código que ya tienes como ayuda.
+
+--- hints ---
+
+
+--- hint ---
+
+Para moverse hacia arriba, apunta el objeto `jugador` en la dirección `0` grados. ¿Qué tienes que hacer para mover el objeto hacia abajo?
+
+Para moverse hacia la izquierda, apunta el objeto jugador en la dirección `90` grados. ¿Qué tienes que hacer para mover el objeto hacia la derecha?
+
+--- /hint ---
+
+--- hint ---
+
+Necesita cambiar estos dos bloques:
+
+![jugador](images/player.png)
+
+```blocks3
+<key ( v) pressed>
+
+apuntar en dirección ()
+```
+
+Duplica el código que hace que el objeto `jugador` se mueva hacia arriba y cambia estos dos bloques para que el objeto se mueva hacia abajo. Duplica el código nuevamente y cámbialo para que el objeto se mueva hacia la derecha.
+
+--- /hint ---
+
+--- hint ---
+
+Así es como debería verse tu código:
+
+![jugador](images/player.png)
+
+```blocks3
+al hacer clic en la bandera verde
+por siempre 
+  si <¿tecla (flecha arriba v) está presionada? > entonces 
+    apuntar en dirección (0)
+    mover (4) pasos
+  end
+  si <¿tecla (flecha izquierda v) está presionada? > entonces 
+    apuntar en dirección (-90)
+    mover (4) pasos
+  end
+  si <¿tecla (flecha abajo v) presionada? > entonces 
+    apuntar en dirección (180)
+    mover (4) pasos
+  end
+  si <¿tecla (flecha izquierda v) está presionada? > entonces 
+    apuntar en dirección (90)
+    mover (4) pasos
+  end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---

@@ -1,36 +1,49 @@
-## Programar tu mundo
+## Paredes macizas
 
-¡Vamos a hacer que el jugador pueda pasar por puertas hacia otras habitaciones!
+--- task ---
 
-+ Añade otros dos fondos a tu escenario ('habitación2.png' y 'habitación3.png'), para que tengas 3 fondos en total. Asegúrate de que estén en el orden correcto - esto te ayudará más tarde.
+Prueba de nuevo tu objeto `jugador`. ¿Ves que puede atravesar las paredes de color gris claro?
 
-	![screenshot](images/world-backdrops.png)
+![captura de pantalla](images/world-walls.png)
 
-+ Necesitarás una nueva variable con el nombre `habitación`{:class:"blockdata"}, que te indicará en qué habitación se encuentra el jugador.
+--- /task ---
 
-	![screenshot](images/world-room.png)
+--- task ---
 
-+ Cuando el jugador toque la puerta naranja en la primera habitación, tendría que aparecer el siguiente fondo, y el jugador debería de aparecer en el lado izquierdo de la pantalla. Éste es el código que necesitas - debería de estar dentro del bucle `por siempre`{:class:"blockcontrol"} de tu jugador:
+Para arreglar esto, tendrás que hacer que tu `jugador` retroceda si toca una pared de color gris claro. Este es el código que necesitas añadir dentro de tu bloque `para siempre`{:class="block3control"} debajo de los bloques de dirección:
 
-	```blocks
-		si <¿tocando el color [#F2A24A]?> entonces
-   			cambiar fondo a [siguiente fondo v]
-   			ir a x:(-200) y:(0)
-   			cambiar [habitación v] por (1)
-		fin
-	```
+![jugador](images/player.png)
 
-+ Añade las siguientes líneas al _principio_ del código del jugador (antes del bucle `por siempre`{:class:"blockcontrol"}) para que todo se reinicie cuando hagas clic en la bandera:
+```blocks3
+al hacer clic en la bandera verde
+por siempre 
+  si <¿tecla (flecha arriba v) presionada? > entonces 
+    apuntar en dirección (0)
+    mover (4) pasos
+  end
+  si <¿tecla (flecha izquierda v) está presionada? > entonces 
+    apuntar en dirección (-90)
+    mover (4) pasos
+  end
+  si <¿tecla (flecha abajo v) presionada? > entonces 
+    apuntar en dirección (-180)
+    mover (4) pasos
+  end
+  si <¿tecla [flecha derecha v] presionada? > entonces 
+        apuntar en dirección (90)
+        mover (4) pasos
+    fin
+    si < toca el color [#BABABA]? > entonces 
+  mover (-4) pasos
+end
+```
 
-	```blocks
-		fijar [habitación v] a (1)
-		ir a x:(-200) y:(0)
-		cambiar fondo a [habitación1 v]
-	```
+--- /task ---
 
-+ Haz clic en la bandera y mueve al jugador por encima de la puerta naranja. ¿Se mueve el jugador hasta la siguiente pantalla? ¿Cambia el número de la variable `habitación`{:class:"blockdata"} a 2?
+--- task ---
 
-	![screenshot](images/world-room-test.png)
+Intenta hacer que el objeto `jugador` se mueva a través de una pared. Si tu nuevo código funciona, esto no debería ser posible.
 
-## Reto: Volver a la habitación anterior 
-¿Puedes hacer que el jugador vuelva a la habitación anterior cuando toque una puerta amarilla? Recuerda que este código será _muy_ parecido al que ya has añadido para que avance a la siguiente habitación.
+![captura de pantalla](images/world-walls-test.png)
+
+--- /task ---
