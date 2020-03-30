@@ -1,20 +1,20 @@
-## Signs
+## Таблички
 
-Now add signs to your world to guide players on their journey.
+Теперь добавь таблички в свой мир, которые бы помогали игрокам во время их путешествий.
 
-Your project includes a `welcome sign` sprite:
+Твой проект включает в себя спрайт `табличка Добро пожаловать`:
 
-![screenshot](images/world-sign.png)
+![снимок экрана](images/world-sign.png)
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+Спрайт `табличка Добро пожаловать` должен быть виден только в комнате 1, поэтому добавьте код к спрайту, чтобы убедиться, что это происходит:
 
 \--- hints \---
 
 \--- hint \---
 
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+`Когда зеленый флаг нажат`{:class="block3events"}, в цикле `повторять всегда`{:class="block3control"} проверь, `если`{:class="block3control"} `комната номер 1`{:class="block3variables"}, и в этом случае `покажи`{:class="block3looks"} спрайт `табличка Добро пожаловать`, `иначе`{:class="block3control"} `спрячь`{:class="block3looks"} спрайт.
 
 \--- /hint \---
 
