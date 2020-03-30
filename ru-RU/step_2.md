@@ -98,9 +98,9 @@ end
 
 \--- hint \---
 
-Here is how your code should look:
+Вот как должен выглядеть твой код:
 
-![player](images/player.png)
+![игрок](images/player.png)
 
 ```blocks3
 когда щёлкнут по зелёному флагу
