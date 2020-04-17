@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+이 프로젝트에 사용된 버전은 **스크래치 3** 입니다. [이 프로젝트의 Scratch 2 버전](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2)도 있습니다.
 
 \--- /no-print \---
 
-## Introduction
+## 들어가며
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+이 프로젝트에서는 여러 레벨로 탐험하는 나만의 모험 게임을 만드는 방법을 배웁니다.
 
-### What you will make
+### 만들 작품
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+녹색 깃발을 눌러 시작합니다. 맵에서 당신의 캐릭터를 움직이기 위해 화살표 키를 사용하세요.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,45 +23,45 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+화살표 키를 맵에서 당신의 캐릭터를 움직이는 데에 사용할 것입니다. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 준비물
 
-### Hardware
+### 하드웨어
 
-- A computer capable of running Scratch 3
+- 스크래치 3을 실행할 수 있는 컴퓨터
 
-### Software
+### 소프트웨어
 
-- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+- 스크래치 3 ( [온라인](http://rpf.io/scratchon){:target="_ blank"} 또는 [오프라인](http://rpf.io/scratchoff){:target="_ blank"})
 
-### Downloads
+### 다운로드
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+이 프로젝트를 완료하는 데 필요한 모든 것을 [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go) 에서 찾을 수 있습니다.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: 다음과 같은 내용을 배우게 됩니다
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+- 키보드 입력에 반응하기 위해 조건부 선택 사용하기
+- 변수를 사용하여 게임 상태 저장하기
+- 변수 값을 기반으로 조건부 선택 사용하기
+- list를 사용하여 데이터 저장하기
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 교육자를 위한 추가 정보
+
+이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}을 사용하십시오.
+
+여기서 [완료된 프로젝트를 확인할 수 있습니다](https://rpf.io/p/en/create-your-own-world-get)"}.
 
 \--- /collapse \---
