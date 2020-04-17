@@ -1,36 +1,36 @@
-## Doors and keys
+## 문과 열쇠
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+이제 게임에서 일부 문이 잠기도록 코드를 추가할 것입니다. 지금부터 플레이어는 열쇠를 찾아 문을 열은 후 다음 방으로 가야 합니다.
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+`열쇠` 스프라이트를 클릭합니다. 그리고 스크립트 메뉴의 `보이기`{:class="blocklooks"}를 클릭하여 무대에 나타나게 합니다.
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+`열쇠` 스프라이트의 색상이 파란색이 되도록 합니다.
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+무대 배경을 방3으로 바꾼 다음, `열쇠` 스프라이트를 다가가기 어려운 위치에 놓아보세요!
 
-![screenshot](images/world-key.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `key` sprite to make it only visible in room 3.
+![스크린샷](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+`열쇠` 스프라이트에 코드를 추가하여 방3에서만 나타나게 해보세요.
+
+\--- /task \---
+
+\--- task \---
+
+`플레이어` 스프라이트가 수집하는 아이템들을 저장할 수 있는 `아이템 목록`{:class="block3variables"}이라는 새 리스트를 만듭니다.
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,9 +38,9 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+열쇠를 수집하기 위해 추가해야 하는 코드는 동전을 수집하는 코드와 매우 비슷합니다. 차이점은 열쇠를 `아이템 목록`{:class="block3variables"}에 추가해야 한다는 것입니다.
 
-![key](images/key.png)
+![열쇠](images/key.png)
 
 ```blocks3
 when flag clicked
@@ -54,7 +54,7 @@ stop [other scripts in sprite v]
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+무대에 코드를 추가하여 게임 시작 시 아이템 목록을 초기화하게 해봅시다.
 
 ```blocks3
 delete (all v) of [inventory v]
@@ -64,29 +64,29 @@ delete (all v) of [inventory v]
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+게임을 테스트하여 `열쇠` 스프라이트를 수집하여 아이템 목록에 추가할 수 있는지 확인하세요.
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+이제 잠긴 문을 추가하세요. `문-파란색` 스프라이트를 선택하고 스크립트 메뉴의 `보이기`{:class="blocklooks}를 클릭하고, 두 벽 사이의 공간에 스프라이트를 위치시키세요.
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![스크린샷](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+`문-파란색` 스프라이트에 코드를 추가하여 방3에서만 나타나게 해보세요.
 
-![door](images/door.png)
+\--- /task \---
+
+\--- task \---
+
+`문-파란색` 스프라이트에 코드를 추가하여, 열쇠가 `아이템 목록`{:class="block3variables"}에 있을 때 스프라이트가 `숨기기`{:class="block3looks"} 되어 `플레이어` 스프라이트가 지나갈 수 있게 합니다.
+
+![문](images/door.png)
 
 ```blocks3
 when flag clicked
@@ -99,6 +99,6 @@ hide
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+게임을 테스트하고 파란색 열쇠를 수집하여 문을 열 수 있는지 확인해보세요!
 
 \--- /task \---
