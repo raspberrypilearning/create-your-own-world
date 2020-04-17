@@ -1,7 +1,7 @@
-## Challenge: treasure!
+## 도전 과제: 보물!
 
-Can you add some treasure for the player to find?
+플레이어가 찾을 수 있는 보물을 추가해볼 수 있나요?
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+`보물 상자` 스프라이트가 방3에서만 보이게 하고, `플레이어` 스프라이트가 닿으면 '잘했어요!'를 표시하게 해봅시다.
 
-![screenshot](images/world-treasure.png)
+![스크린샷](images/world-treasure.png)
