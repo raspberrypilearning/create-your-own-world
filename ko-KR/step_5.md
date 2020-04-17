@@ -1,3 +1,3 @@
-## Challenge: move back to the previous room
+## 도전 과제: 이전 방으로 이동하기
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+`플레이어` 스프라이트가 노란색 문에 닿으면 이전 방으로 돌아갈 수 있게 할 수 있나요? 이것에 필요한 코드는 다음 방으로 넘어가게 하기 위해 이미 추가한 코드와 매우 비슷합니다.
