@@ -1,20 +1,20 @@
-## People
+## 새로운 사람
 
-Add other people to your world who your `player` sprite can interact with.
+`플레이어` 스프라이트와 상호작용할 수 있는 다른 사람들을 추가해봅시다.
 
 \--- task \---
 
-Switch to the `person` sprite.
+`사람` 스프라이트를 클릭합니다.
 
-![Person sprite](images/person.png)
+![사람 스프라이트](images/person.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+`사람` 스프라이트에 코드를 추가하여 `플레이어` 스프라이트에게 말을 걸게 해봅시다. 이것은 `표지판` 스프라이트에 추가했던 코드와 매우 비슷합니다:
 
-![person](images/person.png)
+![사람](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -32,9 +32,9 @@ end
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+다음 두 블록을 `아니라면` 부분에 추가하여 `사람` 스프라이트가 움직일 수 있게끔 합니다:
 
-![person](images/person.png)
+![사람](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -52,14 +52,14 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+`사람` 스프라이트는 이제 움직이면서도, `플레이어`와 이야기하기 위해서는 멈춰설 것입니다.
 
-![screenshot](images/world-person-test.png)
+![스크린샷](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+`사람` 스프라이트에 코드를 추가하여 스프라이트가 방1에서만 나타나게 해보세요. 이것에 필요한 코드는 `표지판` 스프라이트가 방1에서만 보이게 하는 코드와 정확히 동일합니다.
 
-Make sure you test out your new code.
+새 코드를 반드시 테스트해보세요.
 
 \--- /task \---
