@@ -1,18 +1,18 @@
-## Solid walls
+## 단단한 벽
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls.
+`플레이어` 스프라이트를 다시 테스트해보세요. 밝은 회색 벽을 통과 할 수 있다는 것을 볼 수 있나요?
 
-![screenshot](images/world-walls.png)
+![스크린샷](images/world-walls.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+이것을 고치기 위해서는, `플레이어` 스프라이트가 밝은 회색 벽에 닿으면 뒤로 물러나게끔 해야 합니다. 방향 블록 아래에 있는 `무한 반복하기` 블록 안에 추가해야 할 코드는 다음과 같습니다:
 
-![player](images/player.png)
+![플레이어](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -43,8 +43,8 @@ end
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+`플레이어` 스프라이트가 벽을 통과하게끔 시도해보세요. 만약에 새로 작성한 코드가 잘 작동한다면, 이것이 불가능할 것입니다.
 
-![screenshot](images/world-walls-test.png)
+![스크린샷](images/world-walls-test.png)
 
 \--- /task \---
