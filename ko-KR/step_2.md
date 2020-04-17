@@ -1,28 +1,28 @@
-## Move the player sprite
+## 플레이어 스프라이트 움직이기
 
-Start by creating a `player` sprite that can move around your world.
+맵에서 움직일 수 있는 `플레이어` 스프라이트를 만들어 시작해봅시다.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+'나만의 세계 만들기' 스크래치 스타터 프로젝트를 엽니다.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+** 온라인: ** [ rpf.io/create-your-own-world-on ](http://rpf.io/create-your-own-world-on) {:target="_ blank"}에서 새로운 스타터 프로젝트를 열어주세요.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+스크래치 계정이 있는 경우 ** Remix를 클릭 ** 하여 사본을 만들 수 있습니다.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다. 스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}에서 파일을 다운로드할 수 있습니다.
 
-![screenshot](images/world-starter.png)
+![스크린샷](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+화살표 키를 누르면 `플레이어` 스프라이트가 움직여야 합니다. 위 화살표를 누르면, `플레이어` 스프라이트가 반응하여 위로 움직일 것입니다.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+`플레이어` 스프라이트에 다음 코드를 추가하세요:
 
-![player](images/player.png)
+![플레이어](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -38,17 +38,17 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+플래그를 클릭한 후 위 화살표를 길게 눌러보세요. `플레이어` 스프라이트가 위로 움직이나요?
 
-![screenshot](images/world-up.png)
+![스크린샷](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+`플레이어` 스프라이트를 왼쪽으로 움직이고 싶다면, 비슷한 코드를 가진 또 다른 `만약 ( ) (이)라면`{:class="block3control"} 블록을 추가해야 합니다.
 
-![player](images/player.png)
+![플레이어](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -68,23 +68,23 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+`플레이어` 스프라이트에 더 많은 코드를 추가하여 위 아래로도 움직일 수 있게 해봅시다. 지금 가지고 있는 코드를 활용해보세요.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+위로 움직이고 싶다면, `플레이어` 스프라이트를 `0`도 방향으로 향하게 합니다. 스프라이트를 아래로 움직이기 위해서는 무엇을 해야 하나요?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+왼쪽으로 움직이고 싶다면, 스프라이트를 `-90`도 방향으로 향하게 합니다. 오른쪽으로 움직이기 위해서는 무엇을 해야 하나요?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+다음 두 블록을 수정해야 합니다:
 
-![player](images/player.png)
+![플레이어](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -92,15 +92,15 @@ You need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+`플레이어` 스프라이트를 위로 움직이게 하는 코드를 복제하고, 이 두 블록을 스프라이트가 아래로 움직이게 수정합니다. 다시 코드를 복제한 후, 스프라이트가 오른쪽으로 움직이게 수정합니다.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is how your code should look:
+코드는 다음과 같이 설계되어야 합니다:
 
-![player](images/player.png)
+![플레이어](images/player.png)
 
 ```blocks3
 when flag clicked
