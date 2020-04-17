@@ -1,26 +1,26 @@
-## Collect coins
+## 코인 모으기
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+`플레이어` 스프라이트는 맵을 통과하면서 동전을 수집 할 수 있어야 합니다.
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+프로젝트에 `동전 개수`{:class="block3variables"}라는 새로운 변수를 추가합니다.
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+`동전` 스프라이트를 클릭한 후 **보이기**를 클릭합니다.
 
-![screenshot](images/coin.png)
+![스크린샷](images/coin.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+`동전` 스프라이트에 코드를 추가하여 방1에서만 나타나게 해보세요.
 
-![screenshot](images/coin.png)
+![스크린샷](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -35,9 +35,9 @@ hide
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+`플레이어` 스프라이트가 `동전`에 닿으면 동전을 `숨기기`{:class="block3looks"}하고 `동전 개수`{:class="block3variables"} 변수에 `1`{:class="block3variables"}이 추가되게끔 하여 `플레이어`가 <0>동전</0>을 '주울 수 있도록' 코드를 추가해봅시다.
 
-![coin](images/coin.png)
+![동전](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ hide
 stop [other scripts in sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+`[이 스프라이트에 있는 다른 스크립트 v]`{:class="block3control"}라는 코드는 `동전` 스프라이트가 주워진 이후 방1에서 표시되지 않게 하기 위해 필요합니다.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+이제 무대에 코드를 추가하여 게임이 시작되면 `동전 개수`{:class="block3variables"} 변수가 `0`이 되게 코드를 추가해보세요.
 
-![stage](images/stage.png)
+![무대](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -66,6 +66,6 @@ set [coins v] to [0]
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+게임을 테스트해보세요. 동전을 모으면 `동전 개수`가 `1`{:class="block3variables"}로 바뀔 것 입니다.
 
 \--- /task \---
