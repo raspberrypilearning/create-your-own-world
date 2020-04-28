@@ -1,130 +1,130 @@
-## Move around your world
+## Mou-te pel teu món
 
-The `player` sprite should be able to walk through doors into other rooms.
+El personatge del `jugador` hauria de poder entrar per les portes a altres habitacions.
 
-Your project contains backdrops for additional rooms:
+El teu projecte conté escenaris per a habitacions addicionals:
 
-![screenshot](images/world-backdrops.png)
+![captura de pantalla](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Crea una nova variable "per a tots els personatges" anomenada `habitació`{:class="block3variables"} per fer un seguiment de en quina habitació està el personatge del `jugador`.
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![captura de pantalla](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+Quan el personatge del `jugador` toca la porta taronja a la primera habitació, el joc hauria de mostrar el següent decorat i el personatge del `jugador` hauria de tornar al costat esquerre de l'Escenari. Afegeix aquest codi dins del bucle `per sempre`{:class="block3control"} del personatge del `jugador`:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-    end
-end
+quan la bandera es cliqui
+per sempre
+    si < tecla (fletxa amunt v) premuda? > llavors
+        apunta en direcció (0)
+        mou-te (4) passos
+    fi
+    si < tecla (fletxa esquerra v) premuda? > llavors
+        apunta en direcció (-90)
+        mou-te (4) passos
+    fi
+    si < tecla (fletxa avall v) premuda? > llavors
+        apunta en direcció (-180)
+        mou-te (4) passos
+    fi
+    si < tecla [fletxa dreta v] premuda? > llavors
+        apunta en direcció (90)
+        mou-te (4) passos
+    fi
+    si < tocant el color [#BABABA]? > llavors
+        mou-te (-4) passos
+    fi
++   if < tocant el color [#F2A24A] > llavors
+        canvia el fons a (següent fons de pantalla v)
+        vés a x: (-200) y: (0)
+        augmenta [habitació v] en (1)
+    fi
+fi
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+Cada cop que comença el joc, cal restablir l'habitació, la posició del personatge i el fons.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Afegeix codi a l'**inici** del codi del teu personatge `jugador` per sobre del bucle `per sempre`{:class="block3control"}, per restablir-ho tot quan es faci clic a la bandera:
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+Quan el joc comença:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ El valor d'`habitació`{:class="block3variables"} s'ha de definir a `1`{:class="block3variables"}
++ El `fons`{:class="block3variables"} s'ha de definir a `habitació1`{:class="block3variables"}
++ La posició del personatge del `jugador` s'ha de definir a `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the extra blocks you need:
+Aquí tens els blocs addicionals que necessites:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+vés a x: (-200) y: (0)
 
-set [room v] to (1)
+assigna a [habitació1 v] el valor (1)
 
-switch backdrop to (room1 v)
+canvia el fons a (habitació1 v)
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here's what your finished script should look like:
+Així és com s'hauria de veure el teu codi una vegada acabat:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
-end
+quan la bandera es cliqui
++assigna a [habitació v] el valor (1)
++vés a x: (-200) y: (0)
++canvia el fons a (habitació1 v)
+per sempre
+    si < tecla (fletxa amunt v) premuda? > llavors
+        apunta en direcció (0)
+        mou-te (4) passos
+    fi
+    si < tecla (fletxa esquerra v) premuda? > llavors
+        apunta en direcció (-90)
+        mou-te (4) passos
+    fi
+    si < tecla (fletxa avall v) premuda? > llavors
+        apunta en direcció (-180)
+        mou-te (4) passos
+    fi
+    si < tecla [fletxa dreta v] premuda? > llavors
+        apunta en direcció (90)
+        mou-te (4) passos
+    fi
+    si < tocant el color [#BABABA]? > llavors
+        mou-te (-4) passos
+    fi
+    si < tocant el color [#F2A24A] > aleshores
+        canvia el fons a (següent fons de pantalla v)
+        vés a x: (-200) y: (0)
+        augmenta [habitació v] en (1)
+    fi
+fi
 ```
 
 \--- /hint \---
@@ -135,8 +135,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+Fes clic a la bandera i, a continuació, mou el teu personatge de `jugador` fins que toqui la porta taronja. El personatge passa a la pantalla següent? La variable `habitació` {:class="block3variables"} canvia a `2`?
 
-![screenshot](images/world-room-test.png)
+![captura de pantalla](images/world-room-test.png)
 
 \--- /task \---
