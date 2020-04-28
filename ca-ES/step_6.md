@@ -1,6 +1,6 @@
-## Signs
+## Senyals
 
-Now add signs to your world to guide players on their journey.
+Ara afegeix senyals al teu món per guiar els jugadors en el seu viatge.
 
 Your project includes a `welcome sign` sprite:
 
