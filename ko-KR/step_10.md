@@ -53,7 +53,7 @@ stop [other scripts in sprite v]
 
 --- task ---
 
-이제 무대에 코드를 추가하여 게임이 시작되면 `동전 개수`{:class="block3variables"} 변수가 `0`이 되게 코드를 추가해보세요.
+이제 무대에 코드를 추가하여 게임이 시작되면 `동전 개수`{:class="block3variables"} 변수가 `0`{:class="block3variables"}이 되게 코드를 추가해보세요.
 
 ![무대](images/stage.png)
 

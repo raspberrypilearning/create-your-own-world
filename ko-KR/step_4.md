@@ -97,7 +97,7 @@ switch backdrop to (방1 v)
 
 ```blocks3
 when flag clicked
-+set [room v] to (1)
++set [방 번호 v] to (1)
 +go to x: (-200) y: (0)
 +switch backdrop to (방1 v)
 forever
