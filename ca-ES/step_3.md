@@ -1,50 +1,50 @@
-## Solid walls
+## Murs massissos
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls.
+Prova el teu personatge de `jugador` de nou. Veus que pot caminar per les parets de color gris clar?
 
-![screenshot](images/world-walls.png)
+![captura de pantalla](images/world-walls.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+Per solucionar-ho, has de fer que el personatge del `jugador` es desplaci enrere si toca una paret de color gris clar. Aquí tens el codi que cal afegir dins del teu bloc `per sempre`{:class="block3control"} sota els blocs de direcció:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-+   if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-end
+quan la bandera es cliqui
+per sempre
+    si < tecla (fletxa amunt v) premuda? > llavors
+        apunta en direcció (0)
+        mou-te (4) passos
+    fi
+    si < tecla (fletxa esquerra v) premuda? > llavors
+        apunta en direcció (-90)
+        mou-te (4) passos
+    fi
+    si < tecla (fletxa avall v) premuda? > llavors
+        apunta en direcció (-180)
+        mou-te (4) passos
+    fi
+    si < tecla (fletxa dreta v) premuda? > llavors
+        apunta en direcció (90)
+        mou-te (4) passos
+    fi
++   si < tocant el color [#BABABA]? > llavors
+        mou-te (-4) passos
+    fi
+fi
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+Prova de fer moure el personatge del `jugador` per una paret. Si el teu codi nou funciona, això no hauria de ser possible.
 
-![screenshot](images/world-walls-test.png)
+![captura de pantalla](images/world-walls-test.png)
 
 \--- /task \---
