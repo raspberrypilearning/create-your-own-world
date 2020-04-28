@@ -1,13 +1,13 @@
-room
+habitació
 
-player
+jugador
 
-Welcome! Can you get to the treasure?
+Benvingut! Pots arribar al tresor?
 
-Did you know that you can go through orange and yellow doors?
+Saps que pots passar per portes taronges i grogues?
 
-coins
+monedes
 
-blue key
+clau blava
 
-inventory
+inventari
