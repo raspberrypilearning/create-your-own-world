@@ -8,7 +8,7 @@
 
 --- task ---
 
-'모든 스프라이트에서 사용'할 수 있는 변수 `방 번호`를 만들어 `플레이어` 스프라이트가 어느 방에 있는 지를 추적해봅시다.
+'모든 스프라이트에서 사용'할 수 있는 변수 `방 번호`{:class="block3variables"}를 만들어 `플레이어` 스프라이트가 어느 방에 있는 지를 추적해봅시다.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -47,7 +47,7 @@ forever
 +   if < touching color [#F2A24A] > then
     switch backdrop to (next backdrop v)
     go to x: (-200) y: (0)
-    change [방 v] by (1)
+    change [방 번호 v] by (1)
     end
 end
 ```
@@ -67,8 +67,8 @@ end
 
 게임이 시작되면:
 
-+ `방 번호` 변수의 값이 `1`로 설정되어야 합니다.
-+ `배경`{:class="block3looks"}은 `방1`로 설정되어야 합니다.
++ `방 번호`{:class="block3variables"} 변수의 값이 `1`{:class="block3variables"}로 설정되어야 합니다.
++ `배경`{:class="block3looks"}은 `방1`{:class="block3looks"}로 설정되어야 합니다.
 + `플레이어` 스프라이트의 위치가 `x: -200 y: 0`{:class="block3motion"}로 설정되어야 합니다.
 
 --- /hint ---
@@ -82,7 +82,7 @@ end
 ```blocks3
 go to x: (-200) y: (0)
 
-set [방 v] to (1)
+set [방 번호 v] to (1)
 
 switch backdrop to (방1 v)
 ```
@@ -123,7 +123,7 @@ forever
     if < touching color [#F2A24A] > then
     switch backdrop to (next backdrop v)
     go to x: (-200) y: (0)
-    change [방 v] by (1)
+    change [방 번호 v] by (1)
 end
 end
 ```

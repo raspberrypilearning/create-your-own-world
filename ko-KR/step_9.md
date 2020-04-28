@@ -9,7 +9,7 @@
 ```blocks3
 when flag clicked
 forever
-if <(방 :: variables)=[2]> then
+if <(방 번호 :: variables)=[2]> then
 show
 else
 hide

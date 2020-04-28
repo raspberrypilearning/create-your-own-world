@@ -15,7 +15,7 @@
 
 --- hint ---
 
-`깃발을 클릭했을 때`{:class="block3events"}, `무한 반복하기`{:class="block3control"} 블록 안에서 `방 번호가 1`인지 확인한 후, 만약 그렇다면 `환영 표지판` 스프라이트를 `보이기`하고, 아니라면 스프라이트를 `숨기기` 하세요.
+`깃발을 클릭했을 때`{:class="block3events"}, `무한 반복하기`{:class="block3control"} 블록 안에서 `방 번호가 1`{:class="block3variables"}인지 확인한 후, `만약 그렇다면`{:class="block3control"} `환영 표지판` 스프라이트를 `보이기`{:class="block3looks"}하고, 아니라면 스프라이트를 `숨기기`{:class="block3looks"} 하세요.
 
 --- /hint ---
 
@@ -30,7 +30,7 @@ if < > then
 else
 end
 
-< (방 :: variables) = [1] >
+< (방 번호 :: variables) = [1] >
 
 hide
 
@@ -54,7 +54,7 @@ when flag clicked
 ```blocks3
 when flag clicked
 forever
-    if < (방 :: variables) = [1] > then
+    if < (방 번호 :: variables) = [1] > then
         show
     else
         hide
@@ -85,7 +85,7 @@ end
 ```blocks3
 when flag clicked
 forever
-if < (방 :: variables) = [1] > then
+if < (방 번호 :: variables) = [1] > then
 show
 else
 hide

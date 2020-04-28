@@ -25,7 +25,7 @@
 ```blocks3
 when flag clicked
 forever
-if <(방 :: variables)=[1]> then
+if <(방 번호 :: variables)=[1]> then
 show
 else
 hide
@@ -47,7 +47,7 @@ hide
 stop [other scripts in sprite v]
 ```
 
-`[이 스프라이트에 있는 다른 스크립트 v]`{:class="block3control"}라는 코드는 `동전` 스프라이트가 주워진 이후 방1에서 표시되지 않게 하기 위해 필요합니다.
+`이 스프라이트에 있는 다른 스크립트`{:class="block3control"}라는 코드는 `동전` 스프라이트가 주워진 이후 방1에서 표시되지 않게 하기 위해 필요합니다.
 
 --- /task ---
 

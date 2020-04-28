@@ -24,5 +24,5 @@
 if <touching color [ ]?> then
 switch backdrop to ((costume [number v]) + (3))
 go to x:(0) y:(200)
-change [방 v] by (3)
+change [방 번호 v] by (3)
 ```
