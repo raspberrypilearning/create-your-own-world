@@ -62,6 +62,6 @@
 
 이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}을 사용하십시오.
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](https://rpf.io/p/en/create-your-own-world-get)"}.
+여기서 [완료된 프로젝트를 확인할 수 있습니다](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
