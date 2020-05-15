@@ -1,8 +1,8 @@
 ## تحدي: إضافة عدو
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+إذا أردت ، يمكنك أيضًا إضافة دوريات أعداء إلى لعبتك. إذا لمس كائن `لاعب` عدو، تنتهي اللعبة.
 
-+ Your game already contains an `enemy` sprite. أضف تعليمة برمجية إلى الكائن`عدو (enemy)` بحيث لا يظهر إلّا في الغرفة 2.
++ لعبتك تحتوي بالفعل على كائن `عدو`. أضف تعليمة برمجية إلى الكائن`عدو (enemy)` بحيث لا يظهر إلّا في الغرفة 2.
 
 + Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. من الأسهل أن تكون التعليمات البرمجية على هيئة قوالب منفصلة. يجب أن يكون الرمز للكائن `عدو` كما يلي:
 
