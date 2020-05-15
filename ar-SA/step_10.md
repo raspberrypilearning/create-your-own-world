@@ -1,26 +1,26 @@
 ## جمع العملات الذهبية
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+` لاعبك` يجب أن يكون قادراً على جمع العملات الذهبية أثناء تحركه عبر العالم.
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+أضف متغير جديد يُسمى`العملات الذهبية`{:class="blockdata"} إلى مشروعك.
 
 \---/task--
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+انقر بزر الماوس الأيمن فوق كائن `coin` واختر ** إظهار **.
 
-![screenshot](images/coin.png)
+![لقطة الشاشة](images/coin.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+أضف تعليمة برمجية إلى كائن `العملات الذهبية` بحيث لا يظهر إلا في الغرفة 1.
 
-![screenshot](images/coin.png)
+![لقطة الشاشة](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -35,9 +35,9 @@ hide
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+أضف تعليمة برمجية لكائن `العملات الذهبية` بحيث `يختف` {:class="block3looks"} الكائن ويضاف `1 `{:class="block3variables"} الى المتغير `العملات الذهبية`{:class="block3variables"} عندما يلمس كائن ` player ` الكائن ` coin` لكي "يلتقطها".
 
-![coin](images/coin.png)
+![العملات الذهبية](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ hide
 stop [other scripts in sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+يجب استخدام التعليمة البرمجية `أوقف النصوص الأخرى في الكائن`{:class="blockcontrol"} بحيث يختفي كائن `العملات الذهبية` من الغرفة 1 بمجرد جمعِها.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+الآن أضف تعليمة برمجية إلى المرحلة لاضافة متغير `العملات الذهبية`{:class="block3variables"} الخاص بك إلى `0 `{:class="block3variables"} في بداية اللعبة.
 
-![stage](images/stage.png)
+![المنصة](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -66,6 +66,6 @@ set [coins v] to [0]
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+قم بإختبار لعبتك. جمع عملة ذهبية يجب أن يغير النتيجة `العملات الذهبية` إلى `1 `{:class="block3variables"}.
 
 \--- /task \---
