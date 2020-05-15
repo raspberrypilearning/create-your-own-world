@@ -74,7 +74,7 @@ Afegeix més codi al teu personatge del `jugador` perquè també es pugui moure 
 
 \--- hint \---
 
-Per pujar cap amunt, apunta el personatge del `jugador` en la direcció `0` graus. Què has de fer per fer baixar la icona?
+Per pujar cap amunt, apunta el personatge del `jugador` en la direcció `0` graus. Què has de fer per fer baixar el personatge?
 
 Per moure'l cap a l'esquerra, apunta el personatge en la direcció `-90` graus. Què has de fer per moure el personatge cap a la dreta?
 
