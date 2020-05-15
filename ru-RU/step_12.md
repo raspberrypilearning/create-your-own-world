@@ -18,7 +18,7 @@
 
 ![снимок экрана](images/north-south-rooms.png)
 
-![screenshot](images/number-grid.png)
+![снимок экрана](images/number-grid.png)
 
 ```blocks3
 если <touching color [ ]?> , то 
