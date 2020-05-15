@@ -57,7 +57,7 @@ stop [outros scripts no ator v]
 Adicione código ao seu palco para esvaziar seu inventário no início do jogo.
 
 ```blocks3
-delete (all v) of [inventário v]
+delete all of [inventário v]
 ```
 
 --- /task ---

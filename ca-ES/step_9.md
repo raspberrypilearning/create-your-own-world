@@ -16,7 +16,7 @@ amaga't
 
 when flag clicked
 per sempre
-si <touching (player v)?> llavors
+si <touching (jugador v)?> llavors
 atura [tot v]
 
 when flag clicked

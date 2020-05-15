@@ -47,7 +47,7 @@ sempre
 + se < tocando na cor [#F2A24A]> então 
     mude para o cenário (próximo cenário v)
     vá para x: (-200) y: (0)
-    adicione (1) a [sala v]
+    change [sala v] by (1)
   end
 end
 ```
@@ -123,7 +123,7 @@ sempre
   se <tocando na cor [#F2A24A]?> então 
     mude para o cenário (próximo cenário v)
     vá para x: (-200) y: (0)
-    adicione (1) a [sala v]
+    change [sala v] by (1)
   end
 end
 ```

@@ -120,7 +120,7 @@ per sempre
     si < tocant el color [#BABABA]? > llavors
         mou-te (-4) passos
     fi
-    si < tocant el color [#F2A24A] > llavors
+    si < tocant el color [#F2A24A]? > llavors
         canvia el fons a (següent fons de pantalla v)
         vés a x: (-200) y: (0)
         augmenta [habitació v] en (1)

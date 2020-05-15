@@ -42,7 +42,7 @@ Adicione código a seu ator `moeda` para que o ator moeda `se esconda`{:class="b
 ```blocks3
 quando ⚑ for clicado
 espere até que <touching (jogador v)?>
-adicione (1) a [moedas v]
+change [moedas v] by (1)
 esconda
 pare [outros scripts no sprite v]
 ```
