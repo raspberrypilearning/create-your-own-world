@@ -2,6 +2,6 @@
 
 هل يمكنك إضافة بعض الكنز ليبحث عنه اللاعب ويجده؟
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+اجعل الكائن `صندوق الكنز` يظهر فقط في الغرفة 3، وجعل هذا الكائن يقول 'أحسنت!' عندما يلمسه الكائن `اللاعب `.
 
 ![لقطة شاشة](images/world-treasure.png)
