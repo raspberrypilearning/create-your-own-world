@@ -1,39 +1,39 @@
-## Challenge: add an enemy
+## Repte: afegeix un enemic
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Si vols, també pots afegir patrulles d'enemics al teu joc. Si el personatge del `jugador` toca un enemic, el joc s’acaba.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ El teu joc ja conté un personatge d'`enemic`. Afegeix codi al teu personatge d'`enemic` de manera que només aparegui a l'habitació 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ Afegeix codi per moure el personatge `enemic` i per acabar el joc si l'`enemic `toca el personatge del `jugador`. És més fàcil fer-ho en blocs de codi separats. Aquí tens com hauria de ser el codi del personatge `enemic`:
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
+quan la bandera es cliqui
+per sempre
+si <(habitació :: variables) =[2]> llavors
+mostra't
+si no
+amaga't
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+quan la bandera es cliqui
+per sempre
+si <touching (player v)?> llavors
+atura [tot v]
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
-end
-repeat (130)
-change x by (1)
+quan la bandera es cliqui
+vés a x: (170) y:(0)
+per sempre
+repeteix (130)
+suma (-1) a x
+fi
+repeteix (130)
+suma (1) a x
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Prova el teu nou codi per assegurar-te que: 
+    + El personatge `enemic` només és visible a l'habitació 2
+    + El personatge `enemic` es mou per tota l'habitació
+    + El joc s’acaba si el personatge `jugador` toca el personatge `enemic`
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Pots crear un altre personatge `enemic` a l'habitació 3 que faci ronda amunt i avall per l'escletxa de la paret?
 
-![screenshot](images/world-enemy2.png)
+![captura de pantalla](images/world-enemy2.png)
