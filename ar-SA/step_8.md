@@ -1,20 +1,20 @@
 ## الأشخاص
 
-Add other people to your world who your `player` sprite can interact with.
+لنُضِيف أشخاصًا آخرين إلى لعبتك ليتعامل معها كائن `اللاعب`.
 
 \--- task \---
 
-Switch to the `person` sprite.
+عُد إلى كائن `الشخص`.
 
-![Person sprite](images/person.png)
+![كائن الشخص](images/person.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+أضف بعض التعليمات البرمجية إلى كائن `الشخص`، ليتحدث مع كائن `اللاعب`. هذه التعليمة البرمجية تشبه إلى حدٍ كبير التعليمة البرمجية التي أضفتها إلى كائن`لافتة`:
 
-![person](images/person.png)
+![شخص](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -32,9 +32,9 @@ end
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+اسمح لكائن `الشخص` بالتحرك عن طريق إضافة هاتين الكتلتين البرمجيية في جزء كتلة`والا `{:class="block3control"}:
 
-![person](images/person.png)
+![شخص](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -52,14 +52,14 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+`شخصيتك` سوف تتحرك، لكن سوف تتوقف للتحدث مع كائن `اللاعب`.
 
-![screenshot](images/world-person-test.png)
+![لقطة الشاشة](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+أضف تعليمة برمجية جديدة إلى كائن `الشخص` بحيث لا يظهر ذلك الكائن إلا في غرفة 1. التعليمية البرمجية التي تحتاجها هي بالضبط نفس التعليمية البرمجية التي تجعل الكائن `اللافتة` مرئيًا (ضاهرا) فقط في الغرفة 1.
 
-Make sure you test out your new code.
+تأكد من اختبار التعليمة البرمجية الجديدة.
 
 \--- /task \---
