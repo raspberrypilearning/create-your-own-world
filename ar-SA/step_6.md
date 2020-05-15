@@ -8,7 +8,7 @@
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+يجب أن يكون كائن `علامة الترحيب` مرئيًا فقط في الغرفة 1، لذلك أضف بعض التعليمات البرمجية إلى الكائن للتأكد من حدوث ذلك:
 
 \--- hints \---
 
