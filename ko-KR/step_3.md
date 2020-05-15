@@ -2,7 +2,7 @@
 
 \--- task \---
 
-`플레이어` 스프라이트를 다시 테스트해보세요. 밝은 회색 벽을 통과 할 수 있다는 것을 볼 수 있나요?
+`플레이어` 스프라이트를 다시 테스트해보세요. Do you see that it can walk through the light grey walls?
 
 ![스크린샷](images/world-walls.png)
 
