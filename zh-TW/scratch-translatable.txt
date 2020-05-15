@@ -1,13 +1,13 @@
-room
+空間
 
-player
+玩家
 
-Welcome! Can you get to the treasure?
+歡迎! 你能找到寶藏嗎?
 
-Did you know that you can go through orange and yellow doors?
+你知道嗎? 你能穿過橘色和黃色的門
 
-coins
+金幣
 
-blue key
+藍鑰
 
-inventory
+物品欄
