@@ -1,71 +1,71 @@
-## Collect coins
+## Coletar moedas
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+Seu `jogador` sprite deve coletar moedas à medida que se move pelo mundo.
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+Adicione uma nova variável chamada `moedas` {:class="block3variables"} em seu projeto.
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+Selecione o ator `moeda` e clique em **mostrar**.
 
-![screenshot](images/coin.png)
+![captura de tela](images/coin.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+Adicione código ao ator `moeda` para que apareça apenas na sala 1.
 
-![screenshot](images/coin.png)
+![captura de tela](images/coin.png)
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[1]> then
-show
-else
-hide
+quando ⚑ for clicado
+sempre 
+se <(sala :: variáveis)=[1]> então 
+mostre
+senão 
+esconda
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Adicione código a seu ator `moeda` para que o ator moeda `se esconda` {:class="block3looks"} e `1` {:class="block3variables"} seja adicionado à variável `moedas`{:class="block3variables"} uma vez que o ator `jogador` tocar no ator `moeda` para 'pegá-lo'.
 
-![coin](images/coin.png)
+![moeda](images/coin.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
-hide
-stop [other scripts in sprite v]
+quando ⚑ for clicado
+espere até que <touching (player v)?>
+adicione (1) a [moedas v]
+esconda
+pare [outros scripts no sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+O código `interrompe outros scripts no sprite`{:class="block3control"} é necessário para que a `moeda` sprite deixe de ser exibida na sala 1 depois de coletado.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+Agora adicione código ao palco para definir sua variável `moedas`{:class="block3variables"} para `0` {:class="block3variables"} no início do jogo.
 
-![stage](images/stage.png)
+![palco](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [coins v] to [0]
+quando ⚑ for clicado
+mude [moedas v] para [0]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+Teste seu jogo. Coletar uma moeda deve alterar a sua pontuação `moedas` para `1`{:class="block3variables"}.
 
 \--- /task \---
