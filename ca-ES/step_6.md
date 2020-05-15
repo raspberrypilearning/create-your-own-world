@@ -2,43 +2,43 @@
 
 Ara afegeix senyals al teu món per guiar els jugadors en el seu viatge.
 
-Your project includes a `welcome sign` sprite:
+El teu projecte inclou un personatge de `senyal de benvinguda`:
 
-![screenshot](images/world-sign.png)
+![captura de pantalla](images/world-sign.png)
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+El personatge de `senyal de benvinguda` només hauria de ser visible a l'habitació 1, així que afegeix algun codi al personatge per assegurar-te que això passi:
 
 \--- hints \---
 
 \--- hint \---
 
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+`Quan la bandera es cliqui`{:class="block3events"}, en un bucle `per sempre`{:class="block3control"}, comprova `si`{:class="block3control"} l'`habitació és 1`{:class="block3variables"} i en aquest cas `mostra`{:class="block3looks"} el personatge `senyal de benvinguda`, `si no`{:class="block3control"} `amaga`{:class="block3looks"} el personatge.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aquí tens els blocs que necessites:
 
-![sign](images/sign.png)
+![senyal](images/sign.png)
 
 ```blocks3
-<br />if < > then
-else
-end
+<br />si < > llavors
+si no
+fi
 
-< (room :: variables) = [1] >
+< (habitació :: variables) = [1] >
 
-hide
+amaga't
 
-show
+mostra't
 
-forever
-end
+per sempre
+fi
 
-when flag clicked
+quan la bandera es cliqui
 
 ```
 
@@ -46,19 +46,19 @@ when flag clicked
 
 \--- hint \---
 
-Here is the complete code:
+Aquí tens el codi complet:
 
-![sign](images/sign.png)
+![senyal](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
+quan la bandera es cliqui
+per sempre
+    si < (habitació :: variables) = [1] > llavors,
+        mostra't
+    si no
+        amaga't
+    fi
+fi
 ```
 
 \--- /hint \---
@@ -69,40 +69,40 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Prova el codi del teu personatge `senyal de benvinguda` movent-te entre habitacions. El senyal només ha de ser visible a l'habitació 1.
 
-![screenshot](images/world-sign-test.png)
+![captura de pantalla](images/world-sign-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+Un senyal no és gaire bo si no diu res! Afegeix més codi per mostrar un missatge si el personatge de `senyal de benvinguda` toca el personatge `jugador`:
 
-![sign](images/sign.png)
+![senyal](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
+quan la bandera es cliqui
+per sempre
+si < (habitació :: variables) = [1] > llavors,
+mostra't
+si no
+amaga't
+fi
++ si < tocant (jugador v)? > llavors
+digues [Benvingut! Pots arribar al tresor?]
+si no
+digues []
+fi
+fi
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Prova el teu personatge `senyal de benvinguda` de nou. Ara hauries de veure un missatge quan el personatge del `jugador` toca el personatge `senyal de benvinguda`.
 
-![screenshot](images/world-sign-test2.png)
+![captura de pantalla](images/world-sign-test2.png)
 
 \--- /task \---
