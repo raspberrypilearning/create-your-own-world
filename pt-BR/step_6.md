@@ -1,44 +1,44 @@
-## Signs
+## Sinalizações
 
-Now add signs to your world to guide players on their journey.
+Agora adicione sinalizações ao seu mundo para guiar os jogadores em suas jornadas.
 
-Your project includes a `welcome sign` sprite:
+Seu projeto inclui um ator `sinalização bem-vindo`:
 
-![screenshot](images/world-sign.png)
+![captura de tela](images/world-sign.png)
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+O ator `sinalização bem-vindo` deve estar visível apenas na sala 1, então adicione algum código ao ator para garantir que isso aconteça:
 
 \--- hints \---
 
 \--- hint \---
 
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+`quando ⚑ for clicado`{:class="block3events"}, em um loop `sempre`{:class="block3control"}, verifique `se`{:class="block3control"} a `sala é 1`{:class="block3variables"} e, nesse caso, `mostre`{:class="block3looks"} o ator `sinalização bem-vindo`, `senão`{:class="block3control"} `esconda`{:class="block3looks"} o ator.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aqui estão os blocos que você precisa:
 
-![sign](images/sign.png)
+![sinalização](images/sign.png)
 
 ```blocks3
-<br />if < > then
-else
+<br />se < > então
+senão
 end
 
-< (room :: variables) = [1] >
+< (sala :: variáveis) = [1] >
 
-hide
+esconda
 
-show
+mostre
 
-forever
+sempre
 end
 
-when flag clicked
+quando ⚑ for clicado
 
 ```
 
@@ -46,9 +46,9 @@ when flag clicked
 
 \--- hint \---
 
-Here is the complete code:
+Aqui está o código completo:
 
-![sign](images/sign.png)
+![sinalização](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -69,17 +69,17 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Teste o código para o seu ator `sinalização bem-vindo` movendo-se entre as salas. A sinalização só deve estar visível na sala 1.
 
-![screenshot](images/world-sign-test.png)
+![captura de tela](images/world-sign-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+Uma sinalização não é muito boa se não diz nada! Adicione um pouco mais de código para exibir uma mensagem se o ator `sinalização bem-vindo` está tocando no ator `jogador`:
 
-![sign](images/sign.png)
+![sinalização](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -89,8 +89,8 @@ show
 else
 hide
 end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
++if < touching (player v)? > então 
+   diga [Bem-vindo! Can you get to the treasure?]
 else
 say []
 end
@@ -101,8 +101,8 @@ end
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Teste seu ator `sinalização bem-vindo` novamente. Agora você deve ver uma mensagem quando o ator `jogador` toca no ator `sinalização bem-vindo`.
 
-![screenshot](images/world-sign-test2.png)
+![captura de tela](images/world-sign-test2.png)
 
 \--- /task \---
