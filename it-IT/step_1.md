@@ -1,67 +1,70 @@
+--- no-print ---
+
+Questa è la versione **Scratch 3** del progetto. C'è anche una versione [Scratch 2 del progetto](https://projects.raspberrypi.org/it-IT/projects/create-your-own-world-scratch2).
+
+--- /no-print ---
+
 ## Introduzione
 
-In questo progetto, imparerai a creare il tuo gioco di avventura open world.
+In questo progetto, imparerai come creare il tuo gioco di avventura in cui il giocatore dovrà esplorare molte stanze.
+
+### Che cosa creerai
+
+--- no-print ---
+
+Clicca sulla bandiera verde per cominciare. Usa i tasti freccia per muovere il tuo personaggio in giro per il mondo.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/34248822/?autostart=false" frameborder="0"></iframe>
-  <img src="images/world-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/395749254/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/showcase.png">
 </div>
+
+--- /no-print ---
+
+--- print-only ---
+
+Usa i tasti freccia per muovere il tuo personaggio in giro per il mondo. ![showcase.png](images/showcase.png)
+
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Note per i Volontari
+title: Di cosa avrete bisogno?
 ---
 
-## Introduzione:
-In questo progetto, i bambini impareranno a creare il loro gioco open world, utilizzando tutti i concetti Scratch e le tecniche imparate nei progetti precedenti.
+### Hardware
 
-## Risorse
-Per questo progetto, si può usare Scratch 2. Scratch 2 può essere usato online su [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) oppure può essere scaricato da [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) e usato in modalità offline.
+- Un computer in grado di eseguire Scratch 3
 
-Il link 'Materiali del Progetto' per questo progetto contiene le seguenti risorse:
+### Software
 
-## Risorse Volontarie
+- Scratch 3 ([online](http://rpf.io/scratchon){:target="_blank"} o [offline](http://rpf.io/scratchoff){:target="_blank"})
 
-Una versione completa di questo progetto può essere trovata <a href="http://scratch.mit.edu/projects/34248822/#editor">online</a>, o può essere scaricata cliccando il link 'Materiali del Progetto', che contiene:
+### Downloads
 
-+ CreateYourOwnWorld.sb2
-
-## Risorse Progetto
-
-Per questo progetto, i soci del club possono utilizzare risorse esterne che non sono disponibili nella libreria Scratch:
-
-+ player.png;
-+ room1/2/3.png;
-+ sign.svg;
-+ chest.svg;
-+ person.png;
-+ enemy.png;
-+ coin.svg;
-+ door-blue.png;
-+ key-blue.png.
-
-È bene assicurarsi che tutti i bambini abbiano accesso a una copia di queste risorse.
-
-(Le risorse del progetto includono anche un file .zip contenente tutte le risorse elencate sopra.)
-
-Per i soci del club che non possono accedere a queste risorse del progetto, c'è un progetto Scratch con delle risorse esterne già caricate. Questo è disponibile online a [jumpto.cc/world-resources](http://jumpto.cc/world-resources), o nei materiali di progetto scaricabili, che contengono:
-
-+ CreateYourOwnWorldResources.sb2 
-
-## Obiettivi di apprendimento
-+ Questo progetto consolida l'apprendimento delle tecniche di programmazione imparate precedentemente.
-
-Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Combinazione di costrutti di programmazione per la soluzione di problemi.](https://www.raspberrypi.org/curriculum/programming/builder)
-
-## Sfide
-+ "Muoversi nelle quattro direzioni" - aggiunge i comandi su, giù, sinistra e destra;
-+ "Aggiustare i movimenti del tuo giocatore" - impedisce al giocatore di muoversi attraverso i muri;
-+ "Spostarsi alla stanza precedente" - ritorna alla stanza 1 se si tocca una porta gialla;
-+ "Tesoro!" - consolidamento dell'aggiunta oggetti al mondo;
-+ "Migliorare la tua persona" - consolidamento dell'aggiunta oggetti al mondo;
-+ "Altri nemici" - aggiunge oggetti che si muovono come cadaveri;
-+ "Crea il tuo mondo" - rafforzamento generale delle competenze. 
+Puoi trovare tutto il necessario per completare questo progetto su [ rpf.io/p/it-IT/create-your-own-world-go ](https://rpf.io/p/it-IT/create-your-own-world-go).
 
 --- /collapse ---
+
+--- collapse ---
+---
+title: Cosa imparerai
+---
+
+- Utilizzare la selezione condizionale per reagire alla pressione dei tasti
+- Usa le variabili per memorizzare lo stato di un gioco
+- Utilizzare la selezione condizionale in base al valore di una variabile
+- Usare liste per memorizzare i dati
+
+--- / chiudi ---
+
+--- collapse ---
+---
+title: Informazioni aggiuntive per gli educatori
+---
+
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/create-your-own-world/print){:target="_blank"}.
+
+Puoi trovare il [progetto completo qui](https://rpf.io/p/it-IT/create-your-own-world-get){:target="_blank"}.
+
+--- / chiudi ---

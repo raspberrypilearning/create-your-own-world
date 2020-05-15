@@ -1,0 +1,13 @@
+sala
+
+jogador
+
+Bem-vindo! Você consegue chegar ao tesouro?
+
+Você sabia que pode passar por portas laranjas e amarelas?
+
+moedas
+
+chave azul
+
+inventário

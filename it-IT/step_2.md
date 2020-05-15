@@ -1,70 +1,133 @@
 ## Codifica il tuo giocatore
 
-Iniziamo a creare un giocatore che possa muoversi attorno al mondo.
+Inizia creando uno sprite `giocatore` che possa muoversi nel mondo.
 
-+ Apri il progetto Scratch online 'Crea il Tuo Mondo' a <a href="http://jumpto.cc/world-go" target="_blank">jumpto.cc/world-go</a> o scaricalo da <a href="http://jumpto.cc/world-get" target="_blank">jumpto.cc/world-get</a> e poi apri se stai usando l'editore offline.
+--- task ---
 
-	![screenshot](images/world-starter.png)
+Apri il progetto di avvio Scratch 'Crea il tuo mondo'.
 
-+ Usiamo i tasti freccia per muovere il giocatore. Quando il giocatore preme la freccia in su, vogliamo che il giocatore si sposti verso l'alto, cambiando la sua coordinata y. Aggiungi questo codice allo sprite 'giocatore':
+**Online:** apri il progetto iniziale su [scratch.mit.edu/projects/395751322](https://scratch.mit.edu/projects/395751322){:target="_blank"}.
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		per sempre
-			se <tasto [freccia su v] premuto> allora
-				cambia y di (2)
-			fine
-		fine
-	```
+Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-+ Prova il tuo giocatore cliccando la bandiera e poi tenendo premuta la freccia in su. Il tuo giocatore si muove verso l'alto?
+**Offline:** scarica il progetto iniziale da [rpf.io/p/it-IT/create-your-own-world-go](http://rpf.io/p/it-IT/create-your-own-world-go){:target="_blank"}, e aprilo con l'editor offline. Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-	![screenshot](images/world-up.png)
+![schermata](images/world-starter.png)
 
-+ Per muovere il giocatore a sinistra, dovrai aggiungere un altro blocco `se`{:class="blockcontrol"} al tuo giocatore, che cambierà la coordinata x:
+--- /task ---
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		per sempre
-			se <tasto [freccia su v] premuto> allora
-				cambia y di (2)
-			fine
-			se <tasto [freccia sinistra v] premuto> allora
-				cambia x di (-2)
-			fine
-		fine
-	```
+Premendo i tasti freccia si dovrà spostare lo sprite `giocatore` intorno. Quando si preme la freccia su, lo sprite `giocatore` in risposta dovrebbe spostarsi verso l'alto dello stage.
 
-## Sfida: Muoversi nelle quattro direzioni 
-Puoi aggiungere un altro codice al tuo giocatore, in modo che possa muoversi su, giù, a destra e a sinistra? Come aiuto, usa il codice che hai già!
+--- task ---
 
-+ Prova di nuovo il tuo giocatore, e vedrai che riuscirà a camminare attraverso i muri di colore grigio chiaro.
+Aggiungi questo codice allo sprite `giocatore`:
 
-	![screenshot](images/world-walls.png)
+![giocatore](images/player.png)
 
-+ Per risolverlo, dovrai muovere il giocatore, ma poi riportarlo indietro se tocca un muro grigio chiaro. Ecco il codice che ti servirà:
+```blocks3
+quando si clicca sulla bandiera verde
+per sempre 
+  se <tasto (freccia su v) premuto? > allora 
+    punta in direzione (0)
+    fai (4) passi
+  end
+end
+```
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		per sempre
-			se <tasto [freccia su v] premuto> allora
-				cambia y di (2)
-				se <sta toccando il colore [#BABABA]> allora
-					cambia y di (-2)
-				fine
-			fine
-		fine
-	```
+--- /task ---
 
-	Nota che il nuovo blocco `se`{:class="blockcontrol"}`tocca colore`{:class="blocksensing"} è _dentro_ il blocco `se`{:class="blockcontrol"}`tasto [freccia in su]`{:class="blocksensing"}.
+--- task ---
 
-+ Prova questo nuovo codice muovendoti sotto il muro - non sarai in grado di spostarti in alto nel muro.
+Fai clic sulla bandiera e tieni premuta la freccia su. Il tuo sprite `giocatore` si muove verso l'alto?
 
-	![screenshot](images/world-walls-test.png)
+![schermata](images/world-up.png)
 
-+ Facciamo la stessa cosa per la freccia sinistra, riportandoci indietro se il giocatore tocca il muro. Il codice del tuo giocatore dovrebbe essere così:
+--- /task ---
 
-	![screenshot](images/world-wall-code.png)
+--- task ---
 
-## Sfida: Aggiustare il movimento del tuo giocatore 
-Aggiungi un codice al tuo giocatore in modo che tu non possa camminare attraverso i muri in qualsiasi direzione. Come aiuto, usa il codice che hai già!
+Per spostare lo sprite `giocatore` a sinistra, è necessario aggiungere un altro blocco `se`{:class="blockcontrol"} con un codice simile a quello precedente:
+
+![giocatore](images/player.png)
+
+```blocks3
+quando si clicca sulla bandiera verde
+per sempre 
+  se <tasto (up arrow v) premuto? >allora 
+    punta in direzione (0)
+    fai (4) passi
+  end
+  + se <tasto (freccia sinistra v) premuto? > allora 
+  +   punta in direzione (-90)
+  +   fai (4) passi
+  + end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Aggiungi altro codice al tuo sprite `giocatore` in modo che possa muoversi anche verso destra e verso il basso. Usa il codice che hai già per aiutarti.
+
+--- hints ---
+
+
+--- hint ---
+
+Per spostarti verso l'alto, punta `giocatore` in direzione `0` gradi. Cosa dovresti fare per spostare lo sprite verso il basso?
+
+Per spostarti a sinistra, hai puntato lo sprite in direzione `-90` gradi. Cosa dovresti fare per spostare lo sprite verso destra?
+
+--- /hint ---
+
+--- hint ---
+
+Devi modificare questi due blocchi:
+
+![giocatore](images/player.png)
+
+```blocks3
+<key ( v) pressed>
+
+point in direction ()
+```
+
+Duplica il codice che muove lo sprite `giocatore` verso l'alto e cambia questi due blocchi per far spostare lo sprite verso il basso. Duplica nuovamente il codice e modificalo per spostare lo sprite verso destra.
+
+--- /hint ---
+
+--- hint ---
+
+Il tuo codice dovrebbe essere più o meno così:
+
+![giocatore](images/player.png)
+
+```blocks3
+quando si clicca sulla bandiera verde
+per sempre 
+  se <tasto (freccia su v) premuto? > allora 
+    punta in direzione (0)
+    fai (4) passi
+  end
+  se <tasto (freccia sinistra v) premuto? > allora 
+    punta in direzione (-90)
+    fai (4) passi
+  end
+
+  + se <tasto (down arrow v) premuto? > then
+        point in direction (180)
+        move (4) steps
+    end
++    if <key (right arrow v) pressed? > allora 
+punta in direzione (90)
+fai (4) passi
+end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
