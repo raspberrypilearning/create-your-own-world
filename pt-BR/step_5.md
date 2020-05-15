@@ -1,3 +1,3 @@
-## Challenge: move back to the previous room
+## Desafio: voltar para a sala anterior
 
-Can you make your `player` sprite move back to the previous room when it touches a yellow door? The code you need for this is very similar to the code you've already added for make the sprite move to the next room.
+Você consegue fazer seu ator `jogador` voltar para a sala anterior quando tocar uma porta amarela? O código necessário para isso é muito semelhante ao código que você já adicionou para fazer o ator passar para a próxima sala.
