@@ -1,22 +1,22 @@
 ## الأبواب والمفاتيح
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+الآن ستضيف تعليمة برمجية حتى تكون بعض الأبواب في عالم اللعبة الخاص بك مقفلة، ويجب على اللاعب أن يجد المفتاح لفتحها والوصول إلى الغرفة التالية.
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+عُد إلى كائن `المفتاح`. انقر فوق ` إظهار`{:class="blocklooks"} في قائمة البرامج النصية بحيث يظهر الكائن على المنصة.
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+حرر مظهر كائن `المفتاح` بحيث يكون لونه أزرق.
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+حوِّل خلفية المنصة إلى الغرفة 3، وضَع كائن `المفتاح` في مكان ما بحيث يصعُب الوصول إليه!
 
 ![screenshot](images/world-key.png)
 
@@ -24,13 +24,13 @@ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere diffi
 
 \--- task \---
 
-Add code to the `key` sprite to make it only visible in room 3.
+أضف تعليمة برمجية إلى كائن `المفتاح` بحيث تضمن أنه لن يظهر إلّا في الغرفة 3.
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+إنشاء قائمة جديدة تسمى `مخزن`{:class="block3variables"} لتخزين العناصر الخاصة بك `اللاعب ` مجموعات الكائن.
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,7 +38,7 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+التعليمة البرمجية لجمع المفتاح تُشبه التعليمةَ البرمجية لجمع العملات الذهبية إلى حدٍ كبير. الفرق هو أنك تضيف المفتاح إلى `المخزن`{:class="block3variables"}.
 
 ![key](images/key.png)
 
