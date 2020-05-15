@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Prova di nuovo il tuo sprite `giocatore`. Vedi che può camminare attraverso le pareti grigio chiaro.
+Prova di nuovo il tuo sprite `giocatore`. Do you see that it can walk through the light grey walls?
 
 ![screenshot](images/world-walls.png)
 
