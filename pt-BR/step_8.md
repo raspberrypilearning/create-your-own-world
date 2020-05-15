@@ -1,30 +1,30 @@
-## People
+## Pessoas
 
-Add other people to your world who your `player` sprite can interact with.
+Adicione outras pessoas ao seu mundo com quem seu ator `jogador` pode interagir.
 
 \--- task \---
 
-Switch to the `person` sprite.
+Mude para o ator `pessoa`.
 
-![Person sprite](images/person.png)
+![Ator pessoa](images/person.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+Adicione algum código ao ator `pessoa` para que a pessoa converse com o ator `jogador`. Este código é muito parecido com o código que você adicionou ao seu ator `sinalização`:
 
-![person](images/person.png)
+![pessoa](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
+quando ⚑ for clicado
+vá para x: (0) y: (-150)
+sempre 
+  se <tocando em (jogador v)? > então 
+diga [Você sabia que pode passar pelas portas laranjas e amarelas?]
+senão 
+diga []
+end
 end
 ```
 
@@ -32,34 +32,34 @@ end
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+Permita que seu ator `pessoa` se mova adicionando esses dois blocos na seção `senão`{:class="block3control"} do seu código:
 
-![person](images/person.png)
+![pessoa](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
+quando ⚑ for clicado
+vá para x: (0) y: (-150)
+sempre 
+  se <tocando em (jogador v)? > então 
+diga [Você sabia que passar pelas portas laranjas e amarelas?]
+senão 
+diga []
++   mova (1) passos
++   se tocar na borda, volte
+end
 end
 ```
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Seu ator `pessoa` se moverá agora, mas vai parar para falar com o ator `jogador`.
 
-![screenshot](images/world-person-test.png)
+![captura de tela](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+Adicione código ao seu novo ator `pessoa` para que o ator apareça apenas na sala 1. O código que você precisa é exatamente o mesmo que o código que torna o ator `sinalização` visível apenas na sala 1.
 
-Make sure you test out your new code.
+Certifique-se de testar seu novo código.
 
 \--- /task \---
