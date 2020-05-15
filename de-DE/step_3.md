@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls.
+Test your `player` sprite again. Do you see that it can walk through the light grey walls?
 
 ![screenshot](images/world-walls.png)
 
