@@ -1,13 +1,13 @@
-room
+غرفة
 
-player
+اللاعب
 
-Welcome! Can you get to the treasure?
+مرحبا! هل يمكنك الوصول إلى الكنز؟
 
-Did you know that you can go through orange and yellow doors?
+هل تعلم أنه يمكنك المرور عبر الأبواب البرتقالية والصفراء؟
 
-coins
+عملات معدنية
 
-blue key
+المفتاح الأزرق
 
-inventory
+المخزن
