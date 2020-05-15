@@ -1,6 +1,6 @@
 ## حوائط صلبة
 
-The `player` sprite should be able to walk through doors into other rooms.
+`اللاعب ` يجب أن يكون قادرا على التحرك عبر الأبواب للغرف الأخرى.
 
 يحتوي مشروعك على خلفيات لغرف إضافية:
 
@@ -8,19 +8,19 @@ The `player` sprite should be able to walk through doors into other rooms.
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+أنشىء متغير جديد لكل الكائنات يسمى `غرفة`{:class="block3variables"} لتتبع الغرفة التي يكون `اللاعب ` موجودا فيها.
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![لقطة الشاشة](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+عندما يلمس كائن `اللاعب` الباب البرتقالي في الغرفة الأولى، يجب أن تظهر الخلفية الثانية، ويجب أن يتحرك كائن `اللاعب` إلى الخلف ناحية اليسار من المنصة. أضف هذه التعليمة البرمجية إلى كائن `اللاعب` داخل حلقة التكرار `كرر باستمرار`{:class="block3control"}:
 
-![player](images/player.png)
+![اللاعب](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -56,27 +56,27 @@ end
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+في كل مرة تبدأ فيها اللعبة، تحتاج الغرفة وموقع الشخصية والخلفية إلى إعادة تعيين.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+أضف هذه التعليمية البرمجية إلى **بداية** التعليمة البرمجية لكائن ` الاعب` الخاص بك أعلى التعليمة البرمجية `كرر باستمرار `{:class="block3control"} لتتأكد من عودة كل شيء إلى الحالة الأولى عند النقر على العلم:
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+عندما تبدأ اللعبة:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ قيمة `الغرفة`{:class="block3variables"} يجب أن تكون مضبوطة على `1 ` 
++ قيمة `الخلفية`{:class="block3looks"} يجب أن تكون مضبوطة على `غرفة1`{:class="block3looks"}
++ يجب تعيين موضع كائن `اللاعب ` إلى `س: -200 ص: 0`{:class="block3motion"}
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the extra blocks you need:
+هنا التعليمات البرمجية التي ستحتاج اليها:
 
-![player](images/player.png)
+![اللاعب](images/player.png)
 
 ```blocks3
 go to x: (-200) y: (0)
@@ -90,9 +90,9 @@ switch backdrop to (room1 v)
 
 \--- hint \---
 
-Here's what your finished script should look like:
+إليك ما يجب أن يبدو عليه التعليمة البرمجية النهائي الخاصة بك:
 
-![player](images/player.png)
+![اللاعب](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -135,8 +135,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+انقر فوق العلم، ثم انقل كائن `اللاعب ` حتى يلمس الباب البرتقالي. هل ينتقل الكائن إلى الشاشة التالية؟ هل يتغير المتغير الخاص بــ `الغرفة`{:class="block3variables"} الي القيمة `2`؟
 
-![screenshot](images/world-room-test.png)
+![لقطة الشاشة](images/world-room-test.png)
 
 \--- /task \---
