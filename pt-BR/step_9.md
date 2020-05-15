@@ -1,39 +1,39 @@
-## Challenge: add an enemy
+## Desafio: adicione um inimigo
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Se você quiser, você também pode adicionar ao seu jogo inimigos de patrulha. Se o ator `jogador` toca em um inimigo, o jogo termina.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Seu jogo já contém um ator `inimigo`. Adicione código ao ator `inimigo` para que apareça apenas na sala 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ Adicione código para mover o ator `inimigo` e para terminar o jogo se o ator `inimigo` tocar o ator `jogador`. É mais fácil fazer isso em blocos de código separados. Aqui está como seu código do ator `inimigo` deve ficar:
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
+quando ⚑ for clicado
+sempre 
+se < (sala :: variáveis)=[2]> então 
+mostre
+senão 
+esconda
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+quando ⚑ for clicado
+sempre 
+se < tocando em (jogador v)?> então 
+pare [todos v]
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
+quando ⚑ for clicado
+vá para x: (170) y: (0)
+sempre 
+repita (130) vezes 
+adicione (-1) a x
 end
-repeat (130)
-change x by (1)
+repita (130) vezes 
+adicione (1) a x
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Teste o seu novo código para ter certeza que: 
+    + O ator `inimigo` é visível apenas na sala 2
+    + O ator `inimigo` patrulha a sala
+    + O jogo acaba se o ator `jogador` tocar o ator `inimigo`
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Você pode criar outro ator `inimigo` na sala 3 que patrulha para cima e para baixo e pelo vão da parede?
 
-![screenshot](images/world-enemy2.png)
+![captura de tela](images/world-enemy2.png)
