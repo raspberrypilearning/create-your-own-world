@@ -56,7 +56,7 @@ title: Cosa imparerai
 - Utilizzare la selezione condizionale in base al valore di una variabile
 - Usare liste per memorizzare i dati
 
---- / chiudi ---
+--- /collapse ---
 
 --- collapse ---
 ---
@@ -67,4 +67,4 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 Puoi trovare il [progetto completo qui](https://rpf.io/p/it-IT/create-your-own-world-get){:target="_blank"}.
 
---- / chiudi ---
+--- /collapse ---
