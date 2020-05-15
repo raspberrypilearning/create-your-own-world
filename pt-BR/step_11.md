@@ -1,36 +1,36 @@
-## Doors and keys
+## Portas e chaves
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Agora você vai adicionar o código para que algumas das portas do seu mundo de jogo estejam bloqueadas, e o jogador deve encontrar a chave para abri-las e chegar à próxima sala.
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+Mude para o ator `chave`. Clique em `Mostrar`{:class="blocklooks"} para que o ator apareça no palco.
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+Edite a fantasia do ator `chave` para que fique azul.
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+Mude seu cenário do palco para a sala 3 e coloque o ator `chave` em algum lugar difícil de alcançar!
 
-![screenshot](images/world-key.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `key` sprite to make it only visible in room 3.
+![captura de tela](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+Adicione código ao ator `chave` para torná-lo visível apenas na sala 3.
+
+\--- /task \---
+
+\--- task \---
+
+Crie uma nova lista chamada `inventário`{:class="block3variables"} para armazenar os itens que o ator `jogador` coleta.
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,67 +38,67 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+O código que você precisa adicionar para coletar a chave é muito semelhante ao código para coletar moedas. A diferença é que você adiciona a chave ao `inventário` {:class="block3variables"}.
 
-![key](images/key.png)
+![chave](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+quando ⚑ for clicado
+espere até que <touching (player v)?>
+adicione [chave azul] ao [inventário v]
+esconda
+pare [outros scripts no ator v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+Adicione código ao seu palco para esvaziar seu inventário no início do jogo.
 
 ```blocks3
-delete (all v) of [inventory v]
+apague (todos os itens v) do [inventário v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+Teste seu jogo para verificar se você pode coletar o ator `chave` e adicioná-lo ao seu inventário.
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+Agora adicione a porta trancada. Selecione o ator `porta azul` e clique em `Mostrar`{:class="blocklooks} e então posicione o ator no espaço entre as duas paredes.
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![captura de tela](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+Adicione código ao ator `porta azul` para que apareça apenas na sala 3.
 
-![door](images/door.png)
+\--- /task \---
+
+\--- task \---
+
+Adicione código ao ator `porta azul` para que, quando a chave estiver no `inventário`{:class="block3variables"}, o ator se `esconda`{:class="block3looks"} para permitir que seu `jogador ` passe.
+
+![porta](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+quando ⚑ for clicado
+espere até que <[inventário v] contém [chave azul]?>
+pare [outros scripts no ator v]
+esconda
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+Teste seu jogo e veja se você pode pegar a chave azul para abrir a porta!
 
 \--- /task \---
