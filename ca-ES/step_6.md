@@ -39,7 +39,7 @@ mostra't
 per sempre
 fi
 
-quan la bandera es cliqui
+when flag clicked
 
 ```
 
@@ -52,7 +52,7 @@ Aquí tens el codi complet:
 ![senyal](images/sign.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
     si < (habitació :: variables) = [1] > llavors,
         mostra't
@@ -83,7 +83,7 @@ Un senyal no és gaire bo si no diu res! Afegeix més codi per mostrar un missat
 ![senyal](images/sign.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
 si < (habitació :: variables) = [1] > llavors,
 mostra't

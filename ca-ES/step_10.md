@@ -23,7 +23,7 @@ Afegeix codi al teu personatge `moneda` de manera que només aparegui a l'habita
 ![captura de pantalla](images/coin.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
 si <(habitació :: variables) =[1]> llavors
 mostra't
@@ -40,9 +40,9 @@ Afegeix codi al teu personatge `moneda` de manera que el personatge `s’amagui`
 ![moneda](images/coin.png)
 
 ```blocks3
-quan la bandera es cliqui
-espera fins <touching (player v)?>
-suma (1) a [monedes v]
+when flag clicked
+espera fins <touching (jugador v)?>
+change [monedes v] by (1)
 amaga't
 atura [altres programes del personatge v]
 ```
@@ -58,8 +58,8 @@ Afegeix ara codi a l'Escenari per assignar a la teva variable `monedes`{:class="
 ![escenari](images/stage.png)
 
 ```blocks3
-quan fas clic a la bandera
-posa [monedes v] a [0]
+when flag clicked
+set [monedes v] to [0]
 ```
 
 --- /task ---

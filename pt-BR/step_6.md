@@ -26,11 +26,11 @@ Aqui estão os blocos que você precisa:
 ![sinalização](images/sign.png)
 
 ```blocks3
-<br />se < > então
+se < > então
 senão
 end
 
-< (sala :: variáveis) = [1] >
+< (sala :: variables) = [1] >
 
 esconda
 
@@ -54,7 +54,7 @@ Aqui está o código completo:
 ```blocks3
 when flag clicked
 forever
-    if < (room :: variables) = [1] > then
+    if < (sala :: variables) = [1] > then
         show
     else
         hide
@@ -85,13 +85,13 @@ Uma sinalização não é muito boa se não diz nada! Adicione um pouco mais de 
 ```blocks3
 when flag clicked
 forever
-if < (room :: variables) = [1] > then
+if < (sala :: variables) = [1] > then
 show
 else
 hide
 end
-+if < touching (player v)? > então 
-   diga [Bem-vindo! Can you get to the treasure?]
++if < touching (jogador v)? > then 
+diga [Bem-vindo! Você consegue chegar ao tesouro?]
 else
 say []
 end

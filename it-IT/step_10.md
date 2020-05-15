@@ -37,7 +37,7 @@ end
 
 --- task ---
 
-Aggiungi del codice allo sprite `moneta` per fare in modo che `scompaia`{:class="block3looks"} ed il valore `1` venga aggiunto alle variabile `monete`{:class="block3variables"} quando lo sprite `giocatore` tocca lo sprite `moneta` per "raccoglierla".
+Aggiungi del codice allo sprite `moneta` per fare in modo che `scompaia`{:class="block3looks"} ed il valore `1`{:class="block3variables"} venga aggiunto alle variabile `monete`{:class="block3variables"} quando lo sprite `giocatore` tocca lo sprite `moneta` per "raccoglierla".
 
 ![moneta](images/coin.png)
 

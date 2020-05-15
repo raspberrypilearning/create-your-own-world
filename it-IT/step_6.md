@@ -15,7 +15,7 @@ Il `cartello di benvenuto` dovrebbe vedersi solo nella stanza 1, quindi aggiungi
 
 --- hint ---
 
-`Quando si clicca sulla bandiera verde`{:class="block3events"}, controlla `per sempre`{:class="block3control"} `se`{:class="block3control"} la `stanza è 1`{:class="block3sensing"}, ed in quel caso `mostra`{:class="block3looks"} `cartello di benvenuto`{:class="block3control"}, `altrimenti`{:class="block3control"} `nascondi`{:class="block3looks"} lo sprite.
+`Quando si clicca sulla bandiera verde`{:class="block3events"}, controlla `per sempre`{:class="block3control"} `se`{:class="block3control"} la `stanza è 1`{:class="block3variables"}, ed in quel caso `mostra`{:class="block3looks"} `cartello di benvenuto`, `altrimenti`{:class="block3control"} `nascondi`{:class="block3looks"} lo sprite.
 
 --- /hint ---
 

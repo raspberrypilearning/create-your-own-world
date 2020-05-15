@@ -8,7 +8,7 @@ Il tuo progetto contiene sfondi per ulteriori stanze:
 
 --- task ---
 
-Crea una nuova variabile valida 'per tutti gli sprite' chiamata `stanza`{:class="blockdata"}, per definire in quale stanza si trova lo sprite `giocatore`.
+Crea una nuova variabile valida 'per tutti gli sprite' chiamata `stanza`{:class="block3variables"}, per definire in quale stanza si trova lo sprite `giocatore`.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -23,32 +23,32 @@ Quando lo sprite `giocatore` tocca la porta arancione nella prima stanza, bisogn
 ![giocatore](images/player.png)
 
 ```blocks3
-quando si clicca sulla bandiera verde
-per sempre 
-  se <tasto (freccia su v) premuto? > allora 
-    punta in direzione (0)
-    fai (4) passi
-  end
-  se <tasto (freccia sinistra v) premuto? >allora 
-    punta in direzione (-90)
-    fai (4) passi
-  end
-  se <tasto (freccia giu v) premuto? >allora 
-    punta in direzione (-180)
-    fai (4) passi
-  end
-  se <tasto [freccia destra v] premuto? > allora 
-    punta in direzione (90)
-    fai (4) passi
-  end
-  se < sta toccando il colore [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-    end
+when flag clicked
+forever
+	if <key (freccia su v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (freccia sinistra v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (freccia giu v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key [freccia destra v] pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
++	if < touching color [#F2A24A] > then
+	switch backdrop to (next backdrop v)
+	go to x: (-200) y: (0)
+	change [stanza v] by (1)
+	end
 end
 ```
 
@@ -67,7 +67,7 @@ Aggiungi questo codice **all'inizio** del codice del tuo sprite `giocatore` prim
 
 Quando si avvia il gioco:
 
-+ Il valore di `stanza`{:class="block3variabili"} dovrebbe essere impostato a `1`{:class="block3variabili"}
++ Il valore di `stanza`{:class="block3variables"} dovrebbe essere impostato a `1`{:class="block3variables"}
 + Lo `sfondo`{:class="block3looks"} dovrebbe essere impostato su `stanza1`{:class="block3looks"}
 + La posizione del `giocatore` deve essere impostata a `x: -200 y: 0`{:class="block3motion"}
 

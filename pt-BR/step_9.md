@@ -9,7 +9,7 @@ Se você quiser, você também pode adicionar ao seu jogo inimigos de patrulha. 
 ```blocks3
 quando ⚑ for clicado
 sempre 
-se < (sala :: variáveis)=[2]> então 
+se < (sala :: variables)=[2]> então 
 mostre
 senão 
 esconda

@@ -32,21 +32,21 @@ end
 
 --- task ---
 
-Puoi anche consentire allo sprite `persona` di spostarsi aggiungendo questi due blocchi nella sezione `altrimenti`{:class="bloc3kcontrol"} del tuo codice:
+Puoi anche consentire allo sprite `persona` di spostarsi aggiungendo questi due blocchi nella sezione `altrimenti`{:class="block3control"} del tuo codice:
 
 ![persona](images/person.png)
 
 ```blocks3
-quando si clicca sulla bandiera verde
-vai a x: (0) y: (-150)
-per sempre 
-  se < sta toccando (giocatore v)? > allora 
-    dire [Lo sapevi che puoi attraversare le porte arancioni e gialle?]
-  altrimenti 
-    dire []
-    + fai (1) passi
-    + rimbalza quando tocchi il bordo
-  end
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (giocatore v)? > then
+		say [Lo sapevi che puoi attraversare le porte arancioni e gialle?]
+	else
+		say []
++		move (1) steps
++		if on edge, bounce
+	end
 end
 ```
 

@@ -25,7 +25,7 @@ Adicione código ao ator `moeda` para que apareça apenas na sala 1.
 ```blocks3
 quando ⚑ for clicado
 sempre 
-se <(sala :: variáveis)=[1]> então 
+se <(sala :: variables)=[1]> então 
 mostre
 senão 
 esconda
@@ -41,7 +41,7 @@ Adicione código a seu ator `moeda` para que o ator moeda `se esconda`{:class="b
 
 ```blocks3
 quando ⚑ for clicado
-espere até que <touching (player v)?>
+espere até que <touching (jogador v)?>
 adicione (1) a [moedas v]
 esconda
 pare [outros scripts no sprite v]

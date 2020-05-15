@@ -23,7 +23,7 @@ Quan el personatge del `jugador` toca la porta taronja a la primera habitació, 
 ![jugador](images/player.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
     si < tecla (fletxa amunt v) premuda? > llavors
         apunta en direcció (0)
@@ -44,12 +44,12 @@ per sempre
     si < tocant el color [#BABABA]? > llavors
         mou-te (-4) passos
     fi
-+   if < tocant el color [#F2A24A] > llavors
++   si < tocant color [#F2A24A] > llavors
         canvia el fons a (següent fons de pantalla v)
         vés a x: (-200) y: (0)
         augmenta [habitació v] en (1)
-    fi
-fi
+    end
+end
 ```
 
 --- /task ---
@@ -68,7 +68,7 @@ Afegeix codi a l'**inici** del codi del teu personatge `jugador` per sobre del b
 Quan el joc comença:
 
 + El valor d'`habitació`{:class="block3variables"} s'ha de definir a `1`{:class="block3variables"}
-+ El `fons`{:class="block3variables"} s'ha de definir a `habitació1`{:class="block3variables"}
++ El `fons`{:class="block3looks"} s'ha de definir a `habitació1`{:class="block3looks"}
 + La posició del personatge del `jugador` s'ha de definir a `x: -200 y: 0`{:class="block3motion"}
 
 --- /hint ---
@@ -96,7 +96,7 @@ Així és com s'hauria de veure el teu codi una vegada acabat:
 ![jugador](images/player.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 +assigna a [habitació v] el valor (1)
 +vés a x: (-200) y: (0)
 +canvia el fons a (habitació1 v)
@@ -120,12 +120,12 @@ per sempre
     si < tocant el color [#BABABA]? > llavors
         mou-te (-4) passos
     fi
-    si < tocant el color [#F2A24A] > aleshores
+    si < tocant el color [#F2A24A] > llavors
         canvia el fons a (següent fons de pantalla v)
         vés a x: (-200) y: (0)
         augmenta [habitació v] en (1)
-    fi
-fi
+    end
+end
 ```
 
 --- /hint ---

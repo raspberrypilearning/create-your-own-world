@@ -25,7 +25,7 @@ Afegeix aquest codi al personatge del `jugador`:
 ![jugador](images/player.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
     si <tecla (fletxa amunt v) premuda? > llavors
         apunta en direcció (0)
@@ -51,7 +51,7 @@ Per moure el personatge del `jugador` a l'esquerra, has d'afegir un altre bloc `
 ![jugador](images/player.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
     si <tecla (fletxa amunt v) premuda? > llavors
         apunta en direcció (0)
@@ -104,7 +104,7 @@ Així és com s'hauria de veure el teu codi:
 ![jugador](images/player.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
     si <tecla (fletxa amunt v) premuda? > llavors
         apunta en direcció (0)
@@ -117,7 +117,7 @@ per sempre
 
 +   si <tecla (fletxa avall v) premuda? > llavors
         apunta en direcció (180)
-        mou-te (4) passes
+        mou-te (4) passos
     fi
 +   si <tecla (fletxa dreta v) premuda? > llavors
         apunta en direcció (90)

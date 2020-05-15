@@ -17,15 +17,15 @@ Afegeix algun codi al personatge `persona` de manera que parli amb el personatge
 ![persona](images/person.png)
 
 ```blocks3
-quan la bandera es cliqui
-ves a x: (0) y: (-150)
-per sempre
-    si tocant < (jugador v)? > llavors
-        digues [Sabies que pots passar per les portes taronges i grogues?]
-    si no
-        digues []
-    fi
-fi
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (jugador v)? > then
+		say [Sabies que pots passar per les portes taronges i grogues?]
+	else
+		say []
+	end
+end
 ```
 
 --- /task ---
@@ -37,17 +37,17 @@ Permet al teu personatge `persona` moure's afegint aquests dos blocs a la secci√
 ![persona](images/person.png)
 
 ```blocks3
-quan la bandera es cliqui
-ves a x: (0) y: (-150)
-per sempre
-    si tocant < (jugador v)? > llavors
-        digues [Sabies que pots passar per les portes taronges i grogues?]
-    si no
-        digues []
-+       mou-te (1) passos
-+       rebota en tocar una vora
-    fi
-fi
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (jugador v)? > then
+		say [Sabies que pots passar per les portes taronges i grogues?]
+	else
+		say []
++		move (1) steps
++		if on edge, bounce
+	end
+end
 ```
 
 --- /task ---

@@ -24,5 +24,5 @@ Agora você pode continuar criando seu próprio mundo! Aqui estão algumas idéi
 if <touching color [ ]?> then
 switch backdrop to ((costume [number v]) + (3))
 go to x:(0) y:(200)
-change [room v] by (3)
+change [sala v] by (3)
 ```

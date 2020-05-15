@@ -65,6 +65,6 @@ title: Informació addicional per educadors
 
 Si necessites imprimir aquest projecte, si us plau, utilitza la [versió per imprimir](https://projects.raspberrypi.org/ca-ES/projects/create-your-own-world/print){:target="_blank"}.
 
-Pots trobar el [projecte complet aquí](https://rpf.io/p/ca-ES/create-your-own-world-get)"}{:target="_blank"}.
+Pots trobar el [projecte complet aquí](https://rpf.io/p/ca-ES/create-your-own-world-get){:target="_blank"}.
 
 --- /collapse ---

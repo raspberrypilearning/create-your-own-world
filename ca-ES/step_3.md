@@ -15,7 +15,7 @@ Per solucionar-ho, has de fer que el personatge del `jugador` es desplaci enrere
 ![jugador](images/player.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
     si < tecla (fletxa amunt v) premuda? > llavors
         apunta en direcció (0)

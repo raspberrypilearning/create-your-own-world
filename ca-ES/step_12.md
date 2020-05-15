@@ -21,8 +21,8 @@ Ara pots continuar creant el teu propi món! Aquí tens algunes idees:
 ![captura de pantalla](images/number-grid.png)
 
 ```blocks3
-si <touching color [ ]?> aleshores
-canvia el fons a ((vestit [número v]) + (3))
-ves a x:(0) y:(200)
-augmenta [habitació v] en (3)
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [habitació v] by (3)
 ```

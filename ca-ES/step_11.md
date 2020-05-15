@@ -43,8 +43,8 @@ El codi que has d'afegir per recollir la clau és molt similar al codi de recoll
 ![clau](images/key.png)
 
 ```blocks3
-quan la bandera es cliqui
-espera fins <touching (player v)?>
+when flag clicked
+espera fins <touching (jugador v)?>
 afegeix [clau blava] a [inventari v]
 amaga't
 atura [altres programes del personatge v]
@@ -89,7 +89,7 @@ Afegeix codi al personatge de la `porta blava` de manera que, quan la clau es tr
 ![porta](images/door.png)
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 espera fins <[inventari v] conté [clau blava]?>
 atura [altres programes del personatge v]
 amaga't

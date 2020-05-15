@@ -51,16 +51,16 @@ Para mover o ator `jogador` para a esquerda, você precisa adicionar outro bloco
 ![jogador](images/player.png)
 
 ```blocks3
-quando ⚑ for clicado
-sempre 
-  se <tecla (seta para cima v) pressionada? > então 
-    aponte para a direção (0)
-    mova (4) passos
-  end
-  + se <tecla (seta para esquerda v) pressionada? > então 
-    aponte para a direção (-90)
-    mova (4) passos
-  end
+when flag clicked
+forever
+	if <key (seta para cima v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
++	if <key (seta para esquerda v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
 end
 ```
 

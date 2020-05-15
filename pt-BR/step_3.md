@@ -15,27 +15,27 @@ Para consertar isso, você precisa fazer o ator `jogador` mover de volta se toca
 ![jogador](images/player.png)
 
 ```blocks3
-quando ⚑ for clicado
-sempre 
-  se <tecla (seta para cima v) pressionada? > então 
-    aponte para a direção (0)
-    mova (4) passos
-  end
-  se <tecla (seta para esquerda v) pressionada? > então 
-    aponte para a direção (-90)
-    mova (4) passos
-  end
-  se <tecla (seta para baixo v) pressionada? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? > então 
-    aponte para a direção (90)
-    mova (4) passos
-  end
-+ se <tocando na cor [#BABABA]? > então 
-    mova (-4) passos
-  end
+when flag clicked
+forever
+	if <key (seta para cima v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (seta para esquerda v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (seta para baixo v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key (right arrow v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
++	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
 end
 ```
 

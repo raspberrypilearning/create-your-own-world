@@ -43,11 +43,11 @@ O código que você precisa adicionar para coletar a chave é muito semelhante a
 ![chave](images/key.png)
 
 ```blocks3
-quando ⚑ for clicado
-espere até que <touching (jogador v)?>
-adicione [chave azul] ao [inventário v]
-esconda
-pare [outros scripts no ator v]
+when flag clicked
+wait until <touching (jogador v)?>
+add [chave azul] to [inventário v]
+hide
+stop [outros scripts no ator v]
 ```
 
 --- /task ---
@@ -57,7 +57,7 @@ pare [outros scripts no ator v]
 Adicione código ao seu palco para esvaziar seu inventário no início do jogo.
 
 ```blocks3
-apague (todos os itens v) do [inventário v]
+delete (all v) of [inventário v]
 ```
 
 --- /task ---
@@ -89,10 +89,10 @@ Adicione código ao ator `porta azul` para que, quando a chave estiver no `inven
 ![porta](images/door.png)
 
 ```blocks3
-quando ⚑ for clicado
-espere até que <[inventário v] contém [chave azul]?>
-pare [outros scripts no ator v]
-esconda
+when flag clicked
+wait until <[inventário v] contains [chave azul]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 --- /task ---

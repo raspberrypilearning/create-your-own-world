@@ -7,19 +7,19 @@ Si vols, també pots afegir patrulles d'enemics al teu joc. Si el personatge del
 + Afegeix codi per moure el personatge `enemic` i per acabar el joc si l'`enemic `toca el personatge del `jugador`. És més fàcil fer-ho en blocs de codi separats. Aquí tens com hauria de ser el codi del personatge `enemic`:
 
 ```blocks3
-quan la bandera es cliqui
+when flag clicked
 per sempre
 si <(habitació :: variables) =[2]> llavors
 mostra't
 si no
 amaga't
 
-quan la bandera es cliqui
+when flag clicked
 per sempre
 si <touching (player v)?> llavors
 atura [tot v]
 
-quan la bandera es cliqui
+when flag clicked
 vés a x: (170) y:(0)
 per sempre
 repeteix (130)
