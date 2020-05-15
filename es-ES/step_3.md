@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Prueba de nuevo tu objeto `jugador`. ¿Ves que puede atravesar las paredes de color gris claro?
+Prueba de nuevo tu objeto `jugador`. Do you see that it can walk through the light grey walls?
 
 ![captura de pantalla](images/world-walls.png)
 
