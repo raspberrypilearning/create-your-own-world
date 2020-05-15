@@ -1,36 +1,50 @@
-## Codifica il tuo mondo
+## Muri solidi
 
-Facciamo in modo che il giocatore possa entrare nelle altre stanze camminando attraverso i muri!
+--- task ---
 
-+ Il tuo progetto contiene scenari per stanze aggiuntive:
+Prova di nuovo il tuo sprite `giocatore`. Do you see that it can walk through the light grey walls?
 
-	![screenshot](images/world-backdrops.png)
+![schermata](images/world-walls.png)
 
-+ Avrai bisogno di una nuova variabile 'per tutti gli sprite' chiamata `stanza`{:class="blockdata"}, per tenere traccia della stanza in cui si trova il giocatore.
+--- /task ---
 
-	![screenshot](images/world-room.png)
+--- task ---
 
-+ Quando il giocatore tocca la porta arancione nella prima stanza, verrà visualizzato il prossimo scenario, e il giocatore tornerà verso il lato sinistro del quadro. Ecco il codice che ti servirà - dovrebbe andare dentro il loop `forever`{:class="blockcontrol"} del giocatore:
+Per risolvere questo problema, devi far sì che lo sprite `giocatore` si sposti indietro se tocca una parete grigia leggera. Ecco il codice che devi aggiungere all'interno del tuo blocco `per sempre`{:class="block3control"} sotto i blocchi di direzione:
 
-	```blocks
-		se <sta toccando il colore [#F2A24A]> allora
-			passa allo sfondo [next backdrop v]
-			vai a x: (-200) y: (0)
-			cambia [room v] di (1)
-		fine
-	```
+![giocatore](images/player.png)
 
-+ Aggiungi questo codice all'_inizio_ del codice del tuo giocatore (prima del loop `per sempre`{:class="blockcontrol"}) per assicurarti che venga tutto azzerato quando si clicca la bandiera:
+```blocks3
+when flag clicked
+forever
+	if <key (freccia su v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (freccia sinistra v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (freccia giu v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key (right arrow v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
++	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
+end
+```
 
-	```blocks
-		porta [room v] a (1)
-		vai a x: (-200) y: (0)
-		passa allo sfondo [room 1 v]
-	```
+--- /task ---
 
-+ Clicca la bandiera e sposta il tuo giocatore sulla porta arancione. Il tuo giocatore si muove verso la prossima schermata? La variabile `stanza`{:class="blockdata"} cambia a 2?
+--- task ---
 
-	![screenshot](images/world-room-test.png)
+Prova a far correre lo sprite `giocatore` attraverso una parete. Se il nuovo codice funziona, non dovrebbe essere possibile.
 
-## Sfida: Spostarsi alla stanza precedente 
-Puoi far muovere il giocatore verso la stanza precedente quando tocca una porta gialla? Ricordati che questo codice è_molto_simile a quello che hai già usato per muoverlo alla stanza seguente.
+![schermata](images/world-walls-test.png)
+
+--- /task ---

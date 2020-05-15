@@ -1,28 +1,109 @@
-## Raccogli monete
+## Cartelli
 
-+ Aggiungi al tuo progetto una nuova variabile chiamata `monete`{:class="blockdata"}.
+Aggiungiamo cartelli al tuo mondo per guidare il giocatore nel suo viaggio.
 
-+ Fai clic col pulsante destro sullo sprite della 'moneta' e scegli 'mostra'.
+Il tuo progetto contiene uno sprite `cartello di benvenuto`:
 
-![screenshot](images/world-coins.png)
+![schermata](images/world-sign.png)
 
-+ Aggiungi un codice alla tua moneta, in modo che appaia solo nella stanza 1.
+--- task ---
 
-+ Aggiungi un codice allo sprite della tua moneta per aggiungere 1 alle tue `monete`{:class="blockdata"} quando vengono raccolte:
+Il `cartello di benvenuto` dovrebbe vedersi solo nella stanza 1, quindi aggiungi del codice allo sprite per fare in modo che succeda ciò:
 
-	```blocks
-		quando si clicca sulla bandiera verde
-		attendi fino a quando <sta toccando [player v]>
-		cambia [coins v] di (1)
-		stop [altre scritte in sprite v]
-		nascondi
-	```
+--- hints ---
 
-	Il codice `stop altre scritte in sprite`{:class="blockcontrol"} è necessario perché la moneta non venga più visualizzata nella stanza 1 una volta che viene raccolta.
 
-+ Dovrai anche aggiungere un codice per impostare la variabile delle tue `monete`{:class="blockdata"} a 0 all'inizio del gioco.
+--- hint ---
 
-+ Prova il tuo progetto - raccogliere le monete cambierà il tuo punteggio a 1.
+`Quando si clicca sulla bandiera verde`{:class="block3events"}, controlla `per sempre`{:class="block3control"} `se`{:class="block3control"} la `stanza è 1`{:class="block3variables"}, ed in quel caso `mostra`{:class="block3looks"} `cartello di benvenuto`, `altrimenti`{:class="block3control"} `nascondi`{:class="block3looks"} lo sprite.
 
-## Sfida: Altre monete
-Puoi aggiungere altre monete al gioco? Possono essere in stanze diverse, e alcune monete potrebbero essere custodite dai nemici in pattuglia.
+--- /hint ---
+
+--- hint ---
+
+Ecco i blocchi di codice che ti serviranno:
+
+![cartello](images/sign.png)
+
+```blocks3
+se <> allora 
+altrimenti
+end
+
+<(stanza :: variables) = [1]>
+
+nascondi
+
+mostra
+
+per sempre
+end
+
+quando si clicca sulla bandiera verde
+
+```
+
+--- /hint ---
+
+--- hint ---
+
+Ecco il codice completo:
+
+![cartello](images/sign.png)
+
+```blocks3
+quando si clicca sulla bandiera verde
+per sempre 
+  se <(stanza :: variables) = [1]> allora 
+    mostra
+  altrimenti 
+    nascondi
+  end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+Metti alla prova il tuo sprite `cartello di benvenuto` muovendoti tra le stanze. Il tuo cartello dovrebbe essere visibile solo nella stanza 1.
+
+![schermata](images/world-sign-test.png)
+
+--- /task ---
+
+--- task ---
+
+Un cartello non è molto utile se non dice nulla! Aggiungi del codice per far visualizzare un messaggio se lo sprite `cartello di benvenuto` sta toccando lo sprite `giocatore`:
+
+![cartello](images/sign.png)
+
+```blocks3
+when flag clicked
+forever
+if < (stanza :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (giocatore v)? > then
+say [Benvenuto! Riesci a raccogliere il tesoro?]
+else
+say []
+end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Prova di nuovo il tuo sprite `cartello di benvenuto`. Ora dovresti vedere un messaggio quando lo sprite `giocatore` tocca il `cartello di benvenuto`.
+
+![schermata](images/world-sign-test2.png)
+
+--- /task ---

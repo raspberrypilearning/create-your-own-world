@@ -1,0 +1,13 @@
+habitació
+
+jugador
+
+Benvingut! Pots arribar al tresor?
+
+Saps que pots passar per portes taronges i grogues?
+
+monedes
+
+clau blava
+
+inventari
