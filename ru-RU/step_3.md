@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Cнова протестируй свой спрайт `игрок`. Как ты видишь, он может проходить сквозь светло-серые стены.
+Cнова протестируй свой спрайт `игрок`. Do you see that it can walk through the light grey walls?
 
 ![снимок экрана](images/world-walls.png)
 
