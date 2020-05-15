@@ -1,4 +1,4 @@
-## Segnali
+## Muoviti nel tuo mondo
 
 Lo sprite `player` dovrebbe essere in grado di raggiungere altre stanze attraversando le porte.
 
