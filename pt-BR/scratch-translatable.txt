@@ -1,13 +1,13 @@
-room
+sala
 
-player
+jogador
 
-Welcome! Can you get to the treasure?
+Bem-vindo! Você consegue chegar ao tesouro?
 
-Did you know that you can go through orange and yellow doors?
+Você sabia que pode passar por portas laranjas e amarelas?
 
-coins
+moedas
 
-blue key
+chave azul
 
-inventory
+inventário
