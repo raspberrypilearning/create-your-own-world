@@ -6,9 +6,9 @@
 
 ## 介紹
 
-在這個專案中，你將學到如何製作屬於自己的關卡探險遊戲世界。
+藉由本專案，您將學習創建自己的冒險遊戲世界，並探索多個不同級別。
 
-### 你會做出的玩意兒
+### 你會做出什麼呢?
 
 \--- no-print \---
 
@@ -23,13 +23,13 @@
 
 \--- print-only \---
 
-逛逛你的世界，到處走走看看。 ![showcase.png](images/showcase.png)
+使用你的方向鍵到處走走看看。 ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: 你會用到
+## title: 你將會用到
 
 ### 硬體
 
