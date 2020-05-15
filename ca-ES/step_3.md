@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Prova el teu personatge de `jugador` de nou. Veus que pot caminar per les parets de color gris clar?
+Prova el teu personatge de `jugador` de nou. Do you see that it can walk through the light grey walls?
 
 ![captura de pantalla](images/world-walls.png)
 
