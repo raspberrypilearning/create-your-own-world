@@ -1,25 +1,25 @@
 ---
 hero_image: images/banner.png
-title: अपनी दुनिया बनाएँ
-description: अपना चाभियाँ ओपन-वर्ल्ड एडवेंचर (open-world adventure) गेम बनाना सीखें।
+title: Create your own world
+description: Create your own open-world adventure game
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: परिचय
+    title: Introduction
   - 
-    title: आपको किसकी ज़रूरत होगी
+    title: खिलाडी स्प्राइट (player sprite) को हिलाएं
   - 
-    title: खिलाड़ी की स्प्राइट को स्थानांतरित करना
+    title: पक्की दीवारें
   - 
-    title: Move around your world
+    title: अपनी दुनिया में घूमें
   - 
-    title: "Challenge: move back to the previous room"
+    title: "चुनौती: पिछले कमरे में वापस जाएँ"
     challenge: true
   - 
-    title: संकेत
+    title: संकेत (Signs)
   - 
     title: "चुनौती: खज़ाना!"
     challenge: true
@@ -31,7 +31,7 @@ steps:
   - 
     title: कॉइन एकत्र करना
   - 
-    title: Doors and keys
+    title: दरवाज़े और चाभियाँ
   - 
     title: "चुनौती: अपनी दुनिया को बढ़ाएं"
     challenge: true
