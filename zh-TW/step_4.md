@@ -23,32 +23,32 @@
 ![玩家](images/player.png)
 
 ```blocks3
-當 @greenflag 被點擊
-重複無限次
-    如果 <(向上 v) 鍵被按下？ > 那麼
-        面朝 (0) 度
-        移動 (4) 點
-    end
-    如果 <(向左 v) 鍵被按下？ > 那麼
-        面朝 (-90) 度
-        移動 (4) 點
-    end
-    如果 <(向下 v) 鍵被按下？ > 那麼
-        面朝 (180) 度
-        移動 (4) 點
-    end
-+    如果 <(向右 v) 鍵被按下？ > 那麼
-        面朝 (90) 度
-        移動 (4) 點
-    end
-    如果 <碰到顏色 (#BABABA)？ > 那麼
-    移動 (-4) 點
-    end
-+    如果 <碰到顏色 (#F2A24A)？> 那麼
-    背景換成 (下一個背景 v)
-    定位到 x:(0) y:(0)
-    變數 [空間 v] 改變 (1)
-    end
+when flag clicked
+forever
+	if <key (向上 v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (向左 v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (向下 v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key (向右 v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
++	if < touching color [#F2A24A] > then
+	switch backdrop to (下一個背景 v)
+	go to x: (-200) y: (0)
+	change [空間 v] by (1)
+	end
 end
 ```
 
@@ -96,34 +96,34 @@ end
 ![玩家](images/player.png)
 
 ```blocks3
-當 @greenflag 被點擊
-+變數 [空間 v] 設為 (1)
-+定位到 x:(-200) y:(0)
-+背景換成 (空間1 v)
-重複無限次
-    如果 <(向上 v) 鍵被按下？ > 那麼
-        面朝 (0) 度
-        移動 (4) 點
-    end
-    如果 <(向左 v) 鍵被按下？ > 那麼
-        面朝 (-90) 度
-        移動 (4) 點
-    end
-    如果 <(向下 v) 鍵被按下？ > 那麼
-        面朝 (180) 度
-        移動 (4) 點
-    end
-+    如果 <(向右 v) 鍵被按下？ > 那麼
-        面朝 (90) 度
-        移動 (4) 點
-    end
-    如果 <碰到顏色 (#BABABA)？ > 那麼
-    移動 (-4) 點
-    end
-    如果 <碰到顏色 (#F2A24A)？> 那麼
-    背景換成 (下一個背景 v)
-    定位到 x:(-200) y:(0)
-    變數 [空間 v] 改變 (1)
+when flag clicked
++set [空間 v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (空間1 v)
+forever
+	if <key (向上 v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (向左 v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (向下 v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key (向右 v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
+	if < touching color [#F2A24A] > then
+	switch backdrop to (下一個背景 v)
+	go to x: (-200) y: (0)
+	change [空間 v] by (1)
 end
 end
 ```

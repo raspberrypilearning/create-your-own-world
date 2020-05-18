@@ -15,27 +15,27 @@
 ![玩家](images/player.png)
 
 ```blocks3
-當 @greenflag 被點擊
-重複無限次
-    如果 <(向上 v) 鍵被按下？ > 那麼
-        面朝 (0) 度
-        移動 (4) 點
-    end
-    如果 <(向左 v) 鍵被按下？ > 那麼
-        面朝 (-90) 度
-        移動 (4) 點
-    end
-    如果 <(向下 v) 鍵被按下？ > 那麼
-        面朝 (180) 度
-        移動 (4) 點
-    end
-+    如果 <(向右 v) 鍵被按下？ > 那麼
-        面朝 (90) 度
-        移動 (4) 點
-    end
-+  如果 <碰到顏色 (#BABABA)？ > 那麼
-    移動 (-4) 點
-    end
+when flag clicked
+forever
+	if <key (向上 v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (向左 v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (向下 v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key (向右 v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
++	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
 end
 ```
 

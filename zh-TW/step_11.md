@@ -89,10 +89,10 @@
 ![房門](images/door.png)
 
 ```blocks3
-當 @greenflag 被點擊
-等待直到 <清單 [倉庫 v] 包含 (藍鑰匙) ?>
-停止 [這個物件的其它程式 v]
-隱藏
+when flag clicked
+wait until <[倉庫 v] contains [藍鑰匙]?>
+stop [這個物件的其它程式 v]
+hide
 ```
 
 --- /task ---

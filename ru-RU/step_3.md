@@ -15,27 +15,27 @@ Cнова протестируй свой спрайт `игрок`. Do you see 
 ![игрок](images/player.png)
 
 ```blocks3
-когда щёлкнут по зелёному флагу
-повторять всегда 
-  если <клавиша (стрелка вверх v) нажата? >, то 
-    повернуться в направлении (0)
-    идти (4) шагов
-  end
-  если <клавиша (стрелка влево v) нажата? >, то 
-    повернуться в направлении (-90)
-    идти (4) шагов
-  end
-  если <клавиша (стрелка вниз v) нажата? > then
-        point in direction (-180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? >, то 
-    повернуться в направлении (90)
-    идти (4) шагов
-  end
-  + если < касается цвета [#BABABA]? >, то 
-    идти (-4) шагов
-  end
+when flag clicked
+forever
+	if <key (стрелка вверх v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (стрелка влево v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (стрелка вниз v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key (стрелка вправо v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
++	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
 end
 ```
 
