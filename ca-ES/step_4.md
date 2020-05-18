@@ -37,7 +37,7 @@ per sempre
         apunta en direcció (-180)
         mou-te (4) passos
     fi
-    si < tecla [fletxa dreta v] premuda? > llavors
+    si < tecla (fletxa dreta v) premuda? > llavors
         apunta en direcció (90)
         mou-te (4) passos
     fi
@@ -113,7 +113,7 @@ per sempre
         apunta en direcció (-180)
         mou-te (4) passos
     fi
-    si < tecla [fletxa dreta v] premuda? > llavors
+    si < tecla (fletxa dreta v) premuda? > llavors
         apunta en direcció (90)
         mou-te (4) passos
     fi

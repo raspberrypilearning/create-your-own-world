@@ -37,7 +37,7 @@ forever
 		point in direction (-180)
 		move (4) steps
 	end
-		if <key [freccia destra v] pressed? > then
+		if <key (freccia destra v) pressed? > then
 		point in direction (90)
 		move (4) steps
 	end
@@ -113,7 +113,7 @@ se <tasto (freccia su v) premuto? > allora
     punta in direzione (-180)
     fai (4) passi
   end
-  se <tasto [freccia destra v] premuto? > allora 
+  se <tasto (freccia destra v) premuto? > allora 
     punta in direzione (90)
     fai (4) passi
   end
