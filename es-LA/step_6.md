@@ -1,28 +1,28 @@
-## Signs
+## Señales
 
 Now add signs to your world to guide players on their journey.
 
 Your project includes a `welcome sign` sprite:
 
-![screenshot](images/world-sign.png)
+![captura de pantalla](images/world-sign.png)
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+El objeto `señal de bienvenida` solo debe ser visible en la sala 1, así que añade un poco de código al objeto para asegurarte de que esto ocurra:
 
 \--- hints \---
 
 \--- hint \---
 
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+`Cuando se hace clic en la bandera `{:class="block3events"}, en un bucle `para siempre`{:class="block3control"}, marca `si`{:class="block3control"} la `habitación es 1`{:class="block3variables"} y en ese caso `muestra`{:class="block3looks"} el objeto` señal de bienvenida `, `en otro caso`{:class="block3control"} `ocultar`{:class="block3looks"} el objeto.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Aquí están los bloques que necesitas:
 
-![sign](images/sign.png)
+![señal](images/sign.png)
 
 ```blocks3
 <br />if < > then
@@ -48,7 +48,7 @@ when flag clicked
 
 Here is the complete code:
 
-![sign](images/sign.png)
+![señal](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -69,9 +69,9 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Test the code for your `welcome sign` sprite by moving between rooms. Tu señal solo debe ser visible en la habitación 1.
 
-![screenshot](images/world-sign-test.png)
+![captura de pantalla](images/world-sign-test.png)
 
 \--- /task \---
 
