@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+Esta es la versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introducción
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+En este proyecto, aprenderás cómo crear tu propio juego de aventuras con múltiples niveles para explorar.
 
-### What you will make
+### Lo que harás
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Haz clic en la bandera verde para empezar. Utiliza las teclas de flecha para mover a tu personaje por el mundo.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,17 +23,17 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Utiliza los cursores, teclas de flechas, para mover a tu personaje por el mundo. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## título: Lo que necesitará
 
 ### Hardware
 
-- A computer capable of running Scratch 3
+- Una computadora capáz de hacer funcionar el Scratch 3
 
 ### Software
 
