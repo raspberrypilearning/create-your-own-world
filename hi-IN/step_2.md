@@ -1,4 +1,4 @@
-## आपको किसकी ज़रूरत होगी
+## खिलाडी स्प्राइट (player sprite) को हिलाएं
 
 Start by creating a `player` sprite that can move around your world.
 
