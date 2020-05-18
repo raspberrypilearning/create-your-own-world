@@ -8,6 +8,6 @@ jugador
 
 monedas
 
-blue key
+llave azul
 
-inventory
+inventario
