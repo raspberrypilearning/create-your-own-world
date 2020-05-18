@@ -12,7 +12,7 @@ steps:
   - 
     title: Mueve el objeto jugador
   - 
-    title: Muros sólidos
+    title: Paredes sólidas
   - 
     title: Muévete por tu mundo
   - 
