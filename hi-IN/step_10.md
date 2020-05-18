@@ -66,6 +66,6 @@ set [coins v] to [0]
 
 \--- task \---
 
-अपने गेम का परीक्षण करें। Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+अपने गेम का परीक्षण करें। एक सिक्का बटोरते ही आपका `coins` का स्कोर `1`{:class="block3variables"} में बदलना चाहिए |
 
 \--- /task \---
