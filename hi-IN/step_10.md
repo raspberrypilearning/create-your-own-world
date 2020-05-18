@@ -47,13 +47,13 @@ hide
 stop [other scripts in sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+यह कोड `stop other scripts in sprite`{:class="block3control"} ज़रूरी है ताकि `coin` स्प्राइट एक बार इकट्ठे होने के बाद कमरा 1 में नज़र न आये |
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+अब अपने सिक्कों को सेट करने के लिए स्टेज में कोड जोड़ें ताकि `coins`{:class="block3variables"} वेरिएबल गेम की शुरुआत में `0`{:class="block3variables"} हो जाये |
 
 ![stage](images/stage.png)
 
@@ -66,6 +66,6 @@ set [coins v] to [0]
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+अपने गेम का परीक्षण करें। Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
 
 \--- /task \---
