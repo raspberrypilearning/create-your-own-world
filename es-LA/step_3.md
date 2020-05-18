@@ -1,18 +1,18 @@
-## Solid walls
+## Paredes sólidas
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls?
+Prueba de nuevo tu objeto `jugador`. ¿Ves que puede atravesar las paredes de color gris claro?
 
-![screenshot](images/world-walls.png)
+![captura de pantalla](images/world-walls.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+Para arreglar esto, tendrás que hacer que tu `jugador` retroceda si toca una pared de color gris claro. Este es el código que necesitas añadir dentro de tu bloque `para siempre`{:class="block3control"} debajo de los bloques de dirección:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -43,8 +43,8 @@ end
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+Intenta hacer que el objeto `jugador` se mueva a través de una pared. Si tu nuevo código funciona, esto no debería ser posible.
 
-![screenshot](images/world-walls-test.png)
+![captura de pantalla](images/world-walls-test.png)
 
 \--- /task \---
