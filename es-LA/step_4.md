@@ -2,25 +2,25 @@
 
 El objeto `jugador` debe ser capaz de entrar en otras habitaciones por las puertas.
 
-Your project contains backdrops for additional rooms:
+Tu proyecto contiene fondos para otras habitaciones:
 
-![screenshot](images/world-backdrops.png)
+![captura de pantalla](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Crea una nueva variable "para todos los objetos" y llámala `habitación`{:class="block3variables"} para poder ver en que habitación se encuentra el `jugador`.
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![captura de pantalla](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+Cuando el objeto `jugador` toca la puerta naranja en la primera habitación, se debe mostrar el fondo siguiente y el objeto `jugador` tiene que volver al lado izquierdo del escenario. Añade este código dentro del bucle `por siempre`{:class="block3control"} del `jugador`:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -56,27 +56,27 @@ end
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+Cada vez que el juego empieza, la sala, la posición del personaje y el fondo necesitan ser reiniciados.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Añade código al **principio** del código del objeto `jugador` encima del bucle `por siempre`{:class="block3control"} para asegurarte que todo se restablece cuando se hace clic en la bandera:
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+Cuando el juego inicia:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ El valor de `habitación`{:class="block3variables"} debe establecerse en `1`{:class="block3variables"}
++ El valor de `telón de fondo`{:class="block3looks"} debe establecerse en `habitación1`{:class="block3looks"}
++ La posición del objeto `jugador` debe establecerse en `x: -200 y: 0`{:class="block3motion"}
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the extra blocks you need:
+Aquí están los bloques adicionales que necesitas:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 go to x: (-200) y: (0)
@@ -90,9 +90,9 @@ switch backdrop to (room1 v)
 
 \--- hint \---
 
-Here's what your finished script should look like:
+Así es como debería verse tu código terminado:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -135,8 +135,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+Haz clic en la bandera y luego mueve tu objeto `jugador` hasta que toque la puerta naranja. ¿Tu objeto se mueve a la pantalla siguiente? ¿La variable `Habitación`{:class="block3variables"} cambia a `2`?
 
-![screenshot](images/world-room-test.png)
+![captura de pantalla](images/world-room-test.png)
 
 \--- /task \---
