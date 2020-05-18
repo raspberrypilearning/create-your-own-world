@@ -1,36 +1,36 @@
-## Doors and keys
+## Puertas y llaves
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Ahora vas a añadir código para que algunas de las puertas del mundo de tu juego estén bloqueadas, y el jugador debe encontrar la llave para abrirlas y llegar a la habitación siguiente.
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+Cambia al objeto `llave`. Haz clic en `mostrar`{:class="blocklooks"} en el menú Scripts para que el objeto aparezca en el Escenario.
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+Edita el disfraz del objeto `llave` para que sea de color azul.
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+¡Cambia al fondo de escenario a la habitación 3 y coloca el objeto `llave` en un lugar que sea difícil de alcanzar!
 
-![screenshot](images/world-key.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `key` sprite to make it only visible in room 3.
+![captura de pantalla](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+Añade código al objeto `moneda` de manera que solamente aparezca en la habitación 3.
+
+\--- /task \---
+
+\--- task \---
+
+Crea una nueva lista llamada `inventario`{:class="block3variables"} para almacenar los elementos que el objeto `jugador` recolecta.
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,9 +38,9 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+El código que necesitas agregar para recoger la llave es muy similar al código para recoger monedas. La diferencia es que se añade la llave al `inventario`{:class="block3variables"}.
 
-![key](images/key.png)
+![llave](images/key.png)
 
 ```blocks3
 when flag clicked
@@ -54,7 +54,7 @@ stop [other scripts in sprite v]
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+Agrega código a tu escenario para vaciar tu inventario al comienzo del juego.
 
 ```blocks3
 delete (all v) of [inventory v]
@@ -64,27 +64,27 @@ delete (all v) of [inventory v]
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+Prueba tu juego para comprobar si puedes recoger el objeto `llave` y añadirlo a tu inventario.
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+Ahora agrega la puerta cerrada. Seleccione el objeto ` puerta azul ` y haz clic en ` mostrar ` {: class = "blocklooks} en el menú Scripts, y luego coloca el objeto en el espacio entre las dos paredes.
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![captura de pantalla](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+Añade código al objeto `puerta azul` de manera que solamente aparezca en la habitación 3.
+
+\--- /task \---
+
+\--- task \---
+
+Añade código al objeto `puerta azul` para que, cuando la llave esté en el `inventario`{:class="block3variables"}, el objeto se `esconda`{:class="block3looks"} para permitir que pase el objeto `jugador`.
 
 ![puerta](images/door.png)
 
