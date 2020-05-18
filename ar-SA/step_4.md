@@ -1,17 +1,143 @@
 ## حوائط صلبة
 
-+ اختبر كائن `اللاعب` مرة أخرى، وربما ستلاحظ أن اللاعب يمكنه المرور عبر الحوائط ذات اللون الرمادي الفاتح.
+`اللاعب` يجب أن يكون قادرا على التحرك عبر الأبواب للغرف الأخرى.
 
-![screenshot](images/world-walls.png)
+يحتوي مشروعك على خلفيات لغرف إضافية:
 
-+ لإصلاح ذلك، يجب أن تحرِّك الكائن`اللاعب` إلى الخلف إذا كان يلامس أحد هذه الحوائط. فيما يلي التعليمة البرمجية التي ستحتاج إلى إضافتها داخل قالب `كرِّر باستمرار`{:class="blockcontrol"} أسفل قوالب الاتجاه:
+![لقطة شاشة](images/world-backdrops.png)
 
-```blocks
-إذا <ملامس للون [#BABABA] ؟> 
-  تحرك (-4) خطوة
+--- task ---
+
+أنشىء متغير جديد لكل الكائنات يسمى `غرفة`{:class="block3variables"} لتتبع الغرفة التي يكون `اللاعب` موجودا فيها.
+
+[[[generic-scratch3-add-variable]]]
+
+![لقطة الشاشة](images/world-room.png)
+
+--- /task ---
+
+--- task ---
+
+عندما يلمس كائن `اللاعب` الباب البرتقالي في الغرفة الأولى، يجب أن تظهر الخلفية الثانية، ويجب أن يتحرك كائن `اللاعب` إلى الخلف ناحية اليسار من المنصة. أضف هذه التعليمة البرمجية إلى كائن `اللاعب` داخل حلقة التكرار `كرر باستمرار`{:class="block3control"}:
+
+![اللاعب](images/player.png)
+
+```blocks3
+when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key (right arrow v) pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
++   if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+    end
 end
 ```
 
-+ اختبر هذه التعليمة البرمجية الجديدة: حرِّك كائن `اللاعب` إلى أسفل الحائط، ثم لاحظ هل يمكنك تحريك الكائن إلى أعلى على الحائط أم لا. إذا كانت التعليمة البرمجية صحيحة، فلن يحدث ذلك.
+--- /task ---
 
-![screenshot](images/world-walls-test.png)
+--- task ---
+
+في كل مرة تبدأ فيها اللعبة، تحتاج الغرفة وموقع الشخصية والخلفية إلى إعادة تعيين.
+
+أضف هذه التعليمية البرمجية إلى **بداية** التعليمة البرمجية لكائن `الاعب` الخاص بك أعلى التعليمة البرمجية `كرر باستمرار `{:class="block3control"} لتتأكد من عودة كل شيء إلى الحالة الأولى عند النقر على العلم:
+
+--- hints ---
+
+
+--- hint ---
+
+عندما تبدأ اللعبة:
+
++ قيمة `الغرفة`{:class="block3variables"} يجب أن تكون مضبوطة على `1 ` 
++ قيمة `الخلفية`{:class="block3looks"} يجب أن تكون مضبوطة على `غرفة1`{:class="block3looks"}
++ يجب تعيين موضع كائن `اللاعب` إلى `س: -200 ص: 0`{:class="block3motion"}
+
+--- /hint ---
+
+--- hint ---
+
+هنا التعليمات البرمجية التي ستحتاج اليها:
+
+![اللاعب](images/player.png)
+
+```blocks3
+go to x: (-200) y: (0)
+
+set [room v] to (1)
+
+switch backdrop to (room1 v)
+```
+
+--- /hint ---
+
+--- hint ---
+
+إليك ما يجب أن يبدو عليه التعليمة البرمجية النهائي الخاصة بك:
+
+![اللاعب](images/player.png)
+
+```blocks3
+when flag clicked
++set [room v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (room1 v)
+forever
+    if <key (up arrow v) pressed? > then
+        point in direction (0)
+        move (4) steps
+    end
+    if <key (left arrow v) pressed? > then
+        point in direction (-90)
+        move (4) steps
+    end
+        if <key (down arrow v) pressed? > then
+        point in direction (-180)
+        move (4) steps
+    end
+        if <key (right arrow v) pressed? > then
+        point in direction (90)
+        move (4) steps
+    end
+    if < touching color [#BABABA]? > then
+    move (-4) steps
+    end
+    if < touching color [#F2A24A] > then
+    switch backdrop to (next backdrop v)
+    go to x: (-200) y: (0)
+    change [room v] by (1)
+end
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+انقر فوق العلم، ثم انقل كائن `اللاعب` حتى يلمس الباب البرتقالي. هل ينتقل الكائن إلى الشاشة التالية؟ هل يتغير المتغير الخاص بــ `الغرفة`{:class="block3variables"} الي القيمة `2`؟
+
+![لقطة الشاشة](images/world-room-test.png)
+
+--- /task ---
