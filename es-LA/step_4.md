@@ -1,6 +1,6 @@
-## Move around your world
+## Muévete por tu mundo
 
-The `player` sprite should be able to walk through doors into other rooms.
+El objeto `jugador` debe ser capaz de entrar en otras habitaciones por las puertas.
 
 Your project contains backdrops for additional rooms:
 
