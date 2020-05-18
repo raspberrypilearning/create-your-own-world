@@ -2,7 +2,7 @@
 
 \--- task \---
 
-再測試你的`玩家`角色。 Do you see that it can walk through the light grey walls?
+再測試你的`玩家`角色。 你觀察到了嗎？它可以穿過淺灰色的牆壁…這一點也不科學！
 
 ![截圖](images/world-walls.png)
 
