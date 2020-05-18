@@ -83,17 +83,17 @@ end
 ![告示牌](images/sign.png)
 
 ```blocks3
-當 @greenflag 被點擊
-重複無限次
-如果 <(空間 :: variables) = (1)> 那麼
-顯示
-否則
-隱藏
+when flag clicked
+forever
+if < (空間 :: variables) = [1] > then
+show
+else
+hide
 end
-+如果 <碰到 (玩家 v)？ > 然後
-說出 [歡迎！ 你能得到寶藏嗎？]
-否則
-說出 ()
++if < touching (玩家 v)? > then
+say [歡迎！ 你能得到寶藏嗎？]
+else
+say []
 end
 end
 ```
