@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+यह इस प्रोजेक्ट का **Scratch 3** संस्करण (version) है। इस प्रोजेक्ट का [Scratch 2 संस्करण](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2) भी है।
 
 \--- /no-print \---
 
-## Introduction
+## परिचय
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+इस प्रोजेक्ट में आप ऐसा गेम बनाना सीखेंगे जिसमें आपका खुद का एक एडवेंचर गेम वर्ल्ड होगा जिसके अलग अलग स्तर भी होंगे |
 
-### What you will make
+### आप क्या बनाएँगे
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+प्रारंभ करने के लिए हरे झंडे पर क्लिक करें । Use the arrow keys to move your character around in the world.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
