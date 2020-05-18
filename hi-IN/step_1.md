@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-प्रारंभ करने के लिए हरे झंडे पर क्लिक करें । Use the arrow keys to move your character around in the world.
+प्रारंभ करने के लिए हरे झंडे पर क्लिक करें । अपने पात्र को अपनी दुनिया में हिलाने के लिए arrow keys (ऊपर निचे वाले बटन) का प्रयोग करें |
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,23 +23,23 @@
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+अपने अपने पात्र को दुनिया में हिलाने के लिए arrow keys (ऊपर निचे वाले बटन) का प्रयोग करेंगे | ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: आपको किन चीजों की आवश्यकता होगी
 
-### Hardware
+### हार्डवेयर
 
-- A computer capable of running Scratch 3
+- Scratch 3 चलाने में सक्षम कंप्यूटर
 
-### Software
+### सॉफ्टवेयर
 
-- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (या तो [ऑनलाइन](http://rpf.io/scratchon){:target="_blank"} या [ऑफ़लाइन](http://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### डाउनलोड
 
 You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
