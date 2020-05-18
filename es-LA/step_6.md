@@ -77,9 +77,9 @@ Test the code for your `welcome sign` sprite by moving between rooms. The sign s
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+¡Una señal no es muy útil si no dice nada! Añade un poco más de código para mostrar un mensaje si el objeto `señal` es tocado por el objeto `jugador`:
 
-![sign](images/sign.png)
+![señal](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -101,8 +101,8 @@ end
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Prueba tu objeto `señal de bienvenida` de nuevo. Ahora deberías ver un mensaje cuando el objeto `jugador` toca el objeto `señal`.
 
-![screenshot](images/world-sign-test2.png)
+![captura de pantalla](images/world-sign-test2.png)
 
 \--- /task \---
