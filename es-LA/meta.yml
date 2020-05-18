@@ -1,39 +1,39 @@
 ---
 hero_image: images/banner.png
-title: Create your own world
-description: Create your own open-world adventure game
+title: Crea tu propio mundo
+description: Aprende a crear tu propio juego de aventura de mundo abierto
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Introduction
+    title: Introducción
   - 
-    title: Move the player sprite
+    title: Mueve el objeto jugador
   - 
     title: Solid walls
   - 
-    title: Move around your world
+    title: Muévete por tu mundo
   - 
-    title: "Challenge: move back to the previous room"
+    title: "Desafío: volver a la habitación anterior"
     challenge: true
   - 
-    title: Signs
+    title: Señales
   - 
-    title: "Challenge: treasure!"
+    title: "Desafío: ¡Un tesoro!"
     challenge: true
   - 
-    title: People
+    title: Personas
   - 
-    title: "Challenge: enemies"
+    title: "Desafío: Enemigos"
     challenge: true
   - 
-    title: Collect coins
+    title: Recoger monedas
   - 
-    title: Doors and keys
+    title: Puertas y llaves
   - 
-    title: "Challenge: extend your world"
+    title: "Desafío: Amplía tu mundo"
     challenge: true
   - 
-    title: "What next?"
+    title: "¿Qué sigue?"
