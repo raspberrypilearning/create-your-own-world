@@ -86,7 +86,7 @@ Add code to the `door-blue` sprite so that it is only visible in room 3.
 
 Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
 
-![door](images/door.png)
+![puerta](images/door.png)
 
 ```blocks3
 when flag clicked
@@ -99,6 +99,6 @@ hide
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+¡Prueba tu juego y comprueba si puedes recoger la llave azul para abrir la puerta!
 
 \--- /task \---
