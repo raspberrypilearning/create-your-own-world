@@ -5,14 +5,14 @@
 + Añade más monedas a tu juego en diferentes habitaciones. ¿Puedes dejar que algunas monedas estén vigiladas por enemigos?
 + Cambia los fondos de tu juego
 + Añade sonido y música a tu juego
-+ Add more people, enemies, and signs
++ Añade más personajes, enemigos y señales
 + Añade puertas rojas y amarillas, y llaves especiales para abrirlas
 + Añade más habitaciones a tu mundo
-+ Add other useful items to your game
++ Añade otros objetos útiles a tu juego
     
-    + Use coins to get information from other people:
+    + Usa monedas para obtener información de otras personas:
 
-![screenshot](images/world-bribe.png)
+![captura de pantalla](images/world-bribe.png)
 
 + Incluso podrías añadir puertas en las paredes norte y sur de la habitación 1, de modo que el jugador pueda moverse entre habitaciones en las cuatro direcciones. Por ejemplo, tu juego puede tener nueve habitaciones en una cuadrícula de 3 × 3. Entonces podrías sumar `3` al número de habitación para moverte al nivel inferior.
 
