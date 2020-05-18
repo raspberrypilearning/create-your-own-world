@@ -39,7 +39,7 @@ end
 重複無限次
 end
 
-當 @greenflag 被點擊
+when flag clicked
 
 ```
 
