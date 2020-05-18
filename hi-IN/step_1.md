@@ -49,8 +49,8 @@
 
 ## title: आप क्या सीखेंगे
 
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
+- सनियम चयन (conditional selection) का कुछ ज़रूरी कमांड्स में प्रयोग
+- गेम की स्थिति को संग्रहीत (store) करने के लिए वेरिएबल (variable) का उपयोग 
 - Use conditional selection based on the value of a variable
 - Use lists to store data
 
