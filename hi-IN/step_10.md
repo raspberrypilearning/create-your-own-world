@@ -18,7 +18,7 @@
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+अपने `coin` (सिक्के) स्प्राइट में कोड जोड़ें ताकि यह केवल कमरा 1 में दिखाई दे।
 
 ![screenshot](images/coin.png)
 
@@ -35,7 +35,7 @@ hide
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+अपने `coin` (सिक्के) स्प्राइट में कोड जोड़ें ताकि स्प्राइट `hides`{:class="block3looks"} और `1`{:class="block3variables"} को जोड़ा जाये `coins`{:class="block3variables"} वेरिएबल में ताकि एक बार `player` (खिलाडी) स्प्राइट `coin` स्प्राइट जैसे ही छूता है वो उसे 'उठा ले' | 
 
 ![coin](images/coin.png)
 
