@@ -44,7 +44,7 @@ title: ما الذي ستحتاجه
 
 يمكنك أن تجد كل ما تحتاجه لإكمال هذا المشروع على [rpf.io/p/ar-SA/create-your-own-world-go](https://rpf.io/p/ar-SA/create-your-own-world-go).
 
---- collapse ---
+--- /collapse ---
 
 --- collapse ---
 ---
