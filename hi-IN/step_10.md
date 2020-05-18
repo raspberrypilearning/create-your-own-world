@@ -1,4 +1,4 @@
-## Collect coins
+## कोइन्स (Coins) बटोरना
 
 Your `player` sprite should have be able to collect coins as it moves through the world.
 
