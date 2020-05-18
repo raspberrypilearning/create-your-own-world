@@ -1,16 +1,16 @@
-## कोइन्स (Coins) बटोरना
+## सिक्के (Coins) बटोरना
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+आपका `खिलाड़ी (player)` स्प्राइट सिक्कों को बटोरने में सक्षम होना चाहिए जब वो आपकी दुनिया में चल रहा है।
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+`coins`{:class="block3variables"} नामक एक नया वेरिएबल (variable) अपने प्रोजेक्ट में जोड़ें |
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+`coin` (सिक्के) स्प्राइट का चुनें और **show** पर क्लिक करें |
 
 ![screenshot](images/coin.png)
 
