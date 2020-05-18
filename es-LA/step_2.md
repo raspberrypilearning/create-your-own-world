@@ -1,28 +1,28 @@
-## Move the player sprite
+## Mueve el objeto jugador
 
-Start by creating a `player` sprite that can move around your world.
+Empieza creando un objeto `jugador` que se pueda mover por tu mundo.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Abre el proyecto de inicio de Scratch "Crea tu propio mundo".
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**En línea:** abre el proyecto de inicio en [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tiene una cuenta de Scratch, puede hacer una copia haciendo clic en ** Remix **.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Sin conexión:** descarga el proyecto de inicio desde [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go) y luego ábrelo con el editor de Scratch sin conexión. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![captura de pantalla](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Al presionar las teclas de flecha se moverá al objeto `jugador`. Cuando se presiona la flecha hacia arriba, el objeto `jugador` debe moverse hacia arriba en el escenario.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Añade este código al objeto `jugador`:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -38,9 +38,9 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Haz clic en la bandera y mantén presionada la flecha hacia arriba. ¿El objeto `jugador` se mueve hacia arriba?
 
-![screenshot](images/world-up.png)
+![captura de pantalla](images/world-up.png)
 
 \--- /task \---
 
