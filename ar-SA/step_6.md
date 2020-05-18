@@ -30,7 +30,7 @@ if < > then
 else
 end
 
-< (room :: variables) = [1] >
+< (غرفة :: variables) = [1] >
 
 hide
 
@@ -54,7 +54,7 @@ when flag clicked
 ```blocks3
 when flag clicked
 forever
-    if < (room :: variables) = [1] > then
+    if < (غرفة :: variables) = [1] > then
         show
     else
         hide
@@ -85,13 +85,13 @@ end
 ```blocks3
 when flag clicked
 forever
-if < (room :: variables) = [1] > then
+if < (غرفة :: variables) = [1] > then
 show
 else
 hide
 end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
++if < touching (اللاعب v)? > then
+say [مرحبا! هل يمكنك الوصول إلى الكنز؟]
 else
 say []
 end

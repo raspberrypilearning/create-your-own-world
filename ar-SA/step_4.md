@@ -47,7 +47,7 @@ forever
 +   if < touching color [#F2A24A] > then
     switch backdrop to (next backdrop v)
     go to x: (-200) y: (0)
-    change [room v] by (1)
+    change [غرفة v] by (1)
     end
 end
 ```
@@ -67,7 +67,7 @@ end
 
 عندما تبدأ اللعبة:
 
-+ قيمة `الغرفة`{:class="block3variables"} يجب أن تكون مضبوطة على `1 ` 
++ قيمة `الغرفة`{:class="block3variables"} يجب أن تكون مضبوطة على `1 `{:class="block3variables"}
 + قيمة `الخلفية`{:class="block3looks"} يجب أن تكون مضبوطة على `غرفة1`{:class="block3looks"}
 + يجب تعيين موضع كائن `اللاعب` إلى `س: -200 ص: 0`{:class="block3motion"}
 
@@ -82,9 +82,9 @@ end
 ```blocks3
 go to x: (-200) y: (0)
 
-set [room v] to (1)
+set [غرفة v] to (1)
 
-switch backdrop to (room1 v)
+switch backdrop to (غرفة1 v)
 ```
 
 --- /hint ---
@@ -97,9 +97,9 @@ switch backdrop to (room1 v)
 
 ```blocks3
 when flag clicked
-+set [room v] to (1)
++set [غرفة v] to (1)
 +go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
++switch backdrop to (غرفة1 v)
 forever
     if <key (up arrow v) pressed? > then
         point in direction (0)
@@ -123,7 +123,7 @@ forever
     if < touching color [#F2A24A] > then
     switch backdrop to (next backdrop v)
     go to x: (-200) y: (0)
-    change [room v] by (1)
+    change [غرفة v] by (1)
 end
 end
 ```

@@ -25,7 +25,7 @@
 ```blocks3
 when flag clicked
 forever
-if <(room :: variables)=[1]> then
+if <(غرفة :: variables)=[1]> then
 show
 else
 hide
@@ -35,19 +35,19 @@ hide
 
 --- task ---
 
-أضف تعليمة برمجية لكائن `العملات الذهبية` بحيث `يختف` {:class="block3looks"} الكائن ويضاف `1 `{:class="block3variables"} الى المتغير `العملات الذهبية`{:class="block3variables"} عندما يلمس كائن `player` الكائن `coin` لكي "يلتقطها".
+أضف تعليمة برمجية لكائن `العملات الذهبية` بحيث `يختف`{:class="block3looks"} الكائن ويضاف `1 `{:class="block3variables"} الى المتغير `العملات الذهبية`{:class="block3variables"} عندما يلمس كائن `اللاعب` الكائن `coin` لكي "يلتقطها".
 
 ![العملات الذهبية](images/coin.png)
 
 ```blocks3
 when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
+wait until <touching (اللاعب v)?>
+change [عملات معدنية v] by (1)
 hide
 stop [other scripts in sprite v]
 ```
 
-يجب استخدام التعليمة البرمجية `أوقف النصوص الأخرى في الكائن`{:class="blockcontrol"} بحيث يختفي كائن `العملات الذهبية` من الغرفة 1 بمجرد جمعِها.
+يجب استخدام التعليمة البرمجية `أوقف النصوص الأخرى في الكائن`{:class="block3control"} بحيث يختفي كائن `العملات الذهبية` من الغرفة 1 بمجرد جمعِها.
 
 --- /task ---
 
@@ -59,7 +59,7 @@ stop [other scripts in sprite v]
 
 ```blocks3
 when flag clicked
-set [coins v] to [0]
+set [عملات معدنية v] to [0]
 ```
 
 --- /task ---

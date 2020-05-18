@@ -17,7 +17,7 @@ steps:
   - title: "تحدي: الكنز!"
     challenge: true
   - title: الأشخاص
-  - title: "تحدي: الأعداء"
+  - title: "تحدي: إضافة عدو"
     challenge: true
   - title: جمع العملات الذهبية
   - title: الأبواب والمفاتيح

@@ -20,8 +20,8 @@
 when flag clicked
 go to x: (0) y: (-150)
 forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
+    if < touching (اللاعب v)? > then
+        say [هل تعلم أنه يمكنك المرور عبر الأبواب البرتقالية والصفراء؟]
     else
         say []
     end
@@ -40,8 +40,8 @@ end
 when flag clicked
 go to x: (0) y: (-150)
 forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
+    if < touching (اللاعب v)? > then
+        say [هل تعلم أنه يمكنك المرور عبر الأبواب البرتقالية والصفراء؟]
     else
         say []
 +       move (1) steps

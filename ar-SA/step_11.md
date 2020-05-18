@@ -44,8 +44,8 @@
 
 ```blocks3
 when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
+wait until <touching (اللاعب v)?>
+add [المفتاح الأزرق] to [المخزن v]
 hide
 stop [other scripts in sprite v]
 ```
@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 اضف تعليمة برمجية إلى المنصة ليكون مخزنك فارغًا في بداية اللعبة.
 
 ```blocks3
-	احذف (الكل v) من [inventory v]
+delete all of [المخزن v]
 ```
 
 --- /task ---
@@ -90,7 +90,7 @@ stop [other scripts in sprite v]
 
 ```blocks3
 when flag clicked
-wait until <[inventory v] contains [blue key]?>
+wait until <[المخزن v] contains [المفتاح الأزرق]?>
 stop [other scripts in sprite v]
 hide
 ```

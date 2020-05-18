@@ -9,14 +9,14 @@
 ```blocks3
 when flag clicked
 forever
-if <(room :: variables)=[2]> then
+if <(غرفة :: variables)=[2]> then
 show
 else
 hide
 
 when flag clicked
 forever
-if <touching (player v)?> then
+if <touching (اللاعب v)?> then
 stop [all v]
 
 when flag clicked
