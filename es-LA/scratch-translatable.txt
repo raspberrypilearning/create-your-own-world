@@ -1,12 +1,12 @@
-room
+habitación
 
-player
+jugador
 
-Welcome! Can you get to the treasure?
+¡Bienvenido! ¿Puedes llegar al tesoro?
 
-Did you know that you can go through orange and yellow doors?
+¿Sabías que puedes pasar por puertas naranjas y amarillas?
 
-coins
+monedas
 
 blue key
 
