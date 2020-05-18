@@ -51,17 +51,17 @@
 
 - सनियम चयन (conditional selection) का कुछ ज़रूरी कमांड्स में प्रयोग
 - गेम की स्थिति को संग्रहीत (store) करने के लिए वेरिएबल (variable) का उपयोग 
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+- एक वेरिएबल के मूल्य (value of a variable) के आधार पर सनियम चयन का उपयोग
+- डेटा (data) संग्रहीत करने के लिए सूचियों (lists) का उपयोग
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: शिक्षकों के लिए अतिरिक्त जानकारी
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){: target ="_ blank"} का उपयोग करें।
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+आप इधर [पूरा प्रोजेक्ट](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"} देख सकते हैं ।
 
 \--- /collapse \---
