@@ -41,13 +41,13 @@
 
 ### डाउनलोड
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+आपको इस प्रोजेक्ट को पूरा करने के लिए [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go) पर सब कुछ मिल सकता है |
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: आप क्या सीखेंगे
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
