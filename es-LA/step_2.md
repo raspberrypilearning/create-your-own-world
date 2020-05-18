@@ -46,9 +46,9 @@ Haz clic en la bandera y mantén presionada la flecha hacia arriba. ¿El objeto 
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Para mover el `jugador` hacia la izquierda tienes que añadir otro bloque `si`{:class="block3control"} con un código similar:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -68,23 +68,23 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Añade más código a tu objeto `jugador` para que pueda moverse también hacia abajo y hacia la derecha. Usa el código que ya tienes como ayuda.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Para moverse hacia arriba, apunta el objeto `jugador` en la dirección `0` grados. ¿Qué tienes que hacer para mover el objeto hacia abajo?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Para moverse hacia la izquierda, apunta el objeto jugador en la dirección `90` grados. ¿Qué tienes que hacer para mover el objeto hacia la derecha?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Necesitas cambiar estos dos bloques:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -92,15 +92,15 @@ You need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Duplica el código que hace que el objeto` jugador ` se mueva hacia arriba y cambia estos dos bloques para que el objeto se mueva hacia abajo. Duplica el código nuevamente y cámbialo para que el objeto se mueva hacia la derecha.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is how your code should look:
+Así es como debería verse tu código:
 
-![player](images/player.png)
+![jugador](images/player.png)
 
 ```blocks3
 when flag clicked
