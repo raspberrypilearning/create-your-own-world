@@ -1,10 +1,10 @@
 ## लोग
 
-Add other people to your world who your `player` sprite can interact with.
+अन्य लोगों को अपनी दुनिया में जोड़ें जो आपके `player` स्प्राइट के साथ बातचीत कर सकते हैं।
 
 \--- task \---
 
-Switch to the `person` sprite.
+`person` वाले स्प्राइट पर बदलें |
 
 ![Person sprite](images/person.png)
 
@@ -12,7 +12,7 @@ Switch to the `person` sprite.
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+`person` स्प्राइट में कुछ कोड जोड़ें ताकि वह `player` स्प्राइट से बात करे। यह कोड आपके द्वारा अपने `sign` (संकेत) स्प्राइट के कोड समान है:
 
 ![person](images/person.png)
 
@@ -32,7 +32,7 @@ end
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+`person` स्प्राइट को हिलने कि आज़ादी इन दो ब्लॉक्स को जोड़कर दीजिये, यह अपने `else`{:class="block3control"} खंड में डालें:
 
 ![person](images/person.png)
 
@@ -52,14 +52,14 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+आपका `person` स्प्राइट अब चलेगा लेकिन `player`स्प्राइट से बात करना करने के लिए रुकेगा।
 
 ![screenshot](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+अपने `person` स्प्राइट में कोड जोड़ें ताकि यह केवल कमरा 1 में दिखाई दे। आपको जिस कोड की आवश्यकता है वह कोड के समान ही है जो आपने `sign` स्प्राइट में उपयोग किया था ताकी वह केवल कमरे 1 में दिखाई दे।
 
-Make sure you test out your new code.
+सुनिश्चित करें कि आप अपने नए कोड कि परीक्षण करें।
 
 \--- /task \---
