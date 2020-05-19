@@ -46,7 +46,7 @@ end
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+`player` (खिलाड़ी) स्प्राइट को बाईं ओर हिलाने के लिए आपको एक और `if`{:class="block3control"} ब्लॉक जोड़ना होगा वो भी सामान्य कोड के साथ |
 
 ![player](images/player.png)
 
