@@ -12,7 +12,7 @@
 
 **ऑफ़लाइन**: स्टार्टर प्रजेक्ट को [ rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"} से डाउनलोड करें और फिर इसे ऑफ़लाइन एडिटर (offline editor) का उपयोग करके खोलें। यदि आपको Scratch ऑफ़लाइन एडिटर को डाउनलोड और इंस्टॉल (download and install) करने की आवश्यकता है तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
 
-![स्क्रीनशॉट](images/world-starter.png)
+![screenshot](images/world-starter.png)
 
 \--- /task \---
 
@@ -40,7 +40,7 @@ end
 
 हरे झंडे पर क्लिक करें और फिर ऊपर तीर वाले बटन को दबाए रखें। क्या `player` (खिलाडी) स्प्राइट ऊपर की ओर जाता है?
 
-![स्क्रीनशॉट](images/world-up.png)
+![screenshot](images/world-up.png)
 
 \--- /task \---
 
@@ -92,13 +92,13 @@ end
 point in direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+उस कोड को डुप्लिकेट (duplicate) करें जो `player` स्प्राइट को ऊपर की ओर ले जाता है, और स्प्राइट को नीचे ले जाने के लिए इन दोनों ब्लॉकों को बदल दें। कोड को फिर से डुप्लिकेट (duplicate) करें और स्प्राइट को दाईं ओर ले जाने के लिए इसे बदलें।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is how your code should look:
+यहाँ दिखाया गया है कि आपका कोड कैसा दिखना चाहिए:
 
 ![player](images/player.png)
 
