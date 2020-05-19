@@ -1,8 +1,8 @@
-## Solid walls
+## पक्की दीवारें
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls?
+अपने `player` (खिलाड़ी) स्प्राइट का फिर से परीक्षण करें। क्या आप देख पा रहे हैं कि यह हल्के भूरे रंग की दीवारों (grey walls) के बीच से भी चल सकता है?
 
 ![screenshot](images/world-walls.png)
 
@@ -10,7 +10,7 @@ Test your `player` sprite again. Do you see that it can walk through the light g
 
 \--- task \---
 
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+इसे ठीक करने के लिए आपको `player` (खिलाड़ी) स्प्राइट को थोड़ा पीछे हिलना होगा अगर यह एक हल्के भूरे रंग (grey walls) की दीवार को छूता है। यहाँ दिया गया कोड आपको अपने `forever`{:class="block3control"} ब्लॉक के अंदर डालना होगा जोकि direction ब्लॉक के नीचे है:
 
 ![player](images/player.png)
 
@@ -43,7 +43,7 @@ end
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+कोशिश करें कि `player` स्प्राइट दिवार के बीचो बीच से निकल जाये | यदि आपका नया कोड काम करता है, तो यह संभव नहीं होना चाहिए।
 
 ![screenshot](images/world-walls-test.png)
 
