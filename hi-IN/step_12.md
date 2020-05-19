@@ -1,20 +1,20 @@
 ## चुनौती: अपनी दुनिया को और भी बड़ा बनाएं
 
-You can now continue creating your own world! यहाँ कुछ विचार हैं:
+अब आप अपनी दुनिया बनाना जारी रख सकते हैं! यहाँ कुछ विचार हैं:
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
-+ Add sound and music to your game
-+ Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ अलग-अलग कमरों में अपने खेल में अधिक सिक्के जोड़ें। क्या आप दुश्मनों को गश्त करके कुछ सिक्कों की रक्षा कर सकते हैं?
++ अपने खेल की बैकड्रॉप (backdrop) बदलें
++ अपने गेम में आवाज़ और संगीत जोड़ें
++ अधिक लोगों, दुश्मनों और इशारो (signs) को जोड़ें
++ लाल और पीले दरवाजे और उन्हें खोलने के लिए विशेष चाभियाँ जोड़ें
++ अपने प्रोजेक्ट में और कमरे जोड़ें
++ अपने खेल में अन्य उपयोगी वस्तुओं को जोड़ें
     
-    + Use coins to get information from other people:
+    + अन्य लोगों से जानकारी प्राप्त करने के लिए सिक्कों का उपयोग करें:
 
 ![screenshot](images/world-bribe.png)
 
-+ You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
++ आप कमरे 1 की उत्तर और दक्षिण की दीवारों में दरवाजे भी जोड़ सकते हैं ताकि खिलाड़ी चारों दिशाओं में कमरों के बीच घूम सके। उदाहरण के लिए, आपके गेम में 3 × 3 ग्रिड (grid) में नौ कमरे हो सकते हैं। फिर आप एक स्तर नीचे जाने के लिए कमरे की संख्या में `3` जोड़ सकते हैं |
 
 ![screenshot](images/north-south-rooms.png)
 
