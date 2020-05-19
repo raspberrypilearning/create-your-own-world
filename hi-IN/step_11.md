@@ -30,7 +30,7 @@
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+एक नई सूची बनाएं जिसे हम कहेंगे `inventory`{:class="block3variables"} जो आपके `player` स्प्राइट द्वारा इकठ्ठा किये गए सामान (items) को एकत्रित (store) करेगा।
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,7 +38,7 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+चाभी (key) को इकट्ठा करने के लिए आपको जिस कोड को जोड़ना होगा वह सिक्के एकत्र करने के कोड के समान है। अंतर यह है कि आप चाभी (key) को `inventory`{:class="block3variables"} में डालेंगे।
 
 ![key](images/key.png)
 
