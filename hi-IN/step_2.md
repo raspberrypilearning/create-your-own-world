@@ -68,15 +68,15 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
-
-\--- hints \---
+अपने `player` (खिलाड़ी) स्प्राइट में और कोड जोड़ें ताकि वह नीचे और दाईं ओर भी जा सके। उस कोड का उपयोग और मदद लें जो आपके पास पहले से है।
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+\--- hint \---
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+ऊपर जाने के लिए आप `player` स्प्राइट `0` डिग्री (degrees) कि दिशा की ओर इशारा करेंगे | स्प्राइट को नीचे ले जाने के लिए आपको क्या करना होगा?
+
+बाएं जाने के लिए आप `player` स्प्राइट <0>-90</0> डिग्री (degrees) कि दिशा की ओर इशारा करेंगे | What do you have to do to move the sprite right?
 
 \--- /hint \---
 
