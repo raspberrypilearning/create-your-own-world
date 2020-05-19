@@ -1,10 +1,10 @@
-## Challenge: add an enemy
+## चुनौती: दुश्मन जोड़ें
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+यदि आप चाहें तो आप अपने गेम में गश्त करने वाले दुश्मनों को भी जोड़ सकते हैं। यदि `player` स्प्राइट एक दुश्मन को छूता है, खेल वही समाप्त होता है।
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ आपके गेम में पहले से ही एक `enemy` (दुश्मन) स्प्राइट है। अपने `enemy` स्प्राइट में कोड जोड़ें ताकि यह केवल कमरा 2 में दिखाई दे।
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ और कोड जोड़ें ताकी आप `enemy` (दुश्मन ) स्प्राइट को हिलाएं और अगर `enemy` स््राइट `player` स्प्राइट को छू लेता है तो गेम वही खत्म होजाए | यह अलग कोड ब्लॉक में करना आसान है। यहां जानिए कि आपका `enemy` स्प्राइट का कोड कैसा दिखना चाहिए:
 
 ```blocks3
 when flag clicked
@@ -29,11 +29,11 @@ repeat (130)
 change x by (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ सुनिश्चित करने के लिए अपने नए कोड का परीक्षण करें ताकि: 
+    + `enemy` स्प्राइट केवल कमरे 2 में दिखाई दे
+    + `enemy` स्प्राइट कमरे में गश्त करता है
+    + खेल समाप्त होता है अगर `player` स्प्राइट `enemy` स्प्राइट को छूता है
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+क्या आप दूसरा `enemy` स्प्राइट बना सकते हैं जो कमरे 3 में, जो दीवारों के बीच कि जगहों से निकल के गश्त करेगा?
 
 ![screenshot](images/world-enemy2.png)
