@@ -1,7 +1,7 @@
 ## चुनौती: खज़ाना!
 
-Can you add some treasure for the player to find?
+क्या आप खिलाड़ी को खोजने के लिए कुछ खज़ाना जोड़ सकते हैं?
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+`treasure chest` स्प्राइट को केवल कमरे 3 में ही दिखाई देना चाहिए और जब `player` स्प्राइट उसे छूए तो स्प्राइट से ये बुलवाइए 'Well done!'
 
 ![screenshot](images/world-treasure.png)
