@@ -1,10 +1,10 @@
 ## आगे क्या?
 
-Have a go at creating another game by working through the [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+क्यों न आप एक और गेम बनाये, [CATS!](https://projects.raspberrypi.org/en/projects/cats?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रोजेक्ट देखिये |
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+पेंसिल (pencil) के साथ एक रेखा खींचने के लिए माउस (mouse) से क्लिक करें और खींचें। आपका लक्ष्य बाहर निकलने के लिए एक सुरक्षित मार्ग बनाकर बिल्लियों को छेदों में गिरने से रोकना है।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,4 +18,4 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- /print-only \---
 
-If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+यदि आप Scratch के बजाय Pythin का उपयोग करके एक गेम बनाना चाहते हैं, तो [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) प्रोजेक्ट को ज़रूर देखें।
