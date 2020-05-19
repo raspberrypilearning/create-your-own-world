@@ -1,6 +1,6 @@
-## Challenge: extend your world
+## चुनौती: अपनी दुनिया को और भी बड़ा बनाएं
 
-You can now continue creating your own world! Here are some ideas:
+You can now continue creating your own world! यहाँ कुछ विचार हैं:
 
 + Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
 + Change your game's backdrops
