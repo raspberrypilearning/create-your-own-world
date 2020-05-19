@@ -1,4 +1,4 @@
-## Move around your world
+## अपनी दुनिया में घूमें
 
 The `player` sprite should be able to walk through doors into other rooms.
 
