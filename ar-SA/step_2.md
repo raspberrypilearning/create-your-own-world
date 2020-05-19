@@ -6,7 +6,7 @@
 
 افتح المشروع المبدئي "إنشاء عالمك الخاص".
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [scratch.mit.edu/projects/396850938](https://scratch.mit.edu/projects/396850938){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
