@@ -1,22 +1,22 @@
-## Doors and keys
+## दरवाज़े और चाभियाँ
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+अब आप कोड जोड़ने जा रहे हैं ताकि आपके खेल की दुनिया के कुछ दरवाजे बंद (lock) हो और खिलाड़ी को उन्हें खोलने और अगले कमरे में जाने के लिए चाबी ढूंढनी होगी।
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+`key` चाभी वाली स्प्राइट पर जाएं | स्क्रिप्ट्स मेनू (Scripts menu) से `show`{:class="blocklooks"} ब्लॉक पर क्लिक करें ताकि स्प्राइट स्टेज (जहा आपके पात्र हिलते है) पर नज़र आये | 
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+`key` (चाभी) स्प्राइट के पोशाक (Costume) को नीले में बदलने के लिए एडिट (edit) करें |
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+अपनी स्टेज बैकड्रॉप (stage backdrop) को कमरे 3 में बदलें और `key` (चाभी) स्प्राइट को ऐसी जगह रखें जहाँ पहुँचने के लिए मुश्किल हो!
 
 ![screenshot](images/world-key.png)
 
@@ -24,7 +24,7 @@ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere diffi
 
 \--- task \---
 
-Add code to the `key` sprite to make it only visible in room 3.
+अपने `key` (चाभी) स्प्राइट में कोड जोड़ें ताकि यह केवल कमरा 3 में दिखाई दे।
 
 \--- /task \---
 
