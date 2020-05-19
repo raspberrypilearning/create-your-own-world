@@ -54,7 +54,7 @@ stop [other scripts in sprite v]
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+खेल की शुरुआत में अपने inventory सूची को खाली करने के लिए अपने स्टेज (Stage) में कोड जोड़ें।
 
 ```blocks3
 delete (all v) of [inventory v]
@@ -64,13 +64,13 @@ delete (all v) of [inventory v]
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+यह देखने के लिए कि क्या आप `key` (चाभी) एकत्र कर अपने inventory में जोड़ पाते है कि नहीं, अपने गेम का परीक्षण करें।
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+अब बंद दरवाजे (locked door) को जोड़ें। `door-blue` स्प्राइट को चुनें और `show`{:class="blocklooks} पर क्लिक करें स्क्रिप्ट्स मेनू (scripts menu) में और फिर दो दीवारों के बीच में स्प्राइट को रखें।
 
 ![screenshot](images/world-door.png)
 
@@ -78,13 +78,13 @@ Now add the locked door. Select the `door-blue` sprite and click on `show`{:clas
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+अपने `door-blue` स्प्राइट में कोड जोड़ें ताकि यह केवल कमरा 3 में दिखाई दे।
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+`door-blue` स्प्राइट में कोड जोड़ें ताकि जब key (चाभी) `inventory`{:class="block3variables"} में है तब स्प्राइट `hides`{:class="block3looks"} ताकि `player` स्प्राइट आराम से जा पाए |
 
 ![door](images/door.png)
 
@@ -99,6 +99,6 @@ hide
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+अपने खेल का परीक्षण करें और देखें कि क्या आप दरवाजा खोलने के लिए नीली चाभी बटोर सकते हैं!
 
 \--- /task \---
