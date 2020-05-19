@@ -1,6 +1,6 @@
 ## अपनी दुनिया में घूमें
 
-The `player` sprite should be able to walk through doors into other rooms.
+`player` स्प्राइट अब अब अन्य कमरों के दरवाज़ों से चलने में सक्षम होना चाहिए
 
 Your project contains backdrops for additional rooms:
 
