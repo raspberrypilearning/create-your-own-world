@@ -1,4 +1,4 @@
-## Challenge: treasure!
+## चुनौती: खज़ाना!
 
 Can you add some treasure for the player to find?
 
