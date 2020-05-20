@@ -1,0 +1,13 @@
+room
+
+player
+
+Welcome! Can you get to the treasure?
+
+Did you know that you can go through orange and yellow doors?
+
+coins
+
+blue key
+
+inventory
