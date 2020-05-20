@@ -1,26 +1,26 @@
-hero_image: images/create-your-own-world.png
-title: अपनी स्वयं की दुनिया बनाएँ
-description: अपना स्वयं का ओपन-वर्ल्ड एडवेंचर गेम बनाना सीखें।
-original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
-theme: orange
-duration: 2
+---
+hero_image: images/banner.png
+title: अपनी दुनिया बनाएँ
+description: अपना चाभियाँ ओपन-वर्ल्ड एडवेंचर (open-world adventure) गेम बनाना सीखें।
 listed: true
-ingredient: false
 copyedit: false
-curriculum: creator, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: ''
-technologies: scratch
-site_areas: codeclub, scratch
+version: 4.1.0
+last_tested: 2018-10-23
 steps:
-- title: भूमिका
-- title: आपको किसकी ज़रूरत होगी
-- title: खिलाड़ी की स्प्राइट को स्थानांतरित करना
-- title: ठोस दीवारें
-- title: अपनी दुनिया को कोड करना
-- title: संकेत
-- title: 'चुनौती: खज़ाना!'
-- title: लोग
-- title: 'चुनौती: दुश्मन'
-- title: कॉइन एकत्र करना
-- title: दरवाज़े और कुंजियाँ
-- title: 'चुनौती: अपनी दुनिया को बढ़ाएं'
+  - title: परिचय
+  - title: खिलाडी स्प्राइट (player sprite) को हिलाएं
+  - title: पक्की दीवारें
+  - title: अपनी दुनिया में घूमें
+  - title: "चुनौती: पिछले कमरे में वापस जाएँ"
+    challenge: true
+  - title: संकेत (Signs)
+  - title: "चुनौती: खज़ाना!"
+    challenge: true
+  - title: लोग
+  - title: "चुनौती: दुश्मन"
+    challenge: true
+  - title: कोइन्स (Coins) बटोरना
+  - title: दरवाज़े और चाभियाँ
+  - title: "चुनौती: अपनी दुनिया को और भी बड़ा बनाएं"
+    challenge: true
+  - title: "आगे क्या?"

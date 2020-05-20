@@ -1,51 +1,109 @@
-## संकेत
+## संकेत (Signs)
 
-चलिए खिलाड़ी को उसकी यात्रा में मार्गदर्शन करने के लिए, आपकी दुनिया में संकेत जोड़ें।
+अब खिलाड़ियों को उनकी यात्रा पर मार्गदर्शन करने के लिए अपनी दुनिया में संकेत (signs) जोड़ें।
 
-+ आपके प्रोजेक्ट में `स्वागत चिह्न` स्प्राइट शामिल होती है:
+आपकी प्रोजेक्ट में `welcome sign` (स्वागत चिन्ह) भी शामिल है:
 
 ![screenshot](images/world-sign.png)
 
-+ `स्वागत चिह्न` स्प्राइट केवल कक्ष 1 में ही दिखाई देनी चाहिए, इसलिए ऐसा होना सुनिश्चित करने के लिए `स्वागत चिह्न` स्प्राइट में कुछ कोड जोड़ें:
+--- task ---
 
-```blocks
-	जब ⚑ क्लिक किया गया हो
-	हमेशा के लिए
+`welcome sign` (स्वागत चिन्ह) स्प्राइट केवल कमरे 1 में दिखाई देनी चाहिए इसलिए स्प्राइट में कुछ कोड जोड़कर सुनिश्चित करें कि ऐसा ही होता है:
+
+--- hints ---
+
+
+--- hint ---
+
+जब `When the flag is clicked`{:class="block3events"} एक `forever`{:class="block3control"} लूप के अंदर तो यह देखें कि `if`{:class="block3control"} वो `room is 1`{:class="block3variables"} तो इस मामले में `show`{:class="block3looks"} `welcome sign` स्प्राइट वरना स्प्राइट को `else`{:class="block3control"} `hide`{:class="block3looks"}
+
+--- /hint ---
+
+--- hint ---
+
+इन ब्लॉक्स की आपको आवश्यकता होगी:
+
+![sign](images/sign.png)
+
+```blocks3
+<br />if < > then
+else
 end
-		अगर <(कमरा) = [1]> हो तो
+
+< (room :: variables) = [1] >
+
+hide
+
+show
+
+forever
 end
-			दिखाएं
-		या
-			छुपाएँ
-		end
-	end
+
+when flag clicked
+
 ```
 
-+ कक्षों में गति द्वारा अपने `स्वागत चिह्न` स्प्राइट का परीक्षण करें। आपका संकेत कक्ष 1 में ही दिखाई देना चाहिए।
+--- /hint ---
 
-	![screenshot](images/world-sign-test.png)
+--- hint ---
 
-+ यदि संकेत से कुछ पता नहीं चलता है, तो यह बहुत अच्छा नहीं होता! यदि `स्वागत चिह्न` स्प्राइट `प्लेयर` स्प्राइट को छूता है, तो संदेश दिखाने के लिए अन्य कोड जोड़ें:
+यहाँ पूरा कोड है:
 
-```blocks
-	जब ⚑ क्लिक किया गया हो
-	हमेशा के लिए
+![sign](images/sign.png)
+
+```blocks3
+when flag clicked
+forever
+    if < (room :: variables) = [1] > then
+        show
+    else
+        hide
+    end
 end
-		अगर <(कमरा) = [1]> हो तो
-end
-			दिखाएं
-		या
-			छुपाएँ
-		end
-        अगर <[प्लेयर v] को छू रहा है?> हो तो
-end
-            [स्वागतम! क्या आप खजाने तक पहुंच सकते हैं?] बोले
-        या
-            [] बोले
-        end
-	end
 ```
 
-+ अपने `स्वागत चिह्न` स्प्राइट का परीक्षण करें — अब आप `प्लेयर` स्प्राइट को इससे छूनने पर संदेश दिखना चाहिए।
+--- /hint ---
+
+--- /hints ---
+
+--- /task ---
+
+--- task ---
+
+अपने `welcome sign` (स्वागत चिह्न) स्प्राइट का कोड परीक्षण करें यह देखकर कि वह कमरों के बीच हिल पा रहा हैकि नही | चिह्न (sign) केवल कमरे 1 में दिखाई देनी चाहिए।
+
+![screenshot](images/world-sign-test.png)
+
+--- /task ---
+
+--- task ---
+
+यदि चिह्न कुछ कहता नहीं है तो वह बहुत खूब नहीं है! संदेश प्रदर्शित करने के लिए कुछ और कोड जोड़ें अगर `welcome sign` स्प्राइट को `player` छूता है:
+
+![sign](images/sign.png)
+
+```blocks3
+when flag clicked
+forever
+if < (room :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (player v)? > then
+say [Welcome! Can you get to the treasure?]
+else
+say []
+end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+अपने `welcome sign` (स्वागत चिन्ह) स्प्राइट का फिर से परीक्षण करें | अब आपको एक संदेश देखना चाहिए जब `player` स्प्राइट `welcome sign` को छूता है |
 
 ![screenshot](images/world-sign-test2.png)
+
+--- /task ---
