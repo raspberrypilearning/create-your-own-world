@@ -4,13 +4,13 @@
 
 --- task ---
 
-`key` चाभी वाली स्प्राइट पर जाएं | स्क्रिप्ट्स मेनू (Scripts menu) से `show`{:class="blocklooks"} ब्लॉक पर क्लिक करें ताकि स्प्राइट स्टेज (जहा आपके पात्र हिलते है) पर नज़र आये | 
+`key` चाभी वाली स्प्राइट पर जाएं | स्क्रिप्ट्स मेनू (Scripts menu) से `show`{:class="blocklooks"} ब्लॉक पर क्लिक करें ताकि स्प्राइट स्टेज (जहा आपके पात्र हिलते है) पर नज़र आये ।
 
 --- /task ---
 
 --- task ---
 
-`key` (चाभी) स्प्राइट के पोशाक (Costume) को नीले में बदलने के लिए एडिट (edit) करें |
+`key` (चाभी) स्प्राइट के पोशाक (Costume) को नीले में बदलने के लिए एडिट (edit) करें ।
 
 --- /task ---
 
@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 खेल की शुरुआत में अपने inventory सूची को खाली करने के लिए अपने स्टेज (Stage) में कोड जोड़ें।
 
 ```blocks3
-delete (all v) of [inventory v]
+delete all of [inventory v]
 ```
 
 --- /task ---
@@ -84,7 +84,7 @@ delete (all v) of [inventory v]
 
 --- task ---
 
-`door-blue` स्प्राइट में कोड जोड़ें ताकि जब key (चाभी) `inventory`{:class="block3variables"} में है तब स्प्राइट `hides`{:class="block3looks"} ताकि `player` स्प्राइट आराम से जा पाए |
+`door-blue` स्प्राइट में कोड जोड़ें ताकि जब key (चाभी) `inventory`{:class="block3variables"} में है तब स्प्राइट `hides`{:class="block3looks"} ताकि `player` स्प्राइट आराम से जा पाए ।
 
 ![door](images/door.png)
 

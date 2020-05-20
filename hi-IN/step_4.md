@@ -8,7 +8,7 @@
 
 --- task ---
 
-`room`{:class="block3variables"} नामक एक वेरिएबल (variable) बनाये जो सारे स्प्राइटस का पता रखेगा कि `player` किस कमरे में है |
+`room`{:class="block3variables"} नामक एक वेरिएबल (variable) बनाये जो सारे स्प्राइटस का पता रखेगा कि `player` किस कमरे में है ।
 
 [[[generic-scratch3-add-variable]]]
 
@@ -60,7 +60,7 @@ end
 
 अपने `player` स्प्राइट के **start** ये कोड जोड़ें जो `forever`{:class="block3control"} लूप के ऊपर है, ताकी हरा झंडा क्लिक करते ही सब कुछ रिसेट (reset) होजाये:
 
---- hint ---
+--- hints ---
 
 --- hint ---
 
@@ -135,7 +135,7 @@ end
 
 --- task ---
 
-हरे झंडे पर क्लिक करें और फिर अपने `player` स्प्राइट को घुमाएं जब तक वह नारंगी दरवाजे (orange door) को छू ना ले | क्या स्प्राइट अगली स्क्रीन (screen) पर जाता है? क्या `room`{:class="block3variables"} वेरिएबल बदल के `2` होता है?
+हरे झंडे पर क्लिक करें और फिर अपने `player` स्प्राइट को घुमाएं जब तक वह नारंगी दरवाजे (orange door) को छू ना ले । क्या स्प्राइट अगली स्क्रीन (screen) पर जाता है? क्या `room`{:class="block3variables"} वेरिएबल बदल के `2` होता है?
 
 ![screenshot](images/world-room-test.png)
 

@@ -4,7 +4,7 @@
 
 --- task ---
 
-`person` वाले स्प्राइट पर बदलें |
+`person` वाले स्प्राइट पर बदलें ।
 
 ![Person sprite](images/person.png)
 
