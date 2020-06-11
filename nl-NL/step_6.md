@@ -16,20 +16,20 @@ Je project bevat een sprite `welkomstbord`:
 ![bord](images/sign.png)
 
 ```blocks3
-<br />als &lt; &gt; dan
-anders
+if < > then
+else
 end
 
-&lt; (kamer:: variables) = [1] &gt;
+< (kamer :: variables) = [1] >
 
-verdwijn
+hide
 
-verschijn
+show
 
-herhaal
+forever
 end
 
-wanneer op groene vlag wordt geklikt
+when flag clicked
 
 ```
 
@@ -38,13 +38,13 @@ wanneer op groene vlag wordt geklikt
 ![bord](images/sign.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-herhaal
-    als< (kamer :: variables) = [1] > dan
-        verschijn
-    anders
-        verdwijn
-    end
+when flag clicked
+forever
+	if < (kamer :: variables) = [1] > then
+		show
+	else
+		hide
+	end
 end
 ```
 
@@ -61,17 +61,17 @@ end
 ![bord](images/sign.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal
-als < (kamer :: variabelen) = [1] > dan
-verschijn
-anders
-verberg
-einde
-+ als < raak ik (speler v)? > dan
-zeg [Welkom! Kun je bij de schat komen?]
-anders
-zeg []
+when flag clicked
+forever
+if < (kaer :: variables) = [1] > then
+show
+else
+hide
+end
++if < touching (speler v)? > then
+say [Welkom! Kun je bij de schat komen?]
+else
+say []
 end
 end
 ```

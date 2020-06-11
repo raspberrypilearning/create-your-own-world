@@ -7,26 +7,26 @@ Als je wilt, kun je ook patrouillerende vijanden aan je spel toevoegen. Als de `
 + Voeg code toe om de `vijand` sprite te laten bewegen en om het spel te stoppen als de `vijand` sprite de `speler` sprite raakt. Het is makkelijker om dat in verschillende blokken code te doen. Zo zou de code van de `vijand` sprite eruit kunnen zien:
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal
-als <(kamer :: variables)=[2]> dan
-verschijn
-anders
-verdwijn
+when flag clicked
+forever
+if <(kamer :: variables)=[2]> then
+show
+else
+hide
 
-wanneer groene vlag wordt aangeklikt
-herhaal
-als <touching (player v)?> dan
-stop [alle v]
+when flag clicked
+forever
+if <touching (speler v)?> then
+stop [all v]
 
-wanneer groene vlag wordt aangeklikt
-ga naar x : (170) y: (0)
-herhaal
-herhaal (130)
-verander x met (-1)
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
 end
-herhaal (130)
-verander x met (1)
+repeat (130)
+change x by (1)
 ```
 
 + Test je nieuwe code om ervoor te zorgen dat: 

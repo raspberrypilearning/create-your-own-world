@@ -23,11 +23,11 @@ Nu ga je code toevoegen zodat sommige van de deuren in je spelwereld op slot zij
 ![sleutel](images/key.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-wacht tot <touching (player v)?>
-voeg [blauwe sleutel] toe aan [inventaris v]
-verdwijn
-stop [andere scripts in sprite v]
+when flag clicked
+wait until <touching (speler v)?>
+add [blauwe sleutel] to [inventaris v]
+hide
+stop [other scripts in sprite v]
 ```
 
 --- /task ---
@@ -35,7 +35,7 @@ stop [andere scripts in sprite v]
 --- task --- Voeg code aan je werkgebied toe om je inventaris aan het begin van het spel te legen.
 
 ```blocks3
-verwijder item (alle v) van [inventaris v]:: list
+delete all of [inventaris v]
 ```
 
 --- /task ---
@@ -53,10 +53,10 @@ verwijder item (alle v) van [inventaris v]:: list
 ![deur](images/door.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-wacht tot <[inventaris v] bevat [blauwe sleutel]?>
-stop [andere scripts in sprite v]
-verdwijn
+when flag clicked
+wait until <[inventaris v] contains [blauwe sleutel]?>
+stop [other scripts in sprite v]
+hide
 ```
 
 --- /task ---
