@@ -63,7 +63,7 @@ end
 ```blocks3
 when flag clicked
 forever
-if < (kaer :: variables) = [1] > then
+if < (kamer :: variables) = [1] > then
 show
 else
 hide
