@@ -19,32 +19,32 @@ Maak een nieuwe variabele 'voor alle sprites' met de naam `kamer`{:class="block3
 ![speler](images/player.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <toets (pijltje omhoog v) ingedrukt? > dan
-            richt naar (0) graden
-            neem (4) stappen
-        end
-        als <toets (pijltje links v) ingedrukt? > dan
-            richt naar (-90) graden
-            neem (4) stappen
-      end
-        als <toets (pijltje omlaag v) ingedrukt? > dan
-            richt naar (-180) graden
-            neem (4) stappen
-        end
-        als <toets (pijltje rechts v) ingedrukt? > dan
-            richt naar (90) graden
-            neem (4) stappen
-        end
-        als < raak ik kleur [#BABABA]? > dan
-    zet (-4) stappen
-    end
-+ als < raak ik kleur [#F2A24A] > dan
-    verander achtergrond naar (volgende achtergrond v)
-    ga naar x: (-200) y: (0)
-    verander [kamer v] met (1)
-    end
+when flag clicked
+forever
+	if <key (up arrow v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (left arrow v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (down arrow v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key [right arrow v] pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
++	if < touching color [#F2A24A] > then
+	switch backdrop to (next backdrop v)
+	go to x: (-200) y: (0)
+	change [kamer v] by (1)
+	end
 end
 ```
 
@@ -66,11 +66,11 @@ Dit zijn de extra blokken die je nodig hebt:
 ![speler](images/player.png)
 
 ```blocks3
-ga naar x: (-200) y: (0)
+go to x: (-200) y: (0)
 
-maak [kamer v] (1)
+set [kamer v] to (1)
 
-verander achtergrond naar (kamer1 v)
+switch backdrop to (kamer1 v)
 ```
 
 --- /hint --- --- hint --- Hier zie je hoe je voltooide script er uit moet zien:
@@ -78,35 +78,35 @@ verander achtergrond naar (kamer1 v)
 ![speler](images/player.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-+ maak [kamer v] (1)
-+ ga naar x: (-200) y: (0)
-+ verander achtergrond naar (kamer1 v)
-herhaal
-    als <toets (pijltje omhoog v) ingedrukt? > dan
-            richt naar (0) graden
-            neem (4) stappen
-        end
-        als <toets (pijltje links v) ingedrukt? > dan
-            richt naar (-90) graden
-            neem (4) stappen
-      end
-        als <toets (pijltje omlaag v) ingedrukt? > dan
-            richt naar (-180) graden
-            neem (4) stappen
-        end
-        als <toets (pijltje rechts v) ingedrukt? > dan
-            richt naar (90) graden
-            neem (4) stappen
-        end
-        als < raak ik kleur [#BABABA]? > dan
-    zet (-4) stappen
-    end
-   als < raak ik kleur [#F2A24A] > dan
-    verander achtergrond naar (volgende achtergrond v)
-    ga naar x: (-200) y: (0)
-    verander [kamer v] met (1)
-    end
+when flag clicked
++set [kamer v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (kamer1 v)
+forever
+	if <key (up arrow v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (left arrow v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (down arrow v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key [right arrow v] pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
+	if < touching color [#F2A24A] > then
+	switch backdrop to (next backdrop v)
+	go to x: (-200) y: (0)
+	change [kamer v] by (1)
+end
 end
 ```
 

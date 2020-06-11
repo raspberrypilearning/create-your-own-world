@@ -19,8 +19,8 @@ Je kunt nu doorgaan met het maken van je eigen wereld! Hier zijn wat ideeën:
 ![screenshot](images/north-south-rooms.png) ![screenshot](images/number-grid.png)
 
 ```blocks3
-als <touching color [ ]?> dan 
- verander achtergrond naar ((uiterlijk [nummer v]) + (3))
- ga naar x: (0) y: (200)
- verander [kamer v] met (3)
+if <touching color [ ]?> then
+switch backdrop to ((costume [number v]) + (3))
+go to x:(0) y:(200)
+change [kamer v] by (3)
 ```

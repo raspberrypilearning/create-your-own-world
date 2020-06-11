@@ -9,27 +9,27 @@
 ![speler](images/player.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <toets (pijltje omhoog v) ingedrukt? > dan
-            richt naar (0) graden
-            neem (4) stappen
-        end
-        als <toets (pijltje links v) ingedrukt? > dan
-            richt naar (-90) graden
-            neem (4) stappen
-        end
-        als <toets (pijltje omlaag v) ingedrukt? > dan
-            richt naar (180) graden
-            neem (4) stappen
-        end
-        als <toets (pijltje rechts v) ingedrukt? > dan
-            richt naar (90) graden
-            neem (4) stappen
-        end
-        + als < raak ik kleur [#BABABA]? > dan 
-  neem (-4) stappen
-  end
+when flag clicked
+forever
+	if <key (up arrow v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (left arrow v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+		if <key (down arrow v) pressed? > then
+		point in direction (-180)
+		move (4) steps
+	end
+		if <key (right arrow v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
++	if < touching color [#BABABA]? > then
+	move (-4) steps
+	end
 end
 ```
 

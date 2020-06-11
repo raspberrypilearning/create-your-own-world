@@ -11,14 +11,14 @@ Laten we andere personen aan je wereld toevoegen waarmee de `speler` sprite kan 
 ![persoon](images/person.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-ga naar x: (0) y: (-150)
-herhaal 
-  als < raak ik (speler v)? > dan 
-    zeg [Wist je dat je door de oranje en gele deuren kunt gaan?]
-  anders
-    zeg []
-  end
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (speler v)? > then
+		say [Wist je dat je door de oranje en gele deuren kunt gaan?]
+	else
+		say []
+	end
 end
 ```
 
@@ -29,18 +29,17 @@ end
 ![persoon](images/person.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-ga naar x: (0) y: (-150)
-herhaal 
-  als < raak ik (speler v)? > dan 
-    zeg [Wist je dat je door de oranje en gele deuren kunt gaan?]
-  anders
-    zeg []
-   + neem (1) stappen
-   + keer om aan de rand
-  end
+when flag clicked
+go to x: (0) y: (-150)
+forever
+	if < touching (speler v)? > then
+		say [Wist je dat je door de oranje en gele deuren kunt gaan?]
+	else
+		say []
++		move (1) steps
++		if on edge, bounce
+	end
 end
-
 ```
 
 --- /task ---

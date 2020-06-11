@@ -25,13 +25,13 @@ Voeg deze code toe aan de `speler` sprite:
 ![speler](images/player.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-herhaal 
-  als <toets (pijltje omhoog v) ingedrukt? > dan 
-    richt naar (0) graden
-    neem (4) stappen
-  einde
-einde
+when flag clicked
+forever
+	if <key (up arrow v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+end
 ```
 
 --- /task ---
@@ -51,17 +51,17 @@ Om de `speler` sprite naar links te verplaatsen moet je er nog een `als`{:class=
 ![speler](images/player.png)
 
 ```blocks3
-wanneer op groene vlag wordt geklikt
-herhaal 
-  als <toets (pijltje omhoog v) ingedrukt? > dan
-            richt naar (0) graden
-            neem (4) stappen
-        einde
-       + als <toets (pijltje links v) ingedrukt? > dan 
-    richt naar (-90) graden
-    neem (4) stappen
-  einde
-einde
+when flag clicked
+forever
+	if <key (up arrow v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
++	if <key (left arrow v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
+end
 ```
 
 --- /task ---
@@ -90,7 +90,7 @@ Je moet deze twee blokken veranderen:
 ```blocks3
 <key ( v) pressed>
 
-richt naar () graden
+point in direction ()
 ```
 
 Dupliceer de code die de `speler` sprite naar boven beweegt en verander deze twee blokken om de sprite omlaag te laten bewegen. Dupliceer de code opnieuw en wijzig deze om de sprite naar rechts te verplaatsen.
@@ -100,26 +100,25 @@ Dupliceer de code die de `speler` sprite naar boven beweegt en verander deze twe
 ![speler](images/player.png)
 
 ```blocks3
-wanneer groene vlag wordt aangeklikt
-herhaal 
-  als <toets (pijltje omhoog v) ingedrukt? > dan
-            richt naar (0) graden
-            neem (4) stappen
-        end
-        als <toets (pijltje links v) ingedrukt? > dan
-            richt naar (-90) graden
-            neem (4) stappen
-        end
-        
-+ als <toets (pijltje omlaag v) ingedrukt? > dan
-            richt naar (180) graden
-            neem (4) stappen
-        einde
-+        als <toets (pijltje rechts v) ingedrukt? > dan
-            richt naar (180) graden
-            neem (4) stappen
-        einde
-einde
+when flag clicked
+forever
+	if <key (up arrow v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (left arrow v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
++    if <key (down arrow v) pressed? > then
+		point in direction (180)
+		move (4) steps
+	end
++    if <key (right arrow v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
+end
 ```
 
 --- /hint --- --- /hints ---
