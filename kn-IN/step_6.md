@@ -26,7 +26,7 @@
 ![ಚಿಹ್ನೆ](images/sign.png)
 
 ```blocks3
-<br />if < > then
+- if < > then
 else
 end
 
