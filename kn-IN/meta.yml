@@ -1,0 +1,26 @@
+---
+hero_image: images/banner.png
+title: ನಿಮ್ಮ ಸ್ವಂತ ಪ್ರಪಂಚವನ್ನು ರಚಿಸಿ
+description: ನಿಮ್ಮ ಸ್ವಂತ ಮುಕ್ತ ಪ್ರಪಂಚದ ಸಾಹಸ ಆಟವನ್ನು ರಚಿಸಿ
+listed: true
+copyedit: false
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - title: ಪರಿಚಯ
+  - title: ಆಟಗಾರ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಸರಿಸಿ
+  - title: ಘನ ಗೋಡೆಗಳು
+  - title: ನಿಮ್ಮ ಪ್ರಪಂಚದಾದ್ಯಂತ ಸರಿಸಿ
+  - title: "ಸವಾಲು: ಹಿಂದಿನ ಕೋಣೆಗೆ ಹಿಂತಿರುಗಿ"
+    challenge: true
+  - title: ಚಿಹ್ನೆಗಳು
+  - title: "ಸವಾಲು: ನಿಧಿ!"
+    challenge: true
+  - title: ಜನರು
+  - title: "ಸವಾಲು: ಶತ್ರುವನ್ನು ಸೇರಿಸಿ"
+    challenge: true
+  - title: ನಾಣ್ಯಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ
+  - title: ಬಾಗಿಲುಗಳು ಮತ್ತು ಕೀಲಿಗಳು
+  - title: "ಸವಾಲು: ನಿಮ್ಮ ಜಗತ್ತನ್ನು ವಿಸ್ತರಿಸಿ"
+    challenge: true
+  - title: "ಮುಂದೆ ಏನು?"
