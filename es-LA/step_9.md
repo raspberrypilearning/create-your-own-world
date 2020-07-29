@@ -29,7 +29,7 @@ repeat (130)
 change x by (1)
 ```
 
-+ Test out your new code to make sure that: 
++ Prueba tu juego para asegurarte de que: 
     + El objeto `enemigo` sólo debe ser visible en la habitación 2
     + El objeto` enemigo ` patrulla la habitación
     + La partida termina si el objeto `jugador` toca el objeto `enemigo`
