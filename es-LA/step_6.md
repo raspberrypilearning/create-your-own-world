@@ -1,8 +1,8 @@
 ## Señales
 
-Now add signs to your world to guide players on their journey.
+Ahora añade señales a tu mundo para guiar a los jugadores en su viaje.
 
-Your project includes a `welcome sign` sprite:
+Tu proyecto incluye un objeto `seña de bienenidal`:
 
 ![captura de pantalla](images/world-sign.png)
 
@@ -46,7 +46,7 @@ when flag clicked
 
 \--- hint \---
 
-Here is the complete code:
+Aquí está el código completo:
 
 ![señal](images/sign.png)
 
@@ -69,7 +69,7 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. Tu señal solo debe ser visible en la habitación 1.
+Prueba el código de tu objeto `señal de bienvenida` moviéndote entre habitaciones. Tu señal solo debe ser visible en la habitación 1.
 
 ![captura de pantalla](images/world-sign-test.png)
 
