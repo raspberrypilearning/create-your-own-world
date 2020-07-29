@@ -1,0 +1,13 @@
+habitación
+
+jugador
+
+¡Bienvenido! ¿Puedes llegar al tesoro?
+
+¿Sabías que puedes pasar por puertas naranjas y amarillas?
+
+monedas
+
+llave azul
+
+inventario
