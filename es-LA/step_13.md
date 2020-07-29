@@ -4,7 +4,7 @@
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Tu objetivo es evitar que los gatos caigan en los agujeros creando un camino seguro hacia la salida.
+Haz clic y arrastra el puntero para dibujar una línea con el lápiz. Tu objetivo es evitar que los gatos caigan en los agujeros creando un camino seguro hacia la salida.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
