@@ -11,7 +11,7 @@ steps:
   - title: Mueve el objeto jugador
   - title: Paredes sólidas
   - title: Muévete por tu mundo
-  - title: "Desafío: volver a la habitación anterior"
+  - title: "Desafío: Volver a la habitación anterior"
     challenge: true
   - title: Señales
   - title: "Desafío: ¡Un tesoro!"
