@@ -17,9 +17,9 @@ steps:
   - title: "Challenge: ধনসম্পত্তি!"
     challenge: true
   - title: জনগণ
-  - title: "Challenge: প্রতিপক্ষ"
+  - title: "Challenge: একটি পতিপক্ষ যুক্ত করুন"
     challenge: true
-  - title: মুদ্রাগুলি সংগ্রহ করুন
+  - title: মুদ্রা সংগ্রহ
   - title: দরজা এবং চাবি
   - title: "Challenge: আপনার বিশ্ব প্রসারিত করুন"
     challenge: true

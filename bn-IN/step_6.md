@@ -26,7 +26,7 @@ Here are the blocks you need:
 ![sign](images/sign.png)
 
 ```blocks3
-<br />if < > then
+if < > then
 else
 end
 
