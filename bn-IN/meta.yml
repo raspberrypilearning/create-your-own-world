@@ -1,0 +1,26 @@
+---
+hero_image: images/banner.png
+title: আপনার নিজস্ব বিশ্ব তৈরি করুন
+description: আপনার নিজের ওপেন-ওয়ার্ল্ড অ্যাডভেঞ্চার গেমটি তৈরি করুন
+listed: true
+copyedit: false
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+  - title: ভূমিকা
+  - title: প্লেয়ার sprite টি সরান
+  - title: শক্ত দেওয়াল
+  - title: আপনার জগতের চারদিকে ঘুরুন
+  - title: "Challenge: আগের ঘরে ফিরে যান"
+    challenge: true
+  - title: লক্ষণ বা signs
+  - title: "Challenge: ধনসম্পত্তি!"
+    challenge: true
+  - title: জনগণ
+  - title: "Challenge: প্রতিপক্ষ"
+    challenge: true
+  - title: মুদ্রাগুলি সংগ্রহ করুন
+  - title: দরজা এবং চাবি
+  - title: "Challenge: আপনার বিশ্ব প্রসারিত করুন"
+    challenge: true
+  - title: "এরপর কি?"
