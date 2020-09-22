@@ -4,7 +4,7 @@
 
 --- task ---
 
-'Create your own world' Scratch starter project उघडा.
+'आपला स्वतःचा गेम तयार करा' Scratch स्टार्टर प्रकल्प उघडा.
 
 **ऑनलाइन**: [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"} वर एक नवीन ऑनलाइन स्क्रॅच प्रकल्प उघडा.
 

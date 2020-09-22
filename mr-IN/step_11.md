@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 गेमच्या सुरूवातीस आपली यादी(inventory) रिक्त करण्यासाठी आपल्या स्टेजमध्ये कोड जोडा.
 
 ```blocks3
-delete (all v) of [inventory v]
+delete all of [inventory v]
 ```
 
 --- /task ---
