@@ -38,7 +38,7 @@ title: Ce qu'il te faut
 
 ### Logiciels
 
-- Scratch 3 ([en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff))
+- Scratch 3 ([en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff))
 
 ### Téléchargements
 

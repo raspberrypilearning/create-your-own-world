@@ -38,7 +38,7 @@ title: Lo que necesitarás
 
 ### Software
 
-- Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (ya sea [online](https://rpf.io/scratchon){:target="_blank"} u [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
