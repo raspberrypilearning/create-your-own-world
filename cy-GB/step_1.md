@@ -37,7 +37,7 @@ Byddi di'n defnyddio'r bysellau saeth i symud dy gymeriad o gwmpas y byd. ![show
 
 ### Meddalwedd
 
-- Scratch 3 (unai [arlein](http://rpf.io/scratchon){:target="_blank"} neu [all-lein](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Lawrlwythiadau
 
