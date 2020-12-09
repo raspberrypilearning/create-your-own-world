@@ -37,7 +37,7 @@ Benutze die Pfeiltasten, um deinen Charakter in der Welt zu bewegen. ![showcase.
 
 ### Software
 
-- Scratch 3 (entweder [online](http://rpf.io/scratchon){:target="_blank"} oder [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
