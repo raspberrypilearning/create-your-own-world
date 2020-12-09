@@ -38,7 +38,7 @@ title: Què necessitaràs
 
 ### Programari
 
-- Scratch 3 (tant [en línia](http://rpf.io/scratchon){:target="_blank"} o [fora de línia](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (tant [en línia](https://rpf.io/scratchon){:target="_blank"} o [fora de línia](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descàrregues
 

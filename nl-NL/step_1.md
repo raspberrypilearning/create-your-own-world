@@ -38,7 +38,7 @@ title: Wat heb je nodig
 
 ### Software
 
-- Scratch 3 (of [online](http://rpf.io/scratchon){:target="_blank"} of [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (of [online](https://rpf.io/scratchon){:target="_blank"} of [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 

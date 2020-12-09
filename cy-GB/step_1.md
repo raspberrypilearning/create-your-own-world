@@ -37,7 +37,7 @@ title: Beth fydd ei angen arno ti
 
 ### Meddalwedd
 
-- Scratch 3 (unai [arlein](http://rpf.io/scratchon){:target="_blank"} neu [all-lein](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (unai [arlein](https://rpf.io/scratchon){:target="_blank"} neu [all-lein](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Lawrlwythiadau
 
