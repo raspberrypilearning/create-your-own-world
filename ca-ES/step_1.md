@@ -37,7 +37,7 @@ Utilitza les tecles de fletxa per moure el teu personatge pel món. ![showcase.p
 
 ### Programari
 
-- Scratch 3 (tant [en línia](http://rpf.io/scratchon){:target="_ blank"} o [fora de línia](http://rpf.io/scratchoff){:target="_ blank"})
+- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descàrregues
 
