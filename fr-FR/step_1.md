@@ -37,7 +37,7 @@ Tu utiliseras les touches fléchées pour déplacer ton personnage dans le monde
 
 ### Logiciels
 
-- Scratch 3 ( [en ligne](http://rpf.io/scratchon) ou [hors ligne](http://rpf.io/scratchoff)")
+- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Téléchargements
 
