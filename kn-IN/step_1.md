@@ -37,7 +37,7 @@
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
-- Scratch 3 ( ಇತ್ತೆರ್ [ಆನ್‌ಲೈನ್](http://rpf.io/scratchon){:target="_blank"} ಅಥವಾ [ಆಫ್‌ಲೈನ್](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
