@@ -37,7 +37,7 @@ Utiliza los cursores, teclas de flechas, para mover a tu personaje por el mundo.
 
 ### Software
 
-- Scratch 3 (ya sea [online](http://rpf.io/scratchon){:target="_blank"} u [offline](http://rpf.io/scratchoff) {:target="_blank"})
+- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
