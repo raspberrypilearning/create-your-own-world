@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 ಆಟದ ಪ್ರಾರಂಭದಲ್ಲಿ ನಿಮ್ಮ ದಾಸ್ತಾನು ಖಾಲಿ ಮಾಡಲು ನಿಮ್ಮ ಹಂತಕ್ಕೆ ಕೋಡ್ ಸೇರಿಸಿ.
 
 ```blocks3
-delete (all v) of [inventory v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
