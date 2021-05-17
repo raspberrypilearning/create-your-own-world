@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 게임 시작 시 인벤토리가 비워지게 스테이지에 코드를 추가합니다.
 
 ```blocks3
-delete (all v) of [inventory v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
