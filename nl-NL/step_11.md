@@ -57,7 +57,7 @@ stop [andere scripts in sprite v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-verwijder item (alle v) van [inventaris v]:: list
+delete all of [inventory v]
 ```
 
 \--- /task \---
