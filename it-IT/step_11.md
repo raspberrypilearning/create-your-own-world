@@ -57,7 +57,7 @@ ferma [altri script in sprite v]
 Aggiungi il codice per svuotare il tuo inventario all'inizio del gioco.
 
 ```blocks3
-cancella (tutto v) da [inventario v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
