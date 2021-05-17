@@ -57,7 +57,7 @@
 在舞台上編寫一個程式，讓遊戲在開始時能清空倉庫中的物品。
 
 ```blocks3
-刪除 [倉庫 v] 的所有項目
+delete all of [inventory v]
 ```
 
 \--- /task \---
