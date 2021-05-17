@@ -57,7 +57,7 @@ pare [outros scripts no ator v]
 Adicione código ao seu palco para esvaziar seu inventário no início do jogo.
 
 ```blocks3
-apague (todos os itens v) do [inventário v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
