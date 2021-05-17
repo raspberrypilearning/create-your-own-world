@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 Agrega código a tu escenario para vaciar tu inventario al comienzo del juego.
 
 ```blocks3
-delete (all v) of [inventory v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
