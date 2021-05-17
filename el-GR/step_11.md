@@ -57,7 +57,7 @@ The code you need to add for collecting the key is very similar to the code for 
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-διέγραψε (all v) από [αποθετήριο v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
