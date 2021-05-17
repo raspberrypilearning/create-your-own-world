@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 اضف تعليمة برمجية إلى المنصة ليكون مخزنك فارغًا في بداية اللعبة.
 
 ```blocks3
-	احذف (الكل v) من [inventory v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
