@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 গেমের শুরুতে আপনার জায়াগুলি খালি করতে আপনার পর্যায়ে কোড যুক্ত করুন।.
 
 ```blocks3
-delete (all v) of [inventory v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
