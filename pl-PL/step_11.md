@@ -57,7 +57,7 @@ zatrzymaj [inne skrypty duszka v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-usuń (wszystko v) z [inwentarz v]
+delete all of [inventory v]
 ```
 
 \--- /task \---
