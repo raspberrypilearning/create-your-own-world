@@ -7,20 +7,22 @@ copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
-  - title: Introducción
-  - title: Mueve el objeto jugador
-  - title: Paredes sólidas
-  - title: Muévete por tu mundo
-  - title: "Desafío: Volver a la habitación anterior"
-    challenge: true
-  - title: Señales
-  - title: "Desafío: ¡Un tesoro!"
-    challenge: true
-  - title: Personas
-  - title: "Desafío: Enemigos"
-    challenge: true
-  - title: Recoger monedas
-  - title: Puertas y llaves
-  - title: "Desafío: Amplía tu mundo"
-    challenge: true
-  - title: "¿Qué sigue?"
+- title: Introducción
+  completion: engaged
+- title: Mueve el objeto jugador
+- title: Paredes sólidas
+- title: Muévete por tu mundo
+- title: 'Desafío: Volver a la habitación anterior'
+  challenge: true
+- title: Señales
+- title: 'Desafío: ¡Un tesoro!'
+  challenge: true
+- title: Personas
+- title: 'Desafío: Enemigos'
+  challenge: true
+- title: Recoger monedas
+  completion: internal
+- title: Puertas y llaves
+- title: 'Desafío: Amplía tu mundo'
+  challenge: true
+- title: "¿Qué sigue?"

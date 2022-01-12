@@ -7,20 +7,22 @@ copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
-  - title: Introducció
-  - title: Mou el personatge del jugador
-  - title: Murs massissos
-  - title: Mou-te pel teu món
-  - title: "Repte: tornar a l'habitació anterior"
-    challenge: true
-  - title: Senyals
-  - title: "Repte: tresor!"
-    challenge: true
-  - title: Gent
-  - title: "Repte: enemics"
-    challenge: true
-  - title: Recollida de monedes
-  - title: Portes i claus
-  - title: "Repte: amplia el teu món"
-    challenge: true
-  - title: "I ara què ve?"
+- title: Introducció
+  completion: engaged
+- title: Mou el personatge del jugador
+- title: Murs massissos
+- title: Mou-te pel teu món
+- title: 'Repte: tornar a l''habitació anterior'
+  challenge: true
+- title: Senyals
+- title: 'Repte: tresor!'
+  challenge: true
+- title: Gent
+- title: 'Repte: enemics'
+  challenge: true
+- title: Recollida de monedes
+  completion: internal
+- title: Portes i claus
+- title: 'Repte: amplia el teu món'
+  challenge: true
+- title: I ara què ve?
