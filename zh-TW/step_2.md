@@ -10,7 +10,7 @@
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
 
-**離線版**：你可以點擊 [rpf.io/p/zh-TW/create-your-own-world-go](http://rpf.io/p/zh-TW/create-your-own-world-go){:target="_blank"} 以下載專案。 如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}。
+**離線版**：你可以點擊 [rpf.io/p/zh-TW/create-your-own-world-go](https://rpf.io/p/zh-TW/create-your-own-world-go){:target="_blank"} 以下載專案。 如果你需要 Scratch 離線版編輯器，可以連結到 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}。
 
 ![截圖](images/world-starter.png)
 

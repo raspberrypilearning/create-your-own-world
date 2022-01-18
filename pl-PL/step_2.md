@@ -10,7 +10,7 @@ Otwórz projekt startowy "Utwórz swój własny świat".
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline:** pobierz projekt startowy z [rpf.io/p/pl-PL/create-your-own-world-go](http://rpf.io/p/pl-PL/create-your-own-world-go), i otwórz w programie Scratch Desktop. Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** pobierz projekt startowy z [rpf.io/p/pl-PL/create-your-own-world-go](https://rpf.io/p/pl-PL/create-your-own-world-go), i otwórz w programie Scratch Desktop. Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![zrzut ekranu](images/world-starter.png)
 

@@ -10,7 +10,7 @@ Beginne mit der Erstellung einer `Spieler`-Figur, die sich in deiner Welt umher 
 
 Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
 
-**Offline:** Wenn du offline arbeiten möchtest, kannst du dir die benötigte Datei unter [rpf.io/p/de-DE/create-your-own-world-go](http://rpf.io/p/de-DE/create-your-own-world-go){:target="_blank"} herunterladen und diese dann mit dem Offline-Editor bearbeiten. Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** Wenn du offline arbeiten möchtest, kannst du dir die benötigte Datei unter [rpf.io/p/de-DE/create-your-own-world-go](https://rpf.io/p/de-DE/create-your-own-world-go){:target="_blank"} herunterladen und diese dann mit dem Offline-Editor bearbeiten. Wenn du Scratch herunterladen und auf deinem Rechner installieren möchtest, dann findest du die Datei unter diesem Link: [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![screenshot](images/world-starter.png)
 

@@ -10,7 +10,7 @@
 
 스크래치 계정이 있는 경우 **Remix를 클릭** 하여 사본을 만들 수 있습니다.
 
-**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/ko-KR/create-your-own-world-go](http://rpf.io/p/ko-KR/create-your-own-world-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다. 스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}에서 파일을 다운로드할 수 있습니다.
+**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/ko-KR/create-your-own-world-go](https://rpf.io/p/ko-KR/create-your-own-world-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다. 스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}에서 파일을 다운로드할 수 있습니다.
 
 ![스크린샷](images/world-starter.png)
 

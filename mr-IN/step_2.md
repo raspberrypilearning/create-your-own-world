@@ -6,11 +6,11 @@
 
 'आपला स्वतःचा गेम तयार करा' Scratch स्टार्टर प्रकल्प उघडा.
 
-**ऑनलाइन**: [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"} वर एक नवीन ऑनलाइन स्क्रॅच प्रकल्प उघडा.
+**ऑनलाइन**: [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"} वर एक नवीन ऑनलाइन स्क्रॅच प्रकल्प उघडा.
 
 आपल्याकडे Scratch खाते असल्यास आपण **Remix** वर क्लिक करुन एक काॅपी बनवू शकता.
 
-**ऑफलाइन**: [rpf.io/p/mr-IN/create-your-own-world-go](http://rpf.io/p/mr-IN/create-your-own-world-go){:target="_blank"} वरून ऑफलाइन स्टार्टर प्रकल्प डाउनलोड करा आणि नंतर ते ऑफलाइन एडिटरचा वापर करून उघडा. आपल्याला स्क्रॅच ऑफलाइन एडिटर डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} येथे शोधू शकता.
+**ऑफलाइन**: [rpf.io/p/mr-IN/create-your-own-world-go](https://rpf.io/p/mr-IN/create-your-own-world-go){:target="_blank"} वरून ऑफलाइन स्टार्टर प्रकल्प डाउनलोड करा आणि नंतर ते ऑफलाइन एडिटरचा वापर करून उघडा. आपल्याला स्क्रॅच ऑफलाइन एडिटर डाउनलोड आणि स्थापित करणे आवश्यक असल्यास, आपण ते [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} येथे शोधू शकता.
 
 ![screenshot](images/world-starter.png)
 

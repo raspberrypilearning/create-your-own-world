@@ -10,7 +10,7 @@ Abre el proyecto de inicio de Scratch "Crea tu propio mundo".
 
 Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Reinventar**.
 
-**Sin conexión:** descarga el proyecto de inicio desde [rpf.io/p/es-ES/create-your-own-world-go](http://rpf.io/p/es-ES/create-your-own-world-go) y luego ábrelo con el editor de Scratch sin conexión. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Sin conexión:** descarga el proyecto de inicio desde [rpf.io/p/es-ES/create-your-own-world-go](https://rpf.io/p/es-ES/create-your-own-world-go) y luego ábrelo con el editor de Scratch sin conexión. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![captura de pantalla](images/world-starter.png)
 
