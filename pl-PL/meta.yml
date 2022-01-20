@@ -7,20 +7,22 @@ copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
-  - title: Wprowadzenie
-  - title: Przesuń duszka gracza
-  - title: Solidne ściany
-  - title: Poruszaj się po swoim świecie
-  - title: "Wyzwanie: wróć do poprzedniego pokoju"
-    challenge: true
-  - title: Znaki
-  - title: "Wyzwanie: skarb!"
-    challenge: true
-  - title: Osoby
-  - title: "Wyzwanie: dodaj wroga"
-    challenge: true
-  - title: Zbieraj monety
-  - title: Drzwi i klucze
-  - title: "Wyzwanie: rozwiń swój świat"
-    challenge: true
-  - title: "Co dalej?"
+- title: Wprowadzenie
+  completion: engaged
+- title: Przesuń duszka gracza
+- title: Solidne ściany
+- title: Poruszaj się po swoim świecie
+- title: 'Wyzwanie: wróć do poprzedniego pokoju'
+  challenge: true
+- title: Znaki
+- title: 'Wyzwanie: skarb!'
+  challenge: true
+- title: Osoby
+- title: 'Wyzwanie: dodaj wroga'
+  challenge: true
+- title: Zbieraj monety
+  completion: internal
+- title: Drzwi i klucze
+- title: 'Wyzwanie: rozwiń swój świat'
+  challenge: true
+- title: Co dalej?

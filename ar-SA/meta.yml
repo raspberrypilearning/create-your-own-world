@@ -7,20 +7,22 @@ copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
-  - title: المقدمة
-  - title: تحريك كائن اللاعب
-  - title: جدران صلبة
-  - title: التحرك حول عالمك الخاص
-  - title: "تحدي: التحرك إلى الغرفة السابقة"
-    challenge: true
-  - title: اللافتات
-  - title: "تحدي: الكنز!"
-    challenge: true
-  - title: الأشخاص
-  - title: "تحدي: إضافة عدو"
-    challenge: true
-  - title: جمع العملات الذهبية
-  - title: الأبواب والمفاتيح
-  - title: "تحدي: وسِّع عالمك"
-    challenge: true
-  - title: "ما التالي؟"
+- title: المقدمة
+  completion: engaged
+- title: تحريك كائن اللاعب
+- title: جدران صلبة
+- title: التحرك حول عالمك الخاص
+- title: 'تحدي: التحرك إلى الغرفة السابقة'
+  challenge: true
+- title: اللافتات
+- title: 'تحدي: الكنز!'
+  challenge: true
+- title: الأشخاص
+- title: 'تحدي: إضافة عدو'
+  challenge: true
+- title: جمع العملات الذهبية
+  completion: internal
+- title: الأبواب والمفاتيح
+- title: 'تحدي: وسِّع عالمك'
+  challenge: true
+- title: ما التالي؟

@@ -17,15 +17,17 @@ software: scratch
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: Uvod
-  - title: Šta će ti biti potrebno
-  - title: Pomjeranje lika igrača
-  - title: Čvrsti zidovi
-  - title: Programiranje tvog svijeta
-  - title: Znakovi
-  - title: 'Izazov: blago!'
-  - title: Osobe
-  - title: 'Izazov: neprijatelji'
-  - title: Sakupljanje novčića
-  - title: Vrata i ključevi
-  - title: 'Izazov: proširi svoj svijet'
+- title: Uvod
+  completion: engaged
+- title: Šta će ti biti potrebno
+- title: Pomjeranje lika igrača
+- title: Čvrsti zidovi
+- title: Programiranje tvog svijeta
+- title: Znakovi
+- title: 'Izazov: blago!'
+- title: Osobe
+- title: 'Izazov: neprijatelji'
+- title: Sakupljanje novčića
+  completion: internal
+- title: Vrata i ključevi
+- title: 'Izazov: proširi svoj svijet'

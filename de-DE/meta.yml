@@ -7,20 +7,22 @@ copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
-  - title: Einleitung
-  - title: Programmiere deinen Spieler
-  - title: Massive Wände
-  - title: Bewege dich in deiner Welt
-  - title: "Herausforderung: Zurück zum vorherigen Raum"
-    challenge: true
-  - title: Schilder
-  - title: "Herausforderung: Der Schatz!"
-    challenge: true
-  - title: Personen
-  - title: "Herausforderung: Einen Gegner hinzufügen"
-    challenge: true
-  - title: Münzen sammeln
-  - title: Türen und Schlüssel
-  - title: "Herausforderung: Erweitere deine Welt"
-    challenge: true
-  - title: Wie geht es weiter?
+- title: Einleitung
+  completion: engaged
+- title: Programmiere deinen Spieler
+- title: Massive Wände
+- title: Bewege dich in deiner Welt
+- title: 'Herausforderung: Zurück zum vorherigen Raum'
+  challenge: true
+- title: Schilder
+- title: 'Herausforderung: Der Schatz!'
+  challenge: true
+- title: Personen
+- title: 'Herausforderung: Einen Gegner hinzufügen'
+  challenge: true
+- title: Münzen sammeln
+  completion: internal
+- title: Türen und Schlüssel
+- title: 'Herausforderung: Erweitere deine Welt'
+  challenge: true
+- title: Wie geht es weiter?

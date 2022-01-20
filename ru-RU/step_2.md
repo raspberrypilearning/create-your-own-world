@@ -10,7 +10,7 @@
 
 Если у тебя есть учетная запись в Scratch, то ты можешь сделать копию проекта, нажав **Ремикс**.
 
-**Оффлайн**: скачай стартовый проект с [rpf.io/p/ru-RU/create-your-own-world-go](http://rpf.io/p/ru-RU/create-your-own-world-go){:target="_blank"} и затем открой его с помощью оффлайн редактора. Если тебе нужно скачать и установить оффлайн редактор Скретч, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Оффлайн**: скачай стартовый проект с [rpf.io/p/ru-RU/create-your-own-world-go](https://rpf.io/p/ru-RU/create-your-own-world-go){:target="_blank"} и затем открой его с помощью оффлайн редактора. Если тебе нужно скачать и установить оффлайн редактор Скретч, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![снимок экрана](images/world-starter.png)
 

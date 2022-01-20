@@ -10,7 +10,7 @@
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**بدون اتصال انترنيت** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/create-your-own-world-go](http://rpf.io/p/ar-SA/create-your-own-world-go){:target="_blank"} ثم اقتحه باستخدام محرر البرنامج بدون اتصال انترنيت. اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**بدون اتصال انترنيت** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/create-your-own-world-go](https://rpf.io/p/ar-SA/create-your-own-world-go){:target="_blank"} ثم اقتحه باستخدام محرر البرنامج بدون اتصال انترنيت. اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![لقطة الشاشة](images/world-starter.png)
 

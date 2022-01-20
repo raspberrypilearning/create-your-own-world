@@ -7,20 +7,22 @@ copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
-  - title: Введение
-  - title: Перемещение спрайта игрока
-  - title: Сплошные стены
-  - title: Перемещение по миру
-  - title: "Задача: вернуться в предыдущую комнату"
-    challenge: true
-  - title: Таблички
-  - title: "Задача: сокровище!"
-    challenge: true
-  - title: Люди
-  - title: "Задача: враги"
-    challenge: true
-  - title: Сбор монет
-  - title: Двери и ключи
-  - title: "Задача: расширь свой мир"
-    challenge: true
-  - title: "Что дальше?"
+- title: Введение
+  completion: engaged
+- title: Перемещение спрайта игрока
+- title: Сплошные стены
+- title: Перемещение по миру
+- title: 'Задача: вернуться в предыдущую комнату'
+  challenge: true
+- title: Таблички
+- title: 'Задача: сокровище!'
+  challenge: true
+- title: Люди
+- title: 'Задача: враги'
+  challenge: true
+- title: Сбор монет
+  completion: internal
+- title: Двери и ключи
+- title: 'Задача: расширь свой мир'
+  challenge: true
+- title: Что дальше?
