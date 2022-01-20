@@ -40,7 +40,7 @@ title: আপনার যা প্রয়োজন হবে
 
 ### Software
 
-- Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 

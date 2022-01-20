@@ -6,11 +6,11 @@ Fe awn ati i greu `chwareuwr` sydd yn symud o gwmpas dy fydysawd.
 
 Agora'r prosiect cychwynnol 'Creu dy fyd dy hunan'.
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/create-your-own-world-go](http://rpf.io/p/cy-GB/create-your-own-world-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein. Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/create-your-own-world-go](https://rpf.io/p/cy-GB/create-your-own-world-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein. Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![sgrinlun](images/world-starter.png)
 

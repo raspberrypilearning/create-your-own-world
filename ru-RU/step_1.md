@@ -38,7 +38,7 @@ title: Что тебе понадобится
 
 ### Программное обеспечение
 
-- Scratch 3 ([онлайн](http://rpf.io/scratchon){:target="_blank"} или [оффлайн](http://rpf.io/scratchoff){:target="_blank"} версия)
+- Scratch 3 ([онлайн](https://rpf.io/scratchon){:target="_blank"} или [оффлайн](https://rpf.io/scratchoff){:target="_blank"} версия)
 
 ### Загрузки
 

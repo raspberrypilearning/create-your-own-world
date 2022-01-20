@@ -10,7 +10,7 @@ Obre el projecte d'arrencada de Scratch "Crea el teu propi món".
 
 Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
-**Fora de línia:** descarrega el projecte d'inici de [rpf.io/p/ca-ES/create-your-own-world-go](http://rpf.io/p/ca-ES/create-your-own-world-go){:target="_blank"} i, a continuació, obre'l utilitzant l'editor fora de línia. Si necessites descarregar i instal·lar l'editor fora de línia d'Scratch, el pots trobar a [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Fora de línia:** descarrega el projecte d'inici de [rpf.io/p/ca-ES/create-your-own-world-go](https://rpf.io/p/ca-ES/create-your-own-world-go){:target="_blank"} i, a continuació, obre'l utilitzant l'editor fora de línia. Si necessites descarregar i instal·lar l'editor fora de línia d'Scratch, el pots trobar a [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![captura de pantalla](images/world-starter.png)
 
