@@ -14,9 +14,10 @@ technologies: scratch
 site_areas: codeclub, scratch
 steps:
 - title: 介绍
-  completion: engaged
 - title: 你将需要什么
 - title: 移动玩家子图
+  completion:
+  - engaged
 - title: 坚固的墙壁
 - title: 对你的世界进行编码
 - title: 标志
@@ -24,6 +25,7 @@ steps:
 - title: 人物
 - title: 挑战：敌人
 - title: 收集硬币
-  completion: internal
 - title: 门和钥匙
+  completion:
+  - internal
 - title: 挑战：扩展你的世界

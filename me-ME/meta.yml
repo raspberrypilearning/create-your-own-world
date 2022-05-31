@@ -18,9 +18,10 @@ version: 4
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Šta će ti biti potrebno
 - title: Pomjeranje lika igrača
+  completion:
+  - engaged
 - title: Čvrsti zidovi
 - title: Programiranje tvog svijeta
 - title: Znakovi
@@ -28,6 +29,7 @@ steps:
 - title: Osobe
 - title: 'Izazov: neprijatelji'
 - title: Sakupljanje novčića
-  completion: internal
 - title: Vrata i ključevi
+  completion:
+  - internal
 - title: 'Izazov: proširi svoj svijet'

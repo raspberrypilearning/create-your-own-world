@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Inleiding
-  completion: engaged
 - title: De sprite van de speler verplaatsen
 - title: Stevige muren
+  completion:
+  - engaged
 - title: Verplaats je door je wereld
 - title: 'Uitdaging: ga naar de vorige kamer'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: 'Uitdaging: voeg een vijand toe'
   challenge: true
 - title: Munten verzamelen
-  completion: internal
 - title: Deuren en sleutels
+  completion:
+  - internal
 - title: 'Uitdaging: vergroot je wereld'
   challenge: true
 - title: Wat nu?

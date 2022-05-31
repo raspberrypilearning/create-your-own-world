@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Introducción
-  completion: engaged
 - title: Mueve el objeto jugador
 - title: Paredes sólidas
+  completion:
+  - engaged
 - title: Muévete por tu mundo
 - title: 'Desafío: Volver a la habitación anterior'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: 'Desafío: Enemigos'
   challenge: true
 - title: Recoger monedas
-  completion: internal
 - title: Puertas y llaves
+  completion:
+  - internal
 - title: 'Desafío: Amplía tu mundo'
   challenge: true
 - title: "¿Qué sigue?"

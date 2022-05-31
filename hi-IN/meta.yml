@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: परिचय
-  completion: engaged
 - title: खिलाडी स्प्राइट (player sprite) को हिलाएं
 - title: पक्की दीवारें
+  completion:
+  - engaged
 - title: अपनी दुनिया में घूमें
 - title: 'चुनौती: पिछले कमरे में वापस जाएँ'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: 'चुनौती: दुश्मन'
   challenge: true
 - title: कोइन्स (Coins) बटोरना
-  completion: internal
 - title: दरवाज़े और चाभियाँ
+  completion:
+  - internal
 - title: 'चुनौती: अपनी दुनिया को और भी बड़ा बनाएं'
   challenge: true
 - title: आगे क्या?

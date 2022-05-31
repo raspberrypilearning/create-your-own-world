@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: परिचय
-  completion: engaged
 - title: तुमचा खेळाडू (player) sprite ला हलवा
 - title: भरीव भिंती
+  completion:
+  - engaged
 - title: तुमच्या गेमच्या जगात फिरा
 - title: 'आव्हान: मागील खोलीकडे परत जा'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: 'आव्हान: शत्रू'
   challenge: true
 - title: नाणी गोळा करा
-  completion: internal
 - title: दारे आणि चाबी
+  completion:
+  - internal
 - title: 'आव्हान: तुमचे जग वाढवा'
   challenge: true
 - title: पुढे काय?

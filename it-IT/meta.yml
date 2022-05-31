@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Introduzione
-  completion: engaged
 - title: Codifica il tuo giocatore
 - title: Muri solidi
+  completion:
+  - engaged
 - title: Muoviti nel tuo mondo
 - title: 'Sfida: trasferirsi nella stanza precedente'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: 'Sfida: nemici'
   challenge: true
 - title: Raccogliere monete
-  completion: internal
 - title: Porte e chiavi
+  completion:
+  - internal
 - title: 'Sfida: espandi il tuo mondo'
   challenge: true
 - title: E poi?

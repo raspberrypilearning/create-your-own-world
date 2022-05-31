@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Введение
-  completion: engaged
 - title: Перемещение спрайта игрока
 - title: Сплошные стены
+  completion:
+  - engaged
 - title: Перемещение по миру
 - title: 'Задача: вернуться в предыдущую комнату'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: 'Задача: враги'
   challenge: true
 - title: Сбор монет
-  completion: internal
 - title: Двери и ключи
+  completion:
+  - internal
 - title: 'Задача: расширь свой мир'
   challenge: true
 - title: Что дальше?

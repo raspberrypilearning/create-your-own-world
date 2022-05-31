@@ -9,9 +9,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Introdução
-  completion: engaged
 - title: Mova o ator do jogador
 - title: Paredes sólidas
+  completion:
+  - engaged
 - title: Mova-se pelo seu mundo
 - title: 'Desafio: voltar para a sala anterior'
   challenge: true
@@ -22,8 +23,9 @@ steps:
 - title: 'Desafio: inimigos'
   challenge: true
 - title: Coletar moedas
-  completion: internal
 - title: Portas e chaves
+  completion:
+  - internal
 - title: 'Desafio: expanda seu mundo'
   challenge: true
 - title: E agora?
