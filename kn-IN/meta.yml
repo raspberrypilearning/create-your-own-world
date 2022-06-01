@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: ಪರಿಚಯ
-  completion: engaged
 - title: ಆಟಗಾರ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಸರಿಸಿ
 - title: ಘನ ಗೋಡೆಗಳು
+  completion:
+  - engaged
 - title: ನಿಮ್ಮ ಪ್ರಪಂಚದಾದ್ಯಂತ ಸರಿಸಿ
 - title: 'ಸವಾಲು: ಹಿಂದಿನ ಕೋಣೆಗೆ ಹಿಂತಿರುಗಿ'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: 'ಸವಾಲು: ಶತ್ರುವನ್ನು ಸೇರಿಸಿ'
   challenge: true
 - title: ನಾಣ್ಯಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ
-  completion: internal
 - title: ಬಾಗಿಲುಗಳು ಮತ್ತು ಕೀಲಿಗಳು
+  completion:
+  - internal
 - title: 'ಸವಾಲು: ನಿಮ್ಮ ಜಗತ್ತನ್ನು ವಿಸ್ತರಿಸಿ'
   challenge: true
 - title: ಮುಂದೆ ಏನು?

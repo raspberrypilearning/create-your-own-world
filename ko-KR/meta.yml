@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: 소개
-  completion: engaged
 - title: 플레이어 스프라이트 움직이기
 - title: 단단한 벽
+  completion:
+  - engaged
 - title: 방 이동하기
 - title: '도전 과제: 이전 방으로 이동하기'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: '도전 과제: 적 추가하기'
   challenge: true
 - title: 코인 모으기
-  completion: internal
 - title: 문과 열쇠
+  completion:
+  - internal
 - title: '도전 과제: 나만의 방 만들기'
   challenge: true
 - title: 다음은?

@@ -8,9 +8,10 @@ version: 4.1.0
 last_tested: 2018-10-23
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Programmiere deinen Spieler
 - title: Massive Wände
+  completion:
+  - engaged
 - title: Bewege dich in deiner Welt
 - title: 'Herausforderung: Zurück zum vorherigen Raum'
   challenge: true
@@ -21,8 +22,9 @@ steps:
 - title: 'Herausforderung: Einen Gegner hinzufügen'
   challenge: true
 - title: Münzen sammeln
-  completion: internal
 - title: Türen und Schlüssel
+  completion:
+  - internal
 - title: 'Herausforderung: Erweitere deine Welt'
   challenge: true
 - title: Wie geht es weiter?
