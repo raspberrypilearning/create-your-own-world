@@ -13,27 +13,31 @@ steps:
     title: ಆಟಗಾರ ಸ್ಪ್ರೈಟ್ ಅನ್ನು ಸರಿಸಿ
   - 
     title: ಘನ ಗೋಡೆಗಳು
+    completion:
+      - engaged
   - 
     title: ನಿಮ್ಮ ಪ್ರಪಂಚದಾದ್ಯಂತ ಸರಿಸಿ
   - 
-    title: "ಸವಾಲು: ಹಿಂದಿನ ಕೋಣೆಗೆ ಹಿಂತಿರುಗಿ"
+    title: 'ಸವಾಲು: ಹಿಂದಿನ ಕೋಣೆಗೆ ಹಿಂತಿರುಗಿ'
     challenge: true
   - 
     title: ಚಿಹ್ನೆಗಳು
   - 
-    title: "ಸವಾಲು: ನಿಧಿ!"
+    title: 'ಸವಾಲು: ನಿಧಿ!'
     challenge: true
   - 
     title: ಜನರು
   - 
-    title: "ಸವಾಲು: ಶತ್ರುಗಳು"
+    title: 'ಸವಾಲು: ಶತ್ರುಗಳು'
     challenge: true
   - 
     title: ನಾಣ್ಯಗಳನ್ನು ಸಂಗ್ರಹಿಸಿ
   - 
     title: ಬಾಗಿಲುಗಳು ಮತ್ತು ಕೀಲಿಗಳು
+    completion:
+      - internal
   - 
-    title: "ಸವಾಲು: ನಿಮ್ಮ ಜಗತ್ತನ್ನು ವಿಸ್ತರಿಸಿ"
+    title: 'ಸವಾಲು: ನಿಮ್ಮ ಜಗತ್ತನ್ನು ವಿಸ್ತರಿಸಿ'
     challenge: true
   - 
-    title: "ಮುಂದೆ ಏನು?"
+    title: ಮುಂದೆ ಏನು?
