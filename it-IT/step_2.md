@@ -6,11 +6,11 @@ Inizia creando uno sprite `giocatore` che possa muoversi nel mondo.
 
 Apri il progetto di avvio Scratch 'Crea il tuo mondo'.
 
-**Online:** apri il progetto iniziale su [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline:** scarica il progetto iniziale da [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, e aprilo con l'editor offline. Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Se hai bisogno di scaricare ed installare l'editor Scratch offline, puoi trovarlo su [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![screenshot](images/world-starter.png)
 
