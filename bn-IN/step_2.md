@@ -6,11 +6,11 @@
 
 'Create your own world' scratch স্টার্টার প্রকল্পটি খুলুন।.
 
-**online**: [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"} অনলাইন স্টার্টার প্রকল্পটি খুলুন.
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 আপনার যদি scratch অ্যাকাউন্ট থাকে তবে আপনি **Remix** ক্লিক করে একটি অনুলিপি তৈরি করতে পারেন।.
 
-** offline **: স্টার্টার প্রকল্পটি ডাউনলোড করুন [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}এবং এটি খুলুন অফলাইন সম্পাদক ব্যবহার করে।. আপনার যদি স্ক্র্যাচ অফলাইন সম্পাদক ডাউনলোড ও ইনস্টল করতে হয় তবে আপনি এটি [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} এ খুঁজে পেতে পারেন.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. আপনার যদি স্ক্র্যাচ অফলাইন সম্পাদক ডাউনলোড ও ইনস্টল করতে হয় তবে আপনি এটি [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} এ খুঁজে পেতে পারেন.
 
 ![screenshot](images/world-starter.png)
 
