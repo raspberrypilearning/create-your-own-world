@@ -13,27 +13,31 @@ steps:
     title: Move the player sprite
   - 
     title: Solid walls
+    completion:
+      - engaged
   - 
     title: Move around your world
   - 
-    title: "Challenge: move back to the previous room"
+    title: 'Challenge: move back to the previous room'
     challenge: true
   - 
     title: Signs
   - 
-    title: "Challenge: treasure!"
+    title: 'Challenge: treasure!'
     challenge: true
   - 
     title: People
   - 
-    title: "Challenge: enemies"
+    title: 'Challenge: enemies'
     challenge: true
   - 
     title: Collect coins
   - 
     title: Doors and keys
+    completion:
+      - internal
   - 
-    title: "Challenge: extend your world"
+    title: 'Challenge: extend your world'
     challenge: true
   - 
-    title: "What next?"
+    title: What next?
