@@ -26,7 +26,7 @@ se <tasto (freccia su v) premuto? > allora
     fai (4) passi
   end
   se <tasto (freccia giu v) premuto? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key (right arrow v) pressed? > allora 
