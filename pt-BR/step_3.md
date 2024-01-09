@@ -26,7 +26,7 @@ sempre
     mova (4) passos
   end
   se <tecla (seta para baixo v) pressionada? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key (right arrow v) pressed? > então 
