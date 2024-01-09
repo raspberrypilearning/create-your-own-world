@@ -13,27 +13,31 @@ steps:
     title: खिलाडी स्प्राइट (player sprite) को हिलाएं
   - 
     title: पक्की दीवारें
+    completion:
+      - engaged
   - 
     title: अपनी दुनिया में घूमें
   - 
-    title: "चुनौती: पिछले कमरे में वापस जाएँ"
+    title: 'चुनौती: पिछले कमरे में वापस जाएँ'
     challenge: true
   - 
     title: संकेत (Signs)
   - 
-    title: "चुनौती: खज़ाना!"
+    title: 'चुनौती: खज़ाना!'
     challenge: true
   - 
     title: लोग
   - 
-    title: "चुनौती: दुश्मन"
+    title: 'चुनौती: दुश्मन'
     challenge: true
   - 
     title: कोइन्स (Coins) बटोरना
   - 
     title: दरवाज़े और चाभियाँ
+    completion:
+      - internal
   - 
-    title: "चुनौती: अपनी दुनिया को और भी बड़ा बनाएं"
+    title: 'चुनौती: अपनी दुनिया को और भी बड़ा बनाएं'
     challenge: true
   - 
-    title: "आगे क्या?"
+    title: आगे क्या?
