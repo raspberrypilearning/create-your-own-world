@@ -13,27 +13,31 @@ steps:
     title: 移動玩家角色
   - 
     title: 堅固的牆壁
+    completion:
+      - engaged
   - 
     title: 在你的世界逛逛
   - 
-    title: "挑戰：回到上個空間"
+    title: '挑戰：回到上個空間'
     challenge: true
   - 
     title: 告示牌
   - 
-    title: "挑戰：寶藏！"
+    title: '挑戰：寶藏！'
     challenge: true
   - 
     title: 路人
   - 
-    title: "挑戰：加個敵人"
+    title: '挑戰：加個敵人'
     challenge: true
   - 
     title: 收集金幣
   - 
     title: 門和鑰匙
+    completion:
+      - internal
   - 
-    title: "挑戰：拓展你的世界"
+    title: '挑戰：拓展你的世界'
     challenge: true
   - 
-    title: "然後呢？"
+    title: 然後呢？
