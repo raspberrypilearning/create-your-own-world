@@ -26,7 +26,7 @@ am byth
     symud (4) cam
   end
   os <bysell (down arrow v) wedi ei phwyso? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key (right arrow v) pressed? > yna 
