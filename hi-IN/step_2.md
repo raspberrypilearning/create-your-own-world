@@ -6,11 +6,11 @@
 
 'Create your own world' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन**: आप इस प्रोजेक्ट को [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"} में खोल सकते हैं।
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 यदि आपके पास एक Scratch खाता (account) है, तो आप **Remix** पर क्लिक करके कॉपी बना सकते हैं।
 
-**ऑफ़लाइन**: स्टार्टर प्रजेक्ट को [ rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"} से डाउनलोड करें और फिर इसे ऑफ़लाइन एडिटर (offline editor) का उपयोग करके खोलें। यदि आपको Scratch ऑफ़लाइन एडिटर को डाउनलोड और इंस्टॉल (download and install) करने की आवश्यकता है तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. यदि आपको Scratch ऑफ़लाइन एडिटर को डाउनलोड और इंस्टॉल (download and install) करने की आवश्यकता है तो आप इसे [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
 
 ![screenshot](images/world-starter.png)
 
