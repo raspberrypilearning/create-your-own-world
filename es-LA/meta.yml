@@ -13,27 +13,31 @@ steps:
     title: Mueve el objeto jugador
   - 
     title: Paredes sólidas
+    completion:
+      - engaged
   - 
     title: Muévete por tu mundo
   - 
-    title: "Desafío: volver a la habitación anterior"
+    title: 'Desafío: volver a la habitación anterior'
     challenge: true
   - 
     title: Señales
   - 
-    title: "Desafío: ¡Un tesoro!"
+    title: 'Desafío: ¡Un tesoro!'
     challenge: true
   - 
     title: Personas
   - 
-    title: "Desafío: Enemigos"
+    title: 'Desafío: Enemigos'
     challenge: true
   - 
     title: Recoger monedas
   - 
     title: Puertas y llaves
+    completion:
+      - internal
   - 
-    title: "Desafío: Amplía tu mundo"
+    title: 'Desafío: Amplía tu mundo'
     challenge: true
   - 
-    title: "¿Qué sigue?"
+    title: '¿Qué sigue?'
