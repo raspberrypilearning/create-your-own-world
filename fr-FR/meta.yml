@@ -13,27 +13,31 @@ steps:
     title: Déplace le sprite du joueur
   - 
     title: Murs solides
+    completion:
+      - engaged
   - 
     title: Déplace-toi dans ton monde
   - 
-    title: "Défi : revenir à la salle précédente"
+    title: 'Défi : revenir à la salle précédente'
     challenge: true
   - 
     title: Panneaux
   - 
-    title: "Défi : trésor !"
+    title: 'Défi : trésor !'
     challenge: true
   - 
     title: Les personnes
   - 
-    title: "Défi : ennemis"
+    title: 'Défi : ennemis'
     challenge: true
   - 
     title: Collecter des pièces
   - 
     title: Les portes et les clés
+    completion:
+      - internal
   - 
-    title: "Défi : étends ton monde"
+    title: 'Défi : étends ton monde'
     challenge: true
   - 
-    title: "Quelle est la prochaine étape ?"
+    title: Quelle est la prochaine étape ?
