@@ -6,11 +6,11 @@
 
 'ನಿಮ್ಮ ಸ್ವಂತ ಪ್ರಪಂಚವನ್ನು ರಚಿಸಿ' ಸ್ಕ್ರ್ಯಾಚ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-**ಆನ್‌ಲೈನ್**: ನಲ್ಲಿ ಆನ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 ನೀವು ಸ್ಕ್ರ್ಯಾಚ್ ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ನಕಲನ್ನು ಮಾಡಬಹುದು **ರಿಮಿಕ್ಸ್**.
 
-**ಆಫ್‌ಲೈನ್**: ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, ತದನಂತರ ಅದನ್ನು ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಬಳಸಿ ತೆರೆಯಿರಿ. ನೀವು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ Scratch ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕ, ನೀವು ಅದನ್ನು ಕಾಣಬಹುದು [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. ನೀವು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ Scratch ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕ, ನೀವು ಅದನ್ನು ಕಾಣಬಹುದು [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ (ಪರದೆ ಚಿತ್ರ)](images/world-starter.png)
 
