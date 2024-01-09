@@ -13,27 +13,31 @@ steps:
     title: Mou el personatge del jugador
   - 
     title: Murs massissos
+    completion:
+      - engaged
   - 
     title: Mou-te pel teu món
   - 
-    title: "Repte: tornar a l'habitació anterior"
+    title: 'Repte: tornar a l''habitació anterior'
     challenge: true
   - 
     title: Senyals
   - 
-    title: "Repte: tresor!"
+    title: 'Repte: tresor!'
     challenge: true
   - 
     title: Gent
   - 
-    title: "Repte: enemics"
+    title: 'Repte: enemics'
     challenge: true
   - 
     title: Recollida de monedes
   - 
     title: Portes i claus
+    completion:
+      - internal
   - 
-    title: "Repte: amplia el teu món"
+    title: 'Repte: amplia el teu món'
     challenge: true
   - 
-    title: "I ara què ve?"
+    title: I ara què ve?
