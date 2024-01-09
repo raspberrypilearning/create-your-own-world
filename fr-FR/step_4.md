@@ -33,11 +33,11 @@ répéter indéfiniment
         s'orienter en direction de (-90)
         avancer de (4) pas
     end
-        si <touche (flèche bas v) pressée ? > alors
-        s'orienter dans la direction (-180)
-        avancer de (4) pas
+        si <touche (flèche bas v) pressée ? > then
+        point in direction (180)
+        move (4) steps
     end
-        si <touche [flèche droite v] pressée ? > alors
+        if <key [right arrow v] pressed? > alors
 s'orienter dans la direction (90)
 avancer de (4) pas
 fin
@@ -108,11 +108,11 @@ répéter indéfiniment
         s'orienter en direction de (-90)
         avancer de (4) pas
     end
-        si <touche (flèche bas v) pressée? > alors
-        s'orienter en direction de (-180)
-        avancer de (4) pas
+        si <touche (flèche bas v) pressée? > then
+        point in direction (180)
+        move (4) steps
     end
-        si <touche [flèche droite v] pressée ? > alors
+        if <key [right arrow v] pressed? > alors
         s'orienter en direction de (90)
         avancer de (4) pas
     end
