@@ -26,7 +26,7 @@ Cнова протестируй свой спрайт `игрок`. Do you see 
     идти (4) шагов
   end
   если <клавиша (стрелка вниз v) нажата? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key (right arrow v) pressed? >, то 
