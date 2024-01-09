@@ -25,11 +25,11 @@ per sempre
         apunta en direcció (-90)
         mou-te (4) passos
     fi
-    si < tecla (fletxa avall v) premuda? > llavors
-        apunta en direcció (-180)
-        mou-te (4) passos
-    fi
-    si < tecla (fletxa dreta v) premuda? > llavors
+    si < tecla (fletxa avall v) premuda? > then
+        point in direction (180)
+        move (4) steps
+    end
+        if <key (right arrow v) pressed? > llavors
         apunta en direcció (90)
         mou-te (4) passos
     fi
