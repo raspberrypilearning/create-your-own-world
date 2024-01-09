@@ -26,7 +26,7 @@ si <touche (flèche de gauche v) pressée ? > alors
         avancer de (4) pas
     end
         si < touche (flèche du bas v) pressée ? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key (right arrow v) pressed? > alors
