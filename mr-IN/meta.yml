@@ -13,27 +13,31 @@ steps:
     title: तुमचा खेळाडू (player) sprite ला हलवा
   - 
     title: भरीव भिंती
+    completion:
+      - engaged
   - 
     title: तुमच्या गेमच्या जगात फिरा
   - 
-    title: "आव्हान: मागील खोलीकडे परत जा"
+    title: 'आव्हान: मागील खोलीकडे परत जा'
     challenge: true
   - 
     title: चिन्हे
   - 
-    title: "आव्हान: खजिना!"
+    title: 'आव्हान: खजिना!'
     challenge: true
   - 
     title: लोक
   - 
-    title: "आव्हान: शत्रू"
+    title: 'आव्हान: शत्रू'
     challenge: true
   - 
     title: नाणी गोळा करा
   - 
     title: दारे आणि चाबी
+    completion:
+      - internal
   - 
-    title: "आव्हान: तुमचे जग वाढवा"
+    title: 'आव्हान: तुमचे जग वाढवा'
     challenge: true
   - 
-    title: "पुढे काय?"
+    title: पुढे काय?
