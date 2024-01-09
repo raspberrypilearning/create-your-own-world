@@ -13,27 +13,31 @@ steps:
     title: Spostare lo sprite del giocatore
   - 
     title: Muri solidi
+    completion:
+      - engaged
   - 
     title: Muoviti nel tuo mondo
   - 
-    title: "Sfida: trasferirsi nella stanza precedente"
+    title: 'Sfida: trasferirsi nella stanza precedente'
     challenge: true
   - 
     title: Cartelli
   - 
-    title: "Sfida: tesoro!"
+    title: 'Sfida: tesoro!'
     challenge: true
   - 
     title: Persone
   - 
-    title: "Sfida: nemici"
+    title: 'Sfida: nemici'
     challenge: true
   - 
     title: Raccogliere monete
   - 
     title: Porte e chiavi
+    completion:
+      - internal
   - 
-    title: "Sfida: espandi il tuo mondo"
+    title: 'Sfida: espandi il tuo mondo'
     challenge: true
   - 
-    title: "E poi?"
+    title: E poi?
