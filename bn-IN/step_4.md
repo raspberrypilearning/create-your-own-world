@@ -34,7 +34,7 @@ forever
         move (4) steps
     end
         if <key (down arrow v) pressed? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key [right arrow v] pressed? > then
@@ -109,7 +109,7 @@ forever
         move (4) steps
     end
         if <key (down arrow v) pressed? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key [right arrow v] pressed? > then
