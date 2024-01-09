@@ -13,27 +13,31 @@ steps:
     title: Przesuń duszka gracza
   - 
     title: Solidne ściany
+    completion:
+      - engaged
   - 
     title: Poruszaj się po swoim świecie
   - 
-    title: "Wyzwanie: wróć do poprzedniego pokoju"
+    title: 'Wyzwanie: wróć do poprzedniego pokoju'
     challenge: true
   - 
     title: Znaki
   - 
-    title: "Wyzwanie: skarb!"
+    title: 'Wyzwanie: skarb!'
     challenge: true
   - 
     title: Osoby
   - 
-    title: "Wyzwanie: wrogowie"
+    title: 'Wyzwanie: wrogowie'
     challenge: true
   - 
     title: Zbieraj monety
   - 
     title: Drzwi i klucze
+    completion:
+      - internal
   - 
-    title: "Wyzwanie: rozwiń swój świat"
+    title: 'Wyzwanie: rozwiń swój świat'
     challenge: true
   - 
-    title: "Co dalej?"
+    title: Co dalej?
