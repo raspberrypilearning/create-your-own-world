@@ -13,27 +13,31 @@ steps:
     title: تحريك كائن اللاعب
   - 
     title: جدران صلبة
+    completion:
+      - engaged
   - 
     title: التحرك حول عالمك الخاص
   - 
-    title: "تحدي: التحرك إلى الغرفة السابقة"
+    title: 'تحدي: التحرك إلى الغرفة السابقة'
     challenge: true
   - 
     title: اللافتات
   - 
-    title: "تحدي: الكنز!"
+    title: 'تحدي: الكنز!'
     challenge: true
   - 
     title: الأشخاص
   - 
-    title: "تحدي: الأعداء"
+    title: 'تحدي: الأعداء'
     challenge: true
   - 
     title: جمع العملات الذهبية
   - 
     title: الأبواب والمفاتيح
+    completion:
+      - internal
   - 
-    title: "تحدي: وسِّع عالمك"
+    title: 'تحدي: وسِّع عالمك'
     challenge: true
   - 
-    title: "ما التالي؟"
+    title: ما التالي؟
