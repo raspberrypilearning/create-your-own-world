@@ -26,7 +26,7 @@ herhaal
             neem (4) stappen
         einde
         als <toets (pijltje omlaag v) ingedrukt? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key (right arrow v) pressed? > dan
