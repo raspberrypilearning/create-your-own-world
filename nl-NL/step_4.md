@@ -33,11 +33,11 @@ herhaal
             richt naar (-90) graden
             neem (4) stappen
       einde
-        als <toets (pijltje omlaag v) ingedrukt? > dan
-            richt naar (-180) graden
-            neem (4) stappen
-        einde
-        als <toets (pijltje rechts v) ingedrukt? > dan
+        als <toets (pijltje omlaag v) ingedrukt? > then
+        point in direction (180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > dan
             richt naar (90) graden
             neem (4) stappen
         einde
@@ -108,11 +108,11 @@ herhaal
             richt naar (-90) graden
             neem (4) stappen
       einde
-        als <toets (pijltje omlaag v) ingedrukt? > dan
-            richt naar (-180) graden
-            neem (4) stappen
-        einde
-        als <toets (pijltje rechts v) ingedrukt? > dan
+        als <toets (pijltje omlaag v) ingedrukt? > then
+        point in direction (180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > dan
             richt naar (90) graden
             neem (4) stappen
         einde
