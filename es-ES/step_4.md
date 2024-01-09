@@ -33,11 +33,11 @@ por siempre
     apuntar en dirección (-90)
     mover (4) pasos
   end
-  si <¿tecla (flecha abajo v) presionada? > entonces 
-    apuntar en dirección (-180)
-    mover (4) pasos
-  end
-  si <¿tecla [flecha derecha v] presionada? > entonces 
+  si <¿tecla (flecha abajo v) presionada? > then
+        point in direction (180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > entonces 
         apuntar en dirección (90)
         mover (4) pasos
     fin
@@ -108,11 +108,11 @@ forever
     apuntar en dirección (-90)
     mover (4) pasos
   end
-  si <¿tecla (flecha abajo v) presionada? > entonces 
-    apuntar en dirección (-180)
-    mover (4) pasos
-  end
-  si <¿tecla [flecha derecha v] presionada? > entonces 
+  si <¿tecla (flecha abajo v) presionada? > then
+        point in direction (180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > entonces 
         apuntar en dirección (90)
         mover (4) pasos
     fin
