@@ -6,11 +6,11 @@ Comença per crear un personatge `jugador` que pugui moure's pel teu món.
 
 Obre el projecte d'arrencada de Scratch "Crea el teu propi món".
 
-**En línia**: obre el projecte d'inici a [rpf.io/create-your-own-world-on](http://rpf.io/create-your-own-world-on){:target="_ blank"}.
+**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
-**Fora de línia:** descarrega el projecte d'inici de [rpf.io/p/en/create-your-own-world-go](http://rpf.io/p/en/create-your-own-world-go){:target= "_ blank"} i, a continuació, obre'l utilitzant l'editor fora de línia. Si necessites descarregar i instal·lar l'editor fora de línia d'Scratch, el pots trobar a [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Si necessites descarregar i instal·lar l'editor fora de línia d'Scratch, el pots trobar a [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![captura de pantalla](images/world-starter.png)
 
