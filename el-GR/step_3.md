@@ -26,7 +26,7 @@ To fix this, you need to make the `player` sprite move back if it touches a ligh
     κινήσου (4) βήματα :: motion :: control
   end
   εάν <πατήθηκε το πλήκτρο (κάτω βέλος v) :: sensing > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key (right arrow v) pressed? > τότε 
