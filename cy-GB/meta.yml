@@ -13,27 +13,31 @@ steps:
     title: Symud dy chwareuwr
   - 
     title: Waliau cadarn
+    completion:
+      - engaged
   - 
     title: Symud o gwmpas dy fyd
   - 
-    title: "Her: symud yn ôl i'r ystafell flaenorol"
+    title: 'Her: symud yn ôl i''r ystafell flaenorol'
     challenge: true
   - 
     title: Arwyddion
   - 
-    title: "Her: trysor!"
+    title: 'Her: trysor!'
     challenge: true
   - 
     title: Pobl
   - 
-    title: "Her: gelynion"
+    title: 'Her: gelynion'
     challenge: true
   - 
     title: Casglu darnau arian
   - 
     title: Drysau ac allweddi
+    completion:
+      - internal
   - 
-    title: "Her: ymestyn dy fyd"
+    title: 'Her: ymestyn dy fyd'
     challenge: true
   - 
-    title: "Beth nesaf?"
+    title: Beth nesaf?
