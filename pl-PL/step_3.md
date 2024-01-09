@@ -26,7 +26,7 @@ zawsze
         przesuń o (4) kroki
     koniec
         jeżeli <klawisz (strzałka w dół v) naciśnięty? > then
-        point in direction (-180)
+        point in direction (180)
         move (4) steps
     end
         if <key (right arrow v) pressed? > to
