@@ -33,11 +33,11 @@ sempre
     aponte para a direção (-90)
     mova (4) passos
   end
-  se <tecla (seta para baixo v) pressionada? > então 
-    aponte para a direção (-180)
-    mova (4) passos
-  end
-  se <tecla (seta para direita v) pressionada? > então 
+  se <tecla (seta para baixo v) pressionada? > then
+        point in direction (180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > então 
     aponte para a direção (90)
     mova (4) passos
   end
@@ -108,11 +108,11 @@ sempre
     aponte para a direção (-90)
     mova (4) passos
   end
-  se <tecla (seta para baixo v) pressionada? > então 
-    aponte para a direção (-180)
-    mova (4) passos
-  end
-  se <tecla (seta para direita v) pressionada? > então 
+  se <tecla (seta para baixo v) pressionada? > then
+        point in direction (180)
+        move (4) steps
+    end
+        if <key [right arrow v] pressed? > então 
     aponte para a direção (90)
     mova (4) passos
   end
