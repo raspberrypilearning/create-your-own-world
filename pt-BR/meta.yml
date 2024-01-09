@@ -13,27 +13,31 @@ steps:
     title: Mova o ator do jogador
   - 
     title: Paredes sólidas
+    completion:
+      - engaged
   - 
     title: Mova-se ao redor do seu mundo
   - 
-    title: "Desafio: voltar à sala anterior"
+    title: 'Desafio: voltar à sala anterior'
     challenge: true
   - 
     title: Sinalizações
   - 
-    title: "Desafio: tesouro!"
+    title: 'Desafio: tesouro!'
     challenge: true
   - 
     title: Pessoas
   - 
-    title: "Desafio: inimigos"
+    title: 'Desafio: inimigos'
     challenge: true
   - 
     title: Recolha moedas
   - 
     title: Portas e chaves
+    completion:
+      - internal
   - 
-    title: "Desafio: expanda seu mundo"
+    title: 'Desafio: expanda seu mundo'
     challenge: true
   - 
-    title: "E agora?"
+    title: E agora?
