@@ -13,27 +13,31 @@ steps:
     title: Перемещение спрайта игрока
   - 
     title: Сплошные стены
+    completion:
+      - engaged
   - 
     title: Перемещение по миру
   - 
-    title: "Задача: вернуться в предыдущую комнату"
+    title: 'Задача: вернуться в предыдущую комнату'
     challenge: true
   - 
     title: Таблички
   - 
-    title: "Задача: сокровище!"
+    title: 'Задача: сокровище!'
     challenge: true
   - 
     title: Люди
   - 
-    title: "Задача: враги"
+    title: 'Задача: враги'
     challenge: true
   - 
     title: Сбор монет
   - 
     title: Двери и ключи
+    completion:
+      - internal
   - 
-    title: "Задача: расширь свой мир"
+    title: 'Задача: расширь свой мир'
     challenge: true
   - 
-    title: "Что дальше?"
+    title: Что дальше?
