@@ -13,27 +13,31 @@ steps:
     title: Bewege die Spieler-Figur
   - 
     title: Massive Wände
+    completion:
+      - engaged
   - 
     title: Bewege dich in deiner Welt
   - 
-    title: "Herausforderung: Zurück zum vorherigen Raum"
+    title: 'Herausforderung: Zurück zum vorherigen Raum'
     challenge: true
   - 
     title: Schilder
   - 
-    title: "Herausforderung: Der Schatz!"
+    title: 'Herausforderung: Der Schatz!'
     challenge: true
   - 
     title: Personen
   - 
-    title: "Herausforderung: Feinde"
+    title: 'Herausforderung: Feinde'
     challenge: true
   - 
     title: Münzen sammeln
   - 
     title: Türen und Schlüssel
+    completion:
+      - internal
   - 
-    title: "Herausforderung: Erweitere deine Welt"
+    title: 'Herausforderung: Erweitere deine Welt'
     challenge: true
   - 
-    title: "Wie geht es weiter?"
+    title: Wie geht es weiter?
