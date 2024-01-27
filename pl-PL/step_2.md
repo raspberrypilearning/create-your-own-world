@@ -1,12 +1,12 @@
-## Przesuń duszka gracza
+## Przesunięcie duszka gracza
 
 Zacznij od utworzenia duszka `gracz`, który będzie mógł poruszać się po świecie gry.
 
 \--- task \---
 
-Otwórz projekt startowy "Utwórz swój własny świat".
+Open the 'Create your own world' Scratch starter project.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online**: otwórz projekt startowy online pod adresem [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
