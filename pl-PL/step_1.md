@@ -6,13 +6,13 @@ To jest wersja projektu korzystająca z **Scratch 3**. Istnieje również [wersj
 
 ## Wprowadzenie
 
-Ten projekt nauczy Cię tworzenia swojego świata do gry przygodowej z wieloma poziomami do zbadania.
+W tym projekcie nauczysz się, jak stworzyć własny świat gry przygodowej z wieloma poziomami do odkrycia.
 
 ### Co zrobisz
 
 \--- no-print \---
 
-Kliknij na zieloną flagę, aby rozpocząć. Użyj klawiszy strzałek, aby poruszać swoją postać w świecie gry.
+Kliknij zieloną flagę, aby rozpocząć. Użyj klawiszy strzałek, aby poruszać się swoją postacią w świecie gry.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,7 +23,7 @@ Kliknij na zieloną flagę, aby rozpocząć. Użyj klawiszy strzałek, aby porus
 
 \--- print-only \---
 
-Klawisze strzałek umożliwią Ci poruszanie się bohaterem po świecie gry. ![showcase.png](images/showcase.png)
+Aby Twoja postać poruszała w świecie gry, użyj klawiszy strzałek. ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
@@ -37,11 +37,11 @@ Klawisze strzałek umożliwią Ci poruszanie się bohaterem po świecie gry. ![s
 
 ### Oprogramowanie
 
-- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 ([online](https://rpf.io/scratchon){:target="_blank"} lub [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Pliki do pobrania
 
-Wszystko, czego potrzebujesz, aby ukończyć ten projekt, znajdziesz na [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
+Wszystko, czego potrzebujesz, aby ukończyć ten projekt, znajdziesz tu: [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
