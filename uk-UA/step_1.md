@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+Це — версія проєкту для **Скретч 3**. Також існує [версія проєкту для Скретч 2](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
 ## Вступ
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+У цьому проєкті ти навчишся створювати власний пригодницький ігровий світ з кількома рівнями для дослідження.
 
-### What you will make
+### Що ти зробиш
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Натисни на зелений прапор для запуску. Використовуй клавіші зі стрілками для переміщення свого персонажа по світу.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,45 +23,45 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Ти використовуватимеш клавіші зі стрілками для переміщення персонажа по світу. ![Демонстрація](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Що тобі знадобиться
 
-### Hardware
+### Обладнання
 
-- A computer capable of running Scratch 3
+- Комп'ютер, що підтримує Скретч 3
 
-### Software
+### Програмне забезпечення
 
-- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+- Скретч 3 ([онлайн](https://rpf.io/scratchon){:target="_blank"} або [офлайн](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Завантаження
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+Ти зможеш знайти все для реалізації цього проєкту на [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Чого ти навчишся
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+- Використовувати розгалуження при обробці натискання клавіш
+- Використовувати змінні для зберігання стану гри
+- Використовувати розгалуження на основі значення змінних
+- Використовувати списки для збереження даних
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: Додаткова інформація для викладачів
+
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+
+Ви можете знайти [завершений проєкт тут](https://rpf.io/p/en/create-your-own-world-get){:target="_ blank"}.
 
 \--- /collapse \---
