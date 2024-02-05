@@ -1,24 +1,24 @@
-## Challange: розширюйте свій світ
+## Завдання: розшир свій світ
 
-You can now continue creating your own world! Here are some ideas:
+Далі ти можеш продовжувати створювати свій власний світ! Ось деякі ідеї:
 
-+ Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
-+ Change your game's backdrops
-+ Add sound and music to your game
-+ Add more people, enemies, and signs
-+ Add red and yellow doors, and special keys to open them
-+ Add more rooms to your world
-+ Add other useful items to your game
++ Додай у свою гру більше монет у різних кімнатах. Можливо, деякі монети будуть охоронятися патрулюючими противниками?
++ Змінюй ігрові фони
++ Додай звуки і музику до своєї гри
++ Додай більше людей, противників і табличок
++ Додай червоні та жовті двері, а також спеціальні ключі, щоб відкривати їх
++ Додай більше кімнат до свого світу
++ Додай інші корисні елементи у свою гру
     
-    + Use coins to get information from other people:
+    + Використовуй монети, щоб отримувати інформацію від інших людей:
 
-![screenshot](images/world-bribe.png)
+![знімок екрана](images/world-bribe.png)
 
-+ Ви навіть можете додати двері на північ та південь стін кімнати 1, щоб гравець міг рухатися між приміщеннями у всіх чотирьох напрямках. For example, your game can have nine rooms in a 3×3 grid. Потім можна додати ` 3 ` до номера кімнати, щоб рухатися вниз на один рівень.
++ Ти навіть можеш додати двері в північній та південній стінах кімнати 1, щоб гравець міг рухатися між приміщеннями у всіх чотирьох напрямках. Наприклад, гра може мати дев’ять кімнати у сітці 3 на 3. Потім можна додати `3` до номера кімнати, щоб переходити вниз на один рівень.
 
-![скріншот](images/north-south-rooms.png)
+![знімок екрана](images/north-south-rooms.png)
 
-![screenshot](images/number-grid.png)
+![знімок екрана](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
