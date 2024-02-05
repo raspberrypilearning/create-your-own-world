@@ -1,43 +1,43 @@
 ---
 hero_image: images/banner.png
-title: Create your own world
-description: Create your own open-world adventure game
+title: Створи власний світ
+description: Створи свою власну пригодницьку гру в жанрі «Відкритий світ»
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Move the player sprite
+    title: Переміщення спрайта гравця
   - 
-    title: Solid walls
+    title: Тверді стіни
     completion:
       - engaged
   - 
-    title: Move around your world
+    title: Переміщення по світу
   - 
-    title: 'Challenge: move back to the previous room'
+    title: 'Завдання: повернутися в попередню кімнату'
     challenge: true
   - 
-    title: Signs
+    title: Таблички
   - 
-    title: 'Challenge: treasure!'
+    title: 'Завдання: скарб!'
     challenge: true
   - 
-    title: People
+    title: Люди
   - 
-    title: 'Challenge: enemies'
+    title: 'Завдання: противники'
     challenge: true
   - 
-    title: Collect coins
+    title: Збирання монет
   - 
-    title: Doors and keys
+    title: Двері та ключі
     completion:
       - internal
   - 
-    title: 'Challenge: extend your world'
+    title: 'Завдання: розшир свій світ'
     challenge: true
   - 
-    title: What next?
+    title: Що далі?
