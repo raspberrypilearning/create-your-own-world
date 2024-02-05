@@ -1,28 +1,28 @@
-## Move the player sprite
+## Переміщення спрайта гравця
 
-Start by creating a `player` sprite that can move around your world.
+Почни зі створення спрайта `гравець`, що може рухатися в твоєму світу.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Відкрий початковий проєкт «Створи власний світ».
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Онлайн**: відкрий початковий проєкт на [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Якщо у тебе є обліковий запис Скретч, ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Офлайн:** завантаж стартовий проєкт з [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go), а потім відкрий його за допомогою офлайн-редактора. Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, ти можеш його знайти на [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![знімок екрана](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Коли ти натискаєш на клавіші зі стрілками, спрайт `гравець` має переміщуватися. Коли натиснуто клавішу зі стрілкою вгору, спрайт `гравець` у відповідь має переміщуватися вгору по Сцені.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Додай такий код до спрайта `гравець`:
 
-![player](images/player.png)
+![гравець](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -38,17 +38,17 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Натисни на прапор, а потім затисни клавішу зі стрілкою вгору. Чи рухається `гравець` вгору?
 
-![screenshot](images/world-up.png)
+![знімок екрана](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Для переміщення спрайта `гравець` вліво, тобі треба додати ще один блок `якщо`{:class="block3control"} з подібним кодом:
 
-![player](images/player.png)
+![гравець](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -68,23 +68,23 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Додай такий код до свого спрайта `гравець`, щоб він також міг рухатися вниз та вправо. Використовуй уже наявний код, щоб полегшити собі справу.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Щоб перемістити спрайт `гравець` вгору, ти направляв(-ла) його на `0` градусів. Що треба зробити, щоб перемістити його вниз?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Для руху вліво ти направляв(-ла) спрайт в напрямку `-90` градусів. Що тобі треба зробити, щоб направити спрайт вправо?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Тобі треба змінити ці два блоки:
 
-![player](images/player.png)
+![гравець](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -92,15 +92,15 @@ You need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Продублюй код, який змушує спрайт `гравець` рухатися вгору, і зміни ці два блоки, щоб він пішов вниз. Продублюй код знову і зміни його так, щоб спрайт рухався вправо.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is how your code should look:
+Ось як має виглядати твій код:
 
-![player](images/player.png)
+![гравець](images/player.png)
 
 ```blocks3
 when flag clicked
