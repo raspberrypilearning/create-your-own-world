@@ -1,20 +1,20 @@
 ## Люди
 
-Add other people to your world who your `player` sprite can interact with.
+Додай інших людей до свого світу, з якими міг би взаємодіяти спрайт `гравець`.
 
 \--- task \---
 
-Switch to the `person` sprite.
+Вибери спрайт `персонаж`.
 
-![Person sprite](images/person.png)
+![Спрайт персонажа](images/person.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+Додай код до спрайта `персонаж`, щоб він говорив до спрайта `гравець`. Цей код дуже схожий до коду, який ти додав(-ла) до свого спрайту `табличка`:
 
-![person](images/person.png)
+![персонаж](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -32,9 +32,9 @@ end
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+Дозволь своєму спрайту `персонаж` переміщуватися, додавши наступні два блоки в частину коду `інакше`{:class="block3control"}:
 
-![person](images/person.png)
+![персонаж](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -52,14 +52,14 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Твій спрайт `персонаж` тепер рухатиметься, але перестане говорити зі спрайтом `гравець`.
 
-![screenshot](images/world-person-test.png)
+![знімок екрана](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+Додай код до нового спрайта `персонаж`, щоб він з’являвся тільки в кімнаті 1. Необхідний для цього код точно такий же, як і код для того, щоб спрайт `табличка` відображався тільки в кімнаті 1.
 
-Make sure you test out your new code.
+Обовʼязково протестуй свій новий код.
 
 \--- /task \---
