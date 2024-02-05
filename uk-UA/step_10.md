@@ -1,26 +1,26 @@
-## Collect coins
+## Збирання монет
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+Твій спрайт `гравець` повинен мати можливість збирати монети, коли він рухається по світу.
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+Додай у свій проєкт нову змінну з назвою `монети`{:class="block3variables"}.
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+Вибери спрайт `монета` і клацни **показати**.
 
-![screenshot](images/coin.png)
+![знімок екрана](images/coin.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+Додай код до спрайта `монета` так, щоб він з’являвся лише в кімнаті 1.
 
-![screenshot](images/coin.png)
+![знімок екрана](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -35,9 +35,9 @@ hide
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Додай код до свого спрайта `монета`, щоб, коли спрайт `гравець` торкався його, щоб «підібрати», той `сховався`{:class="block3looks"}, і до змінної `монети`{:class="block3variables"} додавалось `1`{:class="block3variables"}.
 
-![coin](images/coin.png)
+![монета](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ hide
 stop [other scripts in sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+Код `зупинити інші скрипти цього спрайту`{:class="block3control"} потрібен, щоб спрайт `монета` перестав відображатися в кімнаті 1, коли його підібрали.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+Тепер додай код до Сцени, щоб надати змінній `монети`{:class="block3variables"} значення `0`{:class="block3variables"} на початку гри.
 
-![stage](images/stage.png)
+![сцена](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -66,6 +66,6 @@ set [coins v] to [0]
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+Протестуй свою гру. Підбирання монети має збільшити кількість `монет` до `1`{:class="block3variables"}.
 
 \--- /task \---
