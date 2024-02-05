@@ -1,7 +1,7 @@
-## Challenge: скарб!
+## Завдання: скарб!
 
-Can you add some treasure for the player to find?
+Чи можеш ти заховати скарб, який би міг відшукати гравець?
 
-Make the `treasure chest` sprite appear only in room 3, and have this sprite say 'Well done!' when the `player` sprite touches it.
+Зроби, щоб спрайт `скриня` з’являвся тільки в кімнаті 3, і зроби, щоб цей спрайт вигукував «Чудово!», коли спрайт `гравець` до нього дотикається.
 
-![screenshot](images/world-treasure.png)
+![знімок екрана](images/world-treasure.png)
