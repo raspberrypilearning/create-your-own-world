@@ -1,28 +1,28 @@
-## Знаки
+## Таблички
 
-Now add signs to your world to guide players on their journey.
+Тепер додай таблички до свого світу, щоб допомагати гравцеві в його пригодах.
 
-Your project includes a `welcome sign` sprite:
+Твій проєкт містить спрайт `вітальна табличка`:
 
-![знімок екрану](images/world-sign.png)
+![знімок екрана](images/world-sign.png)
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+Спрайт `вітальна табличка` має бути видимим тільки в першій кімнаті, тому додай деякий код до цього спрайта, щоб це відбувалося:
 
 \--- hints \---
 
 \--- hint \---
 
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+`Коли прапор натистнуто`{:class="block3events"}, у циклі `завжди`{:class="block3control"} перевір, `якщо`{:class="block3control"} `кімната дорівнює 1`{:class="block3variables"}, тоді `покажи`{:class="block3looks"} спрайт `вітальна табличка`, `інакше`{:class="block3control"} `сховай`{:class="block3looks"} цей спрайт.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Ось блоки, які тобі знадобляться:
 
-![sign](images/sign.png)
+![табличка](images/sign.png)
 
 ```blocks3
 <br />if < > then
@@ -46,9 +46,9 @@ when flag clicked
 
 \--- hint \---
 
-Here is the complete code:
+Ось завершений код:
 
-![sign](images/sign.png)
+![табличка](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -69,17 +69,17 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Протестуй код для спрайта `вітальна табличка`, переміщуючись між кімнатами. Ця табличка має бути видима тільки в кімнаті 1.
 
-![screenshot](images/world-sign-test.png)
+![знімок екрана](images/world-sign-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+Табличка не дуже корисна, якщо на ній нічого не написано! Додай код для відображення повідомлення, якщо спрайт `вітальна табличка` торкається спрайта `гравець`:
 
-![sign](images/sign.png)
+![табличка](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -101,8 +101,8 @@ end
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Знову протестуй спрайт `вітальна табличка`. Зараз ти маєш бачити повідомлення, коли спрайт `гравець` дотикається до спрайта `вітальна табличка`.
 
-![screenshot](images/world-sign-test2.png)
+![знімок екрана](images/world-sign-test2.png)
 
 \--- /task \---
