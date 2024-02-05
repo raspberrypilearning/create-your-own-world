@@ -1,13 +1,13 @@
-room
+кімната
 
-player
+гравець
 
-Welcome! Can you get to the treasure?
+Привіт! Чи можеш ти знайти скарб?
 
-Did you know that you can go through orange and yellow doors?
+Ти знаєш, що можеш проходити крізь оранжеві та жовті двері?
 
-coins
+монети
 
-blue key
+синій ключ
 
-inventory
+інвентар
