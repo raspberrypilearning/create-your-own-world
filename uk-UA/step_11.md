@@ -1,36 +1,36 @@
 ## Двері та ключі
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Тепер ти додаси код для того, щоб деякі двері у твоїй грі були замкнені й гравцеві необхідно було знайти ключ, щоб їх відкрити і перейти в наступну кімнату.
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+Перемкнися на спрайт `ключ`. Клацни `показати`{:class="blocklooks"} в меню коду, щоб спрайт відобразився на Сцені.
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+Відредагуй образ спрайта `ключ`, щоб він став синім.
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+Перемкни тло Сцени на кімнату 3 та розмісти спрайт `ключ` у важкодоступному місці!
 
-![screenshot](images/world-key.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `key` sprite to make it only visible in room 3.
+![знімок екрана](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+Додай код до спрайта `ключ`, щоб він був видимим лише в кімнаті 3.
+
+\--- /task \---
+
+\--- task \---
+
+Створи новий список із назвою `інвентар`{:class="block3variables"} і зберігай в ньому предмети, які збирає спрайт `гравець`.
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,9 +38,9 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+Код, який тобі потрібно додати для підбирання ключа, дуже схожий на код для збирання монет. Різниця в тому, що ключ треба додавати в `інвентар`{:class="block3variables"}.
 
-![key](images/key.png)
+![ключ](images/key.png)
 
 ```blocks3
 when flag clicked
@@ -54,7 +54,7 @@ stop [other scripts in sprite v]
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+Додай код до своєї Сцени, щоб очищувати інвентар на початку гри.
 
 ```blocks3
 delete all of [inventory v]
@@ -64,29 +64,29 @@ delete all of [inventory v]
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+Протестуй свою гру, щоб переконатися, що ти можеш підібрати спрайт `ключ` і додати його у свій інвентар.
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+Тепер додай замкнені двері. Вибери спрайт `сині двері` і клацни блок `показати`{:class="blocklooks"} в меню коду, а далі розмісти цей спрайт, щоб перекрити прохід між двома стінами.
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![знімок екрана](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+Додай код до спрайта `сині двері` так, щоб він відображався лише в кімнаті 3.
 
-![door](images/door.png)
+\--- /task \---
+
+\--- task \---
+
+Додай код до спрайта `сині двері` так, щоб, коли ключ знаходився в `інвентарі`{:class="block3variables"}, спрайт `сховався`{:class="block3looks"} і пропустив спрайт `гравець`.
+
+![двері](images/door.png)
 
 ```blocks3
 when flag clicked
@@ -99,6 +99,6 @@ hide
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+Протестуй свою гру і перевір, чи ти зможеш підібрати синій ключ і відкрити двері!
 
 \--- /task \---
