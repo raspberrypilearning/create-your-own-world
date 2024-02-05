@@ -1,10 +1,10 @@
-## Виклик: додати ворога
+## Завдання: противники
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Якщо хочеш, можеш також додати патрулюючих противників до своєї гри. Якщо спрайт `гравець` дотикається до противника, тоді гра закінчується.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Твоя гра вже містить спрайт `противник`. Додай код до спрайта `противник` так, щоб він з’являвся лише в кімнаті 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Простіше зробити це в окремих блоках коду. Ось як ваш `enemy` ельф код може виглядати:
++ Додай код для пересування спрайта `противник` і завершення гри, коли той торкається спрайта `гравець`. Простіше зробити це в окремих блоках коду. Ось як може виглядати твій код спрайта `противник`:
 
 ```blocks3
 when flag clicked
@@ -29,11 +29,11 @@ repeat (130)
 change x by (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Протестуй свій новий код і переконайся що: 
+    + Спрайт `противник` з’являється тільки в кімнаті 2
+    + Спрайт `противник` патрулює кімнату
+    + Гра завершується, коли спрайт `гравець` дотикається до спрайта `противник`
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Чи можеш ти створити ще один спрайт `противник` у кімнаті 3, що рухається при патрулюванні вгору і вниз крізь розрив у стіні?
 
-![скріншот](images/world-enemy2.png)
+![знімок екрана](images/world-enemy2.png)
