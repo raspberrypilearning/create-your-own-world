@@ -1,18 +1,18 @@
-## Solid walls
+## Тверді стіни
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls?
+Протестуй свій спрайт `гравець` знову. Ти бачиш, що він може проходити крізь світло-сірі стіни?
 
-![screenshot](images/world-walls.png)
+![знімок екрана](images/world-walls.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+Щоб це виправити, тобі треба змусити спрайт `гравець` рухатися назад, як тільки він доторкнеться до сірої стіни. Ось код, який тобі треба буде додати всередині свого блоку `завжди`{:class="block3control"} під блоками для напряму:
 
-![player](images/player.png)
+![гравець](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -43,8 +43,8 @@ end
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+Спробуй пройти спрайтом `гравець` крізь стіну. Якщо твій новий код працює правильно, це має бути неможливо.
 
-![screenshot](images/world-walls-test.png)
+![знімок екрана](images/world-walls-test.png)
 
 \--- /task \---
