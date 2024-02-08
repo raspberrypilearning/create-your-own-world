@@ -1,21 +1,30 @@
 ---
-hero_image: images/create-your-own-world.png
-title: Створи свій власний світ
-description: В цьому проекті Ви дізнаєтесь, як створити свою власну пригодницьку гру
-  жанру “відкритий світ”.
-original_url: https://codeclubprojects.org/en-GB/scratch/create-your-own-world
-theme: orange
-duration: 2
+hero_image: images/banner.png
+title: Створи власний світ
+description: Створи свою власну пригодницьку гру в жанрі «Відкритий світ»
 listed: true
-ingredient: false
 copyedit: false
-curriculum: 2, design-0, programming-2, phys-comp-0, manufacture-0, community-0
-interests: games
-technologies: scratch
-site_areas: projects
-hardware: ''
-software: scratch
-version: 4
-last_tested: 2017-01-01
+version: 4.1.0
+last_tested: 2018-10-23
 steps:
-- title: Створи свій власний світ
+  - title: Вступ
+  - title: Переміщення спрайта гравця
+  - title: Стіни
+    completion:
+      - engaged
+  - title: Переміщення по світу
+  - title: 'Завдання: повернутися в попередню кімнату'
+    challenge: true
+  - title: Таблички
+  - title: 'Завдання: скарб!'
+    challenge: true
+  - title: Люди
+  - title: 'Завдання: противники'
+    challenge: true
+  - title: Збирання монет
+  - title: Двері та ключі
+    completion:
+      - internal
+  - title: 'Завдання: розшир свій світ'
+    challenge: true
+  - title: Що далі?
