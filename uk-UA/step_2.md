@@ -27,7 +27,7 @@
 ```blocks3
 when flag clicked
 forever
-    if <key (up arrow v) pressed? > then
+    if <key (стрілка вгору v) pressed? > then
         point in direction (0)
         move (4) steps
     end
@@ -53,11 +53,11 @@ end
 ```blocks3
 when flag clicked
 forever
-    if <key (up arrow v) pressed? > then
+    if <key (стрілка вгору v) pressed? > then
         point in direction (0)
         move (4) steps
     end
-+   if <key (left arrow v) pressed? > then
++   if <key (стрілка ліворуч v) pressed? > then
         point in direction (-90)
         move (4) steps
     end
@@ -105,20 +105,20 @@ point in direction ()
 ```blocks3
 when flag clicked
 forever
-    if <key (up arrow v) pressed? > then
+    if <key (стрілка вгору v) pressed? > then
         point in direction (0)
         move (4) steps
     end
-    if <key (left arrow v) pressed? > then
+    if <key (стрілка ліворуч v) pressed? > then
         point in direction (-90)
         move (4) steps
     end
 
-+    if <key (down arrow v) pressed? > then
++    if <key (стрілка вниз v) pressed? > then
         point in direction (180)
         move (4) steps
     end
-+    if <key (right arrow v) pressed? > then
++    if <key (стрілка праворуч v) pressed? > then
         point in direction (90)
         move (4) steps
     end

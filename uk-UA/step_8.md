@@ -20,7 +20,7 @@
 when flag clicked
 go to x: (0) y: (-150)
 forever
-    if < touching (player v)? > then
+    if < touching (гравець v)? > then
         say [Ти знаєш, що можеш проходити крізь оранжеві та жовті двері?]
     else
         say []
@@ -40,7 +40,7 @@ end
 when flag clicked
 go to x: (0) y: (-150)
 forever
-    if < touching (player v)? > then
+    if < touching (гравець v)? > then
         say [Ти знаєш, що можеш проходити крізь оранжеві та жовті двері?]
     else
         say []

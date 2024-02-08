@@ -17,7 +17,7 @@ hide
 when flag clicked
 forever
 if <touching (гравець v)?> then
-stop [all v]
+stop [все v]
 
 when flag clicked
 go to x: (170) y:(0)

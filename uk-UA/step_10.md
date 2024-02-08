@@ -44,7 +44,7 @@ when flag clicked
 wait until <touching (гравець v)?>
 change [монети v] by (1)
 hide
-stop [other scripts in sprite v]
+stop [інші скрипти цього спрайту v]
 ```
 
 Код `зупинити інші скрипти цього спрайту`{:class="block3control"} потрібен, щоб спрайт `монета` перестав відображатися в кімнаті 1, коли його підібрали.

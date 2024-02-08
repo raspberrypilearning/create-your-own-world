@@ -25,9 +25,9 @@
 ![табличка](images/sign.png)
 
 ```blocks3
-<br />if < > then
+якщо < > то
 else
-end
+кінець
 
 < (кімната :: variables) = [1] >
 

@@ -47,7 +47,7 @@ when flag clicked
 wait until <touching (гравець v)?>
 add [синій ключ] to [інвентар v]
 hide
-stop [other scripts in sprite v]
+stop [інші скрипти цього спрайту v]
 ```
 
 --- /task ---
@@ -91,7 +91,7 @@ delete all of [інвентар v]
 ```blocks3
 when flag clicked
 wait until <[інвентар v] contains [синій ключ]?>
-stop [other scripts in sprite v]
+stop [інші скрипти цього спрайту v]
 hide
 ```
 

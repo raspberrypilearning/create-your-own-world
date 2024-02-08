@@ -25,19 +25,19 @@
 ```blocks3
 when flag clicked
 forever
-    if <key (up arrow v) pressed? > then
+    if <key (стрілка вгору v) pressed? > then
         point in direction (0)
         move (4) steps
     end
-    if <key (left arrow v) pressed? > then
+    if <key (стрілка ліворуч v) pressed? > then
         point in direction (-90)
         move (4) steps
     end
-        if <key (down arrow v) pressed? > then
+        if <key (стрілка вниз v) pressed? > then
         point in direction (180)
         move (4) steps
     end
-        if <key [right arrow v] pressed? > then
+        if <key [стрілка праворуч v] pressed? > then
         point in direction (90)
         move (4) steps
     end
@@ -45,9 +45,9 @@ forever
     move (-4) steps
     end
 +   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
+    switch backdrop to (наступне тло v)
     go to x: (-200) y: (0)
-    change [room v] by (1)
+    change [кімната v] by (1)
     end
 end
 ```
@@ -100,19 +100,19 @@ when flag clicked
 +go to x: (-200) y: (0)
 +switch backdrop to (кімната1 v)
 forever
-    if <key (up arrow v) pressed? > then
+    if <key (стрілка вгору v) pressed? > then
         point in direction (0)
         move (4) steps
     end
-    if <key (left arrow v) pressed? > then
+    if <key (стрілка ліворуч v) pressed? > then
         point in direction (-90)
         move (4) steps
     end
-        if <key (down arrow v) pressed? > then
+        if <key (стрілка вниз v) pressed? > then
         point in direction (180)
         move (4) steps
     end
-        if <key [right arrow v] pressed? > then
+        if <key [стрілка праворуч v] pressed? > then
         point in direction (90)
         move (4) steps
     end
@@ -120,9 +120,9 @@ forever
     move (-4) steps
     end
     if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
+    switch backdrop to (наступне тло v)
     go to x: (-200) y: (0)
-    change [room v] by (1)
+    change [кімната v] by (1)
 end
 end
 ```
