@@ -14,7 +14,7 @@
 
 --- hint ---
 
-`Όταν η σημαία πατηθεί`{:class="block3events"}, μέσα σε ένα `για πάντα`{:class="block3control"} βρόγχο επανάληψης, έλεγξε `εάν`{:class="block3control"} η `αίθουσα έχει τιμή 1`{:class="block3variables"} και τότε `εμφάνισε` το {:class="block3looks"} `σημάδι καλωσορίσματος`, `διαφορετικά`{:class="block3control"} `εξαφάνισε`{:class="block3looks"} το αντικείμενο.
+`Όταν η σημαία πατηθεί`{:class="block3events"}, μέσα σε ένα `για πάντα`{:class="block3control"} βρόγχο επανάληψης, έλεγξε `εάν`{:class="block3control"} η `αίθουσα έχει τιμή 1`{:class="block3variables"} και τότε `εμφάνισε`{:class="block3looks"} το  `σημάδι καλωσορίσματος`, `διαφορετικά`{:class="block3control"} `εξαφάνισε`{:class="block3looks"} το αντικείμενο.
 --- /hint --- 
 
 --- hint ---
