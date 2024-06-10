@@ -25,12 +25,12 @@
 ![παίκτης](images/player.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  εάν <πατήθηκε το πλήκτρο (Πάνω βέλος v) :: sensing> τότε 
-    στρίψε προς την κατεύθυνση των (0) μοιρών :: motion
-    κινήσου (4) βήματα :: motion :: control
-  end :: control
+when flag clicked
+forever
+	if <key (Πάνω βέλος v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
 end
 ```
 
@@ -51,16 +51,16 @@ end
 ![παίκτης](images/player.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  εάν <πατήθηκε το πλήκτρο (Πάνω βέλος v) :: sensing > τότε 
-    στρίψε προς την κατεύθυνση των (0) μοιρών :: motion
-    κινήσου (4) βήματα :: motion :: control
-  end
-  + εάν <πατήθηκε το πλήκτρο (αριστερό βέλος v) :: sensing > τότε 
-  +   στρίψε προς την κατεύθυνση των (-90) μοιρών :: motion
-  +   κινήσου (4) βήματα :: motion :: control
-  + end :: control
+when flag clicked
+forever
+	if <key (Πάνω βέλος v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
++	if <key (αριστερό βέλος v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
 end
 ```
 
@@ -88,38 +88,45 @@ end
 ![παίκτης](images/player.png)
 
 ```blocks3
-<πατήθηκε το πλήκτρο (  v) :: sensing>
-στρίψε προς την κατεύθυνση των (  ) μοιρών
+<key ( v) pressed>
+
+point in direction ()
 ```
 
 Κάνε ένα αντίγραφο του κώδικα που κάνει τον `παίκτη` να κινείται προς τα πάνω και άλλαξε αυτά τα δύο μπλοκ εντολών προκειμένου να τον κάνεις να μετακινηθεί προς τα κάτω. Κάνε ένα ακόμη αντίγραφο του κώδικα και άλλαξέ τον προκειμένου να μετακινείται ο παίκτης προς τα δεξιά.
 
---- /hint --- --- hint --- Να πώς πρέπει να είναι ο κώδικάς σου:
+--- /hint ---
+
+--- hint ---
+
+Να πώς πρέπει να είναι ο κώδικάς σου:
 
 ![παίκτης](images/player.png)
 
 ```blocks3
-Όταν στην πράσινη σημαία γίνει κλικ
-για πάντα 
-  εάν <πατήθηκε το πλήκτρο (Πάνω βέλος v) :: sensing > τότε 
-    στρίψε προς την κατεύθυνση των (0) μοιρών :: motion
-    κινήσου (4) βήματα :: motion :: control
-  end
-  εάν <πατήθηκε το πλήκτρο (αριστερό βέλος v) :: sensing > τότε 
-    στρίψε προς την κατεύθυνση των (-90) μοιρών :: motion
-    κινήσου (4) βήματα :: motion :: control
-  end
-  + εάν <πατήθηκε το πλήκτρο (κάτω βέλος v) :: sensing > τότε 
-  +   στρίψε προς την κατεύθυνση των (180) μοιρών :: motion
-  +   κινήσου (4) βήματα :: motion :: control
-  + end
-  + εάν <πατήθηκε το πλήκτρο [δεξί βέλος v] :: sensing > τότε 
-  +   στρίψε προς την κατεύθυνση των (90) μοιρών :: motion
-  +   κινήσου (4) βήματα :: motion :: control
-  + end :: control
+when flag clicked
+forever
+	if <key (Πάνω βέλος v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (αριστερό βέλος v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
++    if <key (κάτω βέλος v) pressed? > then
+		point in direction (180)
+		move (4) steps
+	end
++    if <key (δεξί βέλος v) pressed? > then
+		point in direction (90)
+		move (4) steps
+	end
 end
 ```
 
---- /hint --- --- /hints ---
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
