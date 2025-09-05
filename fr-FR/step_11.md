@@ -4,33 +4,33 @@ Tu vas maintenant ajouter du code pour que certaines des portes de ton monde de 
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+\--- task \--- Bascule sur le sprite `clé`. Clique sur `montrer`{:class="blocklooks"} dans le menu Scripts pour que le sprite apparaisse sur la scène.
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+\--- task \--- Modifie le costume du sprite `clé` de sorte qu'il soit bleu.
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+\--- task \--- Bascule ton décor de scène sur la salle 3 et place le sprite `clé` à un endroit difficile à atteindre!
 
-![screenshot](images/world-key.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `key` sprite to make it only visible in room 3.
+![capture d'écran](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+\--- task \--- Ajoute du code au sprite `clé` pour le rendre visible uniquement dans la salle 3.
+
+\--- /task \---
+
+\--- task \---
+
+\--- task \--- Crée une nouvelle liste appelée `inventaire`{:class="block3variables"} pour stocker les objets que ton sprite `joueur` collecte.
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,9 +38,9 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+\--- task \--- Le code que tu dois ajouter pour collecter la clé est très similaire au code pour collecter des pièces. La différence est que tu ajoutes la clé à `l'inventaire`{:class="block3variables"}.
 
-![key](images/key.png)
+![clé](images/key.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -54,39 +54,39 @@ stop [autres scripts dans sprite v]
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+\--- task \--- Ajoute du code sur ta scène pour vider ton inventaire au début de la partie.
 
 ```blocks3
-delete all of [inventory v]
+supprimer l'élément (tout v) de la liste [inventaire v]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+\--- task \--- Teste ton jeu pour vérifier si tu peux collecter le sprite `clé` et l'ajouter à ton inventaire.
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+\--- task \--- Ajoute maintenant la porte verrouillée. Sélectionne le sprite `porte-bleue` et clique sur `montrer`{:class="blocklooks} dans le menu Scripts, puis positionne le sprite sur l'interstice entre les deux murs.
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![capture d'écran](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+\--- task \--- Ajoute du code dans le sprite `porte-bleue` afin qu'il ne soit visible que dans la salle 3.
 
-![door](images/door.png)
+\--- /task \---
+
+\--- task \---
+
+\--- task \--- Ajoute du code au sprite `porte-bleue` de sorte que, lorsque la clé est dans `l'inventaire`{:class="block3variables"}, le sprite `se cache`{:class="block3looks"} pour permettre à ton sprite `joueur` de passer.
+
+![porte](images/door.png)
 
 ```blocks3
 lorsque le drapeau est cliqué 
@@ -99,6 +99,6 @@ cacher
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+\--- task \--- Teste ton jeu et vois si tu peux récupérer la clé bleue pour ouvrir la porte!
 
 \--- /task \---
