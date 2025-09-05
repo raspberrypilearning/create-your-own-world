@@ -1,67 +1,67 @@
-\--- no-print \---
+\--- bez tlačenia \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+Toto je verzia **Scratch 3** projektu. K dispozícii je aj verzia [Scratch 2 projektu](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
-## Introduction
+## Úvod
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+V tomto projekte sa naučíte, ako vytvoriť svoj vlastný svet dobrodružných hier s viacerými úrovňami na preskúmanie.
 
-### What you will make
+### Čo urobíte
 
-\--- no-print \---
+\--- bez tlačenia \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+Kliknutím na zelenú vlajku spustíte hru. Použitím kurzorových kláves sa môžete v hernom svete s vašou postavou pohybovať.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/showcase.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
-\--- print-only \---
+\--- len na tlač \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+Pomocou klávesov so šípkami presuňte svoju postavu na celom svete. ![showcase.png](images/showcase.png)
 
-\--- /print-only \---
+\--- / len na tlač \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## názov: Čo budete potrebovať
 
-### Hardware
+### Hardvér
 
-- A computer capable of running Scratch 3
+- Počítač schopný spustiť aplikáciu Scratch 3
 
-### Software
+### Softvér
 
 - Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### K stiahnutiu
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+Všetko, čo potrebujete na dokončenie tohto projektu, nájdete na stránke [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## názov: Čo sa naučíte
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+- Použite podmienený výber na reakciu na stlačenie tlačidiel
+- Použite premenné na uloženie stavu hry
+- Použite podmienený výber na základe hodnoty premennej
+- Použite zoznamy na uloženie údajov
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+\--- /collapse \---
+
+## \--- collapse \---
+
+## názov: Ďalšie informácie pre pedagógov
+
+Ak potrebujete tento projekt vytlačiť, použite [verziu určenú pre tlač](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){: target = "_ blank"}.
+
+Hotový projekt nájdeš [tu](https://rpf.io/p/en/create-your-own-world-get){:target="_ blank"}.
 
 \--- /collapse \---
