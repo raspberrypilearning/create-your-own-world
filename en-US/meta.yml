@@ -39,5 +39,5 @@ steps:
   - 
     title: 'Challenge: extend your world'
     challenge: true
-  - 
-    title: What next?
+    completion:
+      - external
