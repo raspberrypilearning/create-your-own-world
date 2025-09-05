@@ -57,7 +57,7 @@ atura [altres programes del personatge v]
 Afegeix codi al teu Escenari per buidar l’inventari al començament del joc.
 
 ```blocks3
-delete all of [inventory v]
+esborra-ho tot de [inventari v]
 ```
 
 \--- /task \---
