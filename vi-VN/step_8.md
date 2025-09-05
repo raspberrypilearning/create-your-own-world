@@ -54,7 +54,7 @@ end
 
 Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![screenshot](images/world-person-test.png)
+![ảnh chụp màn hình](images/world-person-test.png)
 
 \--- task \---
 
