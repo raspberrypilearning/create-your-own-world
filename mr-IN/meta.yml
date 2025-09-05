@@ -39,5 +39,5 @@ steps:
   - 
     title: 'आव्हान: तुमचे जग वाढवा'
     challenge: true
-  - 
-    title: पुढे काय?
+    completion:
+      - external
