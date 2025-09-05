@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+මෙය **Scratch 3** අනුවාදයේ ව්‍යාපෘතියක් වේ . මෙම ව්‍යාපෘතියේ [Scratch 2 අනුවාදයක් ද ඇත](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## හැදින්වීම
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### What you will make
+### ඔබ සාදන්නට යන දේ
 
 \--- no-print \---
 
@@ -29,17 +29,17 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ඔබට අවශ්‍ය දේ
 
-### Hardware
+### දෘඩාංග(Hardware)
 
-- A computer capable of running Scratch 3
+- Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
 
-### Software
+### මෘදුකාංග(Software)
 
 - Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### බාගන්න(Downloads)
 
 You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ඔබ ඉගෙන ගන්නා දේ
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -58,10 +58,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+ඔබට මෙම ව්‍යාපෘතිය මුද්‍රණය කිරීමට අවශ්‍ය නම්, කරුණාකර [මුද්‍රණ-හිතකාමී අනුවාදය(printer-friendly version)](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"} භාවිතා කරන්න .
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+[සම්පුර්ණ කරන ලද ව්‍යාපෘතිය(completed project here)](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"} ඔබට මෙහිදී බලගත හැකිය.
 
 \--- /collapse \---
