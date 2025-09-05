@@ -39,5 +39,5 @@ steps:
   - 
     title: 'Πρόκληση: Επέκτεινε τον κόσμο σου'
     challenge: true
-  - 
-    title: Τι υπάρχει στη συνέχεια;
+    completion:
+      - external
