@@ -33,11 +33,12 @@ sempre
     aponte para a direção (-90)
     mova (4) passos
   end
-  se <tecla (seta para baixo v) pressionada? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > então 
+  se <tecla (seta para baixo v) pressionada? quando ⚑ for clicado
++mude [sala v] para (1)
++vá para x: (-200) y: (0)
++mude para o cenário (sala1 v)
+sempre 
+  se <tecla (seta para cima v) pressionada? > então 
     aponte para a direção (90)
     mova (4) passos
   end
@@ -108,11 +109,9 @@ sempre
     aponte para a direção (-90)
     mova (4) passos
   end
-  se <tecla (seta para baixo v) pressionada? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > então 
+  se <tecla (seta para baixo v) pressionada? quando ⚑ for clicado
+sempre 
+  se <tecla (seta para cima v) pressionada? > então 
     aponte para a direção (90)
     mova (4) passos
   end
