@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## Inledning
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### What you will make
+### Vad du kommer att göra
 
 \--- no-print \---
 
@@ -29,13 +29,13 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Vad du behöver
 
-### Hardware
+### Hårdvara
 
-- A computer capable of running Scratch 3
+- En dator som kan hantera Scratch 3
 
-### Software
+### Programvara
 
 - Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## titel: Vad du kommer att lära dig
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
