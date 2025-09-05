@@ -25,11 +25,9 @@ se <tasto (freccia su v) premuto? > allora
     punta in direzione (-90)
     fai (4) passi
   end
-  se <tasto (freccia giu v) premuto? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? > allora 
+  se <tasto (freccia giu v) premuto? when flag clicked
+forever
+    if <key (freccia su v) pressed? > allora 
     punta in direzione (90)
     fai (4) passi
   end
