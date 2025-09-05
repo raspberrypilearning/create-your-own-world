@@ -1,8 +1,8 @@
-## Signs
+## Znakovi
 
-Now add signs to your world to guide players on their journey.
+Dodajmo u tvoj svijet znakove koji će voditi igrača na njegovom putovanju.
 
-Your project includes a `welcome sign` sprite:
+Tvoj projekat sadrži lik `znaka dobrodošlice`:
 
 ![screenshot](images/world-sign.png)
 
@@ -77,7 +77,7 @@ Test the code for your `welcome sign` sprite by moving between rooms. The sign s
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+Znak nije koristan ako ništa ne govori! Dodaj kôd da se prikaže poruka kada lik `znaka dobrodošlice` dodirne lik `igrača`:
 
 ![sign](images/sign.png)
 
