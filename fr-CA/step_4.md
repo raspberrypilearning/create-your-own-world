@@ -1,26 +1,26 @@
-## Move around your world
+## Déplace-toi dans ton monde
 
-The `player` sprite should be able to walk through doors into other rooms.
+Le sprite `joueur` doit être capable de marcher à travers les portes dans d'autres salles.
 
-Your project contains backdrops for additional rooms:
+Ton projet contient des arrières-plans pour des salles supplémentaires :
 
-![screenshot](images/world-backdrops.png)
+![capture d'écran](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+Crée une nouvelle variable 'pour toute les sprites' appelées `salle`{:class="block3variables"} pour savoir dans quelle pièce se trouve le sprite `joueur`.
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![capture d'écran](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+Lorsque le joueur ` ` sprite touche la porte orange dans la première salle, le jeu devrait afficher la toile de fond suivante et le joueur ` ` le sprite doit revenir sur le côté gauche de la scène. Ajoute ce code à l'intérieur du sprite `joueur` la boucle `répéter indéfiniment` {class="block3control"}:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -56,27 +56,27 @@ end
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+Chaque fois que le jeu commence, la pièce, la position du personnage et l'arrière-plan doivent être réinitialisés.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Ajoute du code au **début** de ton code sprite `joueur` au-dessus de la boucle `répéter indéfiniment`{:class="block3control"}, pour tout réinitialiser lorsque le drapeau est cliqué:
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+Quand le jeu commence:
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ La valeur de `salle`{:class="block3variables"} doit être définie sur `1`{:class="block3variables"}
++ `L'arrière-plan`{:class="block3looks"} doit être définie sur `salle1`{:class="block3looks"}
++ La position du joueur ` ` l'image-objet doit être définie sur ` x: -200 y: 0 ` {: class = "block3motion"}
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the extra blocks you need:
+Voici les blocs de code dont tu as besoin :
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 go to x: (-200) y: (0)
@@ -90,9 +90,9 @@ switch backdrop to (room1 v)
 
 \--- hint \---
 
-Here's what your finished script should look like:
+Voici à quoi devrait ressembler ton nouveau code :
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -135,8 +135,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+Clique sur le drapeau, puis déplace ton sprite `joueur` jusqu'à ce qu'il touche la porte orange. Le sprite passe-t-il à l'écran suivant? La variable `salle`{:class="block3variables"} passe-t-elle à `2`?
 
-![screenshot](images/world-room-test.png)
+![capture d'écran](images/world-room-test.png)
 
 \--- /task \---
