@@ -23,33 +23,34 @@
 ![플레이어](images/player.png)
 
 ```blocks3
-when flag clicked
+깃발이 클릭되었을 때
+무한반복 
+  만약 <키 (위쪽 화살표 v) 를 누른 상태라면? > 이라면
+   (0) 도 방향 보기
+   (4) 스텝 이동
+  종료
+  만약 <키 (왼쪽 화살표 v) 를 누른 상태라면? > 이라면
+        (-90) 도 방향 보기
+        (4) 스텝 움직이기
+    종료
+        만약 <키 (아래쪽 화살표 v) 를 누른 상태라면? when flag clicked
++set [방 번호 v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (방1 v)
 forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-    end
-end
+    if <key (up arrow v) pressed? > 이라면
+        (90) 도 방향 보기
+        (4) 스텝 이동
+    종료
+    만약 < 가 [#BABABA] 색상에 닿으면? > 이면
+  (-4) 스텝 이동
+  종료
++  만약 < [#F2A24A] 색상에 닿는 > 다면
+  배경을 (다음 배경 v) 으로 전환
+  x: (-200) y: (0) 으로 이동
+  [방 v] 을 (1) 만큼 변경
+  종료
+종료
 ```
 
 \--- /task \---
@@ -79,11 +80,11 @@ end
 ![플레이어](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+x: (-200) y: (0) 으로 이동
 
-set [room v] to (1)
+[방 v] 을 (1) 로 설정
 
-switch backdrop to (room1 v)
+배경을 (방1 v) 으로 전환
 ```
 
 \--- /hint \---
@@ -95,36 +96,34 @@ switch backdrop to (room1 v)
 ![플레이어](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
+깃발이 클릭되었을 때
++[방 v] 을 (1) 로 설정
++x: (-200) y: (0) 으로 이동
++배경을 (방1 v) 으로 이동
+무한반복
+    만약 <키 (위쪽 화살표 v) 를 누른 상태라면? > 이라면
+   (0) 도 방향 보기
+   (4) 스텝 이동
+  종료
+  만약 <키 (왼쪽 화살표 v) 를 누른 상태라면? > 이라면
+        (-90) 도 방향 보기
+        (4) 스텝 이동
+    종료
+        만약 <키 (아래쪽 화살표 v) 를 누른 상태라면? when flag clicked
 forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
-end
+    if <key (up arrow v) pressed? > 이라면
+        (90) 도 방향 보기
+        (4) 스텝 이동
+    종료
+    만약 < 가 [#BABABA] 색상에 닿으면? > 이라면
+  (-4) 스텝 이동
+  종료
+  만약 < [#F2A24A] 색상에 닿는 > 다면
+  배경을 (다음 배경 v) 으로 전환
+  x: (-200) y: (0) 으로 이동
+  [방 v] 을 (1) 만큼 변경
+종료
+종료
 ```
 
 \--- /hint \---
