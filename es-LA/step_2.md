@@ -2,23 +2,23 @@
 
 Empieza creando un objeto `jugador` que se pueda mover por tu mundo.
 
-\--- task \---
+\--- función \---
 
 Abre el proyecto de inicio de Scratch "Crea tu propio mundo".
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**En línea:** abre el proyecto de inicio en [scratch.mit.edu/projects/414615338](https://scratch.mit.edu/projects/414615338){:target="_blank"}.
 
 Si tiene una cuenta de Scratch, puede hacer una copia haciendo clic en ** Remix **.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Sin conexión:** descarga el proyecto de inicio desde [rpf.io/p/es-LA/create-your-own-world-go](https://rpf.io/p/es-LA/create-your-own-world-go) y luego ábrelo con el editor de Scratch sin conexión. Si necesitas descargar e instalar el editor offline de Scratch, puedes encontrarlo en [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![captura de pantalla](images/world-starter.png)
 
-\--- /task \---
+\--- / tarea \---
 
 Al presionar las teclas de flecha se moverá al objeto `jugador`. Cuando se presiona la flecha hacia arriba, el objeto `jugador` debe moverse hacia arriba en el escenario.
 
-\--- task \---
+\--- tarea \---
 
 Añade este código al objeto `jugador`:
 
@@ -34,9 +34,9 @@ forever
 end
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Haz clic en la bandera y mantén presionada la flecha hacia arriba. ¿El objeto `jugador` se mueve hacia arriba?
 
@@ -44,7 +44,7 @@ Haz clic en la bandera y mantén presionada la flecha hacia arriba. ¿El objeto 
 
 \--- /task \---
 
-\--- task \---
+\--- tarea \---
 
 Para mover el `jugador` hacia la izquierda tienes que añadir otro bloque `si`{:class="block3control"} con un código similar:
 
@@ -64,9 +64,9 @@ forever
 end
 ```
 
-\--- /task \---
+\--- / tarea \---
 
-\--- task \---
+\--- tarea \---
 
 Añade más código a tu objeto `jugador` para que pueda moverse también hacia abajo y hacia la derecha. Usa el código que ya tienes como ayuda.
 
