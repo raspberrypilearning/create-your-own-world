@@ -55,7 +55,7 @@ The code `stop other scripts in sprite`{:class="block3control"} is needed so tha
 
 Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
 
-![stage](images/stage.png)
+![játéktér](images/stage.png)
 
 ```blocks3
 when flag clicked
