@@ -4,7 +4,7 @@ Probeer een ander spel te maken door het [KATTEN!](https://projects.raspberrypi.
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+\--- no-print \--- Klik en sleep met de muis om een lijn met het potlood te tekenen. Je doel is te voorkomen dat de katten in gaten vallen door een veilig pad naar de uitgang te creëren.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,4 +18,4 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- /print-only \---
 
-If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Als je een spel wilt maken met Python in plaats van Scratch, probeer dan het project [RPG](https://projects.raspberrypi.org/nl-NL/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) uit.
