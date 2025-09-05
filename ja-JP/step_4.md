@@ -1,130 +1,133 @@
-## Move around your world
+## あなたの「世界」の中を動き回ろう
 
-The `player` sprite should be able to walk through doors into other rooms.
+`プレイヤー` スプライトはドアを通って他の部屋に入ることができるはずです。
 
-Your project contains backdrops for additional rooms:
+あなたのプロジェクトには追加の部屋の背景が含まれています。
 
-![screenshot](images/world-backdrops.png)
+![スクリーンショット](images/world-backdrops.png)
 
 \--- task \---
 
-Create a new 'for all sprites' variable called `room`{:class="block3variables"} to keep track of which room the `player` sprite is in.
+`ルーム`{：class = "block3variables"}という新しい 'スプライト全体' 変数を作成して、 `プレーヤー` スプライトがどの部屋にいるかを追跡できるようにしましょう。
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![スクリーンショット](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+`プレーヤー` スプライトが最初の部屋のオレンジ色のドアに触れると、ゲームは次の背景を表示し、 `プレーヤー` スプライトはステージの左側に戻るはずです。 以下のコードを`プレイヤー` スプライトの `無限ループ`{:class="block3control"}の中にを追加します。
 
-![player](images/player.png)
+![プレーヤー](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
+<キー（上向き矢印v）が押されたらフラグが永久に
+クリックしたとき
+ > 次に方向
+        指す（0）
+        移動する（4）ステップ
+    終了
+ <キー（左矢印v）を押すと？ > から
+        方向に
+ポイント（-90）
+        移動（4）ステップ
+    終了
+ <キー（下矢印v）が押されたら > then
         point in direction (180)
         move (4) steps
     end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-+   if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-    end
-end
+        if <key [right arrow v] pressed? > その後
+        方向（90）に点
+        の動きは（4）ステップ
+    の端部
+    であれば < [#BABABA】タッチ色？ > 次に
+    移動（-4）ステップ
+    終了
++ < タッチ色[＃F2A24A] > 次に
+    背景に（次の背景v）
+    に切り替える
+ xに移動：（-200）y：（0）
+    change [room] v]×（1）
+    端
+端
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+ゲームが始まるたびに、ルーム、キャラクターの位置、背景がリセットされる必要があります。
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+フラグがクリックされたときにすべてをリセットするには、 `プレーヤー` スプライトコードの**開始** 部分（ただし`無限ループ`{：class ="block3control"}の上）にコードを追加します。
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+ゲーム起動時：
 
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ `ルーム`{：class = "block3variables"}の値は、 `1`{：class = "block3variables"}に設定する必要があります。
++ `背景`{：class = "block3looks"}を `room1`{：class = "block3looks"}に設定します。
++ `プレイヤー` スプライトの位置は `x: -200 y: 0`{:class="block3motion"}に設定する必要があります
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the extra blocks you need:
+必要なコードブロックは次のとおりです。
 
-![player](images/player.png)
+![プレーヤー](images/player.png)
 
 ```blocks3
-go to x: (-200) y: (0)
+x：（-200）y：（0）
 
-set [room v] to (1)
+[room v]を（1）
 
-switch backdrop to (room1 v)
+背景を（room1 v）に切り替える
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Here's what your finished script should look like:
+完成したコードは次のようになっているはずです。
 
-![player](images/player.png)
+![プレーヤー](images/player.png)
 
 ```blocks3
-when flag clicked
-+set [room v] to (1)
-+go to x: (-200) y: (0)
-+switch backdrop to (room1 v)
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
+フラグがクリックされたときに
+設定+ [ルームV]（1）〜
++は、Xに移動します（-200）、Y（0）
++（ROOM1 V）に背景を切り替え
+永久
+    であれば <（矢印Vアップ）キーが押され？ > 次に方向
+        指す（0）
+        移動する（4）ステップ
+    終了
+ <キー（左矢印v）を押すと？ > から
+        方向に
+ポイント（-90）
+        移動（4）ステップ
+    終了
+ <キー（下矢印v）が押されたら > then
         point in direction (180)
         move (4) steps
     end
-        if <key [right arrow v] pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-    if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-    if < touching color [#F2A24A] > then
-    switch backdrop to (next backdrop v)
-    go to x: (-200) y: (0)
-    change [room v] by (1)
-end
-end
+        if <key [right arrow v] pressed? > その後
+        方向（90）に点
+        の動きは（4）ステップ
+    の端部
+    であれば < [#BABABA】タッチ色？ > 次に
+    の動きは（-4）ステップ
+    端
+    であれば < タッチ色[＃1 F2A24A] > 次いで
+    （次背景V）にスイッチ背景を
+    （-200）Y：（0）Xに移動
+    変化[部屋vを]（1）
+終了
+終了
 ```
 
 \--- /hint \---
@@ -135,8 +138,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+旗をクリックしてから、 `プレーヤー` スプライトをオレンジ色のドアに触れるまで動かします。 プレーヤースプライトは次の画面に移動しますか？ `ルーム`{:class="block3variables"}変数は `2` になりますか?
 
-![screenshot](images/world-room-test.png)
+![スクリーンショット](images/world-room-test.png)
 
 \--- /task \---
