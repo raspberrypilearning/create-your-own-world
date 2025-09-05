@@ -6,7 +6,7 @@
 
 'Create your own world' scratch স্টার্টার প্রকল্পটি খুলুন।.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online**: [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"} অনলাইন স্টার্টার প্রকল্পটি খুলুন.
 
 আপনার যদি scratch অ্যাকাউন্ট থাকে তবে আপনি **Remix** ক্লিক করে একটি অনুলিপি তৈরি করতে পারেন।.
 
