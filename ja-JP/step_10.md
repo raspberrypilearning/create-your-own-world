@@ -1,71 +1,71 @@
-## Collect coins
+## コインを集める
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+あなたの `プレイヤー` スプライトは、世界中を移動するにつれてコインを集めることができるはずです。
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+`時間` {:class = "block3variables"}という新しい変数をステージに追加します。
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+`コイン` のスプライトを選択し、 **表示**をクリックします。
 
-![screenshot](images/coin.png)
+![スクリーンショット](images/coin.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+`コイン` スプライトにコードを追加して、部屋1にのみ表示されるようにします。
 
-![screenshot](images/coin.png)
+![スクリーンショット](images/coin.png)
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[1]> then
-show
-else
-hide
+flagが永遠に
+クリックしたとき
+ <（room :: variables）=[1]>
+>
+それ以外のとき
+隠す
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+`コイン` スプライトにコードを追加して、`プレーヤー` スプライトが `コイン` スプライトにさわることによってこいんを「拾い上げる」と、スプライト が`非表示`{：class = "block3looks"}になり、 `1`{：class ="block3variables"}ポイントが `コイン`{：class="block3variables"}変数に追加されるようにします。
 
-![coin](images/coin.png)
+![コイン](images/coin.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
-hide
-stop [other scripts in sprite v]
+フラグがクリックされたときに
+になるまで待ち <touching (player v)?>
+変化[コインV]（1）によって
+隠す
+STOP [スプライトVの他のスクリプト]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+コード `スプライトの他のスクリプトを停止する`{:class="block3control"}は、 `コイン` スプライトが一たび拾い上げられると、とルーム1の中では非表示とするために必要となります。
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+次に、ゲーム開始時に `コイン`{:class="block3variables"}変数を `0`{:class="block3variables"}に設定するために、ステージにコードを追加します。
 
-![stage](images/stage.png)
+![ステージ](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [coins v] to [0]
+flagが
+クリックしたとき[coins v]を [0]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+あなたのゲーム（コード）をテストしましょう。 コインを集めると、 `コイン` スコアが `1`{:class="block3variables"}に変わるはずです。
 
 \--- /task \---
