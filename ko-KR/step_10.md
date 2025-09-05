@@ -23,12 +23,12 @@
 ![스크린샷](images/coin.png)
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[1]> then
-show
-else
-hide
+flag이 클릭되었을 때
+무한반복
+만약 <(방 :: 변수)=[1]> 이라면
+보이기
+만약 아니라면
+숨기기
 ```
 
 \--- /task \---
@@ -40,11 +40,11 @@ hide
 ![동전](images/coin.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-change [coins v] by (1)
-hide
-stop [other scripts in sprite v]
+깃발이 클릭되었을 때
+<(플레이어 v) 에 닿게?> 될 때까지 대기
+[동전 v] 를 (1) 만큼 변경
+숨기기
+[스프라이트v 내 기타 스크립트] 정지
 ```
 
 동전을 일단 줍게 되면 `동전` 스프라이트가 방1에 보이는 걸 중단하기 위해 `스프라이트 내 기타 스크립트 중지`{:class="block3control"} 코드가 필요합니다.
@@ -58,8 +58,8 @@ stop [other scripts in sprite v]
 ![스테이지](images/stage.png)
 
 ```blocks3
-when flag clicked
-set [coins v] to [0]
+깃발이 클릭되었을 때
+[동전 v] 를 [0] 으로 설정
 ```
 
 \--- /task \---
