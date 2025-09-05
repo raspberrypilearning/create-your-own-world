@@ -14,7 +14,7 @@ Switch to the `person` sprite.
 
 Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
 
-![person](images/person.png)
+![pessoa](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -34,7 +34,7 @@ end
 
 Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
 
-![person](images/person.png)
+![pessoa](images/person.png)
 
 ```blocks3
 when flag clicked
@@ -54,7 +54,7 @@ end
 
 Your `person` sprite will now move, but will stop to talk to the `player` sprite.
 
-![screenshot](images/world-person-test.png)
+![captura de ecrã](images/world-person-test.png)
 
 \--- task \---
 
