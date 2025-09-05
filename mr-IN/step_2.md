@@ -6,7 +6,7 @@
 
 'आपला स्वतःचा गेम तयार करा' Scratch स्टार्टर प्रकल्प उघडा.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**ऑनलाइन**: [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"} वर एक नवीन ऑनलाइन स्क्रॅच प्रकल्प उघडा.
 
 आपल्याकडे Scratch खाते असल्यास आपण **Remix** वर क्लिक करुन एक काॅपी बनवू शकता.
 
