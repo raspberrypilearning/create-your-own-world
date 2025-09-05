@@ -8,7 +8,7 @@
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+Το `σημάδι καλωσορίσματος` θα πρέπει να είναι ορατό μονάχα στην αίθουσα 1, έτσι θα πρέπει να προσθέσεις κώδικα στο αντικείμενο αυτό, προκειμένου να βεβαιωθείς πως αυτό επιτυγχάνεται:
 
 \--- hints \---
 
@@ -20,9 +20,9 @@ The `welcome sign` sprite should only be visible in room 1, so add some code to 
 
 \--- hint \---
 
-Here are the blocks you need:
+Εδώ είναι τα μπλοκ που χρειάζεστε:
 
-![sign](images/sign.png)
+![σημάδι](images/sign.png)
 
 ```blocks3
 <br />εάν < > τότε
@@ -48,7 +48,7 @@ end
 
 Here is the complete code:
 
-![sign](images/sign.png)
+![σημάδι](images/sign.png)
 
 ```blocks3
 όταν στην πράσινη σημαία γίνει κλικ
@@ -69,7 +69,7 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Test the code for your `welcome sign` sprite by moving between rooms. Το σημάδι θα πρέπει να είναι ορατό μονάχα στην αίθουσα 1.
 
 ![screenshot](images/world-sign-test.png)
 
@@ -77,9 +77,9 @@ Test the code for your `welcome sign` sprite by moving between rooms. The sign s
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+A sign isn't much good if it doesn't say anything! Πρόσθεσε επιπλέον κώδικα για να εμφανίζεται ένα μήνυμα όταν το `σημάδι καλωσορίσματος` αγγίξει το αντικείμενο `παίκτης`:
 
-![sign](images/sign.png)
+![σημάδι](images/sign.png)
 
 ```blocks3
 όταν στην πράσινη σημαία γίνει κλικ
@@ -101,7 +101,7 @@ end
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Test your `welcome sign` sprite again. Θα πρέπει τώρα να βλέπεις ένα μήνυμα όταν ο `παίκτης` αγγίζει το `σημάδι καλωσορίσματος`.
 
 ![screenshot](images/world-sign-test2.png)
 
