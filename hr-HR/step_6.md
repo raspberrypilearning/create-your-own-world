@@ -20,7 +20,7 @@ The `welcome sign` sprite should only be visible in room 1, so add some code to 
 
 \--- hint \---
 
-Here are the blocks you need:
+Ovdje su blokovi koji vam trebaju:
 
 ![sign](images/sign.png)
 
