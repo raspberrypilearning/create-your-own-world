@@ -1,22 +1,22 @@
-## Doors and keys
+## 门和钥匙
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+如果你的世界中有一些房门被锁上，玩家必须找到钥匙才能继续游戏，这时该怎么办？
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+切换到`钥匙`角色。 点击`显示`{:class="blocklooks"} 使门这个角色能在舞台中显示。
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+编辑 `钥匙` 子图的造型使其呈蓝色。
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+切换你的工作区背景至房间 3，并将 `钥匙` 子图放在难以到达的位置！
 
 ![screenshot](images/world-key.png)
 
@@ -24,13 +24,13 @@ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere diffi
 
 \--- task \---
 
-Add code to the `key` sprite to make it only visible in room 3.
+向 `钥匙` 子图添加代码以确保其仅在房间 3 中可见。
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+创建一个被称作 `库存`{:class="blockdata"}的新列表变量。此处将是你储存你的 `玩家` 子图收集到的所有物品的地方。
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,67 +38,67 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+收集钥匙的代码与收集硬币的代码十分相似。不同之处在于你将钥匙添加为库存。 区别是你需要将钥匙添加到 `背包`{:class="block3variables"}。
 
-![key](images/key.png)
+![钥匙](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+当绿旗被点击
+等待 <touching (player v)?>
+添加[inventory v到 [inventory v]
+隐藏
+停止 [该角色的其他脚本]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+测试你的 `钥匙` 子图，看看你是否能收集钥匙并将其添加到你的库存中。请记得向你的工作区添加代码以在游戏开始时清空你的库存。
 
 ```blocks3
-delete all of [inventory v]
+删除第 (全部 v) 项 \( [inventory v] \)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+测试你的 `钥匙` 子图，看看你是否能收集钥匙并将其添加到你的库存中。请记得向你的工作区添加代码以在游戏开始时清空你的库存。
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+现在，添加上锁的门。 选择`门` 的角色，然后点击`显示`{:class="blocklooks}，然后将角色放置在两个墙壁之间的空白处。
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![截屏](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+向 `蓝色房门` 子图添加代码，使其仅在房间 3 内可见。
 
-![door](images/door.png)
+\--- /task \---
+
+\--- task \---
+
+一旦你的库存中有了蓝色钥匙，`蓝色房门` 子图就会隐藏，以使你的 `玩家` 子图通过。
+
+![门](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+当绿旗被点击
+等待 <[背包]包含[钥匙]？>
+停止 [该角色的其他脚本] 
+隐藏
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+测试你的项目，看看你是否能收集蓝色钥匙来打开房门！
 
 \--- /task \---
