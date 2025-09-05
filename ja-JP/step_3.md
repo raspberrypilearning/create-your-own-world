@@ -1,50 +1,51 @@
-## Solid walls
+## 堅い壁
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls?
+`プレーヤー` スプライトをもう一度テストしてください。 プレイヤーが薄灰色の壁を歩いて通り抜けることができるのがわかりますか？
 
-![screenshot](images/world-walls.png)
+![スクリーンショット](images/world-walls.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+これを修正するには、 `プレーヤー` スプライトが薄い灰色の壁に接触した場合に、スプライトを後方に移動させる必要があります。 方向ブロックの下にある`無限ループ（forever）`{:class="block3control"}ブロック内に追加する必要があるコードは次の通りです。
 
-![player](images/player.png)
+![プレーヤー](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
+<キー（上向き矢印v）が押されたらフラグが永久に
+クリックしたとき
+ > 次に方向
+        指す（0）
+        移動する（4）ステップ
+    終了
+ <キー（左矢印v）を押すと？ > から
+        方向に
+ポイント（-90）
+        移動（4）ステップ
+    終了
+ <キー（下矢印v）が押されたら > then
         point in direction (180)
         move (4) steps
     end
-        if <key (right arrow v) pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-+   if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-end
+        if <key (right arrow v) pressed? > その後
+        方向を指す（90）
+        移動する（4）ステップ
+    終了
++ < [ < ]色に触れた場合、 > から
+    移動（-4）ステップ
+    終了
+終了
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+`プレイヤー` スプライトを壁を通り抜けることができるか試してみましょう。 あなたの新しいコードがうまく動作する場合は、通り抜けることができないはずです。
 
-![screenshot](images/world-walls-test.png)
+![スクリーンショット](images/world-walls-test.png)
 
 \--- /task \---
