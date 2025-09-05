@@ -12,15 +12,15 @@ Utwórz nową zmienną 'dla wszystkich duszków' o nazwie `pokój`{:class="block
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![zrzut ekranu](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Kiedy duszek `gracz` dotknie pomarańczowych drzwi w pierwszym pomieszczeniu, kolejne tło powinno być wyświetlone, a duszek `gracz` powinien wrócić na lewą stronę sceny. Dodaj ten kod dla duszka `gracz` wewnątrz pętli `zawsze`{:class="block3control"}:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -33,11 +33,12 @@ zawsze
         ustaw kierunek na (-90)
         przesuń o (4) kroki
     koniec
-        jeżeli <klawisz (strzałka w dół v) naciśnięty? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > to
+        jeżeli <klawisz (strzałka w dół v) naciśnięty? kiedy kliknięto zieloną flagę
++ustaw [pokój v] na (1)
++Idź do x: (-200) y: (0)
++zmień tło na (pokój1 v)
+zawsze 
+    jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
         ustaw kierunek na (90)
         przesuń o (4) kroki
     koniec
@@ -56,19 +57,19 @@ koniec
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Za każdym razem, gdy gra się rozpoczyna pokój, pozycja postaci i tło muszą być resetowane.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+\--- /hint \--- \--- hint \--- Oto, jak powinien wyglądać ukończony skrypt:
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+\--- hints \--- \--- hint \--- Kiedy gra się rozpoczyna:
 
 + Wartość zmiennej `pokój`{:class="block3variables"} powinna być ustawiona na `1`{:class="block3variables"}
 + `Tło`{:class="block3looks"} powinno być ustawione na `pokój1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ Pozycja duszka `gracz` powinna być ustawiona na `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Tutaj są dodatkowe bloki, których potrzebujesz:
 
 \--- /hint \---
 
@@ -76,7 +77,7 @@ When the game starts:
 
 Here are the extra blocks you need:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
 idź do x: (-200) y: (0)
@@ -92,7 +93,7 @@ przełącz tło na (pokój1 v)
 
 Here's what your finished script should look like:
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
@@ -108,11 +109,9 @@ zawsze
         ustaw kierunek na (-90)
         przesuń o (4) kroki
     koniec
-        jeżeli <klawisz (strzałka w dół v) naciśnięty? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > to
+        jeżeli <klawisz (strzałka w dół v) naciśnięty? kiedy kliknięto zieloną flagę
+zawsze 
+    jeżeli <klawisz (strzałka w górę v) naciśnięty? > to
         ustaw kierunek na (90)
         przesuń o (4) kroki
     koniec
@@ -135,8 +134,8 @@ koniec
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Kliknij flagę, a następnie idź swoim duszkiem `gracz`, aż dotknie pomarańczowych drzwi. Czy duszek przechodzi do następnego ekranu? Czy zmienna `pokój`{:class="block3variables"} zmienia się na `2`?
 
-![screenshot](images/world-room-test.png)
+![zrzut ekranu](images/world-room-test.png)
 
 \--- /task \---
