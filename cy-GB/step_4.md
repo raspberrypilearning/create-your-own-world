@@ -12,15 +12,15 @@ Byddi di angen newidyn newydd ‘ar gyfer pob ciplun’ o’r enw `ystafell`{:cl
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![sgrinlun](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Dyma’r côd fydd ei angen arno ti - fe ddylai gael ei osod tu fewn dolen `am byth`{:class="block3control"} y `chwaraewr`:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -58,7 +58,7 @@ end
 
 Every time the game starts, the room, character position, and backdrop need to be reset.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+\--- /hint \--- \--- hint \--- Dyma sut ddylai dy gôd edrych:
 
 \--- hints \---
 
@@ -68,7 +68,7 @@ When the game starts:
 
 + Fe ddylai gwerth `ystafell`{:class="block3variables"} gael ei osod i `1`{:class="block3variables"}
 + Fe ddylai y `cefndir`{:class="block3looks"} gael ei osod i `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ Fe ddylai lleoliad y `chwaraewr` gael ei osod i `x: -200 y: 0`{:class="block3motion"} \--- /hint \--- \--- hint \--- Dyma'r blociau ychwanegol sydd eu hangen:
 
 \--- /hint \---
 
@@ -76,7 +76,7 @@ When the game starts:
 
 Here are the extra blocks you need:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 mynd i x: (-200) y: (0)
@@ -92,7 +92,7 @@ newid cefndir i (room1 v)
 
 Here's what your finished script should look like:
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -135,8 +135,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+Click the flag, and then move your `player` sprite until it touches the orange door. Ydy'r corlun yn symud i'r sgrin nesaf? Ydy'r `ystafell`{:class="block3variables"} yn newid i `2`?
 
-![screenshot](images/world-room-test.png)
+![sgrinlun](images/world-room-test.png)
 
 \--- /task \---
