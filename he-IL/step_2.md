@@ -8,11 +8,11 @@ Open the 'Create your own world' Scratch starter project.
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+אם יש לך חשבון Scratch, באפשרותך ליצור עותק על-ידי לחיצה על ** כניסה **.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. אם עליך להוריד ולהתקין את העורך הלא מקוון של Scratch, תוכל למצוא אותו בכתובת [ rpf.io/scratchoff ](https://rpf.io/scratchoff) {:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![צילום מסך](images/world-starter.png)
 
 \--- /task \---
 
@@ -40,7 +40,7 @@ end
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![screenshot](images/world-up.png)
+![צילום מסך](images/world-up.png)
 
 \--- /task \---
 
