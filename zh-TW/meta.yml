@@ -39,5 +39,5 @@ steps:
   - 
     title: '挑戰：拓展你的世界'
     challenge: true
-  - 
-    title: 然後呢？
+    completion:
+      - external
