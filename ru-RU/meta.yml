@@ -39,5 +39,5 @@ steps:
   - 
     title: 'Задача: расширь свой мир'
     challenge: true
-  - 
-    title: Что дальше?
+    completion:
+      - external
