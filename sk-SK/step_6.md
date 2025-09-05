@@ -1,10 +1,10 @@
-## Signs
+## Značky
 
-Now add signs to your world to guide players on their journey.
+Teraz pridajte značky do vášho sveta, aby ste sa naučili hráčov na ich ceste.
 
-Your project includes a `welcome sign` sprite:
+Váš projekt obsahuje `vítaný znak` sprite:
 
-![screenshot](images/world-sign.png)
+![snímka obrazovky](images/world-sign.png)
 
 \--- task \---
 
@@ -25,20 +25,20 @@ Here are the blocks you need:
 ![sign](images/sign.png)
 
 ```blocks3
-<br />if < > then
-else
-end
+<br />ak < > potom
+iný
+koniec
 
-< (room :: variables) = [1] >
+< (miestnosť :: premenné) = [1] >
 
-hide
+skryť
 
-show
+zobraziť
 
-forever
-end
+navždy
+koniec
 
-when flag clicked
+keď klepol vlajku
 
 ```
 
@@ -51,14 +51,14 @@ Here is the complete code:
 ![sign](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
+keď vlajka klikne
+navždy
+    ak < (miestnosť :: premenné) = [1] > potom
+        zobraziť
+    iný
+        skryť
+    koniec
+koniec
 ```
 
 \--- /hint \---
@@ -71,7 +71,7 @@ end
 
 Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-![screenshot](images/world-sign-test.png)
+![snímka obrazovky](images/world-sign-test.png)
 
 \--- /task \---
 
@@ -82,19 +82,19 @@ A sign isn't much good if it doesn't say anything! Add some more code to display
 ![sign](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
+keď sa klavírka na
+navždy
+ak < (miestnosť :: premenné) = [1] > potom
+zobrazuje
+iný
+skryť
+koniec
++ ak sa < dotýka (hráč v)? > potom
+povedzte [Vitajte! Môžete sa dostať k pokladu?]
+iný
+povedať []
+koniec
+koniec
 ```
 
 \--- /task \---
@@ -103,6 +103,6 @@ end
 
 Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
 
-![screenshot](images/world-sign-test2.png)
+![snímka obrazovky](images/world-sign-test2.png)
 
 \--- /task \---
