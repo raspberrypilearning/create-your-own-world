@@ -39,5 +39,5 @@ steps:
   - 
     title: 'Desafio: expanda seu mundo'
     challenge: true
-  - 
-    title: E agora?
+    completion:
+      - external
