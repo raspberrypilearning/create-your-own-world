@@ -1,16 +1,16 @@
-## Move the player sprite
+## Pomakni sprite igrača
 
-Start by creating a `player` sprite that can move around your world.
+Započnite stvaranjem ` playera ` sprite koji se može kretati po vašem svijetu.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Otvorite početni projekt "Stvorite svoj svijet".
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ako imate Scratch račun, možete napraviti kopiju klikom na ** Remix **.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Ako trebate preuzeti i instalirati izvanmrežni Scratch editor, možete ga pronaći na [ rpf.io/scratchoff ](https://rpf.io/scratchoff) {: Target = "_ blank"}.
 
 ![screenshot](images/world-starter.png)
 
@@ -98,7 +98,7 @@ Duplicate the code that makes the `player` sprite move upwards, and change these
 
 \--- hint \---
 
-Here is how your code should look:
+Ovako bi tvoj kôd trebao izgledati:
 
 ![player](images/player.png)
 
