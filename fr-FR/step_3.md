@@ -2,17 +2,17 @@
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls?
+\--- task \--- Teste à nouveau ton sprite `joueur`. Vois-tu qu'il peut traverser les murs gris clair.
 
-![screenshot](images/world-walls.png)
+![capture d'écran](images/world-walls.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+\--- task \--- Pour résoudre ce problème, tu dois faire reculer le sprite `joueur` s'il touche un mur gris clair. Voici le code que tu dois ajouter dans ton bloc `répéter indéfiniment`{:class="block3control"} sous les blocs de direction:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -25,11 +25,9 @@ si <touche (flèche de gauche v) pressée ? > alors
         s'orienter en direction de (-90)
         avancer de (4) pas
     end
-        si < touche (flèche du bas v) pressée ? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? > alors
+        si < touche (flèche du bas v) pressée ? lorsque le drapeau est cliqué
+répéter indéfiniment 
+    si <touche (flèche haut v) pressée ? > alors
         s'orienter en direction de (90)
         avancer de (4) pas
     end
@@ -43,8 +41,8 @@ end
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+Essaye de faire en sorte que le sprite `joueur` passe à travers un mur. Si ton nouveau code fonctionne, cela ne devrait pas être possible.
 
-![screenshot](images/world-walls-test.png)
+![capture d'écran](images/world-walls-test.png)
 
 \--- /task \---
