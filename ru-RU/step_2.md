@@ -6,11 +6,11 @@
 
 Открой начальный проект Scratch под названием "Создай свой собственный мир".
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Онлайн**: открой стартовый проект по адресу [scratch.mit.edu/projects/396456937](https://scratch.mit.edu/projects/396456937){:target="_blank"}.
 
 Если у тебя есть учетная запись в Scratch, то ты можешь сделать копию проекта, нажав **Ремикс**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Если тебе нужно скачать и установить оффлайн редактор Скретч, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Оффлайн**: скачай стартовый проект с [rpf.io/p/ru-RU/create-your-own-world-go](https://rpf.io/p/ru-RU/create-your-own-world-go){:target="_blank"} и затем открой его с помощью оффлайн редактора. Если тебе нужно скачать и установить оффлайн редактор Скретч, ты можешь найти его по адресу [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![снимок экрана](images/world-starter.png)
 
