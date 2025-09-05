@@ -1,4 +1,4 @@
-## Solid walls
+## Pomjeranje lika `igrača`
 
 \--- task \---
 
