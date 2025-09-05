@@ -4,15 +4,15 @@
 
 \--- task \---
 
-Switch to the `person` sprite.
+Πήγαινε στο αντικείμενο `Άτομο`.
 
-![Person sprite](images/person.png)
+![Αντικείμενο Άτομο](images/person.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+Add some code to the `person` sprite so that the person talks to the `player` sprite. Αυτός ο κώδικας είναι παρόμοιος με τον κώδικα που πρόσθεσες στο αντικείμενο `σημάδι`:
 
 ![άτομο](images/person.png)
 
@@ -32,9 +32,9 @@ end
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+Κάνε το `Άτομο` να μετακινείται προσθέτοντας αυτά τα δύο μπλοκ εντολών μέσα στο τμήμα `αλλιώς`{:class="block3control"} του κώδικα:
 
-![person](images/person.png)
+![άτομο](images/person.png)
 
 ```blocks3
 όταν πράσινη σημαία γίνει κλικ
@@ -52,14 +52,14 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Τώρα το `Άτομο` θα μετακινηθεί αλλά θα σταματήσει για να μιλήσει με τον `παίκτη`.
 
 ![screenshot](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+Add code to your new `person` sprite so that the sprite only appears in room 1. Ο κώδικας που χρειάζεσαι είναι ακριβώς ο ίδιος με αυτόν που έκανε το αντικείμενο `σημάδι` να είναι ορατό μονάχα στην αίθουσα 1.
 
-Make sure you test out your new code.
+Σιγουρέψου πως έλεγξες το νέο σου κώδικα.
 
 \--- /task \---
