@@ -6,13 +6,13 @@ Fe awn ati i ychwanegu pobl arall i dy fyd mae modd i dy `chwaraewr` ryngweithio
 
 Switch to the `person` sprite.
 
-![Person sprite](images/person.png)
+![Corlun person](images/person.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+Add some code to the `person` sprite so that the person talks to the `player` sprite. Mae'r côd yn derbyg iawn i'r un wnes di ei ychwanegu i'r `arwydd`:
 
 ![person](images/person.png)
 
@@ -52,14 +52,14 @@ end
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+Bydd dy `berson` nawr yn symud, ond yn stopio i siarad gyda'r `chwaraewr`.
 
-![screenshot](images/world-person-test.png)
+![sgrinlun](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+Add code to your new `person` sprite so that the sprite only appears in room 1. Fe ddylai'r côd fod union yr un peth â'r côd sydd yn gwneud i'r `arwydd` ymddangos yn ystafell 1.
 
-Make sure you test out your new code.
+Gwna'n siwr dy fod di'n profi dy gôd.
 
 \--- /task \---
