@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Prueba de nuevo tu objeto `jugador`. Do you see that it can walk through the light grey walls?
+Prueba de nuevo tu objeto `jugador`. ¿Ves que puede atravesar las paredes de color gris claro?
 
 ![captura de pantalla](images/world-walls.png)
 
@@ -25,11 +25,9 @@ por siempre
     apuntar en dirección (-90)
     mover (4) pasos
   end
-  si <¿tecla (flecha abajo v) presionada? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? > entonces 
+  si <¿tecla (flecha abajo v) presionada? when flag clicked
+forever
+    if <key (flecha arriba v) pressed? > entonces 
         apuntar en dirección (90)
         mover (4) pasos
     fin
