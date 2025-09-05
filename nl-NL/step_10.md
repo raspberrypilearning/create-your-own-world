@@ -4,13 +4,13 @@ Je `speler` sprite zou in staat moeten zijn munten te verzamelen terwijl deze do
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+\--- task \--- Voeg een nieuwe variabele `munten`{:class="block3variables"} toe aan je project.
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+\--- task \--- Selecteer de `munt` sprite en klik op **toon**.
 
 ![screenshot](images/coin.png)
 
@@ -18,7 +18,7 @@ Select the `coin` sprite and click **show**.
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+De code `stop andere scripts in sprite`{:class="block3control"} is nodig, zodat de `munt` sprite niet meer is te zien in kamer 1 nadat het is opgepakt.
 
 ![screenshot](images/coin.png)
 
@@ -35,9 +35,9 @@ verdwijn
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Voeg code toe aan de `munt` sprite zodat de spite `verdwijnt`{:class="block3looks"} en `1` wordt opgeteld bij de `munten`{:class="block3variables"} variabele als de `speler` sprite de `munt` sprite aanraakt om die 'op te pakken'.
 
-![coin](images/coin.png)
+![munt](images/coin.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -47,15 +47,15 @@ verdwijn
 stop [andere scripts in sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+\--- task \--- Voeg code toe aan je nieuwe `munt` sprite zodat de sprite alleen in kamer 1 verschijnt.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+\--- task \--- Voeg nu code toe aan het speelveld om je `munten`{:class="block3variabeles"} variabele aan het begin van het spel in te stellen op `0`{:class="block3variables"}.
 
-![stage](images/stage.png)
+![speelveld](images/stage.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -66,6 +66,6 @@ maak [munten v] [0]
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+\--- task \--- Test je spel. Het verzamelen van een munt moet je `munten` score met `1`{:class="block3variables"} verhogen.
 
 \--- /task \---
