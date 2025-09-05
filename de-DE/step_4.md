@@ -12,13 +12,13 @@ Erstelle eine neue Variable "für alle Figuren" mit dem Namen `Raum`{:class="blo
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![Screenshot](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Wenn die `Spieler`-Figur die orangefarbene Tür im ersten Raum berührt, soll das nächste Bühnenbild angezeigt werden und die `Spieler`-Figur soll zurück zur linken Seite der Bühne bewegt werden. Füge diesen Code innerhalb der `wiederholen fortlaufend`{:class="block3control"}-Schleife deiner `Spieler`-Figur ein:
 
 ![player](images/player.png)
 
@@ -52,19 +52,19 @@ end
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Bei jedem Spielstart müssen Raum, Charakterposition und Hintergrund zurückgesetzt werden.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Füge Code am **Anfang** des Skripts deiner `Spieler`-Figur über der `fortlaufend wiederhole`{:class="block3control"}-Schleife hinzu, um alles wieder auf Anfang zu setzten, wenn die grüne Flagge angeklickt wird:
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+\--- hints \--- \--- hint \--- Wenn das Spiel beginnt:
 
 + Der Wert von `Raum` {:class="block3variables"} sollte auf `1`{:class="block3variables"} gesetzt werden
 + Das `Bühnenbild`{:class="block3look"} sollte auf `Raum1`{:class="block3look"} gesetzt werden
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ Die Position der `Spieler`-Figur sollte auf `x: -200 y: 0`{:class="block3motion"} gesetzt werden \--- /hint \--- \--- hint \--- Hier sind die zusätzlichen Blöcke, die du benötigst:
 
 \--- /hint \---
 
@@ -86,7 +86,7 @@ wechsle zu Bühnenbild (Raum1 v)
 
 \--- hint \---
 
-Here's what your finished script should look like:
+\--- /hint \--- \--- hint \--- So sollte dein fertiges Skript aussehen:
 
 ![player](images/player.png)
 
@@ -127,8 +127,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Klicke auf die Flagge und bewege dann deine `Spieler`-Figur bis sie die orange Tür berührt. Bewegt sich deine Figur zum nächsten Zimmer? Ändert sich die Variable `Raum`{:class="block3variables"} zu `2`?
 
-![screenshot](images/world-room-test.png)
+![Screenshot](images/world-room-test.png)
 
 \--- /task \---
