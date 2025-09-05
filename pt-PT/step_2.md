@@ -8,11 +8,11 @@ Open the 'Create your own world' Scratch starter project.
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![captura de ecrã](images/world-starter.png)
 
 \--- /task \---
 
@@ -22,7 +22,7 @@ Pressing the arrow keys should move the `player` sprite around. When the up arro
 
 Add this code to the `player` sprite:
 
-![player](images/player.png)
+![jogador](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -40,7 +40,7 @@ end
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![screenshot](images/world-up.png)
+![captura de ecrã](images/world-up.png)
 
 \--- /task \---
 
@@ -48,7 +48,7 @@ Click the flag and then hold down the up arrow. Does the `player` sprite move up
 
 To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
 
-![player](images/player.png)
+![jogador](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -84,7 +84,7 @@ To move left, you point the sprite in the direction `-90` degrees. What do you h
 
 You need to change these two blocks:
 
-![player](images/player.png)
+![jogador](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -100,7 +100,7 @@ Duplicate the code that makes the `player` sprite move upwards, and change these
 
 Here is how your code should look:
 
-![player](images/player.png)
+![jogador](images/player.png)
 
 ```blocks3
 when flag clicked
