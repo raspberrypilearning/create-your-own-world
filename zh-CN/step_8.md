@@ -1,65 +1,65 @@
-## People
+## 人物
 
-Add other people to your world who your `player` sprite can interact with.
+让我们来向你的世界添加一些其他人物，你的 `玩家` 子图可与之进行互动。
 
 \--- task \---
 
-Switch to the `person` sprite.
+切换至 `人物` 子图。
 
-![Person sprite](images/person.png)
+![人精灵](images/person.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+在`人物`角色中添加一些代码，使它可以与`玩家`对话。 这个代码和之前在`欢迎标志`角色中的代码非常相似。
 
-![person](images/person.png)
+![images/person-sprite.png](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
-end
+当绿旗被点击
+移到x: (0) y: (-150)
+重复执行
+    如果 < 碰到 (player v)? > 那么
+        说[你知道你可以通过橙色和黄色的门吗？]
+    否则
+        说[]
+    结束
+结束
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+你还可以通过在你代码的 `否则`{:class="blockcontrol"}部分添加这两个代码块，让你的 `人物` 子图移动：
 
-![person](images/person.png)
+![人物](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
-end
+当绿旗被点击
+移到x: (0) y: (-150)
+重复执行
+    如果 < 碰到 (player v)? > 那么
+        说[你知道你可以通过橙色和黄色的门吗？]
+    否则
+        说[]
++       移动 (1) 步
++       碰到边缘就反弹
+    结束
+结束
 ```
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+你的 `人物` 子图现在将会移动，但会停下来和 `玩家` 子图交谈。
 
-![screenshot](images/world-person-test.png)
+![截屏](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+添加新的代码到`人物`角色中使角色只出现在房间1中。 其中所需要的代码和`欢迎标志`角色中的仅房间1显示相同。
 
-Make sure you test out your new code.
+完成以后，确保测试一下你的新代码。
 
 \--- /task \---
