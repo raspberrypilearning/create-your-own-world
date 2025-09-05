@@ -39,5 +39,5 @@ steps:
   - 
     title: '도전 과제: 나만의 세계 넓히기'
     challenge: true
-  - 
-    title: 다음은?
+    completion:
+      - external
