@@ -7,26 +7,24 @@
 + 코드를 추가해 `적` 스프라이트가 움직이고 `적` 스프라이트가 `플레이어` 스프라이트에 닿으면 게임이 종료되게 합니다. 분리된 코드 블럭으로 진행하는 게 보다 용이합니다. `적` 스프라이트 코드는 다음과 같습니다:
 
 ```blocks3
-when flag clicked
-forever
-if <(room :: variables)=[2]> then
-show
-else
-hide
+깃발이 클릭되었을 때
+무한반복
+만약 <(방 :: 변수)=[2]> 이라면
+보이기
+만약 아니라면
+숨기기
 
-when flag clicked
-forever
-if <touching (player v)?> then
-stop [all v]
+깃발이 클릭되었을 때
+무한반복
+만약 <(플레이어 v) 에 닿는다?> 라면
+[모든 v] 정지
 
-when flag clicked
-go to x: (170) y:(0)
-forever
-repeat (130)
-change x by (-1)
-end
-repeat (130)
-change x by (1)
+깃발이 클릭되었을 때
+x: (170) y:(0) 으로 이동
+무한반복
+(130) 반복
+x 를 (-1) 만큼 변경
+종료
 ```
 
 + 새 코드를 테스트해 다음을 확인합니다: 
