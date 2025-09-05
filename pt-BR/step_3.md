@@ -25,11 +25,9 @@ sempre
     aponte para a direção (-90)
     mova (4) passos
   end
-  se <tecla (seta para baixo v) pressionada? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? > então 
+  se <tecla (seta para baixo v) pressionada? when flag clicked
+forever
+    if <key (seta para cima v) pressed? > então 
     aponte para a direção (90)
     mova (4) passos
   end
