@@ -33,11 +33,9 @@ forever
         point in direction (-90)
         move (4) steps
     end
-        if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
+        if <key (down arrow v) pressed? when flag clicked
+forever
+    if <key (up arrow v) pressed? > then
         point in direction (90)
         move (4) steps
     end
@@ -108,11 +106,12 @@ forever
         point in direction (-90)
         move (4) steps
     end
-        if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > then
+        if <key (down arrow v) pressed? when flag clicked
++set [habitación v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (habitación1 v)
+forever
+    if <key (up arrow v) pressed? > then
         point in direction (90)
         move (4) steps
     end
