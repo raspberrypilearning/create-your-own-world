@@ -1,22 +1,22 @@
-## Doors and keys
+## Vrata i ključevi
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Kako bi bilo da neka od vrata u tvom svijetu budu zaključana i da igrač mora da nađe ključ da bi nastavio dalje?
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+Pređi na lik `ključa`. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+Izmijeni kostim lika `ključa` da bude plave boje.
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+Postavi da pozadina Pozornice bude soba 3 i postavi lik `ključa` na neko mjesto do kojeg je teško doći!
 
 ![screenshot](images/world-key.png)
 
@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-delete all of [inventory v]
+delete (all v) of [inventar v]
 ```
 
 \--- /task \---
@@ -78,7 +78,7 @@ Now add the locked door. Select the `door-blue` sprite and click on `show`{:clas
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+Dodaj kôd liku `plavih vrata` tako da se pojavljuje samo u sobi 3.
 
 \--- /task \---
 
