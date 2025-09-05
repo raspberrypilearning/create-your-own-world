@@ -1,10 +1,10 @@
-## Challenge: add an enemy
+## Izazov: neprijatelji
 
 If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Your game already contains an `enemy` sprite. Dodaj kôd liku `neprijatelja` tako da se pojavljuje samo u sobi 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. Ovo je lakše uraditi u odvojenim blokovima kôda. Ovako bi mogao da izgleda kôd tvog lika `neprijatelja`:
 
 ```blocks3
 when flag clicked
@@ -29,11 +29,11 @@ repeat (130)
 change x by (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Isprobaj svoj lik `neprijatelja` da se uvjeriš u sljedeće: 
+    + Da je vidljiv samo u sobi 2
+    + Da patrolira po sobi
+    + Da se igra završava ako ga lik `igrača` dodirne
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Da li možeš u sobi 3 da kreiraš još jedan lik `neprijatelja` koji patrolira gore-dolje kroz otvor u zidu?
 
 ![screenshot](images/world-enemy2.png)
