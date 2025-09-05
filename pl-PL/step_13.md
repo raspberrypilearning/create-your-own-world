@@ -4,7 +4,7 @@ Spróbuj stworzyć kolejną grę w projekcie [KOTY!](https://projects.raspberryp
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+\--- no-print \--- Kliknij i przeciągnij myszą, aby narysować linię ołówkiem. Twoim celem jest uratowanie kotów przed wpadnięciem do dziur poprzez stworzenie bezpiecznej ścieżki do wyjścia.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,4 +18,4 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- /print-only \---
 
-If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Jeśli chcesz stworzyć grę używając języka Python zamiast Scratch, wypróbuj projekt [RPG](https://projects.raspberrypi.org/pl-PL/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
