@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+このプロジェクトは **Scratch 3** バージョンを使っています。 </a>Scratch 2バージョンを使うプロジェクトもあります。</p> 
 
 \--- /no-print \---
 
-## Introduction
+## はじめに
 
-In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
+このプロジェクトでは、探索するための複数のレベルを持つ独自のアドベンチャーゲームの世界を作成する方法を学びます。
 
-### What you will make
+### 作るもの
 
 \--- no-print \---
 
-Click the green flag to start. Use the arrow keys to move your character around in the world.
+緑色の旗をクリックして開始します。 あなたのキャラクターを世界中に動かすには矢印キーを使ってください。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/258757783/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -23,45 +23,45 @@ Click the green flag to start. Use the arrow keys to move your character around 
 
 \--- print-only \---
 
-You'll use the arrow keys to move your character around in the world. ![showcase.png](images/showcase.png)
+あなたは世界中であなたのキャラクターを動かすのに矢印キーを使うでしょう。 ![showcase.png](images/showcase.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 必要なもの
 
-### Hardware
+### ハードウェア
 
-- A computer capable of running Scratch 3
+- Scratch 3を実行できるコンピュータ
 
-### Software
+### ソフトウェア
 
-- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 ([オンライン](https://rpf.io/scratchon){:target="_blank"}または[オフライン](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### ダウンロード
 
-You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use conditional selection to react to key presses
-- Use variables to store a game's state
-- Use conditional selection based on the value of a variable
-- Use lists to store data
+このプロジェクトを完成させるために必要なものはすべて以下のサイトにあります。 [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: 学習すること
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+- 条件付き選択を使用してキーの押下に反応する
+- 変数を使ってゲームの状態を保存する
+- 変数の値に基づいて条件付き選択を使用する
+- リストを使ってデータを保存する
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title：教育者向けの追加情報
+
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_ blank"}を使用してください。
+
+[ここで完成したプロジェクト](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}を見ることができます 。
 
 \--- /collapse \---
