@@ -4,7 +4,7 @@ Rho gynnig ar greu gêm trwy weithio trwy'r prosiect [CATS!](https://projects.ra
 
 \--- no-print \---
 
-Click and drag with the mouse to draw a line with the pencil. Your goal is to stop the cats from falling into holes by creating a safe path to the exit.
+Click and drag with the mouse to draw a line with the pencil. Dy fwriad yw stopio'r cathod rhag cwympo mewn i dyllau gan greu llwybrau saff iddynt ddianc.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/253667883/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -18,4 +18,4 @@ Click and drag with the mouse to draw a line with the pencil. Your goal is to st
 
 \--- /print-only \---
 
-If you want to make a game using Python instead of Scratch, try out the [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project.
+Os hoffet ti greu gêm yn defnyddio Python yn lle Scratch, rho gynnig ar y prosiect [RPG](https://projects.raspberrypi.org/en/projects/rpg?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects).
