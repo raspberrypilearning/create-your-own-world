@@ -37,7 +37,7 @@
 
 ### Программное обеспечение
 
-- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 ([онлайн](https://rpf.io/scratchon){:target="_blank"} или [оффлайн](https://rpf.io/scratchoff){:target="_blank"} версия)
 
 ### Загрузки
 
