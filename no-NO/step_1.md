@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## Introduksjon
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### What you will make
+### Hva du vil lage
 
 \--- no-print \---
 
@@ -29,17 +29,17 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Hva dere trenger
 
-### Hardware
+### Maskinvare
 
-- A computer capable of running Scratch 3
+- En datamaskin som kan kjøre Scratch 3
 
-### Software
+### Programvare
 
 - Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Nedlastninger
 
 You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Hva du vil lære
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -58,10 +58,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Tilleggsinformasjon for lærere
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Hvis du trenger å skrive ut dette prosjektet, bruk den [utskriftsvennlige versjonen](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Du kan finne det [ferdige prosjektet her](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
 
 \--- /collapse \---
