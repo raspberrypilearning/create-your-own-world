@@ -25,11 +25,9 @@
         面朝 (-90) 度
         移動 (4) 點
     end
-    如果 <(向下 v) 鍵被按下？ > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? > 那麼
+    如果 <(向下 v) 鍵被按下？ when flag clicked
+forever
+    if <key (向上 v) pressed? > 那麼
         面朝 (90) 度
         移動 (4) 點
     end
