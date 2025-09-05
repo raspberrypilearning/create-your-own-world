@@ -4,23 +4,23 @@ Ton sprite `joueur` devrait pouvoir collecter des pièces lorsqu'il se déplace 
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+\--- task \--- Ajouter une nouvelle variable appelée `pièces`{:class="block3variables"} à ton projet.
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+\--- task \--- Sélectionne le sprite `pièce` et clique sur **afficher**.
 
-![screenshot](images/coin.png)
+![capture d'écran](images/coin.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+\--- task \--- Ajoute le code à ta `pièce` sprite afin qu'elle n'apparaisse que dans la salle 1.
 
-![screenshot](images/coin.png)
+![capture d'écran](images/coin.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -35,9 +35,9 @@ cacher
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Ajoute du code à ton sprite `pièce` de façon à ce que le sprite `se cache`{:class="block3looks"} et `1`{:class="block3variables"} soit ajouté à la variable `pièces`{:class="block3variables"} une fois que le sprite `joueur` touche le sprite `pièce` pour le «ramasser».
 
-![coin](images/coin.png)
+![pièce de monnaie](images/coin.png)
 
 ```blocks3
 quand le drapeau est cliqué 
@@ -47,15 +47,15 @@ cacher
 stop [autres scripts dans sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+Le code `stop autres scripts dans sprite`{:class="block3control"} est nécessaire pour que le sprite `pièce` ne soit plus affiché dans la salle 1 une fois qu’elle a été collectée.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+\--- task \--- Ajoute maintenant du code sur la scène pour définir ta variable `pièces`{:class="block3variables"} à `0`{:class="block3variables"} au début du jeu.
 
-![stage](images/stage.png)
+![scène](images/stage.png)
 
 ```blocks3
 quand le drapeau est cliqué
@@ -66,6 +66,6 @@ mettre [pièces v] à [0]
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+\--- task \--- Teste ton jeu. La collecte d'une pièce devrait changer ton score `pièces` en `1`{:class="block3variables"}.
 
 \--- /task \---
