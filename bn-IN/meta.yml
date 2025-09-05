@@ -39,5 +39,5 @@ steps:
   - 
     title: 'Challenge: আপনার বিশ্ব প্রসারিত করুন'
     challenge: true
-  - 
-    title: এরপর কি?
+    completion:
+      - external
