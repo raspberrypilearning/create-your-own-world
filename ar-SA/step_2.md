@@ -6,11 +6,11 @@
 
 افتح المشروع المبدئي "إنشاء عالمك الخاص".
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [scratch.mit.edu/projects/396850938](https://scratch.mit.edu/projects/396850938){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**بدون اتصال انترنيت** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/create-your-own-world-go](https://rpf.io/p/ar-SA/create-your-own-world-go){:target="_blank"} ثم اقتحه باستخدام محرر البرنامج بدون اتصال انترنيت. اذا تحتاج تنزيل وتنصيب برنامج السكراتش Scratch على جهازك الشخصي، ستجده في [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![لقطة الشاشة](images/world-starter.png)
 
