@@ -6,7 +6,7 @@
 
 'Create your own world' Scratch स्टार्टर प्रोजेक्ट खोलें।
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**ऑनलाइन**: आप इस प्रोजेक्ट को [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"} में खोल सकते हैं।
 
 यदि आपके पास एक Scratch खाता (account) है, तो आप **Remix** पर क्लिक करके कॉपी बना सकते हैं।
 
