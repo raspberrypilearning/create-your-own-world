@@ -1,10 +1,10 @@
-## Doors and keys
+## Vrata i ključevi
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Sada ćete dodati kôd tako da su neka vrata u vašem svijetu igara zaključana, a igrač mora pronaći ključ da ih otvori i stigne do sljedeće sobe.
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+Kliknite na ` ključ ` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
 
 \--- /task \---
 
