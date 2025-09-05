@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## Úvod
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### What you will make
+### Co budeš dělat
 
 \--- no-print \---
 
@@ -29,17 +29,17 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Co budeš potřebovat
 
 ### Hardware
 
-- A computer capable of running Scratch 3
+- Počítač schopný spustit aplikaci Scratch 3
 
 ### Software
 
 - Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### Ke stažení
 
 You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Co se naučíš
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -58,10 +58,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Přídavné informace pro učitele
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Potřebujete-li tento projekt vytisknout, použijte verzi [pro-tisk](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Projekt [najdeš zde](https://rpf.io/p/en/create-your-own-world-get){: target = "_ blank"}.
 
 \--- /collapse \---
