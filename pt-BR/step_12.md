@@ -21,8 +21,8 @@ Agora você pode continuar criando seu próprio mundo! Aqui estão algumas idéi
 ![captura de tela](images/number-grid.png)
 
 ```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
+se < tocando na cor []?> então 
+mude para o cenário ((fantasia [número v]) + (3))
+vá para x: (0) y: (200)
+adicione (3) a [sala v]
 ```
