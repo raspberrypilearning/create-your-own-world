@@ -1,36 +1,36 @@
-## Doors and keys
+## ドアとキー
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+次に、コード（プログラム）を追加してあなたのゲームの世界のドア（一部）に鍵をかけられるようにします。プレイヤーはドアを開けて次の部屋へ進むために鍵をみつける必要があります。
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+`かぎ`のスプライトを選んでください。 スクリプトメニューの `表示`{:class="blocklooks"}をクリックすると、ステージにスプライトが表示されます。
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+`キー` スプライトのコスチュームを編集して青になるようにします。
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+ステージの背景を部屋3に切り替え、 `キー` のスプライトを手の届きにくい場所に配置します。
 
-![screenshot](images/world-key.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `key` sprite to make it only visible in room 3.
+![スクリーンショット](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+`キー` スプライトにコードを追加して、部屋3でのみ表示されるようにします。
+
+\--- /task \---
+
+\--- task \---
+
+`インベントリ`{:class="block3variables"}という新しいリストを作成して、 `プレイヤー` のスプライトが収集するアイテムを保存するようにします。
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,23 +38,23 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+キーを収集するために追加する必要のあるコードは、コインを収集するためのコードととてもよく似ています。 違いは `インベントリ`{:class="block3variables"}にキーを追加することです。
 
-![key](images/key.png)
+![キー](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+フラグがクリックされたとき
+ <touching (player v)?>まで待つ
+[インベントリv]に[青い鍵]を追加
+非表示
+停止[スプライトvの他のスクリプト]
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+ステージにコードを追加して、ゲームの開始時にインベントリを空にします。
 
 ```blocks3
 delete all of [inventory v]
@@ -64,41 +64,41 @@ delete all of [inventory v]
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+ゲームをテストして、 `キー` のスプライトを集めてインベントリに追加できるかどうかを確認しましょう。
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+次に、ロックされたドアを追加します。 `青いドア` スプライトを選択し、「スクリプト」メニューの[ `表示`{：class = "blocklooks}]をクリックして、2つの壁の間の谷間にスプライトを配置します。
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![スクリーンショット](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+部屋3でのみ表示されるように、 `青いドア` スプライトにコードを追加します。
 
-![door](images/door.png)
+\--- /task \---
+
+\--- task \---
+
+`青いドア` スプライトにコードを追加して、キーが `インベントリ`{：class = "block3variables"}の中にある場合、スプライトを `非表示`{：class = "block3looks"}にして、 `プレーヤー` スプライトが通過できるようにします。
+
+![ドア](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+フラグがクリックされたとき
+ <[在庫v]に[ブルーキー]が含まれるまで待つ？>
+停止[スプライトvの他のスクリプト]
+隠す
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+ゲームをテストして、ドアを開けるために、青いキーを集めることができるかどうか確認してください。
 
 \--- /task \---
