@@ -18,7 +18,7 @@ Tu peux maintenant continuer à créer ton propre monde ! Voici quelques idées 
 
 ![capture d'écran](images/north-south-rooms.png)
 
-![screenshot](images/number-grid.png)
+![capture d'écran](images/number-grid.png)
 
 ```blocks3
 si < couleur [] touchée > alors
