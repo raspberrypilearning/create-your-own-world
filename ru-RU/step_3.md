@@ -25,11 +25,9 @@ Cнова протестируй свой спрайт `игрок`. Do you see 
     повернуться в направлении (-90)
     идти (4) шагов
   end
-  если <клавиша (стрелка вниз v) нажата? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key (right arrow v) pressed? >, то 
+  если <клавиша (стрелка вниз v) нажата? when flag clicked
+forever
+    if <key (стрелка вверх v) pressed? >, то 
     повернуться в направлении (90)
     идти (4) шагов
   end
