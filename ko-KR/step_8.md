@@ -1,6 +1,6 @@
 ## 사람
 
-Add other people to your world who your `player` sprite can interact with.
+`플레이어` 스프라이트와 상호작용하도록 사람을 추가합니다.
 
 \--- task \---
 
@@ -17,15 +17,15 @@ Add other people to your world who your `player` sprite can interact with.
 ![개인](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-    end
-end
+깃발이 클릭되었을 때
+x: (0) y: (-150) 으로 이동
+무한반복
+    만약 < 가 (플레이어 v) 에 닿는다면? > 이면
+        [주황색과 노란색 문을 통과해 지나갈 수 있다는 걸 아셨나요?] 를 말합니다
+    만약 아니라면
+        [] 를 말합니다
+    종료
+종료
 ```
 
 \--- /task \---
@@ -37,17 +37,17 @@ end
 ![개인](images/person.png)
 
 ```blocks3
-when flag clicked
-go to x: (0) y: (-150)
-forever
-    if < touching (player v)? > then
-        say [Did you know that you can go through orange and yellow doors?]
-    else
-        say []
-+       move (1) steps
-+       if on edge, bounce
-    end
-end
+깃발이 클릭되었을 때
+x: (0) y: (-150) 으로 이동
+무한반복
+    만약 < 가 (플레이어 v) 에 닿는다면? > 이면
+        [주황색과 노란색 문을 통과해 지나갈 수 있다는 걸 아셨나요?] 를 말합니다
+    만약 아니라면
+        [] 를 말합니다
++       (1) 스텝 이동
++       가장자리에 닿으면, 튕기기
+    종료
+종료
 ```
 
 \--- /task \---
