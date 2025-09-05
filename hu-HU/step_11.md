@@ -18,7 +18,7 @@ Edit the `key` sprite's costume so that it is blue.
 
 Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
-![screenshot](images/world-key.png)
+![képernyőkép](images/world-key.png)
 
 \--- /task \---
 
