@@ -33,11 +33,12 @@ por siempre
     apuntar en dirección (-90)
     mover (4) pasos
   end
-  si <¿tecla (flecha abajo v) presionada? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > entonces 
+  si <¿tecla (flecha abajo v) presionada? when flag clicked
++set [habitación v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (habitación1 v)
+forever
+    if <key (flecha arriba v) pressed? > entonces 
         apuntar en dirección (90)
         mover (4) pasos
     fin
@@ -108,11 +109,9 @@ forever
     apuntar en dirección (-90)
     mover (4) pasos
   end
-  si <¿tecla (flecha abajo v) presionada? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > entonces 
+  si <¿tecla (flecha abajo v) presionada? when flag clicked
+forever
+    if <key (flecha arriba v) pressed? > entonces 
         apuntar en dirección (90)
         mover (4) pasos
     fin
