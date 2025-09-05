@@ -39,5 +39,5 @@ steps:
   - 
     title: 'Défi : étends ton monde'
     challenge: true
-  - 
-    title: Quelle est la prochaine étape ?
+    completion:
+      - external
