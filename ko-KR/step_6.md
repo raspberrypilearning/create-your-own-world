@@ -25,20 +25,20 @@
 ![표지판](images/sign.png)
 
 ```blocks3
-<br />if < > then
-else
-end
+<br />만약 < > 이라면
+만약 아니라면
+종료
 
-< (room :: variables) = [1] >
+< (방 :: 변수) = [1] >
 
-hide
+숨기기
 
-show
+보이기
 
-forever
-end
+무한반복
+종료
 
-when flag clicked
+깃발이 클릭되었을 때
 
 ```
 
@@ -51,14 +51,14 @@ when flag clicked
 ![표지판](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
-end
+깃발이 클릭되었을 때
+무한반복
+    만약 < (방 :: 변수) = [1] > 이라면
+        보이기
+    만약 아니라면
+        숨기기
+    종료
+종료
 ```
 
 \--- /hint \---
@@ -82,26 +82,26 @@ end
 ![표지판](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
-end
-+if < touching (player v)? > then
-say [Welcome! Can you get to the treasure?]
-else
-say []
-end
-end
+깃발이 클릭되었을 때
+무한 반복
+만약 < (방 :: 변수) = [1] > 이라면
+보이기
+만약 아니라면
+숨기기
+종료
++만약 < 가 (플레이어 v) 에 닿았다면? > 이면
+[환영합니다! 라고 말합니다. 보물에 도달할 수 있나요?] 
+만약 아니라면
+[] 라고 말합니다
+종료
+종료
 ```
 
 \--- /task \---
 
 \--- task \---
 
-`환영 표지판` 스트라이트를 다시 한번 테스트해보세요. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+`환영 표지판` 스트라이트를 다시 한번 테스트해보세요. `플레이어` 스프라이트가 `환영 표지판` 스프라이트에 닿을 때 이제 메세지를 보게 될 겁니다.
 
 ![스크린샷](images/world-sign-test2.png)
 
