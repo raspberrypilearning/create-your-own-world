@@ -14,15 +14,15 @@
 
 ![스크린샷](images/world-bribe.png)
 
-+ 심지어 방1의 북쪽과 남쪽 벽에 문을 추가해 플레이어가 전체 4가지 방향으로 방 사이를 이동하도록 할 수 있습니다. 예를 들어 3x3 그리드 내 9개 방이 형성될 수 있습니다. You can then add `3` to the room number to move down one level.
++ 심지어 방1의 북쪽과 남쪽 벽에 문을 추가해 플레이어가 전체 4가지 방향으로 방 사이를 이동하도록 할 수 있습니다. 예를 들어 3x3 그리드 내 9개 방이 형성될 수 있습니다. 그런 다음 방 번호에 `3`을 추가해 1 레벨 내릴 수 있습니다.
 
 ![스크린샷](images/north-south-rooms.png)
 
 ![스크린샷](images/number-grid.png)
 
 ```blocks3
-if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
-go to x:(0) y:(200)
-change [room v] by (3)
+만약 <색상 [] 에 닿는다?> 라면
+배경을 ((코스튬 [숫자 v]) + (3)) 으로 전환
+x:(0) y:(200) 으로 이동
+[방 v] 를 (3) 만큼 변경
 ```
