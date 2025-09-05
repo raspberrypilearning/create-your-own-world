@@ -6,11 +6,11 @@
 
 '나만의 세계 만들기' 스크래치 스타터 프로젝트를 엽니다.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**온라인:** [scratch.mit.edu/projects/389820598](https://scratch.mit.edu/projects/389820598){:target="_blank"}에서 새로운 스타터 프로젝트를 열어주세요.
 
 스크래치 계정이 있는 경우 **Remix** 를 클릭하여 사본을 만들 수 있습니다.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. 스크래치 오프라인 에디터 다운로드 및 설치는 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} 에서 합니다.
+**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/ko-KR/create-your-own-world-go](https://rpf.io/p/ko-KR/create-your-own-world-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다. 스크래치 오프라인 에디터 다운로드 및 설치는 [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"} 에서 합니다.
 
 ![스크린샷](images/world-starter.png)
 
@@ -25,13 +25,13 @@
 ![플레이어](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-end
+깃발이 클릭되었을 때
+무한반복 
+    만약 <키 (위쪽 화살표 v) 를 누른 상태라면? > 이라면
+  (0) 도 방향 보기
+  (4) 스텝 이동
+ 종료
+종료
 ```
 
 \--- /task \---
@@ -51,17 +51,17 @@ end
 ![플레이어](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-end
+깃발이 클릭되었을 때
+무한반복 
+    만약 <키 (위쪽 화살표 v) 를 누른 상태라면? > 이라면
+   (0) 도 방향 보기
+   (4) 스텝 이동
+  종료
++   만약 <키 (왼쪽 화살표 v) 를 누른 상태라면? > 이라면
+   (-90) 도 방향 보기
+   (4) 스텝 이동
+  종료
+종료
 ```
 
 \--- /task \---
@@ -87,9 +87,9 @@ end
 ![플레이어](images/player.png)
 
 ```blocks3
-<key ( v) pressed>
+<키 (v) 를 누른 상태>
 
-point in direction ()
+() 도 방향 보기
 ```
 
 `플레이어` 스프라이트를 위 방향으로 움직이게 하는 코드를 복사하고 이 두 블록을 변경하여 스프라이트가 아래로 움직이도록 합니다. 다시 코드를 복사 후 변경하여 스프라이트가 오른쪽으로 움직이도록 합니다.
@@ -103,26 +103,26 @@ point in direction ()
 ![플레이어](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+깃발이 클릭되었을 때
+무한반복 
+  만약 <키 (위쪽 화살표 v) 를 누른 상태라면? > 이라면
+        (0) 도 방향 보기
+        (4) 스텝 이동
+    종료
+    만약 <키 (왼쪽 화살표 v) 를 누른 상태라면? > 이라면
+   (-90) 도 방향 보기
+   (4) 스텝 이동
+  종료
 
-+    if <key (down arrow v) pressed? > then
-        point in direction (180)
-        move (4) steps
-    end
-+    if <key (right arrow v) pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-end
++   만약 <키 (아래쪽 화살표 v) 를 누른 상태라면? > 이라면
+   (180) 도 방향 보기
+   (4) 스텝 이동
+  종료
++   만약 <키 (오른쪽 화살표 v) 를 누른 상태라면? > 이라면
+  (90) 도 방향 보기
+  (4) 스텝 이동
+ 종료
+종료
 ```
 
 \--- /hint \---
