@@ -6,7 +6,7 @@ Tu objeto `jugador ` deberá ser capaz de recoger monedas a medida que se mueve 
 
 Añade una nueva variable a tu proyecto y llámala `monedas`{:class="block3variables"}.
 
-\--- /task \---
+\--- función \---
 
 \--- task \---
 
