@@ -4,13 +4,13 @@ Zacznij od utworzenia duszka `gracz`, który będzie mógł poruszać się po ś
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Otwórz projekt startowy "Utwórz swój własny świat".
 
 **Online**: otwórz projekt startowy online pod adresem [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline:** pobierz projekt startowy z [rpf.io/p/pl-PL/create-your-own-world-go](https://rpf.io/p/pl-PL/create-your-own-world-go), i otwórz w programie Scratch Desktop. Jeśli chcesz pobrać i zainstalować edytor Scratch, znajdziesz go na stronie [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![zrzut ekranu](images/world-starter.png)
 
@@ -98,9 +98,9 @@ Zduplikuj kod, który sprawia, że duszek `gracz` przesuwa się w górę i zmie�
 
 \--- hint \---
 
-Here is how your code should look:
+\--- /hint \--- \--- /hints \---
 
-![player](images/player.png)
+![gracz](images/player.png)
 
 ```blocks3
 kiedy kliknięto zieloną flagę
