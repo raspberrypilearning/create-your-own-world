@@ -6,11 +6,11 @@ Laten we beginnen met het maken van een sprite voor de`speler` die zich in jouw 
 
 Open de 'Maak je eigen wereld' Scratch startersproject.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Online**: open het online startersproject op [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download het startersproject [rpf.io/p/nl-NL/create-your-own-world-go](https://rpf.io/p/nl-NL/create-your-own-world-go){:target="_blank"} en open het vervolgens met behulp van de offline editor. Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![schermafdruk](images/world-starter.png)
 
@@ -98,9 +98,9 @@ Dupliceer de code die de `speler` sprite naar boven beweegt en verander deze twe
 
 \--- hint \---
 
-Here is how your code should look:
+\--- /hint \--- \--- /hints \---
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
