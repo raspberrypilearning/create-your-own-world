@@ -1,8 +1,8 @@
-\--- no-print \---
+\--- no imprimir \---
 
 Esta es la versión de **Scratch 3** del proyecto. También hay una [versión del proyecto en Scratch 2](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
 
-\--- /no-print \---
+\--- /no imprimir \---
 
 ## Introducción
 
@@ -10,7 +10,7 @@ En este proyecto, aprenderás cómo crear tu propio juego de aventuras con múlt
 
 ### Lo que harás
 
-\--- no-print \---
+\--- no imprimir \---
 
 Haz clic en la bandera verde para empezar. Utiliza las teclas de flecha para mover a tu personaje por el mundo.
 
@@ -19,13 +19,13 @@ Haz clic en la bandera verde para empezar. Utiliza las teclas de flecha para mov
   <img src="images/showcase.png">
 </div>
 
-\--- /no-print \---
+\--- no imprimir \---
 
-\--- print-only \---
+\--- solo impresión \---
 
 Utiliza los cursores, teclas de flechas, para mover a tu personaje por el mundo. ![showcase.png](images/showcase.png)
 
-\--- /print-only \---
+\--- /solo impresión \---
 
 ## \--- collapse \---
 
@@ -37,7 +37,7 @@ Utiliza los cursores, teclas de flechas, para mover a tu personaje por el mundo.
 
 ### Software
 
-- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+- Scratch 3 (ya sea [online](https://rpf.io/scratchon){:target="_blank"} u [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Descargas
 
