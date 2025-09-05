@@ -1,28 +1,28 @@
-## Signs
+## Semne
 
-Now add signs to your world to guide players on their journey.
+Acum adaugă semne în lumea ta pentru a ghida jucătorii în călătoria lor.
 
-Your project includes a `welcome sign` sprite:
+Proiectul tău include un personaj `semn de bun-venit`:
 
-![screenshot](images/world-sign.png)
+![captură de ecran](images/world-sign.png)
 
 \--- task \---
 
-The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
+Personajul `semn de bun venit` ar trebui să fie vizibil doar în camera 1, deci adaugă niște cod personajului pentru a te asigura că acest lucru se întâmplă:
 
 \--- hints \---
 
 \--- hint \---
 
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
+`Cand se da click pe steag`{:class="block3events"}, într-o buclă `la infinit`{:class="block3control"}, testează `daca`{:class="block3control"} variabila `camera este 1`{:class="block3variables"} și atunci `arata`{:class="block3looks"} personajul `semn de bun-venit`, `altfel`{:class="block3control"} `ascunde`{:class="block3looks"} personajul.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the blocks you need:
+Iată care sunt blocurile de care ai nevoie:
 
-![sign](images/sign.png)
+![semn](images/sign.png)
 
 ```blocks3
 <br />if < > then
@@ -46,9 +46,9 @@ when flag clicked
 
 \--- hint \---
 
-Here is the complete code:
+Aici este codul complet:
 
-![sign](images/sign.png)
+![semn](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -69,17 +69,17 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Testează codul personajului tău `semn de bun-venit` prin mutarea între camere. Semnul trebuie să fie vizibil numai în camera 1.
 
-![screenshot](images/world-sign-test.png)
+![captură de ecran](images/world-sign-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+Un semn nu este util dacă nu spune nimic! Adăugă mai mult cod pentru a afișa un mesaj dacă personajul `semn de bun-venit` este atins de către personajul `jucător`:
 
-![sign](images/sign.png)
+![semn](images/sign.png)
 
 ```blocks3
 when flag clicked
@@ -101,8 +101,8 @@ end
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Testează-ți din nou personajul `semn de bun-venit`. Acum ar trebui să vezi un mesaj când personajul `jucător` atinge personajul `semn de bun-venit`.
 
-![screenshot](images/world-sign-test2.png)
+![captură de ecran](images/world-sign-test2.png)
 
 \--- /task \---
