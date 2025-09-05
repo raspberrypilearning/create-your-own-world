@@ -12,15 +12,15 @@ Crée une nouvelle variable 'pour toute les sprites' appelées `salle`{:class="b
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![capture d'écran](images/world-room.png)
 
 \--- /task \---
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Lorsque le sprite `joueur` touche la porte orange dans la première salle, le jeu devrait afficher l'arrière-plan suivant et le sprite `joueur` devrait revenir à gauche de la scène. Ajoute ce code à l'intérieur du sprite `joueur` la boucle `répéter indéfiniment` {class="block3control"}:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -56,19 +56,19 @@ end
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Chaque fois que le jeu commence, la pièce, la position du personnage et l'arrière-plan doivent être réinitialisés.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+\--- /hint \--- \--- hint \--- Voici à quoi devrait ressembler ton script terminé:
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+\--- hints \--- \--- hint \--- Quand le jeu commence:
 
 + La valeur de `salle`{:class="block3variables"} doit être définie sur `1`{:class="block3variables"}
 + `L'arrière-plan`{:class="block3looks"} doit être définie sur `salle1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ La position du sprite `joueur` doit être réglé sur `x: -200 y: 0`{: class = "block3motion"} \--- /hint \--- \--- hint \--- Voici les blocs supplémentaires dont tu as besoin:
 
 \--- /hint \---
 
@@ -76,7 +76,7 @@ When the game starts:
 
 Here are the extra blocks you need:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 aller à x: (-200) y: (0)
@@ -90,9 +90,9 @@ basculer sur l'arrière-plan (salle1 v)
 
 \--- hint \---
 
-Here's what your finished script should look like:
+\--- /hint \--- \--- hint \--- Voici à quoi devrait ressembler ton script terminé:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
@@ -108,11 +108,11 @@ répéter indéfiniment
         s'orienter en direction de (-90)
         avancer de (4) pas
     end
-        si <touche (flèche bas v) pressée? > then
-        point in direction (180)
-        move (4) steps
+        si <touche (flèche bas v) pressée? > alors
+        s'orienter dans la direction (-180)
+        avancer de (4) pas
     end
-        if <key [right arrow v] pressed? > alors
+        si <touche [flèche droite v] pressée ? > alors
         s'orienter en direction de (90)
         avancer de (4) pas
     end
@@ -135,8 +135,8 @@ end
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Clique sur le drapeau, puis déplace ton sprite `joueur` jusqu'à ce qu'il touche la porte orange. Le sprite passe-t-il à l'écran suivant? La variable `salle`{:class="block3variables"} passe-t-elle à `2`?
 
-![screenshot](images/world-room-test.png)
+![capture d'écran](images/world-room-test.png)
 
 \--- /task \---
