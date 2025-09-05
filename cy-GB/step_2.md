@@ -6,7 +6,7 @@ Fe awn ati i greu `chwareuwr` sydd yn symud o gwmpas dy fydysawd.
 
 Agora'r prosiect cychwynnol 'Creu dy fyd dy hunan'.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar ** Remix **.
 
@@ -98,9 +98,9 @@ Dyblyga'r côd sy'n gwneud i'r `chwareuwr` symud fyny, ac yna newidia'r ddau flo
 
 \--- hint \---
 
-Here is how your code should look:
+\--- /hint \--- \--- /hints \---
 
-![player](images/player.png)
+![chwaraewr](images/player.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
