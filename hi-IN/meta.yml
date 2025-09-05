@@ -39,5 +39,5 @@ steps:
   - 
     title: 'चुनौती: अपनी दुनिया को और भी बड़ा बनाएं'
     challenge: true
-  - 
-    title: आगे क्या?
+    completion:
+      - external
