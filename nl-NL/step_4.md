@@ -18,9 +18,9 @@ Maak een nieuwe variabele 'voor alle sprites' met de naam `kamer`{:class="block3
 
 \--- task \---
 
-When the `player` sprite touches the orange door in the first room, the game should display the next backdrop, and the `player` sprite should move back to the left side of the Stage. Add this code inside the `player` sprite's `forever`{:class="block3control"} loop:
+\--- task \--- Als de `speler` sprite de oranje deur in de eerste kamer raakt moet de volgende achtergrond worden weergegeven en de `speler` sprite moet teruggaan naar de linkerkant van het speelveld. Voeg deze code toe aan de `speler` sprite's `herhaal`{:class="block3control"} lus:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -33,11 +33,12 @@ herhaal
             richt naar (-90) graden
             neem (4) stappen
       einde
-        als <toets (pijltje omlaag v) ingedrukt? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > dan
+        als <toets (pijltje omlaag v) ingedrukt? when flag clicked
++set [kamer v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (kamer1 v)
+forever
+    if <key (up arrow v) pressed? > dan
             richt naar (90) graden
             neem (4) stappen
         einde
@@ -56,27 +57,27 @@ einde
 
 \--- task \---
 
-Every time the game starts, the room, character position, and backdrop need to be reset.
+\--- task \--- Elke keer dat het spel start, moeten de kamer, de positie van het personage en de achtergrond opnieuw ingesteld worden.
 
-Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
+Voeg code toe aan de **start** van je `speler` sprite-code boven de `herhaal`{:class="block3control"} lus, om alles opnieuw in te stellen wanneer op de vlag wordt geklikt:
 
 \--- hints \---
 
 \--- hint \---
 
-When the game starts:
+\--- /hint \--- \--- /hints \---
 
 + De waarde van `kamer`{:class="block3variables"} moet zijn ingesteld op `1`{:class="block3variables"}
 + De `achtergrond`{:class="block3looks"} moet zijn ingesteld op `kamer1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
++ De positie van de `speler` sprite moet worden ingesteld op `x:-200 y: 0` {:class="block3motion"} \--- /hint \--- \--- hint \---
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the extra blocks you need:
+Dit zijn de extra blokken die je nodig hebt:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 ga naar x: (-200) y: (0)
@@ -90,9 +91,9 @@ verander achtergrond naar (kamer1 v)
 
 \--- hint \---
 
-Here's what your finished script should look like:
+\--- /hint \--- \--- hint \--- Hier zie je hoe je voltooide script er uit moet zien:
 
-![player](images/player.png)
+![speler](images/player.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -108,11 +109,9 @@ herhaal
             richt naar (-90) graden
             neem (4) stappen
       einde
-        als <toets (pijltje omlaag v) ingedrukt? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > dan
+        als <toets (pijltje omlaag v) ingedrukt? when flag clicked
+forever
+    if <key (up arrow v) pressed? > dan
             richt naar (90) graden
             neem (4) stappen
         einde
@@ -135,7 +134,7 @@ einde
 
 \--- task \---
 
-Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
+\--- task \--- Klik op de vlag en verplaats vervolgens je `speler` sprite totdat het de oranje deur raakt. Gaat de sprite naar het volgende scherm? Verandert de variabele `kamer`{:class="block3variables"} naar `2`?
 
 ![screenshot](images/world-room-test.png)
 
