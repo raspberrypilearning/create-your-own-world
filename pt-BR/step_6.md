@@ -51,13 +51,13 @@ Aqui está o código completo:
 ![sinalização](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-    if < (room :: variables) = [1] > then
-        show
-    else
-        hide
-    end
+quando ⚑ for clicado
+sempre 
+  se <(sala :: variáveis) = [1]> então 
+    mostre
+  senão 
+    esconda
+  end
 end
 ```
 
@@ -82,17 +82,17 @@ Uma sinalização não é muito boa se não diz nada! Adicione um pouco mais de 
 ![sinalização](images/sign.png)
 
 ```blocks3
-when flag clicked
-forever
-if < (room :: variables) = [1] > then
-show
-else
-hide
+quando ⚑ for clicado
+sempre 
+se < (sala :: variáveis) = [1]> então 
+mostre
+senão 
+esconda
 end
-+if < touching (player v)? > então 
-   diga [Bem-vindo! Can you get to the treasure?]
-else
-say []
++ se < tocando em (jogador v)? > então 
+   diga [Bem-vindo! Você consegue chegar ao tesouro?]
+senão 
+diga []
 end
 end
 ```
