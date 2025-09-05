@@ -1,10 +1,10 @@
-## Collect coins
+## Sakupljanje novčića
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+Dok se kreće po svijetu, tvoj lik `igrača` može da sakuplja novčiće.
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+\--- challenge \---
 
 \--- /task \---
 
@@ -18,7 +18,7 @@ Select the `coin` sprite and click **show**.
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+Dodaj kôd svom liku `novčića` tako da se pojavljuje samo u sobi 1.
 
 ![screenshot](images/coin.png)
 
