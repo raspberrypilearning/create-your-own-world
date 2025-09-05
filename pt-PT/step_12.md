@@ -1,6 +1,6 @@
 ## Challenge: extend your world
 
-You can now continue creating your own world! Here are some ideas:
+You can now continue creating your own world! Aqui estão algumas ideias:
 
 + Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
 + Change your game's backdrops
@@ -16,9 +16,9 @@ You can now continue creating your own world! Here are some ideas:
 
 + You could even add doors in the north and south walls of room 1, so that the player can move between rooms in all four directions. For example, your game can have nine rooms in a 3×3 grid. You can then add `3` to the room number to move down one level.
 
-![screenshot](images/north-south-rooms.png)
+![captura de ecrã](images/north-south-rooms.png)
 
-![screenshot](images/number-grid.png)
+![captura de ecrã](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
