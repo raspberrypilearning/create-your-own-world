@@ -1,13 +1,13 @@
-room
+soba
 
-player
+igrač
 
-Welcome! Can you get to the treasure?
+Dobro došli! Možeš li doći do blaga?
 
-Did you know that you can go through orange and yellow doors?
+Jeste li znali da možete proći kroz narančasta i žuta vrata?
 
-coins
+kovanice
 
-blue key
+plavi ključ
 
-inventory
+inventar
