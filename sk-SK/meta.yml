@@ -1,43 +1,43 @@
 ---
 hero_image: images/banner.png
-title: Create your own world
-description: Create your own open-world adventure game
+title: Vytvor si svoj svet
+description: Vytvorte si vlastnú adventúru otvoreného sveta
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Introduction
+    title: Úvod
   - 
-    title: Move the player sprite
+    title: Presuňte prehrávač scény
   - 
-    title: Solid walls
+    title: Pevné steny
     completion:
       - engaged
   - 
-    title: Move around your world
+    title: Presuňte sa okolo sveta
   - 
-    title: 'Challenge: move back to the previous room'
+    title: 'Výzva: vráťte sa späť do predchádzajúcej miestnosti'
     challenge: true
   - 
-    title: Signs
+    title: Značky
   - 
-    title: 'Challenge: treasure!'
+    title: 'Výzva: poklad!'
     challenge: true
   - 
-    title: People
+    title: Ľudia
   - 
-    title: 'Challenge: enemies'
+    title: 'Výzva: nepriatelia'
     challenge: true
   - 
-    title: Collect coins
+    title: Zbierať mince
   - 
-    title: Doors and keys
+    title: Dvere a kľúče
     completion:
       - internal
   - 
-    title: 'Challenge: extend your world'
+    title: 'Výzva: rozšírte svoj svet'
     challenge: true
-  - 
-    title: What next?
+    completion:
+      - external
