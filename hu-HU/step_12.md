@@ -1,6 +1,6 @@
 ## Challenge: extend your world
 
-You can now continue creating your own world! Here are some ideas:
+You can now continue creating your own world! Íme néhány ötlet:
 
 + Add more coins to your game in different rooms. Can you let some coins be guarded by patrolling enemies?
 + Change your game's backdrops
@@ -18,7 +18,7 @@ You can now continue creating your own world! Here are some ideas:
 
 ![screenshot](images/north-south-rooms.png)
 
-![screenshot](images/number-grid.png)
+![képernyőkép](images/number-grid.png)
 
 ```blocks3
 if <touching color [ ]?> then
