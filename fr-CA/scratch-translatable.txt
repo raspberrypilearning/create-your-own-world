@@ -1,13 +1,13 @@
-room
+pièce
 
-player
+joueur
 
-Welcome! Can you get to the treasure?
+Bienvenue ! Pouvez-vous accéder au trésor?
 
-Did you know that you can go through orange and yellow doors?
+Saviez-vous que vous pouvez franchir les portes orange et jaune?
 
-coins
+pièces
 
-blue key
+clé bleue
 
-inventory
+inventaire
