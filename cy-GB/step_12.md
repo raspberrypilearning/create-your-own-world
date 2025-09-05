@@ -18,7 +18,7 @@ Alli di nawr barhau i greu dy fyd dy hunan! Dyma rai syniadau:
 
 ![sgrinlun](images/north-south-rooms.png)
 
-![screenshot](images/number-grid.png)
+![sgrinlun](images/number-grid.png)
 
 ```blocks3
 os <cyffwrdd lliw [ ] ?> yna 
