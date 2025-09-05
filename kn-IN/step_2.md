@@ -6,7 +6,7 @@
 
 'ನಿಮ್ಮ ಸ್ವಂತ ಪ್ರಪಂಚವನ್ನು ರಚಿಸಿ' ಸ್ಕ್ರ್ಯಾಚ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**ಆನ್‌ಲೈನ್**: ನಲ್ಲಿ ಆನ್‌ಲೈನ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 ನೀವು ಸ್ಕ್ರ್ಯಾಚ್ ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ನಕಲನ್ನು ಮಾಡಬಹುದು **ರಿಮಿಕ್ಸ್**.
 
