@@ -20,9 +20,9 @@ The `welcome sign` sprite should only be visible in room 1, so add some code to 
 
 \--- hint \---
 
-Here are the blocks you need:
+Dyma'r blociau côd rwyt ti eu hangen:
 
-![sign](images/sign.png)
+![arwydd](images/sign.png)
 
 ```blocks3
 <br />os <> yna 
@@ -49,7 +49,7 @@ pan fo'r flag werdd yn cael ei glicio
 
 Here is the complete code:
 
-![sign](images/sign.png)
+![arwydd](images/sign.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -70,17 +70,17 @@ end
 
 \--- task \---
 
-Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
+Test the code for your `welcome sign` sprite by moving between rooms. Fe ddylai'r arwydd ond fod yn weledol yn ystafell 1.
 
-![screenshot](images/world-sign-test.png)
+![sgrinlun](images/world-sign-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-A sign isn't much good if it doesn't say anything! Add some more code to display a message if the `welcome sign` sprite is touching the `player` sprite:
+A sign isn't much good if it doesn't say anything! Ychwanega mwy o gôd i ddangos neges os yw yr `arwydd croeso` yn cyffwrdd y `chwaraewr`:
 
-![sign](images/sign.png)
+![arwydd](images/sign.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -102,8 +102,8 @@ end
 
 \--- task \---
 
-Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
+Test your `welcome sign` sprite again. Fe ddylet ti nawr weld neges pan mae'r `chwaraewr` yn cyffwrdd yr `arwydd croeso`.
 
-![screenshot](images/world-sign-test2.png)
+![sgrinlun](images/world-sign-test2.png)
 
 \--- /task \---
