@@ -26,7 +26,7 @@ Edita el disfraz del objeto `llave` para que sea de color azul.
 
 Añade código al objeto `moneda` de manera que solamente aparezca en la habitación 3.
 
-\--- /task \---
+\--- función \---
 
 \--- task \---
 
@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 Agrega código a tu escenario para vaciar tu inventario al comienzo del juego.
 
 ```blocks3
-delete all of [inventory v]
+delete all of [inventario v]
 ```
 
 \--- /task \---
