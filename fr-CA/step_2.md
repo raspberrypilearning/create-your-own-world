@@ -1,28 +1,28 @@
-## Move the player sprite
+## Déplace le sprite du joueur
 
-Start by creating a `player` sprite that can move around your world.
+Commence par créer un sprite `joueur` qui peut se déplacer dans ton monde.
 
 \--- task \---
 
-Open the 'Create your own world' Scratch starter project.
+Ouvre le projet de démarrage Scratch «Créez ton propre monde».
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![capture d'écran](images/world-starter.png)
 
 \--- /task \---
 
-Pressing the arrow keys should move the `player` sprite around. When the up arrow is pressed, the `player` sprite should move upwards on the Stage in response.
+Appuyer sur les touches de flèches doit déplacer le sprite `joueur`. Lorsque tu appuies sur la flèche vers le haut, le sprite `joueur` doit remonter sur la scène en réponse.
 
 \--- task \---
 
-Add this code to the `player` sprite:
+Ajoute ce code au sprite `joueur` :
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -38,17 +38,17 @@ end
 
 \--- task \---
 
-Click the flag and then hold down the up arrow. Does the `player` sprite move up?
+Clique sur le drapeau, puis maintiens la flèche vers le haut. Est-ce que le sprite `joueur` monte vers le haut?
 
-![screenshot](images/world-up.png)
+![capture d'écran](images/world-up.png)
 
 \--- /task \---
 
 \--- task \---
 
-To move the `player` sprite to the left, you need to add another `if`{:class="block3control"} block with similar code:
+Pour déplacer le sprite `joueur` vers la gauche, tu dois ajouter un autre bloc `si`{:class="block3control"} avec le code similaire:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -68,23 +68,23 @@ end
 
 \--- task \---
 
-Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
+Ajoute plus de code à ton sprite `joueur` pour qu'il puisse se déplacer vers le bas et à droite également. Utilise le code que tu as déjà pour t'aider.
 
 \--- hints \---
 
 \--- hint \---
 
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
+Pour te déplacer vers le haut, tu pointes le sprite `joueur` dans la direction `0` degrés. Que dois-tu faire pour déplacer le sprite vers le bas?
 
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
+Pour te déplacer à gauche, pointe le sprite dans la direction `-90` degrés. Que dois-tu faire pour déplacer le sprite correctement?
 
 \--- /hint \---
 
 \--- hint \---
 
-You need to change these two blocks:
+Tu dois changer ces deux blocs:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 <key ( v) pressed>
@@ -92,15 +92,15 @@ You need to change these two blocks:
 point in direction ()
 ```
 
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
+Duplique le code qui fait que le sprite `joueur` progresse vers le haut et modifie ces deux blocs pour faire descendre le sprite. Duplique à nouveau le code et modifie-le pour que le sprite se déplace vers la droite.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here is how your code should look:
+Voici à quoi ton code devrait ressembler :
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 when flag clicked
