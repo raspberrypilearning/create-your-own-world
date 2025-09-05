@@ -1,26 +1,26 @@
-## Collect coins
+## Skupljaj novčiće
 
-Your `player` sprite should have be able to collect coins as it moves through the world.
+Vaš ` igrač ` sprite bi trebao biti u mogućnosti skupljati novčiće dok se kreće svijetom.
 
 \--- task \---
 
-Add a new variable valled `coins`{:class="block3variables"} to your project.
+Dodajte novu varijablu, promjenjivog broja ` kovanice` {: class = "block3variables"} u svoj projekt.
 
 \--- /task \---
 
 \--- task \---
 
-Select the `coin` sprite and click **show**.
+Odaberite ` novčić ` sprite i kliknite ** prikaži **,.
 
-![screenshot](images/coin.png)
+![snimka zaslona](images/coin.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to your `coin` sprite so that it only appears in room 1.
+Dodajte kôd ` novčić ` sprite tako da se pojavljuje samo u sobi 1.
 
-![screenshot](images/coin.png)
+![snimka zaslona](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -35,9 +35,9 @@ hide
 
 \--- task \---
 
-Add code to your `coin` sprite so that the sprite `hides`{:class="block3looks"} and `1`{:class="block3variables"} is added to the `coins`{:class="block3variables"} variable once the `player` sprite touches the `coin` sprite to 'pick it up'.
+Dodajte kôd ` novčić` spriteu tako da se ` skriva ` {: class = "block3looks"} i ` 1 ` {: class = "block3variables"} se pribraja u varijablu ` kovanice` {: class = "block3variables"} kada sprite ` igrač ` dodiruje ` novčić ` i "pokupi ga".
 
-![coin](images/coin.png)
+![novčić](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -47,15 +47,15 @@ hide
 stop [other scripts in sprite v]
 ```
 
-The code `stop other scripts in sprite`{:class="block3control"} is needed so that the `coin` sprite stops being displayed in room 1 once it's been collected.
+Kod ` zaustavlja ostale skripte u spriteu ` {: class = "block3control"} potreban je tako da ` novčić ` sprite prestaje biti prikazan u sobi 1 nakon što je prikupljen.
 
 \--- /task \---
 
 \--- task \---
 
-Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
+Sada dodajte kôd u Pozornicu da biste postavili varijablu ` kovanice ` {: class = "block3variables"} na ` 0 ` {: class = "block3variables"} na početku igre.
 
-![stage](images/stage.png)
+![pozornica](images/stage.png)
 
 ```blocks3
 when flag clicked
@@ -66,6 +66,6 @@ set [coins v] to [0]
 
 \--- task \---
 
-Test your game. Collecting a coin should change your `coins` score to `1`{:class="block3variables"}.
+Testirajte svoju igru. Prikupljanje novčića trebalo bi promijeniti vaše ` kovanice ` rezultat na ` 1 ` {: Class = "block3variables"}.
 
 \--- /task \---
