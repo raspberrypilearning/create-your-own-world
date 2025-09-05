@@ -1,10 +1,10 @@
-## Challenge: add an enemy
+## Provocare: adaugă un inamic
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Dacă vrei, poți, de asemenea, să adaugi la joc inamici care patrulează. Dacă personajul `jucător` atinge un inamic, jocul se termină.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Jocul tău conține deja un personaj `inamic`. Adaugă niște cod personajului `inamic` astfel încât să apară doar în camera 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ Adaugă cod pentru a mișca personajul `inamic` și pentru a încheia jocul dacă personajul `inamic` atinge personajul `jucător`. Este mai ușor să faci acest lucru în blocuri de cod separate. Iată cum ar putea arăta codul pentru personajul tău `inamic`:
 
 ```blocks3
 when flag clicked
@@ -29,11 +29,11 @@ repeat (130)
 change x by (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Testează-ți noul cod pentru a te asigura că: 
+    + Personajul `inamic` este vizibil doar în camera 2
+    + Personajul `inamic` patrulează camera
+    + Jocul se încheie dacă personajul`jucător` atinge personajul `inamic`
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Poți crea un alt personaj `inamic` în camera 3, care patrulează în sus și în jos prin gaura din perete?
 
-![screenshot](images/world-enemy2.png)
+![captură de ecran](images/world-enemy2.png)
