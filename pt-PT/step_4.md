@@ -1,10 +1,10 @@
-## Move around your world
+## Move-te pelo teu mundo
 
 The `player` sprite should be able to walk through doors into other rooms.
 
 Your project contains backdrops for additional rooms:
 
-![screenshot](images/world-backdrops.png)
+![captura de ecrã](images/world-backdrops.png)
 
 \--- task \---
 
@@ -12,7 +12,7 @@ Create a new 'for all sprites' variable called `room`{:class="block3variables"} 
 
 [[[generic-scratch3-add-variable]]]
 
-![screenshot](images/world-room.png)
+![captura de ecrã](images/world-room.png)
 
 \--- /task \---
 
@@ -76,7 +76,7 @@ When the game starts:
 
 Here are the extra blocks you need:
 
-![player](images/player.png)
+![jogador](images/player.png)
 
 ```blocks3
 go to x: (-200) y: (0)
@@ -92,7 +92,7 @@ switch backdrop to (room1 v)
 
 Here's what your finished script should look like:
 
-![player](images/player.png)
+![jogador](images/player.png)
 
 ```blocks3
 when flag clicked
@@ -137,6 +137,6 @@ end
 
 Click the flag, and then move your `player` sprite until it touches the orange door. Does the sprite move to the next screen? Does the `room`{:class="block3variables"} variable change to `2`?
 
-![screenshot](images/world-room-test.png)
+![captura de ecrã](images/world-room-test.png)
 
 \--- /task \---
