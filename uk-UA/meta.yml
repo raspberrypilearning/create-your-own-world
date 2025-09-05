@@ -1,5 +1,5 @@
 ---
-hero_image: images/banner.png
+hero_image: images/create-your-own-world.png
 title: Створи власний світ
 description: Створи свою власну пригодницьку гру в жанрі «Відкритий світ»
 listed: true
@@ -39,5 +39,5 @@ steps:
   - 
     title: 'Завдання: розшир свій світ'
     challenge: true
-  - 
-    title: Що далі?
+    completion:
+      - external
