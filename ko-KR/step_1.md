@@ -37,7 +37,7 @@
 
 ### 소프트웨어
 
-- Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
+- 스크래치 3 ( [온라인](https://rpf.io/scratchon){:target="_blank"} 또는 [오프라인](https://rpf.io/scratchoff){:target="_blank"})
 
 ### 다운로드
 
