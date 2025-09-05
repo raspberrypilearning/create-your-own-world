@@ -4,7 +4,7 @@ Laten we andere personen aan je wereld toevoegen waarmee de `speler` sprite kan 
 
 \--- task \---
 
-Switch to the `person` sprite.
+\--- task \--- Schakel over naar de `persoon` sprite.
 
 ![Person sprite](images/person.png)
 
@@ -12,7 +12,7 @@ Switch to the `person` sprite.
 
 \--- task \---
 
-Add some code to the `person` sprite so that the person talks to the `player` sprite. This code is very similar to the code you added to your `sign` sprite:
+\--- task \--- Voeg wat code toe aan de `persoon` sprite zodat deze spreekt met de `speler` sprite. Deze code zal erg lijken op de code die je aan je `welkomstbord` sprite hebt gegeven:
 
 ![persoon](images/person.png)
 
@@ -32,9 +32,9 @@ einde
 
 \--- task \---
 
-Allow your `person` sprite to move by adding these two blocks in the `else`{:class="block3control"} section of your code:
+\--- task \--- Sta je `persoon` sprite toe zich te verplaatsen door deze twee blokken in het `anders`{:class="block3control"} gedeelte van je code toe te voegen:
 
-![person](images/person.png)
+![persoon](images/person.png)
 
 ```blocks3
 wanneer groene vlag wordt aangeklikt
@@ -52,14 +52,14 @@ einde
 
 \--- /task \---
 
-Your `person` sprite will now move, but will stop to talk to the `player` sprite.
+De sprite `persoon` zal nu gaan bewegen maar stopt om te spreken met `speler` sprite.
 
 ![screenshot](images/world-person-test.png)
 
 \--- task \---
 
-Add code to your new `person` sprite so that the sprite only appears in room 1. The code you need is exactly the same as the code that makes the `sign` sprite only visible in room 1.
+\--- task \--- Voeg code toe aan je nieuwe `persoon` sprite zodat de sprite alleen in kamer 1 verschijnt. De code die je nodig hebt, is exact dezelfde als de code waardoor de `welkomstbord` sprite alleen zichtbaar is in kamer 1.
 
-Make sure you test out your new code.
+Zorg ervoor dat je je nieuwe code test.
 
 \--- /task \---
