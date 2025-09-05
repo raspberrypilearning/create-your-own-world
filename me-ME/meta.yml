@@ -1,43 +1,43 @@
 ---
-hero_image: images/banner.png
-title: Create your own world
-description: Create your own open-world adventure game
+hero_image: images/create-your-own-world.png
+title: Kreiraj sopstveni svijet
+description: Nauči kako da napraviš sopstvenu igru avanture u otvorenom svijetu.
 listed: true
 copyedit: false
 version: 4.1.0
 last_tested: 2018-10-23
 steps:
   - 
-    title: Introduction
+    title: Uvod
   - 
-    title: Move the player sprite
+    title: Šta će ti biti potrebno
   - 
-    title: Solid walls
+    title: Čvrsti zidovi
     completion:
       - engaged
   - 
-    title: Move around your world
+    title: Čvrsti zidovi
   - 
-    title: 'Challenge: move back to the previous room'
+    title: 'Programiranje tvog svijeta'
     challenge: true
   - 
-    title: Signs
+    title: Znakovi
   - 
-    title: 'Challenge: treasure!'
+    title: 'Izazov: blago!'
     challenge: true
   - 
-    title: People
+    title: Osobe
   - 
-    title: 'Challenge: enemies'
+    title: 'Izazov: neprijatelji'
     challenge: true
   - 
-    title: Collect coins
+    title: Sakupljanje novčića
   - 
-    title: Doors and keys
+    title: Vrata i ključevi
     completion:
       - internal
   - 
-    title: 'Challenge: extend your world'
+    title: 'Izazov: proširi svoj svijet'
     challenge: true
-  - 
-    title: What next?
+    completion:
+      - external
