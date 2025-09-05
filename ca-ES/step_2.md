@@ -6,7 +6,7 @@ Comença per crear un personatge `jugador` que pugui moure's pel teu món.
 
 Obre el projecte d'arrencada de Scratch "Crea el teu propi món".
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**En línia**: obre el projecte d'inici a [scratch.mit.edu/projects/395712734](https://scratch.mit.edu/projects/395712734){:target="_blank"}.
 
 Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
