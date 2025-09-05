@@ -1,50 +1,50 @@
-## Solid walls
+## Trdne stene
 
 \--- task \---
 
-Test your `player` sprite again. Do you see that it can walk through the light grey walls?
+Ponovno preizkusi figuro `igralec`. Do you see that it can walk through the light grey walls?
 
-![screenshot](images/world-walls.png)
+![posnetek zaslona](images/world-walls.png)
 
 \--- /task \---
 
 \--- task \---
 
-To fix this, you need to make the `player` sprite move back if it touches a light grey wall. Here's the code you need to add inside your `forever`{:class="block3control"} block below the direction blocks:
+To popraviš tako, da poskrbiš, da se figura `igralec` pomakne nazaj, kadar se dotakne svetlo-sive stene. Takšna je koda, ki jo moraš dodati znotraj bloka `ponavljaj`{:class="block3control"}, pod bloke, ki skrbijo za premikanje:
 
-![player](images/player.png)
+![igralec](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-        if <key (down arrow v) pressed? > then
+ko kliknemo na zastavo
+ponavljaj
+  če <je pritisnjena tipka (puščica gor v)? > potem
+    obrni se v smer (0)
+    pojdi (4) korakov
+  konec
+če <je pritisnjena tipka (puščica levo v)? > potem
+    obrni se v smer (-90)
+    pojdi (4) korakov
+  konec
++ če <je pritisnjena tipka (puščica dol v)? > then
         point in direction (180)
         move (4) steps
     end
-        if <key (right arrow v) pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-+   if < touching color [#BABABA]? > then
-    move (-4) steps
-    end
-end
+        if <key (right arrow v) pressed? > potem
+    obrni se v smer (90)
+    pojdi (4) korakov
+  konec
++ če < se dotika barve [#BABABA]? > potem
+    pojdi (-4) korakov
+    konec
+konec
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Try to make the `player` sprite move through a wall. If your new code works, this shouldn't be possible.
+Poskusi premakniti figuro `igralec` skozi zid. Če tvoja koda deluje, to ne bi smelo biti mogoče.
 
-![screenshot](images/world-walls-test.png)
+![posnetek zaslona](images/world-walls-test.png)
 
 \--- /task \---
