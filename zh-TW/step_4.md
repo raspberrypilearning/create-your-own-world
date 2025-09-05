@@ -33,11 +33,9 @@
         面朝 (-90) 度
         移動 (4) 點
     end
-    如果 <(向下 v) 鍵被按下？ > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > 那麼
+    如果 <(向下 v) 鍵被按下？ when flag clicked
+forever
+    if <key (向上 v) pressed? > 那麼
         面朝 (90) 度
         移動 (4) 點
     end
@@ -108,11 +106,12 @@ end
         面朝 (-90) 度
         移動 (4) 點
     end
-    如果 <(向下 v) 鍵被按下？ > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > 那麼
+    如果 <(向下 v) 鍵被按下？ when flag clicked
++set [空間 v] to (1)
++go to x: (-200) y: (0)
++switch backdrop to (空間1 v)
+forever
+    if <key (向上 v) pressed? > 那麼
         面朝 (90) 度
         移動 (4) 點
     end
