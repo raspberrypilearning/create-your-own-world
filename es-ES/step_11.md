@@ -57,7 +57,7 @@ detener [otros programas en el objeto v]
 Agrega código a tu escenario para vaciar tu inventario al comienzo del juego.
 
 ```blocks3
-delete all of [inventory v]
+delete (todos v) of [inventario v]
 ```
 
 \--- /task \---
