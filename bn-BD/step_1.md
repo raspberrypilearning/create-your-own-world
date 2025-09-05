@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## পরিচিতি
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### What you will make
+### যা তৈরি করতে হবে
 
 \--- no-print \---
 
@@ -29,17 +29,17 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: যা যা প্রয়োজন
 
-### Hardware
+### হার্ডওয়্যার
 
-- A computer capable of running Scratch 3
+- একটি কম্পিউটার যেথানে স্ক্র্যাচ ৩. ০ (Scratch 3) চালানো যাবে
 
-### Software
+### সফটওয়্যার
 
 - Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### ডাউনলোডগুলি
 
 You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: যা শিখতে পারবেন
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -58,10 +58,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## শিরোনাম : শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [প্রিন্টার সহযোগী সংষ্করণ](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"} ব্যবহার করুন।.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+আপনি এখানে সমাপ্ত প্রকল্প সমূহ [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"} সন্ধান করতে পারেন।.
 
 \--- /collapse \---
