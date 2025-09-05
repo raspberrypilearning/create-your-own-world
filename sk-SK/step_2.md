@@ -1,18 +1,18 @@
-## Move the player sprite
+## Presuňte prehrávač scény
 
-Start by creating a `player` sprite that can move around your world.
+Začnite tým, že vytvoríte `hráčov` sprite, ktorý sa môže pohybovať po celom svete.
 
-\--- task \---
+\--- úloha \---
 
-Open the 'Create your own world' Scratch starter project.
+Otvorte projekt "Vytvorte si vlastný svet" Scratch starter.
 
 **Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ak máš účet v Scratch-i, môžeš si vytvoriť kópiu projektu kliknutím na **Remixuj**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. If you need to download and install the Scratch offline editor, you can find it at [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Ak potrebuješ stiahnuť a nainštalovať offline Scratch editor, nájdeš ho na [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
-![screenshot](images/world-starter.png)
+![snímka obrazovky](images/world-starter.png)
 
 \--- /task \---
 
@@ -25,13 +25,13 @@ Add this code to the `player` sprite:
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-end
+keď sa vlajka preklikne
+navždy
+    ak <stlačíte tlačidlo (šípka nahor v)? > potom
+        bod v smere (0)
+        posunúť (4) kroky
+    koniec
+koniec
 ```
 
 \--- /task \---
@@ -40,7 +40,7 @@ end
 
 Click the flag and then hold down the up arrow. Does the `player` sprite move up?
 
-![screenshot](images/world-up.png)
+![snímka obrazovky](images/world-up.png)
 
 \--- /task \---
 
@@ -51,17 +51,17 @@ To move the `player` sprite to the left, you need to add another `if`{:class="bl
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-+   if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
-end
+keď sa vlajka preklikne
+navždy
+    ak <stlačíte tlačidlo (šípka nahor v)? > potom
+        bod v smere (0)
+        posunúť (4) kroky
+    koniec
++ ak je stlačené tlačidlo <(ľavá šípka v)? > potom
+        bod v smere (-90)
+        posunúť (4) kroky
+    koniec
+koniec
 ```
 
 \--- /task \---
@@ -89,7 +89,7 @@ You need to change these two blocks:
 ```blocks3
 <key ( v) pressed>
 
-point in direction ()
+bod v smere ()
 ```
 
 Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
@@ -103,26 +103,26 @@ Here is how your code should look:
 ![player](images/player.png)
 
 ```blocks3
-when flag clicked
-forever
-    if <key (up arrow v) pressed? > then
-        point in direction (0)
-        move (4) steps
-    end
-    if <key (left arrow v) pressed? > then
-        point in direction (-90)
-        move (4) steps
-    end
+keď sa vlajka preklikne
+navždy
+    ak <stlačíte tlačidlo (šípka nahor v)? > potom
+        bod v smere (0)
+        posunúť (4) kroky
+    koniec
+    ak je stlačené tlačidlo <(šípka doľava v)? > potom
+        bod v smere (-90)
+        posunúť (4) kroky
+    koniec
 
-+    if <key (down arrow v) pressed? > then
++ ak je stlačené tlačidlo <(šípka dole v)? > then
         point in direction (180)
         move (4) steps
     end
-+    if <key (right arrow v) pressed? > then
-        point in direction (90)
-        move (4) steps
-    end
-end
++    if <key (right arrow v) pressed? > potom
+        bod v smere (90)
+        posunúť (4) kroky
+    koniec
+koniec
 ```
 
 \--- /hint \---
