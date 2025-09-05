@@ -1,10 +1,10 @@
-## Challenge: add an enemy
+## Défi : ajoute un ennemi
 
-If you want, you can also add patrolling enemies to your game. If the `player` sprite touches an enemy, the game ends.
+Si tu le souhaites, tu peux également ajouter des ennemis en patrouille à ton jeu. Si le sprite `joueur` touche un ennemi, le jeu se termine.
 
-+ Your game already contains an `enemy` sprite. Add code to the `enemy` sprite so that it only appears in room 2.
++ Ton jeu contient déjà un sprite `ennemi`. Ajoute du code au sprite `ennemi` pour qu'il n'apparaisse que dans la salle 2.
 
-+ Add code to move the `enemy` sprite and to end the game if the `enemy` sprite touches the `player` sprite. It's easier to do this in separate code blocks. Here's how your `enemy` sprite code might look:
++ Ajoute du code pour déplacer le sprite `ennemi` et pour terminer le jeu si le sprite `ennemi` touche le sprite `joueur`. C'est plus facile de faire cela dans des blocs de code séparés. Voici à quoi ton code du sprite `ennemi` pourrait ressembler :
 
 ```blocks3
 when flag clicked
@@ -29,11 +29,11 @@ repeat (130)
 change x by (1)
 ```
 
-+ Test out your new code to make sure that: 
-    + The `enemy` sprite only visible in room 2
-    + The `enemy` sprite patrols the room
-    + The game ends if the `player` sprite touches the `enemy` sprite
++ Teste ton nouveau code pour t'assurer que: 
+    + Le sprite `ennemi` visible uniquement dans la salle 2
+    + Le sprite `ennemi` patrouille la salle
+    + Le jeu se termine si le sprite `joueur` touche le sprite `ennemi`
 
-Can you create another `enemy` sprite in room 3 that patrols up and down through the gap in the wall?
+Peux-tu créer un autre sprite `ennemi` dans la salle 3 qui patrouille de haut en bas à travers la fente dans le mur ?
 
-![screenshot](images/world-enemy2.png)
+![capture d'écran](images/world-enemy2.png)
