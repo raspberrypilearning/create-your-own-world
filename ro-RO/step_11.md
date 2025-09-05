@@ -1,36 +1,36 @@
-## Doors and keys
+## Uși și chei
 
-Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
+Acum vei adăuga cod, astfel încât unele dintre ușile din lumea ta să fie încuiate, iar jucătorul trebuie să găsească cheia pentru a le deschide și a ajunge în camera următoare.
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+Schimbă la personajul `cheie`. Dă click pe `arată`{:class="blocklooks"} în meniul Cod pentru ca personajul cheie să apară pe Scenă.
 
 \--- /task \---
 
 \--- task \---
 
-Edit the `key` sprite's costume so that it is blue.
+Editează costumul personajului `cheie`, astfel încât să fie albastru.
 
 \--- /task \---
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+Schimbă decorul Scenei la camera 3 și plasează personajul `cheie` undeva greu de ajuns!
 
-![screenshot](images/world-key.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `key` sprite to make it only visible in room 3.
+![captură de ecran](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Create a new list called `inventory`{:class="block3variables"} to store the items your `player` sprite collects.
+Adaugă cod personajului `cheie` pentru a-l face vizibil doar în camera 3.
+
+\--- /task \---
+
+\--- task \---
+
+Creează o nouă listă numită `inventar`{:class="block3variables"} pentru a stoca elementele colecțate de personajul tău `jucător`.
 
 [[[generic-scratch3-make-list]]]
 
@@ -38,9 +38,9 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+Codul pe care trebuie să-l adaugi pentru colectarea cheii este foarte asemănător cu codul pentru colectarea monedelor. Diferența este că adăugați cheia în `inventar`{:class="block3variables"}.
 
-![key](images/key.png)
+![cheie](images/key.png)
 
 ```blocks3
 when flag clicked
@@ -54,7 +54,7 @@ stop [other scripts in sprite v]
 
 \--- task \---
 
-Add code to your Stage to empty your inventory at the start of the game.
+Adaugă cod Scenei tale pentru a goli inventarul la începutul jocului.
 
 ```blocks3
 delete all of [inventory v]
@@ -64,29 +64,29 @@ delete all of [inventory v]
 
 \--- task \---
 
-Test out your game to check whether you can collect the `key` sprite and add it to your inventory.
+Testează-ți jocul pentru a verifica dacă poți colecta personajul `cheie` și să îl adaugi în inventar.
 
 \--- /task \---
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+Acum adaugă ușa încuiată. Selectează personajul `ușa-albastră` și dă click pe `arată`{:class="blocklooks}, apoi poziționează-l peste gaura dintre cei doi pereți.
 
-![screenshot](images/world-door.png)
-
-\--- /task \---
-
-\--- task \---
-
-Add code to the `door-blue` sprite so that it is only visible in room 3.
+![captură de ecran](images/world-door.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
+Adaugă niște cod personajului `inamic` astfel încât să apară doar în camera 3.
 
-![door](images/door.png)
+\--- /task \---
+
+\--- task \---
+
+Adaugă cod personajului `ușa-albastră`, astfel încât, atunci când cheia se află în `inventar`{:class="block3variables"}, acesta se `ascunde`{:class="block3looks"} pentru a permite personajului `jucător`să treacă.
+
+![uşă](images/door.png)
 
 ```blocks3
 when flag clicked
@@ -99,6 +99,6 @@ hide
 
 \--- task \---
 
-Test out your game and see if you can collect the blue key to open the door!
+Testează-ți jocul și vezi dacă poți colecta cheia albastră pentru a deschide ușa!
 
 \--- /task \---
