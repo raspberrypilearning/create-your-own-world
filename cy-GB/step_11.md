@@ -4,7 +4,7 @@ Rwyt ti nawr am ychwanegu côd i rai o dy ddrysau fel bod rhai o'r drysau yn y g
 
 \--- task \---
 
-Switch to the `key` sprite. Click on `show`{:class="blocklooks"} in the Scripts menu so that the sprite appears on the Stage.
+Switch to the `key` sprite. Clicia ar `dangor`{:class="blocklooks"} yn y dewislen fel bod y corlun yn ymddangos ar y Llwyfan.
 
 \--- /task \---
 
@@ -16,15 +16,15 @@ Edit the `key` sprite's costume so that it is blue.
 
 \--- task \---
 
-Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
+[[[generic-scratch3-make-list]]] \--- /task \---
 
-![screenshot](images/world-key.png)
+![sgrinlun](images/world-key.png)
 
 \--- /task \---
 
 \--- task \---
 
-Add code to the `key` sprite to make it only visible in room 3.
+\--- task \--- Ychwanega gôd i'r Llwyfan i wagio dy restr ar gychwyn gêm.
 
 \--- /task \---
 
@@ -38,9 +38,9 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 \--- task \---
 
-The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
+The code you need to add for collecting the key is very similar to the code for collecting coins. Y gwahaniaeth yw fod angen ychwanegu allwedd i'r `rhestr`{:class="block3variables"}.
 
-![key](images/key.png)
+![allwedd](images/key.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
@@ -57,7 +57,7 @@ aros [other scripts in sprite v]
 Add code to your Stage to empty your inventory at the start of the game.
 
 ```blocks3
-delete all of [inventory v]
+dileu (y cyfan v) o [wedi casglu v]
 ```
 
 \--- /task \---
@@ -70,9 +70,9 @@ Test out your game to check whether you can collect the `key` sprite and add it 
 
 \--- task \---
 
-Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
+Now add the locked door. Dewisa'r corlun `drws-glas` a chlicio `dangos`{:class="blocklooks} yn y ddewislen, yna gosod y corlun ar draws y bwlch rhwng y ddwy wal.
 
-![screenshot](images/world-door.png)
+![sgrinlun](images/world-door.png)
 
 \--- /task \---
 
@@ -86,7 +86,7 @@ Add code to the `door-blue` sprite so that it is only visible in room 3.
 
 Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:class="block3variables"}, the sprite `hides`{:class="block3looks"} to allow your `player` sprite to pass.
 
-![door](images/door.png)
+![drws](images/door.png)
 
 ```blocks3
 pan fo'r flag werdd yn cael ei glicio
