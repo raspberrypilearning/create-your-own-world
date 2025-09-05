@@ -1,10 +1,10 @@
-## Signs
+## Sinais
 
 Now add signs to your world to guide players on their journey.
 
 Your project includes a `welcome sign` sprite:
 
-![screenshot](images/world-sign.png)
+![captura de ecrã](images/world-sign.png)
 
 \--- task \---
 
@@ -20,7 +20,7 @@ The `welcome sign` sprite should only be visible in room 1, so add some code to 
 
 \--- hint \---
 
-Here are the blocks you need:
+Aqui estão os blocos de que precisas:
 
 ![sign](images/sign.png)
 
@@ -71,7 +71,7 @@ end
 
 Test the code for your `welcome sign` sprite by moving between rooms. The sign should only be visible in room 1.
 
-![screenshot](images/world-sign-test.png)
+![captura de ecrã](images/world-sign-test.png)
 
 \--- /task \---
 
@@ -103,6 +103,6 @@ end
 
 Test your `welcome sign` sprite again. You should now see a message when the `player` sprite touches the `welcome sign` sprite.
 
-![screenshot](images/world-sign-test2.png)
+![captura de ecrã](images/world-sign-test2.png)
 
 \--- /task \---
