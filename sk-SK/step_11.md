@@ -1,4 +1,4 @@
-## Doors and keys
+## Dvere a kľúče
 
 Now you are going to add code so that some of the doors in your game world are locked, and the player must find the key to open them and get to the next room.
 
@@ -18,7 +18,7 @@ Edit the `key` sprite's costume so that it is blue.
 
 Switch your Stage backdrop to room 3, and place the `key` sprite somewhere difficult to reach!
 
-![screenshot](images/world-key.png)
+![snímka obrazovky](images/world-key.png)
 
 \--- /task \---
 
@@ -26,7 +26,7 @@ Switch your Stage backdrop to room 3, and place the `key` sprite somewhere diffi
 
 Add code to the `key` sprite to make it only visible in room 3.
 
-\--- /task \---
+\--- / úloha \---
 
 \--- task \---
 
@@ -40,14 +40,14 @@ Create a new list called `inventory`{:class="block3variables"} to store the item
 
 The code you need to add for collecting the key is very similar to the code for collecting coins. The difference is that you add the key to the `inventory`{:class="block3variables"}.
 
-![key](images/key.png)
+![kláves](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+keď vlajka klikne
+čakajte, až <touching (player v)?>
+pridajte [blue key] do [inventory v]
+skryť
+stop [iné skripty v sprite v]
 ```
 
 \--- /task \---
@@ -72,7 +72,7 @@ Test out your game to check whether you can collect the `key` sprite and add it 
 
 Now add the locked door. Select the `door-blue` sprite and click on `show`{:class="blocklooks} in the Scripts menu, and then position the sprite across the gap between the two walls.
 
-![screenshot](images/world-door.png)
+![snímka obrazovky](images/world-door.png)
 
 \--- /task \---
 
@@ -89,10 +89,10 @@ Add code to the `door-blue` sprite so that, when the key is in the `inventory`{:
 ![door](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+keď má príznak
+počkajte, kým <[inventár v] neobsahuje [modrý kľúč]?>
+stop [iné skripty v sprite v]
+skryť
 ```
 
 \--- /task \---
