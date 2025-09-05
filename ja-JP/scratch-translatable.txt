@@ -1,13 +1,13 @@
-room
+ルーム
 
-player
+プレーヤー
 
-Welcome! Can you get to the treasure?
+ようこそ！ たからものにたどりつけるかな？
 
-Did you know that you can go through orange and yellow doors?
+オレンジいろやきいろのどあをとおりぬけることができることをしっていたかな？
 
-coins
+コイン
 
-blue key
+あおいろのかぎ
 
-inventory
+アイテムいちらん
