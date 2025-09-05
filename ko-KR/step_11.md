@@ -43,11 +43,11 @@
 ![열쇠](images/key.png)
 
 ```blocks3
-when flag clicked
-wait until <touching (player v)?>
-add [blue key] to [inventory v]
-hide
-stop [other scripts in sprite v]
+깃발이 클릭되었을 때
+<(플레이어 v) 에 닿을?> 때 까지 대기
+[인벤토리 v] 에 [파란 키] 추가
+숨기기
+[스프라이트v 내 기타 스크립트] 정지
 ```
 
 \--- /task \---
@@ -57,7 +57,7 @@ stop [other scripts in sprite v]
 게임 시작 시 인벤토리가 비워지게 스테이지에 코드를 추가합니다.
 
 ```blocks3
-delete all of [inventory v]
+delete (all v) of [아이템 목록 v]
 ```
 
 \--- /task \---
@@ -89,10 +89,10 @@ delete all of [inventory v]
 ![문](images/door.png)
 
 ```blocks3
-when flag clicked
-wait until <[inventory v] contains [blue key]?>
-stop [other scripts in sprite v]
-hide
+깃발이 클릭되었을 때
+<[인벤토리 v] 에 [파란 열쇠] 가 포함되었는가?> 때까지 대기
+[스프라이트 v 내 기타 스크립트] 정지 
+숨기기
 ```
 
 \--- /task \---
