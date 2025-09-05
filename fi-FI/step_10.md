@@ -12,7 +12,7 @@ Add a new variable valled `coins`{:class="block3variables"} to your project.
 
 Select the `coin` sprite and click **show**.
 
-![screenshot](images/coin.png)
+![kuvakaappaus](images/coin.png)
 
 \--- /task \---
 
@@ -20,7 +20,7 @@ Select the `coin` sprite and click **show**.
 
 Add code to your `coin` sprite so that it only appears in room 1.
 
-![screenshot](images/coin.png)
+![ruutukaappaus](images/coin.png)
 
 ```blocks3
 when flag clicked
@@ -55,7 +55,7 @@ The code `stop other scripts in sprite`{:class="block3control"} is needed so tha
 
 Now add code to the Stage to set your `coins`{:class="block3variables"} variable to `0`{:class="block3variables"} at the start of the game.
 
-![stage](images/stage.png)
+![esiintymislava](images/stage.png)
 
 ```blocks3
 when flag clicked
