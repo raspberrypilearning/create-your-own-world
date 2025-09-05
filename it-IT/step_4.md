@@ -33,11 +33,9 @@ per sempre
     punta in direzione (-90)
     fai (4) passi
   end
-  se <tasto (freccia giu v) premuto? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > allora 
+  se <tasto (freccia giu v) premuto? when flag clicked
+forever
+    if <key (freccia su v) pressed? > allora 
     punta in direzione (90)
     fai (4) passi
   end
@@ -108,11 +106,12 @@ se <tasto (freccia su v) premuto? > allora
     punta in direzione (-90)
     fai (4) passi
   end
-  se <tasto (freccia giu v) premuto? > then
-        point in direction (180)
-        move (4) steps
-    end
-        if <key [right arrow v] pressed? > allora 
+  se <tasto (freccia giu v) premuto? quando si clicca sulla bandiera verde
++porta [stanza v] a (1)
++vai a x: (-200) y: (0)
++passa allo sfondo (stanza1 v)
+per sempre 
+se <tasto (freccia su v) premuto? > allora 
     punta in direzione (90)
     fai (4) passi
   end
