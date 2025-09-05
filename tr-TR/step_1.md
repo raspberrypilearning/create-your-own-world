@@ -1,14 +1,14 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2).
+Bu, projenin **Scratch 3** versiyonudur. Ayrıca projenin bir de [Scratch 2 versiyonu](https://projects.raspberrypi.org/en/projects/create-your-own-world-scratch2) bulunmaktadır.
 
 \--- /no-print \---
 
-## Introduction
+## Giriş
 
 In this project, you'll learn how to create your own adventure game world with multiple levels to explore.
 
-### What you will make
+### Ne yapacaksınız
 
 \--- no-print \---
 
@@ -29,17 +29,17 @@ You'll use the arrow keys to move your character around in the world. ![showcase
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Nelere ihtiyacınız var
 
-### Hardware
+### Donanım
 
-- A computer capable of running Scratch 3
+- Scratch 3 çalıştırabilen bir bilgisayar
 
-### Software
+### Yazılım
 
 - Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
-### Downloads
+### İndirilenler
 
 You can find everything you need to complete this project at [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go).
 
@@ -47,7 +47,7 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Neler öğreneceksiniz
 
 - Use conditional selection to react to key presses
 - Use variables to store a game's state
@@ -58,10 +58,10 @@ You can find everything you need to complete this project at [rpf.io/p/en/create
 
 ## \--- collapse \---
 
-## title: Additional information for educators
+## title: Eğitimciler için ek bilgiler
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/create-your-own-world/print){:target="_blank"}.
+Bu projeyi yazdırmanız gerekiyorsa, lütfen [yazıcı-dostu sürüm](https://projects.raspberrypi.org/en/projects/create-your-own-world/print) 'ü kullanın {: target = "_ blank"}.
 
-You can find the [completed project here](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"}.
+Tamamlanmış projeye [buradan](https://rpf.io/p/en/create-your-own-world-get){:target="_blank"} ulaşabilirsiniz.
 
 \--- /collapse \---
