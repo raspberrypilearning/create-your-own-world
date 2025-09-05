@@ -1,13 +1,13 @@
-room
+cameră
 
-player
+jucător
 
-Welcome! Can you get to the treasure?
+Bun venit! Poți ajunge la comoară?
 
-Did you know that you can go through orange and yellow doors?
+Știai că poți trece prin ușile portocalie și galbenă?
 
-coins
+monede
 
-blue key
+cheie albastră
 
-inventory
+inventar
