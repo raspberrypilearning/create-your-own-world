@@ -6,11 +6,11 @@ Commence par créer un sprite `joueur` qui peut se déplacer dans ton monde.
 
 Ouvre le projet de démarrage Scratch «Créez ton propre monde».
 
-**Online**: open the online starter project at [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
+**En ligne**: ouvre le projet de démarrage en ligne à [rpf.io/create-your-own-world-on](https://rpf.io/create-your-own-world-on){:target="_blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Offline**: download the starter project [rpf.io/p/en/create-your-own-world-go](https://rpf.io/p/en/create-your-own-world-go){:target="_blank"}, and then open it using the offline editor. Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
+**Hors ligne**: télécharge le projet de démarrage [rpf.io/p/fr/create-your-own-world-go](https://rpf.io/p/fr-FR/create-your-own-world-go){:target="_blank"}, puis ouvre-le à l'aide de l'éditeur hors connexion. Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [rpf.io/scratchoff](https://rpf.io/scratchoff){:target="_blank"}.
 
 ![capture d'écran](images/world-starter.png)
 
@@ -98,9 +98,9 @@ Duplique le code qui fait que le sprite `joueur` progresse vers le haut et modif
 
 \--- hint \---
 
-Here is how your code should look:
+\--- /hint \--- \--- hint \--- Voici a quoi devrait ressembler ton code:
 
-![player](images/player.png)
+![joueur](images/player.png)
 
 ```blocks3
 lorsque le drapeau est cliqué
