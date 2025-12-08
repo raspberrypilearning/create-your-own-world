@@ -1,0 +1,31 @@
+---
+hero_image: images/banner.png
+title: あなた自身の世界を作りなさい
+description: あなた自身のオープンワールドアドベンチャーゲームを作りましょう
+listed: true
+copyedit: false
+version: 4.1.0
+last_tested: 2018-10-23
+steps:
+- title: 前書き
+- title: プレーヤーのスプライトを移動する
+- title: 堅い壁
+  completion:
+  - engaged
+- title: あなたの世界を動き回る
+- title: '課題：前の部屋に戻る'
+  challenge: true
+- title: サイン
+- title: '挑戦：宝物！'
+  challenge: true
+- title: 人
+- title: '挑戦：敵'
+  challenge: true
+- title: コインを集める
+- title: ドアとキー
+  completion:
+  - internal
+- title: '課題：あなたの世界を広げる'
+  challenge: true
+  completion:
+  - external
