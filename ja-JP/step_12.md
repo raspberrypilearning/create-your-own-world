@@ -23,7 +23,7 @@
 
 ```blocks3
 if <touching color [ ]?> then
-switch backdrop to ((costume [number v]) + (3))
+switch backdrop to ((costume [番号 v]) + (3))
 go to x:(0) y:(200)
 change [ルーム v] by (3)
 ```
