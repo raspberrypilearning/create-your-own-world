@@ -25,12 +25,12 @@ Ychwanega’r côd canlynol i’r corlun `chwareuwr`:
 ![chwaraewr](images/player.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-    os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
-        pwyntio i gyfeiriad (0)
-        symud (4) cam
-    end
+when flag clicked
+forever
+    if <key (saeth i fyny v) pressed? > then 
+		point in direction (0)
+		move (4) steps
+	end
 end
 ```
 
@@ -51,15 +51,15 @@ I symud y `chwareuwr` i'r chwith, bydd angen i ti ychwanegu bloc arall `os`{:cla
 ![chwaraewr](images/player.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-    os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
-        pwyntio i gyfeiriad (0)
-        symud (4) cam
-    end
-+   os <bysell (saeth chwith v) wedi ei phwyso? > yna 
-        pwyntio i gyfeiriad (-90)
-        symud (4) cam
+when flag clicked
+forever
+	if <key (saeth i fyny v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
++	if <key (saeth chwith v) pressed? > then
+		point in direction (-90)
+		move (4) steps
     end
 end
 ```
@@ -88,39 +88,45 @@ Mae angen i ti newid y ddau floc yma:
 ![chwaraewr](images/player.png)
 
 ```blocks3
-<bysell ( v) wedi ei phwyso?>
+<key ( v) pressed>
 
-pwyntio i gyfeiriad ()
+point in direction ()
 ```
 
 Dyblyga'r côd sy'n gwneud i'r `chwareuwr` symud fyny, ac yna newidia'r ddau floc i wneud i'r corlun symud lawr. Dyblyga'r côd eto a'i newid fel fod y corlun yn symud i'r dde.
 
---- /hint --- --- hint --- Dyma sut ddylai dy gôd edrych:
+--- /hint ---
+
+--- hint ---
+
+Dyma sut ddylai dy gôd edrych:
 
 ![chwaraewr](images/player.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-    os <bysell (saeth i fyny v) wedi ei phwyso? > yna 
-        pwyntio i gyfeiriad (0)
-        symud (4) cam
-    end
-    os <bysell (saeth chwith v) wedi ei phwyso? > yna 
-        pwyntio i gyfeiriad (-90)
-        symud (4) cam
-    end
-+    os <bysell (saeth i lawr v) wedi ei phwyso? > yna 
-        pwyntio i gyfeiriad (180)
-        symud (4) cam
-    end
-+    os <bysell [saeth de v] wedi ei phwyso? > yna 
-        pwyntio i gyfeiriad (90)
-        symud (4) cam
+when flag clicked
+forever
+	if <key (saeth i fyny v) pressed? > then
+		point in direction (0)
+		move (4) steps
+	end
+	if <key (saeth chwith v) pressed? > then
+		point in direction (-90)
+		move (4) steps
+	end
++    if <key (saeth i lawr v) pressed? > then
+		point in direction (180)
+		move (4) steps
+	end
++    if <key (saeth de v) pressed? > then
+		point in direction (90)
+		move (4) steps
     end
 end
 ```
 
---- /hint --- --- /hints ---
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
