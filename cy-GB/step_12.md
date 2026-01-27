@@ -19,9 +19,8 @@ Alli di nawr barhau i greu dy fyd dy hunan! Dyma rai syniadau:
 ![sgrinlun](images/north-south-rooms.png) ![sgrinlun](images/number-grid.png)
 
 ```blocks3
-os <cyffwrdd lliw [ ] ?> yna 
-  newid cefndir i ((gwisg [rhif v]) + (3))
-  mynd i x: (0) y: (200)
-  newid [ystafell v] gan (3)
-end
+if <touching color [ ]?> then
+switch backdrop to ((costume [rhif v]) + (3))
+go to x:(0) y:(200)
+change [ystafell v] by (3)
 ```

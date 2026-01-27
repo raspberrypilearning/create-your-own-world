@@ -2,23 +2,33 @@
 
 Fe ddylai dy `chwaraewr` allu casglu darnau arian wrth iddo symud trwy'r byd.
 
---- task --- Ychwanega newidyn newydd o’r enw `arian`{:class="block3variables"} i dy brosiect. --- /task ---
+--- task ---
 
---- task --- Dewisa'r `arian` a chlicio **dangos**.
+Ychwanega newidyn newydd o’r enw `arian`{:class="block3variables"} i dy brosiect.
 
-![sgrinlun](images/coin.png) --- /task ---
+--- /task ---
 
---- task --- Ychwanega gôd i dy `arian` fel ei fod ond yn ymddangos yn ystafell 1. ![sgrinlun](images/coin.png)
+--- task ---
+
+Dewisa'r `arian` a chlicio **dangos**.
+
+![sgrinlun](images/coin.png)
+
+--- /task ---
+
+--- task ---
+
+Ychwanega gôd i dy `arian` fel ei fod ond yn ymddangos yn ystafell 1.
+
+![sgrinlun](images/coin.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <(ystafell :: variables) = [1]> yna 
-    dangos
-  fel arall 
-    cuddio
-  end
-end
+when flag clicked
+forever
+if <(ystafell :: variables)=[1]> then
+show
+else
+hide
 ```
 
 --- /task ---
@@ -30,11 +40,11 @@ Ychwanega gôd i dy `arian` fel fod y corlun yn `cuddio`{:class="block3looks"} a
 ![darn arian](images/coin.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-aros hyd at <cyffwrdd (chwaraewr v) ?>
-newid [arian v] gan (1)
-cuddio
-aros [sgriptiau eraill yn y ciplun v]
+when flag clicked
+wait until <touching (chwaraewr v)?>
+change [arian v] by (1)
+hide
+stop [sgriptiau eraill yn y ciplun v]
 ```
 
 Mae angen y côd `stopiwch sgriptiau eraill yn y ciplun`{:class="block3control"} fel bod y darn `arian` yn stopio ymddangos yn ystafell 1 unwaith mae’n cael ei gasglu.
@@ -42,15 +52,20 @@ Mae angen y côd `stopiwch sgriptiau eraill yn y ciplun`{:class="block3control"}
 --- /task ---
 
 --- task ---
+
 Ychwanega gôd i dy Lwyfan i osod y newidyn `arian`{:class="block3variables"} i `0`{:class="block3variables"} ar ddechrau dy gêm.
 
 ![llwyfan](images/stage.png)
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-gosod [arian v] i [0]
+when flag clicked
+set [arian v] to [0]
 ```
 
 --- /task ---
 
---- task --- Profa dy gêm. Dylai casglu darn arian newid sgôr dy `arian` i `1`{:class="block3variables"}. --- /task ---
+--- task ---
+
+Profa dy gêm. Dylai casglu darn arian newid sgôr dy `arian` i `1`{:class="block3variables"}.
+
+--- /task ---

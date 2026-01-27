@@ -7,32 +7,26 @@ Os hoffet ti, mae modd ychwanegu gelynion i dy gêm. Pan mae'r `chwaraewr` yn cy
 + Ychwanega gôd i symud y `gelyn` i ddiwedd y gêm os yw'r `gelyn` yn cyffwrdd y `chwaraewr`. Mae'n haws gwneud hyn mewn blociau côd ar wahân. Dyma sut bydd côd y `gelyn` yn edrych o bosib:
 
 ```blocks3
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <(ystafell :: variables) = [2]> yna 
-    dangos
-  fel arall 
-    cuddio
-  end
-end
+when flag clicked
+forever
+if <(ystafell :: variables)=[2]> then
+show
+else
+hide
 
-pan fo'r flag werdd yn cael ei glicio
-am byth 
-  os <cyffwrdd (chwaraewr v) ?> yna 
-    aros [y cyfan v]
-  end
-end
+when flag clicked
+forever
+if <touching (chwaraewr v)?> then
+stop [y cyfan v]
 
-pan fo'r flag werdd yn cael ei glicio
-mynd i x: (170) y: (0)
-am byth 
-  ailadrodd (130) 
-    newid x gan (-1)
-  end
-  ailadrodd (130) 
-    newid x gan (1)
-  end
+when flag clicked
+go to x: (170) y:(0)
+forever
+repeat (130)
+change x by (-1)
 end
+repeat (130)
+change x by (1)
 ```
 
 + Profa dy gôd i sicrhau fod: 
