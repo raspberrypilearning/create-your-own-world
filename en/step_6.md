@@ -11,40 +11,6 @@ Your project includes a `welcome sign` sprite:
 The `welcome sign` sprite should only be visible in room 1, so add some code to the sprite to make sure that this happens:
 
 --- hints ---
-
---- hint ---
-
-`When the flag is clicked`{:class="block3events"}, in a `forever`{:class="block3control"} loop, check `if`{:class="block3control"} the `room is 1`{:class="block3variables"} and in that case `show`{:class="block3looks"} `welcome sign` sprite, `else`{:class="block3control"} `hide`{:class="block3looks"} the sprite.
-
---- /hint --- 
-
---- hint ---
-
-Here are the blocks you need:
-
-![sign](images/sign.png)
-
-```blocks3
-
-if < > then
-else
-end
-
-< (room :: variables) = [1] >
-
-hide
-
-show
-
-forever
-end
-
-when flag clicked
-
-```
-
---- /hint --- 
-
 --- hint ---
 
 Here is the complete code:
@@ -62,9 +28,9 @@ forever
 end
 ```
 
---- /hint --- 
-
+--- /hint ---
 --- /hints ---
+
 
 --- /task ---
 

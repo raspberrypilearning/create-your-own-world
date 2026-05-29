@@ -72,31 +72,6 @@ end
 Add more code to your `player` sprite so it can move down and to the right as well. Use the code you already have to help you.
 
 --- hints ---
-
---- hint ---
-
-To move up, you point the `player` sprite in the direction `0` degrees. What do you have to do to move the sprite down?
-
-To move left, you point the sprite in the direction `-90` degrees. What do you have to do to move the sprite right?
-
---- /hint ---
-
---- hint ---
-
-You need to change these two blocks:
-
-![player](images/player.png)
-
-```blocks3
-<key ( v) pressed>
-
-point in direction ()
-```
-
-Duplicate the code that makes the `player` sprite move upwards, and change these two blocks to make the sprite move down. Duplicate the code again, and change it to make the sprite move to the right.
-
---- /hint ---
-
 --- hint ---
 
 Here is how your code should look:
@@ -126,7 +101,7 @@ end
 ```
 
 --- /hint ---
-
 --- /hints ---
+
 
 --- /task ---
