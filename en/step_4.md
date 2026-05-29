@@ -60,34 +60,7 @@ Every time the game starts, the room, character position, and backdrop need to b
 
 Add code to the **start** of your `player` sprite code above the `forever`{:class="block3control"} loop, to reset everything when the flag is clicked:
 
---- hints --- 
-
---- hint ---
-
-When the game starts:
-
-+ The value of `room`{:class="block3variables"} should be set to `1`{:class="block3variables"}
-+ The `backdrop`{:class="block3looks"} should be set to `room1`{:class="block3looks"}
-+ The position of the `player` sprite should be set to `x: -200 y: 0`{:class="block3motion"}
-
---- /hint ---
-
---- hint ---
-
-Here are the extra blocks you need:
-
-![player](images/player.png)
-
-```blocks3
-go to x: (-200) y: (0)
-
-set [room v] to (1)
-
-switch backdrop to (room1 v)
-```
-
---- /hint --- 
-
+--- hints ---
 --- hint ---
 
 Here's what your finished script should look like:
@@ -127,9 +100,9 @@ end
 end
 ```
 
---- /hint --- 
-
+--- /hint ---
 --- /hints ---
+
 
 --- /task ---
 
